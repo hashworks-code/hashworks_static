@@ -1,0 +1,98 @@
+.expertise {
+    &__banner {
+          height: 345px;
+          background-image: url(../assets/images/expertise_banner.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          &--text {
+              padding: 0px 14px 40px  18px;
+              h1 {
+                font-family: 'latoLight'; 
+                font-size: 36px;
+                font-weight: 300;
+                text-align: center;
+                color: #ffffff;
+                margin: 0;
+                
+              }
+          }
+    }
+    &__bannerImage {
+        width:320px;
+        margin: 0 auto;
+    }
+    &__heading {
+        background-color: #f2f2f2;
+      
+    }
+    &__headingContainer {
+         width:320px;
+        margin: auto;
+        &--title {
+            
+            h1 {
+                font-family: 'latoRegular';
+                margin: 0;
+                padding: 22px 30px;
+                font-size: 28px;
+                font-weight: 400;
+                line-height: 1.32;
+                text-align: left;
+                color: #2faaba;
+                width:270px;
+            }
+         }
+    }
+}
+// Media Query for Table begins here //
+@media only screen and (min-width:768px) {
+    .expertise {
+        &__banner {
+            &--text {
+                padding: 0px 41px 76px  52px;
+                h1 {
+                  font-family: 'latoLight';
+                  font-size: 64px;
+                }
+            }
+        }
+        &__bannerImage {
+            width:720px;
+            margin: 0 auto;
+        }
+    }
+}
+// Media Query for Table Ends here //
+
+// Media Query for Desktop begins here //
+@media only screen and (min-width:1024px) {
+    .expertise {
+        &__banner {
+            &--text {
+                padding: 0px 97px 76px  157px;
+            }
+        }
+        &__bannerImage {
+            width:960px;
+            margin: 0 auto;
+        }
+    }
+}
+// Media Query for Desktop Ends here //
+
+
+// Media Query for Large Screen begins here //
+@media only screen and (min-width:1366px) {
+     .expertise {
+        &__banner {
+            &--text {
+                padding: 0px 335px 65px  335px;
+            }
+        }
+        &__bannerImage {
+            width:1366px;
+            margin: 0 auto;
+        }
+    }
+}
+// Media Query for Large Screen ends here //
