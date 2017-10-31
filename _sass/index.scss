@@ -1,0 +1,141 @@
+@media screen and (min-width:320px){ 
+.groome__homepage{
+    margin-top: 71px;
+    .row{
+        width: 286px;
+        margin: 0px auto;
+
+    padding: 30px 0px 25px;
+    }
+    .homepage__hire{
+        &__text{
+            padding: 0px;
+            h1{
+                font-family: 'latoLight';
+                color:#f79a3d;
+                font-size: 28px;
+                font-weight: 300;
+                line-height: 1.36;
+                text-align: center;
+                margin: 0px;
+            }
+            p{
+                font-family: 'latoLight';
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 1.39;
+                text-align: center;
+                color: #01363c;
+                margin: 12px;
+            }
+        }
+        &__image{
+            text-align: center;
+            img{
+                width: 209px;
+                height: 393px;
+            }
+        }
+    }
+    .homepage__analytics{
+        background-color: #f2f2f2;
+        &__talent{
+            padding: 0px;
+        }
+        &__da{
+            padding: 0px;
+        }
+        h1{
+            font-size: 32px;
+            text-align: left;
+            color: #2faaba;
+            margin: 0px;
+            font-weight: 400;
+        }
+        p{
+            font-size: 16px;
+            line-height: 1.44;
+            text-align: left;
+            color: #4a4a4a;
+            margin: 16px 0px 0px;
+            font-weight: 400;
+        }
+        &__plus{
+            h1{
+                text-align: center;
+                margin: 15px 0px;
+            }
+        }
+        &__equal{
+            display: none;
+        }
+    }
+    .homepage__senario{
+        &__image{
+            width: 100%;
+            height: 345px;
+            background-image: url("../assets/images/homepage/group-22.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        &__text{
+            padding:54px 0px 0px;
+            .row{
+                padding: 0px;
+                div{
+                    padding: 0px;
+                }
+            }
+            h1{
+                font-size: 24px;
+                text-align: left;
+                color: #2faaba;
+                font-weight: 400;
+                margin: 0px;
+            }
+            h2{
+                font-size: 16px;
+                font-family: 'latoBold';
+                font-weight: bold;
+                text-align: left;
+                color: #4a4a4a;
+                margin: 16px 0px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 1.5;
+                text-align: left;
+                color: #95989a;
+                font-weight: 400;
+                margin: 0px;
+            }
+        }
+    }
+    .homepage__offering{
+        &__image{
+            width: 100%;
+            height: 345px;
+            background-image: url("../assets/images/homepage/group-22.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        &__text{
+            h2{
+                font-size: 16px;
+                text-align: left;
+                color: #4a4a4a;
+                font-weight: 400;
+            }
+            h1{
+                font-size: 36px;
+                font-weight: 500;
+                text-align: left;
+                color: #4a4a4a;
+            }
+        }
+    }
+}
+}
+
