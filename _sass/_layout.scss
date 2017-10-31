@@ -1,10 +1,4 @@
 
-
-.hero {
-  background: $primary-color;
-  font-family: 'latoRegular';
-}
-
 .groome {
   h1 {
  color: red; 
@@ -12,5 +6,19 @@
  
 }
 body{
-  background: url("../_assets/images/NewDoc2_5.jpg");
+  margin: 0px;
+  font-family: 'latoRegular';
+  a{
+    text-decoration: none;
+  }
+  header{
+    padding: 16px 16px 16px 13px;
+    border-bottom: 1px solid #f2f2f2;
+    .groome-home{
+      color:$primary-color;
+      margin: 0px;
+      font-family: 'latoBold';
+      font-size: 32px;
+    }
+  }
 }
