@@ -1,10 +1,4 @@
 
-.groome {
-  h1 {
- color: red; 
-  }
- 
-}
 body{
   margin: 0px;
   font-family: 'latoRegular';
@@ -14,11 +8,30 @@ body{
   header{
     padding: 16px 16px 16px 13px;
     border-bottom: 1px solid #f2f2f2;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
     .groome-home{
       color:$primary-color;
       margin: 0px;
       font-family: 'latoBold';
       font-size: 32px;
     }
+    .groome-expertise {
+      padding-right: 5px;
+      border-right: 1px solid #95989a;
+      font-size: 16px;
+      color: #4a4a4a;
+    }
+    .groome-product {
+      margin-left: 5px;
+      font-size: 16px;
+      color: #4a4a4a;
+    }  
   }
 }
