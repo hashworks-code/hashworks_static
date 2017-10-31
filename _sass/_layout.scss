@@ -35,4 +35,44 @@ body{
       color: #4a4a4a;
     }  
   }
+  footer{
+    padding: 22px 0px 38px;
+    .row{
+      width: 286px;
+      margin: 0px auto;
+      .footer__image{
+        width: 100%;
+        height: 260px;
+        background-image: url("../assets/images/group-4.svg");
+        background-repeat: no-repeat;
+        background-size: 33em;
+        background-position: 10px 0px;
+      }
+      h1{
+        font-size: 32px;
+        text-align: left;
+        color: #4a4a4a;
+        margin: 16px 0px;
+        font-weight: 400;
+      }
+      h2{
+        font-size: 18px;
+        text-align: left;
+        color: #4a4a4a;
+        font-weight: 400;
+        margin: 0px;
+      }
+      p{
+        font-size: 18px;
+        font-family: 'latoBold';
+        font-weight: 600;
+        color: #4a4a4a;
+        margin: 16px 0px 0px;
+        a{
+          color: #eb6751;
+        }
+        
+      }
+    }
+  }
 }
