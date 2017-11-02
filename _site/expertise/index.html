@@ -1,4 +1,26 @@
-{% include head.html %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Groome - HR Solution made simples</title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/flexboxgrid.min.css">
+    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="alternate" type="application/rss+xml" title="Groome - HR Solution made simples" href="/feed.xml">
+</head>
+<body>
+        <header>
+            <a class="groome-home" href="/index">Groome</a>
+            <div>
+                <a class="groome-expertise" href="/expertise">Expertise</a>
+                <a class="groome-product" href="/product">Product</a>
+            </div>
+        </header>
         <section class="expertise">
             <section class="expertise__banner">
               <div class="row bottom-xs">
@@ -48,7 +70,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 expertise__detailsContainer--reverseOrder first-xs">
                         <div class="expertise__detailsContainer--right fullHeight">
                         <div class="row middle-xs fullHeight">
-                            <img src="/groome_static/assets/images/exp2.svg"/>
+                            <img src="../assets/images/exp2.svg"/>
                         </div>
                         </div>
                     </div>    
@@ -75,7 +97,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                         <div class="expertise__detailsContainer--right fullHeight">
                         <div class="row middle-xs fullHeight">
-                            <img src="/groome_static/assets/images/exp1.svg"/>
+                            <img src="../assets/images/exp1.svg"/>
                         </div>
                         </div>
                     </div>    
@@ -105,7 +127,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 expertise__detailsContainer--reverseOrder first-xs">
                         <div class="expertise__detailsContainer--right fullHeight">
                         <div class="row middle-xs fullHeight">
-                            <img src="/groome_static/assets/images/exp3.svg"/>
+                            <img src="../assets/images/exp3.svg"/>
                         </div>
                         </div>
                     </div>    
@@ -136,7 +158,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                         <div class="expertise__detailsContainer--right fullHeight">
                         <div class="row middle-xs fullHeight">
-                            <img src="/groome_static/assets/images/exp4.svg"/>
+                            <img src="../assets/images/exp4.svg"/>
                         </div>
                         </div>
                     </div>    
@@ -160,4 +182,16 @@
                 </section>
             </section>    
         </section>
-        {% include footer.html %} 
+        <footer>
+    <div class="row">
+        <div class="footer__image col-xs-12 col-sm-12  last-md col-md-7"></div>
+        <div class="col-xs-12 col-sm-12  col-md-5">
+            <h1>Groome</h1>
+            <h2>Expertise  |  Product  |  Contact</h2>
+            <p>Product of <a href="https://www.hashworks.co/"> hashwork.co</a></p>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html> 
