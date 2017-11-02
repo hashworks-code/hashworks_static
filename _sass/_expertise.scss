@@ -310,9 +310,9 @@
             }
         }
         &__detailsContainer {
-            width:100%;
+            width: 980px;
             margin: 0 auto;
-            padding: 100px 50px;
+            padding: 100px 15px;
             &--heading {
                 padding-bottom: 32px;
             }
@@ -344,11 +344,11 @@
             &--reverseOrder {
                 border-left: 1px solid #fff;
             }
-            &--actionContent {
-                h1 {
-                    width:65%;
-                }
-            }
+            // &--actionContent {
+            //     h1 {
+            //         width:65%;
+            //     }
+            // }
         }
     }
 }
@@ -356,7 +356,7 @@
 
 
 // Media Query for Large Screen begins here //
-@media only screen and (min-width:1366px) {
+@media only screen and (min-width:1367px) {
      .expertise {
         &__banner {
             &--text {
@@ -426,7 +426,7 @@
             padding: 130px 75px;
         }
         &__actionContainer {
-            width:1366px;
+            width:1200px;
             margin: 0 auto;
             &--reverseOrder {
                 
@@ -435,18 +435,18 @@
                 border-bottom: none;
                 margin-top: 2rem;
                 padding-left: 4rem;
-                h1 {
-                    width:60%;
-                }
+                // h1 {
+                //     width:60%;
+                // }
             }
             &--reverseOrder {
                 border-left: 1px solid #fff;
             }
-            &--actionContent {
-                h1 {
-                    width:45%;
-                }
-            }
+            // &--actionContent {
+            //     h1 {
+            //         width:45%;
+            //     }
+            // }
 
         }
     }
