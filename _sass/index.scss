@@ -3,8 +3,7 @@
     .row{
         width: 286px;
         margin: 0px auto;
-
-    padding: 30px 0px 25px;
+        padding: 30px 0px 25px;
     }
     button{
         font-size: 16px;
@@ -36,7 +35,7 @@
                 line-height: 1.39;
                 text-align: center;
                 color: #01363c;
-                margin: 12px;
+                margin: 12px 0px 48px;
             }
         }
         &__image{
@@ -123,7 +122,7 @@
         }
     }
     .homepage__offering{
-        width: 100%;
+        width: 100% !important;
         background-color: #d7d7d7;
         &__image{
             width: 100%;
@@ -209,14 +208,262 @@
             text-align: left;
             color: #ffffff;
             margin: 0 0 50px;
+            width: 100%;
         }
         &__image{
             padding-bottom: 22px;
+            &--1{
+                width: 124px;
+                height: 16px;
+            }
+            &--2{
+                width: 115px;
+                height: 37px;
+            }
+            &--3{
+                width: 90px;
+                height: 18px;
+            }
+            &--4{
+                width: 108px;
+                height: 39px;
+            }
         }
-        img{
-            width: 90%;
-        }
+        
     }
 }
 }
-
+@media screen and (min-width:768px){ 
+    .groome__homepage{
+        .row{
+            width: 710px;
+        }
+        .homepage__hire{
+            &__text{
+                h1{
+                    font-size: 36px;
+                    width: 447px;
+                    margin: 0 auto;
+                }
+                p{
+                    font-size: 24px;
+                    width: 447px;
+                    margin: 16px auto 28px;
+                }
+            }
+            &__image{
+                img{
+                    width: 414px;
+                    height: 781px;
+                }
+            }
+        }
+        .homepage__analytics{
+            p{
+                margin: 30px 0px 0px;
+            }
+            &__plus{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    text-align: center;
+                    margin: 15px 0px;
+                }
+            }
+        }
+        .homepage__senario{
+            &__image{
+                height: 573px;
+            }
+            &__text{
+                padding:30px 0px 0px;
+                .row{
+                    div{
+                        &:nth-child(odd){
+                            padding-right: 20px;
+                        }
+                    }
+                }
+                h1{
+                    font-size: 32px;
+                }
+                h2{
+                    margin: 25px 0px 16px;
+                }
+            }
+        }
+        .homepage__offering{
+            &__image{
+                width: 100%;
+                height: 345px;
+                background-image: url("../assets/images/homepage/group-22.svg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+            &__text{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                &__inner{
+                    width: 342px;
+                    margin: 0px;
+                    h2{
+                        margin: 0px 0px 8px;
+                    }
+                    h1{
+                        font-size: 48px;
+                    }
+                }    
+            }
+        }
+        .homepage__product{
+            &__image{
+                background-position: right;
+            }
+            &__text{
+                padding-left: 50px;
+                h2{
+                    margin: 11px 0px 8px;
+                }
+                h1{
+                    font-size: 48px;
+                }
+            }
+        }
+        .homepage__companies{
+            h1{
+                margin: 0 0 16px;
+            }
+            &__image{
+                text-align: center;
+                &--1{
+                    width: 188px;
+                    height: 24px;
+                }
+                &--2{
+                    width: 198px;
+                    height: 64px;
+                }
+                &--3{
+                    width: 122px;
+                    height: 24px;
+                }
+                &--4{
+                    width: 175px;
+                    height: 64px;
+                }
+            }
+        }
+    }    
+}
+@media screen and (min-width:1025px){ 
+    .groome__homepage{
+        .row{
+            width: 931px;
+        }
+        .homepage__hire{
+            &__text{
+                height: 600px;
+                padding-top: 140px;
+                h1{
+                    font-size: 48px;
+                    text-align: left;
+                }
+                p{
+                    font-size: 32px;
+                    text-align: left;
+                }
+            }
+            &__image{
+                position: relative;
+                img{
+                    width: 414px;
+                    height: 850px;
+                    position: absolute;
+                    left: 40px; 
+                }
+            }
+        }
+        .homepage__analytics{
+            p{
+                margin: 30px 0px 0px;
+            }
+            &__plus{
+                h1{
+                    font-size: 48px;
+                }
+            }
+            &__equal{
+                display: flex;
+                align-items: center;
+                h1{
+                    font-size: 48px;
+                }
+            }
+        }
+        .homepage__senario{
+            &__image{
+                margin:30px 0px 0px;
+            }
+            &__text{
+                .row{
+                    width: 100%;
+                    div{
+                        &:nth-child(even){
+                            padding-right: 20px;
+                        }
+                    }
+                }
+                h1{
+                    font-size: 32px;
+                }
+                h2{
+                    margin: 25px 0px 16px;
+                }
+            }
+        }
+        .homepage__offering{
+            &__image{
+                width: 100%;
+                height: 345px;
+                background-image: url("../assets/images/homepage/group-22.svg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+            &__text{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                &__inner{
+                    width: 342px;
+                    margin: 0px;
+                    h2{
+                        margin: 0px 0px 8px;
+                    }
+                    h1{
+                        font-size: 48px;
+                    }
+                }    
+            }
+        }
+        .homepage__product{
+            &__image{
+                height: 321px;
+            }
+            &__text{
+                p{
+                    width: 350px;
+                }
+            }
+        }
+        .homepage__companies{
+            h1{
+                font-size: 48px;
+                margin: 0 0 22px;
+            }
+        }
+    }    
+}

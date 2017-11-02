@@ -13,6 +13,7 @@ body{
     top: 0px;
     left: 0px;
     right: 0px;
+    z-index: 1;
     display: flex;
     background: white;
     justify-content: space-between;
@@ -72,6 +73,37 @@ body{
           color: #eb6751;
         }
         
+      }
+    }
+  }
+  @media screen and (min-width:768px){ 
+    footer{
+      padding: 48px 0px 73px;
+      .row{
+        width: 710px;
+        .footer__image{
+          background-position: 52px 0px;
+        }
+        h1{
+          margin-top: 58px;
+        }
+        h2{
+          font-size: 24px;
+        }
+        p{
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width:1025px){ 
+    footer{
+      padding: 48px 0px 61px;
+      .row{
+        width: 931px;
+        .footer__image{
+          background-position: 0px 0px;
+        }
       }
     }
   }
