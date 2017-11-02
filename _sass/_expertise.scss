@@ -22,7 +22,7 @@
         width: 100%;
     }
     &__bannerImage {
-        width:320px;
+        width:280px;
         margin: 0 auto;
     }
     &__heading {
@@ -30,7 +30,7 @@
       
     }
     &__headingContainer {
-         width:320px;
+         width:280px;
         margin: auto;
         &--title {
             border-bottom: 1px solid #e0e0e0;
@@ -49,11 +49,14 @@
             }
          }
     }
+    &__grey{
+        background-color: #f2f2f2;
+    }
     &__details {
 
     }
     &__detailsContainer {
-        width:320px;
+        width:280px;
         margin: 0 auto;
         padding: 40px 15px;
         &--heading {
@@ -96,8 +99,9 @@
         &--right {
            
             img {
-                width:423px;
-                height: 482px
+                width: 280px;
+                height: 315px;
+                margin-bottom: 38px;
             }
         }
     }
@@ -106,8 +110,11 @@
         padding: 15px 20px;
     }
     &__actionContainer {
-        width:320px;
+        width:280px;
         margin: 0 auto;
+        .row{
+            width: 100%;
+        }
         &--content {
             border-bottom: 1px solid #fff;
             h1 {
@@ -132,7 +139,7 @@
                 width: 85%;
             }
             button {
-                 width: 281px;
+                 width: 260px;
                  height: 64px;
                  border-radius: 4px;
                  background-color: #f79a3d; 
@@ -165,7 +172,7 @@
             margin: 0 auto;
         }
         &__headingContainer {
-            width:768px;
+            width:680px;
             margin: 0 auto;
             &--title {
                 h1 {
@@ -196,9 +203,9 @@
             }
         }
         &__detailsContainer {
-            width:768px;
+            width:680px;
             margin: 0 auto;
-            padding: 55px 35px;
+            padding: 55px 0px;
             &--right {
                 
             }
@@ -228,11 +235,17 @@
             padding: 35px 50px;
         }
         &__actionContainer {
-            width:768px;
+            width:680px;
             margin: 0 auto;
+            &--actionContent{
+                h1{
+                font-size: 32px;
+                }
+            }
             &--content {
                 h1 {
                     margin: 0px 30px 30px 0px;
+                    font-size: 32px;
                 }
             }
         }
@@ -305,6 +318,13 @@
             }
             &--subDetails {
                  padding-bottom: 32px;
+            }
+            &--right{
+                img{
+                    width: 400px;
+                    height: 460px;
+                    margin-bottom: 0px; 
+                }
             }
         }
          &__action {

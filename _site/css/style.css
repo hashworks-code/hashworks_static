@@ -142,7 +142,7 @@ footer {
       width: 209px;
       height: 393px; }
   .groome__homepage .homepage__analytics {
-    background-color: #f2f2f2; }
+    background-color: #f3f3f3; }
     .groome__homepage .homepage__analytics__talent {
       padding: 0px; }
     .groome__homepage .homepage__analytics__da {
@@ -200,14 +200,14 @@ footer {
       margin: 0px; }
   .groome__homepage .homepage__offering {
     width: 100% !important;
-    background-color: #d7d7d7; }
+    background-color: #f3f3f3; }
     .groome__homepage .homepage__offering__image {
       width: 100%;
-      height: 345px;
-      background-image: url("../assets/images/homepage/group-22.svg");
+      height: 205px;
+      background-image: url("../assets/images/homepage/people.png");
       background-repeat: no-repeat;
       background-size: contain;
-      background-position: center; }
+      background-position: 50% 50%; }
     .groome__homepage .homepage__offering__text__inner {
       width: 286px;
       margin: 0 auto; }
@@ -316,24 +316,24 @@ footer {
       font-size: 32px; }
     .groome__homepage .homepage__senario__text h2 {
       margin: 25px 0px 16px; }
-  .groome__homepage .homepage__offering__image {
-    width: 100%;
-    height: 345px;
-    background-image: url("../assets/images/homepage/group-22.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; }
-  .groome__homepage .homepage__offering__text {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; }
-    .groome__homepage .homepage__offering__text__inner {
-      width: 342px;
-      margin: 0px; }
-      .groome__homepage .homepage__offering__text__inner h2 {
-        margin: 0px 0px 8px; }
-      .groome__homepage .homepage__offering__text__inner h1 {
-        font-size: 48px; }
+  .groome__homepage .homepage__offering {
+    padding-bottom: 0px;
+    height: 400px; }
+    .groome__homepage .homepage__offering__image {
+      height: 250px;
+      background-position: 0px;
+      align-self: flex-end; }
+    .groome__homepage .homepage__offering__text {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .groome__homepage .homepage__offering__text__inner {
+        width: 342px;
+        margin: 0px; }
+        .groome__homepage .homepage__offering__text__inner h2 {
+          margin: 0px 0px 8px; }
+        .groome__homepage .homepage__offering__text__inner h1 {
+          font-size: 48px; }
   .groome__homepage .homepage__product__image {
     background-position: right; }
   .groome__homepage .homepage__product__text {
@@ -397,18 +397,13 @@ footer {
   .groome__homepage .homepage__senario__text h2 {
     margin: 25px 0px 16px; }
   .groome__homepage .homepage__offering__image {
-    width: 100%;
-    height: 345px;
-    background-image: url("../assets/images/homepage/group-22.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; }
+    height: 309px; }
   .groome__homepage .homepage__offering__text {
     display: flex;
     justify-content: flex-end;
     align-items: center; }
     .groome__homepage .homepage__offering__text__inner {
-      width: 342px;
+      width: 450px;
       margin: 0px; }
       .groome__homepage .homepage__offering__text__inner h2 {
         margin: 0px 0px 8px; }
@@ -439,12 +434,12 @@ footer {
   height: 100%;
   width: 100%; }
 .expertise__bannerImage {
-  width: 320px;
+  width: 280px;
   margin: 0 auto; }
 .expertise__heading {
   background-color: #f2f2f2; }
 .expertise__headingContainer {
-  width: 320px;
+  width: 280px;
   margin: auto; }
   .expertise__headingContainer--title {
     border-bottom: 1px solid #e0e0e0; }
@@ -460,8 +455,10 @@ footer {
       width: 225px;
       min-width: 225px;
       max-width: 300px; }
+.expertise__grey {
+  background-color: #f2f2f2; }
 .expertise__detailsContainer {
-  width: 320px;
+  width: 280px;
   margin: 0 auto;
   padding: 40px 15px; }
   .expertise__detailsContainer--heading {
@@ -493,14 +490,17 @@ footer {
       font-weight: 400;
       width: 80%; }
   .expertise__detailsContainer--right img {
-    width: 423px;
-    height: 482px; }
+    width: 280px;
+    height: 315px;
+    margin-bottom: 38px; }
 .expertise__action {
   background-color: #2faaba;
   padding: 15px 20px; }
 .expertise__actionContainer {
-  width: 320px;
+  width: 280px;
   margin: 0 auto; }
+  .expertise__actionContainer .row {
+    width: 100%; }
   .expertise__actionContainer--content {
     border-bottom: 1px solid #fff; }
     .expertise__actionContainer--content h1 {
@@ -521,7 +521,7 @@ footer {
     font-weight: 400;
     width: 85%; }
   .expertise__actionContainer--actionContent button {
-    width: 281px;
+    width: 260px;
     height: 64px;
     border-radius: 4px;
     background-color: #f79a3d;
@@ -545,7 +545,7 @@ footer {
     width: 720px;
     margin: 0 auto; }
   .expertise__headingContainer {
-    width: 768px;
+    width: 680px;
     margin: 0 auto; }
     .expertise__headingContainer--title h1 {
       padding: 22px 0px; }
@@ -562,9 +562,9 @@ footer {
       .expertise__headingContainer--title:nth-child(4) h1 {
         margin-left: 47px; }
   .expertise__detailsContainer {
-    width: 768px;
+    width: 680px;
     margin: 0 auto;
-    padding: 55px 35px; }
+    padding: 55px 0px; }
     .expertise__detailsContainer--reverseOrder.first-xs {
       order: 0; }
     .expertise__detailsContainer--heading {
@@ -579,10 +579,13 @@ footer {
   .expertise__action {
     padding: 35px 50px; }
   .expertise__actionContainer {
-    width: 768px;
+    width: 680px;
     margin: 0 auto; }
+    .expertise__actionContainer--actionContent h1 {
+      font-size: 32px; }
     .expertise__actionContainer--content h1 {
-      margin: 0px 30px 30px 0px; } }
+      margin: 0px 30px 30px 0px;
+      font-size: 32px; } }
 @media only screen and (min-width: 1025px) {
   .expertise__banner--text {
     padding: 0px 97px 76px  157px; }
@@ -627,6 +630,10 @@ footer {
       padding-bottom: 32px; }
     .expertise__detailsContainer--subDetails {
       padding-bottom: 32px; }
+    .expertise__detailsContainer--right img {
+      width: 400px;
+      height: 460px;
+      margin-bottom: 0px; }
   .expertise__action {
     padding: 82px 50px; }
   .expertise__actionContainer {

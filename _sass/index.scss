@@ -47,7 +47,7 @@
         }
     }
     .homepage__analytics{
-        background-color: #f2f2f2;
+        background-color: #f3f3f3;
         &__talent{
             padding: 0px;
         }
@@ -123,14 +123,14 @@
     }
     .homepage__offering{
         width: 100% !important;
-        background-color: #d7d7d7;
+        background-color:#f3f3f3;
         &__image{
             width: 100%;
-            height: 345px;
-            background-image: url("../assets/images/homepage/group-22.svg");
+            height: 205px;
+            background-image: url("../assets/images/homepage/people.png");
             background-repeat: no-repeat;
             background-size: contain;
-            background-position: center;
+            background-position: 50% 50%;
         }
         &__text{
             &__inner{
@@ -294,13 +294,12 @@
             }
         }
         .homepage__offering{
+            padding-bottom: 0px;
+            height: 400px;
             &__image{
-                width: 100%;
-                height: 345px;
-                background-image: url("../assets/images/homepage/group-22.svg");
-                background-repeat: no-repeat;
-                background-size: contain;
-                background-position: center;
+                height: 250px;
+                background-position: 0px;
+                align-self: flex-end;
             }
             &__text{
                 display: flex;
@@ -426,19 +425,14 @@
         }
         .homepage__offering{
             &__image{
-                width: 100%;
-                height: 345px;
-                background-image: url("../assets/images/homepage/group-22.svg");
-                background-repeat: no-repeat;
-                background-size: contain;
-                background-position: center;
+                height: 309px;
             }
             &__text{
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
                 &__inner{
-                    width: 342px;
+                    width: 450px;
                     margin: 0px;
                     h2{
                         margin: 0px 0px 8px;
