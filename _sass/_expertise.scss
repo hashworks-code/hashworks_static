@@ -19,6 +19,7 @@
     }
     &__banner .row {
         height: 100%;
+        width: 100%;
     }
     &__bannerImage {
         width:320px;
@@ -240,7 +241,7 @@
 // Media Query for Table Ends here //
 
 // Media Query for Desktop begins here //
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width:1025px) {
     .expertise {
         &__banner {
             &--text {
@@ -252,8 +253,11 @@
             margin: 0 auto;
         }
         &__headingContainer {
-            width:1024px;
+            width:100%;
             margin: 0 auto;
+            .row{
+                width: 100%;
+            }
             &--title {
                 padding-left: 30px;
             }
@@ -293,7 +297,7 @@
             }
         }
         &__detailsContainer {
-            width:1024px;
+            width:100%;
             margin: 0 auto;
             padding: 100px 50px;
             &--heading {
@@ -307,7 +311,7 @@
             padding: 82px 50px;
         }
         &__actionContainer {
-            width:1024px;
+            width:937px;
             margin: 0 auto;
             &--reverseOrder.first-xs {
                 order: 0;
