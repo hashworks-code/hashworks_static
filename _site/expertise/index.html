@@ -1,4 +1,26 @@
-{% include head.html %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Groome - HR Solution made simples</title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+
+    <link rel="stylesheet" href="/groome_static/css/style.css">
+    <link rel="stylesheet" href="/groome_static/css/flexboxgrid.min.css">
+    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="alternate" type="application/rss+xml" title="Groome - HR Solution made simples" href="/feed.xml">
+</head>
+<body>
+        <header>
+            <a class="groome-home" href="/groome_static/index">Groome</a>
+            <div>
+                <a class="groome-expertise" href="/groome_static/expertise">Expertise</a>
+                <a class="groome-product" href="/groome_static/product">Product</a>
+            </div>
+        </header>
         <section class="expertise">
             <section class="expertise__banner">
               <div class="row bottom-xs">
@@ -160,4 +182,16 @@
                 </section>
             </section>    
         </section>
-        {% include footer.html %} 
+        <footer>
+    <div class="row">
+        <div class="footer__image col-xs-12 col-sm-12  last-md col-md-7"></div>
+        <div class="col-xs-12 col-sm-12  col-md-5">
+            <h1>Groome</h1>
+            <h2>Expertise  |  Product  |  Contact</h2>
+            <p>Product of <a href="https://www.hashworks.co/" target="_blank"> hashwork.co</a></p>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html> 
