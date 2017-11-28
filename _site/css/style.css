@@ -702,3 +702,49 @@ footer {
       padding-left: 4rem; }
     .expertise__actionContainer--reverseOrder {
       border-left: 1px solid #fff; } }
+@media screen and (min-width: 320px) {
+  .groome__product {
+    width: 305px;
+    margin: 0 auto; }
+    .groome__product h1 {
+      padding: 50px 0;
+      font-weight: 400;
+      text-align: center; }
+    .groome__product section {
+      display: block;
+      padding: 20px 0 0;
+      border-top: 1px solid #ddd; }
+    .groome__product input {
+      display: none; }
+    .groome__product label {
+      display: inline-block;
+      margin: 0 0 -1px;
+      padding: 15px 25px;
+      font-weight: 600;
+      text-align: center;
+      color: #bbb;
+      border: 1px solid transparent; }
+    .groome__product label:before {
+      font-family: fontawesome;
+      font-weight: normal;
+      margin-right: 10px; }
+    .groome__product label:hover {
+      color: #888;
+      cursor: pointer; }
+    .groome__product input:checked + label {
+      color: #555;
+      border: 1px solid #ddd;
+      border-top: 2px solid orange;
+      border-bottom: 1px solid #fff; }
+    .groome__product #tab1:checked ~ #content1,
+    .groome__product #tab2:checked ~ #content2,
+    .groome__product #tab3:checked ~ #content3 {
+      display: block; } }
+h1 {
+  padding: 50px 0;
+  font-weight: 400;
+  text-align: center; }
+
+p {
+  margin: 0 0 20px;
+  line-height: 1.5; }
