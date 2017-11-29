@@ -1,57 +1,116 @@
 @media screen and (min-width:320px){ 
     .groome__product{
-        width: 305px;
-        margin: 0 auto;
+        text-align: center;
+        .row{
+          width: 305px;
+          padding: 20px 0px;
+          margin: 0 auto;
+        }
         h1 {
-            padding: 50px 0;
-            font-weight: 400;
+            padding: 33px 0px 24px;
+            font-family: latoLight;
+            width: 288px;
+            font-size: 28px;
+            font-weight: 300;
             text-align: center;
+            color: #2faaba;
+            margin: 0 auto;
+          }
+          h2{
+            font-family: latoRegular;
+            font-size: 24px;
+            font-weight: 500;
+            text-align: left;
+            color: #2faaba;
+            margin: 21px 0px;
+          }
+          h3{
+            font-family: latoBold;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: left;
+            color: #4a4a4a;
+          }
+          p{
+            font-family: Lato;
+            font-size: 12px;
+            line-height: 1.5;
+            text-align: left;
+            color: #95989a;
+            margin: 16px 0px;
           }
         section {
-            display: block;
-            padding: 20px 0 0;
+            display: none;
+            padding: 0px 0 0;
             border-top: 1px solid #ddd;
           }
-          
           input {
             display: none;
           }
-          
           label {
-            display: inline-block;
-            margin: 0 0 -1px;
-            padding: 15px 25px;
-            font-weight: 600;
+            padding: 15px 20px;
+            font-family: latoRegular;
+            font-size: 14px;
             text-align: center;
-            color: #bbb;
-            border: 1px solid transparent;
+            color: #4a4a4a;
+            display: inline-block;
+            margin: 0 -2px 33px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.02);
+            border: solid 1px #e0e0e0;
           }
-          
           label:before {
             font-family: fontawesome;
             font-weight: normal;
             margin-right: 10px;
           }
-          
-          
           label:hover {
             color: #888;
             cursor: pointer;
           }
-          
           input:checked + label {
-            color: #555;
-            border: 1px solid #ddd;
-            border-top: 2px solid orange;
-            border-bottom: 1px solid #fff;
+            color: #f2f2f2;
+            border-radius: 6px;
+            background-color: #f79a3d;
+            padding: 18px 21px;
+            margin: 0 -4px;
+            position: relative;
+            border: none;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
           }
-          
-          #tab1:checked ~ #content1,
-          #tab2:checked ~ #content2,
-          #tab3:checked ~ #content3{
+          #tab1:checked ~ #sales,
+          #tab2:checked ~ #operation,
+          #tab3:checked ~ #recruitment{
             display: block;
           }
+          .product__block2{
+            background-color: #f2f2f2;
+          }
     }
+}
+@media screen and (min-width:768px){
+  .groome__product{
+    .row{
+      width: 705px;
+    }
+    h1{
+      font-size: 36px;
+      width: 100%;
+      padding: 30px 0px 40px;
+    }
+    h2{
+      font-size: 32px;
+    }
+    h3{
+      font-size: 20px;
+    }
+    p{
+      font-size: 14px;
+    }
+    label{
+      width: 190px;
+      margin-bottom: 72px;
+    }
+  }
 }
 
 
