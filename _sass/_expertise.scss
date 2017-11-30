@@ -73,7 +73,7 @@
         }
         &--subDetails {
             padding-bottom: 15px;
-            h1 {
+            h2 {
                 margin: 0;
                  font-family: 'latoRegular';
                  font-size: 18px;
@@ -154,6 +154,22 @@
         }
     }
 }
+@media only screen and (min-width:320px) {
+.expertise{
+
+           h1 {
+               font-family: 'latoRegular';
+               font-size: 24px;  
+           }
+           h2{
+               font-size: 18px;
+           }
+           p{
+               font-size: 12px;
+           }
+        }
+
+            }
 // Media Query for Table begins here //
 @media only screen and (min-width:768px) {
     .expertise {
@@ -181,23 +197,27 @@
             }
             &--title:nth-child(1) {
                 h1 {
-                    margin-left: 118px;
+                    font-size: 32px;
+                    margin-left: 100px;
                 }
             }
              &--title:nth-child(3) {
                 h1 {
-                    margin-left: 118px;
+                    font-size: 32px;
+                    margin-left: 100px;
                 }
             }
             &--title:nth-child(2) {
                 border-left:1px solid #e0e0e0;
                 h1 {
+                    font-size: 32px;
                     margin-left: 47px;
                 }
             }
             &--title:nth-child(4) {
                 border-left:1px solid #e0e0e0;
                 h1 {
+                    font-size: 32px;
                     margin-left: 47px;
                 }
             }
@@ -224,10 +244,13 @@
             }
             &--subDetails {
                 h1 {
-                    font-size: 24px;
+                    font-size: 32px;
+                }
+                h2{
+                    font-size: 20px;
                 }
                 p {
-                    font-size: 16px;
+                    font-size: 14px;
                 }
             }
         }
@@ -278,6 +301,7 @@
                  padding-left: 30px;
                  border-bottom: none;
                 h1 {
+                    font-size: 32px;
                     margin-left: 0px;
                 }
             }
@@ -287,6 +311,7 @@
                 border-bottom: none;
                 padding-left: 30px;
                 h1 {
+                    font-size: 32px;
                     margin-left: 0px;
                 }
             }
@@ -296,6 +321,7 @@
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
                 h1 {
+                    font-size: 32px;
                      margin-left: 0px;
                 }
             }
@@ -305,6 +331,7 @@
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
                 h1 {
+                    font-size: 32px;
                     margin-left: 0px;
                 }
             }
@@ -316,8 +343,18 @@
             &--heading {
                 padding-bottom: 32px;
             }
+           
             &--subDetails {
-                 padding-bottom: 32px;
+                padding-bottom: 32px;
+                h1 {
+                    font-size: 32px;
+                }
+                h2{
+                    font-size: 24px;
+                }
+                p {
+                    font-size: 16px;
+                }
             }
             &--right{
                 img{
@@ -377,6 +414,7 @@
                  padding-left: 55px;
                  border-bottom: none;
                 h1 {
+                    font-size: 48px;
                     margin-left: 0px;
                 }
             }
@@ -386,6 +424,7 @@
                 border-bottom: none;
                 padding-left: 55px;
                 h1 {
+                    font-size: 48px;
                     margin-left: 0px;
                 }
             }
@@ -395,6 +434,7 @@
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
                 h1 {
+                    font-size: 48px;
                      margin-left: 0px;
                 }
             }
@@ -404,6 +444,7 @@
                 border-left:1px solid #e0e0e0;
                 border-bottom: none;
                 h1 {
+                    font-size: 48px;
                     margin-left: 0px;
                 }
             }
@@ -420,6 +461,9 @@
             }
             &--subDetails {
                 padding-bottom: 32px;
+            }
+            h1 {
+                font-size: 48px;
             }
         }
          &__action {

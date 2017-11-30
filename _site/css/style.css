@@ -42,8 +42,6 @@ body {
       border-right: 1px solid #95989a;
       font-size: 16px;
       color: #4a4a4a; }
-    body header .groome-expertise:visited {
-      color: red; }
     body header .groome-product {
       margin-left: 5px;
       font-size: 16px;
@@ -474,7 +472,7 @@ footer {
       color: #2faaba; }
   .expertise__detailsContainer--subDetails {
     padding-bottom: 15px; }
-    .expertise__detailsContainer--subDetails h1 {
+    .expertise__detailsContainer--subDetails h2 {
       margin: 0;
       font-family: 'latoRegular';
       font-size: 18px;
@@ -535,6 +533,14 @@ footer {
     text-align: center;
     color: #f2f2f2; }
 
+@media only screen and (min-width: 320px) {
+  .expertise h1 {
+    font-family: 'latoRegular';
+    font-size: 24px; }
+  .expertise h2 {
+    font-size: 18px; }
+  .expertise p {
+    font-size: 12px; } }
 @media only screen and (min-width: 768px) {
   .expertise__banner {
     height: 461px; }
@@ -552,16 +558,20 @@ footer {
     .expertise__headingContainer--title h1 {
       padding: 22px 0px; }
     .expertise__headingContainer--title:nth-child(1) h1 {
-      margin-left: 118px; }
+      font-size: 32px;
+      margin-left: 100px; }
     .expertise__headingContainer--title:nth-child(3) h1 {
-      margin-left: 118px; }
+      font-size: 32px;
+      margin-left: 100px; }
     .expertise__headingContainer--title:nth-child(2) {
       border-left: 1px solid #e0e0e0; }
       .expertise__headingContainer--title:nth-child(2) h1 {
+        font-size: 32px;
         margin-left: 47px; }
     .expertise__headingContainer--title:nth-child(4) {
       border-left: 1px solid #e0e0e0; }
       .expertise__headingContainer--title:nth-child(4) h1 {
+        font-size: 32px;
         margin-left: 47px; }
   .expertise__detailsContainer {
     width: 680px;
@@ -575,9 +585,11 @@ footer {
         width: 100%;
         font-size: 32px; }
     .expertise__detailsContainer--subDetails h1 {
-      font-size: 24px; }
+      font-size: 32px; }
+    .expertise__detailsContainer--subDetails h2 {
+      font-size: 20px; }
     .expertise__detailsContainer--subDetails p {
-      font-size: 16px; }
+      font-size: 14px; }
   .expertise__action {
     padding: 35px 50px; }
   .expertise__actionContainer {
@@ -605,24 +617,28 @@ footer {
       padding-left: 30px;
       border-bottom: none; }
       .expertise__headingContainer--title:nth-child(1) h1 {
+        font-size: 32px;
         margin-left: 0px; }
     .expertise__headingContainer--title:nth-child(2) {
       border-left: 1px solid #e0e0e0;
       border-bottom: none;
       padding-left: 30px; }
       .expertise__headingContainer--title:nth-child(2) h1 {
+        font-size: 32px;
         margin-left: 0px; }
     .expertise__headingContainer--title:nth-child(3) {
       padding-left: 30px;
       border-left: 1px solid #e0e0e0;
       border-bottom: none; }
       .expertise__headingContainer--title:nth-child(3) h1 {
+        font-size: 32px;
         margin-left: 0px; }
     .expertise__headingContainer--title:nth-child(4) {
       padding-left: 30px;
       border-left: 1px solid #e0e0e0;
       border-bottom: none; }
       .expertise__headingContainer--title:nth-child(4) h1 {
+        font-size: 32px;
         margin-left: 0px; }
   .expertise__detailsContainer {
     width: 980px;
@@ -632,6 +648,12 @@ footer {
       padding-bottom: 32px; }
     .expertise__detailsContainer--subDetails {
       padding-bottom: 32px; }
+      .expertise__detailsContainer--subDetails h1 {
+        font-size: 32px; }
+      .expertise__detailsContainer--subDetails h2 {
+        font-size: 24px; }
+      .expertise__detailsContainer--subDetails p {
+        font-size: 16px; }
     .expertise__detailsContainer--right img {
       width: 400px;
       height: 460px;
@@ -664,24 +686,28 @@ footer {
       padding-left: 55px;
       border-bottom: none; }
       .expertise__headingContainer--title:nth-child(1) h1 {
+        font-size: 48px;
         margin-left: 0px; }
     .expertise__headingContainer--title:nth-child(2) {
       border-left: 1px solid #e0e0e0;
       border-bottom: none;
       padding-left: 55px; }
       .expertise__headingContainer--title:nth-child(2) h1 {
+        font-size: 48px;
         margin-left: 0px; }
     .expertise__headingContainer--title:nth-child(3) {
       padding-left: 55px;
       border-left: 1px solid #e0e0e0;
       border-bottom: none; }
       .expertise__headingContainer--title:nth-child(3) h1 {
+        font-size: 48px;
         margin-left: 0px; }
     .expertise__headingContainer--title:nth-child(4) {
       padding-left: 55px;
       border-left: 1px solid #e0e0e0;
       border-bottom: none; }
       .expertise__headingContainer--title:nth-child(4) h1 {
+        font-size: 48px;
         margin-left: 0px; }
   .expertise__detailsContainer {
     width: 1366px;
@@ -693,6 +719,8 @@ footer {
         font-size: 48px; }
     .expertise__detailsContainer--subDetails {
       padding-bottom: 32px; }
+    .expertise__detailsContainer h1 {
+      font-size: 48px; }
   .expertise__action {
     padding: 130px 75px; }
   .expertise__actionContainer {
@@ -825,7 +853,8 @@ footer {
       font-size: 18px;
       text-align: center;
       color: #f2f2f2;
-      margin-bottom: 44px; } }
+      margin-bottom: 44px;
+      margin-right: 10px; } }
 @media screen and (min-width: 768px) {
   .groome__product .row {
     width: 705px; }
@@ -861,36 +890,27 @@ footer {
       text-align: left;
       color: #f2f2f2;
       margin: 0;
-      padding: 15px 0px;
+      padding: 13px 39px 38px 8px;
+      font-weight: 400; }
+    .groome__product .product__block4 h2 {
+      font-family: 'latoLight';
+      font-size: 32px;
+      text-align: left;
+      color: #f2f2f2;
+      margin: 0;
+      padding: 26px 0px 41px 0px;
       font-weight: 400; }
     .groome__product .product__block4 input {
-      display: -webkit-box;
-      margin-bottom: 16px;
-      width: 483px;
-      height: 57px;
-      border-radius: 4px;
-      background-color: #f2f2f2;
-      border: solid 1px #f2f2f2;
-      padding: 15px;
-      font-size: 16px; }
-  .groome__product .expertise__actionContainer--actionContent button {
+      width: 483px; }
+  .groome__product button {
     width: 354px;
     height: 57px;
-    border-radius: 4px;
-    background-color: #f79a3d;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-    border: none;
-    outline: none;
-    font-family: 'latoRegular';
-    font-size: 18px;
-    text-align: center;
-    color: #f2f2f2;
     margin-right: 330px; } }
 @media only screen and (min-width: 1025px) {
   .groome__product .row {
     width: 925px; }
   .groome__product h1 {
-    font-size: 57px;
+    font-size: 48px;
     width: 100%;
     padding: 30px 0px 40px; }
   .groome__product h2 {
@@ -912,39 +932,8 @@ footer {
     .groome__product .product__block2 embed {
       height: 295px;
       margin-top: 70px; }
-  .groome__product .product__block4 {
-    background-color: #2faaba; }
-    .groome__product .product__block4 h1 {
-      font-family: 'latoLight';
-      font-size: 32px;
-      text-align: left;
-      color: #f2f2f2;
-      margin: 0;
-      padding: 15px 0px;
-      font-weight: 400; }
-    .groome__product .product__block4 input {
-      display: -webkit-box;
-      margin-bottom: 16px;
-      width: 410px;
-      height: 57px;
-      border-radius: 4px;
-      background-color: #f2f2f2;
-      border: solid 1px #f2f2f2;
-      padding: 15px;
-      font-size: 16px; }
-  .groome__product .expertise__actionContainer--actionContent button {
-    width: 354px;
-    height: 57px;
-    border-radius: 4px;
-    background-color: #f79a3d;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-    border: none;
-    outline: none;
-    font-family: 'latoRegular';
-    font-size: 18px;
-    text-align: center;
-    color: #f2f2f2;
-    margin-right: 91px; } }
+  .groome__product button {
+    width: 354px; } }
 @media only screen and (min-width: 1367px) {
   .groome__product .row {
     width: 1170px; }
@@ -983,24 +972,8 @@ footer {
       font-weight: 400; }
     .groome__product .product__block4 input {
       display: -webkit-box;
-      margin-bottom: 16px;
-      width: 483px;
-      height: 57px;
-      border-radius: 4px;
-      background-color: #f2f2f2;
-      border: solid 1px #f2f2f2;
-      padding: 15px;
-      font-size: 16px; }
-  .groome__product .expertise__actionContainer--actionContent button {
+      width: 483px; }
+  .groome__product button {
     width: 354px;
     height: 57px;
-    border-radius: 4px;
-    background-color: #f79a3d;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-    border: none;
-    outline: none;
-    font-family: 'latoRegular';
-    font-size: 18px;
-    text-align: center;
-    color: #f2f2f2;
-    margin-right: 215px; } }
+    margin-right: 317px; } }
