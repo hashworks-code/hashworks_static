@@ -21,6 +21,23 @@
                 <a class="groome-product" href="/groome_static/product">Product</a>
             </div>
         </header>
+
+        <script>
+            window.onload = function() {
+                console.log(location.href);
+                if(location.href.indexOf('groome_static/expertise')>-1){
+                    console.log('expertise');
+                    document.getElementsByClassName('groome-expertise')[0].style.color = '#f79a3d'
+                }
+                else if(location.href.indexOf('groome_static/product')>-1){
+                    console.log('products');
+                    document.getElementsByClassName('groome-product')[0].style.color = '#f79a3d'
+                }
+          document.getElementsByClassName('mylink').onclick = function() {
+            this.style.color = 'green';
+          }
+        }
+        </script>
         <section class="expertise">
             <section class="expertise__banner">
               <div class="row bottom-xs">

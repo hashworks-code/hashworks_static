@@ -247,6 +247,7 @@
       width: 190px;
       margin-bottom: 72px;
     }
+  
     .product__block1{
       embed{
         height: 410px;
@@ -297,6 +298,17 @@
     label{
       width: 190px;
       margin-bottom: 72px;
+    }
+    input:checked + label {
+      color: #f2f2f2;
+      border-radius: 6px;
+      background-color: #f79a3d;
+      padding: 20px 34px 40px 20px;
+      height: 39px;
+      margin: 0 -4px;
+      position: relative;
+      border: none;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
     }
     .product__block1{
       embed{
