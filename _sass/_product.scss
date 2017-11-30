@@ -33,7 +33,7 @@
           color: #4a4a4a;
         }
         p{
-          font-family: Lato;
+          font-family: latoRegular;
           font-size: 12px;
           line-height: 1.5;
           text-align: left;
@@ -49,7 +49,9 @@
           display: none;
         }
         label {
-          padding: 15px 20px;
+          width: 104px;
+          height: 39px;
+          padding: 9px;
           font-family: latoRegular;
           font-size: 14px;
           text-align: center;
@@ -72,7 +74,8 @@
           color: #f2f2f2;
           border-radius: 6px;
           background-color: #f79a3d;
-          padding: 18px 21px;
+          padding: 10px 22px;
+          height: 39px;
           margin: 0 -4px;
           position: relative;
           border: none;
@@ -83,50 +86,50 @@
         #tab3:checked ~ #recruitment{
           display: block;
         }
-        .product__block1{
+        .product__block1,.product__block3 {
         embed{
-          height: 200px;
+          height:300px;
         }
-        }
-        .product__block3{
-          embed{
-            height: 200px;
-          }
-          }
-        
+        }   
         .product__block2{
           background-color: #f2f2f2;
           embed{
-            height: 130px;
-           
+            height: 250px;
           }
         }
         .product__block4{
           background-color: #2faaba;
           h1 {
-            font-family: 'latoLight';
+            font-family: 'latoRegular';
             font-size: 24px;
             text-align: left;
             color: #f2f2f2;
             margin: 0;
-            padding:15px 0px;
+             padding:25px 51px 13px 0px;
             font-weight: 400; 
+        }
+        h2{
+          font-family: 'latoRegular';
+          font-size: 20px;
+          text-align: left;
+          color: #f2f2f2;
+          margin: 0;
+           padding:42px 107px 26px 0px;
+          font-weight: 400; 
         }
         input{
           display: -webkit-box;
-         
-          
-          margin-bottom:16px;
+          margin-bottom:13px;
           width: 281px;
-          height: 57px;
           border-radius: 4px;
           background-color: #f2f2f2;
           border: solid 1px #f2f2f2;
-          padding: 15px;
-          font-size: 16px;
+          padding: 20px 50px 15px 26px;
+          font-family: 'latoRegular';
+          font-size: 18px;
         }
         }
-        .expertise__actionContainer--actionContent button {
+         button {
           width: 281px;
           height: 64px;
           border-radius: 4px;
@@ -138,7 +141,7 @@
           font-size: 18px;
           text-align: center;
           color: #f2f2f2;
-         
+          margin-bottom: 44px;
       }
   }
 }
@@ -154,6 +157,7 @@
   }
   h2{
     font-size: 32px;
+    margin: 13px 0px 28px 0px;
   }
   h3{
     font-size: 20px;
@@ -167,7 +171,7 @@
   }
   .product__block1{
     embed{
-      height: 410px;
+      height: 300px;
       // margin-left: 100px;
     }
     }
