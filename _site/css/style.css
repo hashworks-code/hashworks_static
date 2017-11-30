@@ -522,7 +522,7 @@ footer {
     width: 85%; }
   .expertise__actionContainer--actionContent button {
     width: 260px;
-    height: 64px;
+    height: 57px;
     border-radius: 4px;
     background-color: #f79a3d;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
@@ -774,8 +774,46 @@ footer {
     .groome__product #tab2:checked ~ #operation,
     .groome__product #tab3:checked ~ #recruitment {
       display: block; }
+    .groome__product .product__block1 embed {
+      height: 200px; }
+    .groome__product .product__block3 embed {
+      height: 200px; }
     .groome__product .product__block2 {
-      background-color: #f2f2f2; } }
+      background-color: #f2f2f2; }
+      .groome__product .product__block2 embed {
+        height: 130px; }
+    .groome__product .product__block4 {
+      background-color: #2faaba; }
+      .groome__product .product__block4 h1 {
+        font-family: 'latoLight';
+        font-size: 24px;
+        text-align: left;
+        color: #f2f2f2;
+        margin: 0;
+        padding: 15px 0px;
+        font-weight: 400; }
+      .groome__product .product__block4 input {
+        display: -webkit-box;
+        margin-bottom: 16px;
+        width: 281px;
+        height: 57px;
+        border-radius: 4px;
+        background-color: #f2f2f2;
+        border: solid 1px #f2f2f2;
+        padding: 15px;
+        font-size: 16px; }
+    .groome__product .expertise__actionContainer--actionContent button {
+      width: 281px;
+      height: 64px;
+      border-radius: 4px;
+      background-color: #f79a3d;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+      border: none;
+      outline: none;
+      font-family: 'latoRegular';
+      font-size: 18px;
+      text-align: center;
+      color: #f2f2f2; } }
 @media screen and (min-width: 768px) {
   .groome__product .row {
     width: 705px; }
@@ -791,4 +829,165 @@ footer {
     font-size: 14px; }
   .groome__product label {
     width: 190px;
-    margin-bottom: 72px; } }
+    margin-bottom: 72px; }
+  .groome__product .product__block1 embed {
+    height: 410px; }
+  .groome__product .product__block3 embed {
+    height: 345px;
+    margin-top: 150px; }
+  .groome__product .product__block2 {
+    background-color: #f2f2f2; }
+    .groome__product .product__block2 embed {
+      height: 295px;
+      margin-top: 70px; }
+  .groome__product .product__block4 {
+    background-color: #2faaba; }
+    .groome__product .product__block4 h1 {
+      font-family: 'latoLight';
+      font-size: 32px;
+      text-align: left;
+      color: #f2f2f2;
+      margin: 0;
+      padding: 15px 0px;
+      font-weight: 400; }
+    .groome__product .product__block4 input {
+      display: -webkit-box;
+      margin-bottom: 16px;
+      width: 483px;
+      height: 57px;
+      border-radius: 4px;
+      background-color: #f2f2f2;
+      border: solid 1px #f2f2f2;
+      padding: 15px;
+      font-size: 16px; }
+  .groome__product .expertise__actionContainer--actionContent button {
+    width: 354px;
+    height: 57px;
+    border-radius: 4px;
+    background-color: #f79a3d;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    outline: none;
+    font-family: 'latoRegular';
+    font-size: 18px;
+    text-align: center;
+    color: #f2f2f2;
+    margin-right: 330px; } }
+@media only screen and (min-width: 1025px) {
+  .groome__product .row {
+    width: 925px; }
+  .groome__product h1 {
+    font-size: 57px;
+    width: 100%;
+    padding: 30px 0px 40px; }
+  .groome__product h2 {
+    font-size: 32px; }
+  .groome__product h3 {
+    font-size: 24px; }
+  .groome__product p {
+    font-size: 16px; }
+  .groome__product label {
+    width: 190px;
+    margin-bottom: 72px; }
+  .groome__product .product__block1 embed {
+    height: 410px; }
+  .groome__product .product__block3 embed {
+    height: 345px;
+    margin-top: 150px; }
+  .groome__product .product__block2 {
+    background-color: #f2f2f2; }
+    .groome__product .product__block2 embed {
+      height: 295px;
+      margin-top: 70px; }
+  .groome__product .product__block4 {
+    background-color: #2faaba; }
+    .groome__product .product__block4 h1 {
+      font-family: 'latoLight';
+      font-size: 32px;
+      text-align: left;
+      color: #f2f2f2;
+      margin: 0;
+      padding: 15px 0px;
+      font-weight: 400; }
+    .groome__product .product__block4 input {
+      display: -webkit-box;
+      margin-bottom: 16px;
+      width: 410px;
+      height: 57px;
+      border-radius: 4px;
+      background-color: #f2f2f2;
+      border: solid 1px #f2f2f2;
+      padding: 15px;
+      font-size: 16px; }
+  .groome__product .expertise__actionContainer--actionContent button {
+    width: 354px;
+    height: 57px;
+    border-radius: 4px;
+    background-color: #f79a3d;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    outline: none;
+    font-family: 'latoRegular';
+    font-size: 18px;
+    text-align: center;
+    color: #f2f2f2;
+    margin-right: 91px; } }
+@media only screen and (min-width: 1367px) {
+  .groome__product .row {
+    width: 1170px; }
+  .groome__product h1 {
+    font-size: 64px;
+    width: 100%;
+    padding: 30px 0px 40px; }
+  .groome__product h2 {
+    font-size: 48px; }
+  .groome__product h3 {
+    font-size: 24px; }
+  .groome__product p {
+    font-size: 16px; }
+  .groome__product label {
+    width: 190px;
+    margin-bottom: 72px; }
+  .groome__product .product__block1 embed {
+    height: 410px; }
+  .groome__product .product__block3 embed {
+    height: 345px;
+    margin-top: 150px; }
+  .groome__product .product__block2 {
+    background-color: #f2f2f2; }
+    .groome__product .product__block2 embed {
+      height: 295px;
+      margin-top: 70px; }
+  .groome__product .product__block4 {
+    background-color: #2faaba; }
+    .groome__product .product__block4 h1 {
+      font-family: 'latoLight';
+      font-size: 32px;
+      text-align: left;
+      color: #f2f2f2;
+      margin: 0;
+      padding: 15px 0px;
+      font-weight: 400; }
+    .groome__product .product__block4 input {
+      display: -webkit-box;
+      margin-bottom: 16px;
+      width: 483px;
+      height: 57px;
+      border-radius: 4px;
+      background-color: #f2f2f2;
+      border: solid 1px #f2f2f2;
+      padding: 15px;
+      font-size: 16px; }
+  .groome__product .expertise__actionContainer--actionContent button {
+    width: 354px;
+    height: 57px;
+    border-radius: 4px;
+    background-color: #f79a3d;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    outline: none;
+    font-family: 'latoRegular';
+    font-size: 18px;
+    text-align: center;
+    color: #f2f2f2;
+    margin-right: 215px; } }
