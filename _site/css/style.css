@@ -446,7 +446,7 @@ footer {
     .expertise__headingContainer--title h1 {
       font-family: 'latoRegular';
       margin: 0;
-      padding: 22px 30px;
+      padding: 22px 21px;
       font-size: 28px;
       font-weight: 600;
       line-height: 1.32;
@@ -668,7 +668,7 @@ footer {
     .expertise__actionContainer--content {
       border-bottom: none;
       margin-top: 2rem;
-      padding-left: 3rem; }
+      padding-left: 28px; }
     .expertise__actionContainer--reverseOrder {
       border-left: 1px solid #fff; } }
 @media only screen and (min-width: 1367px) {
@@ -729,7 +729,7 @@ footer {
     .expertise__actionContainer--content {
       border-bottom: none;
       margin-top: 2rem;
-      padding-left: 4rem; }
+      padding-left: 64px; }
     .expertise__actionContainer--reverseOrder {
       border-left: 1px solid #fff; } }
 @media screen and (min-width: 320px) {
@@ -914,7 +914,8 @@ footer {
     width: 100%;
     padding: 30px 0px 40px; }
   .groome__product h2 {
-    font-size: 32px; }
+    font-size: 32px;
+    padding: 7px 0px 0px 0px; }
   .groome__product h3 {
     font-size: 24px; }
   .groome__product p {
@@ -932,11 +933,20 @@ footer {
     .groome__product .product__block2 embed {
       height: 295px;
       margin-top: 70px; }
+  .groome__product .product__block4 {
+    background-color: #2faaba; }
+    .groome__product .product__block4 h1 {
+      width: 396px;
+      font-size: 32px;
+      color: #f2f2f2;
+      padding-top: 49px; }
+    .groome__product .product__block4 input {
+      width: 483px; }
   .groome__product button {
     width: 354px; } }
 @media only screen and (min-width: 1367px) {
   .groome__product .row {
-    width: 1170px; }
+    width: 1232px; }
   .groome__product h1 {
     font-size: 64px;
     width: 100%;
@@ -973,13 +983,7 @@ footer {
   .groome__product .product__block4 {
     background-color: #2faaba; }
     .groome__product .product__block4 h1 {
-      font-family: 'latoLight';
-      font-size: 32px;
-      text-align: left;
-      color: #f2f2f2;
-      margin: 0;
-      padding: 15px 0px;
-      font-weight: 400; }
+      width: 513px; }
     .groome__product .product__block4 input {
       display: -webkit-box;
       width: 483px; }
