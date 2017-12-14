@@ -1,12 +1,15 @@
 @font-face {
-  font-family: 'latoBold';
-  src: url("../assets/fonts/Lato-Bold.ttf"); }
+  font-family: 'muliRegular';
+  src: url("../assets/fonts/Muli-Regular.ttf"); }
 @font-face {
-  font-family: 'latoRegular';
-  src: url("../assets/fonts/Lato-Regular.ttf"); }
+  font-family: 'muliBold';
+  src: url("../assets/fonts/Muli-Bold.ttf"); }
 @font-face {
-  font-family: 'latoLight';
-  src: url("../assets/fonts/Lato-Light.ttf"); }
+  font-family: 'muliLight';
+  src: url("../assets/fonts/Muli-Light.ttf"); }
+@font-face {
+  font-family: 'muliSemiBold';
+  src: url("../assets/fonts/Muli-SemiBold.ttf"); }
 .noPadding {
   padding-left: 0px !important;
   padding-right: 0px !important; }
@@ -18,32 +21,293 @@ body {
   margin: 0px;
   font-family: 'latoRegular'; }
   body a {
-    text-decoration: none; }
-  body .hashworks__head {
-    display: flex;
-    height: 60px;
-    background-color: rgba(235, 236, 244, 0.88);
+    text-decoration: none;
+    margin: 0px; }
+  body .productService, body .about {
     position: relative;
-    padding: 0px 10px; }
-    body .hashworks__head--logo {
-      font-size: 22px;
+    display: none;
+    background-color: #ffffff; }
+  body .show {
+    display: block; }
+  body .dropdown {
+    display: none; }
+  @media screen and (min-width: 320px) {
+    body .hashworks__head {
+      position: relative;
+      display: flex;
+      padding: 16px 0px 17px 10px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+      border: solid 1px #f7f7f7; }
+      body .hashworks__head--logo {
+        height: 17px; }
+      body .hashworks__head--list {
+        position: absolute;
+        right: 20px; }
+      body .hashworks__head--home, body .hashworks__head--product, body .hashworks__head--case, body .hashworks__head--blog, body .hashworks__head--about, body .hashworks__head--contact {
+        display: none; }
+      body .hashworks__head--toggle {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        bottom: 20px; } }
+  @media screen and (min-width: 768px) {
+    body .row {
+      width: 700px;
+      margin: 0 auto;
+      padding: 0px; }
+    body .paketo {
+      margin-left: 30px; }
+    body h2 {
+      font-family: 'muliBold';
+      font-size: 14px;
       font-weight: bold;
-      margin: 0px;
+      padding-bottom: 16px;
+      color: #603c96; }
+    body h3 {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.42;
       text-align: left;
-      color: #2bc9b1;
-      height: 60px;
-      line-height: 60px; }
-    body .hashworks__head--list {
+      color: #3e3e3e;
+      width: 159px;
+      font-weight: 100; }
+    body h4 {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.42;
+      text-align: center;
+      color: #3e3e3e;
+      font-weight: 100; }
+    body p {
+      font-family: 'muliRegular';
+      font-size: 10px;
+      line-height: 1.4;
+      text-align: center;
+      color: #3e3e3e; }
+    body .hashworks__head {
+      display: flex;
+      padding: 17px 0px 15px 34px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+      border: solid 1px #f7f7f7; }
+      body .hashworks__head--logo {
+        height: 23px; }
+      body .hashworks__head--list {
+        position: absolute;
+        right: 20px; }
+      body .hashworks__head--home, body .hashworks__head--product, body .hashworks__head--case, body .hashworks__head--blog, body .hashworks__head--about, body .hashworks__head--contact {
+        font-family: 'muliSemiBold';
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        color: #4a4a4a;
+        padding: 0px 10px;
+        display: -webkit-inline-box;
+        cursor: pointer; }
+      body .hashworks__head--toggle {
+        display: none; }
+    body .popover {
+      display: none; }
+    body .popover.show {
+      display: block;
       position: absolute;
-      right: 10px;
-      padding-top: 14px; }
-    body .hashworks__head--home, body .hashworks__head--product, body .hashworks__head--case, body .hashworks__head--blog, body .hashworks__head--about, body .hashworks__head--contact {
-      padding: 8px 15px;
-      font-family: openSansLight;
-      font-size: 18px;
-      cursor: pointer;
-      font-weight: 600;
-      color: black; }
+      top: 23px;
+      left: 125px;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
+    body .productService {
+      padding: 22px 0px 20px 0px; }
+      body .productService img {
+        width: 70px;
+        height: 22px; }
+      body .productService--productContent {
+        border-right: solid 1px #dadada;
+        height: 141px;
+        margin-right: -20px; }
+      body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
+        max-width: 100px;
+        background-color: #f7f7f7;
+        height: 88px;
+        padding: 19px 9px 9px 9px; }
+      body .productService__service {
+        border-top: solid 1px #dadada;
+        padding-top: 36px; }
+        body .productService__service--serviceContent {
+          width: 159px; }
+        body .productService__service--mobile, body .productService__service--ops, body .productService__service--data, body .productService__service--cloud {
+          padding: 28px 13px; }
+    body .about p {
+      display: inline-block;
+      padding-left: 9px;
+      font-size: 12px;
+      vertical-align: super; }
+    body .about h3 {
+      font-size: 14px; }
+    body .about--algin {
+      width: 451px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 38px; }
+    body .about__Content {
+      border-right: solid 1px #dadada;
+      height: 141px;
+      padding-right: 40px; }
+    body .about__thinking {
+      padding: 7px 9px 8px 8px;
+      width: 121px;
+      height: 36px;
+      background-color: #f7f7f7; }
+      body .about__thinking--img {
+        width: 19px;
+        height: 22px;
+        display: inline-block; }
+    body .about__culture {
+      width: 129px;
+      height: 36px;
+      background-color: #f7f7f7;
+      padding: 9px; }
+      body .about__culture--img {
+        width: 25px;
+        height: 16px;
+        display: inline-block; }
+    body .about__job {
+      padding: 9px;
+      width: 118px;
+      height: 36px;
+      background-color: #f7f7f7; }
+      body .about__job--img {
+        width: 17px;
+        height: 20px;
+        display: inline-block; } }
+  @media screen and (min-width: 1025px) {
+    body .row {
+      width: 940px;
+      margin: 0 auto;
+      padding: 0px; }
+    body .paketo {
+      margin-left: 65px; }
+    body .hashworks__head {
+      padding: 25px 0px 23px 43px; }
+      body .hashworks__head--logo {
+        height: 31px; }
+      body .hashworks__head--list {
+        right: 17px; }
+      body .hashworks__head--home, body .hashworks__head--product, body .hashworks__head--case, body .hashworks__head--blog, body .hashworks__head--about, body .hashworks__head--contact {
+        font-size: 16px;
+        padding: 0px 24px;
+        display: -webkit-inline-box;
+        cursor: pointer; }
+    body--toggle {
+      display: none; }
+    body .popover {
+      display: none; }
+    body .popover.show {
+      display: block;
+      position: absolute;
+      top: 32px;
+      left: 182px;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
+    body .productService {
+      padding: 38px 0px; }
+      body .productService h2 {
+        font-size: 16px;
+        padding-bottom: 16px; }
+      body .productService h3 {
+        font-size: 14px;
+        width: 222px; }
+      body .productService h4 {
+        font-size: 14px; }
+      body .productService p {
+        font-size: 12px; }
+      body .productService img {
+        width: 113px;
+        height: 30px; }
+      body .productService--productContent {
+        border-right: solid 1px #dadada;
+        margin-left: -35px;
+        height: 178px; }
+      body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
+        max-width: 140px;
+        background-color: #f7f7f7;
+        height: 122px;
+        padding: 27px 13px 16px 13px;
+        margin-bottom: 38px; }
+      body .productService__service {
+        border-top: solid 1px #dadada;
+        padding-top: 36px; }
+        body .productService__service--serviceContent {
+          width: 159px; }
+        body .productService__service--mobile, body .productService__service--ops, body .productService__service--data, body .productService__service--cloud {
+          padding: 28px 0px; } }
+  @media screen and (min-width: 1367px) {
+    body .row {
+      width: 1170px;
+      margin: 0 auto;
+      padding: 0px; }
+    body .paketo {
+      margin-left: 65px; }
+    body .hashworks__head {
+      padding: 23px 0px 22px 46px; }
+      body .hashworks__head--list {
+        right: 55px; }
+      body .hashworks__head--home, body .hashworks__head--product, body .hashworks__head--case, body .hashworks__head--blog, body .hashworks__head--about, body .hashworks__head--contact {
+        font-size: 18px;
+        padding: 0px 17px;
+        display: -webkit-inline-box;
+        cursor: pointer; }
+    body--toggle {
+      display: none; }
+    body .popover {
+      display: none; }
+    body .popover.show {
+      display: block;
+      position: absolute;
+      top: 32px;
+      left: 182px;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
+    body .productService {
+      padding: 41px 0px; }
+      body .productService h2 {
+        font-size: 16px;
+        padding-bottom: 16px; }
+      body .productService h3 {
+        font-size: 16px;
+        width: 305px; }
+      body .productService h4 {
+        font-size: 16px; }
+      body .productService p {
+        font-size: 14px;
+        padding-top: 20px; }
+      body .productService img {
+        width: 137px;
+        height: 38px; }
+      body .productService--productContent {
+        border-right: solid 1px #dadada;
+        margin-left: -35px;
+        height: 178px; }
+      body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
+        background-color: #f7f7f7;
+        padding: 30px 19px 16px 13px;
+        margin-bottom: 38px;
+        max-width: 170px;
+        height: 146px; }
+      body .productService__service {
+        border-top: solid 1px #dadada;
+        padding-top: 36px; }
+        body .productService__service--serviceContent {
+          width: 159px; }
+        body .productService__service--mobile, body .productService__service--ops, body .productService__service--data, body .productService__service--cloud {
+          padding: 28px 0px; } }
 
 .product {
   color: #3e3e3e;
@@ -455,3 +719,47 @@ body {
     .product__pipeline .slick-next {
       right: 0;
       z-index: 11; } }
+.footer__image {
+  width: 100%;
+  height: 357px;
+  background-image: url(../assets/image/footer.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.footer li {
+  font-family: 'muliSemiBold';
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  color: #f7f7f7;
+  list-style-type: none;
+  padding: 0px 0px 11px 0px; }
+.footer h1 {
+  font-family: 'muliRegular';
+  font-size: 14px;
+  text-align: left;
+  color: #ffffff;
+  margin: 48px 0px 15px 0px; }
+.footer__list {
+  background-color: black;
+  height: 300px; }
+  .footer__list--copyright {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #979797;
+    margin-top: 36px; }
+    .footer__list--copyright h4 {
+      display: inline-block;
+      font-family: 'muliRegular';
+      font-size: 14px;
+      text-align: left;
+      color: #f7f7f7;
+      margin-top: 11px; }
+  .footer__list--social {
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+    margin-top: 11px; }
+    .footer__list--social img {
+      width: 21px;
+      height: 17px;
+      margin-left: 16px; }

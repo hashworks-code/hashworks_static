@@ -4,44 +4,415 @@ body{
   font-family: 'latoRegular';
   a{
     text-decoration: none;
+    margin: 0px;
   }
-  .hashworks__head {
-    display: flex;
-    // align-items: center;
-    height: 60px;
-    background-color: rgba(235, 236, 244, 0.88);
-    position: relative;
-    padding: 0px 10px;
-    &--logo {
-      font-size: 22px;
-      font-weight: bold;
-      margin: 0px;
-      text-align: left;
-      color: rgb(43, 201, 177);
-      height: 60px;
-      line-height: 60px;
-    }
-    &--list {
-      position: absolute;
-      right: 10px;
-      padding-top: 14px;
-    }
-  
-    &--home,&--product,&--case,&--blog,&--about,&--contact{
-      padding: 8px 15px;
-      font-family: openSansLight;
-      font-size: 18px;
-      cursor: pointer;
-      font-weight: 600;
-      color: rgb(0, 0, 0);
+ // dropdown header
 
-     
-    }
- 
-   
-  }
+.productService,.about{
+  position: relative;
+  display: none;
+  background-color: #ffffff;
+}
+.show {display:block;}
 
-  
+//end dropdown code
+
+.dropdown{
+  display: none;
 }
 
+  @media screen and (min-width:320px){
+    .hashworks__head {
+      position: relative;
+      display: flex;
+      padding: 16px 0px 17px 10px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+      border: solid 1px #f7f7f7;
+     &--logo{
+       height: 17px;
+     }
+      &--list {
+        position: absolute;
+        right: 20px;
+      }
+      &--home,&--product,&--case,&--blog,&--about,&--contact{
+      display: none;
+      }
+      &--toggle{
+       position: absolute;
+       right: 10px;
+       top: 20px;
+       bottom: 20px;
+      }
+    }
+  }
+  @media screen and (min-width:768px){ 
+    .row{
+       width: 700px;
+       margin: 0 auto;
+       padding: 0px;
+    }
+    .paketo{
+      margin-left: 30px;
+    }
+    h2{
+      font-family: 'muliBold';
+      font-size: 14px;
+      font-weight: bold;
+      padding-bottom: 16px;
+      color: #603c96;
 
+    }
+    h3{
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.42;
+      text-align: left;
+      color: #3e3e3e;
+      width: 159px;
+      font-weight: 100;
+    }
+    h4{
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.42;
+      text-align: center;
+      color: #3e3e3e;
+      font-weight: 100;
+    }
+    p{
+      font-family: 'muliRegular';
+      font-size: 10px;
+      line-height: 1.4;
+      text-align: center;
+      color: #3e3e3e;
+    }
+ 
+    .hashworks__head {
+      display: flex;
+      padding: 17px 0px 15px 34px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+      border: solid 1px #f7f7f7;
+      &--logo{
+        height: 23px;
+      }
+      &--list {
+        position: absolute;
+        right: 20px;
+      }
+      &--home,&--product,&--case,&--blog,&--about,&--contact{
+        font-family: 'muliSemiBold';
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        color: #4a4a4a;
+        padding: 0px 10px;
+        display: -webkit-inline-box;
+        cursor: pointer;
+      }
+      &--toggle{
+        display: none;
+      }
+    }
+    // product and service
+    .popover{
+      display: none;
+    }
+    .popover.show {
+      display: block;
+      position: absolute;
+      top: 23px;
+      left: 125px;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+    }
+    .productService{
+     padding: 22px 0px 20px 0px;
+
+      img{
+        width: 70px;
+        height: 22px;
+      }
+    
+      &--productContent{
+        border-right: solid 1px #dadada;
+        height: 141px;
+        margin-right: -20px;
+      
+      }
+      &--paketo, &--littlebhrahma, &--groome, &--frugal{
+        max-width: 100px;
+        background-color: #f7f7f7;
+        height: 88px;
+        padding: 19px 9px 9px 9px;
+       
+      }
+    
+    &__service{
+         border-top:  solid 1px #dadada;
+         padding-top: 36px;
+
+      &--serviceContent{
+         width: 159px;
+      }
+      &--mobile, &--ops, &--data, &--cloud,{
+         padding: 28px 13px;
+        
+      }
+    }
+   }
+  // about 
+  .about{
+    p{
+      display: inline-block;
+      padding-left: 9px;
+      font-size: 12px;
+      vertical-align: super;
+     }
+     h3{
+       font-size: 14px;
+     }
+     &--algin{
+      width: 451px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 38px;
+     }
+     &__Content{
+      border-right: solid 1px #dadada;
+      height: 141px;
+      padding-right: 40px;
+     
+     }
+   &__thinking{
+    padding: 7px 9px 8px 8px;
+    width: 121px;
+    height: 36px;
+    background-color: #f7f7f7;
+     &--img{
+       width: 19px;
+       height: 22px;
+       display: inline-block;
+     }
+   
+   }
+   &__culture{
+    width: 129px;
+    height: 36px;
+    background-color: #f7f7f7;
+    padding: 9px;
+    &--img{
+      width: 25px;
+      height: 16px;
+      display: inline-block;
+    }
+  
+  }
+  &__job{
+    padding: 9px;
+    width: 118px;
+    height: 36px;
+    background-color: #f7f7f7;
+    &--img{
+      width: 17px;
+      height: 20px;
+      display: inline-block;
+    }
+  
+  }
+  }
+  
+  }
+  @media screen and (min-width:1025px){ 
+    .row{
+      width: 940px;
+      margin: 0 auto;
+      padding: 0px;
+   }
+   .paketo{
+     margin-left: 65px;
+   }
+    .hashworks__head {
+      padding: 25px 0px 23px 43px;
+      &--logo{
+        height: 31px;
+      }
+      &--list {
+        right: 17px;
+      }
+      &--home,&--product,&--case,&--blog,&--about,&--contact{
+        font-size: 16px;
+        padding: 0px 24px;
+        display: -webkit-inline-box;
+        cursor: pointer;
+      }
+    
+    }
+    &--toggle{
+      display: none;
+    }
+    .popover{
+      display: none;
+    }
+    .popover.show {
+      display: block;
+      position: absolute;
+      top: 32px;
+      left: 182px;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+    }
+    .productService{
+      padding: 38px 0px;
+      h2{
+      
+        font-size: 16px;
+        padding-bottom: 16px;
+      }
+      h3{
+        font-size: 14px;
+        width: 222px;
+      }
+      h4{
+        font-size: 14px;
+      }
+      p{
+        font-size: 12px;
+      }
+   
+      img{
+        width: 113px;
+        height: 30px;
+      }
+    
+      &--productContent{
+        border-right: solid 1px #dadada;
+        margin-left: -35px;
+        height: 178px;
+        
+      }
+      &--paketo, &--littlebhrahma, &--groome, &--frugal{
+        max-width: 140px;
+        background-color: #f7f7f7;
+        height: 122px;
+        padding: 27px 13px 16px 13px;
+        margin-bottom: 38px;
+       
+      }
+    
+    &__service{
+         border-top:  solid 1px #dadada;
+         padding-top: 36px;
+
+      &--serviceContent{
+         width: 159px;
+      }
+      &--mobile, &--ops, &--data, &--cloud,{
+         padding: 28px 0px;
+        
+      }
+    }
+   }
+  }
+  
+  @media screen and (min-width:1367px){ 
+    .row{
+      width:1170px;
+      margin: 0 auto;
+      padding: 0px;
+   }
+   .paketo{
+     margin-left: 65px;
+   }
+    .hashworks__head {
+      padding: 23px 0px 22px 46px;
+     
+      &--list {
+        right: 55px;
+      }
+      &--home,&--product,&--case,&--blog,&--about,&--contact{
+        font-size: 18px;
+        padding: 0px 17px;
+        display: -webkit-inline-box;
+        cursor: pointer;
+      }
+    
+    }
+    &--toggle{
+      display: none;
+    }
+    .popover{
+      display: none;
+    }
+    .popover.show {
+      display: block;
+      position: absolute;
+      top: 32px;
+      left: 182px;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+    }
+    .productService{
+      padding: 41px 0px;
+      h2{
+      
+        font-size: 16px;
+        padding-bottom: 16px;
+      }
+      h3{
+        font-size: 16px;
+        width: 305px;
+      }
+      h4{
+        font-size: 16px;
+      }
+      p{
+        font-size: 14px;
+        padding-top: 20px;
+      }
+   
+      img{
+        width: 137px;
+        height: 38px;
+      }
+    
+      &--productContent{
+        border-right: solid 1px #dadada;
+        margin-left: -35px;
+        height: 178px;
+        
+      }
+      &--paketo, &--littlebhrahma, &--groome, &--frugal{
+        background-color: #f7f7f7;
+        padding: 30px 19px 16px 13px;
+        margin-bottom: 38px;
+        max-width: 170px;
+        height: 146px;
+       
+      }
+    
+    &__service{
+         border-top:  solid 1px #dadada;
+         padding-top: 36px;
+
+      &--serviceContent{
+         width: 159px;
+      }
+      &--mobile, &--ops, &--data, &--cloud,{
+         padding: 28px 0px;
+        
+      }
+    }
+  }
+  }
+
+}
