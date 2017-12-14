@@ -1,0 +1,335 @@
+
+
+
+
+
+
+@media only screen and (min-width: 320px){
+    .service{
+        color: #4a4a4a;
+        &__container{
+            width: 295px;
+            margin: 0 auto;
+        }
+        &__headImg{
+            background-image: url(../assets/image/mobile-and-development.png);
+            background-repeat: no-repeat;
+            height: 145px;
+            width: 100%;
+            background-size: 100% 100%;
+            object-fit: contain;
+        }
+        &__head{
+            font-size: 24px;
+            padding-top: 99px;
+            color: #fff;
+        }
+        &__content{
+            text-align: center;
+            margin: 32px auto;
+            h1{
+                font-size: 16px;
+                font-weight: 600;
+                color: #603c96;
+                padding-bottom: 16px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        &__devops{
+            width: 100%;
+            height: 166px;
+            background-color: #d8d8d8;
+            margin-bottom: 10px;
+            h1{
+                color: #fff;
+                font-size: 24px;
+                padding: 111px 12px 0;
+                font-weight: 100;
+            }
+        }
+        &__cloudImg{
+            background-image: url(../assets/image/rectangle-3-copy-8.png);
+            background-repeat: no-repeat;
+            height: 166px;
+            width: 100%;
+            background-size: 100% 100%;
+            object-fit: contain;
+            margin-bottom: 10px;
+            h1{
+                width: 140px;
+                font-size: 24px;
+                color: #ffffff;
+                font-weight: 100;
+                padding: 83px 12px 0;
+                height: 100%;
+            }
+        }
+        &__uiUx{
+            background-image: url(../assets/image/group-4-copy.png);
+            background-repeat: no-repeat;
+            height: 166px;
+            width: 100%;
+            background-size: 100% 100%;
+            object-fit: contain;
+            margin-bottom: 10px;
+            h1{
+                font-size: 24px;
+                color: #ffffff;
+                font-weight: 100;
+                padding: 111px 12px 0;
+                height: 100%;
+            }
+        }
+        &__dataScience{
+            background-image: url(../assets/image/group-7.png);
+            background-repeat: no-repeat;
+            height: 166px;
+            width: 100%;
+            background-size: 100% 100%;
+            object-fit: contain;
+            margin-bottom: 10px;
+            h1{
+                width: 140px;
+                font-size: 24px;
+                color: #ffffff;
+                font-weight: 100;
+                padding: 83px 12px 0;
+                height: 100%;
+            }
+        }
+        &__mobile{
+            background-image: url(../assets/image/isometric-02.png);
+            background-repeat: no-repeat;
+            height: 166px;
+            width: 100%;
+            background-size: 100% 100%;
+            object-fit: contain;
+            margin-bottom: 20px;
+            h1{
+                font-size: 24px;
+                color: #ffffff;
+                font-weight: 100;
+                padding: 111px 12px 0;
+                height: 100%;
+            }
+        }
+        .col-xs-12.col-sm-8.col-md-8.col-lg-8 {
+            padding: 0;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    .service{
+    
+        &__container{
+            width: 700px;
+        }
+        &__headImg{
+            height: 144px;
+        }
+        &__head{
+            font-size: 36px;
+            padding-top: 69px;
+        }
+        &__content{
+            h1{
+                font-size: 18px;
+            }
+            p{
+                font-size: 16px;
+                width: 468px;
+                margin: 0 auto;
+            }
+        }
+        &__detail &__container {
+            width: 100%;
+        }
+        &__detail {
+            width: 700px;
+            margin: 0 auto !important;
+        }
+        &__cloudImg{
+            width: 96%;
+            height: 239px;
+            h1 {
+                width: 250px;
+                font-size: 36px;
+                padding: 114px 25px 0;
+            }
+        }
+        &__mobile{
+            width: 96%;
+            margin: 0 0 20px 19px;
+            height: 239px;
+            h1 {
+                font-size: 36px;
+                padding: 162px 32px 0;
+            }
+        }
+        &__devops {
+            height: 239px;
+            h1 {
+                font-size: 36px;
+                padding: 158px 35px 0;
+            }
+        }
+        &__uiUx {
+            height: 239px;
+            h1 {
+                font-size: 36px;
+                padding: 162px 32px 0;
+            }
+        }
+        &__dataScience {
+            height: 239px;
+            h1 {
+                width: 250px;
+                font-size: 36px;
+                padding: 114px 25px 0;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .service{
+        &__container{
+            width: 940px;
+        }
+        &__headImg {
+            height: 192px;
+        }
+        &__head {
+            font-size: 48px;
+            padding-top: 101px;
+        }
+        &__content{
+            h1 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 18px;
+                width: 645px;
+            }
+        } 
+        &__detail {
+            width: 940px;
+        }
+        &__cloudImg{
+            width: 96%;
+            height: 322px;
+            margin-bottom: 20px;
+            h1 {
+                width: 280px;
+                font-size: 48px;
+                padding: 141px 27px 0;
+            }
+        }
+        &__mobile{
+            margin: 0 0 20px 25px;
+            height: 322px;
+            margin-bottom: 28px;
+            h1 {
+                font-size: 48px;
+                padding: 214px 27px 0;
+            }
+        }
+        &__devops {
+            height: 322px;
+            margin-bottom: 20px;
+            h1 {
+                padding: 216px 28px 0;
+                font-size: 48px;
+            }
+        }
+        &__uiUx {
+            height: 322px;
+            margin-bottom: 20px;
+            h1 {
+                font-size: 48px;
+                padding: 214px 27px 0;
+            }
+        }
+        &__dataScience {
+            height: 322px;
+            margin-bottom: 28px;
+            h1 {
+                width: 280px;
+                font-size: 48px;
+                padding: 141px 27px 0;
+            }
+        }
+        
+    }
+}
+@media only screen and (min-width: 1367px){
+    .service{
+        &__container{
+            width: 1170px;
+        }
+        &__headImg {
+            height: 270px;
+        }
+        &__head {
+            font-size: 56px;
+            padding-top: 168px;
+        }
+        &__content{
+            h1 {
+                font-size: 32px;
+                padding-bottom: 32px;
+            }
+            p {
+                font-size: 24px;
+                width: 818px;
+            }
+        } 
+        &__detail {
+            width: 1170px;
+        }
+        &__cloudImg{
+            width: 96%;
+            height: 396px;
+            margin-bottom: 20px;
+            h1 {
+                width: 310px;
+                padding: 229px 42px 0;
+            }
+        }
+        &__mobile{
+            margin: 0 0 20px 31px;
+            height: 396px;
+            margin-bottom: 28px;
+            h1 {
+                padding: 289px 30px 0;
+            }
+        }
+        &__devops {
+            height: 396px;
+            margin-bottom: 20px;
+            h1 {
+                padding: 289px 42px 0;
+            }
+        }
+        &__uiUx {
+            height: 396px;
+            margin-bottom: 20px;
+            h1 {
+                padding: 289px 30px 0;
+            }
+        }
+        &__dataScience {
+            height: 396px;
+            margin-bottom: 28px;
+            h1 {
+                width: 310px;
+                padding: 229px 42px 0;
+            }
+        }
+        
+    }
+}
