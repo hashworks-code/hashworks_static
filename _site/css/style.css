@@ -307,7 +307,7 @@ body {
 
 .product {
   color: #3e3e3e;
-  font-family: Muli; }
+  font-family: 'muliRegular'; }
   .product__headImg {
     background-image: url(../assets/image/ferdinand-stohr-230173.png);
     background-repeat: no-repeat;
@@ -328,7 +328,8 @@ body {
   .product__content h1 {
     color: #603c96;
     font-size: 32px;
-    margin: 0 0 32px; }
+    margin: 0 0 32px;
+    font-family: 'muliSemiBold'; }
   .product__content p {
     font-size: 24px;
     line-height: 30px;
@@ -400,10 +401,8 @@ body {
   .product__detail span {
     font-size: 48px;
     color: #603c96;
-    font-family: Muli;
     text-align: center; }
   .product__detail p {
-    font-family: Lato;
     font-size: 24px;
     text-align: left; }
   .product__detail h1 {
@@ -715,6 +714,248 @@ body {
     .product__pipeline .slick-next {
       right: 0;
       z-index: 11; } }
+@media only screen and (min-width: 320px) {
+  .service {
+    font-family: 'muliRegular';
+    color: #4a4a4a; }
+    .service__container {
+      width: 295px;
+      margin: 0 auto; }
+    .service__headImg {
+      background-image: url(../assets/image/mobile-and-development.png);
+      background-repeat: no-repeat;
+      height: 145px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain; }
+    .service__head {
+      font-size: 24px;
+      padding-top: 99px;
+      color: #fff; }
+    .service__content {
+      text-align: center;
+      margin: 32px auto; }
+      .service__content h1 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #603c96;
+        padding-bottom: 16px;
+        font-family: 'muliSemiBold'; }
+      .service__content p {
+        font-size: 14px; }
+    .service__devops {
+      width: 100%;
+      height: 166px;
+      background-color: #d8d8d8;
+      margin-bottom: 10px; }
+      .service__devops h1 {
+        color: #fff;
+        font-size: 24px;
+        padding: 111px 12px 0;
+        font-weight: 100; }
+    .service__cloudImg {
+      background-image: url(../assets/image/rectangle-3-copy-8.png);
+      background-repeat: no-repeat;
+      height: 166px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain;
+      margin-bottom: 10px; }
+      .service__cloudImg h1 {
+        width: 140px;
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: 100;
+        padding: 83px 12px 0;
+        height: 100%; }
+    .service__uiUx {
+      background-image: url(../assets/image/group-4-copy.png);
+      background-repeat: no-repeat;
+      height: 166px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain;
+      margin-bottom: 10px; }
+      .service__uiUx h1 {
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: 100;
+        padding: 111px 12px 0;
+        height: 100%; }
+    .service__dataScience {
+      background-image: url(../assets/image/group-7.png);
+      background-repeat: no-repeat;
+      height: 166px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain;
+      margin-bottom: 10px; }
+      .service__dataScience h1 {
+        width: 140px;
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: 100;
+        padding: 83px 12px 0;
+        height: 100%; }
+    .service__mobile {
+      background-image: url(../assets/image/isometric-02.png);
+      background-repeat: no-repeat;
+      height: 166px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain;
+      margin-bottom: 20px; }
+      .service__mobile h1 {
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: 100;
+        padding: 111px 12px 0;
+        height: 100%; }
+    .service .col-xs-12.col-sm-8.col-md-8.col-lg-8 {
+      padding: 0; } }
+@media only screen and (min-width: 768px) {
+  .service__container {
+    width: 700px; }
+  .service__headImg {
+    height: 144px; }
+  .service__head {
+    font-size: 36px;
+    padding-top: 69px; }
+  .service__content h1 {
+    font-size: 18px; }
+  .service__content p {
+    font-size: 16px;
+    width: 468px;
+    margin: 0 auto; }
+  .service__detail .service__container {
+    width: 100%; }
+  .service__detail {
+    width: 700px;
+    margin: 0 auto !important; }
+  .service__cloudImg {
+    width: 96%;
+    height: 239px; }
+    .service__cloudImg h1 {
+      width: 250px;
+      font-size: 36px;
+      padding: 114px 25px 0; }
+  .service__mobile {
+    width: 96%;
+    margin: 0 0 20px 19px;
+    height: 239px; }
+    .service__mobile h1 {
+      font-size: 36px;
+      padding: 162px 32px 0; }
+  .service__devops {
+    height: 239px; }
+    .service__devops h1 {
+      font-size: 36px;
+      padding: 158px 35px 0; }
+  .service__uiUx {
+    height: 239px; }
+    .service__uiUx h1 {
+      font-size: 36px;
+      padding: 162px 32px 0; }
+  .service__dataScience {
+    height: 239px; }
+    .service__dataScience h1 {
+      width: 250px;
+      font-size: 36px;
+      padding: 114px 25px 0; } }
+@media only screen and (min-width: 1025px) {
+  .service__container {
+    width: 940px; }
+  .service__headImg {
+    height: 192px; }
+  .service__head {
+    font-size: 48px;
+    padding-top: 101px; }
+  .service__content h1 {
+    font-size: 24px; }
+  .service__content p {
+    font-size: 18px;
+    width: 645px; }
+  .service__detail {
+    width: 940px; }
+  .service__cloudImg {
+    width: 96%;
+    height: 322px;
+    margin-bottom: 20px; }
+    .service__cloudImg h1 {
+      width: 280px;
+      font-size: 48px;
+      padding: 141px 27px 0; }
+  .service__mobile {
+    margin: 0 0 20px 25px;
+    height: 322px;
+    margin-bottom: 28px; }
+    .service__mobile h1 {
+      font-size: 48px;
+      padding: 214px 27px 0; }
+  .service__devops {
+    height: 322px;
+    margin-bottom: 20px; }
+    .service__devops h1 {
+      padding: 216px 28px 0;
+      font-size: 48px; }
+  .service__uiUx {
+    height: 322px;
+    margin-bottom: 20px; }
+    .service__uiUx h1 {
+      font-size: 48px;
+      padding: 214px 27px 0; }
+  .service__dataScience {
+    height: 322px;
+    margin-bottom: 28px; }
+    .service__dataScience h1 {
+      width: 280px;
+      font-size: 48px;
+      padding: 141px 27px 0; } }
+@media only screen and (min-width: 1367px) {
+  .service__container {
+    width: 1170px; }
+  .service__headImg {
+    height: 270px; }
+  .service__head {
+    font-size: 56px;
+    padding-top: 168px; }
+  .service__content h1 {
+    font-size: 32px;
+    padding-bottom: 32px; }
+  .service__content p {
+    font-size: 24px;
+    width: 818px; }
+  .service__detail {
+    width: 1170px; }
+  .service__cloudImg {
+    width: 96%;
+    height: 396px;
+    margin-bottom: 20px; }
+    .service__cloudImg h1 {
+      width: 310px;
+      padding: 229px 42px 0; }
+  .service__mobile {
+    margin: 0 0 20px 31px;
+    height: 396px;
+    margin-bottom: 28px; }
+    .service__mobile h1 {
+      padding: 289px 30px 0; }
+  .service__devops {
+    height: 396px;
+    margin-bottom: 20px; }
+    .service__devops h1 {
+      padding: 289px 42px 0; }
+  .service__uiUx {
+    height: 396px;
+    margin-bottom: 20px; }
+    .service__uiUx h1 {
+      padding: 289px 30px 0; }
+  .service__dataScience {
+    height: 396px;
+    margin-bottom: 28px; }
+    .service__dataScience h1 {
+      width: 310px;
+      padding: 229px 42px 0; } }
 @media screen and (min-width: 320px) {
   .hashworks__grewpage .row {
     width: 261px;
