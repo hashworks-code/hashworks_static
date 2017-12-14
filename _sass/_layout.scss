@@ -2,112 +2,46 @@
 body{
   margin: 0px;
   font-family: 'latoRegular';
-  padding-top: 72px;
   a{
     text-decoration: none;
   }
-  header{
-    padding: 16px 16px 16px 13px;
-    border-bottom: 1px solid #f2f2f2;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    z-index: 1;
+  .hashworks__head {
     display: flex;
-    background: white;
-    justify-content: space-between;
-    align-items: center;
-    .groome-home{
-      color:$primary-color;
+    // align-items: center;
+    height: 60px;
+    background-color: rgba(235, 236, 244, 0.88);
+    position: relative;
+    padding: 0px 10px;
+    &--logo {
+      font-size: 22px;
+      font-weight: bold;
       margin: 0px;
-      font-family: 'latoBold';
-      font-size: 32px;
+      text-align: left;
+      color: rgb(43, 201, 177);
+      height: 60px;
+      line-height: 60px;
     }
-    .groome-expertise {
-      padding-right: 5px;
-      border-right: 1px solid #95989a;
-      font-size: 16px;
-      color: #4a4a4a;
+    &--list {
+      position: absolute;
+      right: 10px;
+      padding-top: 14px;
     }
-    .groome-product {
-      margin-left: 5px;
-      font-size: 16px;
-      color: #4a4a4a;
-    }  
+  
+    &--home,&--product,&--case,&--blog,&--about,&--contact{
+      padding: 8px 15px;
+      font-family: openSansLight;
+      font-size: 18px;
+      cursor: pointer;
+      font-weight: 600;
+      color: rgb(0, 0, 0);
+
+     
+    }
+ 
+   
   }
+
+  
 }
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-  footer{
-    padding: 22px 0px 38px;
-    .row{
-      width: 286px;
-      margin: 0px auto;
-      .footer__image{
-        width: 100%;
-        height: 260px;
-        background-image: url("../assets/images/group-4.svg");
-        background-repeat: no-repeat;
-        background-size: 33em;
-        background-position: 10px 0px;
-      }
-      h1{
-        font-size: 32px;
-        text-align: left;
-        color: #4a4a4a;
-        margin: 16px 0px;
-        font-weight: 400;
-      }
-      h2{
-        font-size: 18px;
-        text-align: left;
-        color: #4a4a4a;
-        font-weight: 400;
-        margin: 0px;
-      }
-      p{
-        font-size: 18px;
-        font-family: 'latoBold';
-        font-weight: 600;
-        color: #4a4a4a;
-        margin: 16px 0px 0px;
-        a{
-          color: #eb6751;
-        }
-        
-      }
-    }
-  }
-  @media screen and (min-width:768px){ 
-    footer{
-      padding: 48px 0px 73px;
-      .row{
-        width: 710px;
-        .footer__image{
-          background-position: 52px 0px;
-        }
-        h1{
-          margin-top: 58px;
-        }
-        h2{
-          font-size: 24px;
-        }
-        p{
-          font-size: 24px;
-        }
-      }
-    }
-  }
-  @media screen and (min-width:1025px){ 
-    footer{
-      padding: 48px 0px 61px;
-      .row{
-        width: 931px;
-        .footer__image{
-          background-position: 0px 0px;
-        }
-      }
-    }
-  }
+
+

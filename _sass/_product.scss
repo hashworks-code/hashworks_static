@@ -1,380 +1,638 @@
-@media screen and (min-width:320px){ 
-  .groome__product{
-  
+.product{
+    color: #3e3e3e;
+    font-family: Muli;
+    &__headImg{
+      background-image: url(../assets/image/ferdinand-stohr-230173.png);
+      background-repeat: no-repeat;
+      height: 270px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain;
+    }
+    &__content1{
+      width: 1158px;
+      margin: 0 auto;
+    }
+    &__head{
+      color: #fff;
+      font-size: 56px;
+      padding: 168px 0 32px;
+        
+    }
+    &__content {
       text-align: center;
-      .row{
-        width: 305px;
-        padding: 20px 0px;
-        margin: 0 auto;
-      }
-      h1 {
-          padding: 33px 0px 24px;
-          font-family: latoLight;
-          width: 288px;
-          font-size: 28px;
-          font-weight: 300;
-          text-align: center;
-          color: #2faaba;
-          margin: 0 auto;
-        }
-        h2{
-          font-family: latoRegular;
-          font-size: 24px;
-          font-weight: 500;
-          text-align: left;
-          color: #2faaba;
-          margin: 21px 0px;
-        }
-        h3{
-          font-family: latoBold;
-          font-size: 18px;
-          font-weight: 600;
-          text-align: left;
-          color: #4a4a4a;
-        }
-        p{
-          font-family: latoRegular;
-          font-size: 12px;
-          line-height: 1.5;
-          text-align: left;
-          color: #95989a;
-          margin: 16px 0px;
-        }
-      section {
-          display: none;
-          padding: 0px 0 0;
-          border-top: 1px solid #ddd;
-        }
-        input {
-          display: none;
-        }
-        label {
-          width: 104px;
-          height: 39px;
-          padding: 9px;
-          font-family: latoRegular;
-          font-size: 14px;
-          text-align: center;
-          color: #4a4a4a;
-          display: inline-block;
-          margin: 0 -2px 33px;
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.02);
-          border: solid 1px #e0e0e0;
-        }
-        label:before {
-          font-family: fontawesome;
-          font-weight: normal;
-          margin-right: 10px;
-        }
-        label:hover {
-          color: #888;
-          cursor: pointer;
-        }
-        input:checked + label {
-          color: #f2f2f2;
-          border-radius: 6px;
-          background-color: #f79a3d;
-          padding: 10px 22px;
-          height: 39px;
-          margin: 0 -4px;
-          position: relative;
-          border: none;
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
-        }
-        #tab1:checked ~ #sales,
-        #tab2:checked ~ #operation,
-        #tab3:checked ~ #recruitment{
-          display: block;
-        }
-        .product__block1,.product__block3 {
-        embed{
-          height:300px;
-        }
-        }   
-        .product__block2{
-          background-color: #f2f2f2;
-          embed{
-            height: 250px;
-          }
-        }
-        .product__block4{
-          background-color: #2faaba;
-          h1 {
-            font-family: 'latoRegular';
-            font-size: 24px;
-            text-align: left;
-            color: #f2f2f2;
-            margin: 0;
-             padding:25px 51px 13px 0px;
-            font-weight: 400; 
-        }
-        h2{
-          font-family: 'latoRegular';
-          font-size: 20px;
-          text-align: left;
-          color: #f2f2f2;
-          margin: 0;
-           padding:42px 107px 26px 0px;
-          font-weight: 400; 
-        }
-        input{
-          display: -webkit-box;
-          margin-bottom:13px;
-          width: 281px;
-          border-radius: 4px;
-          background-color: #f2f2f2;
-          border: solid 1px #f2f2f2;
-          padding: 20px 50px 15px 26px;
-          font-family: 'latoRegular';
-          font-size: 18px;
-        }
-        }
-         button {
-          width: 281px;
-          height: 64px;
-          border-radius: 4px;
-          background-color: #f79a3d;
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-          border: none;
-          outline: none;
-          font-family: 'latoRegular';
-          font-size: 18px;
-          text-align: center;
-          color: #f2f2f2;
-          margin-bottom: 44px;
-          margin-right: 10px;
-      }
-  }
-}
-@media screen and (min-width:768px){
-.groome__product{
-  .row{
-    width: 705px;
-  }
-  h1{
-    font-size: 36px;
-    width: 100%;
-    padding: 30px 0px 40px;
-  }
-  h2{
-    font-size: 32px;
-    margin: 13px 0px 28px 0px;
-  }
-  h3{
-    font-size: 20px;
-  }
-  p{
-    font-size: 14px;
-  }
-  label{
-    width:190px;
-    font-size:16px;
-    height:39px;
-    padding:6px;
-  }
-  input:checked + label {
-    padding: 14px 34px 40px 20px;
-    height: 44px;
-  }
-  .product__block1{
-    embed{
-      height: 300px;
-      // margin-left: 100px;
+      margin: 51px 0 66px;
     }
-    }
-    .product__block3{
-      embed{
-        height: 345px;
-        margin-top: 150px;
-        // margin-left: 100px;
-      }
-      }
-    .product__block2{
-      background-color: #f2f2f2;
-      embed{
-        height: 295px;
-        margin-top: 70px;; 
-      }
-    }
-    .product__block4{
-      background-color: #2faaba;
-      h1 {
-        font-family: 'latoLight';
-        font-size: 32px;
-        text-align: left;
-        color: #f2f2f2;
-        margin: 0;
-        padding:13px 39px 38px 8px;
-        font-weight: 400; 
-    }
-    h2{
-      font-family: 'latoLight';
+    &__content h1 {
+      color: #603c96;
       font-size: 32px;
-      text-align: left;
-      color: #f2f2f2;
-      margin: 0;
-      padding:26px 0px 41px 0px;
-      font-weight: 400; 
+      margin: 0 0 32px;
     }
-    input{
-      width: 483px;
-    }
-    }
-     button {
-      width: 354px;
-      height: 57px;
-      margin-right:330px;
-  }
- 
-}
-}
-// md start
-
-@media only screen and (min-width: 1025px) {
-  .groome__product{
-    .row{
-      width: 925px;
-    }
-    h1{
-      font-size:48px;
-      width: 100%;
-      padding: 30px 0px 40px;
-    }
-    h2{
-      font-size: 32px;
-      padding: 7px 0px 0px 0px;
-    }
-    h3{
+    &__content p {
       font-size: 24px;
+      line-height: 30px;
+      width: 818px;
+      margin: 0 auto;
     }
-    p{
-      font-size: 16px;
+    &__GroomeImg{
+      background-image: url(../assets/image/rectangle-10.png);
+      background-repeat: no-repeat;
+      height: 579px;
+      background-size: 100% 100%;
     }
-    label{
-      width: 226px;
-      font-size: 18px;
-      height:50px;
-      padding:10px;
+    &__Groome{
+     // background-color: #5e5b5b;
+     color: #fff;
+     height: 579px;
+     display: flex;
+     // justify-content: center;
+     align-items: center;
+     // margin: 32px 0;
     }
-    input:checked + label {
-      padding: 15px 34px 40px 20px;
-      height: 57px;
+    &__Groome h4 {
+      font-size: 24px;
+      font-weight: 100;
     }
-    .product__block1{
-      embed{
-        height: 410px;
-        // margin-left: 100px;
-      }
-      }
-      .product__block3{
-        embed{
-          height: 345px;
-          margin-top: 150px;
-          // margin-left: 100px;
-        }
-        }
-      .product__block2{
-        background-color: #f2f2f2;
-        embed{
-          height: 295px;
-          margin-top: 70px;; 
-        }
-      }
-      .product__block4{
-        background-color: #2faaba;
-        h1 {
-          width: 396px;
-          font-size: 32px;
-          color: #f2f2f2;
-          padding-top:49px;
-      }
-   
-      input{
-        width: 483px;
-      }
-      }
-       button {
-        width: 354px;
-        // margin-right: 91px;
-    }
-  }
-  }
-
-//large Desktop
-@media only screen and (min-width: 1367px) {
-  .groome__product{
-    .row{
-      width: 1232px;
-    }
-    h1{
-      font-size: 64px;
-      width: 100%;
-      padding: 30px 0px 40px;
-    }
-    h2{
+    &__Groome h2 {
+      margin: 16px 0;
+      font-weight: 100;
       font-size: 48px;
     }
-    h3{
+    &__Groome_logo img{
+      width: 238px;
+      height: 73px;
+    }
+    &__Groome p {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    &__Groome_logo{
+      // font-size: 60px;
+      // color: #00ffff;
+      // text-align: center;
+      display: flex;
+      justify-content: center;
+      // height: inherit;
+      align-items: center;
+    }
+    &__paketo{
+      margin: 64px 0 50px;
+    }
+  
+    &__paketo .row{
+      text-align: center;
+    }
+    &__borderRight{
+      border-right: 1px solid #ccc;
+    }
+    &__borderRight img{
+      width: 217px !important;
+      height: 128px !important;
+    }
+    &__paketo img{
+      width: 84px;
+      height: 128px;
+    }
+    &__paketo p{
+      width: 457px;
+      margin: 0 auto 38px;
       font-size: 24px;
     }
-    p{
-      font-size: 16px;
-    }
-    label{
-      width: 315px;
-      margin-bottom: 72px;
+    &__myButton{
+      color: #fff;
+      border-style: none;
+      width: 218px;
+      height: 46px;
+      border-radius: 4px;
+      background-color: #603c96;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
       font-size: 24px;
-      height: 78px;
-      color: #4a4a4a;
-      padding: 21px;
     }
-    input:checked + label {
-      color: #f2f2f2;
-      border-radius: 6px;
-      background-color: #f79a3d;
-      padding: 29px 34px 40px 20px;
-      height: 105px;
-      margin: 0 -4px;
-      position: relative;
-      border: none;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+    &__paketo h2{
+      color: #603c96;
+      font-size: 32px;
+      margin: 40px 0 51px;
+    }
+    &__borderTop{
+      border-top: solid 1px #e0e0e0;
+      width: 1028px;
+      margin: 70px auto 50px;
+    }
+    &__detail{
+      margin: 32px 0 42px;
+      text-align: center;
+    }
+    &__detail span{
+      font-size: 48px;
+      // font-weight: bold;
+      color: #603c96;
+      // display: flex;
+      // justify-content: flex-end;
+      font-family: Muli;
+      text-align: center;
+    }
+    &__detail p {
+      font-family: Lato;
+      font-size: 24px;
+      text-align: left;
+    }
+    &__detail h1 {
+      margin-bottom: 71px;
+      color: #603c96;
+      font-weight: 100;
       font-size: 32px;
     }
-    .product__block1{
-      embed{
-        height: 410px;
-        // margin-left: 100px;
-      }
-      }
-      .product__block3{
-        embed{
-          height: 345px;
-          margin-top: 150px;
-          // margin-left: 100px;
-        }
-        }
-      .product__block2{
-        background-color: #f2f2f2;
-        embed{
-          height: 295px;
-          margin-top: 70px;; 
-        }
-      }
-      .product__block4{
-        background-color: #2faaba;
-        h1 {
-          width:513px;
-      }
-      input{
-        display: -webkit-box;
-        width: 483px;
-      }
-      }
-       button {
-        width: 354px;
-        height: 57px;
-        margin-right:317px;
+    // &__borderTop2{
+    //   border-top: 1px solid #ccc;
+    //   margin: 5% 5% 0;
+    // }
+    &__pipeline h1 {
+      margin-bottom: 68px;
+      color: #603c96;
+      font-weight: 100;
     }
+    
+    &__pipeline {
+        text-align: center;
+        margin: 50px 0 94px;
+    }
+    &__allign{
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+    }
+    &__img1{
+      width: 116px;
+      height: 69px;
+    }
+    &__img2{
+      width: 52px;
+      height: 80px
+    }
+    &__img3{
+      width: 145px;
+      height: 50px;
+    }
+    &__img4{
+      width: 144px;
+      height: 31px;
+    }
+  
+  
+  &__arrow{
+    vertical-align: middle;
   }
   }
-
+  
+  @media only screen and (max-width: 1366px){
+  .product{
+    // color: #3e3e3e;
+    // font-family: Muli;
+    &__headImg{
+      // background-image: url(../assets/image/ferdinand-stohr-230173.png);
+      // background-repeat: no-repeat;
+      height: 192px;
+      // width: 100%;
+      // background-size: 100% 100%;
+      // object-fit: contain;
+    }
+    &__content1{
+      width: 935px;
+      // margin: 0 auto;
+    }
+    &__head{
+      // color: #fff;
+      font-size: 56px;
+      padding: 100px 0 32px;
+        
+    }
+    &__content {
+      // text-align: center;
+      margin: 32px 0;
+    }
+    &__content h1 {
+      // color: #603c96;
+      font-size: 24px;
+      margin: 0 0 16px;
+    }
+    &__content p {
+      font-size: 18px;
+      // line-height: 30px;
+      width: 645px;
+      // margin: 0 auto;
+    }
+    &__GroomeImg{
+      // background-image: url(../assets/image/rectangle-10.png);
+      // background-repeat: no-repeat;
+      height: 400px;
+      // background-size: 100% 100%;
+    }
+     &__Groome{
+    //   // background-color: #5e5b5b;
+    //   color: #fff;
+    height: 400px;
+    //   display: flex;
+    //   // justify-content: center;
+    //   align-items: center;
+    //   // margin: 32px 0;
+    }
+    &__Groome h4 {
+      font-size: 16px;
+    }
+    &__Groome h2 {
+      // margin: 16px 0;
+      font-size: 24px;
+      // font-weight: 100;
+    }
+    &__Groome_logo img{
+      width: 189px;
+      height: 38px;
+    }
+    &__Groome p {
+      font-size: 16px;
+    }
+    // &__Groome_logo{
+    //   // font-size: 60px;
+    //   // color: #00ffff;
+    //   // text-align: center;
+    //   display: flex;
+    //   justify-content: center;
+    //   // height: inherit;
+    //   align-items: center;
+    // }
+    &__paketo{
+      margin: 32px 0;
+    }
+  
+    &__paketo .row{
+      text-align: center;
+    }
+    &__borderRight{
+      border-right: 1px solid #ccc;
+    }
+    &__borderRight img{
+      width: 185px !important;
+      height: 109px !important;
+    }
+    &__paketo img{
+      width: 71.5px;
+      height: 109px;
+    }
+    &__paketo p{
+      width: 380px;
+      margin: 16px auto;
+      font-size: 16px;
+    }
+    &__myButton{
+      // color: #fff;
+      // border-style: none;
+      width: 270px;
+      height: 57px;
+      // border-radius: 4px;
+      // background-color: #603c96;
+      // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+      font-size: 16px;
+    }
+    &__paketo h2{
+      // color: #603c96;
+      font-size: 24px; 
+      margin: 16px 0
+    }
+    &__borderTop{
+      border-top: solid 1px #e0e0e0;
+      width: 881px;
+      margin: 32px auto;
+    }
+    &__detail{
+      margin: 32px 0 42px;
+      text-align: center;
+    }
+    &__detail span{
+      // font-size: 48px;
+      font-weight: bold;
+      // color: #603c96;
+      // display: flex;
+      // justify-content: flex-end;
+      // font-family: Muli;
+      // text-align: center;
+    }
+    &__detail p {
+      // font-family: Lato;
+      font-size: 18px;
+    }
+    &__detail h1 {
+      margin-bottom: 32px;
+      // color: #603c96;
+      // font-weight: 100;
+    }
+    // &__borderTop2{
+    //   border-top: 1px solid #ccc;
+    //   margin: 5% 5% 0;
+    // }
+    &__pipeline h1 {
+      margin-bottom: 62px;
+      // color: #603c96;
+      // font-weight: 100;
+    }
+    
+    &__pipeline {
+        // text-align: center;
+        margin: 32px 0 61px;
+    }
+    &__allign{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__img1{
+      width: 136px;
+      height: 80px;
+    }
+    &__img2{
+      width: 45px;
+      height: 69px;
+    }
+    &__img3{
+      width: 131px;
+      height: 44px;
+    }
+    &__img4{
+      width: 131px;
+      height: 30px;
+    }
+    
+    
+  }
+  }
+  @media only screen and (max-width: 1024px){
+    .product{
+      &__headImg{
+        height: 144px;
+      }
+      &__head {
+        font-size: 36px;
+        padding: 67px 0 32px;
+      }
+      &__content1{
+        width: 706px;
+      }
+      &__content h1 {
+        color: #603c96;
+        font-size: 18px;
+      }
+      &__content p {
+        font-size: 16px;
+        line-height: 21px;
+      }
+      &__GroomeImg {
+        height: 309px;
+      }
+      &__Groome{
+        height: 309px;
+      }
+      &__Groome_logo img {
+        width: 142px;
+        height: 29px;
+      }
+      &__Groome h4 {
+        font-size: 14px;
+      }
+      &__Groome h2 {
+         font-size: 18px; 
+     }
+     &__Groome p {
+      font-size: 14px;
+    }
+    &__paketo {
+      margin: 16px 0 32px;
+    }
+    &__borderRight img {
+      width: 135.3px !important;
+      height: 80px !important;
+    }
+    &__paketo h2 {
+      font-size: 18px;
+      font-weight: 100;
+    }
+    &__paketo p {
+      width: 278px; 
+    }
+    &__myButton {
+      width: 160px;
+      height: 38px;
+    }
+    &__paketo img {
+      width: 52px;
+      height: 79px;
+    }
+    &__borderTop {
+      width: 701px;
+      margin: 30px auto 32px;
+    }
+    &__detail h1 {
+      font-size: 24px;
+    }
+    &__detail span {
+      font-size: 36px;
+    }
+    &__detail {
+      margin: 32px 0 25px;
+    }
+    &__detail p {
+      font-size: 16px;
+    }
+    &__pipeline {
+      margin: 32px 0 69px;
+    }
+    &__pipeline h1 {
+      font-size: 24px;
+    }
+    &__img1 {
+      width: 94px;
+      height: 56px;
+    }
+    &__img2 {
+      width: 39px;
+      height: 59px;
+    }
+    &__img3 {
+      width: 110px;
+      height: 44px;
+    }
+    &__img4 {
+      width: 110px;
+      height: 40px;
+    }
+    }
+  
+  }
+  @media only screen and (max-width: 767px){
+    .product{
+      // color: #3e3e3e;
+      // font-family: Muli;
+      &__headImg{
+        height: 144px;
+      }
+      &__head {
+        padding: 98px 0 16px;
+        font-size: 24px;
+        margin: 0;
+     }
+      &__content1{
+        width: 300px;
+      }
+      &__content {
+        // padding: 23px 9px 32px;
+        margin: 9px auto;
+    }
+    &__content h1 {
+      font-size: 16px;
+    }
+    &__content p {
+      width: 295px;
+    }
+    &__GroomeImg {
+      height: 156px;
+    }
+    &__Groome {
+      height: 156px;
+      display: flex;
+      align-items: center;
+      padding-left: 30px;
+      justify-content: left;
+    }
+    &__Groome_logo {
+      display: block;
+      justify-content: left;
+      align-items: left;
+    }
+    &__Groome_logo img {
+      width: 88px;
+      height: 18px;
+    }
+    &__Groome h4 {
+      font-size: 12px;
+      padding: 17px 0 8px;
+      margin: 0;
+    }
+    &__Groome h2 {
+      font-size: 14px;
+      margin: 0;
+      padding-bottom: 8px;
+    }
+    &__Groome p {
+      display: none;
+    }
+    &__borderRight{
+      border-right: none;
+      padding-bottom: 39px;
+    }
+    &__borderRight img {
+      width: 100px !important;
+      height: 59px !important;
+    }
+    &__paketo h2 {
+      font-size: 16px;
+    }
+    &__paketo p {
+      font-size: 12px;
+    }
+    &__detail {
+      margin: 32px 0 25px;
+      .row{
+        padding: 0 30px;
+      }
+      span {
+        font-size: 24px;
+      }
+      p {
+        font-size: 14px;
+        margin-bottom: 33px;
+      }
+      h1 {
+        font-size: 18px;
+        margin: 32px 0;
+      }
+    }
+    &__myButton {
+      width: 104.5px;
+      height: 26.4px;
+      font-size: 10px;
+    }
+    &__paketo img {
+      width: 38px;
+      height: 58px;
+    }
+    &__img1 {
+      width: 94px;
+      height: 56px;
+    }
+    &__img2 {
+      width: 39px;
+      height: 59px;
+    }
+    &__img3 {
+      width: 110px;
+      height: 44px;
+    }
+    &__img4 {
+      width: 110px;
+      height: 40px;
+    }
+    &__borderTop{
+      width: 261px;
+      margin: 32px auto;
+    }
+    &__detail .row div:last-child p {
+      margin: 0;
+    }
+    &__pipeline {
+      margin: 32px 0;
+      width: 295px;
+      h1 {
+        font-size: 18px;
+        margin-bottom: 32px;
+      }
+      .slick-prev:before, .slick-next:before {
+        font-family: 'slick';
+        font-size: 20px;
+        line-height: 1;
+        opacity: .75;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        }
+        .slick-slide img {
+          display: inline-block;
+      }
+      .slick-prev:before, .slick-next:before{
+        font-family: 'slick';
+        font-size: 27px;
+        width: 20px !important;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 30px;
+        padding: 3px;
+        opacity: .75;
+        color: white;
+        background-color: #777777;
+        border-radius: 50%;
+        -webkit-font-smoothing: antialiased;
+    
+      }
+      .slick-prev {
+        left: 0;
+        z-index: 11;
+      }
+      .slick-next {
+        right: 0;
+        z-index: 11;
+      }
+      
+    }
+   
+  }
+  } 
+  

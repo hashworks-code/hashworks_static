@@ -5,226 +5,178 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Groome - HR Solution made simples</title>
+    <title>Hashworks</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
 
-    <link rel="stylesheet" href="/groome_static/css/style.css">
-    <link rel="stylesheet" href="/groome_static/css/hashGrid.css">
+    <link rel="stylesheet" href="/hashworks/css/style.css">
+    <link rel="stylesheet" href="/hashworks/css/hashGrid.css">
     <link rel="canonical" href="http://localhost:4000/">
-    <link rel="alternate" type="application/rss+xml" title="Groome - HR Solution made simples" href="/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="Hashworks" href="/feed.xml">
+    <link rel="stylesheet" type="text/css" href="/hashworks/assets/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/hashworks/assets/slick/slick-theme.css"/>
 </head>
-<body>
-        <header>
-            <a class="groome-home" href="/groome_static/index">Groome</a>
-            <div>
-                <a class="groome-expertise" href="/groome_static/expertise">Expertise</a>
-                <a class="groome-product" href="/groome_static/product">Product</a>
-            </div>
-        </header>
+<body id="close">
+            <header class="hashworks__head">
+                <h1 class="hashworks__head--logo">Hashworks</h1>
+                <div class="hashworks__head--list">
+                    <a  class="hashworks__head--home">Home</a>
+                    <a  class="hashworks__head--product">Product & Service</a>
+                    <a class="hashworks__head--case">Case Study</a>
+                    <a  class="hashworks__head--about">About</a>
+                    <a  class="hashworks__head--blog">Blog</a>
+                    <a class="hashworks__head--contact">Contact</a>
+                </div>
+            </header>
 
-        <script>
-            window.onload = function() {
-                console.log(location.href);
-                if(location.href.indexOf('groome_static/expertise')>-1){
-                    console.log('expertise');
-                    document.getElementsByClassName('groome-expertise')[0].style.color = '#f79a3d'
-                }
-                else if(location.href.indexOf('groome_static/product')>-1){
-                    console.log('products');
-                    document.getElementsByClassName('groome-product')[0].style.color = '#f79a3d'
-                }
-        }
-        </script>
+            <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+            <script type="text/javascript" src="/hashworks/assets/slick/slick.min.js"></script>
+            <script type="text/javascript" src="/hashworks/assets/js/product.js"></script>
+</body>
 
-<div class ="groome__product">
-  <h1>How groome help Hiring</h1>
-  <input id="tab1" type="radio" name="tabs" checked>
-  <label for="tab1">Sales</label>
-    
-  <input id="tab2" type="radio" name="tabs">
-  <label for="tab2">Operation</label>
-    
-  <input id="tab3" type="radio" name="tabs">
-  <label for="tab3">Recruitment</label>
-  <section  id="sales">
-    <div class="product__block1">
-      <div class="row">
-          <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 last-sm">
-              <!-- <img src="/groome_static/assets/images/homepage/group-7 (1).svg" alt="Talent Acquistion"> -->
-              <embed src="/groome_static/assets/images/SVG_GROOME_D4 (1)/SALES/1/demo.html" alt="Talent Acquistion">
-          </div>
-          <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-            <h2>Get the elastic workforce advantage </h2>
-            <h3>Categorize based on value, go for the big bucks</h3>
-            <p>Stay ahead of the recruitment curve as you premium position yourself in the market. Adapting to Groome will drastically change the way the HR team and the C-suite leaders operate. As they seamlessly collaborate under one unified platform for internal and external staffing needs, the end result is letting Groome do most of the work and lets the workforce focus on the big goals. </p>
-            <h3>Map customer urgency, cater to your most eager customer </h3>
-            <p>Democratising hiring across customers and vendors is the new norm. Groome lets you diversify the bench strength across a broader portfolio of products and services. See a large reflection of savings budget as you move from earlier known outsourced staffing solutions to in-house HR recruitment suite. </p>
-            <h3>Focus on active leads, maximize your opportunity </h3>
-            <p>Discover breakthrough innovation in HR ecosystem with Groome. You no longer have to treat the existing ATS or overburdened CMS system as a disciplined experiment in your organisation. Start galvanising on the power of big data with the lowest cost to market ratio as you harness the potential of only the best candidates in the industry. </p>
-          </div>
-      </div>
+<div class="product">
+    <div class="product__headImg">
+        <div class=" product__content1">
+    <div class="product__head">
+        Products
     </div>
-    <div class="product__block2">
-      <div class="row">
-          <div  class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <embed src="/groome_static/assets/images/SVG_GROOME_D4 (1)/SALES/2/demo.html" alt="Talent Acquistion">
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <h2>Collaborate in real time </h2>
-            <h3>Chat with your customers and peers in real time </h3>
-            <p>Engage in transaction worthy conversations with customers and peers to generate instant lead on the right candidate. With advanced communication tools such as real time calendar tracking, bench movement and project completion notification at your disposal, every talk becomes more meaningful and important. </p>
-            <h3>Schedule meetings and telecons on the go </h3>
-            <p>Democratising hiring across customers and vendors is the new norm. Groome lets you diversify the bench strength across a broader portfolio of products and services. See a large reflection of savings budget as you move from earlier known outsourced staffing solutions to in-house HR recruitment suite. </p>
-            <h3>Capture your opportunities and documents for each lead</h3>
-            <p>Track your sales opportunity with utmost clarity. you can link each of your deals with the relevant contract documents, JDs and projects specs to take a well informed decision one closing every hit potential lead</p>
-          </div>
-       </div>
     </div>
-    <div class="product__block3">
-      <div class="row">
-          <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 last-sm">
-            <embed src="/groome_static/assets/images/SVG_GROOME_D4 (1)/SALES/3/demo.html" alt="Talent Acquistion">
-          </div>
-          <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-            <h2>Identify right opportunities and maximise profitability</h2>
-            <h3>Visualise your sales in a single spectrum </h3>
-            <p>Stay ahead of the recruitment curve as you premium position yourself in the market. Adapting to Groome will drastically change the way the HR team and the C-suite leaders operate. As they seamlessly collaborate under one unified platform for internal and external staffing needs, the end result is letting Groome do most of the work and lets the workforce focus on the big goals.</p>
-            <h3>Track and pursue leads strategically </h3>
-            <p>Run pilots across key use cases as you reliably measure impact across projects, companies and industries with an easy-to-use interface. Built using cutting edge data science tools such as in-memory analytics and genetic algorithms, Groome serves as a triple hiring boost in the technology assisted review space using predictive coding for profile shortlisting, visual analytics for communication mapping, and keyword and concept searching for complete synthesis of precision and perfection in HRM. </p>
-            <h3>Focus on active leads, maximize your opportunity </h3>
-            <p>Create a comprehensive digital profile of a candidate for instant recall and deployment. Filter down from a vast collection of candidates who could range from a serious job-seeker to a general job-researcher or a random job-hopper and make an intelligent assessment of the candidate success ratio in joining the firm. With cognitive machine learning code and robust data safety protocols meshed in Groome, pinpointing which employee is leaving, who will stick around and what retention efforts should be acted upon can now be gauged without contacting several clients or believing on intuition and blind forecasting.</p>
-          </div>
-      </div>
+
     </div>
-  
-  </section>
-    
-  <section id="operation">
-      <div class="product__block1">
-          <div class="row">
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 last-sm">
-                  <!-- <img src="/groome_static/assets/images/homepage/group-7 (1).svg" alt="Talent Acquistion"> -->
-                  <embed src="/groome_static/assets/images/SVG_GROOME_D4 (1)/OPS/1/demo.html" alt="Talent Acquistion">
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <h2>Workbench for HR Operations </h2>
-                <h3>Improve your task completion ration 10X with Groome. </h3>
-                <p>Instead of adapting to traditional task specific technologies streamline workflows with democratisation of AI as your frontline users become even more efficient and responsible in every successful placement. </p>
-                <h3>Paperless Onboarding of new hire </h3>
-                <p>Democratising hiring across customers and vendors is the new norm. Groome lets you diversify the bench strength across a broader portfolio of products and services. See a large reflection of savings budget as you move from earlier known outsourced staffing solutions to in-house HR recruitment suite. </p>
-                <h3>Ask the right interview questions, every time.</h3>
-                <p>Gain instant industry knowledge to flawlessly conduct interviews in any domain regardless of qualifications or experience.</p>
-              </div>
-          </div>
-        </div>
-        <div class="product__block2">
-          <div class="row">
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <embed src="/groome_static/assets/images/SVG_GROOME_D4 (1)/OPS/2/demo.html" alt="Talent Acquistion">
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <h2>Talent Supply Chain </h2>
-                <h3>Align your opportunities to your projects </h3>
-                <p>Move from manual staffing to automatic hiring with proficiency  like never before. Groome helps you stay ahead in this competitive landscape with targeted job offerings as you transition from experience-based decision making to data-based decision making. 
-                    Mining the Job Description dataset at an exponential pace will help you see unrealised opportunities and encourages you to pick up speed in the slow-growth hiring market. </p>
-                <h3>Optimise your bench strength </h3>
-                <p>No matter the stage, no matter the source, know where your applications are and what’s next for them. </p>
-                <h3>Budget based project hiring</h3>
-                <p>Groome is terrific problem solver. It helps the HR team manage employees, interview scheduling and eventual selection which are usually the most time consuming task. It also handles repeated delays due to rescheduling, information overload over JDs and CVs and clearance from bench recruiters</p>
-              </div>
-           </div>
-        </div>
-        <div class="product__block3">
-          <div class="row">
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 last-sm">
-                <embed src="/groome_static/assets/images/SVG_GROOME_D4 (1)/OPS/3/demo.html" alt="Talent Acquistion">
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <h2>Talent Pool Management </h2>
-                <h3>More than an ATS, even more than a CRM. </h3>
-                <p>With Groome’s powerful predictive analytics and actionable insights, performance metrics and vendor candidate support is now at the click of a button. As your HR team scales up in size and task, velocity of automation becomes rapid and swift.</p>
-                <h3>A complete HR suite for a complete organization </h3>
-                <p>As companies embrace advancements in digitization and automation, Groome takes the big leap where these developments actually matter - people management. A state of the art solution designed to make project partners, HR professionals, bench strength navigators, talent suppliers and business leaders come under one platform to address all staffing needs is Groome’s core muscle. </p>
-              </div>
-          </div>
-        </div>
-  </section>
-    
-  <section id="recruitment">
-      <div class="product__block1">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 last-sm">
-                    <embed src="/groome_static/assets/images/SVG_GROOME_D4 (1)/RECRUITEMENT/1/demo.html" alt="Talent Acquistion">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
-              <h2>Take full control of your hiring </h2>
-              <h3>Commence your hiring at the right time to deliver</h3>
-              <p>No matter the stage, no matter the source, know where your applications are and what’s next for them.</p>
-              <h3>Find the right candidate for the job </h3>
-              <p>Everybody is worth a job, but how worthy is difficult to decide. That’s where zeroing on the right candidate comes in. With advanced search tools and metrics, you have the power to make the right choice without losing time or revenue. </p>
-              </div>
-          </div>
-        </div>
-        <div class="product__block2">
+    <div class="product__content">
+        <h1>Current problems tomorrows Products</h1>
+        <p>Nulla Porttitor accumsam tincident. Proin eget tortor risus. Cras ultricies 
+            ligula sed magan dictum porta. Curabitur aliguet quam id dui posuere blandit.
+             Donec sollicitudin molestie malesuada.
+        </p>
+    </div>
+    <div class="product__GroomeImg">
+        <div class="product__content1">
+    <div class="product__Groome">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                   <embed src="/groome_static/assets/images/SVG_GROOME_D4 (1)/RECRUITEMENT/2/demo.html" alt="Talent Acquistion">
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                  <h2>Improve the recruitment experience </h2>
-                  <h3>Target candidates with zero sourcing time</h3>
-                  <p>Set yourself free from regular database scrolling with on the go candidate selection algorithms that run smoothly and efficiently to provide the best results and insights. With no limit on saved profiles or targeted role alerts, managing multi client requirements is a hassle free task. </p>
-                  <h3>Map customer urgency, cater to your most eager customer </h3>
-                  <p>Democratising hiring across customers and vendors is the new norm. Groome lets you diversify the bench strength across a broader portfolio of products and services. See a large reflection of savings budget as you move from earlier known outsourced staffing solutions to in-house HR recruitment suite. </p>
-                  <h3>Schedule and conduct interviews seamlessly </h3>
-                  <p>Shortlist and track the right profile with advanced recruitment intelligence that drives its strength from varied resources. Stay aware of the desired information using smart filters and background checks across portals, platforms and social media to give a candidate go ahead in real time. Scheduling interviews with mutually feasible assessment tools that are geared with powerful applications such as dedicated location controls, calendar management and follow up tracking will keep you clear of your goals and plans.</p>
-                </div>
-             </div>
-          </div>
-          <div class="product__block3">
+                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 product__Groome_logo">
+                        <img src="../assets/image/groome.png">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <h4>PRODUCT</h4>
+                            <h2>Solving Human resource problem with AI Touch.</h2>
+                            <p>
+                                Nulla Porttitor accumsam tincident. Proin eget tortor risus. Cras ultricies 
+                                    ligula sed magan dictum porta. Curabitur aliguet quam id dui posuere blandit.
+                                     Donec sollicitudin molestie malesuada.
+                            </p>
+                            <!-- <br/> -->
+                            <span>Know More --<span class="product__arrow">></span></span>
+                    </div>
+
+            </div>
+    </div>
+    </div>
+    </div>
+    <div class="product__content1">
+    <div class="product__paketo">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 last-sm">
-                        <embed src="/groome_static/assets/images/SVG_GROOME_D4 (1)/RECRUITEMENT/3/demo.html" alt="Talent Acquistion">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 product__borderRight">
+                            <img src="../assets/image/1.png">
+                        <h2>Project Integration</h2>
+                        <p>
+                                Nulla Porttitor accumsam tincident. Proin eget tortor risus. Cras ultricies 
+                                    ligula sed magan dictum porta. Curabitur aliguet quam id dui posuere blandit.
+                                     Donec sollicitudin molestie malesuada.
+                        </p>
+                        <button class="product__myButton" id="a">Know More</button>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="../assets/image/bitmap.png">
+                            <h2>Project Integration</h2>
+                            <p>
+                                    Nulla Porttitor accumsam tincident. Proin eget tortor risus. Cras ultricies 
+                                        ligula sed magan dictum porta. Curabitur aliguet quam id dui posuere blandit.
+                                         Donec sollicitudin molestie malesuada.
+                            </p>
+                            <button class="product__myButton" id="b">Know More</button>
+                        </div>
+            </div>
+            <div class="product__borderTop"></div>
+
+    </div>
+    </div>
+    <div class="product__content1">
+    <div class="product__detail ">
+        <h1>Why we are working on Products</h1>
+        <div class="row">
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                    <span>1</span>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                  <h2>Track, Analyze & improve with Groome insights</h2>
-                  <h3>Targeted human resource intelligence </h3>
-                  <p>Take advantage of advanced workforce analytics to automate workflows. With intuitive and cognitive visualization technologies embedded in Groome to display detailed job forecast and oversight measures, saving audit trails and making reports appealing is now more easier than ever. Groome is designed to be conscious of the environment and keeps the data secure on the cloud while providing you maximum savings on paper usage. </p>
-                  <h3>Masterful insights for better decision management </h3>
-                  <p>See instant profile updates and upgrades, assess qualifications and internal performance trends and change the way you see hiring complexities. With masterful actionable insights prompted across all your devices and platforms, what you witness is a closer integration of process and systems. The final result is the unhindered freedom to make confident decisions, every time.</p>
+                <div class="col-xs-11 col-sm-3 col-md-3 col-lg-3">
+                    <p>
+                            Nulla Porttitor accumsam tincident. Proin eget tortor risus. Cras ultricies 
+                                ligula sed magan dictum porta. Curabitur aliguet quam id dui posuere blandit.
+                                    Donec sollicitudin molestie malesuada.
+                    </p>
                 </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                        <span>2</span>
+                </div>
+                <div class="col-xs-11 col-sm-3 col-md-3 col-lg-3">
+                    <p>
+                            Nulla Porttitor accumsam tincident. Proin eget tortor risus. Cras ultricies 
+                                ligula sed magan dictum porta. Curabitur aliguet quam id dui posuere blandit.
+                                    Donec sollicitudin molestie malesuada.
+                    </p>
+                </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                    <span>3</span>
+                </div>
+                <div class="col-xs-11 col-sm-3 col-md-3 col-lg-3">
+                    <p>
+                            Nulla Porttitor accumsam tincident. Proin eget tortor risus. Cras ultricies 
+                                ligula sed magan dictum porta. Curabitur aliguet quam id dui posuere blandit.
+                                    Donec sollicitudin molestie malesuada.
+                    </p>
+                </div>
+                
             </div>
-          </div>
-  </section>
-  <div class="product__block4">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-6">
-             <div class="expertise__actionContainer--actionContent">
-                <h2>Be the First on access the product</h2>
-                <input type="text" placeholder="Please Enter Email Id">
-                <button type="button">Subscribe for early access</button>
+
+            <div class="product__borderTop"></div>
+    </div>
+</div>
+<div class="product__content1">
+    <div class="product__pipeline">
+        <h1>Our Product Pipeline</h1>
+        <div class="row" id="carousel">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
+                <img src="../assets/image/1.png" class="product__img1">
             </div>
-        </div> 
-        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 expertise__actionContainer--reverseOrder first-xs">
-            <div class="expertise__actionContainer--content">
-              <h1>so you can jump between different computers—and even a phone</h1>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
+                    <img src="../assets/image/bitmap.png" class="product__img2">
             </div>
-        </div>    
-     </div> 
-  </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
+                    <img src="../assets/image/groome.png" class="product__img3">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
+                    <img src="../assets/image/page-1.png" class="product__img4">
+            </div>
+            
+        </div>
+    </div>
+    </div>
+
+
 </div>
 
 
+ 
+ 
+
 <footer>
     <div class="row">
-        <div class="footer__image col-xs-12 col-sm-12  last-md col-md-7"></div>
-        <div class="col-xs-12 col-sm-12  col-md-5">
-            <h1>Groome</h1>
-            <h2>Expertise  |  Product  |  Contact</h2>
-            <p>Product of <a href="https://www.hashworks.co/" target="_blank"> hashwork.co</a></p>
-        </div>
+     
     </div>
+    
+  
 </footer>
 </body>
 
-</html> 
+
+</html>
