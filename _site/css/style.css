@@ -307,7 +307,7 @@ body {
 
 .product {
   color: #3e3e3e;
-  font-family: Muli; }
+  font-family: 'muliRegular'; }
   .product__headImg {
     background-image: url(../assets/image/ferdinand-stohr-230173.png);
     background-repeat: no-repeat;
@@ -328,7 +328,8 @@ body {
   .product__content h1 {
     color: #603c96;
     font-size: 32px;
-    margin: 0 0 32px; }
+    margin: 0 0 32px;
+    font-family: 'muliSemiBold'; }
   .product__content p {
     font-size: 24px;
     line-height: 30px;
@@ -400,10 +401,8 @@ body {
   .product__detail span {
     font-size: 48px;
     color: #603c96;
-    font-family: Muli;
     text-align: center; }
   .product__detail p {
-    font-family: Lato;
     font-size: 24px;
     text-align: left; }
   .product__detail h1 {
@@ -717,6 +716,7 @@ body {
       z-index: 11; } }
 @media only screen and (min-width: 320px) {
   .service {
+    font-family: 'muliRegular';
     color: #4a4a4a; }
     .service__container {
       width: 295px;
@@ -739,7 +739,8 @@ body {
         font-size: 16px;
         font-weight: 600;
         color: #603c96;
-        padding-bottom: 16px; }
+        padding-bottom: 16px;
+        font-family: 'muliSemiBold'; }
       .service__content p {
         font-size: 14px; }
     .service__devops {

@@ -6,6 +6,7 @@
 
 @media only screen and (min-width: 320px){
     .service{
+        font-family: 'muliRegular';
         color: #4a4a4a;
         &__container{
             width: 295px;
@@ -32,6 +33,7 @@
                 font-weight: 600;
                 color: #603c96;
                 padding-bottom: 16px;
+                font-family: 'muliSemiBold';
             }
             p{
                 font-size: 14px;
