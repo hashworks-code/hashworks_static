@@ -8,7 +8,7 @@ body{
   }
  // dropdown header
 
-.productService,.about{
+.productService{
   position: relative;
   display: none;
   background-color: #ffffff;
@@ -167,6 +167,7 @@ body{
    }
   // about 
   .about{
+    margin: 25px 0px;
     p{
       display: inline-block;
       padding-left: 9px;
@@ -174,7 +175,8 @@ body{
       vertical-align: super;
      }
      h3{
-       font-size: 14px;
+       font-size: 12px;
+       width: 159px;
      }
      &--algin{
       width: 451px;
@@ -320,6 +322,63 @@ body{
       }
     }
    }
+    // about 
+  .about{
+    margin: 25px 0px;
+    p{
+      padding-left: 9px;
+      font-size: 14px;
+     }
+     h3{
+       font-size: 14px;
+       width: 220px;
+     }
+     &--algin{
+      width: 630px;
+      margin-left: 48px;
+     }
+     &__Content{
+      height: 141px;
+      padding-right: 40px;
+     
+     }
+   &__thinking{
+    padding: 7px 9px 8px 8px;
+    width: 140px;
+    height: 47px;
+    background-color: #f7f7f7;
+     &--img{
+       width: 22px;
+       height: 22px;
+       display: inline-block;
+     }
+   
+   }
+   &__culture{
+    width: 145px;
+    height: 47px;
+    background-color: #f7f7f7;
+    padding: 9px;
+    &--img{
+      width: 28px;
+      height: 19px;
+      display: inline-block;
+    }
+  
+  }
+  &__job{
+    padding: 9px;
+    width: 140px;
+    height: 47px;
+    background-color: #f7f7f7;
+    &--img{
+      width: 22px;
+      height: 26px;
+      display: inline-block;
+    }
+  
+  }
+  }
   }
   
   @media screen and (min-width:1367px){ 

@@ -19,7 +19,7 @@ body {
   body a {
     text-decoration: none;
     margin: 0px; }
-  body .productService, body .about {
+  body .productService {
     position: relative;
     display: none;
     background-color: #ffffff; }
@@ -135,50 +135,53 @@ body {
           width: 159px; }
         body .productService__service--mobile, body .productService__service--ops, body .productService__service--data, body .productService__service--cloud {
           padding: 28px 13px; }
-    body .about p {
-      display: inline-block;
-      padding-left: 9px;
-      font-size: 12px;
-      vertical-align: super; }
-    body .about h3 {
-      font-size: 14px; }
-    body .about--algin {
-      width: 451px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-left: 38px; }
-    body .about__Content {
-      border-right: solid 1px #dadada;
-      height: 141px;
-      padding-right: 40px; }
-    body .about__thinking {
-      padding: 7px 9px 8px 8px;
-      width: 121px;
-      height: 36px;
-      background-color: #f7f7f7; }
-      body .about__thinking--img {
-        width: 19px;
-        height: 22px;
-        display: inline-block; }
-    body .about__culture {
-      width: 129px;
-      height: 36px;
-      background-color: #f7f7f7;
-      padding: 9px; }
-      body .about__culture--img {
-        width: 25px;
-        height: 16px;
-        display: inline-block; }
-    body .about__job {
-      padding: 9px;
-      width: 118px;
-      height: 36px;
-      background-color: #f7f7f7; }
-      body .about__job--img {
-        width: 17px;
-        height: 20px;
-        display: inline-block; } }
+    body .about {
+      margin: 25px 0px; }
+      body .about p {
+        display: inline-block;
+        padding-left: 9px;
+        font-size: 12px;
+        vertical-align: super; }
+      body .about h3 {
+        font-size: 12px;
+        width: 159px; }
+      body .about--algin {
+        width: 451px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 38px; }
+      body .about__Content {
+        border-right: solid 1px #dadada;
+        height: 141px;
+        padding-right: 40px; }
+      body .about__thinking {
+        padding: 7px 9px 8px 8px;
+        width: 121px;
+        height: 36px;
+        background-color: #f7f7f7; }
+        body .about__thinking--img {
+          width: 19px;
+          height: 22px;
+          display: inline-block; }
+      body .about__culture {
+        width: 129px;
+        height: 36px;
+        background-color: #f7f7f7;
+        padding: 9px; }
+        body .about__culture--img {
+          width: 25px;
+          height: 16px;
+          display: inline-block; }
+      body .about__job {
+        padding: 9px;
+        width: 118px;
+        height: 36px;
+        background-color: #f7f7f7; }
+        body .about__job--img {
+          width: 17px;
+          height: 20px;
+          display: inline-block; } }
   @media screen and (min-width: 1025px) {
     body .row {
       width: 940px;
@@ -241,7 +244,48 @@ body {
         body .productService__service--serviceContent {
           width: 159px; }
         body .productService__service--mobile, body .productService__service--ops, body .productService__service--data, body .productService__service--cloud {
-          padding: 28px 0px; } }
+          padding: 28px 0px; }
+    body .about {
+      margin: 25px 0px; }
+      body .about p {
+        padding-left: 9px;
+        font-size: 14px; }
+      body .about h3 {
+        font-size: 14px;
+        width: 220px; }
+      body .about--algin {
+        width: 630px;
+        margin-left: 48px; }
+      body .about__Content {
+        height: 141px;
+        padding-right: 40px; }
+      body .about__thinking {
+        padding: 7px 9px 8px 8px;
+        width: 140px;
+        height: 47px;
+        background-color: #f7f7f7; }
+        body .about__thinking--img {
+          width: 22px;
+          height: 22px;
+          display: inline-block; }
+      body .about__culture {
+        width: 145px;
+        height: 47px;
+        background-color: #f7f7f7;
+        padding: 9px; }
+        body .about__culture--img {
+          width: 28px;
+          height: 19px;
+          display: inline-block; }
+      body .about__job {
+        padding: 9px;
+        width: 140px;
+        height: 47px;
+        background-color: #f7f7f7; }
+        body .about__job--img {
+          width: 22px;
+          height: 26px;
+          display: inline-block; } }
   @media screen and (min-width: 1367px) {
     body .row {
       width: 1170px;
@@ -763,40 +807,24 @@ body {
     width: 722px;
     margin: 0 auto; }
   .footer li {
-    font-family: 'muliSemiBold';
     font-size: 13px;
     font-weight: 600;
-    text-align: left;
-    color: #f7f7f7;
-    list-style-type: none;
     padding: 0px 0px 11px 0px; }
   .footer h1 {
-    font-family: 'muliRegular';
     font-size: 14px;
-    text-align: left;
-    color: #ffffff;
     margin: 48px 0px 15px 0px; }
   .footer__list {
     background-color: black;
     height: 300px; }
     .footer__list--copyright {
-      display: flex;
-      justify-content: space-between;
-      border-top: solid 1px #979797;
       margin-top: 36px; }
       .footer__list--copyright h4 {
-        display: inline-block;
-        font-family: 'muliRegular';
         font-size: 14px;
-        text-align: left;
-        color: #f7f7f7;
         margin-top: 11px; }
     .footer__list--view {
       padding: 0px 0px 0px 17px !important; }
     .footer__list--social {
-      display: inline-block;
-      vertical-align: -webkit-baseline-middle;
-      margin-top: 11px; }
+      margin-top: 18px; }
       .footer__list--social img {
         width: 21px;
         height: 17px;
@@ -821,10 +849,12 @@ body {
       .footer__list--copyright h4 {
         font-size: 16px;
         text-align: left; }
-    .footer__list--social img {
-      width: 30px;
-      height: 24px;
-      margin-left: 16px; } }
+    .footer__list--social {
+      margin-top: 25px; }
+      .footer__list--social img {
+        width: 30px;
+        height: 24px;
+        margin-left: 16px; } }
 @media screen and (min-width: 1367px) {
   .footer .row {
     width: 1186px;
@@ -842,7 +872,9 @@ body {
         font-size: 16px;
         text-align: left;
         margin-top: 24px; }
-    .footer__list--social img {
-      width: 32px;
-      height: 26px;
-      margin-left: 20px; } }
+    .footer__list--social {
+      margin-top: 40px; }
+      .footer__list--social img {
+        width: 32px;
+        height: 26px;
+        margin-left: 20px; } }
