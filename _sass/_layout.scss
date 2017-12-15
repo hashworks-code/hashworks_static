@@ -8,7 +8,7 @@ body{
   }
  // dropdown header
 
-.productService,.about{
+.productService{
   position: relative;
   display: none;
   background-color: #ffffff;
@@ -48,47 +48,10 @@ body{
     }
   }
   @media screen and (min-width:768px){ 
-    .row{
-       width: 700px;
-       margin: 0 auto;
-       padding: 0px;
-    }
+   
     .paketo{
-      margin-left: 30px;
+      margin-left: 38px;
     }
-    h2{
-      font-family: 'muliBold';
-      font-size: 14px;
-      font-weight: bold;
-      padding-bottom: 16px;
-      color: #603c96;
-
-    }
-    h3{
-      font-family: 'muliRegular';
-      font-size: 12px;
-      line-height: 1.42;
-      text-align: left;
-      color: #3e3e3e;
-      width: 159px;
-      font-weight: 100;
-    }
-    h4{
-      font-family: 'muliRegular';
-      font-size: 12px;
-      line-height: 1.42;
-      text-align: center;
-      color: #3e3e3e;
-      font-weight: 100;
-    }
-    p{
-      font-family: 'muliRegular';
-      font-size: 10px;
-      line-height: 1.4;
-      text-align: center;
-      color: #3e3e3e;
-    }
- 
     .hashworks__head {
       display: flex;
       padding: 17px 0px 15px 34px;
@@ -132,17 +95,59 @@ body{
     }
     .productService{
      padding: 22px 0px 20px 0px;
-
+     .row{
+      width: 700px;
+      margin: 0 auto;
+      padding: 0px;
+   }
+      h2{
+      font-family: 'muliBold';
+      font-size: 14px;
+      font-weight: bold;
+      padding-bottom: 16px;
+      color: #603c96;
+    }
+    h3{
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.42;
+      text-align: left;
+      color: #3e3e3e;
+      width: 159px;
+      font-weight: 100;
+    }
+    h4{
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.42;
+      text-align: center;
+      color: #3e3e3e;
+      font-weight: 100;
+    }
+    p{
+      font-family: 'muliRegular';
+      font-size: 10px;
+      line-height: 1.4;
+      text-align: center;
+      color: #3e3e3e;
+    }
       img{
         width: 70px;
         height: 22px;
       }
-    
+    &--listmargin{
+      margin-left: 80px;
+    }
       &--productContent{
         border-right: solid 1px #dadada;
         height: 141px;
-        margin-right: -20px;
-      
+        padding-right: 40px;
+      }
+      &--alignment{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
         max-width: 100px;
@@ -156,25 +161,49 @@ body{
          border-top:  solid 1px #dadada;
          padding-top: 36px;
 
-      &--serviceContent{
+      &--content{
          width: 159px;
       }
-      &--mobile, &--ops, &--data, &--cloud,{
-         padding: 28px 13px;
+      &--mobile{
+         padding-left: 80px;
         
       }
     }
    }
   // about 
   .about{
+    margin: 25px 0px;
+    .row{
+      width: 700px;
+      margin: 0 auto;
+      padding: 0px;
+   }
     p{
       display: inline-block;
       padding-left: 9px;
       font-size: 12px;
-      vertical-align: super;
+      vertical-align: top;
+      font-family: 'muliRegular';
+      line-height: 1.4;
+      text-align: center;
+      color: #3e3e3e;
      }
+     h2{
+      font-family: 'muliBold';
+      font-size: 14px;
+      font-weight: bold;
+      padding-bottom: 16px;
+      color: #603c96;
+    }
      h3{
-       font-size: 14px;
+  
+       font-family: 'muliRegular';
+       font-size: 12px;
+       line-height: 1.42;
+       text-align: left;
+       color: #3e3e3e;
+       width: 159px;
+       font-weight: 100;
      }
      &--algin{
       width: 451px;
@@ -229,16 +258,15 @@ body{
   
   }
   @media screen and (min-width:1025px){ 
-    .row{
-      width: 940px;
-      margin: 0 auto;
-      padding: 0px;
-   }
-   .paketo{
-     margin-left: 65px;
-   }
+    
+  
     .hashworks__head {
       padding: 25px 0px 23px 43px;
+      .row{
+        width: 940px;
+        margin: 0 auto;
+        padding: 0px;
+     }
       &--logo{
         height: 31px;
       }
@@ -269,8 +297,16 @@ body{
       border-bottom: 10px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
+    .paketo{
+      margin-left:48px;
+    }
     .productService{
       padding: 38px 0px;
+      .row{
+        width: 940px;
+        margin: 0 auto;
+        padding: 0px;
+     }
       h2{
       
         font-size: 16px;
@@ -294,9 +330,15 @@ body{
     
       &--productContent{
         border-right: solid 1px #dadada;
-        margin-left: -35px;
         height: 178px;
+        padding-right: 28px;
         
+      }
+      &--alignment{
+        width: 689px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
         max-width: 140px;
@@ -311,29 +353,87 @@ body{
          border-top:  solid 1px #dadada;
          padding-top: 36px;
 
-      &--serviceContent{
-         width: 159px;
-      }
-      &--mobile, &--ops, &--data, &--cloud,{
-         padding: 28px 0px;
-        
-      }
+         &--content{
+          width: 241px;
+       }
+   
     }
    }
-  }
-  
-  @media screen and (min-width:1367px){ 
+    // about 
+  .about{
+    margin: 25px 0px;
     .row{
-      width:1170px;
+      width: 940px;
       margin: 0 auto;
       padding: 0px;
    }
+    p{
+      padding-left: 9px;
+      font-size: 14px;
+     }
+     h3{
+       font-size: 14px;
+       width: 220px;
+     }
+     &--algin{
+      width: 630px;
+      margin-left: 48px;
+     }
+     &__Content{
+      height: 141px;
+      padding-right: 40px;
+     
+     }
+   &__thinking{
+    padding: 7px 9px 8px 8px;
+    width: 140px;
+    height: 47px;
+    background-color: #f7f7f7;
+     &--img{
+       width: 22px;
+       height: 22px;
+       display: inline-block;
+     }
+   
+   }
+   &__culture{
+    width: 145px;
+    height: 47px;
+    background-color: #f7f7f7;
+    padding: 9px;
+    &--img{
+      width: 28px;
+      height: 19px;
+      display: inline-block;
+    }
+  
+  }
+  &__job{
+    padding: 9px;
+    width: 140px;
+    height: 47px;
+    background-color: #f7f7f7;
+    &--img{
+      width: 22px;
+      height: 26px;
+      display: inline-block;
+    }
+  }
+  }
+  }
+  
+  @media screen and (min-width:1367px){ 
+ 
    .paketo{
      margin-left: 65px;
    }
     .hashworks__head {
       padding: 23px 0px 22px 46px;
-     
+      .row{
+        width:1170px;
+        margin: 0 auto;
+        padding: 0px;
+     }
       &--list {
         right: 55px;
       }
@@ -363,6 +463,11 @@ body{
     }
     .productService{
       padding: 41px 0px;
+      .row{
+        width:1170px;
+        margin: 0 auto;
+        padding: 0px;
+     }
       h2{
       
         font-size: 16px;
@@ -387,10 +492,14 @@ body{
     
       &--productContent{
         border-right: solid 1px #dadada;
-        margin-left: -35px;
         height: 178px;
-        
       }
+      &--alignment {
+        width: 836px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
         background-color: #f7f7f7;
         padding: 30px 19px 16px 13px;
@@ -404,14 +513,79 @@ body{
          border-top:  solid 1px #dadada;
          padding-top: 36px;
 
-      &--serviceContent{
-         width: 159px;
+        &--content {
+          width: 305px;
       }
-      &--mobile, &--ops, &--data, &--cloud,{
-         padding: 28px 0px;
+      &--mobile{
+        padding-left: 95px;
         
       }
     }
+  }
+  .about{
+    margin: 25px 0px;
+    .row{
+      width: 1170px;
+      margin: 0 auto;
+      padding: 0px;
+   }
+    p{
+      padding-left: 22px;
+      font-size: 16px;
+     }
+     h3{
+       font-size: 16px;
+       width: 305px;
+     }
+     h2{
+       font-size: 16px;
+     }
+     &--algin{
+      width: 773px;
+      margin-left: 64px;
+     }
+     &__Content{
+      height: 141px;
+      padding-right: 27px;
+     
+     }
+   &__thinking{
+    padding: 18px 20px 20px 27px;;
+    width: 200px;
+    height: 68px;
+    background-color: #f7f7f7;
+     &--img{
+       width: 27px;
+       height: 30px;
+       display: inline-block;
+     }
+   
+   }
+   &__culture{
+    width: 200px;
+    height: 68px;
+    padding: 18px 15px 20px 24px;
+    background-color: #f7f7f7;
+   
+    &--img{
+      width: 36px;
+      height: 24px;
+      display: inline-block;
+    }
+  
+  }
+  &__job{
+    padding: 9px;
+    width: 200px;
+    height: 68px;
+    padding: 18px 15px 20px 24px;
+    background-color: #f7f7f7;
+    &--img{
+      width: 29px;
+      height: 36px;
+      display: inline-block;
+    }
+  }
   }
   }
 
