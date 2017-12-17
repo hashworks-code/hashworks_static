@@ -21,34 +21,323 @@ body{
   display: none;
 }
 
-  @media screen and (min-width:320px){
-    .hashworks__head {
-      position: relative;
+
+@media screen and (min-width:320px){
+  .hashworks__head{
+    display: none;
+  }
+
+  .logo{
+    position: absolute;
+    padding: 16px 0px 17px 10px;
+  }
+  .productDetails{
+  background-color: white;
+  }
+  
+  .menulist{
+    position: absolute;
+    display: block;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    padding: 32px 0px 17px 0px;
+    list-style-type: none;
+   li{
+    list-style-type: none;
+   }
+    a{
+      display: block;    
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: left;
+      color: #4a4a4a;
+      padding:0px 30px 12px 28px;
+      text-decoration: none;
+    }
+  }
+  
+  // #cssmenu > ul > li.has-sub > a:after,#cssmenu > ul > li.has-sub > a:before,#cssmenu ul ul > li.has-sub > a:after,#cssmenu ul ul > li.has-sub > a:before{display:none}
+  #cssmenu #head-mobile{
+    display: block;
+    padding: 25px 0px 25px 0px;
+   
+    //product
+  }
+  
+  .product_view{
+    background-color: none;
+    h2{
+      font-family: 'muliBold';
+      font-size: 12px;
+      font-weight: bold;
+      padding-bottom: 8px;
+      color: #603c96;
+      margin-top: 25px;
+    }
+    h3{
+      font-family: 'muliRegular';
+      font-size: 10px;
+      line-height: 1.42;
+      text-align: left;
+      color: #3e3e3e;
+      font-weight: 100;
+      padding-bottom: 16px;
+    }
+    h4{
+      font-family: 'muliRegular';
+      font-size: 10px;
+      line-height: 1.42;
+      text-align: center;
+      color: #3e3e3e;
+      font-weight: 100;
+    }
+    p{
+      font-family: 'muliRegular';
+      font-size: 10px;
+      line-height: 1.4;
+      text-align: center;
+      color: #3e3e3e;
+      padding: 7px 0px 0px 7px;
+    }
+    img{
+      width: 70px;
+      height: 22px;
+      padding-left: 9px;
+    }
+    &--content{
+      width: 100%;
+    }
+  &--listmargin{
+   
+  }
+    &--productContent{
+      border-right: solid 1px #dadada;
+  
+    }
+    &--alignment{
       display: flex;
-      padding: 16px 0px 17px 10px;
-      background-color: #ffffff;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-      border: solid 1px #f7f7f7;
-     &--logo{
-       height: 17px;
-     }
-      &--list {
-        position: absolute;
-        right: 20px;
+      align-items: center;
+      justify-content: space-around;
+      // margin: 17px 0px 10px 0px;
+    }
+    &--alignment1{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 15px 0px 16px 0px;
+    }
+    &--paketo, &--littlebhrahma, &--groome, &--frugal{
+      max-width: 100px;
+      background-color: #f7f7f7;
+      height: 88px;
+      padding: 19px 6px 0px 2px;
+      margin-right: 10px;
+     
+    }
+    .service__view{
+      border-top: solid 1px #dadada; 
+      h2{
+        font-size: 14px;
+        margin-top:16px;
       }
-      &--home,&--product,&--case,&--blog,&--about,&--contact{
-      display: none;
+      h3{
+        font-size: 14px;
       }
-      &--toggle{
-       position: absolute;
-       right: 10px;
-       top: 20px;
-       bottom: 20px;
+      h4{
+        font-size: 12px;
+        text-align: left;
+        padding: 8px 0px;
+      }
+      &--content{
+        width: 100%;
       }
     }
   }
-  @media screen and (min-width:768px){ 
+      // about 
+      .aboutDetails{
+    background-color: white;
+    padding: 25px 30px 35px 29px;
+  }
+      .about__view{
+     
+        p{
+          display: inline-block;
+          font-size: 12px;
+          vertical-align: super;
+          font-family: 'muliRegular';
+          line-height: 1.4;
+          text-align: center;
+          color: #3e3e3e;
+         }
+         h2{
+          font-family: 'muliBold';
+          font-size: 12px;
+          font-weight: bold;
+          color: #603c96;
+        }
+         h3{
+      
+           font-family: 'muliRegular';
+           font-size: 10px;
+           line-height: 1.58;
+           text-align: left;
+           color: #3e3e3e;
+           font-weight: 100;
+           padding: 8px 0px 26px 0px;
+         }
+         &--algin{
+          width: 100%;
+         
+         }
+       
+       &__thinking{
+        padding: 7px 9px 8px 8px;
+        width: 116px;
+        height: 36px;
+        background-color:  #f7f7f7;;
+        margin-bottom: 18px;
+         &--img{
+           width: 19px;
+           height: 22px;
+           display: inline-block;
+         }
+       
+       }
+       &__culture{
+        width: 128px;
+        height: 36px;
+        background-color:  #f7f7f7;;
+        margin-bottom: 18px;
+        padding: 9px;
+        &--img{
+          width: 25px;
+          height: 16px;
+          display: inline-block;
+        }
+      
+      }
+      &__job{
+        padding: 9px;
+        width: 116px;
+        height: 36px;
+        background-color:  #f7f7f7;;
+        &--img{
+          width: 17px;
+          height: 20px;
+          display: inline-block;
+        }
+      
+      }
+      }
+  
+  .button:after{
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    display: block;
+    height: 8px;
+    width: 20px;
+    border-top: 2px solid #603c96;
+    border-bottom: 2px solid #603c96;
+    content: "";
+  }
+  .button:before{
+    -webkit-transition:all .3s ease;
+    -ms-transition:all .3s ease;
+    transition:all .3s ease;
+    position:absolute;
+    top:16px;right:20px;
+    display:block;
+    height:2px;
+    width:20px;
+    background:#603c96;
+    content:''}
+  .button.menu-opened:after{
+    -webkit-transition:all .3s ease;
+    -ms-transition:all .3s ease;
+    transition:all .3s ease;
+    top:23px;border:0;height:2px;
+    width:19px;
+    background:#603c96;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);-ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg)
+    ;transform:rotate(45deg)}
+  .button.menu-opened:before{
+    top:23px;
+    background:#603c96;
+    width:19px;
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg)}
+  
+    //extra
+    #cssmenu ul li {
+      width: 100%;
+      position: relative;
+     
+  }
+  #cssmenu .submenu-button{
+  
+    position:absolute;
+    z-index:99;
+    right:0;top:0;
+    display:block;
+    height:46px;
+    width:46px;cursor:pointer}
+  
+  #cssmenu .submenu-button:after{position:absolute;
+    top:22px;
+    right:19px;
+    width:8px;
+    height:2px;
+    display:block;
+    background:rgb(90, 33, 33);
+    content:''}
+  
+  
+  #cssmenu .submenu-button:before{
+    position:absolute;
    
+    top:19px;
+    right:22px;
+    display:block;
+    width:2px;
+    height:8px;
+    background:rgb(204, 76, 76);content:''}
+  #cssmenu ul ul .submenu-button:before{
+    top:12px;right:16px}
+  #cssmenu .submenu-button.submenu-opened:before{
+    display:none}
+  
+  }
+  
+@media screen and (min-width:500px){
+  .product_view{
+  &--alignment{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 17px 0px 17px 0px;
+    width: 50%;
+  }
+  &--alignment1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 16px 0px 16px 0px;
+    width: 50%;
+  }}
+}
+  @media screen and (min-width:768px){ 
+    #cssmenu{
+      display: none;
+    }
+   .navbar-component{
+     display: none;
+   }
     .paketo{
       margin-left: 38px;
     }
@@ -259,7 +548,9 @@ body{
   }
   @media screen and (min-width:1025px){ 
     
-  
+    #cssmenu{
+      display: none;
+    }
     .hashworks__head {
       padding: 25px 0px 23px 43px;
       .row{
@@ -589,4 +880,83 @@ body{
   }
   }
 
+}
+
+
+
+
+// mobile view css for header
+.navbar-component{
+ 
+ .area {
+   display: flex;
+    flex-flow: row wrap; 
+    align-items: stretch;
+ }
+ .navbar {
+   & > .brand {
+     display: block;
+     margin: 16px 0px 17px 10px;
+   }
+   // Toggle button
+   & > .toggle {
+     border: 0;
+     right: 0px;
+     position: absolute;
+     background-color: transparent;
+     outline: none;
+     cursor: pointer;
+     padding: 17px 10px 14px 0px;
+   }
+   & > .toggle > .icon {
+     position: relative;
+     margin-top: 8px;
+     margin-bottom: 8px;
+     
+     &,
+     &:before,
+     &:after {
+       display: block;
+       width: 24px;
+       height: 3px;
+       transition: background-color 0.3s linear, transform 0.3s linear;
+       background-color: #603c96;
+     }
+     
+     &:before, &:after {
+        position: absolute; content: ""; }
+     &:before { top: -8px; }
+     &:after { top: 8px; }
+   }
+   
+   & > .toggle.-active > .icon {
+     background-color: transparent;
+     
+     &:before { transform: translateY(8px) rotate(45deg); }
+     &:after { transform: translateY(-8px) rotate(-45deg); }
+   }
+   
+   // List of items
+   & > .list {
+     display: none;
+     width: 100%;
+     border-top: 1px solid #ddd;
+     
+     &.-on {
+       display: block;
+       padding: 20px 28px 17px 30px;
+       position: relative;
+       background-color: #f7f7f7;
+     }
+   }
+  
+   & > .list > .item {
+     display: block;    
+     font-family: 'muliRegular';
+     font-size: 24px;
+     text-align: left;
+     color: #4a4a4a;
+     padding-top: 12px;
+   }
+ }
 }
