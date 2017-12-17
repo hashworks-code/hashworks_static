@@ -1,0 +1,403 @@
+@media screen and (min-width:320px){ 
+   .hashworks__casestudy {
+       .row{
+        width: 270px;
+        margin: 0px auto;
+        padding: 0;
+        }
+        .casestudy__image{
+            background-image: url(../assets/image/casestudy/1.png);
+              background-size: 100% 100%;
+             background-repeat: no-repeat;
+            width: 100%;
+            height: 249px;
+            
+          h1 {
+              font-family: 'muliRegular';
+               font-size: 24px;
+               text-align: left;
+               color: #ffffff;
+                margin: 113px 0px 16px 0px;
+          }
+        }
+        .casestudy__overview{
+            background-color: #000000;
+            height: 330px;
+            width: 100%;
+            padding: 0;
+            
+
+            h1 {
+                font-family: 'muliBold';
+                font-size: 12px;
+                font-weight: bold;
+                text-align: left;
+                color: #ffffff;
+                margin-bottom: 8px;
+            }
+            p {
+                 font-family: 'muliLight';
+                 font-size: 10px;
+                 font-weight: 300;
+                 line-height: 1.6;
+                 text-align: left;
+                 color: #ffffff;
+                 margin-bottom: 8px;
+            }
+                &__text {
+                    margin: 36px 0px 16px 0px;
+                    padding: 0;
+                }
+            &__boxes {
+                h1 {
+                    font-family: 'muliRegular';
+                    font-size: 24px;
+                    text-align: left;
+                    color: #ffffff;
+                    margin: 12px 0px 24px 26px;
+                }
+                p {
+                    font-family: 'muliRegular';
+                    font-size: 16px;
+                    text-align: left;
+                    color: #ffffff; 
+                    margin: 0px 17px 17px 26px;
+                }
+                &__box {
+                     width: 155px;
+                     height: 123px;
+                     margin: 32px 0px 0px 2px;
+                     background-color: #603c96;
+                     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+                }
+                &__box1 {
+                    h1 {
+                        color: #603c96;
+                    }
+                    p {
+                        color: #4a4a4a;
+                    }
+                     width: 155px;
+                     height: 123px;
+                     background-color: #ffffff;
+                     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+                     margin: -134px 0px 0px 162px;
+                }
+            }
+        }
+        
+        .casestudy__product {
+            height: 257px;
+            width: 100%;
+          
+            h1 {
+               font-family: 'muliSemiBold';
+                font-size: 16px;
+                font-weight: 600;
+                text-align: center;
+                color: #603c96;
+                width: 100%;
+                margin: 74px 0px 16px 0px;
+            }
+            p {
+               font-family: 'muliRegular';
+              font-size: 12px;
+               line-height: 1.5;
+              text-align: center;
+              color: #3e3e3e;
+              width: 100%;
+              margin-bottom: 36px;
+            }
+        }
+        .casestudy__image2 {
+            background-image: url(../assets/image/casestudy/2.png);
+              background-size: 100% 100%;
+             background-repeat: no-repeat;
+            width: 100%;
+            height: 170px;
+        }
+        .casestudy__agile {
+            h1 {
+               font-family: 'muliBold';
+               font-size: 12px;
+               font-weight: bold;
+               text-align: center;
+               color: #4a4a4a;
+               width: 100%;
+               margin: 34px 0px 16px 0px;
+            }
+            h2 {
+                font-family: 'muliSemiBold';
+               font-size: 16px;
+               font-weight: 600;
+               text-align: center;
+               color: #603c96;
+               width: 100%;
+            }
+            p {
+                 font-family: 'muliRegular';
+                 font-size: 12px;
+                 line-height: 1.5;
+                 text-align: center;
+                 color: #3e3e3e;
+                 width: 100%;
+                 margin: 6px 0px 52px 0px;
+            }
+        }
+        .casestudy__image3 {
+            background-image: url(../assets/image/casestudy/3.png);
+              background-size: 100% 100%;
+             background-repeat: no-repeat;
+            width: 100%;
+            height: 120px;
+        }
+        .casestudy__outcome {
+            
+            h2 {
+                font-family: 'muliSemiBold';
+               font-size: 16px;
+               font-weight: 600;
+               text-align: center;
+               color: #603c96;
+               width: 100%;
+               margin: 36px 0px 8px 0px;
+            }
+            p {
+                 font-family: 'muliRegular';
+                 font-size: 12px;
+                 line-height: 1.5;
+                 text-align: center;
+                 color: #3e3e3e;
+                 width: 100%;
+                  margin-bottom: 36px;
+            }
+        }
+        .casestudy__mobiledata {
+            .row {
+                width: 320px;
+                margin: 0 auto;
+            }
+            h1 {
+                font-family: 'muliBold';
+                font-size: 12px;
+                font-weight: bold;
+                text-align: left;
+                color: #4a4a4a;
+                margin: 16px 0px 8px 24px;
+            }
+            p {
+                font-family: 'muliRegular';
+                font-size: 12px;
+                line-height: 1.5;
+                text-align: left;
+                color: #3e3e3e;
+                margin: 0px 24px 33px 24px;
+            }
+
+            &__mobile {
+                padding: 0;
+                &__image4 {
+                    background-image: url(../assets/image/casestudy/4.png);
+              background-size: 100% 100%;
+             background-repeat: no-repeat;
+            width: 100%;
+            height: 196px;
+                }
+        &__image5 {
+                    background-image: url(../assets/image/casestudy/5.png);
+              background-size: 100% 100%;
+             background-repeat: no-repeat;
+            width: 100%;
+            height: 202px;
+                }
+            }
+        }
+  
+   } 
+}
+
+@media screen and (min-width:768px){ 
+    .hashworks__casestudy { 
+       .row{
+        width: 703px;
+        }
+        .casestudy__image{
+            height: 320px;
+            
+          h1 {
+               font-size: 32px;
+                 margin: 200px 121px 32px 0px;
+                 line-height: 1.38;
+            }
+   
+        }
+        .casestudy__overview{
+          //  background-color: #000000;
+            height: 227px;
+            // width: 100%;
+            // padding: 0;
+            
+
+            h1 {
+                // font-family: 'muliBold';
+                font-size: 14px;
+                // font-weight: bold;
+                // text-align: left;
+                // color: #ffffff;
+                margin-bottom: 14px;
+            }
+            p {
+                 font-family: 'muliRegular';
+                 font-size: 14px;
+                //  font-weight: 300;
+                 line-height: 1.5;
+                //  text-align: left;
+                //  color: #ffffff;
+               //  margin-bottom: 45px;
+            }
+                &__text {
+                    margin: 46px 0px 45px 0px;
+                    padding: 0;
+                }
+            &__boxes {
+                h1 {
+                    font-family: 'muliRegular';
+                    font-size: 24px;
+                    text-align: left;
+                    color: #ffffff;
+                    margin: 12px 0px 24px 26px;
+                }
+                p {
+                    font-family: 'muliRegular';
+                    font-size: 16px;
+                    text-align: left;
+                    color: #ffffff; 
+                    margin: 0px 17px 17px 26px;
+                }
+                &__box {
+                     width: 155px;
+                     height: 123px;
+                     margin: 32px 0px 0px 2px;
+                     background-color: #603c96;
+                     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+                }
+                &__box1 {
+                    h1 {
+                        color: #603c96;
+                    }
+                    p {
+                        color: #4a4a4a;
+                    }
+                     width: 155px;
+                     height: 123px;
+                     background-color: #ffffff;
+                     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+                     margin: -134px 0px 0px 162px;
+                }
+            }
+        }
+        .casestudy__product {
+            height: 257px;
+            width: 100%;
+          
+            h1 {
+               font-family: 'muliSemiBold';
+                font-size: 16px;
+                font-weight: 600;
+                text-align: center;
+                color: #603c96;
+                width: 100%;
+                margin: 74px 0px 16px 0px;
+            }
+            p {
+               font-family: 'muliRegular';
+              font-size: 12px;
+               line-height: 1.5;
+              text-align: center;
+              color: #3e3e3e;
+              width: 100%;
+              margin-bottom: 36px;
+            }
+        }
+        .casestudy__image2 {
+            // background-image: url(../assets/image/casestudy/2.png);
+            //   background-size: 100% 100%;
+            //  background-repeat: no-repeat;
+            width: 100%;
+            height: 374px;
+            // margin: 0px 35px;
+        }
+        .casestudy__agile {
+            h1 {
+              // font-family: 'muliBold';
+               font-size: 14px;
+            //    font-weight: bold;
+            //    text-align: center;
+            //    color: #4a4a4a;
+            //    width: 100%;
+               margin: 33px 0px 16px 0px;
+            }
+            h2 {
+               // font-family: 'muliSemiBold';
+               font-size: 18px;
+            //    font-weight: 600;
+            //    text-align: center;
+            //    color: #603c96;
+            //    width: 100%;
+            }
+            p {
+               //  font-family: 'muliRegular';
+                 font-size: 14px;
+                 line-height: 1.64;
+                //  text-align: center;
+                //  color: #3e3e3e;
+                //  width: 100%;
+                 margin: 0px 68px 36px 70px;
+            }
+        }
+        .casestudy__image3 {
+            height: 227px;
+        }
+        .casestudy__outcome {
+            
+            h2 {
+               font-size: 18px;
+               margin: 36px 120px 16px 130px;
+            }
+            p {
+                 font-size: 14px;
+                 line-height: 1.64;
+                  margin:0px 77px 36px 69px;
+            }
+        }
+        .casestudy__mobiledata {
+            .row {
+                width: 700px;
+                margin: 0 auto;
+            }
+            h1 {
+                font-size: 14px;
+                margin: 36px 0px 16px 0px;
+            }
+            p {
+                font-size: 14px;
+                margin: 0px 0px 36px 0px;
+            }
+
+            &__mobile {
+                 padding: 0;
+                &__image4 {
+            width: 340px;
+            height: 187px;
+                }
+        &__image5 {
+            width: 340px;
+            height: 187px;
+                }
+            }
+        }
+
+
+    }
+     
+}
