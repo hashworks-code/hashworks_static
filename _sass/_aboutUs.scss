@@ -1,3 +1,16 @@
+
+		ul.tabs li.current{
+			color:#603c96;
+		}
+
+		.tab-content{
+			display: none;
+		}
+
+		.tab-content.current{
+            display: inherit;
+            padding: 0px;
+		}
 @media only screen and (min-width:320px){
 .aboutus{
     .border{
@@ -53,10 +66,13 @@
     }
 }
     &__thinking{
-        display: none;
-        .row{
-            width: 266px;
+       &--container1{
+           width: 266px;
             margin: 0 auto;
+       }
+        .row{
+            // width: 266px;
+            // margin: 0 auto;
         }
        h2{
         font-family:'muliBold';
@@ -127,9 +143,7 @@
         }
     }
     }
-    &__thinking.thinkingtab{
-        display: inherit;
-    }
+  
    
 }
 // about company css
@@ -232,10 +246,10 @@
     }
 }
     &__thinking{
-        display: none;
-        .row{
+     
+        &--container1{
             width: 461px;
-            margin: 0 auto;
+             margin: 0 auto;
         }
        h2{
         font-size: 18px;
@@ -263,7 +277,7 @@
      }
      &--ourculture{
         padding-bottom: 51px;
-        .row{
+        &--container1{
             width: 580px;
             margin: 0 auto;
         }
@@ -284,9 +298,7 @@
         }
     }
     }
-    &__thinking.thinkingtab{
-        display: inherit;
-    }
+  
 }
 // about company css
 .aboutus__company{
@@ -360,10 +372,10 @@
         }
     }
         &__thinking{
-            display: none;
-            .row{
+           
+            &--container1{
                 width: 731px;
-                margin: 0 auto;
+                 margin: 0 auto;
             }
            h2{
             font-size: 24px;
@@ -391,9 +403,9 @@
          }
          &--ourculture{
             padding-bottom: 51px;
-            .row{
+            &--container1{
                 width: 799px;
-                margin: 0 auto;
+                 margin: 0 auto;
             }
             .culture{
                  padding-top: 64px;
@@ -480,10 +492,10 @@
             }
         }
             &__thinking{
-                display: none;
-                .row{
+               
+                &--container1{
                     width: 731px;
-                    margin: 0 auto;
+                     margin: 0 auto;
                 }
                h2{
                 font-size: 32px;
@@ -511,9 +523,9 @@
              }
              &--ourculture{
                 padding-bottom: 100px;
-                .row{
+                &--container1{
                     width: 985px;
-                    margin: 0 auto;
+                     margin: 0 auto;
                 }
                 .culture{
                      padding-top:32px;
