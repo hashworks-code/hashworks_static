@@ -2185,3 +2185,410 @@ body {
         width: 32px;
         height: 26px;
         margin-left: 20px; } }
+@media only screen and (min-width: 320px) {
+  .aboutus .border {
+    border-top: solid 1px #e0e0e0;
+    margin-top: 32px; }
+  .aboutus__headImg {
+    background-image: url(../assets/image/aboutus/origami@2x.png);
+    background-repeat: no-repeat;
+    height: 229px;
+    width: 100%;
+    background-size: 100% 100%;
+    object-fit: contain; }
+  .aboutus__content1 {
+    height: 229px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 16px 28px;
+    font-family: 'muliRegular';
+    font-size: 24px;
+    text-align: left;
+    color: #ffffff; }
+    .aboutus__content1 h1 {
+      padding: 188px 0px 0px 28px;
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: left;
+      color: #ffffff; }
+  .aboutus__tab {
+    border: solid 1px #d3d3d3;
+    display: flex;
+    justify-content: center; }
+    .aboutus__tab--list {
+      margin: 0px;
+      padding: 0px;
+      list-style: none; }
+      .aboutus__tab--list li {
+        font-family: 'muliBold';
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        color: #838383;
+        cursor: pointer;
+        display: inline-block;
+        margin: 20px 45px 15px 45px; }
+  .aboutus__thinking {
+    display: none; }
+    .aboutus__thinking .row {
+      width: 266px;
+      margin: 0 auto; }
+    .aboutus__thinking h2 {
+      font-family: 'muliBold';
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      color: #603c96;
+      padding: 32px 0px 0px 0px; }
+    .aboutus__thinking p {
+      width: 265px;
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: center;
+      color: #3e3e3e;
+      padding-top: 16px; }
+    .aboutus__thinking h3 {
+      font-family: 'muliSemiBold';
+      font-size: 16px;
+      font-weight: 600;
+      text-align: left;
+      color: #898989; }
+    .aboutus__thinking--capitalImage {
+      background-image: url(../assets/image/aboutus/1.svg);
+      background-repeat: no-repeat;
+      height: 160px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain; }
+    .aboutus__thinking--clientImage {
+      background-image: url(../assets/image/aboutus/2.svg);
+      background-repeat: no-repeat;
+      height: 160px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain; }
+    .aboutus__thinking--industryImage {
+      background-image: url(../assets/image/aboutus/3.svg);
+      background-repeat: no-repeat;
+      height: 160px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain; }
+    .aboutus__thinking--ourculture {
+      padding-bottom: 51px; }
+      .aboutus__thinking--ourculture .culture {
+        padding-top: 50px; }
+    .aboutus__thinking--grew {
+      background-color: #603c96; }
+      .aboutus__thinking--grew p {
+        width: 100%;
+        font-family: 'muliBold';
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        padding: 54px 59px 32px 59px; }
+  .aboutus__thinking.thinkingtab {
+    display: inherit; }
+
+  .aboutus__company {
+    background-color: #f7f7f7; }
+    .aboutus__company .row {
+      width: 266px;
+      margin: 0 auto; }
+    .aboutus__company h1 {
+      font-family: 'muliBold';
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      color: #603c96; }
+    .aboutus__company p {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: center;
+      color: #3e3e3e;
+      margin: 12px 0px 32px; }
+    .aboutus__company img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-left: 85px; }
+    .aboutus__company h2 {
+      font-family: 'muliBold';
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      color: #434343;
+      margin: 10px 0px; }
+    .aboutus__company h3 {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      text-align: center;
+      color: #434343;
+      margin-bottom: 64px; }
+    .aboutus__company--explore {
+      background-image: url(../assets/image/aboutus/group-6@2x.png);
+      background-repeat: no-repeat;
+      height: 92px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain; }
+      .aboutus__company--explore h1 {
+        font-family: 'muliBold';
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        height: 92px;
+        display: flex;
+        align-items: center;
+        justify-content: center; } }
+@media only screen and (min-width: 767px) {
+  .aboutus .border {
+    margin-top: 64px; }
+  .aboutus__headImg {
+    height: 230px;
+    width: 100%; }
+  .aboutus__content1 {
+    height: 230px;
+    padding: 29px 34px;
+    font-size: 24px; }
+    .aboutus__content1 h1 {
+      padding: 161px 0px 0px 34px;
+      font-size: 36px; }
+  .aboutus__tab {
+    display: flex;
+    justify-content: center; }
+    .aboutus__tab--list li {
+      margin: 24px 52px;
+      font-size: 14px; }
+  .aboutus__thinking {
+    display: none; }
+    .aboutus__thinking .row {
+      width: 461px;
+      margin: 0 auto; }
+    .aboutus__thinking h2 {
+      font-size: 18px;
+      padding: 64px 0px 0px 0px; }
+    .aboutus__thinking p {
+      width: 460px;
+      font-size: 14px;
+      padding-top: 32px; }
+    .aboutus__thinking h3 {
+      font-size: 18px; }
+    .aboutus__thinking--capitalImage {
+      height: 300px;
+      margin-top: 32px; }
+    .aboutus__thinking--clientImage {
+      height: 300px;
+      margin-top: 32px; }
+    .aboutus__thinking--industryImage {
+      height: 300px;
+      margin-top: 32px; }
+    .aboutus__thinking--ourculture {
+      padding-bottom: 51px; }
+      .aboutus__thinking--ourculture .row {
+        width: 580px;
+        margin: 0 auto; }
+      .aboutus__thinking--ourculture .culture {
+        padding-top: 64px; }
+      .aboutus__thinking--ourculture p {
+        width: 100%;
+        padding: 16px 0px 0px 22px; }
+    .aboutus__thinking--grew {
+      background-color: #603c96; }
+      .aboutus__thinking--grew p {
+        font-size: 18px;
+        padding: 50px 59px 53px 59px;
+        width: 100%; }
+  .aboutus__thinking.thinkingtab {
+    display: inherit; }
+
+  .aboutus__company {
+    background-color: #f7f7f7; }
+    .aboutus__company .row {
+      width: 537px;
+      margin: 0 auto; }
+    .aboutus__company h1 {
+      font-size: 18px; }
+    .aboutus__company p {
+      font-size: 14px;
+      margin: 12px 0px 32px; }
+    .aboutus__company img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-left: 95px; }
+    .aboutus__company h2 {
+      font-size: 14px;
+      margin: 10px 0px; }
+    .aboutus__company h3 {
+      font-size: 14px;
+      margin-bottom: 64px; }
+    .aboutus__company--explore h1 {
+      font-size: 18px; } }
+@media only screen and (min-width: 1025px) {
+  .aboutus__headImg {
+    height: 306px;
+    width: 100%; }
+  .aboutus__content1 {
+    height: 306px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 31px 43px;
+    font-family: 'muliRegular';
+    font-size: 48px;
+    text-align: left;
+    color: #ffffff; }
+    .aboutus__content1 h1 {
+      padding: 161px 0px 0px 34px;
+      font-size: 36px; }
+  .aboutus__tab--list li {
+    margin: 25px 55px;
+    font-size: 16px; }
+  .aboutus__thinking {
+    display: none; }
+    .aboutus__thinking .row {
+      width: 731px;
+      margin: 0 auto; }
+    .aboutus__thinking h2 {
+      font-size: 24px;
+      padding: 64px 0px 0px 0px; }
+    .aboutus__thinking p {
+      width: 731px;
+      font-size: 16px;
+      padding-top: 33px; }
+    .aboutus__thinking h3 {
+      font-size: 24px; }
+    .aboutus__thinking--capitalImage {
+      height: 430px;
+      margin-top: 32px; }
+    .aboutus__thinking--clientImage {
+      height: 430px;
+      margin-top: 32px; }
+    .aboutus__thinking--industryImage {
+      height: 430px;
+      margin-top: 32px; }
+    .aboutus__thinking--ourculture {
+      padding-bottom: 51px; }
+      .aboutus__thinking--ourculture .row {
+        width: 799px;
+        margin: 0 auto; }
+      .aboutus__thinking--ourculture .culture {
+        padding-top: 64px; }
+      .aboutus__thinking--ourculture p {
+        width: 100%;
+        padding: 16px 21px 0px 34px; }
+    .aboutus__thinking--grew {
+      background-color: #603c96; }
+      .aboutus__thinking--grew p {
+        font-size: 24px;
+        padding: 69px 0px; }
+
+  .aboutus__company {
+    background-color: #f7f7f7; }
+    .aboutus__company .row {
+      width: 731px;
+      margin: 0 auto; }
+    .aboutus__company h1 {
+      font-size: 24px; }
+    .aboutus__company p {
+      font-size: 16px;
+      margin: 12px 0px 67px; }
+    .aboutus__company img {
+      width: 124px;
+      height: 124px;
+      border-radius: 50%;
+      margin-left: 120px; }
+    .aboutus__company h2 {
+      font-size: 16px;
+      margin: 10px 0px; }
+    .aboutus__company h3 {
+      font-size: 16px;
+      margin-bottom: 75px; }
+    .aboutus__company--explore {
+      height: 124px;
+      object-fit: contain; }
+      .aboutus__company--explore h1 {
+        font-size: 24px;
+        height: 124px; } }
+@media only screen and (min-width: 1367px) {
+  .aboutus__headImg {
+    height: 430px;
+    width: 100%; }
+  .aboutus__content1 {
+    height: 430px;
+    padding: 33px 134px;
+    font-size: 56px; }
+    .aboutus__content1 h1 {
+      padding: 161px 0px 0px 34px;
+      font-size: 36px; }
+  .aboutus__tab--list li {
+    margin: 24px 50px;
+    font-size: 18px; }
+  .aboutus__thinking {
+    display: none; }
+    .aboutus__thinking .row {
+      width: 731px;
+      margin: 0 auto; }
+    .aboutus__thinking h2 {
+      font-size: 32px;
+      padding: 64px 0px 0px 0px; }
+    .aboutus__thinking p {
+      width: 731px;
+      font-size: 18px;
+      padding-top: 33px; }
+    .aboutus__thinking h3 {
+      font-size: 24px; }
+    .aboutus__thinking--capitalImage {
+      height: 557px;
+      margin-top: 32px; }
+    .aboutus__thinking--clientImage {
+      height: 557px;
+      margin-top: 32px; }
+    .aboutus__thinking--industryImage {
+      height: 557px;
+      margin-top: 32px; }
+    .aboutus__thinking--ourculture {
+      padding-bottom: 100px; }
+      .aboutus__thinking--ourculture .row {
+        width: 985px;
+        margin: 0 auto; }
+      .aboutus__thinking--ourculture .culture {
+        padding-top: 32px; }
+      .aboutus__thinking--ourculture p {
+        width: 100%;
+        padding: 16px 21px 32px 34px; }
+    .aboutus__thinking--grew {
+      background-color: #603c96; }
+      .aboutus__thinking--grew p {
+        width: 100%;
+        font-size: 32px;
+        padding: 98px 0px; }
+
+  .aboutus__company h1 {
+    font-size: 32px; }
+  .aboutus__company p {
+    font-size: 18px;
+    margin: 16px 0px 52px; }
+  .aboutus__company img {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    margin-left: 105px; }
+  .aboutus__company h2 {
+    font-size: 18px;
+    margin: 10px 0px; }
+  .aboutus__company h3 {
+    font-size: 18px;
+    margin-bottom: 65px; }
+  .aboutus__company--explore {
+    height: 175px;
+    object-fit: contain; }
+    .aboutus__company--explore h1 {
+      font-size: 32px;
+      height: 175px; } }
