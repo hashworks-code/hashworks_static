@@ -29,25 +29,249 @@ body {
     display: none; }
   @media screen and (min-width: 320px) {
     body .hashworks__head {
-      position: relative;
+      display: none; }
+    body .logo {
+      position: absolute;
+      padding: 16px 0px 17px 10px; }
+    body .productDetails {
+      background-color: white; }
+    body .menulist {
+      position: absolute;
+      display: block;
+      background-color: #f7f7f7;
+      width: 100%;
+      padding: 32px 0px 17px 0px;
+      list-style-type: none; }
+      body .menulist li {
+        list-style-type: none; }
+      body .menulist a {
+        display: block;
+        font-family: 'muliRegular';
+        font-size: 24px;
+        text-align: left;
+        color: #4a4a4a;
+        padding: 0px 30px 12px 28px;
+        text-decoration: none; }
+    body #cssmenu #head-mobile {
+      display: block;
+      padding: 25px 0px 25px 0px; }
+    body .product_view {
+      background-color: none; }
+      body .product_view h2 {
+        font-family: 'muliBold';
+        font-size: 12px;
+        font-weight: bold;
+        padding-bottom: 8px;
+        color: #603c96;
+        margin-top: 25px; }
+      body .product_view h3 {
+        font-family: 'muliRegular';
+        font-size: 10px;
+        line-height: 1.42;
+        text-align: left;
+        color: #3e3e3e;
+        font-weight: 100;
+        padding-bottom: 16px; }
+      body .product_view h4 {
+        font-family: 'muliRegular';
+        font-size: 10px;
+        line-height: 1.42;
+        text-align: center;
+        color: #3e3e3e;
+        font-weight: 100; }
+      body .product_view p {
+        font-family: 'muliRegular';
+        font-size: 10px;
+        line-height: 1.4;
+        text-align: center;
+        color: #3e3e3e;
+        padding: 7px 0px 0px 7px; }
+      body .product_view img {
+        width: 70px;
+        height: 22px;
+        padding-left: 9px; }
+      body .product_view--content {
+        width: 100%; }
+      body .product_view--productContent {
+        border-right: solid 1px #dadada; }
+      body .product_view--alignment {
+        display: flex;
+        align-items: center;
+        justify-content: space-around; }
+      body .product_view--alignment1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 15px 0px 16px 0px; }
+      body .product_view--paketo, body .product_view--littlebhrahma, body .product_view--groome, body .product_view--frugal {
+        max-width: 100px;
+        background-color: #f7f7f7;
+        height: 88px;
+        padding: 19px 6px 0px 2px;
+        margin-right: 10px; }
+      body .product_view .service__view {
+        border-top: solid 1px #dadada; }
+        body .product_view .service__view h2 {
+          font-size: 14px;
+          margin-top: 16px; }
+        body .product_view .service__view h3 {
+          font-size: 14px; }
+        body .product_view .service__view h4 {
+          font-size: 12px;
+          text-align: left;
+          padding: 8px 0px; }
+        body .product_view .service__view--content {
+          width: 100%; }
+    body .aboutDetails {
+      background-color: white;
+      padding: 25px 30px 35px 29px; }
+    body .about__view p {
+      display: inline-block;
+      font-size: 12px;
+      vertical-align: super;
+      font-family: 'muliRegular';
+      line-height: 1.4;
+      text-align: center;
+      color: #3e3e3e; }
+    body .about__view h2 {
+      font-family: 'muliBold';
+      font-size: 12px;
+      font-weight: bold;
+      color: #603c96; }
+    body .about__view h3 {
+      font-family: 'muliRegular';
+      font-size: 10px;
+      line-height: 1.58;
+      text-align: left;
+      color: #3e3e3e;
+      font-weight: 100;
+      padding: 8px 0px 26px 0px; }
+    body .about__view--algin {
+      width: 100%; }
+    body .about__view__thinking {
+      padding: 7px 9px 8px 8px;
+      width: 116px;
+      height: 36px;
+      background-color: #f7f7f7;
+      margin-bottom: 18px; }
+      body .about__view__thinking--img {
+        width: 19px;
+        height: 22px;
+        display: inline-block; }
+    body .about__view__culture {
+      width: 128px;
+      height: 36px;
+      background-color: #f7f7f7;
+      margin-bottom: 18px;
+      padding: 9px; }
+      body .about__view__culture--img {
+        width: 25px;
+        height: 16px;
+        display: inline-block; }
+    body .about__view__job {
+      padding: 9px;
+      width: 116px;
+      height: 36px;
+      background-color: #f7f7f7; }
+      body .about__view__job--img {
+        width: 17px;
+        height: 20px;
+        display: inline-block; }
+    body .button:after {
+      position: absolute;
+      top: 22px;
+      right: 20px;
+      display: block;
+      height: 8px;
+      width: 20px;
+      border-top: 2px solid #603c96;
+      border-bottom: 2px solid #603c96;
+      content: ""; }
+    body .button:before {
+      -webkit-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      transition: all .3s ease;
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      display: block;
+      height: 2px;
+      width: 20px;
+      background: #603c96;
+      content: ""; }
+    body .button.menu-opened:after {
+      -webkit-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      transition: all .3s ease;
+      top: 23px;
+      border: 0;
+      height: 2px;
+      width: 19px;
+      background: #603c96;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    body .button.menu-opened:before {
+      top: 23px;
+      background: #603c96;
+      width: 19px;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+    body #cssmenu ul li {
+      width: 100%;
+      position: relative; }
+    body #cssmenu .submenu-button {
+      position: absolute;
+      z-index: 99;
+      right: 0;
+      top: 0;
+      display: block;
+      height: 46px;
+      width: 46px;
+      cursor: pointer; }
+    body #cssmenu .submenu-button:after {
+      position: absolute;
+      top: 22px;
+      right: 19px;
+      width: 8px;
+      height: 2px;
+      display: block;
+      background: #5a2121;
+      content: ''; }
+    body #cssmenu .submenu-button:before {
+      position: absolute;
+      top: 19px;
+      right: 22px;
+      display: block;
+      width: 2px;
+      height: 8px;
+      background: #cc4c4c;
+      content: ''; }
+    body #cssmenu .submenu-button.submenu-opened:before {
+      display: none; } }
+  @media screen and (min-width: 500px) {
+    body .product_view--alignment {
       display: flex;
-      padding: 16px 0px 17px 10px;
-      background-color: #ffffff;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-      border: solid 1px #f7f7f7; }
-      body .hashworks__head--logo {
-        height: 17px; }
-      body .hashworks__head--list {
-        position: absolute;
-        right: 20px; }
-      body .hashworks__head--home, body .hashworks__head--product, body .hashworks__head--case, body .hashworks__head--blog, body .hashworks__head--about, body .hashworks__head--contact {
-        display: none; }
-      body .hashworks__head--toggle {
-        position: absolute;
-        right: 10px;
-        top: 20px;
-        bottom: 20px; } }
+      align-items: center;
+      justify-content: space-around;
+      margin: 17px 0px 17px 0px;
+      width: 50%; }
+    body .product_view--alignment1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 16px 0px 16px 0px;
+      width: 50%; } }
   @media screen and (min-width: 768px) {
+    body #cssmenu {
+      display: none; }
+    body .navbar-component {
+      display: none; }
     body .paketo {
       margin-left: 38px; }
     body .hashworks__head {
@@ -209,6 +433,8 @@ body {
           height: 20px;
           display: inline-block; } }
   @media screen and (min-width: 1025px) {
+    body #cssmenu {
+      display: none; }
     body .hashworks__head {
       padding: 25px 0px 23px 43px; }
       body .hashworks__head .row {
@@ -441,6 +667,61 @@ body {
           width: 29px;
           height: 36px;
           display: inline-block; } }
+
+.navbar-component .area {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch; }
+.navbar-component .navbar > .brand {
+  display: block;
+  margin: 16px 0px 17px 10px; }
+.navbar-component .navbar > .toggle {
+  border: 0;
+  right: 0px;
+  position: absolute;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 17px 10px 14px 0px; }
+.navbar-component .navbar > .toggle > .icon {
+  position: relative;
+  margin-top: 8px;
+  margin-bottom: 8px; }
+  .navbar-component .navbar > .toggle > .icon, .navbar-component .navbar > .toggle > .icon:before, .navbar-component .navbar > .toggle > .icon:after {
+    display: block;
+    width: 24px;
+    height: 3px;
+    transition: background-color 0.3s linear, transform 0.3s linear;
+    background-color: #603c96; }
+  .navbar-component .navbar > .toggle > .icon:before, .navbar-component .navbar > .toggle > .icon:after {
+    position: absolute;
+    content: ""; }
+  .navbar-component .navbar > .toggle > .icon:before {
+    top: -8px; }
+  .navbar-component .navbar > .toggle > .icon:after {
+    top: 8px; }
+.navbar-component .navbar > .toggle.-active > .icon {
+  background-color: transparent; }
+  .navbar-component .navbar > .toggle.-active > .icon:before {
+    transform: translateY(8px) rotate(45deg); }
+  .navbar-component .navbar > .toggle.-active > .icon:after {
+    transform: translateY(-8px) rotate(-45deg); }
+.navbar-component .navbar > .list {
+  display: none;
+  width: 100%;
+  border-top: 1px solid #ddd; }
+  .navbar-component .navbar > .list.-on {
+    display: block;
+    padding: 20px 28px 17px 30px;
+    position: relative;
+    background-color: #f7f7f7; }
+.navbar-component .navbar > .list > .item {
+  display: block;
+  font-family: 'muliRegular';
+  font-size: 24px;
+  text-align: left;
+  color: #4a4a4a;
+  padding-top: 12px; }
 
 .product {
   color: #3e3e3e;
@@ -1122,7 +1403,7 @@ body {
     margin-bottom: 33px; }
   .hashworks__grewpage .grewpage__image {
     background-image: url(../assets/image/wegrew/dmitri-popov-307258.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 115px; }
@@ -1512,9 +1793,640 @@ body {
     height: 331px;
     margin-top: -212px; } }
 @media screen and (min-width: 320px) {
-  .footer .row {
-    width: 260px;
+  .hashworks__casestudy .row {
+    width: 270px;
+    margin: 0px auto;
+    padding: 0; }
+  .hashworks__casestudy .casestudy__image {
+    background-image: url(../assets/image/casestudy/1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 249px; }
+    .hashworks__casestudy .casestudy__image h1 {
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: left;
+      color: #ffffff;
+      margin: 113px 0px 16px 0px; }
+  .hashworks__casestudy .casestudy__overview {
+    background-color: #000000;
+    height: 330px;
+    width: 100%;
+    padding: 0; }
+    .hashworks__casestudy .casestudy__overview h1 {
+      font-family: 'muliBold';
+      font-size: 12px;
+      font-weight: bold;
+      text-align: left;
+      color: #ffffff;
+      margin-bottom: 8px; }
+    .hashworks__casestudy .casestudy__overview p {
+      font-family: 'muliLight';
+      font-size: 10px;
+      font-weight: 300;
+      line-height: 1.6;
+      text-align: left;
+      color: #ffffff;
+      margin-bottom: 8px; }
+    .hashworks__casestudy .casestudy__overview__text {
+      margin: 36px 0px 16px 0px;
+      padding: 0; }
+    .hashworks__casestudy .casestudy__overview__boxes h1 {
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: left;
+      color: #ffffff;
+      margin: 12px 0px 24px 26px; }
+    .hashworks__casestudy .casestudy__overview__boxes p {
+      font-family: 'muliRegular';
+      font-size: 16px;
+      text-align: left;
+      color: #ffffff;
+      margin: 0px 17px 17px 26px; }
+    .hashworks__casestudy .casestudy__overview__boxes__box {
+      width: 155px;
+      height: 123px;
+      margin: 32px 0px 0px 2px;
+      background-color: #603c96;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5); }
+    .hashworks__casestudy .casestudy__overview__boxes__box1 {
+      width: 155px;
+      height: 123px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+      margin: -134px 0px 0px 162px; }
+      .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
+        color: #603c96; }
+      .hashworks__casestudy .casestudy__overview__boxes__box1 p {
+        color: #4a4a4a; }
+  .hashworks__casestudy .casestudy__product {
+    height: 257px;
+    width: 100%; }
+    .hashworks__casestudy .casestudy__product h1 {
+      font-family: 'muliSemiBold';
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      color: #603c96;
+      width: 100%;
+      margin: 74px 0px 16px 0px; }
+    .hashworks__casestudy .casestudy__product p {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: center;
+      color: #3e3e3e;
+      width: 100%;
+      margin-bottom: 36px; }
+  .hashworks__casestudy .casestudy__image2 {
+    background-image: url(../assets/image/casestudy/2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 170px; }
+  .hashworks__casestudy .casestudy__agile h1 {
+    font-family: 'muliBold';
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #4a4a4a;
+    width: 100%;
+    margin: 34px 0px 16px 0px; }
+  .hashworks__casestudy .casestudy__agile h2 {
+    font-family: 'muliSemiBold';
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #603c96;
+    width: 100%; }
+  .hashworks__casestudy .casestudy__agile p {
+    font-family: 'muliRegular';
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #3e3e3e;
+    width: 100%;
+    margin: 6px 0px 52px 0px; }
+  .hashworks__casestudy .casestudy__image3 {
+    background-image: url(../assets/image/casestudy/3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120px; }
+  .hashworks__casestudy .casestudy__outcome h2 {
+    font-family: 'muliSemiBold';
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #603c96;
+    width: 100%;
+    margin: 36px 0px 8px 0px; }
+  .hashworks__casestudy .casestudy__outcome p {
+    font-family: 'muliRegular';
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #3e3e3e;
+    width: 100%;
+    margin-bottom: 36px; }
+  .hashworks__casestudy .casestudy__mobiledata .row {
+    width: 320px;
     margin: 0 auto; }
+  .hashworks__casestudy .casestudy__mobiledata h1 {
+    font-family: 'muliBold';
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #4a4a4a;
+    margin: 16px 0px 8px 24px; }
+  .hashworks__casestudy .casestudy__mobiledata p {
+    font-family: 'muliRegular';
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    color: #3e3e3e;
+    margin: 0px 24px 33px 24px; }
+  .hashworks__casestudy .casestudy__mobiledata__mobile {
+    padding: 0; }
+    .hashworks__casestudy .casestudy__mobiledata__mobile__image4 {
+      background-image: url(../assets/image/casestudy/4.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 196px; }
+    .hashworks__casestudy .casestudy__mobiledata__mobile__image5 {
+      background-image: url(../assets/image/casestudy/5.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 202px; } }
+@media screen and (min-width: 768px) {
+  .hashworks__casestudy .row {
+    width: 703px; }
+  .hashworks__casestudy .casestudy__image {
+    height: 320px; }
+    .hashworks__casestudy .casestudy__image h1 {
+      font-size: 32px;
+      margin: 200px 121px 32px 0px;
+      line-height: 1.38; }
+  .hashworks__casestudy .casestudy__overview {
+    height: 227px; }
+    .hashworks__casestudy .casestudy__overview h1 {
+      font-size: 14px;
+      margin-bottom: 14px; }
+    .hashworks__casestudy .casestudy__overview p {
+      font-family: 'muliRegular';
+      font-size: 14px;
+      line-height: 1.5;
+      padding-right: 29px; }
+    .hashworks__casestudy .casestudy__overview__text {
+      margin: 46px 0px 45px 0px;
+      padding: 0; }
+    .hashworks__casestudy .casestudy__overview__department {
+      margin: 46px 0px 104px 0px;
+      padding: 0; }
+    .hashworks__casestudy .casestudy__overview__boxes h1 {
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: left;
+      color: #ffffff;
+      margin: 12px 0px 24px 26px; }
+    .hashworks__casestudy .casestudy__overview__boxes p {
+      font-family: 'muliRegular';
+      font-size: 16px;
+      text-align: left;
+      color: #ffffff;
+      margin: 0px 17px 17px 26px; }
+    .hashworks__casestudy .casestudy__overview__boxes__box {
+      width: 155px;
+      height: 123px;
+      margin: 32px 0px 0px 2px;
+      background-color: #603c96;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5); }
+    .hashworks__casestudy .casestudy__overview__boxes__box1 {
+      width: 155px;
+      height: 123px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+      margin: -134px 0px 0px 162px; }
+      .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
+        color: #603c96; }
+      .hashworks__casestudy .casestudy__overview__boxes__box1 p {
+        color: #4a4a4a; }
+  .hashworks__casestudy .casestudy__product {
+    width: 100%; }
+    .hashworks__casestudy .casestudy__product h1 {
+      font-family: 'muliBold';
+      font-size: 18px;
+      margin: 77px 124px 14px 125px; }
+    .hashworks__casestudy .casestudy__product p {
+      font-size: 14px;
+      line-height: 1.64;
+      margin: 0px 32px 34px 64px; }
+  .hashworks__casestudy .casestudy__image2 {
+    width: 100%;
+    height: 374px; }
+  .hashworks__casestudy .casestudy__agile h1 {
+    font-size: 14px;
+    margin: 33px 0px 16px 0px; }
+  .hashworks__casestudy .casestudy__agile h2 {
+    font-size: 18px; }
+  .hashworks__casestudy .casestudy__agile p {
+    font-size: 14px;
+    line-height: 1.64;
+    margin: 0px 68px 36px 70px; }
+  .hashworks__casestudy .casestudy__image3 {
+    height: 227px; }
+  .hashworks__casestudy .casestudy__outcome h2 {
+    font-size: 18px;
+    margin: 36px 120px 16px 130px; }
+  .hashworks__casestudy .casestudy__outcome p {
+    font-size: 14px;
+    line-height: 1.64;
+    margin: 0px 77px 36px 69px; }
+  .hashworks__casestudy .casestudy__mobiledata .row {
+    width: 700px;
+    margin: 0 auto; }
+  .hashworks__casestudy .casestudy__mobiledata h1 {
+    font-size: 14px;
+    margin: 36px 0px 16px 0px; }
+  .hashworks__casestudy .casestudy__mobiledata p {
+    font-size: 14px;
+    margin: 0px 0px 36px 0px; }
+  .hashworks__casestudy .casestudy__mobiledata__mobile {
+    padding: 0; }
+    .hashworks__casestudy .casestudy__mobiledata__mobile__image4 {
+      width: 340px;
+      height: 187px; }
+    .hashworks__casestudy .casestudy__mobiledata__mobile__image5 {
+      width: 340px;
+      height: 187px; } }
+@media screen and (min-width: 1024px) {
+  .hashworks__casestudy .row {
+    width: 940px; }
+  .hashworks__casestudy .casestudy__image {
+    height: 416px; }
+    .hashworks__casestudy .casestudy__image h1 {
+      font-size: 48px;
+      margin: 264px 114px 32px 0px; }
+  .hashworks__casestudy .casestudy__overview {
+    height: 295px; }
+    .hashworks__casestudy .casestudy__overview h1 {
+      font-size: 16px;
+      margin-bottom: 16px; }
+    .hashworks__casestudy .casestudy__overview p {
+      font-size: 16px;
+      padding-right: 12px; }
+    .hashworks__casestudy .casestudy__overview__text {
+      margin: 83px 0px 82px 0px;
+      padding: 0; }
+    .hashworks__casestudy .casestudy__overview__department {
+      margin: 83px 0px 120px 0px;
+      padding: 0; }
+    .hashworks__casestudy .casestudy__overview__boxes h1 {
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: left;
+      color: #ffffff;
+      margin: 12px 0px 24px 26px; }
+    .hashworks__casestudy .casestudy__overview__boxes p {
+      font-family: 'muliRegular';
+      font-size: 16px;
+      text-align: left;
+      color: #ffffff;
+      margin: 0px 17px 17px 26px; }
+    .hashworks__casestudy .casestudy__overview__boxes__box {
+      width: 155px;
+      height: 123px;
+      margin: 32px 0px 0px 2px;
+      background-color: #603c96;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5); }
+    .hashworks__casestudy .casestudy__overview__boxes__box1 {
+      width: 155px;
+      height: 123px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+      margin: -134px 0px 0px 162px; }
+      .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
+        color: #603c96; }
+      .hashworks__casestudy .casestudy__overview__boxes__box1 p {
+        color: #4a4a4a; }
+  .hashworks__casestudy .casestudy__product {
+    width: 100%; }
+    .hashworks__casestudy .casestudy__product h1 {
+      font-family: 'muliSemiBold';
+      font-size: 24px;
+      margin: 77px 124px 14px 125px; }
+    .hashworks__casestudy .casestudy__product p {
+      font-size: 18px; }
+  .hashworks__casestudy .casestudy__image2 {
+    width: 100%;
+    height: 489px; }
+  .hashworks__casestudy .casestudy__agile h1 {
+    font-size: 16px;
+    margin: 64px 0px 16px 0px; }
+  .hashworks__casestudy .casestudy__agile h2 {
+    font-size: 24px;
+    margin-bottom: 16px; }
+  .hashworks__casestudy .casestudy__agile p {
+    font-size: 18px;
+    line-height: 1.61;
+    margin: 0px 68px 64px 70px; }
+  .hashworks__casestudy .casestudy__image3 {
+    height: 278px; }
+  .hashworks__casestudy .casestudy__outcome h2 {
+    font-size: 24px;
+    margin: 64px 120px 16px 130px; }
+  .hashworks__casestudy .casestudy__outcome p {
+    font-size: 18px;
+    line-height: 1.61;
+    margin: 0px 77px 64px 69px; }
+  .hashworks__casestudy .casestudy__mobiledata .row {
+    width: 940px;
+    margin: 0 auto; }
+  .hashworks__casestudy .casestudy__mobiledata h1 {
+    font-size: 16px;
+    margin: 36px 0px 14px 0px; }
+  .hashworks__casestudy .casestudy__mobiledata p {
+    font-size: 18px;
+    margin: 0px 0px 64px 0px; }
+  .hashworks__casestudy .casestudy__mobiledata__mobile {
+    padding: 0; }
+    .hashworks__casestudy .casestudy__mobiledata__mobile__image4 {
+      width: 460px;
+      height: 254px; }
+    .hashworks__casestudy .casestudy__mobiledata__mobile__image5 {
+      width: 460px;
+      height: 254px; } }
+@media screen and (min-width: 1367px) {
+  .hashworks__casestudy .row {
+    width: 1097px; }
+  .hashworks__casestudy .casestudy__image {
+    height: 585px; }
+    .hashworks__casestudy .casestudy__image h1 {
+      font-size: 56px;
+      line-height: 1.34;
+      margin: 403px 114px 32px 0px; }
+  .hashworks__casestudy .casestudy__overview {
+    height: 415px; }
+    .hashworks__casestudy .casestudy__overview h1 {
+      font-size: 16px;
+      margin-bottom: 16px; }
+    .hashworks__casestudy .casestudy__overview p {
+      font-size: 18px;
+      padding-right: 13px; }
+    .hashworks__casestudy .casestudy__overview__text {
+      margin: 134px 0px 137px 0px; }
+    .hashworks__casestudy .casestudy__overview__department {
+      margin: 134px 0px 187px 0px; }
+    .hashworks__casestudy .casestudy__overview__boxes h1 {
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: left;
+      color: #ffffff;
+      margin: 12px 0px 24px 26px; }
+    .hashworks__casestudy .casestudy__overview__boxes p {
+      font-family: 'muliRegular';
+      font-size: 16px;
+      text-align: left;
+      color: #ffffff;
+      margin: 0px 17px 17px 26px; }
+    .hashworks__casestudy .casestudy__overview__boxes__box {
+      width: 155px;
+      height: 123px;
+      margin: 32px 0px 0px 2px;
+      background-color: #603c96;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5); }
+    .hashworks__casestudy .casestudy__overview__boxes__box1 {
+      width: 155px;
+      height: 123px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+      margin: -134px 0px 0px 162px; }
+      .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
+        color: #603c96; }
+      .hashworks__casestudy .casestudy__overview__boxes__box1 p {
+        color: #4a4a4a; }
+  .hashworks__casestudy .casestudy__product {
+    width: 100%; }
+    .hashworks__casestudy .casestudy__product h1 {
+      font-family: 'muliSemiBold';
+      font-size: 24px;
+      margin: 77px 124px 14px 125px; }
+    .hashworks__casestudy .casestudy__product p {
+      font-size: 18px; }
+  .hashworks__casestudy .casestudy__image2 {
+    width: 100%;
+    height: 609px; }
+  .hashworks__casestudy .casestudy__agile h1 {
+    margin: 51px 0px 32px 0px; }
+  .hashworks__casestudy .casestudy__agile h2 {
+    font-size: 32px;
+    margin-bottom: 32px; }
+  .hashworks__casestudy .casestudy__agile p {
+    font-size: 24px;
+    line-height: 1.46;
+    margin: 0px 132px 64px 135px; }
+  .hashworks__casestudy .casestudy__image3 {
+    height: 392px; }
+  .hashworks__casestudy .casestudy__outcome h2 {
+    font-size: 32px;
+    margin: 64px 120px 32px 130px; }
+  .hashworks__casestudy .casestudy__outcome p {
+    font-size: 24px;
+    line-height: 1.46;
+    margin: 0px 167px 64px 74px;
+    width: 100%; }
+  .hashworks__casestudy .casestudy__mobiledata .row {
+    width: 1170px;
+    margin: 0 auto; }
+  .hashworks__casestudy .casestudy__mobiledata h1 {
+    font-size: 16px;
+    margin: 51px 0px 16px 0px; }
+  .hashworks__casestudy .casestudy__mobiledata p {
+    font-size: 24px;
+    line-height: 1.46; }
+  .hashworks__casestudy .casestudy__mobiledata__mobile {
+    padding: 0; }
+    .hashworks__casestudy .casestudy__mobiledata__mobile__image4 {
+      width: 570px;
+      height: 323px; }
+    .hashworks__casestudy .casestudy__mobiledata__mobile__image5 {
+      width: 570px;
+      height: 323px; } }
+@media screen and (min-width: 320px) {
+  .hashworks__casestudy .row {
+    width: 263px;
+    margin: 0 auto;
+    padding: 0; }
+  .hashworks__casestudy h1 {
+    font-family: "muliBold";
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    color: #9c9c9c;
+    margin: 16px 0px 8px 0px; }
+  .hashworks__casestudy h2 {
+    font-family: 'muliRegular';
+    font-size: 16px;
+    line-height: 1.44;
+    text-align: left;
+    color: #3e3e3e;
+    margin-bottom: 24px;
+    width: 267px; }
+  .hashworks__casestudy .casestudy__events__banner {
+    background-image: url(../assets/image/casestudy/case-study-banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px; }
+    .hashworks__casestudy .casestudy__events__banner h1 {
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: center;
+      color: #ffffff;
+      padding: 184px 175px 16px 18px;
+      margin: 0; }
+  .hashworks__casestudy .casestudy__events .category-filter {
+    margin: 16px 12px; }
+    .hashworks__casestudy .casestudy__events .category-filter p {
+      font-size: 12px;
+      font-family: 'muliSemiBold';
+      font-weight: 600;
+      text-align: center;
+      display: inline;
+      padding-right: 8px; }
+  .hashworks__casestudy .casestudy__events .event {
+    padding: 0; }
+  .hashworks__casestudy .casestudy__events__image1 {
+    background-image: url(../assets/image/casestudy/1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 148px; }
+  .hashworks__casestudy .casestudy__events__image2 {
+    background-image: url(../assets/image/casestudy/6.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 148px; }
+  .hashworks__casestudy .casestudy__events__image3 {
+    background-image: url(../assets/image/casestudy/4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 148px; }
+  .hashworks__casestudy .casestudy__events__image4 {
+    background-image: url(../assets/image/casestudy/5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 148px; } }
+@media screen and (min-width: 768px) {
+  .hashworks__casestudy .row {
+    width: 708px; }
+  .hashworks__casestudy h1 {
+    font-size: 12px;
+    margin: 30px 0px 16px 0px; }
+  .hashworks__casestudy h2 {
+    font-size: 18px;
+    margin-bottom: 54px;
+    width: 314px; }
+  .hashworks__casestudy .casestudy__events__banner h1 {
+    font-size: 36px;
+    padding: 148px 530px 32px 32px; }
+  .hashworks__casestudy .casestudy__events .category-filter {
+    margin: 32px 158px 28px 191px; }
+    .hashworks__casestudy .casestudy__events .category-filter p {
+      font-size: 14px;
+      padding-right: 26px; }
+  .hashworks__casestudy .casestudy__events .event {
+    padding: 0; }
+  .hashworks__casestudy .casestudy__events__image1 {
+    width: 340px;
+    height: 193px; }
+  .hashworks__casestudy .casestudy__events__image2 {
+    width: 340px;
+    height: 193px; }
+  .hashworks__casestudy .casestudy__events__image3 {
+    width: 340px;
+    height: 193px; }
+  .hashworks__casestudy .casestudy__events__image4 {
+    width: 340px;
+    height: 193px; } }
+@media screen and (min-width: 1024px) {
+  .hashworks__casestudy .row {
+    width: 942px; }
+  .hashworks__casestudy h1 {
+    font-size: 14px;
+    margin: 32px 0px 16px 0px; }
+  .hashworks__casestudy h2 {
+    font-size: 24px;
+    line-height: 1.42;
+    margin-bottom: 39px;
+    width: 418px; }
+  .hashworks__casestudy .casestudy__events__banner {
+    height: 306px; }
+    .hashworks__casestudy .casestudy__events__banner h1 {
+      font-size: 48px;
+      padding: 220px 720px 28px 43px; }
+  .hashworks__casestudy .casestudy__events .category-filter {
+    margin: 32px 276px 27px 285px; }
+    .hashworks__casestudy .casestudy__events .category-filter p {
+      font-size: 16px;
+      padding-right: 27px; }
+  .hashworks__casestudy .casestudy__events .event {
+    padding: 0; }
+  .hashworks__casestudy .casestudy__events__image1 {
+    width: 458px;
+    height: 259px; }
+  .hashworks__casestudy .casestudy__events__image2 {
+    width: 458px;
+    height: 259px; }
+  .hashworks__casestudy .casestudy__events__image3 {
+    width: 458px;
+    height: 259px; }
+  .hashworks__casestudy .casestudy__events__image4 {
+    width: 458px;
+    height: 259px; } }
+@media screen and (min-width: 1367px) {
+  .hashworks__casestudy .row {
+    width: 1170px; }
+  .hashworks__casestudy h1 {
+    font-size: 16px; }
+  .hashworks__casestudy h2 {
+    font-size: 32px;
+    line-height: 1.38;
+    margin-bottom: 64px;
+    width: 558px; }
+  .hashworks__casestudy .casestudy__events__banner {
+    height: 430px; }
+    .hashworks__casestudy .casestudy__events__banner h1 {
+      font-size: 56px;
+      padding: 330px 936px 32px 136px; }
+  .hashworks__casestudy .casestudy__events .category-filter {
+    margin: 27px 422px 31px 448px; }
+    .hashworks__casestudy .casestudy__events .category-filter p {
+      font-size: 18px;
+      padding-right: 26px; }
+  .hashworks__casestudy .casestudy__events .event {
+    padding: 0; }
+  .hashworks__casestudy .casestudy__events__image1 {
+    width: 569px;
+    height: 322px; }
+  .hashworks__casestudy .casestudy__events__image2 {
+    width: 569px;
+    height: 322px; }
+  .hashworks__casestudy .casestudy__events__image3 {
+    width: 569px;
+    height: 322px; }
+  .hashworks__casestudy .casestudy__events__image4 {
+    width: 569px;
+    height: 322px; } }
+@media screen and (min-width: 320px) {
+  .footer .row {
+    margin: 0px 29px 0px 30px; }
   .footer li {
     font-family: 'muliSemiBold';
     font-size: 10px;
@@ -1533,31 +2445,30 @@ body {
     background-color: black;
     height: 329px; }
     .footer__list--view {
-      padding: 0px 0px 0px 25px; }
+      padding: 0px 0px 0px 16px; }
     .footer__list--copyright {
       display: flex;
       justify-content: space-between;
       border-top: solid 1px #979797;
-      margin-top: 36px; }
+      margin-top: 36px;
+      padding: 6px 0px 0px 0px; }
       .footer__list--copyright h4 {
         display: inline-block;
         font-family: 'muliRegular';
         font-size: 10px;
         text-align: left;
-        color: #f7f7f7;
-        margin-top: 6px; }
+        color: #f7f7f7; }
     .footer__list--social {
       display: inline-block;
       vertical-align: -webkit-baseline-middle;
-      margin-top: 11px; }
+      padding: 5px 0px 0px 0px; }
       .footer__list--social img {
         width: 14px;
         height: 11px;
         margin-left: 10px; } }
 @media screen and (min-width: 768px) {
   .footer .row {
-    width: 722px;
-    margin: 0 auto; }
+    margin: 0px 25px 0px 21px; }
   .footer li {
     font-size: 13px;
     font-weight: 600;
@@ -1572,19 +2483,18 @@ body {
       margin-top: 36px; }
       .footer__list--copyright h4 {
         font-size: 14px;
-        margin-top: 11px; }
+        padding: 8px 0px 0px 12px; }
     .footer__list--view {
-      padding: 0px 0px 0px 17px !important; }
+      padding: 0px 0px 0px 12px; }
     .footer__list--social {
-      margin-top: 18px; }
+      padding: 11px 0px 0px 0px; }
       .footer__list--social img {
         width: 21px;
         height: 17px;
         margin-left: 16px; } }
 @media screen and (min-width: 1025px) {
   .footer .row {
-    width: 940px;
-    margin: 0 auto; }
+    margin: 0px 13px 0px 13px; }
   .footer li {
     font-size: 16px;
     list-style-type: none;
@@ -1595,22 +2505,22 @@ body {
   .footer__list {
     height: 400px; }
     .footer__list--view {
-      padding: 0px 0px 0px 27px !important; }
+      padding: 0px 0px 0px 27px; }
     .footer__list--copyright {
       margin-top: 30px; }
       .footer__list--copyright h4 {
         font-size: 16px;
-        text-align: left; }
+        text-align: left;
+        padding: 16px 0px; }
     .footer__list--social {
-      margin-top: 25px; }
+      padding: 25px 0px 0px 0px; }
       .footer__list--social img {
         width: 30px;
         height: 24px;
         margin-left: 16px; } }
 @media screen and (min-width: 1367px) {
   .footer .row {
-    width: 1186px;
-    margin: 0 auto; }
+    margin: 0px 117px 0px 119px; }
   .footer li {
     padding: 0px 0px 23px 0px; }
   .footer h1 {
@@ -1618,18 +2528,21 @@ body {
     margin: 58px 0px 30px 0px; }
   .footer__list {
     height: 445px; }
+    .footer__list--view {
+      padding: 0px; }
     .footer__list--copyright {
       margin-top: 22px; }
       .footer__list--copyright h4 {
         font-size: 16px;
         text-align: left;
-        margin-top: 24px; }
+        padding: 24px 0px; }
     .footer__list--social {
-      margin-top: 40px; }
+      padding: 30px 0px 0px 0px; }
       .footer__list--social img {
         width: 32px;
         height: 26px;
         margin-left: 20px; } }
+<<<<<<< HEAD
 @media only screen and (min-width: 320px) {
   .cloud {
     font-family: 'muliRegular';
@@ -2009,3 +2922,457 @@ body {
     .cloud__div113 p {
       font-size: 24px !important;
       margin-left: 0 !important; } }
+=======
+ul.tabs li.current {
+  color: #603c96; }
+
+.tab-content {
+  display: none; }
+
+.tab-content.current {
+  display: inherit;
+  padding: 0px; }
+
+@media only screen and (min-width: 320px) {
+  .aboutus .border {
+    border-top: solid 1px #e0e0e0;
+    margin-top: 32px; }
+  .aboutus__headImg {
+    background-image: url(../assets/image/aboutus/origami@2x.png);
+    background-repeat: no-repeat;
+    height: 229px;
+    width: 100%;
+    background-size: 100% 100%;
+    object-fit: contain; }
+  .aboutus__content1 {
+    height: 229px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 16px 28px;
+    font-family: 'muliRegular';
+    font-size: 24px;
+    text-align: left;
+    color: #ffffff; }
+    .aboutus__content1 h1 {
+      padding: 188px 0px 0px 28px;
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: left;
+      color: #ffffff; }
+  .aboutus__tab {
+    border: solid 1px #d3d3d3;
+    display: flex;
+    justify-content: center; }
+    .aboutus__tab--list {
+      margin: 0px;
+      padding: 0px;
+      list-style: none; }
+      .aboutus__tab--list li {
+        font-family: 'muliBold';
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        color: #838383;
+        cursor: pointer;
+        display: inline-block;
+        margin: 20px 45px 15px 45px; }
+  .aboutus__thinking--container1 {
+    width: 266px;
+    margin: 0 auto; }
+  .aboutus__thinking h2 {
+    font-family: 'muliBold';
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #603c96;
+    padding: 32px 0px 0px 0px; }
+  .aboutus__thinking p {
+    width: 265px;
+    font-family: 'muliRegular';
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #3e3e3e;
+    padding-top: 16px; }
+  .aboutus__thinking h3 {
+    font-family: 'muliSemiBold';
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: #898989; }
+  .aboutus__thinking--capitalImage {
+    background-image: url(../assets/image/aboutus/1.svg);
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 100%;
+    background-size: 100% 100%;
+    object-fit: contain; }
+  .aboutus__thinking--clientImage {
+    background-image: url(../assets/image/aboutus/2.svg);
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 100%;
+    background-size: 100% 100%;
+    object-fit: contain; }
+  .aboutus__thinking--industryImage {
+    background-image: url(../assets/image/aboutus/3.svg);
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 100%;
+    background-size: 100% 100%;
+    object-fit: contain; }
+  .aboutus__thinking--ourculture {
+    padding-bottom: 51px; }
+    .aboutus__thinking--ourculture .culture {
+      padding-top: 50px; }
+  .aboutus__thinking--grew {
+    background-color: #603c96; }
+    .aboutus__thinking--grew p {
+      width: 100%;
+      font-family: 'muliBold';
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      color: #ffffff;
+      padding: 54px 59px 32px 59px; }
+
+  .aboutus__company {
+    background-color: #f7f7f7; }
+    .aboutus__company .row {
+      width: 266px;
+      margin: 0 auto; }
+    .aboutus__company h1 {
+      font-family: 'muliBold';
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      color: #603c96; }
+    .aboutus__company p {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: center;
+      color: #3e3e3e;
+      margin: 12px 0px 32px; }
+    .aboutus__company img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-left: 85px; }
+    .aboutus__company h2 {
+      font-family: 'muliBold';
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      color: #434343;
+      margin: 10px 0px; }
+    .aboutus__company h3 {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      text-align: center;
+      color: #434343;
+      margin-bottom: 64px; }
+    .aboutus__company--explore {
+      background-image: url(../assets/image/aboutus/group-6@2x.png);
+      background-repeat: no-repeat;
+      height: 92px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain; }
+      .aboutus__company--explore h1 {
+        font-family: 'muliBold';
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        height: 92px;
+        display: flex;
+        align-items: center;
+        justify-content: center; } }
+@media only screen and (min-width: 767px) {
+  .aboutus .border {
+    margin-top: 64px; }
+  .aboutus__headImg {
+    height: 230px;
+    width: 100%; }
+  .aboutus__content1 {
+    height: 230px;
+    padding: 29px 34px;
+    font-size: 24px; }
+    .aboutus__content1 h1 {
+      padding: 161px 0px 0px 34px;
+      font-size: 36px; }
+  .aboutus__tab {
+    display: flex;
+    justify-content: center; }
+    .aboutus__tab--list li {
+      margin: 24px 52px;
+      font-size: 14px; }
+  .aboutus__thinking--container1 {
+    width: 461px;
+    margin: 0 auto; }
+  .aboutus__thinking h2 {
+    font-size: 18px;
+    padding: 64px 0px 0px 0px; }
+  .aboutus__thinking p {
+    width: 460px;
+    font-size: 14px;
+    padding-top: 32px; }
+  .aboutus__thinking h3 {
+    font-size: 18px; }
+  .aboutus__thinking--capitalImage {
+    height: 300px;
+    margin-top: 32px; }
+  .aboutus__thinking--clientImage {
+    height: 300px;
+    margin-top: 32px; }
+  .aboutus__thinking--industryImage {
+    height: 300px;
+    margin-top: 32px; }
+  .aboutus__thinking--ourculture {
+    padding-bottom: 51px; }
+    .aboutus__thinking--ourculture--container1 {
+      width: 580px;
+      margin: 0 auto; }
+    .aboutus__thinking--ourculture .culture {
+      padding-top: 64px; }
+    .aboutus__thinking--ourculture p {
+      width: 100%;
+      padding: 16px 0px 0px 22px; }
+  .aboutus__thinking--grew {
+    background-color: #603c96; }
+    .aboutus__thinking--grew p {
+      font-size: 18px;
+      padding: 50px 59px 53px 59px;
+      width: 100%; }
+
+  .aboutus__company {
+    background-color: #f7f7f7; }
+    .aboutus__company .row {
+      width: 537px;
+      margin: 0 auto; }
+    .aboutus__company h1 {
+      font-size: 18px; }
+    .aboutus__company p {
+      font-size: 14px;
+      margin: 12px 0px 32px; }
+    .aboutus__company img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-left: 95px; }
+    .aboutus__company h2 {
+      font-size: 14px;
+      margin: 10px 0px; }
+    .aboutus__company h3 {
+      font-size: 14px;
+      margin-bottom: 64px; }
+    .aboutus__company--explore h1 {
+      font-size: 18px; } }
+@media only screen and (min-width: 1025px) {
+  .aboutus__headImg {
+    height: 306px;
+    width: 100%; }
+  .aboutus__content1 {
+    height: 306px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 31px 43px;
+    font-family: 'muliRegular';
+    font-size: 48px;
+    text-align: left;
+    color: #ffffff; }
+    .aboutus__content1 h1 {
+      padding: 161px 0px 0px 34px;
+      font-size: 36px; }
+  .aboutus__tab--list li {
+    margin: 25px 55px;
+    font-size: 16px; }
+  .aboutus__thinking--container1 {
+    width: 731px;
+    margin: 0 auto; }
+  .aboutus__thinking h2 {
+    font-size: 24px;
+    padding: 64px 0px 0px 0px; }
+  .aboutus__thinking p {
+    width: 731px;
+    font-size: 16px;
+    padding-top: 33px; }
+  .aboutus__thinking h3 {
+    font-size: 24px; }
+  .aboutus__thinking--capitalImage {
+    height: 430px;
+    margin-top: 32px; }
+  .aboutus__thinking--clientImage {
+    height: 430px;
+    margin-top: 32px; }
+  .aboutus__thinking--industryImage {
+    height: 430px;
+    margin-top: 32px; }
+  .aboutus__thinking--ourculture {
+    padding-bottom: 51px; }
+    .aboutus__thinking--ourculture--container1 {
+      width: 799px;
+      margin: 0 auto; }
+    .aboutus__thinking--ourculture .culture {
+      padding-top: 64px; }
+    .aboutus__thinking--ourculture p {
+      width: 100%;
+      padding: 16px 21px 0px 34px; }
+  .aboutus__thinking--grew {
+    background-color: #603c96; }
+    .aboutus__thinking--grew p {
+      font-size: 24px;
+      padding: 69px 0px; }
+
+  .aboutus__company {
+    background-color: #f7f7f7; }
+    .aboutus__company .row {
+      width: 731px;
+      margin: 0 auto; }
+    .aboutus__company h1 {
+      font-size: 24px; }
+    .aboutus__company p {
+      font-size: 16px;
+      margin: 12px 0px 67px; }
+    .aboutus__company img {
+      width: 124px;
+      height: 124px;
+      border-radius: 50%;
+      margin-left: 120px; }
+    .aboutus__company h2 {
+      font-size: 16px;
+      margin: 10px 0px; }
+    .aboutus__company h3 {
+      font-size: 16px;
+      margin-bottom: 75px; }
+    .aboutus__company--explore {
+      height: 124px;
+      object-fit: contain; }
+      .aboutus__company--explore h1 {
+        font-size: 24px;
+        height: 124px; } }
+@media only screen and (min-width: 1367px) {
+  .aboutus__headImg {
+    height: 430px;
+    width: 100%; }
+  .aboutus__content1 {
+    height: 430px;
+    padding: 33px 134px;
+    font-size: 56px; }
+    .aboutus__content1 h1 {
+      padding: 161px 0px 0px 34px;
+      font-size: 36px; }
+  .aboutus__tab--list li {
+    margin: 24px 50px;
+    font-size: 18px; }
+  .aboutus__thinking--container1 {
+    width: 731px;
+    margin: 0 auto; }
+  .aboutus__thinking h2 {
+    font-size: 32px;
+    padding: 64px 0px 0px 0px; }
+  .aboutus__thinking p {
+    width: 731px;
+    font-size: 18px;
+    padding-top: 33px; }
+  .aboutus__thinking h3 {
+    font-size: 24px; }
+  .aboutus__thinking--capitalImage {
+    height: 557px;
+    margin-top: 32px; }
+  .aboutus__thinking--clientImage {
+    height: 557px;
+    margin-top: 32px; }
+  .aboutus__thinking--industryImage {
+    height: 557px;
+    margin-top: 32px; }
+  .aboutus__thinking--ourculture {
+    padding-bottom: 100px; }
+    .aboutus__thinking--ourculture--container1 {
+      width: 985px;
+      margin: 0 auto; }
+    .aboutus__thinking--ourculture .culture {
+      padding-top: 32px; }
+    .aboutus__thinking--ourculture p {
+      width: 100%;
+      padding: 16px 21px 32px 34px; }
+  .aboutus__thinking--grew {
+    background-color: #603c96; }
+    .aboutus__thinking--grew p {
+      width: 100%;
+      font-size: 32px;
+      padding: 98px 0px; }
+
+  .aboutus__company h1 {
+    font-size: 32px; }
+  .aboutus__company p {
+    font-size: 18px;
+    margin: 16px 0px 52px; }
+  .aboutus__company img {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    margin-left: 105px; }
+  .aboutus__company h2 {
+    font-size: 18px;
+    margin: 10px 0px; }
+  .aboutus__company h3 {
+    font-size: 18px;
+    margin-bottom: 65px; }
+  .aboutus__company--explore {
+    height: 175px;
+    object-fit: contain; }
+    .aboutus__company--explore h1 {
+      font-size: 32px;
+      height: 175px; } }
+.job__headImg {
+  background-image: url(../assets/image/job/joblogo.png);
+  background-repeat: no-repeat;
+  height: 237px;
+  width: 100%;
+  background-size: cover; }
+.job__content {
+  height: 237px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 24px 28px;
+  font-family: 'muliRegular';
+  font-size: 24px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: normal; }
+.job__opening {
+  width: 271px;
+  margin: 0 auto; }
+  .job__opening h1 {
+    font-family: 'muliRegular';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #603c96;
+    padding: 24px 0px 16px; }
+  .job__opening p {
+    font-family: 'muliRegular';
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3e3e3e; }
+.job__footerimg {
+  background-image: url(../assets/image/job/1@2x.png);
+  background-repeat: no-repeat;
+  height: 237px;
+  width: 100%;
+  background-size: cover; }
+>>>>>>> 95af5a26bc2187e4e836caeecd4fabdcc346e931
