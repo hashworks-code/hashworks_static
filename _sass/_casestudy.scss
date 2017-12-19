@@ -1,5 +1,6 @@
 @media screen and (min-width:320px){ 
    .hashworks__casestudy {
+      
        .row{
         width: 270px;
         margin: 0px auto;
@@ -48,20 +49,25 @@
                     margin: 36px 0px 16px 0px;
                     padding: 0;
                 }
+                &__department {
+                    padding: 0;
+                }
             &__boxes {
                 h1 {
                     font-family: 'muliRegular';
                     font-size: 24px;
                     text-align: left;
                     color: #ffffff;
-                    margin: 12px 0px 24px 26px;
+                    padding: 12px 0px 24px 26px;
+                    margin: 0;
                 }
                 p {
                     font-family: 'muliRegular';
                     font-size: 16px;
                     text-align: left;
                     color: #ffffff; 
-                    margin: 0px 17px 17px 26px;
+                    padding: 0px 17px 17px 26px;
+                    margin: 0;
                 }
                 &__box {
                      width: 155px;
@@ -69,25 +75,30 @@
                      margin: 32px 0px 0px 2px;
                      background-color: #603c96;
                      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+                     position: relative;
                 }
                 &__box1 {
+                    position: relative;
                     h1 {
                         color: #603c96;
+                        padding: 12px 0px 24px 26px;
+                        margin: 0;
                     }
                     p {
                         color: #4a4a4a;
+                        padding: 0px 17px 17px 26px;
+                        margin: 0;
                     }
                      width: 155px;
                      height: 123px;
                      background-color: #ffffff;
                      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-                     margin: -134px 0px 0px 162px;
+                     margin: -122px 0px 0px 162px;
                 }
             }
         }
         
         .casestudy__product {
-            height: 257px;
             width: 100%;
           
             h1 {
@@ -259,34 +270,38 @@
                     font-size: 24px;
                     text-align: left;
                     color: #ffffff;
-                    margin: 12px 0px 24px 26px;
+                    padding: 12px 0px 24px 26px;
+                    margin: 0;
                 }
                 p {
                     font-family: 'muliRegular';
                     font-size: 16px;
                     text-align: left;
                     color: #ffffff; 
-                    margin: 0px 17px 17px 26px;
+                    padding: 0px 17px 17px 26px;
+                    margin: 0;
                 }
                 &__box {
-                     width: 155px;
+                     width: 159px;
                      height: 123px;
-                     margin: 32px 0px 0px 2px;
+                     margin: -113px 0px 0px 386px;
                      background-color: #603c96;
                      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
                 }
                 &__box1 {
                     h1 {
                         color: #603c96;
+                        font-size: 24px;
                     }
                     p {
                         color: #4a4a4a;
+                        font-size: 16px;
                     }
-                     width: 155px;
+                     width: 159px;
                      height: 123px;
                      background-color: #ffffff;
                      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-                     margin: -134px 0px 0px 162px;
+                     margin: -122px 0px 0px 561px;
                 }
             }
         }
@@ -403,38 +418,41 @@
                 }
             &__boxes {
                 h1 {
-                    font-family: 'muliRegular';
-                    font-size: 24px;
-                    text-align: left;
-                    color: #ffffff;
-                    margin: 12px 0px 24px 26px;
+                    font-size: 32px;
+                    // text-align: left;
+                    // color: #ffffff;
+                    padding: 14px 0px 30px 24px;
+                    margin: 0;
                 }
                 p {
-                    font-family: 'muliRegular';
-                    font-size: 16px;
-                    text-align: left;
-                    color: #ffffff; 
-                    margin: 0px 17px 17px 26px;
+                    // font-family: 'muliRegular';
+                    font-size: 24px;
+                    // text-align: left;
+                    // color: #ffffff; 
+                    padding: 0px 17px 20px 24px;
+                    margin: 0;
                 }
                 &__box {
-                     width: 155px;
-                     height: 123px;
-                     margin: 32px 0px 0px 2px;
+                     width: 220px;
+                     height: 164px;
+                     margin: -102px 0px 0px 512px;
                      background-color: #603c96;
                      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
                 }
                 &__box1 {
                     h1 {
                         color: #603c96;
+                        font-size: 32px;
                     }
                     p {
                         color: #4a4a4a;
+                        font-size: 24px;
                     }
-                     width: 155px;
-                     height: 123px;
+                     width: 220px;
+                     height: 164px;
                      background-color: #ffffff;
                      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-                     margin: -134px 0px 0px 162px;
+                     margin: -164px 0px 0px 753px;
                 }
             }
         }
@@ -444,7 +462,7 @@
             h1 {
                font-family: 'muliSemiBold';
                 font-size: 24px;
-                margin: 77px 124px 14px 125px;
+                margin: 147px 124px 14px 125px;
             }
             p {
              
@@ -554,38 +572,32 @@
                 }
             &__boxes {
                 h1 {
-                    font-family: 'muliRegular';
-                    font-size: 24px;
-                    text-align: left;
-                    color: #ffffff;
-                    margin: 12px 0px 24px 26px;
+                    font-size: 48px;
+                    padding: 14px 0px 32px 30px;
+                    margin: 0;
                 }
                 p {
-                    font-family: 'muliRegular';
-                    font-size: 16px;
-                    text-align: left;
-                    color: #ffffff; 
-                    margin: 0px 17px 17px 26px;
+                    font-size: 32px;
+                    padding: 0px 34px 26px 30px;
+                    margin: 0;
                 }
                 &__box {
-                     width: 155px;
-                     height: 123px;
-                     margin: 32px 0px 0px 2px;
-                     background-color: #603c96;
-                     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+                     width: 270px;
+                     height: 216px;
+                     margin: -173px 0px 0px 685px;
                 }
                 &__box1 {
                     h1 {
                         color: #603c96;
+                        font-size: 48px;
                     }
                     p {
                         color: #4a4a4a;
+                        font-size: 32px;
                     }
-                     width: 155px;
-                     height: 123px;
-                     background-color: #ffffff;
-                     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-                     margin: -134px 0px 0px 162px;
+                     width: 270px;
+                     height: 216px;
+                     margin: -214px 0px 0px 984px;
                 }
             }
         }
@@ -595,7 +607,7 @@
             h1 {
                font-family: 'muliSemiBold';
                 font-size: 24px;
-                margin: 77px 124px 14px 125px;
+                margin: 120px 124px 14px 125px;
             }
             p {
              

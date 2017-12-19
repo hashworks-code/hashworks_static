@@ -1,0 +1,526 @@
+@media only screen and (min-width: 320px){
+    .dataScience{
+        font-family: 'muliRegular';
+        color: #4a4a4a;
+        &__container{
+            width: 270px;
+            margin: 0 auto;
+        }
+        &__headImg{
+            background-image: url(../assets/image/dataScience/data-science-banner.png);
+            background-repeat: no-repeat;
+            height: 232px;
+            width: 100%;
+            background-size: 100% 100%;
+            object-fit: contain;
+        }
+        &__head{
+            font-size: 24px;
+            padding-top: 186px;
+            color: #fff;
+        }
+        &__content{
+            height: 100%;
+            background-color: #000000;
+            color: #ffffff;
+            padding-bottom: 24px;
+            h1{
+                font-size: 16px;
+                padding: 21px 0 16px;
+                font-weight: 100;
+            }
+            p{
+                font-size: 12px;
+                line-height: 1.5;
+                padding-bottom: 16px;
+            }
+        }
+        &__div1{
+            display: inline-block;
+            width: 130px;
+            // height: 100%;
+            background-color: #603c96;
+            padding: 15px 10px 0 27px;
+            h2{
+                font-weight: 100;
+                font-size: 24px;
+                padding-bottom: 23px;
+            }
+            p{
+                font-size: 16px;
+                
+                line-height: 1;
+            }
+        }
+        &__div2{
+            display: inline-block;
+            vertical-align: top;
+            width: 130px;
+            // height: 100%;
+            background-color: #ffffff;
+            padding: 15px 10px 0 27px;
+            h2{
+                font-weight: 100;
+                color: #603c96;
+                font-size: 24px;
+                padding-bottom: 6px;
+            }
+            p{
+                font-size: 16px;
+                color: #000000;
+                line-height: 1;
+            }
+
+        }
+        .col-xs-12.col-sm-8.col-md-8.col-lg-8,
+        .col-xs-12.col-sm-4.col-md-4.col-lg-4,
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6 {
+            padding: 0;
+        }
+        &__mobility{
+            margin: 32px 0;
+            h1{
+                font-size: 18px;
+                color: #603c96;
+                font-family: 'muliBold';
+                padding-bottom: 32px;
+            }
+            h2{
+                font-family: 'muliSemiBold';
+                font-size: 18px;
+                padding-bottom: 16px;
+            }
+            p{
+                font-size: 12px;
+                line-height: 1.67;
+                color: #3e3e3e;
+                padding-bottom: 12px;
+            }
+        }
+        &__div11{
+            display: inline-block;
+            width: 102px;
+            // height: 100%;
+            background-color: #603c96;
+            margin-left: 25px;
+            padding: 25px 20px 17px 7px;
+            p{
+                font-size: 12px !important;
+                line-height: 1.58;
+                color: #ffffff;
+            }
+        }
+        &__div12{
+            display: inline-block;
+            vertical-align: top;
+            width: 102px;
+            // height: 100%;
+            background-color: #f7f7f7;
+            padding: 26px 35px 17px 11px;
+            p{
+                font-size: 12px !important;
+                line-height: 1.58;
+                color: #191919;
+            }
+        }
+        &__productImg{
+            background-image: url(../assets/image/dataScience/data-science-content-banner-1.png);
+            background-repeat: no-repeat;
+            height: 189px;
+            width: 100%;
+            background-size: 100% 100%;
+            object-fit: contain;
+            margin-bottom: 33px;
+            p{
+                font-size: 18px;
+                padding-top: 61px;
+                color: #fff;
+                width: 185px;
+            }
+        }
+        &__byod{
+            margin: 33px 0;
+            h1{
+                font-size: 16px;
+                font-family: 'muliSemiBold';
+                padding-bottom: 16px;
+            }
+            p{
+                font-size: 12px;
+                line-height: 1.67;
+                margin-bottom: 32px;
+            }
+        }
+        &__div111{
+            display: inline-block;
+            width: 102px;
+            background-color: #603c96;
+            margin-left: 25px;
+            padding: 25px 20px 0 7px;
+            p{
+                font-size: 12px !important;
+                line-height: 1.58;
+                color: #ffffff;
+            }
+        }
+        &__div112{
+            background-image: url(../assets/image/cloud/bitmap.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            object-fit: contain;
+            display: inline-block;
+            vertical-align: top;
+            width: 102px;
+            padding: 26px 35px 0 11px;
+            p{
+                font-size: 12px !important;
+                line-height: 1.58;
+                color: #fff;
+            }
+        }
+        &__div113{
+            display: inline-block;
+            margin-top: 10px;
+            margin-left: 25px;
+            width: 102px;
+            // height: 109px;
+            background-color: #151515;
+            padding: 26px 35px 0 11px;
+            
+            p{
+                font-size: 12px !important;
+                line-height: 1.58;
+                color: #fff;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px){
+    .dataScience{
+        &__container{
+            width: 702px;
+            margin: 0 auto;
+        }
+        &__headImg{
+            height: 230px;
+        }
+        &__head {
+            font-size: 36px;
+            padding-top: 149px;
+        }
+        &__content {
+            padding: 32px 0;
+            h1 {
+                font-size: 18px;
+                padding: 0 0 16px;
+            }
+            p {
+                font-size: 14px;
+                padding-right: 27px;
+            }
+        }
+        &__div1 {
+            margin-left: 7px;
+            margin-top: 22px;
+            width: 160px;
+            // height: 123px;
+            padding: 15px 10px 14px 27px;
+        }
+        &__div2 {
+            margin-top: 22px;
+            margin-left: 18px;
+            width: 160px;
+            // height: 123px;
+            padding: 15px 10px 30px 27px;
+        }
+        &__mobility {
+            margin: 33px 0 49px;
+            h1 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 14px;
+                padding-bottom: 0;
+            }
+        }
+        &__div11 {
+            padding: 25px 20px 17px 7px;
+            margin: 55px 10px 0 0
+        }
+        &__div12 {
+            margin-top: 55px;
+        }
+        &__productImg{
+
+            p {
+            font-size: 24px;
+            padding-top: 49px;
+            width: 230px;
+            }
+        }
+        &__byod {
+            margin: 33px 0 35px;
+            h1 {
+                font-size: 18px
+            } 
+            p {
+                font-size: 14px;
+            }
+        }
+       &__div111 {
+             margin-left: 0; 
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 25px 20px 0 7px;
+        }  
+        &__div112 {
+            margin-top: 10px;
+        }
+        &__div113 {
+            margin-right: 10px;
+            margin-left: 0; 
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .dataScience{
+        &__container{
+            width: 943px;
+        }
+        &__headImg{
+            height: 306px;
+        }
+        &__head {
+            font-size: 48px;
+            padding-top: 216px;
+        }
+        &__content {
+            padding: 35px 0 32px;
+            h1 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+        &__div1 {
+            margin-top: 40px;
+            width: 220px;
+            padding: 22px 10px 21px 24px;
+            h2 {
+                font-size: 48px;
+                padding-bottom: 26px;
+            }
+            p{
+                font-size: 24px !important;
+            }
+        }
+        &__div2 {
+            margin-top: 40px;
+            width: 220px;
+            padding: 22px 10px 21px 24px;
+            h2 {
+                font-size: 48px;
+                padding-bottom: 24px;
+            }
+            p{
+                font-size: 24px !important;
+            }
+        }
+        &__mobility {
+            margin: 32px 0 64px;
+            h1 {
+                font-size: 32px;
+            }
+            p {
+                font-size: 16px;
+            }
+            h2 {
+                font-size: 24px;
+            }
+        }
+        &__div11 {
+            width: 140px;
+            padding: 38px 0px 38px 10px;
+            margin: 55px 15px 0 0;
+            p{
+                font-size: 18px !important;
+            }
+        }
+        &__div12 {
+            // margin-top: 55px;
+            width: 140px;
+            padding: 38px 25px 38px 10px;
+            p{
+                font-size: 18px !important;
+            }
+        }
+        &__productImg {
+            height: 250px;
+
+            p {
+                font-size: 36px;
+                padding-top: 57px;
+                width: 100%;
+            }
+        }
+        &__byod {
+            margin: 64px 0;
+            h1 {
+                font-size: 24px
+            } 
+            p {
+                font-size: 16px;
+            }
+        }
+       &__div111 {
+            width: 140px;
+            margin: 55px 15px 0 0;
+            padding-bottom: 2px;
+            p{
+                font-size: 18px !important;
+            }
+        }  
+        &__div112 {
+            width: 140px;
+            margin: 55px 0 0 0;
+            p{
+                font-size: 18px !important;
+            };
+        }
+        &__div113 {
+            width: 140px;
+            p{
+                font-size: 18px !important;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1367px){
+    .dataScience{
+        &__container{
+            width: 1107px;
+        }
+        &__headImg{
+            height: 430px;
+        }
+        &__head {
+            font-size: 56px;
+            padding-top: 327px;
+        }
+        &__content {
+            padding: 92px 0 118px;
+            h1 {
+                font-size: 32px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+        &__div1 {
+            margin-top: 40px;
+            width: 260px;
+            padding: 22px 10px 21px 24px;
+            h2 {
+                font-size: 48px;
+                padding-bottom: 26px;
+            }
+            p{
+                font-size: 32px !important;
+            }
+        }
+        &__div2 {
+            margin-top: 40px;
+            width: 260px;
+            padding: 22px 10px 21px 24px;
+            h2 {
+                font-size: 48px;
+                padding-bottom: 24px;
+            }
+            p{
+                font-size: 32px !important;
+            }
+        }
+        &__mobility {
+            margin: 32px 0 82px;
+            h1 {
+                font-size: 36px;
+                margin-left: 10px;
+            }
+            p {
+                font-size: 18px;
+                margin-left: 10px;
+            }
+            h2 {
+                font-size: 32px;
+                margin-left: 10px;
+            }
+        }
+        &__div11 {
+            width: 170px;
+            padding: 38px 0px 38px 10px;
+            margin: 55px 15px 0 0;
+            p{
+                font-size: 24px !important;
+                margin-left: 0 !important;
+            }
+        }
+        &__div12 {
+            // margin-top: 55px;
+            width: 170px;
+            padding: 38px 25px 38px 10px;
+            p{
+                font-size: 24px !important;
+                margin-left: 0 !important;
+            }
+        }
+        &__productImg {
+            height: 350px;
+
+            p {
+                font-size: 48px;
+                padding-top: 98px;
+                width: 500px;
+            }
+        }
+        &__byod {
+            margin: 64px 0;
+            h1 {
+                font-size: 32px;
+                margin-left: 10px;
+            } 
+            p {
+                font-size: 18px;
+                margin-left: 10px;
+            }
+        }
+       &__div111 {
+        width: 170px;
+        padding-right: 0;
+        margin: 55px 15px 0 0;
+        p{
+            font-size: 24px !important;
+            margin-left: 0 !important;
+        }
+        }  
+        &__div112 {
+            width: 170px;
+            // padding: 38px 25px 38px 10px;
+            p{
+                font-size: 24px !important;
+                margin-left: 0 !important;
+            }
+        }
+        &__div113 {
+            width: 170px;
+            // padding: 38px 25px 38px 10px;
+            p{
+                font-size: 24px !important;
+                margin-left: 0 !important;
+            }
+        }
+    }
+}
