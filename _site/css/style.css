@@ -2666,6 +2666,9 @@ ul.tabs li.current {
     object-fit: contain; }
   .aboutus__thinking--ourculture {
     padding-bottom: 51px; }
+    .aboutus__thinking--ourculture--container1 {
+      width: 266px;
+      margin: 0 auto; }
     .aboutus__thinking--ourculture .culture {
       padding-top: 50px; }
   .aboutus__thinking--grew {
@@ -2970,6 +2973,40 @@ ul.tabs li.current {
     .aboutus__company--explore h1 {
       font-size: 32px;
       height: 175px; } }
+.jobslider button {
+  background-color: #603c96;
+  top: 100%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%; }
+.jobslider .slick-prev:hover, .jobslider .slick-prev:focus, .jobslider .slick-next:hover, .jobslider .slick-next:focus {
+  /* color: transparent; */
+  outline: none;
+  background-color: #603c96; }
+.jobslider .slick-next {
+  right: 98px; }
+.jobslider .slick-prev {
+  left: 99px; }
+.jobslider .slick-next:before {
+  content: '>';
+  font-size: 20px;
+  line-height: 0.4;
+  width: 10.3px;
+  height: 5.7px;
+  color: #f7f7f7;
+  opacity: 1; }
+.jobslider .slick-prev:before {
+  content: '<';
+  font-size: 20px;
+  line-height: 0.4;
+  width: 10.3px;
+  height: 5.7px;
+  color: #f7f7f7;
+  opacity: 1; }
+.jobslider .slick-initialized .slick-slide {
+  display: block;
+  outline: none; }
+
 .job__headImg {
   background-image: url(../assets/image/job/joblogo.png);
   background-repeat: no-repeat;
@@ -2991,7 +3028,7 @@ ul.tabs li.current {
   width: 271px;
   margin: 0 auto; }
   .job__opening h1 {
-    font-family: 'muliRegular';
+    font-family: 'muliBold';
     font-size: 16px;
     font-weight: bold;
     font-style: normal;
@@ -3011,13 +3048,136 @@ ul.tabs li.current {
     letter-spacing: normal;
     text-align: center;
     color: #3e3e3e; }
-.job__footerimg {
-  background-image: url(../assets/image/job/1@2x.png);
-  background-repeat: no-repeat;
-  height: 237px;
-  width: 100%;
-  background-size: cover; }
+  .job__opening__position {
+    background-color: #ffffff;
+    box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
+    border: solid 1px #dcdcdc;
+    margin-top: 32px;
+    padding-bottom: 70px; }
+    .job__opening__position h1 {
+      font-family: 'muliSemiBold';
+      font-size: 16px;
+      padding: 38px 0px 6px; }
+    .job__opening__position h2 {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      text-align: center;
+      color: #3e3e3e;
+      padding: 6px 0px; }
+    .job__opening__position--apply {
+      width: 101px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+      border: solid 1px #603c96;
+      font-family: 'muliRegular';
+      font-size: 14px;
+      font-weight: normal;
+      text-align: center;
+      color: #603c96;
+      margin: 0 auto;
+      padding: 5px 0px 4px; }
+    .job__opening__position--next {
+      width: 32px;
+      height: 32px;
+      background-color: #603c96;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 50%; }
+.job__footer {
+  position: relative;
+  height: 237px; }
+  .job__footer__img {
+    background-image: url(../assets/image/job/1@2x.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 237px;
+    background-size: cover;
+    position: absolute;
+    top: -70px;
+    z-index: -1; }
 
+@media screen and (min-width: 768px) {
+  .aaa {
+    width: 560px;
+    display: flex;
+    justify-content: space-around; }
+
+  .jobslider .slick-next {
+    right: 98px; }
+  .jobslider .slick-prev {
+    left: 99px; }
+
+  .job__headImg {
+    background-image: url(../assets/image/job/joblogo.png);
+    background-repeat: no-repeat;
+    height: 229px;
+    width: 100%;
+    background-size: cover; }
+  .job__content {
+    height: 229px;
+    width: 100%;
+    padding: 32px 31px;
+    font-size: 36px; }
+  .job__opening {
+    width: 578px;
+    margin: 0 auto; }
+    .job__opening h1 {
+      font-family: 'muliBold';
+      font-size: 16px;
+      padding: 24px 0px 16px; }
+    .job__opening p {
+      width: 433px;
+      margin: 0 auto;
+      font-size: 12px; }
+    .job__opening__position {
+      background-color: #ffffff;
+      box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
+      border: solid 1px #dcdcdc;
+      margin-top: 32px;
+      padding-bottom: 70px; }
+      .job__opening__position h1 {
+        font-family: 'muliSemiBold';
+        font-size: 16px;
+        padding: 38px 0px 6px; }
+      .job__opening__position h2 {
+        font-family: 'muliRegular';
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        text-align: center;
+        color: #3e3e3e;
+        padding: 6px 0px; }
+      .job__opening__position--apply {
+        width: 101px;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+        border: solid 1px #603c96;
+        font-family: 'muliRegular';
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+        color: #603c96;
+        margin: 0 auto;
+        padding: 5px 0px 4px; }
+      .job__opening__position--next {
+        width: 32px;
+        height: 32px;
+        background-color: #603c96;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 50%; }
+  .job__footer {
+    position: relative;
+    height: 237px; }
+    .job__footer__img {
+      background-image: url(../assets/image/job/1@2x.png);
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 237px;
+      background-size: cover;
+      position: absolute;
+      top: -70px;
+      z-index: -1; } }
 @media only screen and (min-width: 320px) {
   .cloud {
     font-family: 'muliRegular';

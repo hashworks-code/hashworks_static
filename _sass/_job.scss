@@ -1,3 +1,49 @@
+
+.jobslider{
+   
+    button{
+        background-color: #603c96;
+        top: 100%;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+        /* color: transparent; */
+        outline: none;
+        background-color: #603c96;
+    }
+    .slick-next {
+        right: 98px;
+    }
+    .slick-prev {
+        left: 99px;
+    }
+    .slick-next:before {
+        content: '>';
+        font-size: 20px;
+        line-height: 0.4;
+        width: 10.3px;
+        height: 5.7px;
+         color: #f7f7f7;
+         opacity: 1;
+    }
+    .slick-prev:before {
+       content: '<';
+        font-size: 20px;
+        line-height: 0.4;
+        width: 10.3px;
+        height: 5.7px;
+        color: #f7f7f7;
+        opacity: 1;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+        outline: none;
+    }
+    
+}
+
 .job{
 
     &__headImg{
@@ -23,7 +69,7 @@
     width: 271px;
     margin: 0 auto;
     h1{
-        font-family:'muliRegular';
+        font-family:'muliBold';
         font-size: 16px;
         font-weight: bold;
         font-style: normal;
@@ -45,14 +91,174 @@
         text-align: center;
         color: #3e3e3e;
     }
+    &__position{
+        // height: 946px;
+        background-color: #ffffff;
+        box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
+        border: solid 1px #dcdcdc;
+        margin-top: 32px;
+        padding-bottom: 70px;
+        h1{
+            font-family:'muliSemiBold';
+            font-size: 16px;
+            padding: 38px 0px 6px;
+        }
+        h2{
+            font-family:'muliRegular';
+            font-size: 12px;
+            font-weight: normal;
+            font-style: normal;
+            text-align: center;
+            color: #3e3e3e;
+            padding: 6px 0px;
+        }
+        &--apply{
+            width: 101px;
+          
+            border-radius: 4px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+            border: solid 1px #603c96;
+            font-family:'muliRegular';
+            font-size: 14px;
+            font-weight: normal;
+            text-align: center;
+            color: #603c96;
+            margin: 0 auto;
+            padding: 5px 0px 4px;
+        }
+        &--next{
+            width: 32px;
+            height: 32px;
+            background-color: #603c96;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+        }
+    }
 }
 
-
-      &__footerimg{
+&__footer{
+    position: relative;
+    height: 237px;
+    &__img{
         background-image: url(../assets/image/job/1@2x.png);
         background-repeat: no-repeat;
-        height: 237px;
         width: 100%;
-        background-size:cover;       
+        height: 237px;
+        background-size:cover;    
+        position: absolute;
+        top:-70px;
+        z-index: -1;   
       }
+}
+     
+    }
+
+    @media screen and (min-width:768px){
+.aaa{
+    width: 560px;
+    display: flex;
+    justify-content: space-around;
+}
+        .jobslider{
+             .slick-next {
+                 right: 98px;
+             }
+             .slick-prev {
+                 left: 99px;
+             }
+         }
+         
+         .job{
+         
+             &__headImg{
+                 background-image: url(../assets/image/job/joblogo.png);
+                 background-repeat: no-repeat;
+                 height: 229px;
+                 width: 100%;
+                 background-size:cover;       
+               }
+               &__content{
+                 height: 229px;
+                 width: 100%;
+                 padding: 32px 31px;
+                 font-size: 36px;
+               }
+         &__opening{
+             width: 578px;
+             margin: 0 auto;
+             h1{
+                 font-family:'muliBold';
+                 font-size: 16px;
+            
+                 padding: 24px 0px 16px;
+             }
+             p{
+                width: 433px;
+                margin: 0 auto;
+                 font-size: 12px;
+             }
+             &__position{
+                 // height: 946px;
+                 background-color: #ffffff;
+                 box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
+                 border: solid 1px #dcdcdc;
+                 margin-top: 32px;
+                 padding-bottom: 70px;
+                 h1{
+                     font-family:'muliSemiBold';
+                     font-size: 16px;
+                     padding: 38px 0px 6px;
+                 }
+                 h2{
+                     font-family:'muliRegular';
+                     font-size: 12px;
+                     font-weight: normal;
+                     font-style: normal;
+                     text-align: center;
+                     color: #3e3e3e;
+                     padding: 6px 0px;
+                 }
+                 &--apply{
+                     width: 101px;
+                     border-radius: 4px;
+                     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+                     border: solid 1px #603c96;
+                     font-family:'muliRegular';
+                     font-size: 14px;
+                     font-weight: normal;
+                     text-align: center;
+                     color: #603c96;
+                     margin: 0 auto;
+                     padding: 5px 0px 4px;
+                 }
+                 &--next{
+                     width: 32px;
+                     height: 32px;
+                     background-color: #603c96;
+                     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+                     border-radius: 50%;
+                 }
+             }
+         }
+         
+         &__footer{
+             position: relative;
+             height: 237px;
+             &__img{
+                 background-image: url(../assets/image/job/1@2x.png);
+                 background-repeat: no-repeat;
+                 width: 100%;
+                 height: 237px;
+                 background-size:cover;    
+                 position: absolute;
+                 top:-70px;
+                 z-index: -1;   
+               }
+         }
+              
+             }
+         
+             @media screen and (min-width:768px){
+         
+             }
     }
