@@ -1,3 +1,48 @@
+
+.jobslider{
+   
+    button{
+        background-color: #603c96;
+        top: 100%;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+        /* color: transparent; */
+        outline: none;
+        background-color: #603c96;
+    }
+    .slick-next {
+        right: 80px;
+    }
+    .slick-prev {
+        left: 117px;
+    }
+    .slick-next:before {
+        content: '>';
+        font-size: 20px;
+        line-height: 0.4;
+        width: 10.3px;
+        height: 5.7px;
+         color: #f7f7f7;
+         opacity: 1;
+    }
+    .slick-prev:before {
+       content: '<';
+        font-size: 20px;
+        line-height: 0.4;
+        width: 10.3px;
+        height: 5.7px;
+        color: #f7f7f7;
+        opacity: 1;
+    }
+    slick-initialized .slick-slide {
+        display: block;
+        outline: none;
+    }
+    
+}
 .job{
 
     &__headImg{
@@ -46,10 +91,12 @@
         color: #3e3e3e;
     }
     &__position{
-        height: 946px;
+        // height: 946px;
         background-color: #ffffff;
         box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
         border: solid 1px #dcdcdc;
+        margin-top: 32px;
+        padding-bottom: 70px;
         h1{
             font-family:'muliSemiBold';
             font-size: 16px;
@@ -66,7 +113,7 @@
         }
         &--apply{
             width: 101px;
-            // height: 27px;
+          
             border-radius: 4px;
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
             border: solid 1px #603c96;
@@ -77,6 +124,13 @@
             color: #603c96;
             margin: 0 auto;
             padding: 5px 0px 4px;
+        }
+        &--next{
+            width: 32px;
+            height: 32px;
+            background-color: #603c96;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
         }
     }
 }
