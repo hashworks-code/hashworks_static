@@ -2947,3 +2947,50 @@ ul.tabs li.current {
     .aboutus__company--explore h1 {
       font-size: 32px;
       height: 175px; } }
+.job__headImg {
+  background-image: url(../assets/image/job/joblogo.png);
+  background-repeat: no-repeat;
+  height: 237px;
+  width: 100%;
+  background-size: cover; }
+.job__content {
+  height: 237px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 24px 28px;
+  font-family: 'muliRegular';
+  font-size: 24px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: normal; }
+.job__opening {
+  width: 271px;
+  margin: 0 auto; }
+  .job__opening h1 {
+    font-family: 'muliRegular';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #603c96;
+    padding: 24px 0px 16px; }
+  .job__opening p {
+    font-family: 'muliRegular';
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3e3e3e; }
+.job__footerimg {
+  background-image: url(../assets/image/job/1@2x.png);
+  background-repeat: no-repeat;
+  height: 237px;
+  width: 100%;
+  background-size: cover; }
