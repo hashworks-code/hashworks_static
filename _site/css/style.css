@@ -1667,7 +1667,7 @@ body {
       .hashworks__workculture .workculture__box h1 img {
         width: 14px;
         height: 17px;
-        margin-left: 3px; }
+        margin-left: -4px; }
   .hashworks__workculture .workculture__bottomImage {
     background-image: url(../assets/image/workculture/1.png);
     background-size: cover;
@@ -1704,7 +1704,11 @@ body {
     width: 240px;
     margin-bottom: 16px; }
     .hashworks__workculture .workculture__box h1 {
-      margin: 47px 38px 40px 43px; }
+      margin: 47px 20px 40px 44px; }
+      .hashworks__workculture .workculture__box h1 img {
+        width: 14px;
+        height: 17px;
+        margin-left: 4px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
       font-size: 16px; }
@@ -1745,7 +1749,11 @@ body {
     margin-bottom: 16px; }
     .hashworks__workculture .workculture__box h1 {
       font-size: 32px;
-      margin: 51px 56px 60px 56px; }
+      margin: 51px 35px 60px 56px; }
+      .hashworks__workculture .workculture__box h1 img {
+        width: 14px;
+        height: 17px;
+        margin-left: 11px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
       font-size: 16px; }
@@ -1832,36 +1840,45 @@ body {
     .hashworks__casestudy .casestudy__overview__text {
       margin: 36px 0px 16px 0px;
       padding: 0; }
+    .hashworks__casestudy .casestudy__overview__department {
+      padding: 0; }
     .hashworks__casestudy .casestudy__overview__boxes h1 {
       font-family: 'muliRegular';
       font-size: 24px;
       text-align: left;
       color: #ffffff;
-      margin: 12px 0px 24px 26px; }
+      padding: 12px 0px 24px 26px;
+      margin: 0; }
     .hashworks__casestudy .casestudy__overview__boxes p {
       font-family: 'muliRegular';
       font-size: 16px;
       text-align: left;
       color: #ffffff;
-      margin: 0px 17px 17px 26px; }
+      padding: 0px 17px 17px 26px;
+      margin: 0; }
     .hashworks__casestudy .casestudy__overview__boxes__box {
       width: 155px;
       height: 123px;
       margin: 32px 0px 0px 2px;
       background-color: #603c96;
-      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5); }
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
+      position: relative; }
     .hashworks__casestudy .casestudy__overview__boxes__box1 {
+      position: relative;
       width: 155px;
       height: 123px;
       background-color: #ffffff;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-      margin: -134px 0px 0px 162px; }
+      margin: -122px 0px 0px 162px; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
-        color: #603c96; }
+        color: #603c96;
+        padding: 12px 0px 24px 26px;
+        margin: 0; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 p {
-        color: #4a4a4a; }
+        color: #4a4a4a;
+        padding: 0px 17px 17px 26px;
+        margin: 0; }
   .hashworks__casestudy .casestudy__product {
-    height: 257px;
     width: 100%; }
     .hashworks__casestudy .casestudy__product h1 {
       font-family: 'muliSemiBold';
@@ -1991,29 +2008,33 @@ body {
       font-size: 24px;
       text-align: left;
       color: #ffffff;
-      margin: 12px 0px 24px 26px; }
+      padding: 12px 0px 24px 26px;
+      margin: 0; }
     .hashworks__casestudy .casestudy__overview__boxes p {
       font-family: 'muliRegular';
       font-size: 16px;
       text-align: left;
       color: #ffffff;
-      margin: 0px 17px 17px 26px; }
+      padding: 0px 17px 17px 26px;
+      margin: 0; }
     .hashworks__casestudy .casestudy__overview__boxes__box {
-      width: 155px;
+      width: 159px;
       height: 123px;
-      margin: 32px 0px 0px 2px;
+      margin: -113px 0px 0px 386px;
       background-color: #603c96;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5); }
     .hashworks__casestudy .casestudy__overview__boxes__box1 {
-      width: 155px;
+      width: 159px;
       height: 123px;
       background-color: #ffffff;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-      margin: -134px 0px 0px 162px; }
+      margin: -122px 0px 0px 561px; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
-        color: #603c96; }
+        color: #603c96;
+        font-size: 24px; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 p {
-        color: #4a4a4a; }
+        color: #4a4a4a;
+        font-size: 16px; }
   .hashworks__casestudy .casestudy__product {
     width: 100%; }
     .hashworks__casestudy .casestudy__product h1 {
@@ -2085,39 +2106,37 @@ body {
       margin: 83px 0px 120px 0px;
       padding: 0; }
     .hashworks__casestudy .casestudy__overview__boxes h1 {
-      font-family: 'muliRegular';
-      font-size: 24px;
-      text-align: left;
-      color: #ffffff;
-      margin: 12px 0px 24px 26px; }
+      font-size: 32px;
+      padding: 14px 0px 30px 24px;
+      margin: 0; }
     .hashworks__casestudy .casestudy__overview__boxes p {
-      font-family: 'muliRegular';
-      font-size: 16px;
-      text-align: left;
-      color: #ffffff;
-      margin: 0px 17px 17px 26px; }
+      font-size: 24px;
+      padding: 0px 17px 20px 24px;
+      margin: 0; }
     .hashworks__casestudy .casestudy__overview__boxes__box {
-      width: 155px;
-      height: 123px;
-      margin: 32px 0px 0px 2px;
+      width: 220px;
+      height: 164px;
+      margin: -102px 0px 0px 512px;
       background-color: #603c96;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5); }
     .hashworks__casestudy .casestudy__overview__boxes__box1 {
-      width: 155px;
-      height: 123px;
+      width: 220px;
+      height: 164px;
       background-color: #ffffff;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-      margin: -134px 0px 0px 162px; }
+      margin: -164px 0px 0px 753px; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
-        color: #603c96; }
+        color: #603c96;
+        font-size: 32px; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 p {
-        color: #4a4a4a; }
+        color: #4a4a4a;
+        font-size: 24px; }
   .hashworks__casestudy .casestudy__product {
     width: 100%; }
     .hashworks__casestudy .casestudy__product h1 {
       font-family: 'muliSemiBold';
       font-size: 24px;
-      margin: 77px 124px 14px 125px; }
+      margin: 147px 124px 14px 125px; }
     .hashworks__casestudy .casestudy__product p {
       font-size: 18px; }
   .hashworks__casestudy .casestudy__image2 {
@@ -2181,39 +2200,33 @@ body {
     .hashworks__casestudy .casestudy__overview__department {
       margin: 134px 0px 187px 0px; }
     .hashworks__casestudy .casestudy__overview__boxes h1 {
-      font-family: 'muliRegular';
-      font-size: 24px;
-      text-align: left;
-      color: #ffffff;
-      margin: 12px 0px 24px 26px; }
+      font-size: 48px;
+      padding: 14px 0px 32px 30px;
+      margin: 0; }
     .hashworks__casestudy .casestudy__overview__boxes p {
-      font-family: 'muliRegular';
-      font-size: 16px;
-      text-align: left;
-      color: #ffffff;
-      margin: 0px 17px 17px 26px; }
+      font-size: 32px;
+      padding: 0px 34px 26px 30px;
+      margin: 0; }
     .hashworks__casestudy .casestudy__overview__boxes__box {
-      width: 155px;
-      height: 123px;
-      margin: 32px 0px 0px 2px;
-      background-color: #603c96;
-      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5); }
+      width: 270px;
+      height: 216px;
+      margin: -173px 0px 0px 685px; }
     .hashworks__casestudy .casestudy__overview__boxes__box1 {
-      width: 155px;
-      height: 123px;
-      background-color: #ffffff;
-      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-      margin: -134px 0px 0px 162px; }
+      width: 270px;
+      height: 216px;
+      margin: -214px 0px 0px 984px; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
-        color: #603c96; }
+        color: #603c96;
+        font-size: 48px; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 p {
-        color: #4a4a4a; }
+        color: #4a4a4a;
+        font-size: 32px; }
   .hashworks__casestudy .casestudy__product {
     width: 100%; }
     .hashworks__casestudy .casestudy__product h1 {
       font-family: 'muliSemiBold';
       font-size: 24px;
-      margin: 77px 124px 14px 125px; }
+      margin: 120px 124px 14px 125px; }
     .hashworks__casestudy .casestudy__product p {
       font-size: 18px; }
   .hashworks__casestudy .casestudy__image2 {
@@ -2256,18 +2269,28 @@ body {
       width: 570px;
       height: 323px; } }
 @media screen and (min-width: 320px) {
-  .hashworks__casestudy .row {
+  .hashworks__casestudyHome button:focus, .hashworks__casestudyHome button:active {
+    outline: 0; }
+  .hashworks__casestudyHome .btn-outline-primary.active {
+    color: #603c96;
+    background-color: inherit; }
+  .hashworks__casestudyHome .btn-outline-primary {
+    color: black;
+    background-color: inherit; }
+  .hashworks__casestudyHome .filter {
+    transition: all 1s ease; }
+  .hashworks__casestudyHome .row {
     width: 263px;
     margin: 0 auto;
     padding: 0; }
-  .hashworks__casestudy h1 {
+  .hashworks__casestudyHome h1 {
     font-family: "muliBold";
     font-size: 10px;
     font-weight: bold;
     text-align: left;
     color: #9c9c9c;
     margin: 16px 0px 8px 0px; }
-  .hashworks__casestudy h2 {
+  .hashworks__casestudyHome h2 {
     font-family: 'muliRegular';
     font-size: 16px;
     line-height: 1.44;
@@ -2275,153 +2298,153 @@ body {
     color: #3e3e3e;
     margin-bottom: 24px;
     width: 267px; }
-  .hashworks__casestudy .casestudy__events__banner {
+  .hashworks__casestudyHome .casestudy__events__banner {
     background-image: url(../assets/image/casestudy/case-study-banner.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 230px; }
-    .hashworks__casestudy .casestudy__events__banner h1 {
+    .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-family: 'muliRegular';
       font-size: 24px;
       text-align: center;
       color: #ffffff;
       padding: 184px 175px 16px 18px;
       margin: 0; }
-  .hashworks__casestudy .casestudy__events .category-filter {
+  .hashworks__casestudyHome .casestudy__events .category-filter {
     margin: 16px 12px; }
-    .hashworks__casestudy .casestudy__events .category-filter p {
+    .hashworks__casestudyHome .casestudy__events .category-filter p {
       font-size: 12px;
       font-family: 'muliSemiBold';
       font-weight: 600;
       text-align: center;
       display: inline;
       padding-right: 8px; }
-  .hashworks__casestudy .casestudy__events .event {
+  .hashworks__casestudyHome .casestudy__events .event {
     padding: 0; }
-  .hashworks__casestudy .casestudy__events__image1 {
+  .hashworks__casestudyHome .casestudy__events__image1 {
     background-image: url(../assets/image/casestudy/1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 148px; }
-  .hashworks__casestudy .casestudy__events__image2 {
+  .hashworks__casestudyHome .casestudy__events__image2 {
     background-image: url(../assets/image/casestudy/6.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 148px; }
-  .hashworks__casestudy .casestudy__events__image3 {
+  .hashworks__casestudyHome .casestudy__events__image3 {
     background-image: url(../assets/image/casestudy/4.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 148px; }
-  .hashworks__casestudy .casestudy__events__image4 {
+  .hashworks__casestudyHome .casestudy__events__image4 {
     background-image: url(../assets/image/casestudy/5.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 148px; } }
 @media screen and (min-width: 768px) {
-  .hashworks__casestudy .row {
+  .hashworks__casestudyHome .row {
     width: 708px; }
-  .hashworks__casestudy h1 {
+  .hashworks__casestudyHome h1 {
     font-size: 12px;
     margin: 30px 0px 16px 0px; }
-  .hashworks__casestudy h2 {
+  .hashworks__casestudyHome h2 {
     font-size: 18px;
     margin-bottom: 54px;
     width: 314px; }
-  .hashworks__casestudy .casestudy__events__banner h1 {
+  .hashworks__casestudyHome .casestudy__events__banner h1 {
     font-size: 36px;
     padding: 148px 530px 32px 32px; }
-  .hashworks__casestudy .casestudy__events .category-filter {
+  .hashworks__casestudyHome .casestudy__events .category-filter {
     margin: 32px 158px 28px 191px; }
-    .hashworks__casestudy .casestudy__events .category-filter p {
+    .hashworks__casestudyHome .casestudy__events .category-filter p {
       font-size: 14px;
       padding-right: 26px; }
-  .hashworks__casestudy .casestudy__events .event {
+  .hashworks__casestudyHome .casestudy__events .event {
     padding: 0; }
-  .hashworks__casestudy .casestudy__events__image1 {
+  .hashworks__casestudyHome .casestudy__events__image1 {
     width: 340px;
     height: 193px; }
-  .hashworks__casestudy .casestudy__events__image2 {
+  .hashworks__casestudyHome .casestudy__events__image2 {
     width: 340px;
     height: 193px; }
-  .hashworks__casestudy .casestudy__events__image3 {
+  .hashworks__casestudyHome .casestudy__events__image3 {
     width: 340px;
     height: 193px; }
-  .hashworks__casestudy .casestudy__events__image4 {
+  .hashworks__casestudyHome .casestudy__events__image4 {
     width: 340px;
     height: 193px; } }
 @media screen and (min-width: 1024px) {
-  .hashworks__casestudy .row {
+  .hashworks__casestudyHome .row {
     width: 942px; }
-  .hashworks__casestudy h1 {
+  .hashworks__casestudyHome h1 {
     font-size: 14px;
     margin: 32px 0px 16px 0px; }
-  .hashworks__casestudy h2 {
+  .hashworks__casestudyHome h2 {
     font-size: 24px;
     line-height: 1.42;
     margin-bottom: 39px;
     width: 418px; }
-  .hashworks__casestudy .casestudy__events__banner {
+  .hashworks__casestudyHome .casestudy__events__banner {
     height: 306px; }
-    .hashworks__casestudy .casestudy__events__banner h1 {
+    .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-size: 48px;
       padding: 220px 720px 28px 43px; }
-  .hashworks__casestudy .casestudy__events .category-filter {
+  .hashworks__casestudyHome .casestudy__events .category-filter {
     margin: 32px 276px 27px 285px; }
-    .hashworks__casestudy .casestudy__events .category-filter p {
+    .hashworks__casestudyHome .casestudy__events .category-filter p {
       font-size: 16px;
       padding-right: 27px; }
-  .hashworks__casestudy .casestudy__events .event {
+  .hashworks__casestudyHome .casestudy__events .event {
     padding: 0; }
-  .hashworks__casestudy .casestudy__events__image1 {
+  .hashworks__casestudyHome .casestudy__events__image1 {
     width: 458px;
     height: 259px; }
-  .hashworks__casestudy .casestudy__events__image2 {
+  .hashworks__casestudyHome .casestudy__events__image2 {
     width: 458px;
     height: 259px; }
-  .hashworks__casestudy .casestudy__events__image3 {
+  .hashworks__casestudyHome .casestudy__events__image3 {
     width: 458px;
     height: 259px; }
-  .hashworks__casestudy .casestudy__events__image4 {
+  .hashworks__casestudyHome .casestudy__events__image4 {
     width: 458px;
     height: 259px; } }
 @media screen and (min-width: 1367px) {
-  .hashworks__casestudy .row {
+  .hashworks__casestudyHome .row {
     width: 1170px; }
-  .hashworks__casestudy h1 {
+  .hashworks__casestudyHome h1 {
     font-size: 16px; }
-  .hashworks__casestudy h2 {
+  .hashworks__casestudyHome h2 {
     font-size: 32px;
     line-height: 1.38;
     margin-bottom: 64px;
     width: 558px; }
-  .hashworks__casestudy .casestudy__events__banner {
+  .hashworks__casestudyHome .casestudy__events__banner {
     height: 430px; }
-    .hashworks__casestudy .casestudy__events__banner h1 {
+    .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-size: 56px;
       padding: 330px 936px 32px 136px; }
-  .hashworks__casestudy .casestudy__events .category-filter {
+  .hashworks__casestudyHome .casestudy__events .category-filter {
     margin: 27px 422px 31px 448px; }
-    .hashworks__casestudy .casestudy__events .category-filter p {
+    .hashworks__casestudyHome .casestudy__events .category-filter p {
       font-size: 18px;
       padding-right: 26px; }
-  .hashworks__casestudy .casestudy__events .event {
+  .hashworks__casestudyHome .casestudy__events .event {
     padding: 0; }
-  .hashworks__casestudy .casestudy__events__image1 {
+  .hashworks__casestudyHome .casestudy__events__image1 {
     width: 569px;
     height: 322px; }
-  .hashworks__casestudy .casestudy__events__image2 {
+  .hashworks__casestudyHome .casestudy__events__image2 {
     width: 569px;
     height: 322px; }
-  .hashworks__casestudy .casestudy__events__image3 {
+  .hashworks__casestudyHome .casestudy__events__image3 {
     width: 569px;
     height: 322px; }
-  .hashworks__casestudy .casestudy__events__image4 {
+  .hashworks__casestudyHome .casestudy__events__image4 {
     width: 569px;
     height: 322px; } }
 @media screen and (min-width: 320px) {
@@ -2790,6 +2813,7 @@ ul.tabs li.current {
     .aboutus__company--explore h1 {
       font-size: 18px; } }
 @media only screen and (min-width: 1025px) {
+<<<<<<< HEAD
   .aboutus__headImg {
     height: 306px;
     width: 100%; }
@@ -2881,6 +2905,114 @@ ul.tabs li.current {
     height: 430px;
     padding: 33px 134px;
     font-size: 56px; }
+=======
+  .aboutus__headImg {
+    height: 306px;
+    width: 100%; }
+  .aboutus__content1 {
+    height: 306px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 31px 43px;
+    font-family: 'muliRegular';
+    font-size: 48px;
+    text-align: left;
+    color: #ffffff; }
+>>>>>>> 8bd1ae51701d7c451d7e8ba2a30574676ffcae74
+    .aboutus__content1 h1 {
+      padding: 161px 0px 0px 34px;
+      font-size: 36px; }
+  .aboutus__tab--list li {
+<<<<<<< HEAD
+    margin: 24px 50px;
+    font-size: 18px; }
+=======
+    margin: 25px 55px;
+    font-size: 16px; }
+>>>>>>> 8bd1ae51701d7c451d7e8ba2a30574676ffcae74
+  .aboutus__thinking--container1 {
+    width: 731px;
+    margin: 0 auto; }
+  .aboutus__thinking h2 {
+<<<<<<< HEAD
+    font-size: 32px;
+    padding: 64px 0px 0px 0px; }
+  .aboutus__thinking p {
+    width: 731px;
+    font-size: 18px;
+=======
+    font-size: 24px;
+    padding: 64px 0px 0px 0px; }
+  .aboutus__thinking p {
+    width: 731px;
+    font-size: 16px;
+>>>>>>> 8bd1ae51701d7c451d7e8ba2a30574676ffcae74
+    padding-top: 33px; }
+  .aboutus__thinking h3 {
+    font-size: 24px; }
+  .aboutus__thinking--capitalImage {
+<<<<<<< HEAD
+=======
+    height: 430px;
+    margin-top: 32px; }
+  .aboutus__thinking--clientImage {
+    height: 430px;
+    margin-top: 32px; }
+  .aboutus__thinking--industryImage {
+    height: 430px;
+    margin-top: 32px; }
+  .aboutus__thinking--ourculture {
+    padding-bottom: 51px; }
+    .aboutus__thinking--ourculture--container1 {
+      width: 799px;
+      margin: 0 auto; }
+    .aboutus__thinking--ourculture .culture {
+      padding-top: 64px; }
+    .aboutus__thinking--ourculture p {
+      width: 100%;
+      padding: 16px 21px 0px 34px; }
+  .aboutus__thinking--grew {
+    background-color: #603c96; }
+    .aboutus__thinking--grew p {
+      font-size: 24px;
+      padding: 69px 0px; }
+
+  .aboutus__company {
+    background-color: #f7f7f7; }
+    .aboutus__company .row {
+      width: 731px;
+      margin: 0 auto; }
+    .aboutus__company h1 {
+      font-size: 24px; }
+    .aboutus__company p {
+      font-size: 16px;
+      margin: 12px 0px 67px; }
+    .aboutus__company img {
+      width: 124px;
+      height: 124px;
+      border-radius: 50%;
+      margin-left: 120px; }
+    .aboutus__company h2 {
+      font-size: 16px;
+      margin: 10px 0px; }
+    .aboutus__company h3 {
+      font-size: 16px;
+      margin-bottom: 75px; }
+    .aboutus__company--explore {
+      height: 124px;
+      object-fit: contain; }
+      .aboutus__company--explore h1 {
+        font-size: 24px;
+        height: 124px; } }
+@media only screen and (min-width: 1367px) {
+  .aboutus__headImg {
+    height: 430px;
+    width: 100%; }
+  .aboutus__content1 {
+    height: 430px;
+    padding: 33px 134px;
+    font-size: 56px; }
     .aboutus__content1 h1 {
       padding: 161px 0px 0px 34px;
       font-size: 36px; }
@@ -2900,6 +3032,7 @@ ul.tabs li.current {
   .aboutus__thinking h3 {
     font-size: 24px; }
   .aboutus__thinking--capitalImage {
+>>>>>>> 8bd1ae51701d7c451d7e8ba2a30574676ffcae74
     height: 557px;
     margin-top: 32px; }
   .aboutus__thinking--clientImage {
@@ -3374,6 +3507,7 @@ ul.tabs li.current {
     .cloud__div113 p {
       font-size: 24px !important;
       margin-left: 0 !important; } }
+<<<<<<< HEAD
 @media only screen and (min-width: 320px) {
   .dataScience {
     font-family: 'muliRegular';
@@ -4511,3 +4645,5 @@ ul.tabs li.current {
     .mobile__div113 p {
       font-size: 24px !important;
       margin-left: 0 !important; } }
+=======
+>>>>>>> 8bd1ae51701d7c451d7e8ba2a30574676ffcae74
