@@ -1,23 +1,6 @@
 @media screen and (min-width:320px){ 
-   .hashworks__casestudyHome {
-       button:focus, button:active {
-			outline:0;
-		}
-	
-		.btn-outline-primary.active {
-    color: #603c96;
-    background-color: inherit;
-}
-.btn-outline-primary {
-	color: black;
-	background-color: inherit;
-}
-
-
-		.filter {
-			transition: all 1s ease;
-		}
-
+   .hashworks__casestudy {
+      
        .row{
         width: 270px;
         margin: 0px auto;
@@ -245,7 +228,7 @@
 }
 
 @media screen and (min-width:768px){ 
-    .hashworks__casestudyHome { 
+    .hashworks__casestudy { 
        .row{
         width: 703px;
         }
@@ -400,7 +383,7 @@
 }
 
 @media screen and (min-width:1024px){ 
-    .hashworks__casestudyHome { 
+    .hashworks__casestudy { 
        .row{
         width: 940px;
         }
@@ -555,7 +538,7 @@
 }
 
 @media screen and (min-width:1367px){ 
-    .hashworks__casestudyHome { 
+    .hashworks__casestudy { 
        .row{
         width: 1097px;
         }
