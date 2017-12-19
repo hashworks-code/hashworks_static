@@ -2542,387 +2542,6 @@ body {
         width: 32px;
         height: 26px;
         margin-left: 20px; } }
-<<<<<<< HEAD
-@media only screen and (min-width: 320px) {
-  .cloud {
-    font-family: 'muliRegular';
-    color: #4a4a4a; }
-    .cloud__container {
-      width: 270px;
-      margin: 0 auto; }
-    .cloud__headImg {
-      background-image: url(../assets/image/cloud/server-01.png);
-      background-repeat: no-repeat;
-      height: 232px;
-      width: 100%;
-      background-size: 100% 100%;
-      object-fit: contain; }
-    .cloud__head {
-      font-size: 24px;
-      padding-top: 186px;
-      color: #fff; }
-    .cloud__content {
-      height: 100%;
-      background-color: #000000;
-      color: #ffffff;
-      padding-bottom: 24px; }
-      .cloud__content h1 {
-        font-size: 16px;
-        padding: 21px 0 16px;
-        font-weight: 100; }
-      .cloud__content p {
-        font-size: 12px;
-        line-height: 1.5;
-        padding-bottom: 16px; }
-    .cloud__div1 {
-      display: inline-block;
-      width: 130px;
-      background-color: #603c96;
-      padding: 15px 10px 0 27px; }
-      .cloud__div1 h2 {
-        font-weight: 100;
-        font-size: 24px;
-        padding-bottom: 23px; }
-      .cloud__div1 p {
-        font-size: 16px;
-        line-height: 1; }
-    .cloud__div2 {
-      display: inline-block;
-      vertical-align: top;
-      width: 130px;
-      background-color: #ffffff;
-      padding: 15px 10px 0 27px; }
-      .cloud__div2 h2 {
-        font-weight: 100;
-        color: #603c96;
-        font-size: 24px;
-        padding-bottom: 6px; }
-      .cloud__div2 p {
-        font-size: 16px;
-        color: #000000;
-        line-height: 1; }
-    .cloud .col-xs-12.col-sm-8.col-md-8.col-lg-8,
-    .cloud .col-xs-12.col-sm-4.col-md-4.col-lg-4,
-    .cloud .col-xs-12.col-sm-6.col-md-6.col-lg-6 {
-      padding: 0; }
-    .cloud__mobility {
-      margin: 32px 0; }
-      .cloud__mobility h1 {
-        font-size: 18px;
-        color: #603c96;
-        font-family: 'muliBold';
-        padding-bottom: 32px; }
-      .cloud__mobility h2 {
-        font-family: 'muliSemiBold';
-        font-size: 18px;
-        padding-bottom: 16px; }
-      .cloud__mobility p {
-        font-size: 12px;
-        line-height: 1.67;
-        color: #3e3e3e;
-        padding-bottom: 12px; }
-    .cloud__div11 {
-      display: inline-block;
-      width: 102px;
-      background-color: #603c96;
-      margin-left: 25px;
-      padding: 25px 20px 17px 7px; }
-      .cloud__div11 p {
-        font-size: 12px !important;
-        line-height: 1.58;
-        color: #ffffff; }
-    .cloud__div12 {
-      display: inline-block;
-      vertical-align: top;
-      width: 102px;
-      background-color: #f7f7f7;
-      padding: 26px 35px 17px 11px; }
-      .cloud__div12 p {
-        font-size: 12px !important;
-        line-height: 1.58;
-        color: #191919; }
-    .cloud__productImg {
-      background-image: url(../assets/image/cloud/group-16.png);
-      background-repeat: no-repeat;
-      height: 189px;
-      width: 100%;
-      background-size: 100% 100%;
-      object-fit: contain;
-      margin-bottom: 33px; }
-      .cloud__productImg p {
-        font-size: 18px;
-        padding-top: 61px;
-        color: #fff;
-        width: 185px; }
-    .cloud__byod {
-      margin: 33px 0; }
-      .cloud__byod h1 {
-        font-size: 16px;
-        font-family: 'muliSemiBold';
-        padding-bottom: 16px; }
-      .cloud__byod p {
-        font-size: 12px;
-        line-height: 1.67;
-        margin-bottom: 32px; }
-    .cloud__div111 {
-      display: inline-block;
-      width: 102px;
-      background-color: #603c96;
-      margin-left: 25px;
-      padding: 25px 20px 0 7px; }
-      .cloud__div111 p {
-        font-size: 12px !important;
-        line-height: 1.58;
-        color: #ffffff; }
-    .cloud__div112 {
-      background-image: url(../assets/image/cloud/bitmap.png);
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      object-fit: contain;
-      display: inline-block;
-      vertical-align: top;
-      width: 102px;
-      padding: 26px 35px 0 11px; }
-      .cloud__div112 p {
-        font-size: 12px !important;
-        line-height: 1.58;
-        color: #fff; }
-    .cloud__div113 {
-      display: inline-block;
-      margin-top: 10px;
-      margin-left: 25px;
-      width: 102px;
-      background-color: #151515;
-      padding: 26px 35px 0 11px; }
-      .cloud__div113 p {
-        font-size: 12px !important;
-        line-height: 1.58;
-        color: #fff; } }
-@media only screen and (min-width: 768px) {
-  .cloud__container {
-    width: 702px;
-    margin: 0 auto; }
-  .cloud__headImg {
-    height: 230px; }
-  .cloud__head {
-    font-size: 36px;
-    padding-top: 149px; }
-  .cloud__content {
-    padding: 32px 0; }
-    .cloud__content h1 {
-      font-size: 18px;
-      padding: 0 0 16px; }
-    .cloud__content p {
-      font-size: 14px;
-      padding-right: 27px; }
-  .cloud__div1 {
-    margin-left: 7px;
-    margin-top: 22px;
-    width: 160px;
-    padding: 15px 10px 14px 27px; }
-  .cloud__div2 {
-    margin-top: 22px;
-    margin-left: 18px;
-    width: 160px;
-    padding: 15px 10px 30px 27px; }
-  .cloud__mobility {
-    margin: 33px 0 49px; }
-    .cloud__mobility h1 {
-      font-size: 24px; }
-    .cloud__mobility p {
-      font-size: 14px;
-      padding-bottom: 0; }
-  .cloud__div11 {
-    padding: 25px 20px 17px 7px;
-    margin: 55px 10px 0 0; }
-  .cloud__div12 {
-    margin-top: 55px; }
-  .cloud__productImg p {
-    font-size: 24px;
-    padding-top: 49px;
-    width: 230px; }
-  .cloud__byod {
-    margin: 33px 0 35px; }
-    .cloud__byod h1 {
-      font-size: 18px; }
-    .cloud__byod p {
-      font-size: 14px; }
-  .cloud__div111 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 25px 20px 0 7px; }
-  .cloud__div112 {
-    margin-top: 10px; }
-  .cloud__div113 {
-    margin-right: 10px;
-    margin-left: 0; } }
-@media only screen and (min-width: 1025px) {
-  .cloud__container {
-    width: 943px; }
-  .cloud__headImg {
-    height: 306px; }
-  .cloud__head {
-    font-size: 48px;
-    padding-top: 216px; }
-  .cloud__content {
-    padding: 35px 0 32px; }
-    .cloud__content h1 {
-      font-size: 24px; }
-    .cloud__content p {
-      font-size: 16px; }
-  .cloud__div1 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 10px 21px 24px; }
-    .cloud__div1 h2 {
-      font-size: 48px;
-      padding-bottom: 26px; }
-    .cloud__div1 p {
-      font-size: 24px !important; }
-  .cloud__div2 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 10px 21px 24px; }
-    .cloud__div2 h2 {
-      font-size: 48px;
-      padding-bottom: 24px; }
-    .cloud__div2 p {
-      font-size: 24px !important; }
-  .cloud__mobility {
-    margin: 32px 0 64px; }
-    .cloud__mobility h1 {
-      font-size: 32px; }
-    .cloud__mobility p {
-      font-size: 16px; }
-    .cloud__mobility h2 {
-      font-size: 24px; }
-  .cloud__div11 {
-    width: 140px;
-    padding: 38px 0px 38px 10px;
-    margin: 55px 15px 0 0; }
-    .cloud__div11 p {
-      font-size: 18px !important; }
-  .cloud__div12 {
-    width: 140px;
-    padding: 38px 25px 38px 10px; }
-    .cloud__div12 p {
-      font-size: 18px !important; }
-  .cloud__productImg {
-    height: 250px; }
-    .cloud__productImg p {
-      font-size: 36px;
-      padding-top: 57px;
-      width: 100%; }
-  .cloud__byod {
-    margin: 64px 0; }
-    .cloud__byod h1 {
-      font-size: 24px; }
-    .cloud__byod p {
-      font-size: 16px; }
-  .cloud__div111 {
-    width: 140px;
-    margin: 55px 15px 0 0;
-    padding-bottom: 2px; }
-    .cloud__div111 p {
-      font-size: 18px !important; }
-  .cloud__div112 {
-    width: 140px;
-    margin: 55px 0 0 0; }
-    .cloud__div112 p {
-      font-size: 18px !important; }
-  .cloud__div113 {
-    width: 140px; }
-    .cloud__div113 p {
-      font-size: 18px !important; } }
-@media only screen and (min-width: 1367px) {
-  .cloud__container {
-    width: 1107px; }
-  .cloud__headImg {
-    height: 430px; }
-  .cloud__head {
-    font-size: 56px;
-    padding-top: 327px; }
-  .cloud__content {
-    padding: 92px 0 118px; }
-    .cloud__content h1 {
-      font-size: 32px; }
-    .cloud__content p {
-      font-size: 18px; }
-  .cloud__div1 {
-    margin-top: 40px;
-    width: 260px;
-    padding: 22px 10px 21px 24px; }
-    .cloud__div1 h2 {
-      font-size: 48px;
-      padding-bottom: 26px; }
-    .cloud__div1 p {
-      font-size: 32px !important; }
-  .cloud__div2 {
-    margin-top: 40px;
-    width: 260px;
-    padding: 22px 10px 21px 24px; }
-    .cloud__div2 h2 {
-      font-size: 48px;
-      padding-bottom: 24px; }
-    .cloud__div2 p {
-      font-size: 32px !important; }
-  .cloud__mobility {
-    margin: 32px 0 82px; }
-    .cloud__mobility h1 {
-      font-size: 36px;
-      margin-left: 10px; }
-    .cloud__mobility p {
-      font-size: 18px;
-      margin-left: 10px; }
-    .cloud__mobility h2 {
-      font-size: 32px;
-      margin-left: 10px; }
-  .cloud__div11 {
-    width: 170px;
-    padding: 38px 0px 38px 10px;
-    margin: 55px 15px 0 0; }
-    .cloud__div11 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; }
-  .cloud__div12 {
-    width: 170px;
-    padding: 38px 25px 38px 10px; }
-    .cloud__div12 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; }
-  .cloud__productImg {
-    height: 350px; }
-    .cloud__productImg p {
-      font-size: 48px;
-      padding-top: 98px;
-      width: 500px; }
-  .cloud__byod {
-    margin: 64px 0; }
-    .cloud__byod h1 {
-      font-size: 32px;
-      margin-left: 10px; }
-    .cloud__byod p {
-      font-size: 18px;
-      margin-left: 10px; }
-  .cloud__div111 {
-    width: 170px;
-    padding-right: 0;
-    margin: 55px 15px 0 0; }
-    .cloud__div111 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; }
-  .cloud__div112 {
-    width: 170px; }
-    .cloud__div112 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; }
-  .cloud__div113 {
-    width: 170px; }
-    .cloud__div113 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; } }
-=======
 ul.tabs li.current {
   color: #603c96; }
 
@@ -3375,4 +2994,1520 @@ ul.tabs li.current {
   height: 237px;
   width: 100%;
   background-size: cover; }
->>>>>>> 95af5a26bc2187e4e836caeecd4fabdcc346e931
+
+@media only screen and (min-width: 320px) {
+  .cloud {
+    font-family: 'muliRegular';
+    color: #4a4a4a; }
+    .cloud__container {
+      width: 270px;
+      margin: 0 auto; }
+    .cloud__headImg {
+      background-image: url(../assets/image/cloud/server-01.png);
+      background-repeat: no-repeat;
+      height: 232px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain; }
+    .cloud__head {
+      font-size: 24px;
+      padding-top: 186px;
+      color: #fff; }
+    .cloud__content {
+      height: 100%;
+      background-color: #000000;
+      color: #ffffff;
+      padding-bottom: 24px; }
+      .cloud__content h1 {
+        font-size: 16px;
+        padding: 21px 0 16px;
+        font-weight: 100; }
+      .cloud__content p {
+        font-size: 12px;
+        line-height: 1.5;
+        padding-bottom: 16px; }
+    .cloud__div1 {
+      display: inline-block;
+      width: 130px;
+      background-color: #603c96;
+      padding: 15px 10px 0 27px; }
+      .cloud__div1 h2 {
+        font-weight: 100;
+        font-size: 24px;
+        padding-bottom: 23px; }
+      .cloud__div1 p {
+        font-size: 16px;
+        line-height: 1; }
+    .cloud__div2 {
+      display: inline-block;
+      vertical-align: top;
+      width: 130px;
+      background-color: #ffffff;
+      padding: 15px 10px 0 27px; }
+      .cloud__div2 h2 {
+        font-weight: 100;
+        color: #603c96;
+        font-size: 24px;
+        padding-bottom: 6px; }
+      .cloud__div2 p {
+        font-size: 16px;
+        color: #000000;
+        line-height: 1; }
+    .cloud .col-xs-12.col-sm-8.col-md-8.col-lg-8,
+    .cloud .col-xs-12.col-sm-4.col-md-4.col-lg-4,
+    .cloud .col-xs-12.col-sm-6.col-md-6.col-lg-6 {
+      padding: 0; }
+    .cloud__mobility {
+      margin: 32px 0; }
+      .cloud__mobility h1 {
+        font-size: 18px;
+        color: #603c96;
+        font-family: 'muliBold';
+        padding-bottom: 32px; }
+      .cloud__mobility h2 {
+        font-family: 'muliSemiBold';
+        font-size: 18px;
+        padding-bottom: 16px; }
+      .cloud__mobility p {
+        font-size: 12px;
+        line-height: 1.67;
+        color: #3e3e3e;
+        padding-bottom: 12px; }
+    .cloud__div11 {
+      display: inline-block;
+      width: 102px;
+      background-color: #603c96;
+      margin-left: 25px;
+      padding: 25px 20px 17px 7px; }
+      .cloud__div11 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #ffffff; }
+    .cloud__div12 {
+      display: inline-block;
+      vertical-align: top;
+      width: 102px;
+      background-color: #f7f7f7;
+      padding: 26px 35px 17px 11px; }
+      .cloud__div12 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #191919; }
+    .cloud__productImg {
+      background-image: url(../assets/image/cloud/group-16.png);
+      background-repeat: no-repeat;
+      height: 189px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain;
+      margin-bottom: 33px; }
+      .cloud__productImg p {
+        font-size: 18px;
+        padding-top: 61px;
+        color: #fff;
+        width: 185px; }
+    .cloud__byod {
+      margin: 33px 0; }
+      .cloud__byod h1 {
+        font-size: 16px;
+        font-family: 'muliSemiBold';
+        padding-bottom: 16px; }
+      .cloud__byod p {
+        font-size: 12px;
+        line-height: 1.67;
+        margin-bottom: 32px; }
+    .cloud__div111 {
+      display: inline-block;
+      width: 102px;
+      background-color: #603c96;
+      margin-left: 25px;
+      padding: 25px 20px 0 7px; }
+      .cloud__div111 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #ffffff; }
+    .cloud__div112 {
+      background-image: url(../assets/image/cloud/bitmap.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      object-fit: contain;
+      display: inline-block;
+      vertical-align: top;
+      width: 102px;
+      padding: 26px 35px 0 11px; }
+      .cloud__div112 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #fff; }
+    .cloud__div113 {
+      display: inline-block;
+      margin-top: 10px;
+      margin-left: 25px;
+      width: 102px;
+      background-color: #151515;
+      padding: 26px 35px 0 11px; }
+      .cloud__div113 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #fff; } }
+@media only screen and (min-width: 768px) {
+  .cloud__container {
+    width: 702px;
+    margin: 0 auto; }
+  .cloud__headImg {
+    height: 230px; }
+  .cloud__head {
+    font-size: 36px;
+    padding-top: 149px; }
+  .cloud__content {
+    padding: 32px 0; }
+    .cloud__content h1 {
+      font-size: 18px;
+      padding: 0 0 16px; }
+    .cloud__content p {
+      font-size: 14px;
+      padding-right: 27px; }
+  .cloud__div1 {
+    margin-left: 7px;
+    margin-top: 22px;
+    width: 160px;
+    padding: 15px 10px 14px 27px; }
+  .cloud__div2 {
+    margin-top: 22px;
+    margin-left: 18px;
+    width: 160px;
+    padding: 15px 10px 30px 27px; }
+  .cloud__mobility {
+    margin: 33px 0 49px; }
+    .cloud__mobility h1 {
+      font-size: 24px; }
+    .cloud__mobility p {
+      font-size: 14px;
+      padding-bottom: 0; }
+  .cloud__div11 {
+    padding: 25px 20px 17px 7px;
+    margin: 55px 10px 0 0; }
+  .cloud__div12 {
+    margin-top: 55px; }
+  .cloud__productImg p {
+    font-size: 24px;
+    padding-top: 49px;
+    width: 230px; }
+  .cloud__byod {
+    margin: 33px 0 35px; }
+    .cloud__byod h1 {
+      font-size: 18px; }
+    .cloud__byod p {
+      font-size: 14px; }
+  .cloud__div111 {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 25px 20px 0 7px; }
+  .cloud__div112 {
+    margin-top: 10px; }
+  .cloud__div113 {
+    margin-right: 10px;
+    margin-left: 0; } }
+@media only screen and (min-width: 1025px) {
+  .cloud__container {
+    width: 943px; }
+  .cloud__headImg {
+    height: 306px; }
+  .cloud__head {
+    font-size: 48px;
+    padding-top: 216px; }
+  .cloud__content {
+    padding: 35px 0 32px; }
+    .cloud__content h1 {
+      font-size: 24px; }
+    .cloud__content p {
+      font-size: 16px; }
+  .cloud__div1 {
+    margin-top: 40px;
+    width: 220px;
+    padding: 22px 10px 21px 24px; }
+    .cloud__div1 h2 {
+      font-size: 48px;
+      padding-bottom: 26px; }
+    .cloud__div1 p {
+      font-size: 24px !important; }
+  .cloud__div2 {
+    margin-top: 40px;
+    width: 220px;
+    padding: 22px 10px 21px 24px; }
+    .cloud__div2 h2 {
+      font-size: 48px;
+      padding-bottom: 24px; }
+    .cloud__div2 p {
+      font-size: 24px !important; }
+  .cloud__mobility {
+    margin: 32px 0 64px; }
+    .cloud__mobility h1 {
+      font-size: 32px; }
+    .cloud__mobility p {
+      font-size: 16px; }
+    .cloud__mobility h2 {
+      font-size: 24px; }
+  .cloud__div11 {
+    width: 140px;
+    padding: 38px 0px 38px 10px;
+    margin: 55px 15px 0 0; }
+    .cloud__div11 p {
+      font-size: 18px !important; }
+  .cloud__div12 {
+    width: 140px;
+    padding: 38px 25px 38px 10px; }
+    .cloud__div12 p {
+      font-size: 18px !important; }
+  .cloud__productImg {
+    height: 250px; }
+    .cloud__productImg p {
+      font-size: 36px;
+      padding-top: 57px;
+      width: 100%; }
+  .cloud__byod {
+    margin: 64px 0; }
+    .cloud__byod h1 {
+      font-size: 24px; }
+    .cloud__byod p {
+      font-size: 16px; }
+  .cloud__div111 {
+    width: 140px;
+    margin: 55px 15px 0 0;
+    padding-bottom: 2px; }
+    .cloud__div111 p {
+      font-size: 18px !important; }
+  .cloud__div112 {
+    width: 140px;
+    margin: 55px 0 0 0; }
+    .cloud__div112 p {
+      font-size: 18px !important; }
+  .cloud__div113 {
+    width: 140px; }
+    .cloud__div113 p {
+      font-size: 18px !important; } }
+@media only screen and (min-width: 1367px) {
+  .cloud__container {
+    width: 1107px; }
+  .cloud__headImg {
+    height: 430px; }
+  .cloud__head {
+    font-size: 56px;
+    padding-top: 327px; }
+  .cloud__content {
+    padding: 92px 0 118px; }
+    .cloud__content h1 {
+      font-size: 32px; }
+    .cloud__content p {
+      font-size: 18px; }
+  .cloud__div1 {
+    margin-top: 40px;
+    width: 260px;
+    padding: 22px 10px 21px 24px; }
+    .cloud__div1 h2 {
+      font-size: 48px;
+      padding-bottom: 26px; }
+    .cloud__div1 p {
+      font-size: 32px !important; }
+  .cloud__div2 {
+    margin-top: 40px;
+    width: 260px;
+    padding: 22px 10px 21px 24px; }
+    .cloud__div2 h2 {
+      font-size: 48px;
+      padding-bottom: 24px; }
+    .cloud__div2 p {
+      font-size: 32px !important; }
+  .cloud__mobility {
+    margin: 32px 0 82px; }
+    .cloud__mobility h1 {
+      font-size: 36px;
+      margin-left: 10px; }
+    .cloud__mobility p {
+      font-size: 18px;
+      margin-left: 10px; }
+    .cloud__mobility h2 {
+      font-size: 32px;
+      margin-left: 10px; }
+  .cloud__div11 {
+    width: 170px;
+    padding: 38px 0px 38px 10px;
+    margin: 55px 15px 0 0; }
+    .cloud__div11 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .cloud__div12 {
+    width: 170px;
+    padding: 38px 25px 38px 10px; }
+    .cloud__div12 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .cloud__productImg {
+    height: 350px; }
+    .cloud__productImg p {
+      font-size: 48px;
+      padding-top: 98px;
+      width: 500px; }
+  .cloud__byod {
+    margin: 64px 0; }
+    .cloud__byod h1 {
+      font-size: 32px;
+      margin-left: 10px; }
+    .cloud__byod p {
+      font-size: 18px;
+      margin-left: 10px; }
+  .cloud__div111 {
+    width: 170px;
+    padding-right: 0;
+    margin: 55px 15px 0 0; }
+    .cloud__div111 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .cloud__div112 {
+    width: 170px; }
+    .cloud__div112 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .cloud__div113 {
+    width: 170px; }
+    .cloud__div113 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; } }
+@media only screen and (min-width: 320px) {
+  .dataScience {
+    font-family: 'muliRegular';
+    color: #4a4a4a; }
+    .dataScience__container {
+      width: 270px;
+      margin: 0 auto; }
+    .dataScience__headImg {
+      background-image: url(../assets/image/dataScience/data-science-banner.png);
+      background-repeat: no-repeat;
+      height: 232px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain; }
+    .dataScience__head {
+      font-size: 24px;
+      padding-top: 186px;
+      color: #fff; }
+    .dataScience__content {
+      height: 100%;
+      background-color: #000000;
+      color: #ffffff;
+      padding-bottom: 24px; }
+      .dataScience__content h1 {
+        font-size: 16px;
+        padding: 21px 0 16px;
+        font-weight: 100; }
+      .dataScience__content p {
+        font-size: 12px;
+        line-height: 1.5;
+        padding-bottom: 16px; }
+    .dataScience__div1 {
+      display: inline-block;
+      width: 130px;
+      background-color: #603c96;
+      padding: 15px 10px 0 27px; }
+      .dataScience__div1 h2 {
+        font-weight: 100;
+        font-size: 24px;
+        padding-bottom: 23px; }
+      .dataScience__div1 p {
+        font-size: 16px;
+        line-height: 1; }
+    .dataScience__div2 {
+      display: inline-block;
+      vertical-align: top;
+      width: 130px;
+      background-color: #ffffff;
+      padding: 15px 10px 0 27px; }
+      .dataScience__div2 h2 {
+        font-weight: 100;
+        color: #603c96;
+        font-size: 24px;
+        padding-bottom: 6px; }
+      .dataScience__div2 p {
+        font-size: 16px;
+        color: #000000;
+        line-height: 1; }
+    .dataScience .col-xs-12.col-sm-8.col-md-8.col-lg-8,
+    .dataScience .col-xs-12.col-sm-4.col-md-4.col-lg-4,
+    .dataScience .col-xs-12.col-sm-6.col-md-6.col-lg-6 {
+      padding: 0; }
+    .dataScience__mobility {
+      margin: 32px 0; }
+      .dataScience__mobility h1 {
+        font-size: 18px;
+        color: #603c96;
+        font-family: 'muliBold';
+        padding-bottom: 32px; }
+      .dataScience__mobility h2 {
+        font-family: 'muliSemiBold';
+        font-size: 18px;
+        padding-bottom: 16px; }
+      .dataScience__mobility p {
+        font-size: 12px;
+        line-height: 1.67;
+        color: #3e3e3e;
+        padding-bottom: 12px; }
+    .dataScience__div11 {
+      display: inline-block;
+      width: 102px;
+      background-color: #603c96;
+      margin-left: 25px;
+      padding: 25px 20px 17px 7px; }
+      .dataScience__div11 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #ffffff; }
+    .dataScience__div12 {
+      display: inline-block;
+      vertical-align: top;
+      width: 102px;
+      background-color: #f7f7f7;
+      padding: 26px 35px 17px 11px; }
+      .dataScience__div12 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #191919; }
+    .dataScience__productImg {
+      background-image: url(../assets/image/dataScience/data-science-content-banner-1.png);
+      background-repeat: no-repeat;
+      height: 189px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain;
+      margin-bottom: 33px; }
+      .dataScience__productImg p {
+        font-size: 18px;
+        padding-top: 61px;
+        color: #fff;
+        width: 185px; }
+    .dataScience__byod {
+      margin: 33px 0; }
+      .dataScience__byod h1 {
+        font-size: 16px;
+        font-family: 'muliSemiBold';
+        padding-bottom: 16px; }
+      .dataScience__byod p {
+        font-size: 12px;
+        line-height: 1.67;
+        margin-bottom: 32px; }
+    .dataScience__div111 {
+      display: inline-block;
+      width: 102px;
+      background-color: #603c96;
+      margin-left: 25px;
+      padding: 25px 20px 0 7px; }
+      .dataScience__div111 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #ffffff; }
+    .dataScience__div112 {
+      background-image: url(../assets/image/cloud/bitmap.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      object-fit: contain;
+      display: inline-block;
+      vertical-align: top;
+      width: 102px;
+      padding: 26px 35px 0 11px; }
+      .dataScience__div112 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #fff; }
+    .dataScience__div113 {
+      display: inline-block;
+      margin-top: 10px;
+      margin-left: 25px;
+      width: 102px;
+      background-color: #151515;
+      padding: 26px 35px 0 11px; }
+      .dataScience__div113 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #fff; } }
+@media only screen and (min-width: 768px) {
+  .dataScience__container {
+    width: 702px;
+    margin: 0 auto; }
+  .dataScience__headImg {
+    height: 230px; }
+  .dataScience__head {
+    font-size: 36px;
+    padding-top: 149px; }
+  .dataScience__content {
+    padding: 32px 0; }
+    .dataScience__content h1 {
+      font-size: 18px;
+      padding: 0 0 16px; }
+    .dataScience__content p {
+      font-size: 14px;
+      padding-right: 27px; }
+  .dataScience__div1 {
+    margin-left: 7px;
+    margin-top: 22px;
+    width: 160px;
+    padding: 15px 10px 14px 27px; }
+  .dataScience__div2 {
+    margin-top: 22px;
+    margin-left: 18px;
+    width: 160px;
+    padding: 15px 10px 30px 27px; }
+  .dataScience__mobility {
+    margin: 33px 0 49px; }
+    .dataScience__mobility h1 {
+      font-size: 24px; }
+    .dataScience__mobility p {
+      font-size: 14px;
+      padding-bottom: 0; }
+  .dataScience__div11 {
+    padding: 25px 20px 17px 7px;
+    margin: 55px 10px 0 0; }
+  .dataScience__div12 {
+    margin-top: 55px; }
+  .dataScience__productImg p {
+    font-size: 24px;
+    padding-top: 49px;
+    width: 230px; }
+  .dataScience__byod {
+    margin: 33px 0 35px; }
+    .dataScience__byod h1 {
+      font-size: 18px; }
+    .dataScience__byod p {
+      font-size: 14px; }
+  .dataScience__div111 {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 25px 20px 0 7px; }
+  .dataScience__div112 {
+    margin-top: 10px; }
+  .dataScience__div113 {
+    margin-right: 10px;
+    margin-left: 0; } }
+@media only screen and (min-width: 1025px) {
+  .dataScience__container {
+    width: 943px; }
+  .dataScience__headImg {
+    height: 306px; }
+  .dataScience__head {
+    font-size: 48px;
+    padding-top: 216px; }
+  .dataScience__content {
+    padding: 35px 0 32px; }
+    .dataScience__content h1 {
+      font-size: 24px; }
+    .dataScience__content p {
+      font-size: 16px; }
+  .dataScience__div1 {
+    margin-top: 40px;
+    width: 220px;
+    padding: 22px 10px 21px 24px; }
+    .dataScience__div1 h2 {
+      font-size: 48px;
+      padding-bottom: 26px; }
+    .dataScience__div1 p {
+      font-size: 24px !important; }
+  .dataScience__div2 {
+    margin-top: 40px;
+    width: 220px;
+    padding: 22px 10px 21px 24px; }
+    .dataScience__div2 h2 {
+      font-size: 48px;
+      padding-bottom: 24px; }
+    .dataScience__div2 p {
+      font-size: 24px !important; }
+  .dataScience__mobility {
+    margin: 32px 0 64px; }
+    .dataScience__mobility h1 {
+      font-size: 32px; }
+    .dataScience__mobility p {
+      font-size: 16px; }
+    .dataScience__mobility h2 {
+      font-size: 24px; }
+  .dataScience__div11 {
+    width: 140px;
+    padding: 38px 0px 38px 10px;
+    margin: 55px 15px 0 0; }
+    .dataScience__div11 p {
+      font-size: 18px !important; }
+  .dataScience__div12 {
+    width: 140px;
+    padding: 38px 25px 38px 10px; }
+    .dataScience__div12 p {
+      font-size: 18px !important; }
+  .dataScience__productImg {
+    height: 250px; }
+    .dataScience__productImg p {
+      font-size: 36px;
+      padding-top: 57px;
+      width: 100%; }
+  .dataScience__byod {
+    margin: 64px 0; }
+    .dataScience__byod h1 {
+      font-size: 24px; }
+    .dataScience__byod p {
+      font-size: 16px; }
+  .dataScience__div111 {
+    width: 140px;
+    margin: 55px 15px 0 0;
+    padding-bottom: 2px; }
+    .dataScience__div111 p {
+      font-size: 18px !important; }
+  .dataScience__div112 {
+    width: 140px;
+    margin: 55px 0 0 0; }
+    .dataScience__div112 p {
+      font-size: 18px !important; }
+  .dataScience__div113 {
+    width: 140px; }
+    .dataScience__div113 p {
+      font-size: 18px !important; } }
+@media only screen and (min-width: 1367px) {
+  .dataScience__container {
+    width: 1107px; }
+  .dataScience__headImg {
+    height: 430px; }
+  .dataScience__head {
+    font-size: 56px;
+    padding-top: 327px; }
+  .dataScience__content {
+    padding: 92px 0 118px; }
+    .dataScience__content h1 {
+      font-size: 32px; }
+    .dataScience__content p {
+      font-size: 18px; }
+  .dataScience__div1 {
+    margin-top: 40px;
+    width: 260px;
+    padding: 22px 10px 21px 24px; }
+    .dataScience__div1 h2 {
+      font-size: 48px;
+      padding-bottom: 26px; }
+    .dataScience__div1 p {
+      font-size: 32px !important; }
+  .dataScience__div2 {
+    margin-top: 40px;
+    width: 260px;
+    padding: 22px 10px 21px 24px; }
+    .dataScience__div2 h2 {
+      font-size: 48px;
+      padding-bottom: 24px; }
+    .dataScience__div2 p {
+      font-size: 32px !important; }
+  .dataScience__mobility {
+    margin: 32px 0 82px; }
+    .dataScience__mobility h1 {
+      font-size: 36px;
+      margin-left: 10px; }
+    .dataScience__mobility p {
+      font-size: 18px;
+      margin-left: 10px; }
+    .dataScience__mobility h2 {
+      font-size: 32px;
+      margin-left: 10px; }
+  .dataScience__div11 {
+    width: 170px;
+    padding: 38px 0px 38px 10px;
+    margin: 55px 15px 0 0; }
+    .dataScience__div11 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .dataScience__div12 {
+    width: 170px;
+    padding: 38px 25px 38px 10px; }
+    .dataScience__div12 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .dataScience__productImg {
+    height: 350px; }
+    .dataScience__productImg p {
+      font-size: 48px;
+      padding-top: 98px;
+      width: 500px; }
+  .dataScience__byod {
+    margin: 64px 0; }
+    .dataScience__byod h1 {
+      font-size: 32px;
+      margin-left: 10px; }
+    .dataScience__byod p {
+      font-size: 18px;
+      margin-left: 10px; }
+  .dataScience__div111 {
+    width: 170px;
+    padding-right: 0;
+    margin: 55px 15px 0 0; }
+    .dataScience__div111 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .dataScience__div112 {
+    width: 170px; }
+    .dataScience__div112 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .dataScience__div113 {
+    width: 170px; }
+    .dataScience__div113 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; } }
+@media only screen and (min-width: 320px) {
+  .devOps {
+    font-family: 'muliRegular';
+    color: #4a4a4a; }
+    .devOps__container {
+      width: 270px;
+      margin: 0 auto; }
+    .devOps__headImg {
+      background-image: url(../assets/image/devOps/data-ops-banner-1.png);
+      background-repeat: no-repeat;
+      height: 232px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain; }
+    .devOps__head {
+      font-size: 24px;
+      padding-top: 186px;
+      color: #fff; }
+    .devOps__content {
+      height: 100%;
+      background-color: #000000;
+      color: #ffffff;
+      padding-bottom: 24px; }
+      .devOps__content h1 {
+        font-size: 16px;
+        padding: 21px 0 16px;
+        font-weight: 100; }
+      .devOps__content p {
+        font-size: 12px;
+        line-height: 1.5;
+        padding-bottom: 16px; }
+    .devOps__div1 {
+      display: inline-block;
+      width: 130px;
+      background-color: #603c96;
+      padding: 15px 10px 0 27px; }
+      .devOps__div1 h2 {
+        font-weight: 100;
+        font-size: 24px;
+        padding-bottom: 23px; }
+      .devOps__div1 p {
+        font-size: 16px;
+        line-height: 1; }
+    .devOps__div2 {
+      display: inline-block;
+      vertical-align: top;
+      width: 130px;
+      background-color: #ffffff;
+      padding: 15px 10px 0 27px; }
+      .devOps__div2 h2 {
+        font-weight: 100;
+        color: #603c96;
+        font-size: 24px;
+        padding-bottom: 6px; }
+      .devOps__div2 p {
+        font-size: 16px;
+        color: #000000;
+        line-height: 1; }
+    .devOps .col-xs-12.col-sm-8.col-md-8.col-lg-8,
+    .devOps .col-xs-12.col-sm-4.col-md-4.col-lg-4,
+    .devOps .col-xs-12.col-sm-6.col-md-6.col-lg-6 {
+      padding: 0; }
+    .devOps__mobility {
+      margin: 32px 0; }
+      .devOps__mobility h1 {
+        font-size: 18px;
+        color: #603c96;
+        font-family: 'muliBold';
+        padding-bottom: 32px; }
+      .devOps__mobility h2 {
+        font-family: 'muliSemiBold';
+        font-size: 18px;
+        padding-bottom: 16px; }
+      .devOps__mobility p {
+        font-size: 12px;
+        line-height: 1.67;
+        color: #3e3e3e;
+        padding-bottom: 12px; }
+    .devOps__div11 {
+      display: inline-block;
+      width: 102px;
+      background-color: #603c96;
+      margin-left: 25px;
+      padding: 25px 20px 17px 7px; }
+      .devOps__div11 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #ffffff; }
+    .devOps__div12 {
+      display: inline-block;
+      vertical-align: top;
+      width: 102px;
+      background-color: #f7f7f7;
+      padding: 26px 35px 17px 11px; }
+      .devOps__div12 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #191919; }
+    .devOps__productImg {
+      background-image: url(../assets/image/devOps/bitmap.png);
+      background-repeat: no-repeat;
+      height: 189px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain;
+      margin-bottom: 33px; }
+      .devOps__productImg p {
+        font-size: 18px;
+        padding-top: 61px;
+        color: #fff;
+        width: 185px; }
+    .devOps__byod {
+      margin: 33px 0; }
+      .devOps__byod h1 {
+        font-size: 16px;
+        font-family: 'muliSemiBold';
+        padding-bottom: 16px; }
+      .devOps__byod p {
+        font-size: 12px;
+        line-height: 1.67;
+        margin-bottom: 32px; }
+    .devOps__div111 {
+      display: inline-block;
+      width: 102px;
+      background-color: #603c96;
+      margin-left: 25px;
+      padding: 25px 20px 0 7px; }
+      .devOps__div111 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #ffffff; }
+    .devOps__div112 {
+      background-image: url(../assets/image/cloud/bitmap.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      object-fit: contain;
+      display: inline-block;
+      vertical-align: top;
+      width: 102px;
+      padding: 26px 35px 0 11px; }
+      .devOps__div112 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #fff; }
+    .devOps__div113 {
+      display: inline-block;
+      margin-top: 10px;
+      margin-left: 25px;
+      width: 102px;
+      background-color: #151515;
+      padding: 26px 35px 0 11px; }
+      .devOps__div113 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #fff; } }
+@media only screen and (min-width: 768px) {
+  .devOps__container {
+    width: 702px;
+    margin: 0 auto; }
+  .devOps__headImg {
+    height: 230px; }
+  .devOps__head {
+    font-size: 36px;
+    padding-top: 149px; }
+  .devOps__content {
+    padding: 32px 0; }
+    .devOps__content h1 {
+      font-size: 18px;
+      padding: 0 0 16px; }
+    .devOps__content p {
+      font-size: 14px;
+      padding-right: 27px; }
+  .devOps__div1 {
+    margin-left: 7px;
+    margin-top: 22px;
+    width: 160px;
+    padding: 15px 10px 14px 27px; }
+  .devOps__div2 {
+    margin-top: 22px;
+    margin-left: 18px;
+    width: 160px;
+    padding: 15px 10px 30px 27px; }
+  .devOps__mobility {
+    margin: 33px 0 49px; }
+    .devOps__mobility h1 {
+      font-size: 24px; }
+    .devOps__mobility p {
+      font-size: 14px;
+      padding-bottom: 0; }
+  .devOps__div11 {
+    padding: 25px 20px 17px 7px;
+    margin: 55px 10px 0 0; }
+  .devOps__div12 {
+    margin-top: 55px; }
+  .devOps__productImg p {
+    font-size: 24px;
+    padding-top: 49px;
+    width: 230px; }
+  .devOps__byod {
+    margin: 33px 0 35px; }
+    .devOps__byod h1 {
+      font-size: 18px; }
+    .devOps__byod p {
+      font-size: 14px; }
+  .devOps__div111 {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 25px 20px 0 7px; }
+  .devOps__div112 {
+    margin-top: 10px; }
+  .devOps__div113 {
+    margin-right: 10px;
+    margin-left: 0; } }
+@media only screen and (min-width: 1025px) {
+  .devOps__container {
+    width: 943px; }
+  .devOps__headImg {
+    height: 306px; }
+  .devOps__head {
+    font-size: 48px;
+    padding-top: 216px; }
+  .devOps__content {
+    padding: 35px 0 32px; }
+    .devOps__content h1 {
+      font-size: 24px; }
+    .devOps__content p {
+      font-size: 16px; }
+  .devOps__div1 {
+    margin-top: 40px;
+    width: 220px;
+    padding: 22px 10px 21px 24px; }
+    .devOps__div1 h2 {
+      font-size: 48px;
+      padding-bottom: 26px; }
+    .devOps__div1 p {
+      font-size: 24px !important; }
+  .devOps__div2 {
+    margin-top: 40px;
+    width: 220px;
+    padding: 22px 10px 21px 24px; }
+    .devOps__div2 h2 {
+      font-size: 48px;
+      padding-bottom: 24px; }
+    .devOps__div2 p {
+      font-size: 24px !important; }
+  .devOps__mobility {
+    margin: 32px 0 64px; }
+    .devOps__mobility h1 {
+      font-size: 32px; }
+    .devOps__mobility p {
+      font-size: 16px; }
+    .devOps__mobility h2 {
+      font-size: 24px; }
+  .devOps__div11 {
+    width: 140px;
+    padding: 38px 0px 38px 10px;
+    margin: 55px 15px 0 0; }
+    .devOps__div11 p {
+      font-size: 18px !important; }
+  .devOps__div12 {
+    width: 140px;
+    padding: 38px 25px 38px 10px; }
+    .devOps__div12 p {
+      font-size: 18px !important; }
+  .devOps__productImg {
+    height: 250px; }
+    .devOps__productImg p {
+      font-size: 36px;
+      padding-top: 57px;
+      width: 100%; }
+  .devOps__byod {
+    margin: 64px 0; }
+    .devOps__byod h1 {
+      font-size: 24px; }
+    .devOps__byod p {
+      font-size: 16px; }
+  .devOps__div111 {
+    width: 140px;
+    margin: 55px 15px 0 0;
+    padding-bottom: 2px; }
+    .devOps__div111 p {
+      font-size: 18px !important; }
+  .devOps__div112 {
+    width: 140px;
+    margin: 55px 0 0 0; }
+    .devOps__div112 p {
+      font-size: 18px !important; }
+  .devOps__div113 {
+    width: 140px; }
+    .devOps__div113 p {
+      font-size: 18px !important; } }
+@media only screen and (min-width: 1367px) {
+  .devOps__container {
+    width: 1107px; }
+  .devOps__headImg {
+    height: 430px; }
+  .devOps__head {
+    font-size: 56px;
+    padding-top: 327px; }
+  .devOps__content {
+    padding: 92px 0 118px; }
+    .devOps__content h1 {
+      font-size: 32px; }
+    .devOps__content p {
+      font-size: 18px; }
+  .devOps__div1 {
+    margin-top: 40px;
+    width: 260px;
+    padding: 22px 10px 21px 24px; }
+    .devOps__div1 h2 {
+      font-size: 48px;
+      padding-bottom: 26px; }
+    .devOps__div1 p {
+      font-size: 32px !important; }
+  .devOps__div2 {
+    margin-top: 40px;
+    width: 260px;
+    padding: 22px 10px 21px 24px; }
+    .devOps__div2 h2 {
+      font-size: 48px;
+      padding-bottom: 24px; }
+    .devOps__div2 p {
+      font-size: 32px !important; }
+  .devOps__mobility {
+    margin: 32px 0 82px; }
+    .devOps__mobility h1 {
+      font-size: 36px;
+      margin-left: 10px; }
+    .devOps__mobility p {
+      font-size: 18px;
+      margin-left: 10px; }
+    .devOps__mobility h2 {
+      font-size: 32px;
+      margin-left: 10px; }
+  .devOps__div11 {
+    width: 170px;
+    padding: 38px 0px 38px 10px;
+    margin: 55px 15px 0 0; }
+    .devOps__div11 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .devOps__div12 {
+    width: 170px;
+    padding: 38px 25px 38px 10px; }
+    .devOps__div12 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .devOps__productImg {
+    height: 350px; }
+    .devOps__productImg p {
+      font-size: 48px;
+      padding-top: 98px;
+      width: 500px; }
+  .devOps__byod {
+    margin: 64px 0; }
+    .devOps__byod h1 {
+      font-size: 32px;
+      margin-left: 10px; }
+    .devOps__byod p {
+      font-size: 18px;
+      margin-left: 10px; }
+  .devOps__div111 {
+    width: 170px;
+    padding-right: 0;
+    margin: 55px 15px 0 0; }
+    .devOps__div111 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .devOps__div112 {
+    width: 170px; }
+    .devOps__div112 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .devOps__div113 {
+    width: 170px; }
+    .devOps__div113 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; } }
+@media only screen and (min-width: 320px) {
+  .mobile {
+    font-family: 'muliRegular';
+    color: #4a4a4a; }
+    .mobile__container {
+      width: 270px;
+      margin: 0 auto; }
+    .mobile__headImg {
+      background-image: url(../assets/image/mobile/group-16.png);
+      background-repeat: no-repeat;
+      height: 232px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain; }
+    .mobile__head {
+      font-size: 24px;
+      padding-top: 186px;
+      color: #fff; }
+    .mobile__content {
+      height: 100%;
+      background-color: #000000;
+      color: #ffffff;
+      padding-bottom: 24px; }
+      .mobile__content h1 {
+        font-size: 16px;
+        padding: 21px 0 16px;
+        font-weight: 100; }
+      .mobile__content p {
+        font-size: 12px;
+        line-height: 1.5;
+        padding-bottom: 16px; }
+    .mobile__div1 {
+      display: inline-block;
+      width: 130px;
+      background-color: #603c96;
+      padding: 15px 10px 0 27px; }
+      .mobile__div1 h2 {
+        font-weight: 100;
+        font-size: 24px;
+        padding-bottom: 23px; }
+      .mobile__div1 p {
+        font-size: 16px;
+        line-height: 1; }
+    .mobile__div2 {
+      display: inline-block;
+      vertical-align: top;
+      width: 130px;
+      background-color: #ffffff;
+      padding: 15px 10px 0 27px; }
+      .mobile__div2 h2 {
+        font-weight: 100;
+        color: #603c96;
+        font-size: 24px;
+        padding-bottom: 6px; }
+      .mobile__div2 p {
+        font-size: 16px;
+        color: #000000;
+        line-height: 1; }
+    .mobile .col-xs-12.col-sm-8.col-md-8.col-lg-8,
+    .mobile .col-xs-12.col-sm-4.col-md-4.col-lg-4,
+    .mobile .col-xs-12.col-sm-6.col-md-6.col-lg-6 {
+      padding: 0; }
+    .mobile__mobility {
+      margin: 32px 0; }
+      .mobile__mobility h1 {
+        font-size: 18px;
+        color: #603c96;
+        font-family: 'muliBold';
+        padding-bottom: 32px; }
+      .mobile__mobility h2 {
+        font-family: 'muliSemiBold';
+        font-size: 18px;
+        padding-bottom: 16px; }
+      .mobile__mobility p {
+        font-size: 12px;
+        line-height: 1.67;
+        color: #3e3e3e;
+        padding-bottom: 12px; }
+    .mobile__div11 {
+      display: inline-block;
+      width: 102px;
+      background-color: #603c96;
+      margin-left: 25px;
+      padding: 25px 20px 17px 7px; }
+      .mobile__div11 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #ffffff; }
+    .mobile__div12 {
+      display: inline-block;
+      vertical-align: top;
+      width: 102px;
+      background-color: #f7f7f7;
+      padding: 26px 35px 17px 11px; }
+      .mobile__div12 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #191919; }
+    .mobile__productImg {
+      background-image: url(../assets/image/mobile/content-banner-mobile-and-develop.png);
+      background-repeat: no-repeat;
+      height: 189px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain;
+      margin-bottom: 33px; }
+      .mobile__productImg p {
+        font-size: 18px;
+        padding-top: 61px;
+        color: #fff;
+        width: 185px; }
+    .mobile__byod {
+      margin: 33px 0; }
+      .mobile__byod h1 {
+        font-size: 16px;
+        font-family: 'muliSemiBold';
+        padding-bottom: 16px; }
+      .mobile__byod p {
+        font-size: 12px;
+        line-height: 1.67;
+        margin-bottom: 32px; }
+    .mobile__div111 {
+      display: inline-block;
+      width: 102px;
+      background-color: #603c96;
+      margin-left: 25px;
+      padding: 25px 20px 0 7px; }
+      .mobile__div111 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #ffffff; }
+    .mobile__div112 {
+      background-image: url(../assets/image/cloud/bitmap.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      object-fit: contain;
+      display: inline-block;
+      vertical-align: top;
+      width: 102px;
+      padding: 26px 35px 0 11px; }
+      .mobile__div112 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #fff; }
+    .mobile__div113 {
+      display: inline-block;
+      margin-top: 10px;
+      margin-left: 25px;
+      width: 102px;
+      background-color: #151515;
+      padding: 26px 35px 0 11px; }
+      .mobile__div113 p {
+        font-size: 12px !important;
+        line-height: 1.58;
+        color: #fff; } }
+@media only screen and (min-width: 768px) {
+  .mobile__container {
+    width: 702px;
+    margin: 0 auto; }
+  .mobile__headImg {
+    height: 230px; }
+  .mobile__head {
+    font-size: 36px;
+    padding-top: 149px; }
+  .mobile__content {
+    padding: 32px 0; }
+    .mobile__content h1 {
+      font-size: 18px;
+      padding: 0 0 16px; }
+    .mobile__content p {
+      font-size: 14px;
+      padding-right: 27px; }
+  .mobile__div1 {
+    margin-left: 7px;
+    margin-top: 22px;
+    width: 160px;
+    padding: 15px 10px 14px 27px; }
+  .mobile__div2 {
+    margin-top: 22px;
+    margin-left: 18px;
+    width: 160px;
+    padding: 15px 10px 30px 27px; }
+  .mobile__mobility {
+    margin: 33px 0 49px; }
+    .mobile__mobility h1 {
+      font-size: 24px; }
+    .mobile__mobility p {
+      font-size: 14px;
+      padding-bottom: 0; }
+  .mobile__div11 {
+    padding: 25px 20px 17px 7px;
+    margin: 55px 10px 0 0; }
+  .mobile__div12 {
+    margin-top: 55px; }
+  .mobile__productImg p {
+    font-size: 24px;
+    padding-top: 49px;
+    width: 230px; }
+  .mobile__byod {
+    margin: 33px 0 35px; }
+    .mobile__byod h1 {
+      font-size: 18px; }
+    .mobile__byod p {
+      font-size: 14px; }
+  .mobile__div111 {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 25px 20px 0 7px; }
+  .mobile__div112 {
+    margin-top: 10px; }
+  .mobile__div113 {
+    margin-right: 10px;
+    margin-left: 0; } }
+@media only screen and (min-width: 1025px) {
+  .mobile__container {
+    width: 943px; }
+  .mobile__headImg {
+    height: 306px; }
+  .mobile__head {
+    font-size: 48px;
+    padding-top: 216px; }
+  .mobile__content {
+    padding: 35px 0 32px; }
+    .mobile__content h1 {
+      font-size: 24px; }
+    .mobile__content p {
+      font-size: 16px; }
+  .mobile__div1 {
+    margin-top: 40px;
+    width: 220px;
+    padding: 22px 10px 21px 24px; }
+    .mobile__div1 h2 {
+      font-size: 48px;
+      padding-bottom: 26px; }
+    .mobile__div1 p {
+      font-size: 24px !important; }
+  .mobile__div2 {
+    margin-top: 40px;
+    width: 220px;
+    padding: 22px 10px 21px 24px; }
+    .mobile__div2 h2 {
+      font-size: 48px;
+      padding-bottom: 24px; }
+    .mobile__div2 p {
+      font-size: 24px !important; }
+  .mobile__mobility {
+    margin: 32px 0 64px; }
+    .mobile__mobility h1 {
+      font-size: 32px; }
+    .mobile__mobility p {
+      font-size: 16px; }
+    .mobile__mobility h2 {
+      font-size: 24px; }
+  .mobile__div11 {
+    width: 140px;
+    padding: 38px 0px 38px 10px;
+    margin: 55px 15px 0 0; }
+    .mobile__div11 p {
+      font-size: 18px !important; }
+  .mobile__div12 {
+    width: 140px;
+    padding: 38px 25px 38px 10px; }
+    .mobile__div12 p {
+      font-size: 18px !important; }
+  .mobile__productImg {
+    height: 250px; }
+    .mobile__productImg p {
+      font-size: 36px;
+      padding-top: 57px;
+      width: 100%; }
+  .mobile__byod {
+    margin: 64px 0; }
+    .mobile__byod h1 {
+      font-size: 24px; }
+    .mobile__byod p {
+      font-size: 16px; }
+  .mobile__div111 {
+    width: 140px;
+    margin: 55px 15px 0 0;
+    padding-bottom: 2px; }
+    .mobile__div111 p {
+      font-size: 18px !important; }
+  .mobile__div112 {
+    width: 140px;
+    margin: 55px 0 0 0; }
+    .mobile__div112 p {
+      font-size: 18px !important; }
+  .mobile__div113 {
+    width: 140px; }
+    .mobile__div113 p {
+      font-size: 18px !important; } }
+@media only screen and (min-width: 1367px) {
+  .mobile__container {
+    width: 1107px; }
+  .mobile__headImg {
+    height: 430px; }
+  .mobile__head {
+    font-size: 56px;
+    padding-top: 327px; }
+  .mobile__content {
+    padding: 92px 0 118px; }
+    .mobile__content h1 {
+      font-size: 32px; }
+    .mobile__content p {
+      font-size: 18px; }
+  .mobile__div1 {
+    margin-top: 40px;
+    width: 260px;
+    padding: 22px 10px 21px 24px; }
+    .mobile__div1 h2 {
+      font-size: 48px;
+      padding-bottom: 26px; }
+    .mobile__div1 p {
+      font-size: 32px !important; }
+  .mobile__div2 {
+    margin-top: 40px;
+    width: 260px;
+    padding: 22px 10px 21px 24px; }
+    .mobile__div2 h2 {
+      font-size: 48px;
+      padding-bottom: 24px; }
+    .mobile__div2 p {
+      font-size: 32px !important; }
+  .mobile__mobility {
+    margin: 32px 0 82px; }
+    .mobile__mobility h1 {
+      font-size: 36px;
+      margin-left: 10px; }
+    .mobile__mobility p {
+      font-size: 18px;
+      margin-left: 10px; }
+    .mobile__mobility h2 {
+      font-size: 32px;
+      margin-left: 10px; }
+  .mobile__div11 {
+    width: 170px;
+    padding: 38px 0px 38px 10px;
+    margin: 55px 15px 0 0; }
+    .mobile__div11 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .mobile__div12 {
+    width: 170px;
+    padding: 38px 25px 38px 10px; }
+    .mobile__div12 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .mobile__productImg {
+    height: 350px; }
+    .mobile__productImg p {
+      font-size: 48px;
+      padding-top: 98px;
+      width: 500px; }
+  .mobile__byod {
+    margin: 64px 0; }
+    .mobile__byod h1 {
+      font-size: 32px;
+      margin-left: 10px; }
+    .mobile__byod p {
+      font-size: 18px;
+      margin-left: 10px; }
+  .mobile__div111 {
+    width: 170px;
+    padding-right: 0;
+    margin: 55px 15px 0 0; }
+    .mobile__div111 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .mobile__div112 {
+    width: 170px; }
+    .mobile__div112 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; }
+  .mobile__div113 {
+    width: 170px; }
+    .mobile__div113 p {
+      font-size: 24px !important;
+      margin-left: 0 !important; } }
