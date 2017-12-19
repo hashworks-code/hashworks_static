@@ -23,7 +23,7 @@
     width: 271px;
     margin: 0 auto;
     h1{
-        font-family:'muliRegular';
+        font-family:'muliBold';
         font-size: 16px;
         font-weight: bold;
         font-style: normal;
@@ -44,6 +44,40 @@
         letter-spacing: normal;
         text-align: center;
         color: #3e3e3e;
+    }
+    &__position{
+        height: 946px;
+        background-color: #ffffff;
+        box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
+        border: solid 1px #dcdcdc;
+        h1{
+            font-family:'muliSemiBold';
+            font-size: 16px;
+            padding: 38px 0px 6px;
+        }
+        h2{
+            font-family:'muliRegular';
+            font-size: 12px;
+            font-weight: normal;
+            font-style: normal;
+            text-align: center;
+            color: #3e3e3e;
+            padding: 6px 0px;
+        }
+        &--apply{
+            width: 101px;
+            // height: 27px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+            border: solid 1px #603c96;
+            font-family:'muliRegular';
+            font-size: 14px;
+            font-weight: normal;
+            text-align: center;
+            color: #603c96;
+            margin: 0 auto;
+            padding: 5px 0px 4px;
+        }
     }
 }
 
