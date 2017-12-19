@@ -196,63 +196,108 @@
 
            
 
+  <style>
+button:focus, button:active {
+			outline:0;
+		}
+	
+		.btn-outline-primary.active {
+    color: #603c96;
+    background-color: inherit;
+}
+.btn-outline-primary {
+	color: black;
+	background-color: inherit;
+}
+.btn-outline-primary:focus {
 
-<div class="service">
-    <div class="service__headImg">
-        <div class=" service__container">
-            <div class="service__head">
-                Services
-            </div>
-        </div>
-    </div>
-    <div class=" service__container">
-        <div class="service__content">
-            <h1>Current problems tomorrows Products</h1>
-            <p>Nulla Porttitor accumsam tincident. Proin eget tortor risus. Cras ultricies 
-                ligula sed magan dictum porta. Curabitur aliguet quam id dui posuere blandit.
-                Donec sollicitudin molestie malesuada.
-            </p>
-        </div>
-    </div>
-    <div class=" row service__detail">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service__devops">
-                <div class=" service__container">    
-                        <h1>Dev Ops <span> > </span></h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                <div class=" service__cloudImg">
-                    <div class=" service__container">    
-                            <h1>Application 
-                                    on Cloud<span> > </span></h1>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service__uiUx">
-                    <div class=" service__container">    
-                            <h1>UI/UX</h1>
-                    </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service__dataScience">
-                    <div class="service__container">    
-                            <h1>Data Science. <span> > </span></h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                <div class="service__mobile">
-                    <div class=" service__container">    
-                            <h1>Mobile Development</h1>
-                    </div>
-                </div>
-            </div>
+}
 
-    </div>
+		.filter {
+			transition: all 2s ease;
+		}
+        /* .container { margin:150px auto;}
+        body { background-color:#f7f7f7;}
+        img { border:1px solid #222; border-radius:3px;} */
+</style>
+<!-- <div class="container p-5">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="category-filter pb-5">
+    			<p class=" btn-outline-primary category-button active " data-filter="all">All</p>
+    			<p class=" btn-outline-primary category-button " data-filter="portraits">Portraits</p>
+    			<p class=" btn-outline-primary category-button " data-filter="landscapes">Landscapes</p>
+    			<p class=" btn-outline-primary category-button " data-filter="urban">Urban</p>
+			</div>
+		</div>
+	</div>
 
-</div>
+	<div class="row">
+		<div class="col-sm-6 col-md-4 col-lg-3 filter portraits mb-5">
+		  <img src="https://placeimg.com/645/480/people" class="img-fluid">
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3 filter portraits mb-5">
+		  <img src="https://placeimg.com/635/480/people" class="img-fluid">
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3 filter landscapes mb-5">
+		  <img src="https://placeimg.com/640/480/nature" class="img-fluid">
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3 filter landscapes mb-5">
+		  <img src="https://placeimg.com/645/480/nature" class="img-fluid">
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3 filter urban mb-5">
+		  <img src="https://placeimg.com/640/480/arch" class="img-fluid">
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3 filter landscapes mb-5">
+		  <img src="https://placeimg.com/635/480/nature" class="img-fluid">
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3 filter portraits mb-5">
+		  <img src="https://placeimg.com/640/480/people" class="img-fluid">
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3 filter landscapes mb-5">
+		  <img src="https://placeimg.com/660/480/nature" class="img-fluid">
+		</div>
+	</div>
+</div>   -->
+
+  <section class="hashworks__casestudy">
+	<div class="casestudy__events">
+		  <div class="casestudy__events__banner">
+				<h1>Case Study</h1>
+			</div>
+			<div class="category-filter">
+    			<p class=" btn-outline-primary category-button active " data-filter="all">All</p>
+    			<p class=" btn-outline-primary category-button " data-filter="applicationdev">Data Science</p>
+    			<p class=" btn-outline-primary category-button " data-filter="devops">DevOps</p>
+					<p class=" btn-outline-primary category-button " data-filter="mobile">Mobile</p>
+					<p class=" btn-outline-primary category-button " data-filter="applicationdev">Application</p>
+			</div>
+		<div class="row">
+			<div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter applicationdev">
+					 <div class="casestudy__events__image1"></div>
+						<h1>Application Dev</h1>
+						<h2>Using virtualy reality build empathy in distributed organizations</h2>
+			</div>
+			<div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter devops">
+            <div class="casestudy__events__image2"></div>
+						<h1>DevOps</h1>
+						<h2>Using virtualy reality build empathy in distributed organizations</h2>
+			</div>
+			<div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter mobile">
+				 <div class="casestudy__events__image3"></div>
+						<h1>Mobile</h1>
+						<h2>Using virtualy reality build empathy in distributed organizations</h2>
+			</div>
+			<div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter mobile">
+					 <div class="casestudy__events__image4"></div>
+						<h1>Data Science</h1>
+						<h2>Using virtualy reality build empathy in distributed organizations</h2>
+			</div>
+		</div>
+	</div>
+</section>  
 
 
-
- 
  
 
 <footer class="footer">

@@ -16,6 +16,8 @@
     <link rel="alternate" type="application/rss+xml" title="Hashworks" href="/feed.xml">
     <link rel="stylesheet" type="text/css" href="/hashworks/assets/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="/hashworks/assets/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 </head>
 <body id="close">
     <header class="hashworks__head">
@@ -140,6 +142,43 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="/hashworks/assets/slick/slick.min.js"></script>
     <script type="text/javascript" src="/hashworks/assets/js/product.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!-- <script src="category-filter.js"></script> -->
+
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+    $(document).ready(function(){
+        $(' .btn-outline-primary').click(function(){
+
+ 	      var categoryValue=$(this).attr('data-filter');
+        $(this).addClass('active').siblings().removeClass('active');
+			if(categoryValue=="all") {
+				$('.filter').show(1000);
+			} else {
+				$(".filter").not('.'+categoryValue).hide('3000');
+            	$('.filter').filter('.'+categoryValue).show('3000');
+			}
+ });
+     });
+</script>
     <script>
         
         $(document).ready(function(){
