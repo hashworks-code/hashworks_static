@@ -2,10 +2,9 @@
 @media screen and (min-width:320px){
  
   .footer{
-   .row{
-     width: 260px;
-     margin: 0 auto;
-   }
+  .row{
+    margin: 0px 29px 0px 30px;
+  }
     li{
       font-family: 'muliSemiBold';
       font-size: 10px;
@@ -27,26 +26,26 @@
  background-color: black;
  height: 329px;
  &--view{
-  padding: 0px 0px 0px 25px;
+  padding: 0px 0px 0px 16px;
 }
  &--copyright{
   display: flex;
   justify-content: space-between;
   border-top:solid 1px #979797;
   margin-top: 36px;
+  padding:6px 0px 0px 0px ;
   h4{
     display: inline-block;
     font-family: 'muliRegular';
     font-size: 10px;
     text-align: left;
     color: #f7f7f7;
-    margin-top: 6px;
   }
  }
  &--social{
   display: inline-block;
   vertical-align: -webkit-baseline-middle;
-  margin-top: 11px;
+ padding: 5px 0px 0px 0px;
   img{
     width: 14px;
     height: 11px;
@@ -60,8 +59,7 @@
 
   .footer{
     .row{
-      width: 722px;
-      margin: 0 auto;
+      margin:0px 25px 0px 21px;
     }
     li{
       font-size: 13px;
@@ -80,14 +78,14 @@
   margin-top: 36px;
   h4{
     font-size: 14px;
-    margin-top: 11px;
+    padding: 8px 0px 0px 12px;
   }
  }
  &--view{
-  padding: 0px 0px 0px 17px !important;
+  padding: 0px 0px 0px 12px;
 }
  &--social{
-  margin-top: 18px;
+ padding: 11px 0px 0px 0px;
   img{
     width: 21px;
     height: 17px;
@@ -101,8 +99,7 @@
  
   .footer{
     .row{
-      width: 940px;
-      margin: 0 auto;
+    margin: 0px 13px 0px 13px;
     }
      li{
        font-size: 16px;
@@ -118,7 +115,7 @@
  &__list{
   height: 400px;
   &--view{
-    padding: 0px 0px 0px 27px !important;
+    padding: 0px 0px 0px 27px;
   }
   &--copyright{
     margin-top: 30px;
@@ -127,10 +124,11 @@
    h4{
      font-size: 16px;
      text-align: left;
+     padding: 16px 0px;
    }
   }
   &--social{
-    margin-top: 25px;
+    padding: 25px 0px 0px 0px;
    img{
      width: 30px;
      height: 24px;
@@ -143,8 +141,7 @@
  @media screen and (min-width:1367px){
   .footer{
     .row{
-      width: 1186px;
-      margin: 0 auto;
+    margin: 0px 117px 0px 119px;
     }
      li{
        padding: 0px 0px 23px 0px;
@@ -157,6 +154,10 @@
     
  &__list{
   height: 445px;
+  &--view{
+    padding: 0px;
+  }
+
   &--copyright{
     margin-top: 22px;
  
@@ -164,11 +165,11 @@
    h4{
      font-size: 16px;
      text-align: left;
-     margin-top: 24px;
+   padding:  24px 0px;
    }
   }
   &--social{
-    margin-top: 40px;
+   padding: 30px 0px 0px 0px;
    img{
      width: 32px;
      height: 26px;
