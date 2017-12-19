@@ -2611,7 +2611,6 @@ ul.tabs li.current {
       padding: 0px;
       list-style: none; }
       .aboutus__tab--list li {
-<<<<<<< HEAD
         font-family: 'muliBold';
         font-size: 12px;
         font-weight: bold;
@@ -2670,113 +2669,6 @@ ul.tabs li.current {
     .aboutus__thinking--ourculture--container1 {
       width: 266px;
       margin: 0 auto; }
-    .aboutus__thinking--ourculture .culture {
-      padding-top: 50px; }
-  .aboutus__thinking--grew {
-    background-color: #603c96; }
-    .aboutus__thinking--grew p {
-      width: 100%;
-      font-family: 'muliBold';
-      font-size: 16px;
-      font-weight: bold;
-      text-align: center;
-      color: #ffffff;
-      padding: 54px 59px 32px 59px; }
-
-  .aboutus__company {
-    background-color: #f7f7f7; }
-    .aboutus__company .row {
-      width: 266px;
-      margin: 0 auto; }
-    .aboutus__company h1 {
-      font-family: 'muliBold';
-      font-size: 16px;
-      font-weight: bold;
-      text-align: center;
-      color: #603c96; }
-    .aboutus__company p {
-      font-family: 'muliRegular';
-      font-size: 12px;
-      line-height: 1.5;
-      text-align: center;
-      color: #3e3e3e;
-      margin: 12px 0px 32px; }
-    .aboutus__company img {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      margin-left: 85px; }
-    .aboutus__company h2 {
-      font-family: 'muliBold';
-      font-size: 12px;
-      font-weight: bold;
-      text-align: center;
-      color: #434343;
-      margin: 10px 0px; }
-    .aboutus__company h3 {
-      font-family: 'muliRegular';
-      font-size: 12px;
-      text-align: center;
-      color: #434343;
-      margin-bottom: 64px; }
-    .aboutus__company--explore {
-      background-image: url(../assets/image/aboutus/group-6@2x.png);
-=======
-        font-family: 'muliBold';
-        font-size: 12px;
-        font-weight: bold;
-        text-align: center;
-        color: #838383;
-        cursor: pointer;
-        display: inline-block;
-        margin: 20px 45px 15px 45px; }
-  .aboutus__thinking--container1 {
-    width: 266px;
-    margin: 0 auto; }
-  .aboutus__thinking h2 {
-    font-family: 'muliBold';
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    color: #603c96;
-    padding: 32px 0px 0px 0px; }
-  .aboutus__thinking p {
-    width: 265px;
-    font-family: 'muliRegular';
-    font-size: 12px;
-    line-height: 1.5;
-    text-align: center;
-    color: #3e3e3e;
-    padding-top: 16px; }
-  .aboutus__thinking h3 {
-    font-family: 'muliSemiBold';
-    font-size: 16px;
-    font-weight: 600;
-    text-align: left;
-    color: #898989; }
-  .aboutus__thinking--capitalImage {
-    background-image: url(../assets/image/aboutus/1.svg);
-    background-repeat: no-repeat;
-    height: 160px;
-    width: 100%;
-    background-size: 100% 100%;
-    object-fit: contain; }
-  .aboutus__thinking--clientImage {
-    background-image: url(../assets/image/aboutus/2.svg);
-    background-repeat: no-repeat;
-    height: 160px;
-    width: 100%;
-    background-size: 100% 100%;
-    object-fit: contain; }
-  .aboutus__thinking--industryImage {
-    background-image: url(../assets/image/aboutus/3.svg);
-    background-repeat: no-repeat;
-    height: 160px;
-    width: 100%;
-    background-size: 100% 100%;
-    object-fit: contain; }
-  .aboutus__thinking--ourculture {
-    padding-bottom: 51px; }
     .aboutus__thinking--ourculture .culture {
       padding-top: 50px; }
   .aboutus__thinking--grew {
@@ -3081,6 +2973,40 @@ ul.tabs li.current {
     .aboutus__company--explore h1 {
       font-size: 32px;
       height: 175px; } }
+.jobslider button {
+  background-color: #603c96;
+  top: 100%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%; }
+.jobslider .slick-prev:hover, .jobslider .slick-prev:focus, .jobslider .slick-next:hover, .jobslider .slick-next:focus {
+  /* color: transparent; */
+  outline: none;
+  background-color: #603c96; }
+.jobslider .slick-next {
+  right: 98px; }
+.jobslider .slick-prev {
+  left: 99px; }
+.jobslider .slick-next:before {
+  content: '>';
+  font-size: 20px;
+  line-height: 0.4;
+  width: 10.3px;
+  height: 5.7px;
+  color: #f7f7f7;
+  opacity: 1; }
+.jobslider .slick-prev:before {
+  content: '<';
+  font-size: 20px;
+  line-height: 0.4;
+  width: 10.3px;
+  height: 5.7px;
+  color: #f7f7f7;
+  opacity: 1; }
+.jobslider .slick-initialized .slick-slide {
+  display: block;
+  outline: none; }
+
 .job__headImg {
   background-image: url(../assets/image/job/joblogo.png);
   background-repeat: no-repeat;
@@ -3102,7 +3028,7 @@ ul.tabs li.current {
   width: 271px;
   margin: 0 auto; }
   .job__opening h1 {
-    font-family: 'muliRegular';
+    font-family: 'muliBold';
     font-size: 16px;
     font-weight: bold;
     font-style: normal;
@@ -3122,13 +3048,136 @@ ul.tabs li.current {
     letter-spacing: normal;
     text-align: center;
     color: #3e3e3e; }
-.job__footerimg {
-  background-image: url(../assets/image/job/1@2x.png);
-  background-repeat: no-repeat;
-  height: 237px;
-  width: 100%;
-  background-size: cover; }
+  .job__opening__position {
+    background-color: #ffffff;
+    box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
+    border: solid 1px #dcdcdc;
+    margin-top: 32px;
+    padding-bottom: 70px; }
+    .job__opening__position h1 {
+      font-family: 'muliSemiBold';
+      font-size: 16px;
+      padding: 38px 0px 6px; }
+    .job__opening__position h2 {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      text-align: center;
+      color: #3e3e3e;
+      padding: 6px 0px; }
+    .job__opening__position--apply {
+      width: 101px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+      border: solid 1px #603c96;
+      font-family: 'muliRegular';
+      font-size: 14px;
+      font-weight: normal;
+      text-align: center;
+      color: #603c96;
+      margin: 0 auto;
+      padding: 5px 0px 4px; }
+    .job__opening__position--next {
+      width: 32px;
+      height: 32px;
+      background-color: #603c96;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 50%; }
+.job__footer {
+  position: relative;
+  height: 237px; }
+  .job__footer__img {
+    background-image: url(../assets/image/job/1@2x.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 237px;
+    background-size: cover;
+    position: absolute;
+    top: -70px;
+    z-index: -1; }
 
+@media screen and (min-width: 768px) {
+  .aaa {
+    width: 560px;
+    display: flex;
+    justify-content: space-around; }
+
+  .jobslider .slick-next {
+    right: 98px; }
+  .jobslider .slick-prev {
+    left: 99px; }
+
+  .job__headImg {
+    background-image: url(../assets/image/job/joblogo.png);
+    background-repeat: no-repeat;
+    height: 229px;
+    width: 100%;
+    background-size: cover; }
+  .job__content {
+    height: 229px;
+    width: 100%;
+    padding: 32px 31px;
+    font-size: 36px; }
+  .job__opening {
+    width: 578px;
+    margin: 0 auto; }
+    .job__opening h1 {
+      font-family: 'muliBold';
+      font-size: 16px;
+      padding: 24px 0px 16px; }
+    .job__opening p {
+      width: 433px;
+      margin: 0 auto;
+      font-size: 12px; }
+    .job__opening__position {
+      background-color: #ffffff;
+      box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
+      border: solid 1px #dcdcdc;
+      margin-top: 32px;
+      padding-bottom: 70px; }
+      .job__opening__position h1 {
+        font-family: 'muliSemiBold';
+        font-size: 16px;
+        padding: 38px 0px 6px; }
+      .job__opening__position h2 {
+        font-family: 'muliRegular';
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        text-align: center;
+        color: #3e3e3e;
+        padding: 6px 0px; }
+      .job__opening__position--apply {
+        width: 101px;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+        border: solid 1px #603c96;
+        font-family: 'muliRegular';
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+        color: #603c96;
+        margin: 0 auto;
+        padding: 5px 0px 4px; }
+      .job__opening__position--next {
+        width: 32px;
+        height: 32px;
+        background-color: #603c96;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 50%; }
+  .job__footer {
+    position: relative;
+    height: 237px; }
+    .job__footer__img {
+      background-image: url(../assets/image/job/1@2x.png);
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 237px;
+      background-size: cover;
+      position: absolute;
+      top: -70px;
+      z-index: -1; } }
 @media only screen and (min-width: 320px) {
   .cloud {
     font-family: 'muliRegular';
@@ -3987,502 +4036,10 @@ ul.tabs li.current {
         color: #191919; }
     .devOps__productImg {
       background-image: url(../assets/image/devOps/bitmap.png);
->>>>>>> e98dd101c9512d0676b84f70f8c0c5b0d122cf97
-      background-repeat: no-repeat;
-      height: 92px;
-      width: 100%;
-      background-size: 100% 100%;
-<<<<<<< HEAD
-      object-fit: contain; }
-      .aboutus__company--explore h1 {
-        font-family: 'muliBold';
-        font-size: 16px;
-        font-weight: bold;
-        text-align: center;
-        color: #ffffff;
-        height: 92px;
-        display: flex;
-        align-items: center;
-        justify-content: center; } }
-@media only screen and (min-width: 767px) {
-  .aboutus .border {
-    margin-top: 64px; }
-  .aboutus__headImg {
-    height: 230px;
-    width: 100%; }
-  .aboutus__content1 {
-    height: 230px;
-    padding: 29px 34px;
-    font-size: 24px; }
-    .aboutus__content1 h1 {
-      padding: 161px 0px 0px 34px;
-      font-size: 36px; }
-  .aboutus__tab {
-    display: flex;
-    justify-content: center; }
-    .aboutus__tab--list li {
-      margin: 24px 52px;
-      font-size: 14px; }
-  .aboutus__thinking--container1 {
-    width: 461px;
-    margin: 0 auto; }
-  .aboutus__thinking h2 {
-    font-size: 18px;
-    padding: 64px 0px 0px 0px; }
-  .aboutus__thinking p {
-    width: 460px;
-    font-size: 14px;
-    padding-top: 32px; }
-  .aboutus__thinking h3 {
-    font-size: 18px; }
-  .aboutus__thinking--capitalImage {
-    height: 300px;
-    margin-top: 32px; }
-  .aboutus__thinking--clientImage {
-    height: 300px;
-    margin-top: 32px; }
-  .aboutus__thinking--industryImage {
-    height: 300px;
-    margin-top: 32px; }
-  .aboutus__thinking--ourculture {
-    padding-bottom: 51px; }
-    .aboutus__thinking--ourculture--container1 {
-      width: 580px;
-      margin: 0 auto; }
-    .aboutus__thinking--ourculture .culture {
-      padding-top: 64px; }
-    .aboutus__thinking--ourculture p {
-      width: 100%;
-      padding: 16px 0px 0px 22px; }
-  .aboutus__thinking--grew {
-    background-color: #603c96; }
-    .aboutus__thinking--grew p {
-      font-size: 18px;
-      padding: 50px 59px 53px 59px;
-      width: 100%; }
-
-  .aboutus__company {
-    background-color: #f7f7f7; }
-    .aboutus__company .row {
-      width: 537px;
-      margin: 0 auto; }
-    .aboutus__company h1 {
-      font-size: 18px; }
-    .aboutus__company p {
-      font-size: 14px;
-      margin: 12px 0px 32px; }
-    .aboutus__company img {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      margin-left: 95px; }
-    .aboutus__company h2 {
-      font-size: 14px;
-      margin: 10px 0px; }
-    .aboutus__company h3 {
-      font-size: 14px;
-      margin-bottom: 64px; }
-    .aboutus__company--explore h1 {
-      font-size: 18px; } }
-@media only screen and (min-width: 1025px) {
-  .aboutus__headImg {
-    height: 306px;
-    width: 100%; }
-  .aboutus__content1 {
-    height: 306px;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding: 31px 43px;
-    font-family: 'muliRegular';
-    font-size: 48px;
-    text-align: left;
-    color: #ffffff; }
-    .aboutus__content1 h1 {
-      padding: 161px 0px 0px 34px;
-      font-size: 36px; }
-  .aboutus__tab--list li {
-    margin: 25px 55px;
-    font-size: 16px; }
-  .aboutus__thinking--container1 {
-    width: 731px;
-    margin: 0 auto; }
-  .aboutus__thinking h2 {
-    font-size: 24px;
-    padding: 64px 0px 0px 0px; }
-  .aboutus__thinking p {
-    width: 731px;
-    font-size: 16px;
-    padding-top: 33px; }
-  .aboutus__thinking h3 {
-    font-size: 24px; }
-  .aboutus__thinking--capitalImage {
-    height: 430px;
-    margin-top: 32px; }
-  .aboutus__thinking--clientImage {
-    height: 430px;
-    margin-top: 32px; }
-  .aboutus__thinking--industryImage {
-    height: 430px;
-    margin-top: 32px; }
-  .aboutus__thinking--ourculture {
-    padding-bottom: 51px; }
-    .aboutus__thinking--ourculture--container1 {
-      width: 799px;
-      margin: 0 auto; }
-    .aboutus__thinking--ourculture .culture {
-      padding-top: 64px; }
-    .aboutus__thinking--ourculture p {
-      width: 100%;
-      padding: 16px 21px 0px 34px; }
-  .aboutus__thinking--grew {
-    background-color: #603c96; }
-    .aboutus__thinking--grew p {
-      font-size: 24px;
-      padding: 69px 0px; }
-
-  .aboutus__company {
-    background-color: #f7f7f7; }
-    .aboutus__company .row {
-      width: 731px;
-      margin: 0 auto; }
-    .aboutus__company h1 {
-      font-size: 24px; }
-    .aboutus__company p {
-      font-size: 16px;
-      margin: 12px 0px 67px; }
-    .aboutus__company img {
-      width: 124px;
-      height: 124px;
-      border-radius: 50%;
-      margin-left: 120px; }
-    .aboutus__company h2 {
-      font-size: 16px;
-      margin: 10px 0px; }
-    .aboutus__company h3 {
-      font-size: 16px;
-      margin-bottom: 75px; }
-    .aboutus__company--explore {
-      height: 124px;
-      object-fit: contain; }
-      .aboutus__company--explore h1 {
-        font-size: 24px;
-        height: 124px; } }
-@media only screen and (min-width: 1367px) {
-  .aboutus__headImg {
-    height: 430px;
-    width: 100%; }
-  .aboutus__content1 {
-    height: 430px;
-    padding: 33px 134px;
-    font-size: 56px; }
-    .aboutus__content1 h1 {
-      padding: 161px 0px 0px 34px;
-      font-size: 36px; }
-  .aboutus__tab--list li {
-    margin: 24px 50px;
-    font-size: 18px; }
-  .aboutus__thinking--container1 {
-    width: 731px;
-    margin: 0 auto; }
-  .aboutus__thinking h2 {
-    font-size: 32px;
-    padding: 64px 0px 0px 0px; }
-  .aboutus__thinking p {
-    width: 731px;
-    font-size: 18px;
-    padding-top: 33px; }
-  .aboutus__thinking h3 {
-    font-size: 24px; }
-  .aboutus__thinking--capitalImage {
-    height: 557px;
-    margin-top: 32px; }
-  .aboutus__thinking--clientImage {
-    height: 557px;
-    margin-top: 32px; }
-  .aboutus__thinking--industryImage {
-    height: 557px;
-    margin-top: 32px; }
-  .aboutus__thinking--ourculture {
-    padding-bottom: 100px; }
-    .aboutus__thinking--ourculture--container1 {
-      width: 985px;
-      margin: 0 auto; }
-    .aboutus__thinking--ourculture .culture {
-      padding-top: 32px; }
-    .aboutus__thinking--ourculture p {
-      width: 100%;
-      padding: 16px 21px 32px 34px; }
-  .aboutus__thinking--grew {
-    background-color: #603c96; }
-    .aboutus__thinking--grew p {
-      width: 100%;
-      font-size: 32px;
-      padding: 98px 0px; }
-
-  .aboutus__company h1 {
-    font-size: 32px; }
-  .aboutus__company p {
-    font-size: 18px;
-    margin: 16px 0px 52px; }
-  .aboutus__company img {
-    width: 145px;
-    height: 145px;
-    border-radius: 50%;
-    margin-left: 105px; }
-  .aboutus__company h2 {
-    font-size: 18px;
-    margin: 10px 0px; }
-  .aboutus__company h3 {
-    font-size: 18px;
-    margin-bottom: 65px; }
-  .aboutus__company--explore {
-    height: 175px;
-    object-fit: contain; }
-    .aboutus__company--explore h1 {
-      font-size: 32px;
-      height: 175px; } }
-.jobslider button {
-  background-color: #603c96;
-  top: 100%;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%; }
-.jobslider .slick-prev:hover, .jobslider .slick-prev:focus, .jobslider .slick-next:hover, .jobslider .slick-next:focus {
-  /* color: transparent; */
-  outline: none;
-  background-color: #603c96; }
-.jobslider .slick-next {
-  right: 80px; }
-.jobslider .slick-prev {
-  left: 117px; }
-.jobslider .slick-next:before {
-  content: '>';
-  font-size: 20px;
-  line-height: 0.4;
-  width: 10.3px;
-  height: 5.7px;
-  color: #f7f7f7;
-  opacity: 1; }
-.jobslider .slick-prev:before {
-  content: '<';
-  font-size: 20px;
-  line-height: 0.4;
-  width: 10.3px;
-  height: 5.7px;
-  color: #f7f7f7;
-  opacity: 1; }
-.jobslider slick-initialized .slick-slide {
-  display: block;
-  outline: none; }
-
-.job__headImg {
-  background-image: url(../assets/image/job/joblogo.png);
-  background-repeat: no-repeat;
-  height: 237px;
-  width: 100%;
-  background-size: cover; }
-.job__content {
-  height: 237px;
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
-  padding: 24px 28px;
-  font-family: 'muliRegular';
-  font-size: 24px;
-  text-align: left;
-  color: #ffffff;
-  font-weight: normal; }
-.job__opening {
-  width: 271px;
-  margin: 0 auto; }
-  .job__opening h1 {
-    font-family: 'muliBold';
-    font-size: 16px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #603c96;
-    padding: 24px 0px 16px; }
-  .job__opening p {
-    font-family: 'muliRegular';
-    font-size: 12px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
-    color: #3e3e3e; }
-  .job__opening__position {
-    background-color: #ffffff;
-    box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
-    border: solid 1px #dcdcdc;
-    margin-top: 32px;
-    padding-bottom: 70px; }
-    .job__opening__position h1 {
-      font-family: 'muliSemiBold';
-      font-size: 16px;
-      padding: 38px 0px 6px; }
-    .job__opening__position h2 {
-      font-family: 'muliRegular';
-      font-size: 12px;
-      font-weight: normal;
-      font-style: normal;
-      text-align: center;
-      color: #3e3e3e;
-      padding: 6px 0px; }
-    .job__opening__position--apply {
-      width: 101px;
-      border-radius: 4px;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
-      border: solid 1px #603c96;
-      font-family: 'muliRegular';
-      font-size: 14px;
-      font-weight: normal;
-      text-align: center;
-      color: #603c96;
-      margin: 0 auto;
-      padding: 5px 0px 4px; }
-    .job__opening__position--next {
-      width: 32px;
-      height: 32px;
-      background-color: #603c96;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-      border-radius: 50%; }
-.job__footerimg {
-  background-image: url(../assets/image/job/1@2x.png);
-  background-repeat: no-repeat;
-  height: 237px;
-  width: 100%;
-  background-size: cover; }
-
-@media only screen and (min-width: 320px) {
-  .cloud {
-    font-family: 'muliRegular';
-    color: #4a4a4a; }
-    .cloud__container {
-      width: 270px;
-      margin: 0 auto; }
-    .cloud__headImg {
-      background-image: url(../assets/image/cloud/server-01.png);
-      background-repeat: no-repeat;
-      height: 232px;
-      width: 100%;
-      background-size: 100% 100%;
-      object-fit: contain; }
-    .cloud__head {
-      font-size: 24px;
-      padding-top: 186px;
-      color: #fff; }
-    .cloud__content {
-      height: 100%;
-      background-color: #000000;
-      color: #ffffff;
-      padding-bottom: 24px; }
-      .cloud__content h1 {
-        font-size: 16px;
-        padding: 21px 0 16px;
-        font-weight: 100; }
-      .cloud__content p {
-        font-size: 12px;
-        line-height: 1.5;
-        padding-bottom: 16px; }
-    .cloud__div1 {
-      display: inline-block;
-      width: 130px;
-      background-color: #603c96;
-      padding: 15px 10px 0 27px; }
-      .cloud__div1 h2 {
-        font-weight: 100;
-        font-size: 24px;
-        padding-bottom: 23px; }
-      .cloud__div1 p {
-        font-size: 16px;
-        line-height: 1; }
-    .cloud__div2 {
-      display: inline-block;
-      vertical-align: top;
-      width: 130px;
-      background-color: #ffffff;
-      padding: 15px 10px 0 27px; }
-      .cloud__div2 h2 {
-        font-weight: 100;
-        color: #603c96;
-        font-size: 24px;
-        padding-bottom: 6px; }
-      .cloud__div2 p {
-        font-size: 16px;
-        color: #000000;
-        line-height: 1; }
-    .cloud .col-xs-12.col-sm-8.col-md-8.col-lg-8,
-    .cloud .col-xs-12.col-sm-4.col-md-4.col-lg-4,
-    .cloud .col-xs-12.col-sm-6.col-md-6.col-lg-6 {
-      padding: 0; }
-    .cloud__mobility {
-      margin: 32px 0; }
-      .cloud__mobility h1 {
-        font-size: 18px;
-        color: #603c96;
-        font-family: 'muliBold';
-        padding-bottom: 32px; }
-      .cloud__mobility h2 {
-        font-family: 'muliSemiBold';
-        font-size: 18px;
-        padding-bottom: 16px; }
-      .cloud__mobility p {
-        font-size: 12px;
-        line-height: 1.67;
-        color: #3e3e3e;
-        padding-bottom: 12px; }
-    .cloud__div11 {
-      display: inline-block;
-      width: 102px;
-      background-color: #603c96;
-      margin-left: 25px;
-      padding: 25px 20px 17px 7px; }
-      .cloud__div11 p {
-        font-size: 12px !important;
-        line-height: 1.58;
-        color: #ffffff; }
-    .cloud__div12 {
-      display: inline-block;
-      vertical-align: top;
-      width: 102px;
-      background-color: #f7f7f7;
-      padding: 26px 35px 17px 11px; }
-      .cloud__div12 p {
-        font-size: 12px !important;
-        line-height: 1.58;
-        color: #191919; }
-    .cloud__productImg {
-      background-image: url(../assets/image/cloud/group-16.png);
       background-repeat: no-repeat;
       height: 189px;
       width: 100%;
       background-size: 100% 100%;
-      object-fit: contain;
-      margin-bottom: 33px; }
-      .cloud__productImg p {
-        font-size: 18px;
-        padding-top: 61px;
-        color: #fff;
-        width: 185px; }
-    .cloud__byod {
-      margin: 33px 0; }
-      .cloud__byod h1 {
-        font-size: 16px;
-        font-family: 'muliSemiBold';
-        padding-bottom: 16px; }
-      .cloud__byod p {
-        font-size: 12px;
-        line-height: 1.67;
-        margin-bottom: 32px; }
-    .cloud__div111 {
-=======
       object-fit: contain;
       margin-bottom: 33px; }
       .devOps__productImg p {
@@ -4880,25 +4437,16 @@ ul.tabs li.current {
         line-height: 1.67;
         margin-bottom: 32px; }
     .mobile__div111 {
->>>>>>> e98dd101c9512d0676b84f70f8c0c5b0d122cf97
       display: inline-block;
       width: 102px;
       background-color: #603c96;
       margin-left: 25px;
       padding: 25px 20px 0 7px; }
-<<<<<<< HEAD
-      .cloud__div111 p {
-        font-size: 12px !important;
-        line-height: 1.58;
-        color: #ffffff; }
-    .cloud__div112 {
-=======
       .mobile__div111 p {
         font-size: 12px !important;
         line-height: 1.58;
         color: #ffffff; }
     .mobile__div112 {
->>>>>>> e98dd101c9512d0676b84f70f8c0c5b0d122cf97
       background-image: url(../assets/image/cloud/bitmap.png);
       background-repeat: no-repeat;
       background-size: 100% 100%;
@@ -4907,53 +4455,22 @@ ul.tabs li.current {
       vertical-align: top;
       width: 102px;
       padding: 26px 35px 0 11px; }
-<<<<<<< HEAD
-      .cloud__div112 p {
-        font-size: 12px !important;
-        line-height: 1.58;
-        color: #fff; }
-    .cloud__div113 {
-=======
       .mobile__div112 p {
         font-size: 12px !important;
         line-height: 1.58;
         color: #fff; }
     .mobile__div113 {
->>>>>>> e98dd101c9512d0676b84f70f8c0c5b0d122cf97
       display: inline-block;
       margin-top: 10px;
       margin-left: 25px;
       width: 102px;
       background-color: #151515;
       padding: 26px 35px 0 11px; }
-<<<<<<< HEAD
-      .cloud__div113 p {
-=======
       .mobile__div113 p {
->>>>>>> e98dd101c9512d0676b84f70f8c0c5b0d122cf97
         font-size: 12px !important;
         line-height: 1.58;
         color: #fff; } }
 @media only screen and (min-width: 768px) {
-<<<<<<< HEAD
-  .cloud__container {
-    width: 702px;
-    margin: 0 auto; }
-  .cloud__headImg {
-    height: 230px; }
-  .cloud__head {
-    font-size: 36px;
-    padding-top: 149px; }
-  .cloud__content {
-    padding: 32px 0; }
-    .cloud__content h1 {
-      font-size: 18px;
-      padding: 0 0 16px; }
-    .cloud__content p {
-      font-size: 14px;
-      padding-right: 27px; }
-  .cloud__div1 {
-=======
   .mobile__container {
     width: 702px;
     margin: 0 auto; }
@@ -4971,217 +4488,15 @@ ul.tabs li.current {
       font-size: 14px;
       padding-right: 27px; }
   .mobile__div1 {
->>>>>>> e98dd101c9512d0676b84f70f8c0c5b0d122cf97
     margin-left: 7px;
     margin-top: 22px;
     width: 160px;
     padding: 15px 10px 14px 27px; }
-<<<<<<< HEAD
-  .cloud__div2 {
-=======
   .mobile__div2 {
->>>>>>> e98dd101c9512d0676b84f70f8c0c5b0d122cf97
     margin-top: 22px;
     margin-left: 18px;
     width: 160px;
     padding: 15px 10px 30px 27px; }
-<<<<<<< HEAD
-  .cloud__mobility {
-    margin: 33px 0 49px; }
-    .cloud__mobility h1 {
-      font-size: 24px; }
-    .cloud__mobility p {
-      font-size: 14px;
-      padding-bottom: 0; }
-  .cloud__div11 {
-    padding: 25px 20px 17px 7px;
-    margin: 55px 10px 0 0; }
-  .cloud__div12 {
-    margin-top: 55px; }
-  .cloud__productImg p {
-    font-size: 24px;
-    padding-top: 49px;
-    width: 230px; }
-  .cloud__byod {
-    margin: 33px 0 35px; }
-    .cloud__byod h1 {
-      font-size: 18px; }
-    .cloud__byod p {
-      font-size: 14px; }
-  .cloud__div111 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 25px 20px 0 7px; }
-  .cloud__div112 {
-    margin-top: 10px; }
-  .cloud__div113 {
-    margin-right: 10px;
-    margin-left: 0; } }
-@media only screen and (min-width: 1025px) {
-  .cloud__container {
-    width: 943px; }
-  .cloud__headImg {
-    height: 306px; }
-  .cloud__head {
-    font-size: 48px;
-    padding-top: 216px; }
-  .cloud__content {
-    padding: 35px 0 32px; }
-    .cloud__content h1 {
-      font-size: 24px; }
-    .cloud__content p {
-      font-size: 16px; }
-  .cloud__div1 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 10px 21px 24px; }
-    .cloud__div1 h2 {
-      font-size: 48px;
-      padding-bottom: 26px; }
-    .cloud__div1 p {
-      font-size: 24px !important; }
-  .cloud__div2 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 10px 21px 24px; }
-    .cloud__div2 h2 {
-      font-size: 48px;
-      padding-bottom: 24px; }
-    .cloud__div2 p {
-      font-size: 24px !important; }
-  .cloud__mobility {
-    margin: 32px 0 64px; }
-    .cloud__mobility h1 {
-      font-size: 32px; }
-    .cloud__mobility p {
-      font-size: 16px; }
-    .cloud__mobility h2 {
-      font-size: 24px; }
-  .cloud__div11 {
-    width: 140px;
-    padding: 38px 0px 38px 10px;
-    margin: 55px 15px 0 0; }
-    .cloud__div11 p {
-      font-size: 18px !important; }
-  .cloud__div12 {
-    width: 140px;
-    padding: 38px 25px 38px 10px; }
-    .cloud__div12 p {
-      font-size: 18px !important; }
-  .cloud__productImg {
-    height: 250px; }
-    .cloud__productImg p {
-      font-size: 36px;
-      padding-top: 57px;
-      width: 100%; }
-  .cloud__byod {
-    margin: 64px 0; }
-    .cloud__byod h1 {
-      font-size: 24px; }
-    .cloud__byod p {
-      font-size: 16px; }
-  .cloud__div111 {
-    width: 140px;
-    margin: 55px 15px 0 0;
-    padding-bottom: 2px; }
-    .cloud__div111 p {
-      font-size: 18px !important; }
-  .cloud__div112 {
-    width: 140px;
-    margin: 55px 0 0 0; }
-    .cloud__div112 p {
-      font-size: 18px !important; }
-  .cloud__div113 {
-    width: 140px; }
-    .cloud__div113 p {
-      font-size: 18px !important; } }
-@media only screen and (min-width: 1367px) {
-  .cloud__container {
-    width: 1107px; }
-  .cloud__headImg {
-    height: 430px; }
-  .cloud__head {
-    font-size: 56px;
-    padding-top: 327px; }
-  .cloud__content {
-    padding: 92px 0 118px; }
-    .cloud__content h1 {
-      font-size: 32px; }
-    .cloud__content p {
-      font-size: 18px; }
-  .cloud__div1 {
-    margin-top: 40px;
-    width: 260px;
-    padding: 22px 10px 21px 24px; }
-    .cloud__div1 h2 {
-      font-size: 48px;
-      padding-bottom: 26px; }
-    .cloud__div1 p {
-      font-size: 32px !important; }
-  .cloud__div2 {
-    margin-top: 40px;
-    width: 260px;
-    padding: 22px 10px 21px 24px; }
-    .cloud__div2 h2 {
-      font-size: 48px;
-      padding-bottom: 24px; }
-    .cloud__div2 p {
-      font-size: 32px !important; }
-  .cloud__mobility {
-    margin: 32px 0 82px; }
-    .cloud__mobility h1 {
-      font-size: 36px;
-      margin-left: 10px; }
-    .cloud__mobility p {
-      font-size: 18px;
-      margin-left: 10px; }
-    .cloud__mobility h2 {
-      font-size: 32px;
-      margin-left: 10px; }
-  .cloud__div11 {
-    width: 170px;
-    padding: 38px 0px 38px 10px;
-    margin: 55px 15px 0 0; }
-    .cloud__div11 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; }
-  .cloud__div12 {
-    width: 170px;
-    padding: 38px 25px 38px 10px; }
-    .cloud__div12 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; }
-  .cloud__productImg {
-    height: 350px; }
-    .cloud__productImg p {
-      font-size: 48px;
-      padding-top: 98px;
-      width: 500px; }
-  .cloud__byod {
-    margin: 64px 0; }
-    .cloud__byod h1 {
-      font-size: 32px;
-      margin-left: 10px; }
-    .cloud__byod p {
-      font-size: 18px;
-      margin-left: 10px; }
-  .cloud__div111 {
-    width: 170px;
-    padding-right: 0;
-    margin: 55px 15px 0 0; }
-    .cloud__div111 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; }
-  .cloud__div112 {
-    width: 170px; }
-    .cloud__div112 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; }
-  .cloud__div113 {
-    width: 170px; }
-    .cloud__div113 p {
-=======
   .mobile__mobility {
     margin: 33px 0 49px; }
     .mobile__mobility h1 {
@@ -5377,6 +4692,5 @@ ul.tabs li.current {
   .mobile__div113 {
     width: 170px; }
     .mobile__div113 p {
->>>>>>> e98dd101c9512d0676b84f70f8c0c5b0d122cf97
       font-size: 24px !important;
       margin-left: 0 !important; } }
