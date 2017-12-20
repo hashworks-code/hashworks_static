@@ -1,0 +1,410 @@
+
+ @media screen and(min-width:320px){
+    
+   .jobslider{
+       
+        button{
+            background-color: #603c96;
+            top: 100%;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+        }
+        .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+            /* color: transparent; */
+            outline: none;
+            background-color: #603c96;
+        }
+        .slick-next {
+            right: 98px;
+        }
+        .slick-prev {
+            left: 99px;
+        }
+        .slick-next:before {
+            content: '>';
+            font-size: 20px;
+            line-height: 0.4;
+            width: 10.3px;
+            height: 5.7px;
+             color: #f7f7f7;
+             opacity: 1;
+        }
+        .slick-prev:before {
+           content: '<';
+            font-size: 20px;
+            line-height: 0.4;
+            width: 10.3px;
+            height: 5.7px;
+            color: #f7f7f7;
+            opacity: 1;
+        }
+        .slick-initialized .slick-slide {
+            display: block;
+            outline: none;
+        }
+        
+    }
+    .job{
+    
+        &__headImg{
+            background-image: url(../assets/image/job/joblogo.png);
+            background-repeat: no-repeat;
+            height: 237px;
+            width: 100%;
+            background-size:cover;       
+          }
+          &__content{
+            height: 237px;
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            padding: 24px 28px;
+            font-family: 'muliRegular';
+            font-size: 24px;
+            text-align: left;
+            color: #ffffff;
+            font-weight: normal;
+          }
+    &__opening{
+        width: 271px;
+        margin: 0 auto;
+        h1{
+            font-family:'muliBold';
+            font-size: 16px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #603c96;
+            padding: 24px 0px 16px;
+        }
+        p{
+            font-family:'muliRegular';
+            font-size: 12px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: center;
+            color: #3e3e3e;
+        }
+        &__position{
+            // height: 946px;
+            background-color: #ffffff;
+            box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
+            border: solid 1px #dcdcdc;
+            margin-top: 32px;
+            padding-bottom: 70px;
+            h1{
+                font-family:'muliSemiBold';
+                font-size: 16px;
+                padding: 38px 0px 6px;
+            }
+            h2{
+                font-family:'muliRegular';
+                font-size: 12px;
+                font-weight: normal;
+                font-style: normal;
+                text-align: center;
+                color: #3e3e3e;
+                padding: 6px 0px;
+            }
+            &--apply{
+                width: 101px;
+              
+                border-radius: 4px;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+                border: solid 1px #603c96;
+                font-family:'muliRegular';
+                font-size: 14px;
+                font-weight: normal;
+                text-align: center;
+                color: #603c96;
+                margin: 6px  auto 0px;
+                padding: 5px 0px 4px;
+            }
+            &--next{
+                width: 32px;
+                height: 32px;
+                background-color: #603c96;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+                border-radius: 50%;
+            }
+        }
+    }
+    
+    &__footer{
+        position: relative;
+        height: 165px;
+        &__img{
+            background-image: url(../assets/image/job/1@2x.png);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 237px;
+            background-size:cover;    
+            position: absolute;
+            top:-70px;
+            z-index: -1;   
+          }
+    }
+         
+        }
+           
+    }
+    
+   @media screen and (min-width:768px){
+   .jobslider{
+        .slick-next {
+            right: 19px;
+        }
+        .slick-prev {
+            left: 484px;
+        }   
+    }
+          .job{
+                 &__headImg{
+                     height: 229px;   
+                   }
+                   &__content{
+                     height: 229px;
+                     width: 100%;
+                     padding: 32px 31px;
+                     font-size: 36px;
+                   }
+             &__opening{
+                 width: 578px;
+                 margin: 0 auto;
+                 h1{
+                    font-family: 'muliBold';
+                    font-size: 18px;
+                    padding: 34px 0px 16px;
+                 }
+                 p{
+                    width: 433px;
+                    margin: 0 auto;
+                     font-size: 14px;
+                 }
+                 &__position{
+                     margin-top: 34px;
+                     padding:43px 0px 18px;
+                     h1{
+                       font-family:'muliSemiBold';
+                         font-size: 18px;
+                         padding:  0px;
+                         width: 180px;
+                         text-align: left;
+                     }
+                     h2{
+                         font-size: 14px;
+                         padding: 6px 0px;
+                     }
+                     &--apply{
+                         font-size: 16px;
+                         margin:0px;
+                         padding: 6px 0px 8px;
+                     }
+                     &--alignment{
+                       // width: 560px;
+                       display: flex;
+                       justify-content: space-around;
+                       margin-bottom: 29px;
+                   }
+                 }
+             }
+             
+             &__footer{
+                 position: relative;
+                 height: 165px;
+                 &__img{
+                    
+                     width: 100%;
+                     height: 237px;
+                     background-size:cover;    
+                     position: absolute;
+                     top:-70px;
+                     z-index: -1;   
+                   }
+             }
+                  
+                 }
+        }
+   
+   
+   @media screen and (min-width:1024px){
+       .jobslider{
+            .slick-next {
+                right: 29px;
+            }
+            .slick-prev {
+                left:670px;
+            }   
+        }
+              .job{
+                     &__headImg{
+                         height: 305px;     
+                       }
+                       &__content{
+                         height: 305px;
+                         padding: 26px 43px;
+                         font-size:48px;
+                       }
+                 &__opening{
+                     width:780px;
+                     margin: 0 auto;
+                     h1{
+                        font-family: 'muliBold';
+                        font-size: 24px;
+                        padding: 31px 0px 16px;
+                     }
+                     p{
+                        width:623px;
+                        margin: 0 auto;
+                         font-size: 16px;
+                     }
+                     &__position{
+                         margin-top: 34px;
+                         padding:43px 0px 18px;
+                         h1{
+                           font-family:'muliSemiBold';
+                             font-size: 24px;
+                             padding:  0px;
+                             width: 251px;
+                             text-align: left;
+                         }
+                         h2{
+                             font-size: 16px;
+                             padding: 6px 0px;
+                         }
+                         &--apply{
+                             font-size: 18px;
+                             margin:0px;
+                             padding: 6px 0px 8px;
+                         }
+                         &--alignment{
+                           // width: 560px;
+                           display: flex;
+                           justify-content: space-around;
+                           margin-bottom: 29px;
+                       }
+                     }
+                 }
+                 
+                 &__footer{
+                     position: relative;
+                     height: 165px;
+                     &__img{
+                        
+                         width: 100%;
+                         height: 237px;
+                         background-size:cover;    
+                         position: absolute;
+                         top:-70px;
+                         z-index: -1;   
+                       }
+                 }
+                      
+                     }
+            }
+       
+            //
+   
+   @media screen and (min-width:1367px){
+       .jobslider{
+           button{
+               top: 100%;
+               width: 56px;
+               height: 56px;
+           
+           }
+            .slick-next {
+                right: 40px;
+            }
+            .slick-prev {
+                left:800px;
+            }  
+            .slick-next:before {
+               content: '>';
+               font-size: 28px;
+              
+           }
+           .slick-prev:before {
+              content: '<';
+               font-size: 28px;
+              
+           } 
+        }
+              .job{
+                     &__headImg{
+                         height: 430px;     
+                       }
+                       &__content{
+                         height: 430px;
+                         padding: 31px 134px;
+                         font-size:56px;
+                       }
+                 &__opening{
+                     width:970px;
+                     margin: 0 auto;
+                     h1{
+                        font-family: 'muliBold';
+                        font-size: 32px;
+                        padding: 32px 0px 16px;
+                     }
+                     p{
+                        width:731px;
+                        margin: 0 auto;
+                         font-size: 18px;
+                     }
+                     &__position{
+                         margin-top: 34px;
+                         padding:46px 0px 30px;
+                         h1{
+                           font-family:'muliSemiBold';
+                             font-size: 28px;
+                             padding:  0px;
+                             width: 313px;
+                             text-align: left;
+                         }
+                         h2{
+                             font-size: 18px;
+                             padding: 6px 0px;
+                         }
+                         &--apply{
+                             font-size:24px;
+                             margin:0px;
+                             padding: 6px 0px 8px;
+                         }
+                         &--alignment{
+                           // width: 560px;
+                           display: flex;
+                           justify-content: space-around;
+                           margin-bottom:46px;
+                       }
+                     }
+                 }
+                 
+                 &__footer{
+                     position: relative;
+                     height: 165px;
+                     &__img{
+                        
+                         width: 100%;
+                         height: 237px;
+                         background-size:cover;    
+                         position: absolute;
+                         top:-70px;
+                         z-index: -1;   
+                       }
+                 }
+                      
+                     }
+            }
+       
+            
+        
+            
+        
