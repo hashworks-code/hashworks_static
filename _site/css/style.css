@@ -4783,7 +4783,6 @@ ul.tabs li.current {
     .mobile__div113 p {
       font-size: 24px !important;
       margin-left: 0 !important; } }
-<<<<<<< HEAD
 @media screen and (min-width: 320px) {
   .jobslider button {
     background-color: #603c96;
@@ -5078,7 +5077,6 @@ ul.tabs li.current {
       position: absolute;
       top: -70px;
       z-index: -1; } }
-=======
 @media only screen and (min-width: 320px) {
   .hashworks__contactUs .row {
     width: 298px;
@@ -5159,4 +5157,3 @@ ul.tabs li.current {
       font-size: 24px;
       text-align: left;
       color: #ffffff; } }
->>>>>>> 7a51e9006e8e6c9f1ea7477c18965aa1aedd6d46
