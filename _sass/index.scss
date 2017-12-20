@@ -110,6 +110,14 @@ p.two{
     
         // height:141px;
         background-color: #000000;
+        .slick-prev:before{
+            content:'<' !important;
+            font-family:'muliRegular' !important;
+        }
+        .slick-next:before{
+            content:'>' !important;
+            font-family:'muliRegular' !important;
+        }
     
 img{
     width: 88px;
@@ -404,6 +412,7 @@ a{
                 .info{
                  display:none;
                 }
+
                 
                 .slick-prev{
                     

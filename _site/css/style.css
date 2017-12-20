@@ -812,6 +812,12 @@ h2.second {
     margin-top: 20px; }
 .home-container__single-item {
   background-color: #000000; }
+  .home-container__single-item .slick-prev:before {
+    content: '<' !important;
+    font-family: 'muliRegular' !important; }
+  .home-container__single-item .slick-next:before {
+    content: '>' !important;
+    font-family: 'muliRegular' !important; }
   .home-container__single-item img {
     width: 88px;
     height: 18px;
