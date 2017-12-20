@@ -2378,7 +2378,7 @@ body {
   .hashworks__casestudyHome .casestudy__events__image4 {
     width: 340px;
     height: 193px; } }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .hashworks__casestudyHome .row {
     width: 942px; }
   .hashworks__casestudyHome h1 {
@@ -4783,6 +4783,7 @@ ul.tabs li.current {
     .mobile__div113 p {
       font-size: 24px !important;
       margin-left: 0 !important; } }
+<<<<<<< HEAD
 @media screen and (min-width: 320px) {
   .jobslider button {
     background-color: #603c96;
@@ -5077,3 +5078,85 @@ ul.tabs li.current {
       position: absolute;
       top: -70px;
       z-index: -1; } }
+=======
+@media only screen and (min-width: 320px) {
+  .hashworks__contactUs .row {
+    width: 298px;
+    margin: 0 auto; }
+  .hashworks__contactUs__image {
+    background-image: url(../assets/image/casestudy/1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180px; }
+    .hashworks__contactUs__image h1 {
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: center;
+      color: #ffffff;
+      padding: 135px 153px 15px 29px; }
+  .hashworks__contactUs__form h1 {
+    font-family: 'muliRegular';
+    font-size: 16px;
+    text-align: center;
+    color: #603c96;
+    width: 100%;
+    margin: 37px 0px 0px 0px; }
+  .hashworks__contactUs__form input {
+    width: 263px;
+    height: 35px;
+    border-radius: 4px;
+    border: solid 1px #979797;
+    margin-top: 16px;
+    padding-left: 6px;
+    font-family: 'muliRegular';
+    font-size: 12px;
+    text-align: left;
+    color: #a1a1a1; }
+  .hashworks__contactUs__form button {
+    width: 155px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #603c96;
+    margin: 16px 72px 37px 63px; }
+  .hashworks__contactUs__address {
+    margin: 45px 37px; }
+    .hashworks__contactUs__address h1 {
+      font-family: 'muliBold';
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      color: #4a4a4a;
+      width: 100%;
+      margin-bottom: 8px; }
+    .hashworks__contactUs__address p {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: center;
+      color: #3e3e3e;
+      width: 210px; }
+  .hashworks__contactUs__image1 {
+    background-image: url(../assets/image/contactus/contact1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 192px;
+    margin-bottom: 15px; }
+    .hashworks__contactUs__image1 h1 {
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: left;
+      color: #ffffff; }
+  .hashworks__contactUs__image2 {
+    background-image: url(../assets/image/contactus/contact2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 199px; }
+    .hashworks__contactUs__image2 h1 {
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: left;
+      color: #ffffff; } }
+>>>>>>> 7a51e9006e8e6c9f1ea7477c18965aa1aedd6d46
