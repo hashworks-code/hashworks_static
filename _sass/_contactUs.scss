@@ -1,8 +1,11 @@
 @media only screen and (min-width: 320px){
     .hashworks__contactUs {
         .row {
-            width: 298px;
-            margin: 0 auto;
+            width: 100%;
+             margin: 0 auto;
+        }
+        .pad {
+            padding: 0;
         }
         &__image {
              background-image: url(../assets/image/casestudy/1.png);
@@ -40,6 +43,18 @@
                 text-align: left;
                 color: #a1a1a1;
             }
+            textarea {
+               width: 263px;
+                height: 35px;
+                border-radius: 4px;
+                border: solid 1px #979797;
+                margin-top: 16px;
+                padding-left: 6px;
+                font-family: 'muliRegular';
+                font-size: 12px;
+                text-align: left;
+                color: #a1a1a1; 
+            }
             button {
                 width: 155px;
                 height: 35px;
@@ -47,6 +62,13 @@
                 background-color: #603c96;
                 margin: 16px 72px 37px 63px;
             }
+        }
+        &__location {
+            iframe {
+                 width: 100%; 
+                 height:238px;
+            }
+           
         }
         &__address {
                 margin: 45px 37px;
@@ -69,19 +91,31 @@
 
                         }
         }
-        &__image1 {
+                     &__images {
+                        &__image1 {
             background-image: url(../assets/image/contactus/contact1.png);
               background-size: 100% 100%;
               background-repeat: no-repeat;
                width: 100%;
               height: 192px;  
-              margin-bottom: 15px;
+               margin-bottom: 15px;
+
+              p {
+                font-family: 'muliBold';
+                font-size: 14px;
+                font-weight: bold;
+                text-align: left;
+                color: #ffffff;
+                width: 100%;
+                padding: 15px 0px 112px 18px;
+              }
 
               h1 {
                   font-family: 'muliRegular';
                   font-size: 24px;
                   text-align: left;
                   color: #ffffff;
+                   padding: 0px 159px 15px 18px;
               }
         }
         &__image2 {
@@ -90,13 +124,348 @@
               background-repeat: no-repeat;
                width: 100%;
               height: 199px; 
+
+               p {
+                font-family: 'muliBold';
+                font-size: 14px;
+                font-weight: bold;
+                text-align: left;
+                color: #ffffff;
+                 padding: 25px 0px  70px 17px;
+              }
               
               h1 {
                   font-family: 'muliRegular';
                   font-size: 24px;
                   text-align: left;
                   color: #ffffff;
+                   padding: 0px 5px 19px 17px;
               }
         }
+                     }
+        
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .hashworks__contactUs {
+        .row {
+            width: 703px;
+            margin: 0 auto;
+        }
+        &__image {
+             background-image: url(../assets/image/casestudy/1.png); 
+             height: 213px;
+
+            h1 {
+                font-size: 32px;
+                padding: 141px 551px 32px 32px;
+            }
+        }
+        &__form {
+            h1 {
+                 font-family:'muliBold';
+                 font-size: 18px;
+                 margin: 36px 0px ;
+            }
+            input {
+                width: 280px;
+                height: 37px;
+                margin-top: 0px;
+                padding-left: 6px;
+                font-size: 14px;
+            }
+            textarea {
+                width: 580px;
+                height: 37px;
+                margin-left: 60px;
+                padding-left: 6px;
+                font-size: 14px;
+            }
+            button {
+                width: 151px;
+                height: 37px;
+                margin: 16px 72px 37px 275px;
+            }
+
+            &__form1 {
+               padding:0px 12px 0px 58px;
+            }
+        }
+        &__location {
+            margin-bottom: 37px;
+            iframe {
+                 width: 460px; 
+                 height: 314px;
+            }
+           
+        }
+        &__address {
+                margin: 20px 37px;
+            h1 {
+                font-family: 'muliBold';
+                font-size: 14px;
+             text-align: left;
+                margin-bottom: 6px;
+            }
+            p {
+                 font-size: 14px;
+                 line-height: 1.43;
+                  text-align: left;
+                 width: 189px;
+                 margin-bottom: 14px;
+
+                        }
+        }
+         &__images {
+             margin-bottom: 37px;
+            &__image1 {
+            background-image: url(../assets/image/contactus/contact1.png);
+               width: 220px;
+              height: 279px;  
+
+              p {
+                font-family: 'muliBold';
+                font-size: 14px;
+                 padding: 16px 126px  178px 20px;
+              }
+
+              h1 {
+                  font-size: 24px;
+                   padding: 0px 57px 35px 20px;
+              }
+        }
+        &__image2 {
+           background-image: url(../assets/image/contactus/contact2.png);
+               width: 462px;
+              height: 279px; 
+
+               p {
+                font-family: 'muliBold';
+                font-size: 14px;
+                padding: 16px 0px  142px 22px;
+              }
+              
+              h1 {
+                  font-size: 24px;
+                  padding:0px 142px 37px 22px;
+              }
+        }
+         }
+        
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .hashworks__contactUs {
+        .row {
+            width: 942px;
+            margin: 0 auto;
+        }
+        &__image {
+             background-image: url(../assets/image/casestudy/1.png); 
+             height: 284px;
+
+            h1 {
+                font-size: 32px;
+                padding: 141px 551px 32px 32px;
+            }
+        }
+        &__form {
+            h1 {
+                 font-family:'muliRegular';
+                 font-size: 24px;
+                 margin: 64px 0px 36px 0px;
+            }
+            input {
+                width: 378px;
+                height: 49px;
+                padding-left: 12px;
+                font-size: 16px;
+            }
+            textarea {
+              width: 791px;
+                height: 49px;
+                padding-left: 12px;
+                font-size: 16px;
+                margin-left: 59px;
+            }
+            button {
+                width: 217px;
+                height: 49px;
+                // border-radius: 4px;
+                // background-color: #603c96;
+                margin: 27px 363px 94px 362px;
+            }
+            &__form1 {
+               padding:0px 12px 0px 58px;
+            }
+        }
+        &__location {
+            margin-bottom: 37px;
+            iframe {
+                 width: 620px; 
+                 height: 384px;
+            }
+           
+        }
+        &__address {
+                margin: 0px 37px;
+            h1 {
+                // font-family: 'muliBold';
+                font-size: 16px;
+             text-align: left;
+                margin-bottom: 8px;
+            }
+            p {
+                 font-size: 18px;
+                 line-height: 1.44;
+                  text-align: left;
+                 width: 195px;
+                 margin-bottom: 25px;
+
+                        }
+        }
+         &__images {
+             margin-bottom: 62px;
+            &__image1 {
+            background-image: url(../assets/image/contactus/contact1.png);
+               width: 300px;
+              height: 382px;  
+
+              p {
+                font-size: 16px;
+                 padding: 34px 176px  251px 40px;
+              }
+
+              h1 {
+                  font-size: 32px;
+                   padding: 0px 69px 34px 40px;
+              }
+        }
+        &__image2 {
+           background-image: url(../assets/image/contactus/contact2.png);
+               width: 624px;
+              height: 386px; 
+
+               p {
+                font-size: 16px;
+                padding: 36px 0px  206px 44px;
+              }
+              
+              h1 {
+                  font-size: 32px;
+                  padding:0px 142px 44px 44px;
+              }
+        }
+         }
+        
+    }
+}
+
+@media only screen and (min-width: 1367px){
+    .hashworks__contactUs {
+        .row {
+            width: 1174px;
+            margin: 0 auto;
+        }
+        &__image {
+             background-image: url(../assets/image/casestudy/1.png); 
+             height: 400px;
+
+            h1 {
+                font-size: 56px;
+                text-align: left;
+                padding: 293px 913px 32px 133px;
+            }
+        }
+        &__form {
+            h1 {
+                 font-family:'muliBold';
+                 font-size: 32px;
+                 margin: 64px 0px 64px 0px;
+            }
+            input {
+                width: 470px;
+                height: 60px;
+                padding-left: 15px;
+                font-size: 24px;
+            }
+            textarea {
+              width: 995px;
+                height: 60px;
+                padding-left: 15px;
+                font-size: 24px;
+                margin-left: 59px;
+            }
+            button {
+                width: 270px;
+                height: 60px;
+                margin: 32px 452px 65px 450px;
+            }
+            &__form1 {
+               padding:0px 12px 0px 58px;
+            }
+        }
+        &__location {
+            margin-bottom: 65px;
+            iframe {
+                 width: 770px; 
+                 height: 542px;
+            }
+           
+        }
+        &__address {
+                margin: 20px 37px;
+            h1 {
+                // font-family: 'muliBold';
+                font-size: 16px;
+             text-align: left;
+                margin-bottom: 16px;
+            }
+            p {
+                 font-size: 24px;
+                 line-height: 1.38;
+                //   text-align: left;
+                 width: 278px;
+                 margin-bottom: 36px;
+
+                        }
+        }
+
+         &__images {
+             margin-bottom: 60px;
+            &__image1 {
+            background-image: url(../assets/image/contactus/contact1.png);
+               width: 372px;
+              height: 484px;  
+
+              p {
+                // font-size: 16px;
+                 padding: 34px 215px  270px 43px;
+              }
+
+              h1 {
+                  font-size: 48px;
+                   padding: 0px 109px 64px 72px;
+              }
+        }
+        &__image2 {
+           background-image: url(../assets/image/contactus/contact2.png);
+               width: 774px;
+              height: 486px; 
+
+               p {
+                // font-size: 16px;
+                padding: 36px 0px  240px 72px;
+              }
+              
+              h1 {
+                  font-size: 48px;
+                  padding:0px 133px 63px 72px;
+              }
+        }
+         }
+        
     }
 }
