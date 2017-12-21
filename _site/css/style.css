@@ -995,7 +995,8 @@ h2.second {
     justify-content: center; }
   .home-container--logo {
     width: 200px;
-    height: 200px; }
+    height: 200px;
+    margin-top: 36px; }
   .home-container__hometop {
     background-position: 115%; }
     .home-container__hometop .homedesk {
