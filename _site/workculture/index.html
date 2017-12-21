@@ -9,13 +9,15 @@
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
 
     <link rel="stylesheet" href="/css/hashGrid.css">
-    
-       <link rel="alternate" type="application/rss+xml" title="Hashworks" href="/feed.xml">
+    <link rel="stylesheet" href="/css/style.css">
+     <link rel="alternate" type="application/rss+xml" title="Hashworks" href="/feed.xml">
     <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body id="close">
+        <div class="loader">
+                <img src="../assets/image/job/hashlogo.gif">
+              </div>
     <header class="hashworks__head">
         <a href="index.html"> <img class="hashworks__head--logo" src="/assets/image/logo.svg" alt="hashlogo"></a>
         <div class="hashworks__head--list">
@@ -275,23 +277,7 @@
     <script type="text/javascript" src="/assets/js/product.js"></script>
 
 
-<!-- <script type="text/javascript">
 
-</script>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script> -->
 <script>
     $(document).ready(function(){
         $(' .btn-outline-primary').click(function(){
@@ -323,39 +309,39 @@ $('#abouttoggle').click(function () {
 
 
         $(document).ready(function(){
-            $('.menuClass').click(function(){
-                var a = $(this).attr('id').split('-')[1];
-                console.log(a);
-                $('.dropdown').hide();
-                $('.menu-'+a+'-Content').show();    
+            setTimeout(function(){ 
+                $('.loader').hide();
+                }, 3000);
+
+            
+            $('.hashworks__head--product').click(function(e){
+                $('#myDropdown').toggle();
+                $("#aboutDropdown").hide();
+                e.stopPropagation();
             });
+            $('#myDropdown,#aboutDropdown').click(function(e){
+               $(this).show();
+               e.stopPropagation();
+            })
+
+            
+            $('.hashworks__head--about').click(function(e){
+                $('#myDropdown').hide();
+                $("#aboutDropdown").toggle();
+                e.stopPropagation();
+            })
+            $(document).click(function(){
+
+                $('#myDropdown').hide();
+                $("#aboutDropdown").hide();
+            })
 
         })
 
         
-        // $(document).click(function(e)
-        // {
-        //     var $data=e.target;
-        //  if(event.target.id=='menu-1'){
-        //      $("#myDropdown").toggle();
-        //  }
-        //  else if(event.target.id=='myDropdown'){
-        //     $("#myDropdown").show();
-        //  }
-        //  else if((event.target.attr('class')).includes('fortext')){
-        //      alert("DASD")
-        //     $("#myDropdown").show();
-        //  }
-        //  else{
-        //     $("#myDropdown").hide();
-        //     alert($data.attr('class'));
-
-        //  }
-
-        // })
+       
         </script>
 
-<!-- javascript FOR MOBILE VIEW -->
 
 <script>
     (function($) {
@@ -535,9 +521,15 @@ $('#abouttoggle').click(function () {
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer__list--copyright">
                           <h4>Copyright2017@ Hashworks.co</h4>
                           <div class="footer__list--social">
-                           <img  src="../assets/image/twitter.svg"/>
-                           <img  src="../assets/image/linkedin-logo.svg"/>
-                           <img  src="../assets/image/facebook-logo.svg"/>
+                              <a href="https://twitter.com/hashworksco" target="_blank">
+                                  <img  src="../assets/image/twitter.svg"/>
+                              </a>
+                              <a href="https://www.linkedin.com/company/hashworks?trk=top_nav_home" target="_blank">
+                                   <img  src="../assets/image/linkedin-logo.svg"/>
+                              </a>
+                                <a href="https://www.facebook.com/hashworks" target="_blank">
+                                    <img  src="../assets/image/facebook-logo.svg"/>
+                                </a>
                         </div>
                         </div>
                     
