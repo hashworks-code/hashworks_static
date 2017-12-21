@@ -1,35 +1,5 @@
 
-.uploadFile {
-    visibility : hidden;
- }
- .uploadBox{
-    width: 100%;
-    height: 35px;
-    border-radius: 4px;
-    border: solid 1px #979797;
-    margin: 0px 0px 16px 0px;
-    font-size: 14px;
-    padding: 9px 7px;
-    h6{
-        font-family: 'muliRegular';
-        font-size: 14px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        text-align: left;
-        color: #a1a1a1;
-    }
- }
- .upload{
-     float: right;
-     margin-right: 10px;
-    
- }
- [contentEditable=true]:empty:not(:focus):before{
-    content:attr(data-text)
-}
+
 
 /* Icons */
 .icon {
@@ -75,17 +45,55 @@
 
  @media screen and(min-width:320px) {
  
+    
     //for popup
-    .applypopup{
-        h1{
-            font-size: 18px;
-            font-family: 'muliBold';
-            color: #603c96;
-            padding: 36px 0px;
-            width:252px;
+    // .applypopup{
+    //     h1{
+    //         font-size: 18px;
+    //         font-family: 'muliBold';
+    //         color: #603c96;
+    //         padding: 36px 0px;
+    //         width:252px;
+    //     }
+    // }
 
+    .applyfield{
+        padding: 0px 28px 0px 29px;
+    
+        h6{
+            font-family: 'muliRegular';
+            font-size: 12px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #a1a1a1;
+            position: absolute;
+            bottom: 93px;
+            left: 42px;
         }
+        .uploadFile {
+            visibility : hidden;
+         }
+         .uploadBox{
+            width: 100%;
+            height: 35px;
+            border-radius: 4px;
+            border: solid 1px #979797;
+            margin: 0px 0px 16px 0px;
+            font-size: 12px;
+            padding: 9px 7px;
+        
+         }
+         .upload{
+             float: right;
+             margin-right:-3px; 
+         }
+        
     }
+
     //end popup
 .jobslider{
      button{
@@ -284,11 +292,11 @@
             text-align: left;
         }
         input{
-            width:80%;
+            width:100%;
             height: 35px;
             border-radius: 4px;
             border: solid 1px #979797;
-            margin:0px 0px 16px 29px;
+            margin:0px 0px 16px 0px;
             font-family: 'muliRegular';
             font-size: 12px;
             font-weight: normal;
@@ -321,6 +329,33 @@
  }
  
 @media screen and (min-width:768px){
+
+    .applyfield{
+        padding: 0px;
+    
+        h6{
+          
+            font-size: 14px;
+            bottom: 95px;
+            left: 121px;
+        }
+ 
+         .uploadBox{
+            width: 100%;
+            height: 37px;
+            border-radius: 4px;
+            border: solid 1px #979797;
+            margin: 0px 0px 16px 0px;
+            font-size: 12px;
+            padding: 9px 7px;
+        
+         }
+         .upload{
+             float: right;
+             margin-right:-3px; 
+         }   
+    }
+
 .jobslider{
      .slick-next {
          right: 19px;
@@ -423,7 +458,7 @@
                 }
                 input{
                     width:100%;
-                    height: 35px;
+                    height: 37px;
                     border-radius: 4px;
                     border: solid 1px #979797;
                     margin:0px 0px 16px 0px;
@@ -453,6 +488,34 @@
 
 
  @media screen and (min-width:1024px){
+
+    .applyfield{
+        padding: 0px;
+    
+        h6{
+            font-size: 16px;
+            bottom: 146px;
+            left: 142px;
+        }
+ 
+         .uploadBox{
+            width: 100%;
+            height: 49px;
+            border-radius: 4px;
+            border: solid 1px #979797;
+            margin: 0px 0px 16px 0px;
+            font-size: 12px;
+            padding: 9px 7px;
+        
+         }
+         .upload{
+            float: right;
+            height: 25px;
+            width: 25px;
+            margin-right: 12px;
+         }   
+    }
+
     .jobslider{
          .slick-next {
              right: 29px;
@@ -585,6 +648,33 @@
          //
 
 @media screen and (min-width:1367px){
+
+    .applyfield{
+        padding: 0px;
+    
+        h6{
+            font-size: 24px;
+            bottom: 145px;
+            left: 258px;
+        }
+ 
+         .uploadBox{
+            width: 100%;
+            height: 60px;
+            border-radius: 4px;
+            margin: 0px 0px 16px 0px;
+            font-size: 12px;
+            padding: 9px 7px;
+        
+         }
+         .upload{
+            float: right;
+            height: 32px;
+            width: 33px;
+            margin-right: 12px;
+         }   
+    }
+
     .jobslider{
         button{
             top: 100%;
