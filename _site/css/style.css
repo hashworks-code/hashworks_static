@@ -775,7 +775,7 @@ h2.second {
   font-family: 'muliRegular'; }
 
 .home-container__hometop {
-  background-image: url("../assets/image/full@3x.png");
+  background-image: url("../assets/image/job/BG .png");
   height: 269px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -992,7 +992,17 @@ h2.second {
 
   .home-container__hometext {
     display: block;
+<<<<<<< HEAD
     height: 189px; }
+=======
+    margin-bottom: 33px; }
+  .home-container--hashworkpattern {
+    display: flex;
+    justify-content: center; }
+  .home-container--logo {
+    width: 200px;
+    height: 200px; }
+>>>>>>> 5600ae018a56fd3905f0dab0e2483636d764eee1
   .home-container__hometop {
     background-position: 115%; }
     .home-container__hometop .homedesk {
@@ -1143,6 +1153,15 @@ h2.second {
   p.sales {
     font-size: 24px; }
 
+  .home-container--hashworkpattern {
+    display: flex;
+    justify-content: center; }
+  .home-container--logo {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 115px;
+    margin-top: 60px; }
   .home-container__bussinessStudy {
     margin-left: 42px; }
     .home-container__bussinessStudy p.info {
@@ -1357,6 +1376,15 @@ h2.second {
     margin-top: 115px;
     margin-left: 35px; }
 
+  .home-container--hashworkpattern {
+    display: flex;
+    justify-content: center; }
+  .home-container--logo {
+    width: 251px;
+    height: 251px;
+    position: absolute;
+    right: 83px;
+    margin-top: 40px; }
   .home-container__bussinessCase .caseone, .home-container__bussinessCase .casetwo {
     max-width: 160px !important; }
     .home-container__bussinessCase .caseone p, .home-container__bussinessCase .caseone h1, .home-container__bussinessCase .casetwo p, .home-container__bussinessCase .casetwo h1 {
@@ -1581,6 +1609,12 @@ h2.second {
   .bus-row {
     width: 1170px; }
 
+  .home-container--logo {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 280px;
+    margin-top: 47px; }
   .home-container__single-item .slick-prev {
     z-index: 10;
     left: 40px;
@@ -3302,7 +3336,7 @@ h2.second {
       padding: 184px 175px 16px 18px;
       margin: 0; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
-    margin: 16px 12px; }
+    margin: 16px -14px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {
       font-size: 12px;
       font-family: 'muliSemiBold';
@@ -3350,7 +3384,7 @@ h2.second {
     font-size: 36px;
     padding: 148px 530px 32px 32px; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
-    margin: 32px 158px 28px 191px; }
+    margin: 32px 131px 28px 157px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {
       font-size: 14px;
       padding-right: 26px; }
@@ -3385,7 +3419,7 @@ h2.second {
       font-size: 48px;
       padding: 220px 720px 28px 43px; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
-    margin: 32px 276px 27px 285px; }
+    margin: 32px 97px 27px 243px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {
       font-size: 16px;
       padding-right: 27px; }
@@ -3419,7 +3453,7 @@ h2.second {
       font-size: 56px;
       padding: 330px 936px 32px 136px; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
-    margin: 27px 422px 31px 448px; }
+    margin: 27px 313px 31px 312px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {
       font-size: 18px;
       padding-right: 26px; }
@@ -4002,12 +4036,34 @@ ul.tabs li.current {
   border: 0; }
 
 @media screen and (min-width: 320px) {
-  .applypopup h1 {
-    font-size: 18px;
-    font-family: 'muliBold';
-    color: #603c96;
-    padding: 36px 0px;
-    width: 252px; }
+  .applyfield {
+    padding: 0px 28px 0px 29px; }
+    .applyfield h6 {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #a1a1a1;
+      position: absolute;
+      bottom: 93px;
+      left: 42px; }
+    .applyfield .uploadFile {
+      visibility: hidden; }
+    .applyfield .uploadBox {
+      width: 100%;
+      height: 35px;
+      border-radius: 4px;
+      border: solid 1px #979797;
+      margin: 0px 0px 16px 0px;
+      font-size: 12px;
+      padding: 9px 7px; }
+    .applyfield .upload {
+      float: right;
+      margin-right: -3px; }
 
   .jobslider button {
     background-color: #603c96;
@@ -4041,7 +4097,7 @@ ul.tabs li.current {
     opacity: 1; }
   .jobslider .slick-initialized .slick-slide {
     display: block;
-    outline: none; }
+    outline: none !important; }
 
   .job__headImg {
     background-image: url(../assets/image/job/joblogo.png);
@@ -4104,6 +4160,7 @@ ul.tabs li.current {
         padding: 6px 0px; }
       .job__opening__position--apply {
         width: 101px;
+        cursor: pointer;
         border-radius: 4px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
         border: solid 1px #603c96;
@@ -4171,11 +4228,11 @@ ul.tabs li.current {
       letter-spacing: normal;
       text-align: left; }
     .modal-wrapper input {
-      width: 80%;
+      width: 100%;
       height: 35px;
       border-radius: 4px;
       border: solid 1px #979797;
-      margin: 0px 0px 16px 29px;
+      margin: 0px 0px 16px 0px;
       font-family: 'muliRegular';
       font-size: 12px;
       font-weight: normal;
@@ -4200,6 +4257,24 @@ ul.tabs li.current {
       border: none;
       outline: none; } }
 @media screen and (min-width: 768px) {
+  .applyfield {
+    padding: 0px; }
+    .applyfield h6 {
+      font-size: 14px;
+      bottom: 95px;
+      left: 121px; }
+    .applyfield .uploadBox {
+      width: 100%;
+      height: 37px;
+      border-radius: 4px;
+      border: solid 1px #979797;
+      margin: 0px 0px 16px 0px;
+      font-size: 12px;
+      padding: 9px 7px; }
+    .applyfield .upload {
+      float: right;
+      margin-right: -3px; }
+
   .jobslider .slick-next {
     right: 19px; }
   .jobslider .slick-prev {
@@ -4238,7 +4313,8 @@ ul.tabs li.current {
       .job__opening__position--apply {
         font-size: 16px;
         margin: 0px;
-        padding: 6px 0px 8px; }
+        padding: 6px 0px 8px;
+        cursor: pointer; }
       .job__opening__position--alignment {
         display: flex;
         justify-content: space-around;
@@ -4275,7 +4351,7 @@ ul.tabs li.current {
     color: #3e3e3e; }
   .modal-body input {
     width: 100%;
-    height: 35px;
+    height: 37px;
     border-radius: 4px;
     border: solid 1px #979797;
     margin: 0px 0px 16px 0px;
@@ -4296,6 +4372,26 @@ ul.tabs li.current {
     border: 0;
     outline: none; } }
 @media screen and (min-width: 1024px) {
+  .applyfield {
+    padding: 0px; }
+    .applyfield h6 {
+      font-size: 16px;
+      bottom: 146px;
+      left: 142px; }
+    .applyfield .uploadBox {
+      width: 100%;
+      height: 49px;
+      border-radius: 4px;
+      border: solid 1px #979797;
+      margin: 0px 0px 16px 0px;
+      font-size: 12px;
+      padding: 9px 7px; }
+    .applyfield .upload {
+      float: right;
+      height: 25px;
+      width: 25px;
+      margin-right: 12px; }
+
   .jobslider .slick-next {
     right: 29px; }
   .jobslider .slick-prev {
@@ -4392,6 +4488,25 @@ ul.tabs li.current {
     border: 0;
     outline: none; } }
 @media screen and (min-width: 1367px) {
+  .applyfield {
+    padding: 0px; }
+    .applyfield h6 {
+      font-size: 24px;
+      bottom: 145px;
+      left: 258px; }
+    .applyfield .uploadBox {
+      width: 100%;
+      height: 60px;
+      border-radius: 4px;
+      margin: 0px 0px 16px 0px;
+      font-size: 12px;
+      padding: 9px 7px; }
+    .applyfield .upload {
+      float: right;
+      height: 32px;
+      width: 33px;
+      margin-right: 12px; }
+
   .jobslider button {
     top: 100%;
     width: 56px;

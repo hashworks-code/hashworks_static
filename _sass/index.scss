@@ -57,19 +57,14 @@ h2.second{
     font-family:'muliRegular';
 }
 .home-container{
-    
+  
     &__hometop{
-    background-image:url('../assets/image/full@3x.png');
+    background-image:url('../assets/image/job/BG .png');
     height:269px;
     background-repeat:no-repeat;
     background-size:cover; 
     background-position: center center;        
     }
-
-&__bussinessCaseMobile{
-    display:none;
-
-}
 
  &__hometext{
      display:none;
@@ -189,8 +184,6 @@ a{
             margin-top:8px;
             background-image:url(../assets/image/index/rectangle-3-copy-3.jpg);
             height: 170px;
-           
-            
             background-size: 100% 100%;
             object-fit: contain;
            
@@ -367,6 +360,15 @@ a{
                     display:block;
                      height:189px;
                 }
+                &--hashworkpattern{
+                        display: flex;
+                        justify-content: center; 
+                }
+                &--logo{
+                    width: 200px;
+                    height: 200px;
+                }
+
             &__hometop{
                 background-position: 115%;        
                 
@@ -577,6 +579,18 @@ a{
             font-size:24px;
         }
       .home-container{
+
+        &--hashworkpattern{
+            display: flex;
+            justify-content: center; 
+    }
+    &--logo{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        right: 115px;
+        margin-top: 60px;
+    }
         
           &__bussinessStudy{
               margin-left:42px;
@@ -881,6 +895,18 @@ a{
             margin-left:35px;
         }
         .home-container{
+
+            &--hashworkpattern{
+                display: flex;
+                justify-content: center; 
+        }
+        &--logo{
+            width: 251px;
+            height: 251px;
+            position: absolute;
+            right: 83px;
+            margin-top: 40px;
+        }
             &__bussinessCase{
                 .caseone,.casetwo{
                     max-width:160px !important;
@@ -1206,6 +1232,14 @@ max-width:460px !important;
             width:1170px;
         }
         .home-container{
+         
+        &--logo{
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            right: 280px;
+            margin-top: 47px;
+        }
 
             &__single-item{
                 .slick-prev{
