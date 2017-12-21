@@ -774,8 +774,11 @@ h2.second {
   color: #ffffff;
   font-family: 'muliRegular'; }
 
+.home-container--logo {
+  position: absolute;
+  right: 0px; }
 .home-container__hometop {
-  background-image: url("../assets/image/full@3x.png");
+  background-image: url("../assets/image/job/BG .png");
   height: 269px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3883,6 +3886,35 @@ ul.tabs li.current {
     .aboutus__company--explore h1 {
       font-size: 32px;
       height: 175px; } }
+.uploadFile {
+  visibility: hidden; }
+
+.uploadBox {
+  width: 100%;
+  height: 35px;
+  border-radius: 4px;
+  border: solid 1px #979797;
+  margin: 0px 0px 16px 0px;
+  font-size: 14px;
+  padding: 9px 7px; }
+  .uploadBox h6 {
+    font-family: 'muliRegular';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a1a1a1; }
+
+.upload {
+  float: right;
+  margin-right: 10px; }
+
+[contentEditable=true]:empty:not(:focus):before {
+  content: attr(data-text); }
+
 /* Icons */
 .icon {
   display: inline-block;
@@ -3961,7 +3993,7 @@ ul.tabs li.current {
     opacity: 1; }
   .jobslider .slick-initialized .slick-slide {
     display: block;
-    outline: none; }
+    outline: none !important; }
 
   .job__headImg {
     background-image: url(../assets/image/job/joblogo.png);
@@ -4024,6 +4056,7 @@ ul.tabs li.current {
         padding: 6px 0px; }
       .job__opening__position--apply {
         width: 101px;
+        cursor: pointer;
         border-radius: 4px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
         border: solid 1px #603c96;
@@ -4158,7 +4191,8 @@ ul.tabs li.current {
       .job__opening__position--apply {
         font-size: 16px;
         margin: 0px;
-        padding: 6px 0px 8px; }
+        padding: 6px 0px 8px;
+        cursor: pointer; }
       .job__opening__position--alignment {
         display: flex;
         justify-content: space-around;

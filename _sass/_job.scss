@@ -1,4 +1,35 @@
 
+.uploadFile {
+    visibility : hidden;
+ }
+ .uploadBox{
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    border: solid 1px #979797;
+    margin: 0px 0px 16px 0px;
+    font-size: 14px;
+    padding: 9px 7px;
+    h6{
+        font-family: 'muliRegular';
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #a1a1a1;
+    }
+ }
+ .upload{
+     float: right;
+     margin-right: 10px;
+    
+ }
+ [contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text)
+}
 
 /* Icons */
 .icon {
@@ -95,8 +126,9 @@
      }
      .slick-initialized .slick-slide {
          display: block;
-         outline: none;
+         outline: none !important;
      }
+    
      
  }
  .job{
@@ -169,7 +201,7 @@
          }
          &--apply{
              width: 101px;
-           
+             cursor: pointer;
              border-radius: 4px;
              box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
              border: solid 1px #603c96;
@@ -338,6 +370,7 @@
                       font-size: 16px;
                       margin:0px;
                       padding: 6px 0px 8px;
+                      cursor: pointer;
                   }
                   &--alignment{
                     // width: 560px;

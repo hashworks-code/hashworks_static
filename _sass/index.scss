@@ -57,16 +57,17 @@ h2.second{
     font-family:'muliRegular';
 }
 .home-container{
-    
+    &--logo{
+        position: absolute;
+        right: 0px;
+    }
     &__hometop{
-    background-image:url('../assets/image/full@3x.png');
+    background-image:url('../assets/image/job/BG .png');
     height:269px;
     background-repeat:no-repeat;
     background-size:cover; 
     background-position: center center;        
     }
-
-    
 
  &__hometext{
      display:none;
