@@ -783,17 +783,16 @@ h2.second {
 .home-container__hometext {
   display: none; }
   .home-container__hometext h1 {
-    height: 30px;
-    font-family: 'muliRegular';
+    font-family: 'muliSemiBold';
     font-size: 24px;
     font-weight: 600;
     text-align: center;
-    margin-top: 16px; }
+    margin-top: 16px;
+    color: #4a4a4a; }
   .home-container__hometext span {
     font-family: 'muliSemiBold';
     color: #603c96; }
   .home-container__hometext p.one {
-    height: 20px;
     font-family: 'muliSemiBold';
     font-size: 16px;
     font-weight: 600;
@@ -803,7 +802,6 @@ h2.second {
     margin-top: 10px; }
   .home-container__hometext p.two {
     width: 265px;
-    height: 60px;
     font-family: 'muliRegular';
     font-size: 16px;
     text-align: center;
@@ -844,14 +842,14 @@ h2.second {
   background-image: url(../assets/image/index/rectangle1.jpg);
   height: 170px;
   background-color: #603c96;
-  background-size: 100% 100%;
+  background-size: cover;
   object-fit: contain; }
 .home-container__bussinessThinking {
   margin-top: 8px;
   background-image: url(../assets/image/index/customer.jpg);
   height: 170px;
   background-color: #603c96;
-  background-size: 100% 100%;
+  background-size: cover;
   object-fit: contain; }
   .home-container__bussinessThinking p.second {
     padding-top: 10px; }
@@ -859,12 +857,12 @@ h2.second {
   margin-top: 8px;
   background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
   height: 170px;
-  background-size: 100% 100%;
+  background-size: cover;
   object-fit: contain; }
 .home-container__bussinessGroup {
   height: 214px;
   background-image: url(../assets/image/index/group.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   object-fit: contain;
   background-color: #000000; }
   .home-container__bussinessGroup img {
@@ -926,7 +924,7 @@ h2.second {
       width: 115px; }
 .home-container__bussinessSubscribe {
   background-image: url(../assets/image/index/people.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   height: 147px;
   object-fit: contain; }
   .home-container__bussinessSubscribe p {
@@ -936,15 +934,16 @@ h2.second {
     margin-top: 12px;
     color: #4a4a4a; }
   .home-container__bussinessSubscribe input.box {
-    width: 142.9px;
-    height: 19px;
+    width: 143px;
     background-color: #ffffff;
     border: solid 1px #ebebeb;
     display: block;
     margin: 0 auto;
     margin-top: 12px;
     padding-left: 10px;
-    font-family: 'muliRegular'; }
+    font-family: 'muliRegular';
+    font-size: 10px;
+    padding: 3px 0px 5px 13px; }
   .home-container__bussinessSubscribe input.button {
     width: 82px;
     color: white;
@@ -956,7 +955,8 @@ h2.second {
     display: block;
     margin-top: 12.5px;
     font-family: 'muliRegular';
-    font-size: 10px; }
+    font-size: 10px;
+    border: none; }
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
   .row.wrapper {
@@ -998,34 +998,36 @@ h2.second {
     width: 200px;
     height: 200px;
     margin-top: 36px; }
-  .home-container__hometop {
-    background-position: 115%; }
-    .home-container__hometop .homedesk {
-      display: none; }
+  .home-container__hometop .homedesk {
+    display: none; }
   .home-container__bussinessStudy {
     height: 159px; }
     .home-container__bussinessStudy p.first {
-      margin-top: 13px; }
+      margin-top: 13px;
+      font-size: 12px; }
     .home-container__bussinessStudy .sales, .home-container__bussinessStudy .info, .home-container__bussinessStudy .read {
-      margin-top: 16px; }
+      margin-top: 16px;
+      font-size: 10px;
+      width: 241px; }
   .home-container__bussinessThinking {
-    background-size: 100% 160%; }
+    background-size: cover; }
     .home-container__bussinessThinking p.first {
-      margin-left: 25px;
+      margin-left: 20px;
       font-size: 12px; }
     .home-container__bussinessThinking .ownset {
       width: 140px;
       padding-top: 30px;
-      margin-left: 25px; }
+      margin-left: 20px; }
   .home-container__bussinessImpact p.first {
-    margin-left: 25px; }
+    margin-left: 20px; }
   .home-container__bussinessImpact .ownset {
     width: 100px;
-    margin-left: 25px; }
+    margin-left: 20px; }
   .home-container__bussinessCase {
     display: none; }
   .home-container__bussinessCaseMobile {
-    display: block; }
+    display: block;
+    margin-bottom: 27px; }
     .home-container__bussinessCaseMobile p {
       font-family: "muliRegular";
       font-size: 16px;
@@ -1049,19 +1051,29 @@ h2.second {
       display: inline-block;
       background-color: white; }
       .home-container__bussinessCaseMobile .casetwo h1, .home-container__bussinessCaseMobile .casetwo p {
-        color: black; }
+        color: #4a4a4a; }
     .home-container__bussinessCaseMobile .caseone, .home-container__bussinessCaseMobile .casetwo {
       max-width: 155px !important;
       height: 144px;
       min-width: 155px; }
-  .home-container__bussiness p.first, .home-container__bussiness h2.second {
-    margin-left: 25px; }
+  .home-container__bussiness p.first {
+    margin-left: 20px; }
+  .home-container__bussiness h2.second {
+    margin-left: 20px;
+    width: 249px; }
   .home-container__single-item {
     height: 141px; }
     .home-container__single-item p {
-      width: 240px; }
+      width: 240px;
+      margin-left: 36px; }
     .home-container__single-item .info {
       display: none; }
+    .home-container__single-item img {
+      width: 88px;
+      height: 18px;
+      object-fit: contain;
+      margin-left: 36px;
+      margin-top: 42px; }
     .home-container__single-item .slick-prev {
       z-index: 10;
       left: 0px;
@@ -1083,14 +1095,15 @@ h2.second {
       font-family: 'muliRegular' !important; }
   .home-container__bussinessClient {
     height: 200px;
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
     .home-container__bussinessClient p {
       font-family: 'muliRegular';
       font-size: 18px;
       font-weight: normal;
       font-style: normal;
       text-align: center;
-      margin-top: 16px; }
+      margin-top: 16px;
+      color: #4a4a4a; }
     .home-container__bussinessClient .subrow {
       width: 300px;
       margin: 0 auto;

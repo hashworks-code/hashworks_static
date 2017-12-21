@@ -69,12 +69,12 @@ h2.second{
  &__hometext{
      display:none;
      h1{
-        height: 30px;
-        font-family: 'muliRegular';
+        font-family: 'muliSemiBold';
         font-size: 24px;
         font-weight: 600;
         text-align: center;
         margin-top:16px;
+        color: #4a4a4a;
         
      }
      span{
@@ -82,8 +82,6 @@ h2.second{
         color: #603c96;
      }
      p.one{
-
-        height: 20px;
         font-family: 'muliSemiBold';
         font-size: 16px;
         font-weight: 600;
@@ -94,7 +92,6 @@ h2.second{
      }
 p.two{
     width: 265px;
-    height: 60px;
     font-family:'muliRegular';
     font-size: 16px;
     text-align: center;
@@ -157,7 +154,7 @@ a{
     height: 170px;
     background-color: #603c96;
     
-    background-size: 100% 100%;
+    background-size: cover;
     object-fit: contain;
 
     
@@ -170,7 +167,7 @@ a{
         height: 170px;
         background-color: #603c96;
         
-        background-size: 100% 100%;
+        background-size: cover;
         object-fit: contain;
         p.second{
             padding-top:10px;
@@ -184,7 +181,7 @@ a{
             margin-top:8px;
             background-image:url(../assets/image/index/rectangle-3-copy-3.jpg);
             height: 170px;
-            background-size: 100% 100%;
+            background-size: cover;
             object-fit: contain;
            
     }
@@ -195,7 +192,7 @@ a{
         // margin-top:8px;
         height: 214px;
         background-image:url(../assets/image/index/group.jpg);
-        background-size: 100% 100%;
+        background-size: cover;
         object-fit: contain;
         background-color: #000000;
         img{
@@ -281,7 +278,7 @@ a{
     }
     &__bussinessSubscribe{
         background-image:url(../assets/image/index/people.jpg);
-        background-size: 100% 100%;
+        background-size: cover;
         height: 147px;
         object-fit: contain;
     
@@ -293,15 +290,16 @@ a{
       color: #4a4a4a;
   }
   input.box{
-    width: 142.9px;
-    height: 19px;
+    width: 143px;
     background-color: #ffffff;
     border: solid 1px #ebebeb;
     display:block;
     margin:0 auto;
     margin-top:12px;
     padding-left:10px;
- font-family:'muliRegular';
+    font-family:'muliRegular';
+    font-size: 10px;
+    padding: 3px 0px 5px 13px;
   }
   input.button{
     width: 82px;
@@ -315,6 +313,7 @@ a{
     margin-top:12.5px;
     font-family: 'muliRegular';
     font-size: 10px;
+    border: none;
   }
 
     }
@@ -371,7 +370,7 @@ a{
                 }
 
             &__hometop{
-                background-position: 115%;        
+                // background-position: 115%;        
                 
             .homedesk{
         display:none;
@@ -382,32 +381,35 @@ a{
                 height:159px;
                 p.first{
                     margin-top:13px;
+                    font-size: 12px;
                 }
                 .sales,.info,.read{
                     margin-top:16px;
+                    font-size: 10px;
+                    width: 241px;
                 }
             }
             &__bussinessThinking{
-                background-size:100% 160%; 
+                background-size: cover;
                 p.first{
-                    margin-left:25px;
+                    margin-left:20px;
                     font-size:12px;
                 }
                 .ownset{
                     width:140px;
                     padding-top:30px;
-                    margin-left:25px;
+                    margin-left:20px;
                 }
                
             }
             &__bussinessImpact{
                 p.first{
-                    margin-left:25px;
+                    margin-left:20px;
                 }
                 .ownset{
            
                     width:100px;
-                    margin-left:25px;
+                    margin-left:20px;
                 }
             }
   &__bussinessCase{
@@ -416,6 +418,7 @@ a{
   }
   &__bussinessCaseMobile{
       display:block;
+      margin-bottom: 27px;
     p{
         font-family: "muliRegular";
         font-size: 16px;
@@ -443,7 +446,7 @@ a{
            display:inline-block;
          background-color:white;
           h1,p{
-            color:black;
+            color:#4a4a4a;
           }
 
       }
@@ -454,8 +457,12 @@ a{
       }
   }
   &__bussiness{
-      p.first,h2.second{
-        margin-left:25px;
+      p.first{
+        margin-left:20px;
+      }
+      h2.second{
+        margin-left:20px;
+        width: 249px;
       }
 
   }
@@ -463,12 +470,18 @@ a{
                 height:141px;
                 p{
                     width:240px;
+                    margin-left: 36px;
                 }
                 .info{
                  display:none;
                 }
-
-                
+                img {
+                    width: 88px;
+                    height: 18px;
+                    object-fit: contain;
+                    margin-left: 36px;
+                    margin-top: 42px;
+                }
                 .slick-prev{
                     
                     z-index:10;
@@ -500,7 +513,7 @@ a{
             &__bussinessClient
             {
                 height:200px;
-                margin-bottom:30px;
+                margin-bottom:15px;
                 p{
                     font-family:'muliRegular';
                     font-size: 18px;
@@ -508,6 +521,7 @@ a{
                     font-style: normal;
                     text-align:center;
                     margin-top:16px;
+                    color: #4a4a4a;
                 }
                 .subrow{
                     width:300px;
