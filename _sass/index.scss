@@ -114,7 +114,7 @@ img{
     width: 88px;
     height: 18px;
     object-fit: contain;
-    margin-left:37px;
+    margin-left:39px;
     margin-top:42px;
 }
 p{
@@ -324,6 +324,7 @@ a{
     @media only screen and (max-width: 767px) and (min-width:320px){
         .row.wrapper{
             margin-top:6px;
+            height:544px;
             .oval{
                 padding-left: 12px;
                 padding-top: 2px;
@@ -357,7 +358,7 @@ a{
             {
                 &__hometext{
                     display:block;
-                    margin-bottom:33px; 
+                     height:189px;
                 }
                 &--hashworkpattern{
                         display: flex;
@@ -378,7 +379,7 @@ a{
     
             }
             &__bussinessStudy{
-                height:350px;
+                height:159px;
                 p.first{
                     margin-top:13px;
                 }
@@ -388,26 +389,81 @@ a{
             }
             &__bussinessThinking{
                 background-size:100% 160%; 
+                p.first{
+                    margin-left:25px;
+                    font-size:12px;
+                }
                 .ownset{
                     width:140px;
                     padding-top:30px;
+                    margin-left:25px;
                 }
                
             }
             &__bussinessImpact{
+                p.first{
+                    margin-left:25px;
+                }
                 .ownset{
-
+           
                     width:100px;
+                    margin-left:25px;
                 }
             }
   &__bussinessCase{
-      .caseone,.casetwo{
-        max-width: 155px !important;
-        max-height: 144px;
+      display:none;
+      
+  }
+  &__bussinessCaseMobile{
+      display:block;
+    p{
+        font-family: "muliRegular";
+        font-size: 16px;
+        text-align: left;
+        color: #4a4a4a;
+        color: #ffffff;
+        margin-left: 27px;
+        margin-top: 27px;
+    }
+    h1{
+        font-family: 'muliRegular';
+        font-size: 36px;
+        color: #ffffff;
+        margin-left: 27px;
+        margin-top: 16px;
+        height: 45px;
+    }
+      .caseone{
+        background-color: #603c96;
+        color:white;
+        display:inline-block;
+
       }
+      .casetwo{
+           display:inline-block;
+         background-color:white;
+          h1,p{
+            color:black;
+          }
+
+      }
+    .caseone,.casetwo{
+        max-width: 155px !important;
+        height: 144px;
+        min-width:155px;
+      }
+  }
+  &__bussiness{
+      p.first,h2.second{
+        margin-left:25px;
+      }
+
   }
             &__single-item{
                 height:141px;
+                p{
+                    width:240px;
+                }
                 .info{
                  display:none;
                 }
@@ -503,7 +559,7 @@ a{
                 border-radius:50%;
                 font-size:40px;
                 color:white;
-                padding-left: 20px;
+                padding-left: 14px;
                 padding-top: 5px;
                 display:inline-block;
               }
@@ -545,6 +601,7 @@ a{
               }
               p.first{
                   margin-top:49px;
+                  width:130px;
               }
           }
           &__bussinessGroup{
@@ -555,7 +612,6 @@ a{
               max-width:381px !important;
           }
           &__bussinessCase{
-              margin-left:50px;
               h1{
                   font-size:48px;
               }
@@ -651,9 +707,10 @@ a{
     margin-bottom: 113px;
     height: 145px;
     margin-left:43px;
+    width:600px;
 
     h1,span{
-        width: 400px;
+        width: 540px;
         height: 50px;
         font-family: 'muliRegular';
         font-size: 40px;
@@ -679,6 +736,7 @@ a{
         text-align: left;
         color: #3e3e3e;
         margin-top:50px;
+        width:375px;
     }
 }
               }
@@ -1150,9 +1208,11 @@ max-width:460px !important;
     }
     @media screen and (min-width:1367px){
         .wrapper{
+            height:526px;
         .oval{
             padding-left:14px;
-            right:130px;
+            right:135px;
+            margin-top:495px;
 
             
         }
@@ -1212,9 +1272,13 @@ max-width:460px !important;
                 }
 
             }
+            &__bussinessGroup{
+                width: 471px;
+                height: 560px;
+            }
             &__bussinessStudy{
                 p.first{
-                    width: 102px;
+                    width: 120px;
                     height: 20px;
                     font-family:'muliBold';
                     font-size: 16px;
@@ -1329,8 +1393,10 @@ max-width:460px !important;
 
             }
              &__bussinessCase{
+                 margin-left:0px;
                 .caseone,.casetwo{
                     min-width: 200px !important;
+
                      height: 192px;
                      p{
                         font-size: 24px;
@@ -1338,14 +1404,16 @@ max-width:460px !important;
                      }
                    }
              }
-             &__hometop .homedesk {
-                 
+             &__hometop {
+                 height:545px !important;
+                 .homedesk {
+                 margin-left:143px;
                 p.two{
                     font-size:24px;
                     width: 474px;
                 }
                 h1{
-                    width: 474px;
+                    width: 540px;
                     height: 70px;
                     font-weight: 600;
                 }
@@ -1361,6 +1429,7 @@ max-width:460px !important;
 
 
              }
+            }
             &__bussinessCulture{
                 max-width:770px !important;
                 min-height:396px;
