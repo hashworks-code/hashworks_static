@@ -812,12 +812,6 @@ h2.second {
     margin-top: 20px; }
 .home-container__single-item {
   background-color: #000000; }
-  .home-container__single-item .slick-prev:before {
-    content: '<' !important;
-    font-family: 'muliRegular' !important; }
-  .home-container__single-item .slick-next:before {
-    content: '>' !important;
-    font-family: 'muliRegular' !important; }
   .home-container__single-item img {
     width: 88px;
     height: 18px;
@@ -1033,6 +1027,12 @@ h2.second {
       color: white; }
     .home-container__single-item .slick-prev:before, .home-container__single-item .slick-next:before {
       font-size: 25px; }
+    .home-container__single-item .slick-prev:before {
+      content: '<' !important;
+      font-family: 'muliRegular' !important; }
+    .home-container__single-item .slick-next:before {
+      content: '>' !important;
+      font-family: 'muliRegular' !important; }
   .home-container__bussinessClient {
     height: 200px;
     margin-bottom: 30px; }
@@ -1246,6 +1246,12 @@ h2.second {
       height: 200px; }
     .home-container__single-item .slick-prev:before, .home-container__single-item .slick-next:before {
       font-size: 90px; }
+    .home-container__single-item .slick-prev:before {
+      content: '<' !important;
+      font-family: 'muliRegular' !important; }
+    .home-container__single-item .slick-next:before {
+      content: '>' !important;
+      font-family: 'muliRegular' !important; }
     .home-container__single-item .maintext {
       font-size: 24px;
       width: 476px; }
@@ -1410,6 +1416,12 @@ h2.second {
       height: 200px; }
     .home-container__single-item .slick-prev:before, .home-container__single-item .slick-next:before {
       font-size: 55px; }
+    .home-container__single-item .slick-prev:before {
+      content: '<' !important;
+      font-family: 'muliRegular' !important; }
+    .home-container__single-item .slick-next:before {
+      content: '>' !important;
+      font-family: 'muliRegular' !important; }
     .home-container__single-item .disign {
       display: flex !important; }
       .home-container__single-item .disign .setposition {
@@ -1535,6 +1547,12 @@ h2.second {
     color: white; }
   .home-container__single-item .slick-prev:before, .home-container__single-item .slick-next:before {
     font-size: 40px; }
+  .home-container__single-item .slick-prev:before {
+    content: '<' !important;
+    font-family: 'muliRegular' !important; }
+  .home-container__single-item .slick-next:before {
+    content: '>' !important;
+    font-family: 'muliRegular' !important; }
   .home-container__bussinessStudy p.first {
     width: 102px;
     height: 20px;
