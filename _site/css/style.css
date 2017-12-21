@@ -2900,7 +2900,7 @@ h2.second {
     .hashworks__casestudy .casestudy__overview__boxes__box {
       width: 155px;
       height: 123px;
-      margin: 32px 0px 0px 2px;
+      margin: 32px 0px 0px -23px;
       background-color: #603c96;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
       position: relative; }
@@ -2910,7 +2910,7 @@ h2.second {
       height: 123px;
       background-color: #ffffff;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-      margin: -122px 0px 0px 162px; }
+      margin: -123px 0px 0px 137px; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
         color: #603c96;
         padding: 12px 0px 24px 26px;
@@ -3034,7 +3034,6 @@ h2.second {
       font-size: 14px;
       margin-bottom: 14px; }
     .hashworks__casestudy .casestudy__overview p {
-      font-family: 'muliRegular';
       font-size: 14px;
       line-height: 1.5;
       padding-right: 29px; }
@@ -3045,10 +3044,7 @@ h2.second {
       margin: 46px 0px 104px 0px;
       padding: 0; }
     .hashworks__casestudy .casestudy__overview__boxes h1 {
-      font-family: 'muliRegular';
       font-size: 24px;
-      text-align: left;
-      color: #ffffff;
       padding: 12px 0px 24px 26px;
       margin: 0; }
     .hashworks__casestudy .casestudy__overview__boxes p {
@@ -3061,7 +3057,7 @@ h2.second {
     .hashworks__casestudy .casestudy__overview__boxes__box {
       width: 159px;
       height: 123px;
-      margin: -113px 0px 0px 386px;
+      margin: -103px 0px 0px 351px;
       background-color: #603c96;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5); }
     .hashworks__casestudy .casestudy__overview__boxes__box1 {
@@ -3069,7 +3065,7 @@ h2.second {
       height: 123px;
       background-color: #ffffff;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-      margin: -122px 0px 0px 561px; }
+      margin: -123px 0px 0px 531px; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
         color: #603c96;
         font-size: 24px; }
@@ -3157,7 +3153,7 @@ h2.second {
     .hashworks__casestudy .casestudy__overview__boxes__box {
       width: 220px;
       height: 164px;
-      margin: -102px 0px 0px 512px;
+      margin: -102px 0px 0px 471px;
       background-color: #603c96;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5); }
     .hashworks__casestudy .casestudy__overview__boxes__box1 {
@@ -3165,7 +3161,7 @@ h2.second {
       height: 164px;
       background-color: #ffffff;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
-      margin: -164px 0px 0px 753px; }
+      margin: -164px 0px 0px 711px; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
         color: #603c96;
         font-size: 32px; }
@@ -3251,11 +3247,11 @@ h2.second {
     .hashworks__casestudy .casestudy__overview__boxes__box {
       width: 270px;
       height: 216px;
-      margin: -173px 0px 0px 685px; }
+      margin: -173px 0px 0px 550px; }
     .hashworks__casestudy .casestudy__overview__boxes__box1 {
       width: 270px;
       height: 216px;
-      margin: -214px 0px 0px 984px; }
+      margin: -215px 0px 0px 850px; }
       .hashworks__casestudy .casestudy__overview__boxes__box1 h1 {
         color: #603c96;
         font-size: 48px; }
@@ -6664,7 +6660,7 @@ ul.tabs li.current {
       width: 620px;
       height: 384px; }
   .hashworks__contactUs__address {
-    margin: 0px 37px; }
+    margin: 0px 196px; }
     .hashworks__contactUs__address h1 {
       font-size: 16px;
       text-align: left;
