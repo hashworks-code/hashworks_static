@@ -8,7 +8,7 @@
             padding: 0;
         }
         &__image {
-             background-image: url(../assets/image/casestudy/1.png);
+             background-image: url(../assets/image/contactus/group-6.png);
               background-size: 100% 100%;
              background-repeat: no-repeat;
             width: 100%;
@@ -61,6 +61,18 @@
                 border-radius: 4px;
                 background-color: #603c96;
                 margin: 16px 72px 37px 63px;
+
+                p {
+                    font-family: 'muliBold';
+                    font-size: 12px;
+                    font-weight: bold;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #ffffff;
+                }
             }
             
         }
@@ -155,7 +167,6 @@
             margin: 0 auto;
         }
         &__image {
-             background-image: url(../assets/image/casestudy/1.png); 
              height: 213px;
 
             h1 {
@@ -187,6 +198,10 @@
                 width: 151px;
                 height: 37px;
                 margin: 16px 72px 37px 275px;
+
+                p {
+                    font-size: 14px;
+                }
             }
 
             &__form1 {
@@ -264,7 +279,6 @@
             margin: 0 auto;
         }
         &__image {
-             background-image: url(../assets/image/casestudy/1.png); 
              height: 284px;
 
             h1 {
@@ -294,9 +308,11 @@
             button {
                 width: 217px;
                 height: 49px;
-                // border-radius: 4px;
-                // background-color: #603c96;
                 margin: 27px 363px 94px 362px;
+
+                 p {
+                    font-size: 16px;
+                }
             }
             &__form1 {
                padding:0px 12px 0px 58px;
@@ -371,7 +387,6 @@
             margin: 0 auto;
         }
         &__image {
-             background-image: url(../assets/image/casestudy/1.png); 
              height: 400px;
 
             h1 {
@@ -403,6 +418,10 @@
                 width: 270px;
                 height: 60px;
                 margin: 32px 452px 65px 450px;
+
+                 p {
+                    font-size: 24px;
+                }
             }
             &__form1 {
                padding:0px 12px 0px 58px;
