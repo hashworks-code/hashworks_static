@@ -780,6 +780,8 @@ h2.second {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
+.home-container__bussinessCaseMobile {
+  display: none; }
 .home-container__hometext {
   display: none; }
   .home-container__hometext h1 {
@@ -816,7 +818,7 @@ h2.second {
     width: 88px;
     height: 18px;
     object-fit: contain;
-    margin-left: 37px;
+    margin-left: 39px;
     margin-top: 42px; }
   .home-container__single-item p {
     width: 262px;
@@ -960,7 +962,8 @@ h2.second {
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
   .row.wrapper {
-    margin-top: 6px; }
+    margin-top: 6px;
+    height: 544px; }
     .row.wrapper .oval {
       padding-left: 12px;
       padding-top: 2px;
@@ -989,29 +992,69 @@ h2.second {
 
   .home-container__hometext {
     display: block;
-    margin-bottom: 33px; }
+    height: 189px; }
   .home-container__hometop {
     background-position: 115%; }
     .home-container__hometop .homedesk {
       display: none; }
   .home-container__bussinessStudy {
-    height: 350px; }
+    height: 159px; }
     .home-container__bussinessStudy p.first {
       margin-top: 13px; }
     .home-container__bussinessStudy .sales, .home-container__bussinessStudy .info, .home-container__bussinessStudy .read {
       margin-top: 16px; }
   .home-container__bussinessThinking {
     background-size: 100% 160%; }
+    .home-container__bussinessThinking p.first {
+      margin-left: 25px;
+      font-size: 12px; }
     .home-container__bussinessThinking .ownset {
       width: 140px;
-      padding-top: 30px; }
+      padding-top: 30px;
+      margin-left: 25px; }
+  .home-container__bussinessImpact p.first {
+    margin-left: 25px; }
   .home-container__bussinessImpact .ownset {
-    width: 100px; }
-  .home-container__bussinessCase .caseone, .home-container__bussinessCase .casetwo {
-    max-width: 155px !important;
-    max-height: 144px; }
+    width: 100px;
+    margin-left: 25px; }
+  .home-container__bussinessCase {
+    display: none; }
+  .home-container__bussinessCaseMobile {
+    display: block; }
+    .home-container__bussinessCaseMobile p {
+      font-family: "muliRegular";
+      font-size: 16px;
+      text-align: left;
+      color: #4a4a4a;
+      color: #ffffff;
+      margin-left: 27px;
+      margin-top: 27px; }
+    .home-container__bussinessCaseMobile h1 {
+      font-family: 'muliRegular';
+      font-size: 36px;
+      color: #ffffff;
+      margin-left: 27px;
+      margin-top: 16px;
+      height: 45px; }
+    .home-container__bussinessCaseMobile .caseone {
+      background-color: #603c96;
+      color: white;
+      display: inline-block; }
+    .home-container__bussinessCaseMobile .casetwo {
+      display: inline-block;
+      background-color: white; }
+      .home-container__bussinessCaseMobile .casetwo h1, .home-container__bussinessCaseMobile .casetwo p {
+        color: black; }
+    .home-container__bussinessCaseMobile .caseone, .home-container__bussinessCaseMobile .casetwo {
+      max-width: 155px !important;
+      height: 144px;
+      min-width: 155px; }
+  .home-container__bussiness p.first, .home-container__bussiness h2.second {
+    margin-left: 25px; }
   .home-container__single-item {
     height: 141px; }
+    .home-container__single-item p {
+      width: 240px; }
     .home-container__single-item .info {
       display: none; }
     .home-container__single-item .slick-prev {
@@ -1082,7 +1125,7 @@ h2.second {
       border-radius: 50%;
       font-size: 40px;
       color: white;
-      padding-left: 20px;
+      padding-left: 14px;
       padding-top: 5px;
       display: inline-block; }
 
@@ -1106,25 +1149,24 @@ h2.second {
       font-size: 16px;
       max-width: 458px; }
     .home-container__bussinessStudy p.first {
-      margin-top: 49px; }
+      margin-top: 49px;
+      width: 130px; }
   .home-container__bussinessGroup {
     margin-left: 50px;
     margin-top: 51px;
     min-height: 453px;
     max-width: 381px !important;
     max-width: 381px !important; }
-  .home-container__bussinessCase {
-    margin-left: 50px; }
-    .home-container__bussinessCase h1 {
-      font-size: 48px; }
-    .home-container__bussinessCase p {
-      font-size: 18px; }
-    .home-container__bussinessCase .caseone, .home-container__bussinessCase .casetwo {
-      margin-left: 27px;
-      max-width: 200px !important;
-      height: 192px; }
-      .home-container__bussinessCase .caseone p, .home-container__bussinessCase .casetwo p {
-        width: 120px; }
+  .home-container__bussinessCase h1 {
+    font-size: 48px; }
+  .home-container__bussinessCase p {
+    font-size: 18px; }
+  .home-container__bussinessCase .caseone, .home-container__bussinessCase .casetwo {
+    margin-left: 27px;
+    max-width: 200px !important;
+    height: 192px; }
+    .home-container__bussinessCase .caseone p, .home-container__bussinessCase .casetwo p {
+      width: 120px; }
   .home-container__bussinessSubscribe {
     height: 477px; }
     .home-container__bussinessSubscribe .textbox-center {
@@ -1183,9 +1225,10 @@ h2.second {
       margin-top: 145px;
       margin-bottom: 113px;
       height: 145px;
-      margin-left: 43px; }
+      margin-left: 43px;
+      width: 600px; }
       .home-container__hometop .homedesk h1, .home-container__hometop .homedesk span {
-        width: 400px;
+        width: 540px;
         height: 50px;
         font-family: 'muliRegular';
         font-size: 40px;
@@ -1206,7 +1249,8 @@ h2.second {
         font-size: 18px;
         text-align: left;
         color: #3e3e3e;
-        margin-top: 50px; }
+        margin-top: 50px;
+        width: 375px; }
   .home-container__bussiness {
     height: 323px !important;
     min-width: 621px; }
@@ -1518,9 +1562,12 @@ h2.second {
       width: 98px;
       height: 18.5px; } }
 @media screen and (min-width: 1367px) {
-  .wrapper .oval {
-    padding-left: 14px;
-    right: 130px; }
+  .wrapper {
+    height: 526px; }
+    .wrapper .oval {
+      padding-left: 14px;
+      right: 135px;
+      margin-top: 495px; }
 
   .bus-row p.first {
     margin-left: 45px; }
@@ -1553,8 +1600,11 @@ h2.second {
   .home-container__single-item .slick-next:before {
     content: '>' !important;
     font-family: 'muliRegular' !important; }
+  .home-container__bussinessGroup {
+    width: 471px;
+    height: 560px; }
   .home-container__bussinessStudy p.first {
-    width: 102px;
+    width: 120px;
     height: 20px;
     font-family: 'muliBold';
     font-size: 16px; }
@@ -1631,25 +1681,31 @@ h2.second {
     color: white; }
   .home-container__single-item .slick-prev:before, .home-container__single-item .slick-next:before {
     font-size: 100px; }
-  .home-container__bussinessCase .caseone, .home-container__bussinessCase .casetwo {
-    min-width: 200px !important;
-    height: 192px; }
-    .home-container__bussinessCase .caseone p, .home-container__bussinessCase .casetwo p {
-      font-size: 24px;
-      width: 173px; }
-  .home-container__hometop .homedesk p.two {
-    font-size: 24px;
-    width: 474px; }
-  .home-container__hometop .homedesk h1 {
-    width: 474px;
-    height: 70px;
-    font-weight: 600; }
-  .home-container__hometop .homedesk h1, .home-container__hometop .homedesk span {
-    font-size: 56px; }
-  .home-container__hometop .homedesk p.one {
-    width: 405px;
-    font-size: 24px;
-    margin-top: 10px; }
+  .home-container__bussinessCase {
+    margin-left: 0px; }
+    .home-container__bussinessCase .caseone, .home-container__bussinessCase .casetwo {
+      min-width: 200px !important;
+      height: 192px; }
+      .home-container__bussinessCase .caseone p, .home-container__bussinessCase .casetwo p {
+        font-size: 24px;
+        width: 173px; }
+  .home-container__hometop {
+    height: 545px !important; }
+    .home-container__hometop .homedesk {
+      margin-left: 143px; }
+      .home-container__hometop .homedesk p.two {
+        font-size: 24px;
+        width: 474px; }
+      .home-container__hometop .homedesk h1 {
+        width: 540px;
+        height: 70px;
+        font-weight: 600; }
+      .home-container__hometop .homedesk h1, .home-container__hometop .homedesk span {
+        font-size: 56px; }
+      .home-container__hometop .homedesk p.one {
+        width: 405px;
+        font-size: 24px;
+        margin-top: 10px; }
   .home-container__bussinessCulture {
     max-width: 770px !important;
     min-height: 396px; }
