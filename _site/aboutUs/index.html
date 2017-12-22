@@ -307,7 +307,12 @@ $('#arrow').click(function () {
 $('#abouttoggle').click(function () {
   $('#aboutContent').toggle()
 });
+$(window).resize(function(){
+    if($(window).width()<768){
+        $('.loader').hide()
+    }
 
+});
 if($(window).width()<768){
                 alert("hai");
                 setTimeout(function(){ 
