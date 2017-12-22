@@ -66,6 +66,9 @@
             color: #3e3e3e;
             margin-bottom: 33px;
         }
+        &--heading{
+            margin-top: 16px;
+        }
     }
     &__groome{
         background-color: #000000;
@@ -125,6 +128,8 @@ p{
 }
 .slick-prev {
     left: 10px;
+    z-index: 1;
+    position: absolute;
 }
 .slick-next:before {
     content: '>';
@@ -762,14 +767,14 @@ p{
 @media screen and(min-width:1024px) {
     .home{
         &__hashworks{
-            padding: 0px 26px 0px 40px;
+            padding: 17px 26px 25px 40px;
             &--pattern{
                 height:440px;
             }
             &--logo{
                 width: 400px;
                 height: 400px;
-                margin-top: 41px;
+                top: -17px;
                 position: absolute;
                 right: 86px;
             }

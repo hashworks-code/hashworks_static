@@ -5794,6 +5794,8 @@ ul.tabs li.current {
     text-align: center;
     color: #3e3e3e;
     margin-bottom: 33px; }
+  .home__hashworks--heading {
+    margin-top: 16px; }
   .home__groome {
     background-color: #000000;
     margin-bottom: 8px; }
@@ -5834,7 +5836,9 @@ ul.tabs li.current {
     .home__groome .slick-next {
       right: 18px; }
     .home__groome .slick-prev {
-      left: 10px; }
+      left: 10px;
+      z-index: 1;
+      position: absolute; }
     .home__groome .slick-next:before {
       content: '>';
       font-size: 20px;
@@ -6306,13 +6310,13 @@ ul.tabs li.current {
     margin: 0 auto; } }
 @media screen and (min-width: 1024px) {
   .home__hashworks {
-    padding: 0px 26px 0px 40px; }
+    padding: 17px 26px 25px 40px; }
     .home__hashworks--pattern {
       height: 440px; }
     .home__hashworks--logo {
       width: 400px;
       height: 400px;
-      margin-top: 41px;
+      top: -17px;
       position: absolute;
       right: 86px; }
     .home__hashworks--heading {
