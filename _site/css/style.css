@@ -3695,7 +3695,7 @@ ul.tabs li.current {
     margin: 0 auto; }
   .aboutus__thinking h2 {
     font-size: 18px;
-    padding: 64px 0px 0px 0px; }
+    padding: 47px 0px 0px 0px; }
   .aboutus__thinking p {
     width: 460px;
     font-size: 14px;
@@ -3734,7 +3734,8 @@ ul.tabs li.current {
       width: 537px;
       margin: 0 auto; }
     .aboutus__company h1 {
-      font-size: 18px; }
+      font-size: 18px;
+      margin: 16px 0px 17px 0px; }
     .aboutus__company p {
       font-size: 14px;
       margin: 12px 0px 32px; }
@@ -3776,7 +3777,7 @@ ul.tabs li.current {
     margin: 0 auto; }
   .aboutus__thinking h2 {
     font-size: 24px;
-    padding: 64px 0px 0px 0px; }
+    padding: 35px 0px 0px 0px; }
   .aboutus__thinking p {
     width: 731px;
     font-size: 16px;
@@ -3814,7 +3815,8 @@ ul.tabs li.current {
       width: 731px;
       margin: 0 auto; }
     .aboutus__company h1 {
-      font-size: 24px; }
+      font-size: 24px;
+      margin: 34px 0px 16px 0px; }
     .aboutus__company p {
       font-size: 16px;
       margin: 12px 0px 67px; }
@@ -3888,7 +3890,8 @@ ul.tabs li.current {
       padding: 98px 0px; }
 
   .aboutus__company h1 {
-    font-size: 32px; }
+    font-size: 32px;
+    margin: 29px 0px 16px 0px; }
   .aboutus__company p {
     font-size: 18px;
     margin: 16px 0px 52px; }
