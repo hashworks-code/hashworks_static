@@ -1019,18 +1019,10 @@ h2.second {
     justify-content: center; }
   .home-container--logo {
     width: 200px;
-<<<<<<< HEAD
     height: 200px;
     margin-top: 36px; }
   .home-container__hometop .homedesk {
     display: none; }
-=======
-    height: 200px; }
-  .home-container__hometop {
-    background-position: 115%; }
-    .home-container__hometop .homedesk {
-      display: none; }
->>>>>>> ba5aa7132ae52a1ea247ae4adbce08efd73ffcde
   .home-container__bussinessStudy {
     height: 159px; }
     .home-container__bussinessStudy p.first {
@@ -6478,51 +6470,55 @@ ul.tabs li.current {
       text-align: center;
       color: #ffffff;
       padding: 135px 153px 15px 29px; }
-  .hashworks__contactUs__form h1 {
-    font-family: 'muliRegular';
-    font-size: 16px;
-    text-align: center;
-    color: #603c96;
-    width: 100%;
-    margin: 37px 0px 0px 0px; }
-  .hashworks__contactUs__form input {
-    width: 263px;
-    height: 35px;
-    border-radius: 4px;
-    border: solid 1px #979797;
-    margin-top: 16px;
-    padding-left: 6px;
-    font-family: 'muliRegular';
-    font-size: 12px;
-    text-align: left;
-    color: #a1a1a1; }
-  .hashworks__contactUs__form textarea {
-    width: 263px;
-    height: 35px;
-    border-radius: 4px;
-    border: solid 1px #979797;
-    margin-top: 16px;
-    padding-left: 6px;
-    font-family: 'muliRegular';
-    font-size: 12px;
-    text-align: left;
-    color: #a1a1a1; }
-  .hashworks__contactUs__form button {
-    width: 155px;
-    height: 35px;
-    border-radius: 4px;
-    background-color: #603c96;
-    margin: 16px 72px 37px 63px; }
-    .hashworks__contactUs__form button p {
-      font-family: 'muliBold';
-      font-size: 12px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
+  .hashworks__contactUs__form {
+    margin: 0px 29px; }
+    .hashworks__contactUs__form h1 {
+      font-family: 'muliRegular';
+      font-size: 16px;
       text-align: center;
-      color: #ffffff; }
+      color: #603c96;
+      width: 100%;
+      margin: 37px 0px 0px 0px; }
+    .hashworks__contactUs__form input {
+      width: 263px;
+      height: 35px;
+      border-radius: 4px;
+      border: solid 1px #979797;
+      margin-top: 16px;
+      padding-left: 6px;
+      font-family: 'muliRegular';
+      font-size: 12px;
+      text-align: left;
+      color: #a1a1a1; }
+    .hashworks__contactUs__form textarea {
+      width: 263px;
+      height: 35px;
+      border-radius: 4px;
+      border: solid 1px #979797;
+      margin-top: 16px;
+      padding-left: 6px;
+      font-family: 'muliRegular';
+      font-size: 12px;
+      text-align: left;
+      color: #a1a1a1; }
+    .hashworks__contactUs__form button {
+      width: 155px;
+      height: 35px;
+      border-radius: 4px;
+      background-color: #603c96;
+      margin: 16px 72px 37px 63px; }
+      .hashworks__contactUs__form button p {
+        font-family: 'muliBold';
+        font-size: 12px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff; }
+    .hashworks__contactUs__form__form1 {
+      padding: 0px 12px 0px 58px; }
   .hashworks__contactUs__location iframe {
     width: 100%;
     height: 238px; }

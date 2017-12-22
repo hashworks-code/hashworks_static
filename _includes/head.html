@@ -19,7 +19,7 @@
                 <img src="../assets/image/job/hashlogo.gif">
               </div>
     <header class="hashworks__head">
-        <a href="index.html"> <img class="hashworks__head--logo" src="/assets/image/logo.svg" alt="hashlogo"></a>
+        <a href="/index/"> <img class="hashworks__head--logo" src="/assets/image/logo.svg" alt="hashlogo"></a>
         <div class="hashworks__head--list">
             <a href="/index/" class="hashworks__head--home">Home</a>
             <a  class="hashworks__head--product dropbtn menuClass" id="menu-1" onclick="myFunction()" >Product & Service
@@ -136,11 +136,11 @@
 <!-- HEADER FOR MOBILE VIEW -->
 <header>
     <nav id='cssmenu'>
-    <div class="logo"><a href="index.html"><img src="/assets/image/logo.svg" alt="hashlogo"></a></div>
+    <div class="logo"><a href="/index/"><img src="/assets/image/logo.svg" alt="hashlogo"></a></div>
     <div id="head-mobile"></div>
     <div class="button"></div>
     <ul class="menulist">
-    <li class='active'><a href="">HOME</a></li>
+    <li class='active'><a href="/index/">HOME</a></li>
     <li><a href='#'>Product & Services </a>
        <ul class="productDetails">
           <li><a href='#'>
@@ -148,7 +148,7 @@
               <div class=" row">
               <div class="product_view--content ">
                  <div class="">
-                  <h2><a href="/product/">PRODUCT</a></h2>
+                  <h2 onclick="redirect('/product/')">PRODUCT</h2>
                   <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
                  </div>
               </div>
@@ -187,7 +187,7 @@
                              <div class="row">
                                 <div class=" service__view--content ">
                                  <div class="">
-                                         <h2><a href="/service/">SERVICES</a></h2>
+                                         <h2 onclick="redirect('/service/')">SERVICES</h2>
                                          <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
                                      </div> 
                                  </div>
@@ -344,6 +344,9 @@ $('#abouttoggle').click(function () {
 
 
 <script>
+    function redirect(x){
+      window.location = x;
+    }
     (function($) {
       $.fn.menumaker = function(options) {  
         var cssmenu = $(this), settings = $.extend({

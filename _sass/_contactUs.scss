@@ -23,6 +23,7 @@
             }
         }
         &__form {
+             margin: 0px 29px;
             h1 {
                  font-family: 'muliRegular';
                  font-size: 16px;
@@ -73,6 +74,10 @@
                     text-align: center;
                     color: #ffffff;
                 }
+            }
+
+            &__form1 {
+                padding:0px 12px 0px 58px;
             }
             
         }
