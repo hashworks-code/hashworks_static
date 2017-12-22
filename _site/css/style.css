@@ -41,7 +41,8 @@ body {
       background-color: #f7f7f7;
       width: 100%;
       padding: 32px 0px 17px 0px;
-      list-style-type: none; }
+      list-style-type: none;
+      z-index: 50; }
       body .menulist li {
         list-style-type: none; }
       body .menulist a {
@@ -726,6 +727,19 @@ body {
 .bottom-border {
   border-bottom: solid 1px #e0e0e0; }
 
+.loader {
+  position: fixed;
+  align-items: center;
+  background-color: lightcyan;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  justify-content: center;
+  display: none; }
+  .loader img {
+    width: 200px;
+    height: 200px; }
+
 .left-border {
   border-left: solid 1px #e0e0e0; }
 
@@ -741,6 +755,12 @@ body {
   border-bottom: none; }
 
 @media screen and (min-width: 320px) {
+  .home__hashworks--logo {
+    display: none; }
+
+  .loader {
+    display: flex; }
+
   .home__hashworks--pattern {
     background-image: url("../assets/image/job/BG .png");
     height: 269px;
@@ -1025,6 +1045,12 @@ body {
     border: none;
     margin-top: 6px; } }
 @media screen and (min-width: 768px) {
+  .home__hashworks--logo {
+    display: block; }
+
+  .loader {
+    display: done; }
+
   .home__hashworks {
     padding: 0px 26px 0px 40px; }
     .home__hashworks--pattern {
@@ -1294,6 +1320,12 @@ body {
     width: 490px;
     margin: 0 auto; } }
 @media screen and (min-width: 1024px) {
+  .home__hashworks--logo {
+    display: block; }
+
+  .loader {
+    display: none; }
+
   .home__hashworks {
     padding: 17px 26px 25px 40px; }
     .home__hashworks--pattern {
@@ -1559,6 +1591,12 @@ body {
     width: 654px;
     margin: 0 auto; } }
 @media screen and (min-width: 1367px) {
+  .home-container--logo {
+    display: block; }
+
+  .loader {
+    display: none; }
+
   .home__hashworks {
     padding: 59px 124px 67px 143px; }
     .home__hashworks--pattern {
