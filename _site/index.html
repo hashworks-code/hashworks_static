@@ -308,12 +308,27 @@ $('#arrow').click(function () {
 $('#abouttoggle').click(function () {
   $('#aboutContent').toggle()
 });
+      
 
+if($(window).width()<768){
+    
+    setTimeout(function(){ 
+        
+                // $('.loader').hide();
+                $('.loader').fadeOut()
+
+                }, 4500);
+                setTimeout(function(){
+                     $('.home-container--logo').css('display','block');
+
+                    // $('.home-container--logo').fadeIn(1000);
+
+                },5000)
+
+}
 
         $(document).ready(function(){
-            setTimeout(function(){ 
-                $('.loader').hide();
-                }, 3000);
+            
 
             
             $('.hashworks__head--product').click(function(e){
@@ -371,12 +386,15 @@ $('#abouttoggle').click(function () {
             cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
             cssmenu.find('.submenu-button').on('click', function() {
               $(this).toggleClass('submenu-opened');
-              if ($(this).siblings('ul').hasClass('open')) {
-                $(this).siblings('ul').removeClass('open').slideToggle();
-              }
-              else {
-                $(this).siblings('ul').addClass('open').slideToggle();
-              }
+            
+            if($(this).parent('li').siblings('li').children('span').hasClass('submenu-opened')){
+                     alert("hai");
+                $(this).parent().siblings('li').children('span').removeClass('submenu-opened');
+
+            }
+            console.log($(this).siblings());
+            $(this).siblings('ul').slideToggle();
+            $(this).parent('li').siblings().children('ul').slideUp();
             });
           };
           if (settings.format === 'multitoggle') multiTg();
@@ -405,6 +423,7 @@ $('#abouttoggle').click(function () {
         });
         })(jQuery);
     </script>
+
 
    
 </body>

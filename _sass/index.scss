@@ -13,6 +13,7 @@ p.first{
 .myset{
     display:none;
 }
+
 .bottom-border{
     border-bottom: solid 1px #e0e0e0;
 
@@ -327,6 +328,12 @@ a{
 
 }
     @media only screen and (max-width: 767px) and (min-width:320px){
+        .home-container--logo{
+            display:none;
+        }
+        .loader{
+            display:flex;
+          }
         .row.wrapper{
             margin-top:6px;
             .oval{
@@ -477,6 +484,9 @@ a{
 }
     
     @media only screen and (min-width:1024px)  {
+        .loader{
+            display:none;
+        }
         .read{
             display:none;
         }
@@ -786,6 +796,9 @@ a{
       
     }
     @media only screen and (min-width:768px) and (max-width:1023px){
+        .loader{
+            display:none;
+        }
         .read{
             display:none;
         }
@@ -1120,6 +1133,9 @@ max-width:460px !important;
        
     }
     @media screen and (min-width:1367px){
+        .loader{
+            display:none;
+        }
         .wrapper{
         .oval{
             padding-left:14px;
