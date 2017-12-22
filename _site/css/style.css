@@ -3444,15 +3444,13 @@ body {
       color: #ffffff;
       padding: 184px 175px 16px 18px;
       margin: 0; }
-  .hashworks__casestudyHome .casestudy__events .category-filter {
-    margin: 16px -14px; }
-    .hashworks__casestudyHome .casestudy__events .category-filter p {
-      font-size: 12px;
-      font-family: 'muliSemiBold';
-      font-weight: 600;
-      text-align: center;
-      display: inline;
-      padding-right: 8px; }
+  .hashworks__casestudyHome .casestudy__events .category-filter p {
+    font-size: 12px;
+    font-family: 'muliSemiBold';
+    font-weight: 600;
+    text-align: center;
+    display: inline;
+    margin: 0px 10px; }
   .hashworks__casestudyHome .casestudy__events .event {
     padding: 0; }
   .hashworks__casestudyHome .casestudy__events__image1 {
@@ -3493,7 +3491,7 @@ body {
     font-size: 36px;
     padding: 148px 530px 32px 32px; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
-    margin: 32px 131px 28px 157px; }
+    margin: 32px 131px 28px 57px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {
       font-size: 14px;
       padding-right: 26px; }
@@ -3561,11 +3559,9 @@ body {
     .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-size: 56px;
       padding: 330px 936px 32px 136px; }
-  .hashworks__casestudyHome .casestudy__events .category-filter {
-    margin: 27px 313px 31px 312px; }
-    .hashworks__casestudyHome .casestudy__events .category-filter p {
-      font-size: 18px;
-      padding-right: 26px; }
+  .hashworks__casestudyHome .casestudy__events .category-filter p {
+    font-size: 18px;
+    padding-right: 26px; }
   .hashworks__casestudyHome .casestudy__events .event {
     padding: 0; }
   .hashworks__casestudyHome .casestudy__events__image1 {
