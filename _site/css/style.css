@@ -4111,6 +4111,9 @@ ul.tabs li.current {
     .aboutus__company--explore h1 {
       font-size: 32px;
       height: 175px; } }
+.slick-initialized .slick-slide {
+  outline: none; }
+
 /* Icons */
 .icon {
   display: inline-block;
