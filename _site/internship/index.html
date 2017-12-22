@@ -19,7 +19,7 @@
                 <img src="../assets/image/job/hashlogo.gif">
               </div>
     <header class="hashworks__head">
-        <a href="index.html"> <img class="hashworks__head--logo" src="/assets/image/logo.svg" alt="hashlogo"></a>
+        <a href="/index/"> <img class="hashworks__head--logo" src="/assets/image/logo.svg" alt="hashlogo"></a>
         <div class="hashworks__head--list">
             <a href="/index/" class="hashworks__head--home">Home</a>
             <a  class="hashworks__head--product dropbtn menuClass" id="menu-1" onclick="myFunction()" >Product & Service
@@ -136,11 +136,11 @@
 <!-- HEADER FOR MOBILE VIEW -->
 <header>
     <nav id='cssmenu'>
-    <div class="logo"><a href="index.html"><img src="/assets/image/logo.svg" alt="hashlogo"></a></div>
+    <div class="logo"><a href="/index/"><img src="/assets/image/logo.svg" alt="hashlogo"></a></div>
     <div id="head-mobile"></div>
     <div class="button"></div>
     <ul class="menulist">
-    <li class='active'><a href="">HOME</a></li>
+    <li class='active'><a href="/index/">HOME</a></li>
     <li><a href='#'>Product & Services </a>
        <ul class="productDetails">
           <li><a href='#'>
@@ -148,7 +148,7 @@
               <div class=" row">
               <div class="product_view--content ">
                  <div class="">
-                  <h2><a href="/product/">PRODUCT</a></h2>
+                  <h2 onclick="redirect('/product/')">PRODUCT</h2>
                   <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
                  </div>
               </div>
@@ -187,7 +187,7 @@
                              <div class="row">
                                 <div class=" service__view--content ">
                                  <div class="">
-                                         <h2><a href="/service/">SERVICES</a></h2>
+                                         <h2 onclick="redirect('/service/')">SERVICES</h2>
                                          <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
                                      </div> 
                                  </div>
@@ -306,28 +306,30 @@ $('#arrow').click(function () {
 $('#abouttoggle').click(function () {
   $('#aboutContent').toggle()
 });
-      
+$(window).resize(function(){
+    if($(window).width()<768){
+        $('.loader').hide()
+    }
 
+});
 if($(window).width()<768){
-    
-    setTimeout(function(){ 
-        
-                // $('.loader').hide();
-                $('.loader').fadeOut()
 
-                }, 4500);
-                setTimeout(function(){
-                     $('.home-container--logo').css('display','block');
-
-                    // $('.home-container--logo').fadeIn(1000);
-
-                },5000)
-
-}
-
-        $(document).ready(function(){
+                setTimeout(function(){ 
+                    
+                            // $('.loader').hide();
+                            $('.loader').fadeOut()
             
+                            }, 4500);
+                            setTimeout(function(){
+                                 $('.home__hashworks--logo').css('display','block');
+            
+                                // $('.home-container--logo').fadeIn(1000);
+            
+                            },5000)
+            
+            }
 
+           
             
             $('.hashworks__head--product').click(function(e){
                 $('#myDropdown').toggle();
@@ -351,7 +353,7 @@ if($(window).width()<768){
                 $("#aboutDropdown").hide();
             })
 
-        })
+    
 
         
        
@@ -359,67 +361,70 @@ if($(window).width()<768){
 
 
 <script>
+    function redirect(x){
+      window.location = x;
+    }
+
     (function($) {
-      $.fn.menumaker = function(options) {  
-        var cssmenu = $(this), settings = $.extend({
-          format: "dropdown",
-          sticky: false
-        }, options);
-        return this.each(function() {
-          $(this).find(".button").on('click', function(){
-            $(this).toggleClass('menu-opened');
-            var mainmenu = $(this).next('ul');
-            if (mainmenu.hasClass('open')) { 
-              mainmenu.slideToggle().removeClass('open');
-            }
-            else {
-              mainmenu.slideToggle().addClass('open');
-              if (settings.format === "dropdown") {
-                mainmenu.find('ul').show();
+        $.fn.menumaker = function(options) {  
+          var cssmenu = $(this), settings = $.extend({
+            format: "dropdown",
+            sticky: false
+          }, options);
+          return this.each(function() {
+            $(this).find(".button").on('click', function(){
+              $(this).toggleClass('menu-opened');
+              var mainmenu = $(this).next('ul');
+              if (mainmenu.hasClass('open')) { 
+                mainmenu.slideToggle().removeClass('open');
               }
-            }
-          });
-          cssmenu.find('li ul').parent().addClass('has-sub');
-        multiTg = function() {
-            cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
-            cssmenu.find('.submenu-button').on('click', function() {
-              $(this).toggleClass('submenu-opened');
-            
-            if($(this).parent('li').siblings('li').children('span').hasClass('submenu-opened')){
-                     alert("hai");
-                $(this).parent().siblings('li').children('span').removeClass('submenu-opened');
-
-            }
-            console.log($(this).siblings());
-            $(this).siblings('ul').slideToggle();
-            $(this).parent('li').siblings().children('ul').slideUp();
+              else {
+                mainmenu.slideToggle().addClass('open');
+                if (settings.format === "dropdown") {
+                  mainmenu.find('ul').show();
+                }
+              }
             });
-          };
-          if (settings.format === 'multitoggle') multiTg();
-          else cssmenu.addClass('dropdown');
-          if (settings.sticky === true) cssmenu.css('position', 'fixed');
-        resizeFix = function() {
-          var mediasize = 1000;
-            if ($( window ).width() > mediasize) {
-              cssmenu.find('ul').show();
-            }
-            if ($(window).width() <= mediasize) {
-              cssmenu.find('ul').hide().removeClass('open');
-            }
-          };
-          resizeFix();
-          return $(window).on('resize');
-        });
-          };
-        })(jQuery);
-
-        (function($){
-        $(document).ready(function(){
-        $("#cssmenu").menumaker({
-          format: "multitoggle"
-        });
-        });
-        })(jQuery);
+            cssmenu.find('li ul').parent().addClass('has-sub');
+          multiTg = function() {
+              cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
+              cssmenu.find('.submenu-button').on('click', function() {
+                $(this).toggleClass('submenu-opened');
+              
+              if($(this).parent('li').siblings('li').children('span').hasClass('submenu-opened')){
+                  $(this).parent().siblings('li').children('span').removeClass('submenu-opened');
+  
+              }
+              console.log($(this).siblings());
+              $(this).siblings('ul').slideToggle();
+              $(this).parent('li').siblings().children('ul').slideUp();
+              });
+            };
+            if (settings.format === 'multitoggle') multiTg();
+            else cssmenu.addClass('dropdown');
+            if (settings.sticky === true) cssmenu.css('position', 'fixed');
+          resizeFix = function() {
+            var mediasize = 1000;
+              if ($( window ).width() > mediasize) {
+                cssmenu.find('ul').show();
+              }
+              if ($(window).width() <= mediasize) {
+                cssmenu.find('ul').hide().removeClass('open');
+              }
+            };
+            resizeFix();
+            return $(window).on('resize');
+          });
+            };
+          })(jQuery);
+  
+          (function($){
+          $(document).ready(function(){
+          $("#cssmenu").menumaker({
+            format: "multitoggle"
+          });
+          });
+          })(jQuery);
     </script>
 
 
@@ -620,7 +625,7 @@ if($(window).width()<768){
                             <h1>CONNECT US</h1>
                             <ul>
                                 <li><a href="/contactUs/">Contact Us</a></li>
-                                <li>Careers</li>
+                                <li><a href="/job/">Careers</a></li>
                                 <li>Partners</li>
                             </ul>
                         </div>
