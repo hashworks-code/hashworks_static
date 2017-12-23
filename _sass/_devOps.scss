@@ -224,14 +224,30 @@
             margin-top: 22px;
             width: 160px;
             // height: 123px;
-            padding: 15px 10px 14px 27px;
+            padding: 5px 10px 14px 15px;
+            h2{
+                font-size: 36px;
+                padding-bottom: 12px;
+            }
+            p{
+                font-size: 18px;
+                padding-bottom: 11px;
+            }
         }
         &__div2 {
             margin-top: 22px;
             margin-left: 18px;
             width: 160px;
-            // height: 123px;
-            padding: 15px 10px 30px 27px;
+            padding: 4px 6px 0px 13px;
+            h2{
+                font-size: 36px;
+                color: #000000;
+               width: 119px;
+            }
+            p{
+                font-size: 18px;
+                padding-top: 16px;
+            }
         }
         &__mobility {
             margin: 33px 0 49px;
@@ -244,11 +260,18 @@
             }
         }
         &__div11 {
-            padding: 25px 20px 17px 7px;
-            margin: 55px 10px 0 0
+            padding: 23px 0px 18px 6px;
+            margin: 55px 10px 0 0;
+            p{
+                font-size: 13px ;
+            }
         }
         &__div12 {
             margin-top: 55px;
+            padding: 25px 35px 18px 6px;
+            p{
+                font-size: 13px ;
+            }
         }
         &__productImg{
 
@@ -271,17 +294,32 @@
              margin-left: 0; 
             margin-right: 10px;
             margin-top: 10px;
-            padding: 25px 20px 0 7px;
+            padding: 18px 7px 18px 5px;
+            p{
+                font-size: 13px;
+                margin: 0px;
+            }
         }  
         &__div112 {
             margin-top: 10px;
+            padding: 16px 0px 20px 6px;
+            p{
+                font-size: 13px;
+                margin: 0px;
+            }
         }
         &__div113 {
             margin-right: 10px;
+            padding: 20px 30px 18px 10px;
             margin-left: 0; 
+            p{
+                font-size: 13px;
+                margin: 0px;
+            }
         }
     }
 }
+
 
 @media only screen and (min-width: 1025px){
     .devOps{
@@ -307,25 +345,27 @@
         &__div1 {
             margin-top: 40px;
             width: 220px;
-            padding: 22px 10px 21px 24px;
+            padding: 22px 25px 21px 24px;
             h2 {
                 font-size: 48px;
                 padding-bottom: 26px;
             }
             p{
                 font-size: 24px !important;
+                padding: 1px 0px;
             }
         }
         &__div2 {
             margin-top: 40px;
             width: 220px;
-            padding: 22px 10px 21px 24px;
+            padding: 22px 25px 21px 24px;
             h2 {
                 font-size: 48px;
-                padding-bottom: 24px;
+                padding-bottom: 28px;
             }
             p{
                 font-size: 24px !important;
+                padding: 0px;
             }
         }
         &__mobility {
@@ -342,18 +382,23 @@
         }
         &__div11 {
             width: 140px;
-            padding: 38px 0px 38px 10px;
-            margin: 55px 15px 0 0;
+            margin: 55px 15px 0px 0;
+            padding: 0px;
             p{
                 font-size: 18px !important;
+                padding: 40px 9px 39px 8px;
+                width: 130px;
+                line-height: 1.33;
+                margin: 0px;
             }
         }
         &__div12 {
             // margin-top: 55px;
             width: 140px;
-            padding: 38px 25px 38px 10px;
+            padding:0px;
             p{
                 font-size: 18px !important;
+                padding: 32px 35px 32px 6px;
             }
         }
         &__productImg {
@@ -374,31 +419,43 @@
                 font-size: 16px;
             }
         }
-       &__div111 {
+        &__div111 {
+            margin-left: 0;
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 32px 9px 32px 8px;
             width: 140px;
-            margin: 55px 15px 0 0;
-            padding-bottom: 2px;
-            p{
-                font-size: 18px !important;
-            }
-        }  
-        &__div112 {
-            width: 140px;
-            margin: 55px 0 0 0;
-            p{
-                font-size: 18px !important;
-            };
-        }
-        &__div113 {
-            width: 140px;
-            p{
-                font-size: 18px !important;
-            }
-        }
+           p{
+               font-size: 18px;
+               margin: 0px;
+           }
+       }  
+       &__div112 {
+        margin-left: 0;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 32px 9px 32px 8px;
+        width: 140px;
+           p{
+               font-size: 18px;
+               margin: 0px;
+           }
+       }
+       &__div113 {
+        margin-left: 0;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 32px 30px 32px 8px;
+        width: 140px;
+           p{
+               font-size: 18px;
+               margin: 0px;
+           }
+       }
+       
+      
     }
 }
-
-
 @media only screen and (min-width: 1367px){
     .devOps{
         &__container{
@@ -420,30 +477,34 @@
                 font-size: 18px;
             }
         }
+    
         &__div1 {
             margin-top: 40px;
             width: 260px;
-            padding: 22px 10px 21px 24px;
+            padding: 18px 40px 33px 32px;
             h2 {
                 font-size: 48px;
-                padding-bottom: 26px;
+                padding-bottom: 32px;
             }
             p{
                 font-size: 32px !important;
+                padding: 1px 0px;
             }
         }
         &__div2 {
             margin-top: 40px;
             width: 260px;
-            padding: 22px 10px 21px 24px;
+            padding: 18px 20px 33px 32px;
             h2 {
                 font-size: 48px;
-                padding-bottom: 24px;
+                padding-bottom: 32px;
             }
             p{
                 font-size: 32px !important;
+                padding: 0px;
             }
         }
+
         &__mobility {
             margin: 32px 0 82px;
             h1 {
@@ -461,20 +522,24 @@
         }
         &__div11 {
             width: 170px;
-            padding: 38px 0px 38px 10px;
-            margin: 55px 15px 0 0;
+            margin: 135px 30px 0px 0px;
+            padding: 0px;
             p{
                 font-size: 24px !important;
-                margin-left: 0 !important;
+                padding: 46px 9px 40px 9px;
+                width: 100%;
+                line-height: 1.33;
+                margin: 0px;
             }
         }
         &__div12 {
-            // margin-top: 55px;
             width: 170px;
-            padding: 38px 25px 38px 10px;
+            margin: 135px 15px 0px 0px;
+            padding: 0px;
             p{
                 font-size: 24px !important;
-                margin-left: 0 !important;
+                padding: 46px 35px 40px 6px;
+                line-height: 1.33;
             }
         }
         &__productImg {
@@ -497,30 +562,43 @@
                 margin-left: 10px;
             }
         }
-       &__div111 {
+     
+        &__div111 {
+            margin-left: 0;
+            margin-right: 30px;
+            margin-top: 78px;
+            padding: 46px 9px 40px 8px;
+            width: 170px;
+           p{
+               font-size: 24px;
+               margin: 0px;
+               line-height: 1.33;
+           }
+       }  
+       &__div112 {
+        margin-left: 0;
+        margin-right: 30px;
+        margin-top: 78px;
+        padding: 46px 9px 40px 8px;
         width: 170px;
-        padding-right: 0;
-        margin: 55px 15px 0 0;
-        p{
-            font-size: 24px !important;
-            margin-left: 0 !important;
-        }
-        }  
-        &__div112 {
-            width: 170px;
-            // padding: 38px 25px 38px 10px;
-            p{
-                font-size: 24px !important;
-                margin-left: 0 !important;
-            }
-        }
-        &__div113 {
-            width: 170px;
-            // padding: 38px 25px 38px 10px;
-            p{
-                font-size: 24px !important;
-                margin-left: 0 !important;
-            }
-        }
+           p{
+               font-size: 24px;
+               margin: 0px;
+               line-height: 1.33;
+           }
+       }
+       &__div113 {
+        margin-left: 0;
+        margin-right: 10px;
+        margin-top: 16px;
+        padding: 46px 9px 40px 8px;
+        width: 170px;
+           p{
+            font-size: 24px;
+            margin: 0px;
+            line-height: 1.33;
+            padding-left: 15px;
+           }
+       }
     }
 }
