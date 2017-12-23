@@ -377,10 +377,10 @@ margin: 0 auto;
           display: none;
       }
     }
-    // product and service
-    // .popover{
-    //      display: none;
-    // }
+   // product and service
+    .popover{
+         display: none;
+    }
     .popover {
       display: block;
       position: absolute;
@@ -396,6 +396,7 @@ margin: 0 auto;
            position: absolute;
            width: 100%;
            z-index: 1;
+           box-shadow: 5px 2px 4px 9px rgba(6, 6, 6, 0.05);
      .row{
           width: 700px;
           margin: 0 auto;
@@ -473,7 +474,13 @@ margin: 0 auto;
    }
   // about 
   .about{
-        margin: 25px 0px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 0px;
+    box-shadow: 5px 2px 4px 9px rgba(6, 6, 6, 0.05);
     .row{
         width: 700px;
         margin: 0 auto;
@@ -516,6 +523,9 @@ margin: 0 auto;
         border-right: solid 1px #dadada;
         height: 141px;
         padding-right: 40px;
+        a{
+          color: #603c96;
+        }
      
      }
    &__thinking{
@@ -555,7 +565,7 @@ margin: 0 auto;
   }
   
   }
-  @media screen and (min-width:1025px){ 
+  @media screen and (min-width:1024px){ 
     #cssmenu{
         display: none;
     }
@@ -659,15 +669,16 @@ margin: 0 auto;
    }
     // about 
   .about{
-       margin: 25px 0px;
+      //  margin: 25px 0px;
     .row{
         width: 940px;
         margin: 0 auto;
         padding: 0px;
    }
     p{
-        padding-left: 9px;
+        padding:4px 0px 0px 9px;
         font-size: 14px;
+        
      }
      h3{
         font-size: 14px;
@@ -680,6 +691,9 @@ margin: 0 auto;
      &__Content{
         height: 141px;
         padding-right: 40px;
+        a{
+          color: #603c96;
+        }
      
      }
    &__thinking{
@@ -820,7 +834,7 @@ margin: 0 auto;
     }
   }
   .about{
-        margin: 25px 0px;
+        // margin: 25px 0px;
     .row{
         width: 1170px;
         margin: 0 auto;
@@ -836,6 +850,7 @@ margin: 0 auto;
      }
      h2{
        font-size: 16px;
+       margin-top: 25px;
      }
      &--algin{
       width: 773px;
@@ -844,6 +859,9 @@ margin: 0 auto;
      &__Content{
       height: 141px;
       padding-right: 27px;
+      a{
+        color: #603c96;
+      }
      
      }
    &__thinking{

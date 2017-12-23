@@ -299,6 +299,8 @@ body {
       body .hashworks__head--toggle {
         display: none; }
     body .popover {
+      display: none; }
+    body .popover {
       display: block;
       position: absolute;
       top: 27px;
@@ -311,7 +313,8 @@ body {
       padding: 22px 0px 20px 0px;
       position: absolute;
       width: 100%;
-      z-index: 1; }
+      z-index: 1;
+      box-shadow: 5px 2px 4px 9px rgba(6, 6, 6, 0.05); }
       body .productService .row {
         width: 700px;
         margin: 0 auto;
@@ -370,7 +373,13 @@ body {
         body .productService__service--mobile {
           padding-left: 80px; }
     body .about {
-      margin: 25px 0px; }
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+      background-color: #ffffff;
+      padding: 25px;
+      margin: 0px;
+      box-shadow: 5px 2px 4px 9px rgba(6, 6, 6, 0.05); }
       body .about .row {
         width: 700px;
         margin: 0 auto;
@@ -408,6 +417,8 @@ body {
         border-right: solid 1px #dadada;
         height: 141px;
         padding-right: 40px; }
+        body .about__Content a {
+          color: #603c96; }
       body .about__thinking {
         padding: 7px 9px 8px 8px;
         width: 121px;
@@ -435,7 +446,7 @@ body {
           width: 17px;
           height: 20px;
           display: inline-block; } }
-  @media screen and (min-width: 1025px) {
+  @media screen and (min-width: 1024px) {
     body #cssmenu {
       display: none; }
     body .hashworks__head {
@@ -505,51 +516,51 @@ body {
         padding-top: 36px; }
         body .productService__service--content {
           width: 241px; }
-    body .about {
-      margin: 25px 0px; }
-      body .about .row {
-        width: 940px;
-        margin: 0 auto;
-        padding: 0px; }
-      body .about p {
-        padding-left: 9px;
-        font-size: 14px; }
-      body .about h3 {
-        font-size: 14px;
-        width: 220px; }
-      body .about--algin {
-        width: 630px;
-        margin-left: 48px; }
-      body .about__Content {
-        height: 141px;
-        padding-right: 40px; }
-      body .about__thinking {
-        padding: 7px 9px 8px 8px;
-        width: 140px;
-        height: 47px;
-        background-color: #f7f7f7; }
-        body .about__thinking--img {
-          width: 22px;
-          height: 22px;
-          display: inline-block; }
-      body .about__culture {
-        width: 145px;
-        height: 47px;
-        background-color: #f7f7f7;
-        padding: 9px; }
-        body .about__culture--img {
-          width: 28px;
-          height: 19px;
-          display: inline-block; }
-      body .about__job {
-        padding: 9px;
-        width: 140px;
-        height: 47px;
-        background-color: #f7f7f7; }
-        body .about__job--img {
-          width: 22px;
-          height: 26px;
-          display: inline-block; } }
+    body .about .row {
+      width: 940px;
+      margin: 0 auto;
+      padding: 0px; }
+    body .about p {
+      padding: 4px 0px 0px 9px;
+      font-size: 14px; }
+    body .about h3 {
+      font-size: 14px;
+      width: 220px; }
+    body .about--algin {
+      width: 630px;
+      margin-left: 48px; }
+    body .about__Content {
+      height: 141px;
+      padding-right: 40px; }
+      body .about__Content a {
+        color: #603c96; }
+    body .about__thinking {
+      padding: 7px 9px 8px 8px;
+      width: 140px;
+      height: 47px;
+      background-color: #f7f7f7; }
+      body .about__thinking--img {
+        width: 22px;
+        height: 22px;
+        display: inline-block; }
+    body .about__culture {
+      width: 145px;
+      height: 47px;
+      background-color: #f7f7f7;
+      padding: 9px; }
+      body .about__culture--img {
+        width: 28px;
+        height: 19px;
+        display: inline-block; }
+    body .about__job {
+      padding: 9px;
+      width: 140px;
+      height: 47px;
+      background-color: #f7f7f7; }
+      body .about__job--img {
+        width: 22px;
+        height: 26px;
+        display: inline-block; } }
   @media screen and (min-width: 1367px) {
     body .paketo {
       margin-left: 65px; }
@@ -618,54 +629,55 @@ body {
           width: 305px; }
         body .productService__service--mobile {
           padding-left: 95px; }
-    body .about {
-      margin: 25px 0px; }
-      body .about .row {
-        width: 1170px;
-        margin: 0 auto;
-        padding: 0px; }
-      body .about p {
-        padding-left: 22px;
-        font-size: 16px; }
-      body .about h3 {
-        font-size: 16px;
-        width: 305px; }
-      body .about h2 {
-        font-size: 16px; }
-      body .about--algin {
-        width: 773px;
-        margin-left: 64px; }
-      body .about__Content {
-        height: 141px;
-        padding-right: 27px; }
-      body .about__thinking {
-        padding: 18px 20px 20px 27px;
-        width: 200px;
-        height: 68px;
-        background-color: #f7f7f7; }
-        body .about__thinking--img {
-          width: 27px;
-          height: 30px;
-          display: inline-block; }
-      body .about__culture {
-        width: 200px;
-        height: 68px;
-        padding: 18px 15px 20px 24px;
-        background-color: #f7f7f7; }
-        body .about__culture--img {
-          width: 36px;
-          height: 24px;
-          display: inline-block; }
-      body .about__job {
-        padding: 9px;
-        width: 200px;
-        height: 68px;
-        padding: 18px 15px 20px 24px;
-        background-color: #f7f7f7; }
-        body .about__job--img {
-          width: 29px;
-          height: 36px;
-          display: inline-block; } }
+    body .about .row {
+      width: 1170px;
+      margin: 0 auto;
+      padding: 0px; }
+    body .about p {
+      padding-left: 22px;
+      font-size: 16px; }
+    body .about h3 {
+      font-size: 16px;
+      width: 305px; }
+    body .about h2 {
+      font-size: 16px;
+      margin-top: 25px; }
+    body .about--algin {
+      width: 773px;
+      margin-left: 64px; }
+    body .about__Content {
+      height: 141px;
+      padding-right: 27px; }
+      body .about__Content a {
+        color: #603c96; }
+    body .about__thinking {
+      padding: 18px 20px 20px 27px;
+      width: 200px;
+      height: 68px;
+      background-color: #f7f7f7; }
+      body .about__thinking--img {
+        width: 27px;
+        height: 30px;
+        display: inline-block; }
+    body .about__culture {
+      width: 200px;
+      height: 68px;
+      padding: 18px 15px 20px 24px;
+      background-color: #f7f7f7; }
+      body .about__culture--img {
+        width: 36px;
+        height: 24px;
+        display: inline-block; }
+    body .about__job {
+      padding: 9px;
+      width: 200px;
+      height: 68px;
+      padding: 18px 15px 20px 24px;
+      background-color: #f7f7f7; }
+      body .about__job--img {
+        width: 29px;
+        height: 36px;
+        display: inline-block; } }
 
 .navbar-component .area {
   display: flex;
@@ -732,7 +744,6 @@ body {
   width: 100%;
   height: 100%;
   z-index: 999;
-  background-image: url("../assets/image/job/BG.png");
   justify-content: center;
   display: none; }
   .loader img {
@@ -2153,14 +2164,14 @@ body {
     font-family: 'muliRegular';
     color: #4a4a4a; }
     .service__container {
-      width: 295px;
+      width: 307px;
       margin: 0 auto; }
     .service__headImg {
       background-image: url(../assets/image/mobile-and-development.png);
       background-repeat: no-repeat;
       height: 145px;
       width: 100%;
-      background-size: 100% 100%;
+      background-size: cover;
       object-fit: contain; }
     .service__head {
       font-size: 24px;
@@ -2196,7 +2207,7 @@ body {
       object-fit: contain;
       margin-bottom: 10px; }
       .service__cloudImg h1 {
-        width: 140px;
+        width: 145px;
         font-size: 24px;
         color: #ffffff;
         font-weight: 100;
@@ -2238,7 +2249,7 @@ body {
       width: 100%;
       background-size: 100% 100%;
       object-fit: contain;
-      margin-bottom: 20px; }
+      margin-bottom: 16px; }
       .service__mobile h1 {
         font-size: 24px;
         color: #ffffff;
@@ -2316,7 +2327,7 @@ body {
     height: 322px;
     margin-bottom: 20px; }
     .service__cloudImg h1 {
-      width: 280px;
+      width: 300px;
       font-size: 48px;
       padding: 141px 27px 0; }
   .service__mobile {
@@ -2366,7 +2377,7 @@ body {
     height: 396px;
     margin-bottom: 20px; }
     .service__cloudImg h1 {
-      width: 310px;
+      width: 330px;
       padding: 229px 42px 0; }
   .service__mobile {
     margin: 0 0 20px 31px;
@@ -2428,7 +2439,8 @@ body {
       font-size: 24px;
       text-align: left;
       color: #ffffff;
-      margin: 38px 45px 16px 0px; }
+      padding: 38px 20px 16px 14px;
+      margin: 0px; }
   .hashworks__grewpage .grewpage__step1__image {
     background-image: url(../assets/image/wegrew/1-1.png);
     background-size: contain;
@@ -2482,16 +2494,17 @@ body {
     font-size: 18px;
     margin-bottom: 21px; }
   .hashworks__grewpage h3 {
-    font-family: 'Lato-Regular';
+    font-family: 'muliRegular';
     font-size: 14px;
     margin-bottom: 64px; }
   .hashworks__grewpage .grewpage__image {
     height: 230px; }
     .hashworks__grewpage .grewpage__image h1 {
       font-size: 36px;
-      text-align: left;
-      width: 645px;
-      margin: 153px 45px 32px 0px; }
+      display: flex;
+      align-items: flex-end;
+      height: 230px;
+      padding: 0px 0px 32px 29px; }
   .hashworks__grewpage .grewpage__step1 {
     margin: 16px 0px 0px 0px; }
     .hashworks__grewpage .grewpage__step1__image {
@@ -2532,7 +2545,8 @@ body {
       font-size: 48px;
       width: 864px;
       text-align: left;
-      margin: 189px 45px 64px 0px; }
+      height: 306px;
+      padding: 0px 0px 64px 39px; }
   .hashworks__grewpage .grewpage__step1 {
     margin: 16px 0px 0px 0px; }
     .hashworks__grewpage .grewpage__step1__image {
@@ -2578,8 +2592,9 @@ body {
     .hashworks__grewpage .grewpage__image h1 {
       font-size: 56px;
       text-align: left;
-      width: 864px;
-      margin: 271px 45px 89px 0px; }
+      width: 100%;
+      height: 430px;
+      padding: 0px 0px 89px 134px; }
   .hashworks__grewpage .grewpage__step1 {
     margin: 16px 0px 0px 34px; }
     .hashworks__grewpage .grewpage__step1__image {
