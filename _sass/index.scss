@@ -429,19 +429,15 @@
             padding: 0px 26px 0px 40px;
             &--pattern{
                 position: relative;
-                background-image:url('../assets/image/job/BG .png');
                 height:327px;
-                background-repeat:no-repeat;
-                background-size:cover;  
-                display: flex;
-                justify-content: center;
+                margin: 6px 0px;
             }
             &--logo{
-                width: 309px;
-                height:309px;
-                margin-top: 41px;
+                width: 250px;
+                height: 250px;
+                top: 22px;
                 position: absolute;
-                right: 55px;
+                right: 25px;
             }
               &--heading{
                 position: absolute;
@@ -483,7 +479,7 @@
             img{
                 width: 141px;
                 height: 29px;
-                margin:0px 0px 0px 21px;
+                margin:0px 0px 0px 34px;
             }
             h1{
                 display:-webkit-box;
@@ -555,23 +551,19 @@
         color: #f7f7f7;
         opacity: 1;
     }
-    .slick-initialized .slick-slide {
-        display: block;
-        outline: none !important;
-    }
+    
         }
         &__business{
             display: flex;
             width: 700px;
             margin: 0 auto;
             h1{
-              
                 font-size: 14px;
-                padding: 26px 0px 0px 28px;
+                padding: 26px 0px 0px 39px;
             }
             h2{
                 font-size: 32px;
-                padding: 36px 73px 29px 37px;
+                padding: 36px 73px 29px 39px;
                 width: 100%;
             }
             &--grew{
@@ -582,11 +574,7 @@
                
             }
             &--impact{
-                background-image:url(../assets/image/index/rectangle1.jpg);
                 height: 227px;
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
-               
                 width: 220px;
                 margin: 0 auto;
                 margin-top: 16px;
@@ -602,36 +590,29 @@
             h1{
               
                 font-size: 14px;
-                padding: 27px 0px 0px 35px;
+                padding: 27px 0px 0px 39px;
             }
             h2{
                 font-size: 32px;
             }
             &--thinking{
-                background-image:url(../assets/image/index/customer.jpg);
                 height: 227px;
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
                 width: 220px;
                 margin: 0 auto;
                 margin-top: 16px;
                 h2{
-                    padding: 72px 0px 25px 35px;
+                    padding: 72px 0px 25px 39px;
                     width: 100px;
                 }
             }
           
             &--culture{
                 width: 460px;
-                margin: 0 auto;
-                background-image:url(../assets/image/index/rectangle-3-copy-3.jpg);
                 height: 170px;
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
                 margin-top: 16px;
                 height: 227px;
                 h2{
-                    padding: 35px 0px 0px 35px;
+                    padding: 35px 0px 0px 39px;
                     width: 332px;
                 }
             }
@@ -646,23 +627,19 @@
                 margin: 0px auto;
             }
             &--image{
-                background-image:url(../assets/image/index/group.jpg);
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
                 margin-top: 8px; 
                 width: 283px;
-                height: 333px;
+                height: 285px;
                 margin: 34px 0px 34px 0px;
-                // position: absolute;
             }
             &--content{
-                padding: 34px 0px 31px 20px;
+                padding: 34px 0px 0px 20px;
                 .readmore{
                     display: none;
                 }
                 h1{
-                    
                     font-size: 14px;
+                    margin: 0px;
                   
                 }
                 h2{
@@ -673,6 +650,7 @@
                 p{
                     width: 344px;
                     font-size: 14px;
+                    margin: 0px;
                    
                 }
             }
@@ -689,7 +667,7 @@
             }
             p{
                 padding: 26px 0px 0px 27px;
-                width: 145px;
+                width: 111px;
             }
              &--service{
                  width: 155px;
@@ -705,6 +683,7 @@
                 }
                 p{
                     color: #4a4a4a;
+                    width: 145px;
                 }
             }
          }
@@ -729,43 +708,19 @@
              height: 211px;
              margin-bottom: 16px;
          }
-         .img1{
+         .img1,.img4,.img7{
              width: 44px;
              height: 36px;
          }
-         .img2{
+         .img2,.img5,.img8{
             width: 91px;
             height: 24px;
         }
-        .img3{
+        .img3,.img6,.img9{
             width: 91px;
             height: 41px;
         }
-        .img4{
-            width: 46px;
-            height: 52px;
-        }
       
-        .img5{
-            width: 89px;
-            height: 12px;
-        }
-        .img6{
-            width: 44px;
-            height: 36px;
-        }
-        .img7{
-            width: 44px;
-            height: 36px;
-        }
-        .img8{
-            width: 44px;
-            height: 36px;
-        }
-        .img9{
-            width: 44px;
-            height: 36px;
-        }
         }
         &__roi{
             p{
@@ -775,16 +730,9 @@
             }
             input{
                 width:233px;
-                background-color: #ffffff;
-                border: solid 1px #ebebeb;
-                display: block;
-                margin: 6px auto 0px;
-                font-family: 'muliRegular';
                 padding: 7px 0px 7px 19px;
             }
             &--image{
-                background-image:url(../assets/image/index/people.jpg);
-                background-size: 100% 100%;
                 height:357px;
             }
             .button{
@@ -813,7 +761,7 @@
       }
     .home{
         &__hashworks{
-            padding: 17px 26px 25px 40px;
+            padding: 17px 33px 25px 40px;
             &--pattern{
                 height:440px;
             }
@@ -827,7 +775,7 @@
               &--heading{
                 position: absolute;
                 top: 225px;
-                left: 50px;
+                left: 40px;
               }
             h1{
                 width: 340px;
@@ -840,7 +788,7 @@
                 font-size: 18px;
                 font-weight: 600;
                 text-align: left;
-                padding: 10px 0px 19px;
+                padding: 10px 0px 0px;
                 margin: 0px;
             }
             p{
@@ -916,10 +864,6 @@
         color: #f7f7f7;
         opacity: 1;
     }
-    .slick-initialized .slick-slide {
-        display: block;
-        outline: none !important;
-    }
         }
         &__business{
             display: flex;
@@ -933,7 +877,7 @@
             }
             h2{
                 font-size: 42px;
-                padding: 56px 101px 29px 29px;
+                padding: 56px 155px 29px 29px;
             }
             &--grew{
                 background-color: #603c96;
@@ -942,15 +886,9 @@
              
             }
             &--impact{
-                background-image:url(../assets/image/index/rectangle1.jpg);
                 height: 323px;
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
-               
                 width:300px;
                 margin: 0 auto;
-              
-              
             }
         }
         &__businessImpact{
@@ -966,31 +904,25 @@
               }
             
             &--thinking{
-                background-image:url(../assets/image/index/customer.jpg);
                 height: 323px;
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
                 width: 300px;
-                margin: 0 auto;
                 margin-top: 16px;
                 h2{
                     padding: 118px 0px 25px 26px;
                     width: 100px;
+                    font-size: 42px;
                 }
             }
           
             &--culture{
                 width:621px;
-                margin: 0 auto;
-                background-image:url(../assets/image/index/rectangle-3-copy-3.jpg);
                 height: 170px;
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
                 margin-top: 16px;
                 height:323px;
                 h2{
                     padding: 117px 38px 0px 26px;
                     width: 600px;
+                    font-size: 42px;
                   }
             }
           
@@ -1004,9 +936,6 @@
                 margin: 0px auto;
             }
             &--image{
-                background-image:url(../assets/image/index/group.jpg);
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
                 margin-top: 8px; 
                 width:381px;
                 height: 400px;
@@ -1069,17 +998,9 @@
          }
         }
         &__acclerated{
-            .hide-mobile
-            {
-              display:-webkit-box;
-              display: flex;
-            }
-            .no-border {
-                border-bottom: solid 1px #e0e0e0 !important
-            }
+           
          h1{
             font-size: 32px;
-         
             padding:92px 0px 57px 0px;
          }
          .row{
@@ -1088,43 +1009,19 @@
             height: 275px;
             margin-bottom: 67px;
          }
-         .img1{
-             width: 44px;
-             height: 36px;
-         }
-         .img2{
-            width: 91px;
-            height: 24px;
+       
+         .img1,.img4,.img7{
+            width: 55px;
+            height: 47px;
         }
-        .img3{
-            width: 91px;
-            height: 41px;
-        }
-        .img4{
-            width: 46px;
-            height: 52px;
-        }
-      
-        .img5{
-            width: 89px;
-            height: 12px;
-        }
-        .img6{
-            width: 44px;
-            height: 36px;
-        }
-        .img7{
-            width: 44px;
-            height: 36px;
-        }
-        .img8{
-            width: 44px;
-            height: 36px;
-        }
-        .img9{
-            width: 44px;
-            height: 36px;
-        }
+        .img2,.img5,.img8{
+           width: 180px;
+           height: 27px;
+       }
+       .img3,.img6,.img9{
+           width: 99px;
+           height: 35px;
+       }
         }
         &__roi{
             p{
@@ -1134,18 +1031,12 @@
             }
             input{
                 width:312px;
-                background-color: #ffffff;
-                border: solid 1px #ebebeb;
-                display: block;
                 margin: 6px auto 0px;
-                font-family: 'muliRegular';
                 padding: 6px 0px 8px 25px;
                 font-size: 18px;
                 
             }
             &--image{
-                background-image:url(../assets/image/index/people.jpg);
-                background-size: 100% 100%;
                 height:477px;
             }
             .button{
@@ -1216,8 +1107,8 @@
             margin-bottom: 8px;
             img{
                 width: 278px;
-                height: 33px;
-                margin: 0px 0px 0px 38px;
+                height: 73px;
+                margin: 0px 0px 0px 75px;
             }
             &__product{
                 .groomepng{
@@ -1276,10 +1167,7 @@
         color: #f7f7f7;
         opacity: 1;
     }
-    .slick-initialized .slick-slide {
-        display: block;
-        outline: none !important;
-    }
+
         }
         &__business{
             display: flex;
@@ -1302,15 +1190,9 @@
              
             }
             &--impact{
-                background-image:url(../assets/image/index/rectangle1.jpg);
                 height: 396px;
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
-               
                 width:370px;
                 margin: 0 auto;
-              
-              
             }
         }
         &__businessImpact{
@@ -1328,10 +1210,7 @@
               }
             
             &--thinking{
-                background-image:url(../assets/image/index/customer.jpg);
                 height: 396px;
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
                 width: 337px;
                 margin: 0 auto;
               
@@ -1343,12 +1222,7 @@
           
             &--culture{
                 width:770px;
-                margin: 0 auto;
-                background-image:url(../assets/image/index/rectangle-3-copy-3.jpg);
-                height: 170px;
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
-              
+                margin: 0 auto;      
                 height:396px;
                 h2{
                     padding: 177px 38px 0px 42px;
@@ -1366,9 +1240,6 @@
                 margin: 0px auto;
             }
             &--image{
-                background-image:url(../assets/image/index/group.jpg);
-                background-size:100% 100%;
-                background-repeat: no-repeat; 
                 margin-top: 0px; 
                 width: 471px;
                 height: 500px;
@@ -1430,14 +1301,7 @@
          }
         }
         &__acclerated{
-            .hide-mobile
-            {
-              display:-webkit-box;
-              display: flex;
-            }
-            .no-border {
-                border-bottom: solid 1px #e0e0e0 !important
-            }
+          
          h1{
             font-size: 24px;
             padding: 135px 0px 84px 0px;
@@ -1448,43 +1312,20 @@
             height: 340px;
             margin-bottom:79px;
          }
-         .img1{
-             width: 44px;
-             height: 36px;
-         }
-         .img2{
-            width: 91px;
-            height: 24px;
+         .img1,.img4,.img7{
+            width: 72px;
+            height: 58px;
         }
-        .img3{
-            width: 91px;
-            height: 41px;
-        }
-        .img4{
-            width: 46px;
-            height: 52px;
-        }
-      
-        .img5{
-            width: 89px;
-            height: 12px;
-        }
-        .img6{
-            width: 44px;
-            height: 36px;
-        }
-        .img7{
-            width: 44px;
-            height: 36px;
-        }
-        .img8{
-            width: 44px;
-            height: 36px;
-        }
-        .img9{
-            width: 44px;
-            height: 36px;
-        }
+        .img2,.img5,.img8{
+           width: 190px;
+           height: 50px;
+       }
+       .img3,.img6,.img9{
+           width: 125px;
+           height: 44px;
+       } 
+        
+    
         }
         &__roi{
             p{

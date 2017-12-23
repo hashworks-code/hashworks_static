@@ -80,13 +80,18 @@ body{
   
   .product_view{
       background-color: none;
+      .row{
+width: 261px;
+margin: 0 auto;
+      }
     h2 {
         font-family: 'muliBold';
         font-size: 12px;
         font-weight: bold;
         padding-bottom: 8px;
         color: #603c96;
-        margin-top: 25px;
+        padding-top: 25px;
+  
     }
     h3{
         font-family: 'muliRegular';
@@ -147,9 +152,15 @@ body{
     }
     .service__view{
         border-top: solid 1px #dadada; 
+        margin-bottom: 24px;
+        a{
+          padding:0px 30px 6px 0px;
+          font-size: 12px;
+        }
       h2{
         font-size: 14px;
-        margin-top:16px;
+        margin: 16px 0px;
+        padding: 0px;
       }
       h3{
         font-size: 14px;
@@ -157,7 +168,6 @@ body{
       h4{
         font-size: 12px;
         text-align: left;
-        padding: 8px 0px;
       }
       &--content{
         width: 100%;
@@ -308,10 +318,7 @@ body{
       position:absolute;
       top:22px;
       right:19px;
-      width:8px;
-      height:2px;
       display:block;
-      background:rgb(90, 33, 33);
       content:'^';
     }
   
@@ -321,10 +328,7 @@ body{
         top:19px;
         right:22px;
         display:block;
-        width:2px;
-        height:8px;
-        background:rgb(204, 76, 76);
-        content:'';
+        content:' ';
       }
   // #cssmenu ul ul .submenu-button:before{
   //       top:12px;
@@ -336,23 +340,6 @@ body{
   
   }
   
-@media screen and (min-width:500px){
-  .product_view{
-  &--alignment{
-          display: flex;
-          align-items: center;
-          justify-content: space-around;
-          margin: 17px 0px 17px 0px;
-          width: 50%;
-  }
-  &--alignment1{
-          display: flex;
-          align-items: center;
-          justify-content: space-around;
-          margin: 16px 0px 16px 0px;
-          width: 50%;
-  }}
-}
   @media screen and (min-width:768px){ 
     #cssmenu{
           display: none;
@@ -391,17 +378,17 @@ body{
       }
     }
     // product and service
-    .popover{
-         display: none;
-    }
-    .popover.show {
-          display: block;
-          position: absolute;
-          top: 23px;
-          left: 125px;
-          border-left: 8px solid transparent;
-          border-right: 8px solid transparent;
-          border-bottom: 10px solid white;
+    // .popover{
+    //      display: none;
+    // }
+    .popover {
+      display: block;
+      position: absolute;
+      top: 27px;
+      left: 125px;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
+      border-bottom: 18px solid white;
           -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
     .productService{
@@ -596,10 +583,10 @@ body{
       &--toggle{
          display: none;
       }
+    // .popover{
+    //      display: none;
+    // }
     .popover{
-         display: none;
-    }
-    .popover.show {
         display: block;
         position: absolute;
         top: 32px;
@@ -759,10 +746,10 @@ body{
     &--toggle{
          display: none;
     }
+    // .popover{
+    //      display: none;
+    // }
     .popover{
-         display: none;
-    }
-    .popover.show {
           display: block;
           position: absolute;
           top: 32px;

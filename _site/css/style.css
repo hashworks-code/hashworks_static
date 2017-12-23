@@ -71,13 +71,16 @@ body {
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05); }
     body .product_view {
       background-color: none; }
+      body .product_view .row {
+        width: 261px;
+        margin: 0 auto; }
       body .product_view h2 {
         font-family: 'muliBold';
         font-size: 12px;
         font-weight: bold;
         padding-bottom: 8px;
         color: #603c96;
-        margin-top: 25px; }
+        padding-top: 25px; }
       body .product_view h3 {
         font-family: 'muliRegular';
         font-size: 10px;
@@ -124,16 +127,20 @@ body {
         padding: 19px 6px 0px 2px;
         margin-right: 10px; }
       body .product_view .service__view {
-        border-top: solid 1px #dadada; }
+        border-top: solid 1px #dadada;
+        margin-bottom: 24px; }
+        body .product_view .service__view a {
+          padding: 0px 30px 6px 0px;
+          font-size: 12px; }
         body .product_view .service__view h2 {
           font-size: 14px;
-          margin-top: 16px; }
+          margin: 16px 0px;
+          padding: 0px; }
         body .product_view .service__view h3 {
           font-size: 14px; }
         body .product_view .service__view h4 {
           font-size: 12px;
-          text-align: left;
-          padding: 8px 0px; }
+          text-align: left; }
         body .product_view .service__view--content {
           width: 100%; }
     body .aboutDetails {
@@ -252,35 +259,16 @@ body {
       position: absolute;
       top: 22px;
       right: 19px;
-      width: 8px;
-      height: 2px;
       display: block;
-      background: #5a2121;
       content: '^'; }
     body #cssmenu .submenu-button:before {
       position: absolute;
       top: 19px;
       right: 22px;
       display: block;
-      width: 2px;
-      height: 8px;
-      background: #cc4c4c;
-      content: ''; }
+      content: ' '; }
     body #cssmenu .submenu-button.submenu-opened:before {
       display: none; } }
-  @media screen and (min-width: 500px) {
-    body .product_view--alignment {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      margin: 17px 0px 17px 0px;
-      width: 50%; }
-    body .product_view--alignment1 {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      margin: 16px 0px 16px 0px;
-      width: 50%; } }
   @media screen and (min-width: 768px) {
     body #cssmenu {
       display: none; }
@@ -311,15 +299,13 @@ body {
       body .hashworks__head--toggle {
         display: none; }
     body .popover {
-      display: none; }
-    body .popover.show {
       display: block;
       position: absolute;
-      top: 23px;
+      top: 27px;
       left: 125px;
-      border-left: 8px solid transparent;
-      border-right: 8px solid transparent;
-      border-bottom: 10px solid white;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
+      border-bottom: 18px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
     body .productService {
       padding: 22px 0px 20px 0px;
@@ -470,8 +456,6 @@ body {
     body--toggle {
       display: none; }
     body .popover {
-      display: none; }
-    body .popover.show {
       display: block;
       position: absolute;
       top: 32px;
@@ -585,8 +569,6 @@ body {
     body--toggle {
       display: none; }
     body .popover {
-      display: none; }
-    body .popover.show {
       display: block;
       position: absolute;
       top: 32px;
@@ -1081,18 +1063,14 @@ body {
     padding: 0px 26px 0px 40px; }
     .home__hashworks--pattern {
       position: relative;
-      background-image: url("../assets/image/job/BG .png");
       height: 327px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      display: flex;
-      justify-content: center; }
+      margin: 6px 0px; }
     .home__hashworks--logo {
-      width: 309px;
-      height: 309px;
-      margin-top: 41px;
+      width: 250px;
+      height: 250px;
+      top: 22px;
       position: absolute;
-      right: 55px; }
+      right: 25px; }
     .home__hashworks--heading {
       position: absolute;
       top: 158px;
@@ -1123,7 +1101,7 @@ body {
     .home__groome img {
       width: 141px;
       height: 29px;
-      margin: 0px 0px 0px 21px; }
+      margin: 0px 0px 0px 34px; }
     .home__groome h1 {
       display: -webkit-box;
       font-size: 14px;
@@ -1180,19 +1158,16 @@ body {
       height: 5.7px;
       color: #f7f7f7;
       opacity: 1; }
-    .home__groome .slick-initialized .slick-slide {
-      display: block;
-      outline: none !important; }
   .home__business {
     display: flex;
     width: 700px;
     margin: 0 auto; }
     .home__business h1 {
       font-size: 14px;
-      padding: 26px 0px 0px 28px; }
+      padding: 26px 0px 0px 39px; }
     .home__business h2 {
       font-size: 32px;
-      padding: 36px 73px 29px 37px;
+      padding: 36px 73px 29px 39px;
       width: 100%; }
     .home__business--grew {
       background-color: #603c96;
@@ -1200,10 +1175,7 @@ body {
       margin: 0 auto;
       margin-top: 16px; }
     .home__business--impact {
-      background-image: url(../assets/image/index/rectangle1.jpg);
       height: 227px;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       width: 220px;
       margin: 0 auto;
       margin-top: 16px; }
@@ -1215,31 +1187,24 @@ body {
     margin-bottom: 16px; }
     .home__businessImpact h1 {
       font-size: 14px;
-      padding: 27px 0px 0px 35px; }
+      padding: 27px 0px 0px 39px; }
     .home__businessImpact h2 {
       font-size: 32px; }
     .home__businessImpact--thinking {
-      background-image: url(../assets/image/index/customer.jpg);
       height: 227px;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       width: 220px;
       margin: 0 auto;
       margin-top: 16px; }
       .home__businessImpact--thinking h2 {
-        padding: 72px 0px 25px 35px;
+        padding: 72px 0px 25px 39px;
         width: 100px; }
     .home__businessImpact--culture {
       width: 460px;
-      margin: 0 auto;
-      background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
       height: 170px;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       margin-top: 16px;
       height: 227px; }
       .home__businessImpact--culture h2 {
-        padding: 35px 0px 0px 35px;
+        padding: 35px 0px 0px 39px;
         width: 332px; }
   .home__caseStudy {
     background-color: #000000; }
@@ -1248,26 +1213,25 @@ body {
       width: 670px;
       margin: 0px auto; }
     .home__caseStudy--image {
-      background-image: url(../assets/image/index/group.jpg);
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       margin-top: 8px;
       width: 283px;
-      height: 333px;
+      height: 285px;
       margin: 34px 0px 34px 0px; }
     .home__caseStudy--content {
-      padding: 34px 0px 31px 20px; }
+      padding: 34px 0px 0px 20px; }
       .home__caseStudy--content .readmore {
         display: none; }
       .home__caseStudy--content h1 {
-        font-size: 14px; }
+        font-size: 14px;
+        margin: 0px; }
       .home__caseStudy--content h2 {
         width: 377px;
         font-size: 18px;
         margin: 16px 0px; }
       .home__caseStudy--content p {
         width: 344px;
-        font-size: 14px; }
+        font-size: 14px;
+        margin: 0px; }
     .home__caseStudy--uptime {
       display: flex;
       justify-content: space-between;
@@ -1279,7 +1243,7 @@ body {
         width: 85px; }
       .home__caseStudy--uptime p {
         padding: 26px 0px 0px 27px;
-        width: 145px; }
+        width: 111px; }
       .home__caseStudy--uptime--service {
         width: 155px;
         height: 146px;
@@ -1291,7 +1255,8 @@ body {
         .home__caseStudy--uptime--sales h2 {
           color: #4a4a4a; }
         .home__caseStudy--uptime--sales p {
-          color: #4a4a4a; }
+          color: #4a4a4a;
+          width: 145px; }
   .home__acclerated .hide-mobile {
     display: -webkit-box;
     display: flex; }
@@ -1305,47 +1270,22 @@ body {
     margin: 0 auto;
     height: 211px;
     margin-bottom: 16px; }
-  .home__acclerated .img1 {
+  .home__acclerated .img1, .home__acclerated .img4, .home__acclerated .img7 {
     width: 44px;
     height: 36px; }
-  .home__acclerated .img2 {
+  .home__acclerated .img2, .home__acclerated .img5, .home__acclerated .img8 {
     width: 91px;
     height: 24px; }
-  .home__acclerated .img3 {
+  .home__acclerated .img3, .home__acclerated .img6, .home__acclerated .img9 {
     width: 91px;
     height: 41px; }
-  .home__acclerated .img4 {
-    width: 46px;
-    height: 52px; }
-  .home__acclerated .img5 {
-    width: 89px;
-    height: 12px; }
-  .home__acclerated .img6 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img7 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img8 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img9 {
-    width: 44px;
-    height: 36px; }
   .home__roi p {
     font-size: 18px;
     padding: 30px 0px  18px 0px; }
   .home__roi input {
     width: 233px;
-    background-color: #ffffff;
-    border: solid 1px #ebebeb;
-    display: block;
-    margin: 6px auto 0px;
-    font-family: 'muliRegular';
     padding: 7px 0px 7px 19px; }
   .home__roi--image {
-    background-image: url(../assets/image/index/people.jpg);
-    background-size: 100% 100%;
     height: 357px; }
   .home__roi .button {
     width: 135px;
@@ -1364,7 +1304,7 @@ body {
     display: none; }
 
   .home__hashworks {
-    padding: 17px 26px 25px 40px; }
+    padding: 17px 33px 25px 40px; }
     .home__hashworks--pattern {
       height: 440px; }
     .home__hashworks--logo {
@@ -1376,7 +1316,7 @@ body {
     .home__hashworks--heading {
       position: absolute;
       top: 225px;
-      left: 50px; }
+      left: 40px; }
     .home__hashworks h1 {
       width: 340px;
       font-size: 40px;
@@ -1387,7 +1327,7 @@ body {
       font-size: 18px;
       font-weight: 600;
       text-align: left;
-      padding: 10px 0px 19px;
+      padding: 10px 0px 0px;
       margin: 0px; }
     .home__hashworks p {
       width: 378px;
@@ -1444,9 +1384,6 @@ body {
       height: 5.7px;
       color: #f7f7f7;
       opacity: 1; }
-    .home__groome .slick-initialized .slick-slide {
-      display: block;
-      outline: none !important; }
   .home__business {
     display: flex;
     width: 940px;
@@ -1457,16 +1394,13 @@ body {
       padding: 30px 0px 0px 29px; }
     .home__business h2 {
       font-size: 42px;
-      padding: 56px 101px 29px 29px; }
+      padding: 56px 155px 29px 29px; }
     .home__business--grew {
       background-color: #603c96;
       width: 621px;
       margin: 0 auto; }
     .home__business--impact {
-      background-image: url(../assets/image/index/rectangle1.jpg);
       height: 323px;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       width: 300px;
       margin: 0 auto; }
   .home__businessImpact {
@@ -1480,28 +1414,22 @@ body {
       font-size: 16px;
       padding: 30px 0px 0px 26px; }
     .home__businessImpact--thinking {
-      background-image: url(../assets/image/index/customer.jpg);
       height: 323px;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       width: 300px;
-      margin: 0 auto;
       margin-top: 16px; }
       .home__businessImpact--thinking h2 {
         padding: 118px 0px 25px 26px;
-        width: 100px; }
+        width: 100px;
+        font-size: 42px; }
     .home__businessImpact--culture {
       width: 621px;
-      margin: 0 auto;
-      background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
       height: 170px;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       margin-top: 16px;
       height: 323px; }
       .home__businessImpact--culture h2 {
         padding: 117px 38px 0px 26px;
-        width: 600px; }
+        width: 600px;
+        font-size: 42px; }
   .home__caseStudy {
     background-color: #000000; }
     .home__caseStudy--block {
@@ -1509,9 +1437,6 @@ body {
       width: 927px;
       margin: 0px auto; }
     .home__caseStudy--image {
-      background-image: url(../assets/image/index/group.jpg);
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       margin-top: 8px;
       width: 381px;
       height: 400px;
@@ -1555,11 +1480,6 @@ body {
           color: #4a4a4a; }
         .home__caseStudy--uptime--sales p {
           color: #4a4a4a; }
-  .home__acclerated .hide-mobile {
-    display: -webkit-box;
-    display: flex; }
-  .home__acclerated .no-border {
-    border-bottom: solid 1px #e0e0e0 !important; }
   .home__acclerated h1 {
     font-size: 32px;
     padding: 92px 0px 57px 0px; }
@@ -1568,48 +1488,24 @@ body {
     margin: 0 auto;
     height: 275px;
     margin-bottom: 67px; }
-  .home__acclerated .img1 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img2 {
-    width: 91px;
-    height: 24px; }
-  .home__acclerated .img3 {
-    width: 91px;
-    height: 41px; }
-  .home__acclerated .img4 {
-    width: 46px;
-    height: 52px; }
-  .home__acclerated .img5 {
-    width: 89px;
-    height: 12px; }
-  .home__acclerated .img6 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img7 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img8 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img9 {
-    width: 44px;
-    height: 36px; }
+  .home__acclerated .img1, .home__acclerated .img4, .home__acclerated .img7 {
+    width: 55px;
+    height: 47px; }
+  .home__acclerated .img2, .home__acclerated .img5, .home__acclerated .img8 {
+    width: 180px;
+    height: 27px; }
+  .home__acclerated .img3, .home__acclerated .img6, .home__acclerated .img9 {
+    width: 99px;
+    height: 35px; }
   .home__roi p {
     font-size: 24px;
     padding: 32px 0px  18px 0px; }
   .home__roi input {
     width: 312px;
-    background-color: #ffffff;
-    border: solid 1px #ebebeb;
-    display: block;
     margin: 6px auto 0px;
-    font-family: 'muliRegular';
     padding: 6px 0px 8px 25px;
     font-size: 18px; }
   .home__roi--image {
-    background-image: url(../assets/image/index/people.jpg);
-    background-size: 100% 100%;
     height: 477px; }
   .home__roi .button {
     width: 180px;
@@ -1663,8 +1559,8 @@ body {
     margin-bottom: 8px; }
     .home__groome img {
       width: 278px;
-      height: 33px;
-      margin: 0px 0px 0px 38px; }
+      height: 73px;
+      margin: 0px 0px 0px 75px; }
     .home__groome__product .groomepng {
       display: flex;
       align-items: center;
@@ -1707,9 +1603,6 @@ body {
       height: 5.7px;
       color: #f7f7f7;
       opacity: 1; }
-    .home__groome .slick-initialized .slick-slide {
-      display: block;
-      outline: none !important; }
   .home__business {
     display: flex;
     width: 1170px;
@@ -1726,10 +1619,7 @@ body {
       width: 770px;
       margin: 0 auto; }
     .home__business--impact {
-      background-image: url(../assets/image/index/rectangle1.jpg);
       height: 396px;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       width: 370px;
       margin: 0 auto; }
   .home__businessImpact {
@@ -1744,10 +1634,7 @@ body {
     .home__businessImpact h2 {
       font-size: 48px; }
     .home__businessImpact--thinking {
-      background-image: url(../assets/image/index/customer.jpg);
       height: 396px;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       width: 337px;
       margin: 0 auto; }
       .home__businessImpact--thinking h2 {
@@ -1756,10 +1643,6 @@ body {
     .home__businessImpact--culture {
       width: 770px;
       margin: 0 auto;
-      background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
-      height: 170px;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       height: 396px; }
       .home__businessImpact--culture h2 {
         padding: 177px 38px 0px 42px;
@@ -1771,9 +1654,6 @@ body {
       width: 1170px;
       margin: 0px auto; }
     .home__caseStudy--image {
-      background-image: url(../assets/image/index/group.jpg);
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
       margin-top: 0px;
       width: 471px;
       height: 500px;
@@ -1817,11 +1697,6 @@ body {
           color: #4a4a4a; }
         .home__caseStudy--uptime--sales p {
           color: #4a4a4a; }
-  .home__acclerated .hide-mobile {
-    display: -webkit-box;
-    display: flex; }
-  .home__acclerated .no-border {
-    border-bottom: solid 1px #e0e0e0 !important; }
   .home__acclerated h1 {
     font-size: 24px;
     padding: 135px 0px 84px 0px; }
@@ -1830,33 +1705,15 @@ body {
     margin: 0 auto;
     height: 340px;
     margin-bottom: 79px; }
-  .home__acclerated .img1 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img2 {
-    width: 91px;
-    height: 24px; }
-  .home__acclerated .img3 {
-    width: 91px;
-    height: 41px; }
-  .home__acclerated .img4 {
-    width: 46px;
-    height: 52px; }
-  .home__acclerated .img5 {
-    width: 89px;
-    height: 12px; }
-  .home__acclerated .img6 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img7 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img8 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img9 {
-    width: 44px;
-    height: 36px; }
+  .home__acclerated .img1, .home__acclerated .img4, .home__acclerated .img7 {
+    width: 72px;
+    height: 58px; }
+  .home__acclerated .img2, .home__acclerated .img5, .home__acclerated .img8 {
+    width: 190px;
+    height: 50px; }
+  .home__acclerated .img3, .home__acclerated .img6, .home__acclerated .img9 {
+    width: 125px;
+    height: 44px; }
   .home__roi p {
     font-size: 32px;
     padding: 45px 0px 35px 0px; }
