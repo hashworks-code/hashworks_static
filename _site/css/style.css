@@ -6143,12 +6143,25 @@ ul.tabs li.current {
     margin-left: 7px;
     margin-top: 22px;
     width: 160px;
-    padding: 15px 10px 14px 27px; }
+    padding: 5px 10px 14px 15px; }
+    .mobile__div1 h2 {
+      font-size: 36px;
+      padding-bottom: 12px; }
+    .mobile__div1 p {
+      font-size: 18px;
+      padding-bottom: 11px; }
   .mobile__div2 {
     margin-top: 22px;
     margin-left: 18px;
     width: 160px;
-    padding: 15px 10px 30px 27px; }
+    padding: 4px 6px 0px 13px; }
+    .mobile__div2 h2 {
+      font-size: 36px;
+      color: #000000;
+      width: 119px; }
+    .mobile__div2 p {
+      font-size: 18px;
+      padding-top: 16px; }
   .mobile__mobility {
     margin: 33px 0 49px; }
     .mobile__mobility h1 {
@@ -6157,10 +6170,15 @@ ul.tabs li.current {
       font-size: 14px;
       padding-bottom: 0; }
   .mobile__div11 {
-    padding: 25px 20px 17px 7px;
+    padding: 23px 0px 18px 6px;
     margin: 55px 10px 0 0; }
+    .mobile__div11 p {
+      font-size: 13px; }
   .mobile__div12 {
-    margin-top: 55px; }
+    margin-top: 55px;
+    padding: 25px 35px 18px 6px; }
+    .mobile__div12 p {
+      font-size: 13px; }
   .mobile__productImg p {
     font-size: 24px;
     padding-top: 49px;
@@ -6175,12 +6193,23 @@ ul.tabs li.current {
     margin-left: 0;
     margin-right: 10px;
     margin-top: 10px;
-    padding: 25px 20px 0 7px; }
+    padding: 18px 7px 18px 5px; }
+    .mobile__div111 p {
+      font-size: 13px;
+      margin: 0px; }
   .mobile__div112 {
-    margin-top: 10px; }
+    margin-top: 10px;
+    padding: 16px 0px 20px 6px; }
+    .mobile__div112 p {
+      font-size: 13px;
+      margin: 0px; }
   .mobile__div113 {
     margin-right: 10px;
-    margin-left: 0; } }
+    padding: 20px 30px 18px 10px;
+    margin-left: 0; }
+    .mobile__div113 p {
+      font-size: 13px;
+      margin: 0px; } }
 @media only screen and (min-width: 1025px) {
   .mobile__container {
     width: 943px; }
@@ -6198,21 +6227,23 @@ ul.tabs li.current {
   .mobile__div1 {
     margin-top: 40px;
     width: 220px;
-    padding: 22px 10px 21px 24px; }
+    padding: 22px 25px 21px 24px; }
     .mobile__div1 h2 {
       font-size: 48px;
       padding-bottom: 26px; }
     .mobile__div1 p {
-      font-size: 24px !important; }
+      font-size: 24px !important;
+      padding: 1px 0px; }
   .mobile__div2 {
     margin-top: 40px;
     width: 220px;
-    padding: 22px 10px 21px 24px; }
+    padding: 22px 25px 21px 24px; }
     .mobile__div2 h2 {
       font-size: 48px;
-      padding-bottom: 24px; }
+      padding-bottom: 28px; }
     .mobile__div2 p {
-      font-size: 24px !important; }
+      font-size: 24px !important;
+      padding: 0px; }
   .mobile__mobility {
     margin: 32px 0 64px; }
     .mobile__mobility h1 {
@@ -6223,15 +6254,20 @@ ul.tabs li.current {
       font-size: 24px; }
   .mobile__div11 {
     width: 140px;
-    padding: 38px 0px 38px 10px;
-    margin: 55px 15px 0 0; }
+    margin: 55px 15px 0px 0;
+    padding: 0px; }
     .mobile__div11 p {
-      font-size: 18px !important; }
+      font-size: 18px !important;
+      padding: 40px 9px 39px 8px;
+      width: 130px;
+      line-height: 1.33;
+      margin: 0px; }
   .mobile__div12 {
     width: 140px;
-    padding: 38px 25px 38px 10px; }
+    padding: 0px; }
     .mobile__div12 p {
-      font-size: 18px !important; }
+      font-size: 18px !important;
+      padding: 32px 35px 32px 6px; }
   .mobile__productImg {
     height: 250px; }
     .mobile__productImg p {
@@ -6245,20 +6281,32 @@ ul.tabs li.current {
     .mobile__byod p {
       font-size: 16px; }
   .mobile__div111 {
-    width: 140px;
-    margin: 55px 15px 0 0;
-    padding-bottom: 2px; }
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 32px 9px 32px 8px;
+    width: 140px; }
     .mobile__div111 p {
-      font-size: 18px !important; }
+      font-size: 18px;
+      margin: 0px; }
   .mobile__div112 {
-    width: 140px;
-    margin: 55px 0 0 0; }
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 32px 9px 32px 8px;
+    width: 140px; }
     .mobile__div112 p {
-      font-size: 18px !important; }
+      font-size: 18px;
+      margin: 0px; }
   .mobile__div113 {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 32px 30px 32px 8px;
     width: 140px; }
     .mobile__div113 p {
-      font-size: 18px !important; } }
+      font-size: 18px;
+      margin: 0px; } }
 @media only screen and (min-width: 1367px) {
   .mobile__container {
     width: 1107px; }
@@ -6276,21 +6324,23 @@ ul.tabs li.current {
   .mobile__div1 {
     margin-top: 40px;
     width: 260px;
-    padding: 22px 10px 21px 24px; }
+    padding: 18px 40px 33px 32px; }
     .mobile__div1 h2 {
       font-size: 48px;
-      padding-bottom: 26px; }
+      padding-bottom: 32px; }
     .mobile__div1 p {
-      font-size: 32px !important; }
+      font-size: 32px !important;
+      padding: 1px 0px; }
   .mobile__div2 {
     margin-top: 40px;
     width: 260px;
-    padding: 22px 10px 21px 24px; }
+    padding: 18px 20px 33px 32px; }
     .mobile__div2 h2 {
       font-size: 48px;
-      padding-bottom: 24px; }
+      padding-bottom: 32px; }
     .mobile__div2 p {
-      font-size: 32px !important; }
+      font-size: 32px !important;
+      padding: 0px; }
   .mobile__mobility {
     margin: 32px 0 82px; }
     .mobile__mobility h1 {
@@ -6304,17 +6354,22 @@ ul.tabs li.current {
       margin-left: 10px; }
   .mobile__div11 {
     width: 170px;
-    padding: 38px 0px 38px 10px;
-    margin: 55px 15px 0 0; }
+    margin: 135px 30px 0px 0px;
+    padding: 0px; }
     .mobile__div11 p {
       font-size: 24px !important;
-      margin-left: 0 !important; }
+      padding: 46px 9px 40px 9px;
+      width: 100%;
+      line-height: 1.33;
+      margin: 0px; }
   .mobile__div12 {
     width: 170px;
-    padding: 38px 25px 38px 10px; }
+    margin: 135px 15px 0px 0px;
+    padding: 0px; }
     .mobile__div12 p {
       font-size: 24px !important;
-      margin-left: 0 !important; }
+      padding: 46px 35px 40px 6px;
+      line-height: 1.33; }
   .mobile__productImg {
     height: 350px; }
     .mobile__productImg p {
@@ -6330,22 +6385,36 @@ ul.tabs li.current {
       font-size: 18px;
       margin-left: 10px; }
   .mobile__div111 {
-    width: 170px;
-    padding-right: 0;
-    margin: 55px 15px 0 0; }
+    margin-left: 0;
+    margin-right: 30px;
+    margin-top: 78px;
+    padding: 46px 9px 40px 8px;
+    width: 170px; }
     .mobile__div111 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; }
+      font-size: 24px;
+      margin: 0px;
+      line-height: 1.33; }
   .mobile__div112 {
+    margin-left: 0;
+    margin-right: 30px;
+    margin-top: 78px;
+    padding: 46px 9px 40px 8px;
     width: 170px; }
     .mobile__div112 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; }
+      font-size: 24px;
+      margin: 0px;
+      line-height: 1.33; }
   .mobile__div113 {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 16px;
+    padding: 46px 9px 40px 8px;
     width: 170px; }
     .mobile__div113 p {
-      font-size: 24px !important;
-      margin-left: 0 !important; } }
+      font-size: 24px;
+      margin: 0px;
+      line-height: 1.33;
+      padding-left: 15px; } }
 @media screen and (min-width: 320px) {
   .jobslider button {
     background-color: #603c96;
