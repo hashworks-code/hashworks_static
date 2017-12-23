@@ -30,7 +30,8 @@ $('#abouttoggle').click(function () {
 });
 $(window).resize(function(){
     if($(window).width()<768){
-        $('.loader').hide()
+        $('.loader').hide();
+         $('.menulist').hide();
     }
 
 });
@@ -103,15 +104,19 @@ if($(window).width()<768){
             });
             cssmenu.find('li ul').parent().addClass('has-sub');
           multiTg = function() {
-              cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
+              cssmenu.find(".has-sub").prepend('<span class="submenu-button up-arrow"></span>');
               cssmenu.find('.submenu-button').on('click', function() {
+                $(this).toggleClass('up-arrow');
+                $(this).toggleClass('down-arrow');
                 $(this).toggleClass('submenu-opened');
-              
-              if($(this).parent('li').siblings('li').children('span').hasClass('submenu-opened')){
-                  $(this).parent().siblings('li').children('span').removeClass('submenu-opened');
-  
+
+                
+              if($(this).parent('li').siblings('li').children('span').hasClass('down-arrow')){
+                  $(this).parent().siblings('li').children('span').removeClass('down-arrow');
+                  $(this).parent().siblings('li').children('span').addClass('up-arrow')
+
               }
-              console.log($(this).siblings());
+             
               $(this).siblings('ul').slideToggle();
               $(this).parent('li').siblings().children('ul').slideUp();
               });
