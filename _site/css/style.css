@@ -67,7 +67,8 @@ body {
         text-decoration: none; }
     body #cssmenu #head-mobile {
       display: block;
-      padding: 25px 0px 25px 0px; }
+      padding: 25px 0px 25px 0px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05); }
     body .product_view {
       background-color: none; }
       body .product_view h2 {
@@ -321,7 +322,10 @@ body {
       border-bottom: 10px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
     body .productService {
-      padding: 22px 0px 20px 0px; }
+      padding: 22px 0px 20px 0px;
+      position: absolute;
+      width: 100%;
+      z-index: 1; }
       body .productService .row {
         width: 700px;
         margin: 0 auto;
@@ -780,11 +784,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin: 15px 0px 16px; }
   .home__hashworks--logo {
     width: 220px;
     height: 220px;
-    margin-top: 40px; }
+    margin-top: 33px; }
   .home__hashworks h1 {
     margin: 0 auto;
     width: 247px;
@@ -812,8 +817,6 @@ body {
     text-align: center;
     color: #3e3e3e;
     margin-bottom: 33px; }
-  .home__hashworks--heading {
-    margin-top: 16px; }
   .home__groome {
     background-color: #000000;
     margin-bottom: 8px; }
@@ -894,9 +897,10 @@ body {
   .home__business--impact {
     background-image: url(../assets/image/index/rectangle1.jpg);
     height: 170px;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-top: 8px; }
+    margin-top: 8px;
+    background-position: 100%;
+    background-size: cover; }
   .home__businessImpact h1 {
     font-family: 'muliBold';
     font-size: 12px;
@@ -913,18 +917,20 @@ body {
   .home__businessImpact--thinking {
     background-image: url(../assets/image/index/customer.jpg);
     height: 170px;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-top: 8px; }
+    margin-top: 8px;
+    background-position: 100%;
+    background-size: cover; }
     .home__businessImpact--thinking h2 {
       padding: 60px 0px 25px 28px;
       width: 100px; }
   .home__businessImpact--culture {
     background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
     height: 170px;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-top: 8px; }
+    margin-top: 8px;
+    background-position: 100%;
+    background-size: cover; }
     .home__businessImpact--culture h2 {
       padding: 29px 0px 0px 28px;
       width: 293px; }
@@ -934,9 +940,10 @@ body {
       height: 214px;
       background-image: url(../assets/image/index/group.jpg);
       height: 170px;
-      background-size: 100% 100%;
       background-repeat: no-repeat;
-      margin-top: 8px; }
+      margin-top: 8px;
+      background-position: 100%;
+      background-size: cover; }
     .home__caseStudy--content {
       padding: 13px 0px 15px 0px; }
       .home__caseStudy--content h1 {
@@ -1050,8 +1057,9 @@ body {
     padding: 3px 0px 5px 13px; }
   .home__roi--image {
     background-image: url(../assets/image/index/people.jpg);
-    background-size: 100% 100%;
-    height: 147px; }
+    height: 147px;
+    background-position: 100%;
+    background-size: cover; }
   .home__roi .button {
     width: 82px;
     border-radius: 4px;
