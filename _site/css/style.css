@@ -246,27 +246,28 @@ body {
     body #cssmenu ul li {
       width: 100%;
       position: relative; }
-    body #cssmenu .submenu-button {
+    body .up-arrow {
       position: absolute;
-      z-index: 99;
-      right: 0;
-      top: 0;
-      display: block;
-      height: 46px;
-      width: 46px;
-      cursor: pointer; }
-    body #cssmenu .submenu-button:after {
-      position: absolute;
-      top: 22px;
       right: 19px;
       display: block;
-      content: '^'; }
-    body #cssmenu .submenu-button:before {
+      z-index: 100;
+      cursor: pointer;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid black;
+      border-top: 10px solid transparent; }
+    body .down-arrow {
       position: absolute;
-      top: 19px;
-      right: 22px;
+      right: 19px;
+      width: 0;
+      cursor: pointer;
+      z-index: 99;
+      height: 0;
       display: block;
-      content: ' '; }
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-top: 10px solid black; }
     body #cssmenu .submenu-button.submenu-opened:before {
       display: none; } }
   @media screen and (min-width: 768px) {
@@ -744,6 +745,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 999;
+  background-image: url("../assets/image/job/BG .png");
   justify-content: center;
   display: none; }
   .loader img {
