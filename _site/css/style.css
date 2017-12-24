@@ -1223,7 +1223,20 @@ body {
         padding: 35px 0px 0px 39px;
         width: 332px; }
   .home__caseStudy {
-    background-color: #000000; }
+    background-color: #000000;
+    position: relative; }
+    .home__caseStudy--arrow {
+      width: 42px;
+      height: 42px;
+      background-color: #603c96;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      position: absolute;
+      color: white;
+      font-size: 28px;
+      border-radius: 50%;
+      padding-top: 4px;
+      right: 38px;
+      bottom: -27px; }
     .home__caseStudy--block {
       display: flex;
       width: 670px;
@@ -1447,7 +1460,20 @@ body {
         width: 600px;
         font-size: 42px; }
   .home__caseStudy {
-    background-color: #000000; }
+    background-color: #000000;
+    position: relative; }
+    .home__caseStudy--arrow {
+      width: 56px;
+      height: 56px;
+      background-color: #603c96;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      position: absolute;
+      color: white;
+      font-size: 39px;
+      border-radius: 50%;
+      padding-top: 4px;
+      right: 38px;
+      bottom: -27px; }
     .home__caseStudy--block {
       display: flex;
       width: 927px;
@@ -1665,6 +1691,18 @@ body {
         width: 625px; }
   .home__caseStudy {
     background-color: #000000; }
+    .home__caseStudy--arrow {
+      width: 62px;
+      height: 62px;
+      background-color: #603c96;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      position: absolute;
+      color: white;
+      font-size: 47px;
+      border-radius: 50%;
+      padding-top: 4px;
+      right: 38px;
+      bottom: -27px; }
     .home__caseStudy--block {
       display: flex;
       width: 1170px;
