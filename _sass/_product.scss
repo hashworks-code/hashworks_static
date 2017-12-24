@@ -1,3 +1,4 @@
+
 .product{
     color: #3e3e3e;
     font-family: 'muliRegular';
@@ -102,12 +103,13 @@
     &__myButton{
       color: #fff;
       border-style: none;
-      width: 218px;
-      height: 46px;
+      width: 270px;
+      height: 57px;
       border-radius: 4px;
       background-color: #603c96;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
       font-size: 24px;
+      outline: none;
     }
     &__paketo h2{
       color: #603c96;
@@ -212,9 +214,9 @@
     }
     &__content p {
       font-size: 18px;
-      // line-height: 30px;
+      line-height:1.33;
       width: 645px;
-      // margin: 0 auto;
+     
     }
     &__GroomeImg{
       // background-image: url(../assets/image/rectangle-10.png);
@@ -246,15 +248,10 @@
     &__Groome p {
       font-size: 16px;
     }
-    // &__Groome_logo{
-    //   // font-size: 60px;
-    //   // color: #00ffff;
-    //   // text-align: center;
-    //   display: flex;
-    //   justify-content: center;
-    //   // height: inherit;
-    //   align-items: center;
-    // }
+    &__Groome span {
+      font-size: 16px;
+    }
+
     &__paketo{
       margin: 32px 0;
     }
@@ -279,14 +276,10 @@
       font-size: 16px;
     }
     &__myButton{
-      // color: #fff;
-      // border-style: none;
-      width: 270px;
-      height: 57px;
-      // border-radius: 4px;
-      // background-color: #603c96;
-      // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+      width: 218px;
+      height: 46px;
       font-size: 16px;
+      
     }
     &__paketo h2{
       // color: #603c96;
@@ -305,14 +298,13 @@
     &__detail span{
       // font-size: 48px;
       font-weight: bold;
-      // color: #603c96;
-      // display: flex;
-      // justify-content: flex-end;
-      // font-family: Muli;
-      // text-align: center;
+    
     }
     &__detail p {
       font-size: 18px;
+    }
+    &__detail .col-sm-3,.col-md-3,.col-lg-3 {
+     padding: 0px;
     }
     &__detail h1 {
       margin-bottom: 32px;
@@ -397,6 +389,10 @@
      &__Groome p {
       font-size: 14px;
     }
+    &__Groome span {
+      font-size: 14px;
+    
+    }
     &__paketo {
       margin: 16px 0 32px;
     }
@@ -410,6 +406,7 @@
     }
     &__paketo p {
       width: 278px; 
+      font-size: 14px;
     }
     &__myButton {
       width: 160px;
@@ -434,7 +431,12 @@
     }
     &__detail p {
       font-size: 16px;
+      width: 179px;
     }
+    &__detail  .col-sm-3,.col-md-3 , .col-lg-3 {
+      padding: 0px;
+    }
+   
     &__pipeline {
       margin: 32px 0 69px;
     }
@@ -477,13 +479,14 @@
       }
       &__content {
         // padding: 23px 9px 32px;
-        margin: 9px auto;
+        margin: 23px auto 32px;
     }
     &__content h1 {
       font-size: 16px;
     }
     &__content p {
-      width: 295px;
+      width: 302px;
+      font-size: 14px;
     }
     &__GroomeImg {
       height: 156px;
@@ -492,7 +495,7 @@
       height: 156px;
       display: flex;
       align-items: center;
-      padding-left: 30px;
+      padding-left: 21px;
       justify-content: left;
     }
     &__Groome_logo {
@@ -516,6 +519,10 @@
     }
     &__Groome p {
       display: none;
+    }
+    &__Groome span {
+      font-size: 12px;
+      font-family: 'muliREgular';
     }
     &__borderRight{
       border-right: none;
@@ -542,6 +549,7 @@
       p {
         font-size: 14px;
         margin-bottom: 33px;
+        margin-left: 10px;
       }
       h1 {
         font-size: 18px;
@@ -579,6 +587,7 @@
     }
     &__detail .row div:last-child p {
       margin: 0;
+      margin-left: 10px;
     }
     &__pipeline {
       margin: 32px 0;

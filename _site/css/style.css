@@ -1829,12 +1829,13 @@ body {
   .product__myButton {
     color: #fff;
     border-style: none;
-    width: 218px;
-    height: 46px;
+    width: 270px;
+    height: 57px;
     border-radius: 4px;
     background-color: #603c96;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
-    font-size: 24px; }
+    font-size: 24px;
+    outline: none; }
   .product__paketo h2 {
     color: #603c96;
     font-size: 32px;
@@ -1899,6 +1900,7 @@ body {
     margin: 0 0 16px; }
   .product__content p {
     font-size: 18px;
+    line-height: 1.33;
     width: 645px; }
   .product__GroomeImg {
     height: 400px; }
@@ -1912,6 +1914,8 @@ body {
     width: 189px;
     height: 38px; }
   .product__Groome p {
+    font-size: 16px; }
+  .product__Groome span {
     font-size: 16px; }
   .product__paketo {
     margin: 32px 0; }
@@ -1930,8 +1934,8 @@ body {
     margin: 16px auto;
     font-size: 16px; }
   .product__myButton {
-    width: 270px;
-    height: 57px;
+    width: 218px;
+    height: 46px;
     font-size: 16px; }
   .product__paketo h2 {
     font-size: 24px;
@@ -1947,6 +1951,8 @@ body {
     font-weight: bold; }
   .product__detail p {
     font-size: 18px; }
+  .product__detail .col-sm-3, .product .col-md-3, .product .col-lg-3 {
+    padding: 0px; }
   .product__detail h1 {
     margin-bottom: 32px; }
   .product__pipeline h1 {
@@ -1996,6 +2002,8 @@ body {
     font-size: 18px; }
   .product__Groome p {
     font-size: 14px; }
+  .product__Groome span {
+    font-size: 14px; }
   .product__paketo {
     margin: 16px 0 32px; }
   .product__borderRight img {
@@ -2005,7 +2013,8 @@ body {
     font-size: 18px;
     font-weight: 100; }
   .product__paketo p {
-    width: 278px; }
+    width: 278px;
+    font-size: 14px; }
   .product__myButton {
     width: 160px;
     height: 38px; }
@@ -2022,7 +2031,10 @@ body {
   .product__detail {
     margin: 32px 0 25px; }
   .product__detail p {
-    font-size: 16px; }
+    font-size: 16px;
+    width: 179px; }
+  .product__detail .col-sm-3, .product .col-md-3, .product .col-lg-3 {
+    padding: 0px; }
   .product__pipeline {
     margin: 32px 0 69px; }
   .product__pipeline h1 {
@@ -2049,18 +2061,19 @@ body {
   .product__content1 {
     width: 300px; }
   .product__content {
-    margin: 9px auto; }
+    margin: 23px auto 32px; }
   .product__content h1 {
     font-size: 16px; }
   .product__content p {
-    width: 295px; }
+    width: 302px;
+    font-size: 14px; }
   .product__GroomeImg {
     height: 156px; }
   .product__Groome {
     height: 156px;
     display: flex;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 21px;
     justify-content: left; }
   .product__Groome_logo {
     display: block;
@@ -2079,6 +2092,9 @@ body {
     padding-bottom: 8px; }
   .product__Groome p {
     display: none; }
+  .product__Groome span {
+    font-size: 12px;
+    font-family: 'muliREgular'; }
   .product__borderRight {
     border-right: none;
     padding-bottom: 39px; }
@@ -2097,7 +2113,8 @@ body {
       font-size: 24px; }
     .product__detail p {
       font-size: 14px;
-      margin-bottom: 33px; }
+      margin-bottom: 33px;
+      margin-left: 10px; }
     .product__detail h1 {
       font-size: 18px;
       margin: 32px 0; }
@@ -2124,7 +2141,8 @@ body {
     width: 261px;
     margin: 32px auto; }
   .product__detail .row div:last-child p {
-    margin: 0; }
+    margin: 0;
+    margin-left: 10px; }
   .product__pipeline {
     margin: 32px 0;
     width: 295px; }
