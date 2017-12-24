@@ -208,7 +208,9 @@ margin: 0 auto;
          }
          &--algin{
           width: 100%;
-         
+          a{
+            padding: 0px;
+          }
          }
        
        &__thinking{
@@ -248,6 +250,9 @@ margin: 0 auto;
             display: inline-block;
         }
       
+      }
+      &__Content{
+   
       }
       }
   
@@ -873,6 +878,7 @@ margin: 0 auto;
      h2{
        font-size: 16px;
        margin-top: 25px;
+       
      }
      &--algin{
       width: 773px;

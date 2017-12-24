@@ -134,7 +134,7 @@ if($(window).width()<768){
               }
             };
             resizeFix();
-            return $(window).on('resize');
+            return $(window).on('resize', resizeFix);
           });
             };
           })(jQuery);

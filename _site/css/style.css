@@ -169,6 +169,8 @@ body {
       padding: 8px 0px 26px 0px; }
     body .about__view--algin {
       width: 100%; }
+      body .about__view--algin a {
+        padding: 0px; }
     body .about__view__thinking {
       padding: 7px 9px 8px 8px;
       width: 116px;
@@ -3655,7 +3657,7 @@ ul.tabs li.current {
       text-align: left;
       color: #ffffff; }
   .aboutus__tab {
-    border: solid 1px #d3d3d3;
+    border: solid 1px #f7f7f7;
     display: flex;
     justify-content: center; }
     .aboutus__tab--list {
@@ -3744,7 +3746,8 @@ ul.tabs li.current {
       font-size: 16px;
       font-weight: bold;
       text-align: center;
-      color: #603c96; }
+      color: #603c96;
+      padding-top: 32px; }
     .aboutus__company p {
       font-family: 'muliRegular';
       font-size: 12px;
