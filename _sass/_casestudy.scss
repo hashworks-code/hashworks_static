@@ -46,7 +46,7 @@
                  margin-bottom: 8px;
             }
                 &__text {
-                    margin: 36px 0px 16px 0px;
+                    margin: 36px 0px 8px 0px;
                     padding: 0;
                 }
                 &__department {
@@ -244,19 +244,18 @@
         }
         .casestudy__overview{
             height: 227px;
-           
-
             h1 {
                 font-size: 14px;
-                margin-bottom: 14px;
+                margin-bottom: 16px;
             }
             p {
                  font-size: 14px;
                  line-height: 1.5;
                  padding-right:29px; 
+                 margin-bottom: 16px;
             }
                 &__text {
-                    margin: 46px 0px 45px 0px;
+                    margin: 46px 0px 0px 0px;
                     padding: 0;
                 }
                  &__department {
@@ -266,7 +265,7 @@
             &__boxes {
                 h1 {
                     font-size: 24px;
-                    padding: 12px 0px 24px 26px;
+                    padding: 12px 0px 23px 26px;
                      margin: 0;
                 }
                 p {
@@ -307,7 +306,7 @@
             h1 {
                font-family: 'muliBold';
                 font-size: 18px;
-                margin: 77px 124px 14px 125px;
+                margin: 83px 124px 14px 125px;
             }
             p {
              
@@ -317,7 +316,8 @@
             }
         }
         .casestudy__image2 {
-            width: 100%;
+            width: 699px;
+            margin: 0 auto;
             height: 374px;
         }
         .casestudy__agile {
@@ -415,16 +415,11 @@
             &__boxes {
                 h1 {
                     font-size: 32px;
-                    // text-align: left;
-                    // color: #ffffff;
                     padding: 14px 0px 30px 24px;
                     margin: 0;
                 }
                 p {
-                    // font-family: 'muliRegular';
                     font-size: 24px;
-                    // text-align: left;
-                    // color: #ffffff; 
                     padding: 0px 17px 20px 24px;
                     margin: 0;
                 }
@@ -458,17 +453,16 @@
             h1 {
                font-family: 'muliSemiBold';
                 font-size: 24px;
-                margin: 147px 124px 14px 125px;
+                margin: 155px 124px 14px 125px;
             }
             p {
              
               font-size: 18px;
-            //    line-height: 1.64;
-            //   margin:0px 32px 34px 64px;
+           width: 818px;
             }
         }
         .casestudy__image2 {
-            width: 100%;
+            width: 940px;
             height: 489px;
         }
         .casestudy__agile {
@@ -527,10 +521,7 @@
                 }
             }
         }
-
-
     }
-     
 }
 
 @media screen and (min-width:1367px){ 
@@ -550,15 +541,13 @@
         }
         .casestudy__overview{
             height: 415px;
-           
-
             h1 {
                 font-size: 16px;
                 margin-bottom: 16px;
             }
             p {
                  font-size: 18px;
-                 padding-right: 13px;
+                 padding-right: 55px;
             }
                 &__text {
                     margin: 134px 0px 137px 0px;
@@ -602,16 +591,16 @@
           
             h1 {
                font-family: 'muliSemiBold';
-                font-size: 24px;
+                font-size: 32px;
                 margin: 120px 124px 14px 125px;
             }
             p {
-             
-              font-size: 18px;
+                margin: 0px auto 34px;
+              font-size: 24px;
             }
         }
         .casestudy__image2 {
-            width: 100%;
+            width: 1170px;
             height: 609px;
         }
         .casestudy__agile {
@@ -661,7 +650,7 @@
             &__mobile {
                  padding: 0;
                 &__image4 {
-            width: 570px;
+            width: 550px;
             height: 323px;
                 }
         &__image5 {
