@@ -2680,14 +2680,14 @@ body {
     line-height: 1.5;
     text-align: center;
     color: #3e3e3e;
-    margin: 0px 27px 32px 16px; }
+    margin: 0px 27px 0px 16px; }
   .hashworks__workculture .workculture__facility h1 {
     font-family: 'muliBold';
     font-size: 16px;
     font-weight: bold;
     text-align: center;
     color: #603c96;
-    margin-top: 60px;
+    margin-top: 20px;
     width: 100%; }
   .hashworks__workculture .workculture__facility h2 {
     font-family: 'muliRegular';
@@ -2742,11 +2742,10 @@ body {
   .hashworks__workculture .workculture__workfun p {
     font-size: 14px;
     line-height: 1.64;
-    margin: 0px 98px 60px 100px; }
+    margin: 0px 98px 0px 100px; }
   .hashworks__workculture .workculture__facility h1 {
     font-size: 18px;
-    width: 605px;
-    margin-top: 60px; }
+    margin-top: 40px; }
   .hashworks__workculture .workculture__facility h2 {
     font-size: 14px;
     margin: 36px 0px 16px 0px; }
@@ -2783,10 +2782,10 @@ body {
   .hashworks__workculture .workculture__workfun p {
     font-size: 16px;
     line-height: 1.63;
-    margin: 0px 136px 71px 143px; }
+    margin: 0px 136px 0px 143px; }
   .hashworks__workculture .workculture__facility h1 {
     font-size: 24px;
-    margin-top: 60px;
+    margin-top: 40px;
     width: 100%; }
   .hashworks__workculture .workculture__facility h2 {
     font-size: 18px;
@@ -2829,7 +2828,7 @@ body {
     font-size: 24px;
     width: 100%;
     line-height: 1.46;
-    margin: 0px 172px 71px 173px; }
+    margin: 0px 172px 0px 173px; }
   .hashworks__workculture .workculture__facility h1 {
     font-size: 32px;
     margin-top: 60px; }
@@ -6785,13 +6784,16 @@ ul.tabs li.current {
     font-family: 'muliRegular';
     font-size: 12px;
     text-align: left;
-    color: #a1a1a1; }
+    color: #a1a1a1;
+    padding: 10px 0px 6px 7px; }
   .hashworks__contactUs__form button {
     width: 155px;
     height: 35px;
     border-radius: 4px;
     background-color: #603c96;
-    margin: 16px 72px 37px 63px; }
+    margin: 16px 72px 37px 63px;
+    border: none;
+    outline: none; }
     .hashworks__contactUs__form button p {
       font-family: 'muliBold';
       font-size: 12px;
@@ -6808,7 +6810,8 @@ ul.tabs li.current {
     width: 100%;
     height: 238px; }
   .hashworks__contactUs__address {
-    margin: 45px 37px; }
+    width: 231px;
+    margin: 37px auto; }
     .hashworks__contactUs__address h1 {
       font-family: 'muliBold';
       font-size: 12px;
@@ -6822,8 +6825,7 @@ ul.tabs li.current {
       font-size: 12px;
       line-height: 1.5;
       text-align: center;
-      color: #3e3e3e;
-      width: 210px; }
+      color: #3e3e3e; }
   .hashworks__contactUs__images__image1 {
     background-image: url(../assets/image/contactus/contact1.png);
     background-size: 100% 100%;
@@ -6844,7 +6846,7 @@ ul.tabs li.current {
       font-size: 24px;
       text-align: left;
       color: #ffffff;
-      padding: 0px 159px 15px 18px; }
+      padding: 0px 140px 15px 18px; }
   .hashworks__contactUs__images__image2 {
     background-image: url(../assets/image/contactus/contact2.png);
     background-size: 100% 100%;
@@ -6928,7 +6930,7 @@ ul.tabs li.current {
         padding: 16px 126px  178px 20px; }
       .hashworks__contactUs__images__image1 h1 {
         font-size: 24px;
-        padding: 0px 57px 35px 20px; }
+        padding: 0px 22px 35px 20px; }
     .hashworks__contactUs__images__image2 {
       background-image: url(../assets/image/contactus/contact2.png);
       width: 462px;
@@ -6963,7 +6965,8 @@ ul.tabs li.current {
     height: 49px;
     padding-left: 12px;
     font-size: 16px;
-    margin-left: 59px; }
+    margin-left: 59px;
+    padding: 12px; }
   .hashworks__contactUs__form button {
     width: 217px;
     height: 49px;
@@ -7000,7 +7003,7 @@ ul.tabs li.current {
         padding: 34px 176px  251px 40px; }
       .hashworks__contactUs__images__image1 h1 {
         font-size: 32px;
-        padding: 0px 69px 34px 40px; }
+        padding: 0px 20px 34px 40px; }
     .hashworks__contactUs__images__image2 {
       background-image: url(../assets/image/contactus/contact2.png);
       width: 624px;
@@ -7070,7 +7073,7 @@ ul.tabs li.current {
         padding: 34px 215px  270px 43px; }
       .hashworks__contactUs__images__image1 h1 {
         font-size: 48px;
-        padding: 0px 109px 64px 72px; }
+        padding: 0px 40px 64px 72px; }
     .hashworks__contactUs__images__image2 {
       background-image: url(../assets/image/contactus/contact2.png);
       width: 774px;
