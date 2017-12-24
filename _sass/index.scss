@@ -246,6 +246,9 @@
     }
     &__caseStudy{
         background-color: #000000;
+        &--arrow{
+            display: none;
+        }
         &--image{
             height: 214px;
             background-image:url(../assets/image/index/group.jpg);
@@ -619,9 +622,11 @@
           
         }
         &__caseStudy{
+           
             background-color: #000000;
             position: relative;
             &--arrow{
+                display: -webkit-box;
                 width: 42px;
                 height: 42px;
                 background-color: #603c96;
