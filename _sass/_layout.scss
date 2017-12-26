@@ -495,8 +495,12 @@ margin: 0 auto;
       }
       &--mobile{
          padding-left: 80px;
-        
+         cursor: pointer;
       }
+    &--ops,&--data,  &--cloud{
+      cursor: pointer;
+       
+     }
     }
    }
   // about 

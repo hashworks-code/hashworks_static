@@ -189,6 +189,7 @@
         }
         &--grew{
             background-color: #603c96;
+            cursor: pointer;
         }
         &--impact{
             background-image:url(../assets/image/index/rectangle1.jpg);
@@ -197,6 +198,7 @@
             margin-top: 8px;
             background-position: 100%;
             background-size: cover;
+            cursor: pointer;
           
         }
     }
@@ -208,6 +210,7 @@
             text-align: left;
             color: #ffffff;
             padding: 12px 0px 0px 28px;
+            cursor: pointer;
         }
         h2{
             font-family: 'muliRegular';
@@ -224,6 +227,7 @@
             margin-top: 8px;
             background-position: 100%;
             background-size: cover;
+            cursor: pointer;
             h2{
                 padding: 60px 0px 25px 28px;
                 width: 100px;
@@ -237,6 +241,7 @@
             margin-top: 8px;
             background-position: 100%;
             background-size: cover;
+            cursor: pointer;
             h2{
                 padding: 29px 0px 0px 28px;
                 width: 293px;
@@ -352,10 +357,7 @@
         width: 91px;
         height: 24px;
     }
-    .img3{
-        width: 91px;
-        height: 41px;
-    }
+
     .img4{
         width: 46px;
         height: 52px;
@@ -365,22 +367,7 @@
         width: 89px;
         height: 12px;
     }
-    .img6{
-        width: 44px;
-        height: 36px;
-    }
-    .img7{
-        width: 44px;
-        height: 36px;
-    }
-    .img8{
-        width: 44px;
-        height: 36px;
-    }
-    .img9{
-        width: 44px;
-        height: 36px;
-    }
+  
     }
     &__roi{
         p{
@@ -398,6 +385,7 @@
             margin: 6px auto 0px;
             font-family: 'muliRegular';
             padding: 3px 0px 5px 13px;
+            outline: none;
         }
         &--image{
             background-image:url(../assets/image/index/people.jpg);
@@ -415,6 +403,8 @@
             color: #ffffff;
             border: none;
             margin-top: 6px;
+            outline: none;
+            cursor: pointer;
         }
     }
 }
