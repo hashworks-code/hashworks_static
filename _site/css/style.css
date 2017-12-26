@@ -3431,9 +3431,9 @@ body {
     width: 267px; }
   .hashworks__casestudyHome .casestudy__events__banner {
     background-image: url(../assets/image/casestudy/case-study-banner.png);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: 100%;
     background-repeat: no-repeat;
-    width: 100%;
     height: 230px; }
     .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-family: 'muliRegular';
@@ -3456,7 +3456,7 @@ body {
   .hashworks__casestudyHome .casestudy__events .event {
     padding: 0; }
   .hashworks__casestudyHome .casestudy__events__image1 {
-    background-image: url(../assets/image/casestudy/1.png);
+    background-image: url(../assets/image/casestudy/casestudy1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
