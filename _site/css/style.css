@@ -841,10 +841,11 @@ body {
     margin-bottom: 33px; }
   .home__groome {
     background-color: #000000;
-    margin-bottom: 8px; }
+    margin-bottom: 8px;
+    height: 141px; }
     .home__groome img {
       width: 88px;
-      margin: 42px 0px 0px 38px; }
+      margin: 25px 0px 0px 38px; }
     .home__groome h1 {
       display: none; }
     .home__groome p {
@@ -912,7 +913,7 @@ body {
     text-align: left;
     color: #ffffff;
     padding: 29px 9px 25px 28px;
-    width: 286px; }
+    width: 254px; }
   .home__business--grew {
     background-color: #603c96;
     cursor: pointer; }
@@ -1013,7 +1014,7 @@ body {
         text-align: left;
         color: #ffffff;
         width: 127px;
-        padding: 33px 0px; }
+        padding: 0px; }
       .home__caseStudy--uptime--service {
         width: 155px;
         height: 146px;
@@ -1028,7 +1029,7 @@ body {
           color: #4a4a4a;
           color: #4a4a4a;
           width: 131px;
-          padding: 33px 0px; }
+          padding: 0px; }
   .home__acclerated h1 {
     font-family: 'muliRegular';
     font-size: 18px;
@@ -1120,7 +1121,8 @@ body {
       margin-bottom: 33px; }
   .home__groome {
     background-color: #000000;
-    margin-bottom: 8px; }
+    margin-bottom: 8px;
+    height: 281px; }
     .home__groome__product .groomepng {
       display: flex;
       align-items: center;
@@ -1194,7 +1196,7 @@ body {
       padding: 26px 0px 0px 39px; }
     .home__business h2 {
       font-size: 32px;
-      padding: 36px 73px 29px 39px;
+      padding: 36px 11px 29px 39px;
       width: 100%; }
     .home__business--grew {
       background-color: #603c96;
@@ -1280,7 +1282,7 @@ body {
         margin: 16px 27px;
         width: 85px; }
       .home__caseStudy--uptime p {
-        padding: 26px 0px 0px 27px;
+        padding: 0px 0px 0px 27px;
         width: 111px; }
       .home__caseStudy--uptime--service {
         width: 155px;
@@ -1371,7 +1373,8 @@ body {
       margin: 50px 0px 0px 0px; }
   .home__groome {
     background-color: #000000;
-    margin-bottom: 8px; }
+    margin-bottom: 8px;
+    height: 374px; }
     .home__groome img {
       width: 141px;
       margin: 0px 0px 0px 38px; }
@@ -1428,7 +1431,7 @@ body {
       padding: 30px 0px 0px 29px; }
     .home__business h2 {
       font-size: 42px;
-      padding: 56px 155px 29px 29px; }
+      padding: 56px 68px 29px 29px; }
     .home__business--grew {
       background-color: #603c96;
       width: 621px; }
@@ -1510,7 +1513,7 @@ body {
         width: 105px; }
       .home__caseStudy--uptime p {
         font-size: 18px;
-        padding: 37px 0px 0px 25px;
+        padding: 0px 0px 0px 25px;
         width: 147px; }
       .home__caseStudy--uptime--service {
         width: 200px;
@@ -1597,7 +1600,8 @@ body {
       margin: 50px 0px 0px 0px; }
   .home__groome {
     background-color: #000000;
-    margin-bottom: 8px; }
+    margin-bottom: 8px;
+    height: 428px; }
     .home__groome img {
       width: 278px;
       margin: 0px 0px 0px 75px; }
@@ -1653,7 +1657,7 @@ body {
       padding: 25px 0px 0px 42px; }
     .home__business h2 {
       font-size: 48px;
-      padding: 103px 220px 29px 42px; }
+      padding: 103px 95px 29px 42px; }
     .home__business--grew {
       background-color: #603c96;
       width: 770px; }
