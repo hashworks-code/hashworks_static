@@ -151,7 +151,14 @@ body{
         height: 88px;
         // padding: 19px 6px 0px 2px;
         margin-right: 10px;
-     
+    }
+    &--littlebhrahma{
+      p{
+        padding: 0px 7px;
+      }
+      img{
+        width: 55px;
+      }
     }
     .service__view{
         border-top: solid 1px #dadada; 
@@ -323,17 +330,19 @@ body{
   //   }
   
   .up-arrow{
-      position:absolute;
-      right:19px;
-      display:block;
-       z-index:100;
-       cursor: pointer;
-      border-left:10px solid transparent;
-      border-right:10px solid transparent;
-      
-      border-bottom:10px solid black;
-      
-      border-top:10px solid transparent;
+    position:absolute;
+    right:19px;
+    display:block;
+     z-index:100;
+     cursor: pointer;
+     border: solid #4a4a4a;
+     border-width: 0 3px 3px 0;
+     display: inline-block;
+     padding: 6px;
+     top: 17px;
+     transform: rotate(-135deg);
+       -webkit-transform: rotate(-135deg);
+       
     }
   .down-arrow{
     position:absolute;
@@ -344,12 +353,12 @@ body{
     z-index:99;
     height:0;
     display:block;
-    border-left:10px solid transparent;
-    border-right:10px solid transparent;
-    
-    border-bottom:10px solid transparent;
-    
-    border-top:10px solid black;
+    border: solid #4a4a4a;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
     
   }
   
