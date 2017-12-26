@@ -69,6 +69,7 @@
                 margin: 16px 72px 37px 63px;
                 border: none;
                 outline: none;
+                cursor: pointer;
 
                 p {
                     font-family: 'muliBold';
@@ -125,6 +126,7 @@
                width: 100%;
               height: 192px;  
                margin-bottom: 15px;
+               cursor: pointer;
 
               p {
                 font-family: 'muliBold';
@@ -150,6 +152,7 @@
               background-repeat: no-repeat;
                width: 100%;
               height: 199px; 
+              cursor: pointer;
 
                p {
                 font-family: 'muliBold';
@@ -497,7 +500,7 @@
               
               h1 {
                   font-size: 48px;
-                  padding:0px 133px 63px 72px;
+                  padding:30px 133px 63px 72px;
               }
         }
          }
