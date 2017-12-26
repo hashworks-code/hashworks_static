@@ -3412,7 +3412,9 @@ body {
       font-weight: 600;
       text-align: center;
       display: inline;
-      margin: 0px 6px; }
+      margin: 0px 6px;
+      position: relative;
+      cursor: pointer; }
   .hashworks__casestudyHome .casestudy__events .event {
     padding: 0; }
   .hashworks__casestudyHome .casestudy__events__image1 {
