@@ -492,8 +492,8 @@ body {
     body--toggle {
       display: none; }
     body .popover {
-      display: block;
-      top: 39px;
+      position: absolute;
+      top: 34px;
       left: 175px;
       border-left: 12px solid transparent;
       border-right: 12px solid transparent;

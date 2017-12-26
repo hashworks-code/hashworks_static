@@ -310,7 +310,17 @@ body{
         width: 100%;
         position: relative;
   }
- 
+  // #cssmenu .submenu-button{
+  
+  //     position:absolute;
+  //     z-index:99;
+  //     right:0;
+  //     top:0;
+  //     display:block;
+  //     height:46px;
+  //     width:46px;
+  //     cursor:pointer;
+  //   }
   
   .up-arrow{
       position:absolute;
@@ -343,7 +353,17 @@ body{
     
   }
   
-
+  // #cssmenu .submenu-button:before{
+  //       position:absolute;
+  //       top:19px;
+  //       right:22px;
+  //       display:block;
+  //       content:' ';
+  //     }
+  // #cssmenu ul ul .submenu-button:before{
+  //       top:12px;
+  //       right:16px
+  //     }
   #cssmenu .submenu-button.submenu-opened:before{
         display:none
   }
@@ -633,8 +653,8 @@ body{
       }
    
     .popover{
-        display: block;
-        top: 39px;
+        position: absolute;
+        top: 34px;
         left: 175px;
         border-left: 12px solid transparent;
         border-right: 12px solid transparent;
