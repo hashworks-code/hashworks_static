@@ -2282,7 +2282,8 @@ body {
       width: 100%;
       height: 166px;
       background-color: #d8d8d8;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      cursor: pointer; }
       .service__devops h1 {
         color: #fff;
         font-size: 24px;
@@ -2295,7 +2296,8 @@ body {
       width: 100%;
       background-size: 100% 100%;
       object-fit: contain;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      cursor: pointer; }
       .service__cloudImg h1 {
         width: 145px;
         font-size: 24px;
@@ -2324,7 +2326,8 @@ body {
       width: 100%;
       background-size: 100% 100%;
       object-fit: contain;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      cursor: pointer; }
       .service__dataScience h1 {
         width: 140px;
         font-size: 24px;
@@ -2339,7 +2342,8 @@ body {
       width: 100%;
       background-size: 100% 100%;
       object-fit: contain;
-      margin-bottom: 16px; }
+      margin-bottom: 16px;
+      cursor: pointer; }
       .service__mobile h1 {
         font-size: 24px;
         color: #ffffff;
@@ -2777,7 +2781,8 @@ body {
     box-shadow: 1px 1px 10px 0 rgba(174, 174, 174, 0.2);
     border: solid 1px #d3d3d3;
     margin-bottom: 16px;
-    background-color: white; }
+    background-color: white;
+    cursor: pointer; }
     .hashworks__workculture .workculture__box h1 {
       font-family: 'muliBold';
       font-size: 24px;
@@ -6866,7 +6871,8 @@ ul.tabs li.current {
     background-color: #603c96;
     margin: 16px 72px 37px 63px;
     border: none;
-    outline: none; }
+    outline: none;
+    cursor: pointer; }
     .hashworks__contactUs__form button p {
       font-family: 'muliBold';
       font-size: 12px;
@@ -6905,7 +6911,8 @@ ul.tabs li.current {
     background-repeat: no-repeat;
     width: 100%;
     height: 192px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    cursor: pointer; }
     .hashworks__contactUs__images__image1 p {
       font-family: 'muliBold';
       font-size: 14px;
@@ -6925,7 +6932,8 @@ ul.tabs li.current {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
-    height: 199px; }
+    height: 199px;
+    cursor: pointer; }
     .hashworks__contactUs__images__image2 p {
       font-family: 'muliBold';
       font-size: 14px;
@@ -7155,4 +7163,4 @@ ul.tabs li.current {
         padding: 36px 0px  240px 72px; }
       .hashworks__contactUs__images__image2 h1 {
         font-size: 48px;
-        padding: 0px 133px 63px 72px; } }
+        padding: 30px 133px 63px 72px; } }
