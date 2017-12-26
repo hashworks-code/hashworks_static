@@ -847,19 +847,26 @@ margin: 0 auto;
     &--toggle{
          display: none;
     }
-    // .popover{
-    //      display: none;
-    // }
     .popover{
-          display: block;
-          position: absolute;
-          top: 32px;
-          left: 182px;
-          border-left: 8px solid transparent;
-          border-right: 8px solid transparent;
-          border-bottom: 10px solid white;
-          -webkit-filter: drop-shadow(0 -2px 2px #AAA);
-    }
+      display: block;
+      position: absolute;
+      top: 34px;
+      left: 175px;
+      border-left: 14px solid transparent;
+      border-right: 14px solid transparent;
+      border-bottom: 25px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+  }
+  .popoverer{
+    display: block;
+    position: absolute;
+    top: 34px;
+    left: 445px;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 25px solid white;
+    -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+  }
     .productService{
          padding: 41px 0px;
       .row{
