@@ -9,7 +9,7 @@
         font-family: 'muliRegular';
         color: #4a4a4a;
         &__container{
-            width: 295px;
+            width:307px;
             margin: 0 auto;
         }
         &__headImg{
@@ -17,7 +17,7 @@
             background-repeat: no-repeat;
             height: 145px;
             width: 100%;
-            background-size: 100% 100%;
+            background-size:cover;
             object-fit: contain;
         }
         &__head{
@@ -60,7 +60,7 @@
             object-fit: contain;
             margin-bottom: 10px;
             h1{
-                width: 140px;
+                width: 145px;
                 font-size: 24px;
                 color: #ffffff;
                 font-weight: 100;
@@ -108,7 +108,7 @@
             width: 100%;
             background-size: 100% 100%;
             object-fit: contain;
-            margin-bottom: 20px;
+            margin-bottom: 16px;
             h1{
                 font-size: 24px;
                 color: #ffffff;
@@ -226,7 +226,7 @@
             height: 322px;
             margin-bottom: 20px;
             h1 {
-                width: 280px;
+                width: 300px;
                 font-size: 48px;
                 padding: 141px 27px 0;
             }
@@ -298,7 +298,7 @@
             height: 396px;
             margin-bottom: 20px;
             h1 {
-                width: 310px;
+                width: 330px;
                 padding: 229px 42px 0;
             }
         }

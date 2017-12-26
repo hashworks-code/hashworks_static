@@ -59,6 +59,7 @@
                 font-size: 12px;
                 text-align: left;
                 color: #a1a1a1; 
+                padding: 10px 0px 6px 7px;
             }
             button {
                 width: 155px;
@@ -66,6 +67,8 @@
                 border-radius: 4px;
                 background-color: #603c96;
                 margin: 16px 72px 37px 63px;
+                border: none;
+                outline: none;
 
                 p {
                     font-family: 'muliBold';
@@ -93,7 +96,8 @@
            
         }
         &__address {
-                margin: 45px 37px;
+            width: 231px;
+            margin: 37px auto;
             h1 {
                 font-family: 'muliBold';
                 font-size: 12px;
@@ -109,7 +113,7 @@
                  line-height: 1.5;
                  text-align: center;
                  color: #3e3e3e;
-                 width: 210px;
+                
 
                         }
         }
@@ -137,7 +141,7 @@
                   font-size: 24px;
                   text-align: left;
                   color: #ffffff;
-                   padding: 0px 159px 15px 18px;
+                   padding: 0px 140px 15px 18px;
               }
         }
         &__image2 {
@@ -258,7 +262,7 @@
 
               h1 {
                   font-size: 24px;
-                   padding: 0px 57px 35px 20px;
+                   padding: 0px 22px 35px 20px;
               }
         }
         &__image2 {
@@ -314,6 +318,7 @@
                 padding-left: 12px;
                 font-size: 16px;
                 margin-left: 59px;
+                padding: 12px;
             }
             button {
                 width: 217px;
@@ -367,7 +372,7 @@
 
               h1 {
                   font-size: 32px;
-                   padding: 0px 69px 34px 40px;
+                   padding: 0px 20px 34px 40px;
               }
         }
         &__image2 {
@@ -477,7 +482,7 @@
 
               h1 {
                   font-size: 48px;
-                   padding: 0px 109px 64px 72px;
+                   padding: 0px 40px 64px 72px;
               }
         }
         &__image2 {

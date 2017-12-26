@@ -74,18 +74,24 @@ body{
   #cssmenu #head-mobile{
     display: block;
     padding: 25px 0px 25px 0px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
   }
    //product for mobile view
   
   .product_view{
       background-color: none;
+      .row{
+width: 261px;
+margin: 0 auto;
+      }
     h2 {
         font-family: 'muliBold';
         font-size: 12px;
         font-weight: bold;
         padding-bottom: 8px;
         color: #603c96;
-        margin-top: 25px;
+        padding-top: 25px;
+  
     }
     h3{
         font-family: 'muliRegular';
@@ -146,9 +152,15 @@ body{
     }
     .service__view{
         border-top: solid 1px #dadada; 
+        margin-bottom: 24px;
+        a{
+          padding:0px 30px 6px 0px;
+          font-size: 12px;
+        }
       h2{
         font-size: 14px;
-        margin-top:16px;
+        margin: 16px 0px;
+        padding: 0px;
       }
       h3{
         font-size: 14px;
@@ -156,7 +168,6 @@ body{
       h4{
         font-size: 12px;
         text-align: left;
-        padding: 8px 0px;
       }
       &--content{
         width: 100%;
@@ -197,7 +208,9 @@ body{
          }
          &--algin{
           width: 100%;
-         
+          a{
+            padding: 0px;
+          }
          }
        
        &__thinking{
@@ -237,6 +250,9 @@ body{
             display: inline-block;
         }
       
+      }
+      &__Content{
+   
       }
       }
   
@@ -291,40 +307,56 @@ body{
         width: 100%;
         position: relative;
   }
-  #cssmenu .submenu-button{
+  // #cssmenu .submenu-button{
   
-      position:absolute;
-      z-index:99;
-      right:0;
-      top:0;
-      display:block;
-      height:46px;
-      width:46px;
-      cursor:pointer;
-    }
+  //     position:absolute;
+  //     z-index:99;
+  //     right:0;
+  //     top:0;
+  //     display:block;
+  //     height:46px;
+  //     width:46px;
+  //     cursor:pointer;
+  //   }
   
-  #cssmenu .submenu-button:after{
+  .up-arrow{
       position:absolute;
-      top:22px;
       right:19px;
-      width:8px;
-      height:2px;
       display:block;
-      background:rgb(90, 33, 33);
-      content:'^';
+       z-index:100;
+       cursor: pointer;
+      border-left:10px solid transparent;
+      border-right:10px solid transparent;
+      
+      border-bottom:10px solid black;
+      
+      border-top:10px solid transparent;
     }
+  .down-arrow{
+    position:absolute;
+    right:19px;
+    width:0;
+    top:13px;
+    cursor: pointer;
+    z-index:99;
+    height:0;
+    display:block;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    
+    border-bottom:10px solid transparent;
+    
+    border-top:10px solid black;
+    
+  }
   
-  
-  #cssmenu .submenu-button:before{
-        position:absolute;
-        top:19px;
-        right:22px;
-        display:block;
-        width:2px;
-        height:8px;
-        background:rgb(204, 76, 76);
-        content:'';
-      }
+  // #cssmenu .submenu-button:before{
+  //       position:absolute;
+  //       top:19px;
+  //       right:22px;
+  //       display:block;
+  //       content:' ';
+  //     }
   // #cssmenu ul ul .submenu-button:before{
   //       top:12px;
   //       right:16px
@@ -335,23 +367,6 @@ body{
   
   }
   
-@media screen and (min-width:500px){
-  .product_view{
-  &--alignment{
-          display: flex;
-          align-items: center;
-          justify-content: space-around;
-          margin: 17px 0px 17px 0px;
-          width: 50%;
-  }
-  &--alignment1{
-          display: flex;
-          align-items: center;
-          justify-content: space-around;
-          margin: 16px 0px 16px 0px;
-          width: 50%;
-  }}
-}
   @media screen and (min-width:768px){ 
     #cssmenu{
           display: none;
@@ -389,22 +404,26 @@ body{
           display: none;
       }
     }
-    // product and service
+   // product and service
     .popover{
          display: none;
     }
-    .popover.show {
-          display: block;
-          position: absolute;
-          top: 23px;
-          left: 125px;
-          border-left: 8px solid transparent;
-          border-right: 8px solid transparent;
-          border-bottom: 10px solid white;
+    .popover {
+      display: block;
+      position: absolute;
+      top: 27px;
+      left: 125px;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
+      border-bottom: 18px solid white;
           -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
     .productService{
            padding: 22px 0px 20px 0px;
+           position: absolute;
+           width: 100%;
+           z-index: 1;
+           box-shadow: 5px 2px 4px 9px rgba(6, 6, 6, 0.05);
      .row{
           width: 700px;
           margin: 0 auto;
@@ -476,13 +495,23 @@ body{
       }
       &--mobile{
          padding-left: 80px;
-        
+         cursor: pointer;
       }
+    &--ops,&--data,  &--cloud{
+      cursor: pointer;
+       
+     }
     }
    }
   // about 
   .about{
-        margin: 25px 0px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 0px;
+    box-shadow: 5px 2px 4px 9px rgba(6, 6, 6, 0.05);
     .row{
         width: 700px;
         margin: 0 auto;
@@ -525,6 +554,9 @@ body{
         border-right: solid 1px #dadada;
         height: 141px;
         padding-right: 40px;
+        a{
+          color: #603c96;
+        }
      
      }
    &__thinking{
@@ -564,7 +596,7 @@ body{
   }
   
   }
-  @media screen and (min-width:1025px){ 
+  @media screen and (min-width:1024px){ 
     #cssmenu{
         display: none;
     }
@@ -592,10 +624,10 @@ body{
       &--toggle{
          display: none;
       }
+    // .popover{
+    //      display: none;
+    // }
     .popover{
-         display: none;
-    }
-    .popover.show {
         display: block;
         position: absolute;
         top: 32px;
@@ -668,15 +700,16 @@ body{
    }
     // about 
   .about{
-       margin: 25px 0px;
+      //  margin: 25px 0px;
     .row{
         width: 940px;
         margin: 0 auto;
         padding: 0px;
    }
     p{
-        padding-left: 9px;
+        padding:4px 0px 0px 9px;
         font-size: 14px;
+        
      }
      h3{
         font-size: 14px;
@@ -689,6 +722,9 @@ body{
      &__Content{
         height: 141px;
         padding-right: 40px;
+        a{
+          color: #603c96;
+        }
      
      }
    &__thinking{
@@ -755,10 +791,10 @@ body{
     &--toggle{
          display: none;
     }
+    // .popover{
+    //      display: none;
+    // }
     .popover{
-         display: none;
-    }
-    .popover.show {
           display: block;
           position: absolute;
           top: 32px;
@@ -829,7 +865,7 @@ body{
     }
   }
   .about{
-        margin: 25px 0px;
+        // margin: 25px 0px;
     .row{
         width: 1170px;
         margin: 0 auto;
@@ -845,6 +881,8 @@ body{
      }
      h2{
        font-size: 16px;
+       margin-top: 25px;
+       
      }
      &--algin{
       width: 773px;
@@ -853,6 +891,9 @@ body{
      &__Content{
       height: 141px;
       padding-right: 27px;
+      a{
+        color: #603c96;
+      }
      
      }
    &__thinking{

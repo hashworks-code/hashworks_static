@@ -16,19 +16,19 @@
 </head>
 <body id="close">
         <div class="loader">
-                <img src="../assets/image/job/hashlogo.gif">
+                <img  class="loader-image" src="../assets/image/job/hashlogo.gif">
               </div>
     <header class="hashworks__head">
-        <a href="index"> <img class="hashworks__head--logo" src="/assets/image/logo.svg" alt="hashlogo"></a>
+        <a href="/index"> <img class="hashworks__head--logo" src="/assets/image/logo.svg" alt="hashlogo"></a>
         <div class="hashworks__head--list">
-            <a href="index" class="hashworks__head--home">Home</a>
-            <a  class="hashworks__head--product dropbtn menuClass" id="menu-1" onclick="myFunction()" >Product & Service
+            <a href="/index" class="hashworks__head--home">Home</a>
+            <a  class="hashworks__head--product dropbtn menuClass" id="menu-1" >Product & Service
                 <div class="popover" id="mypopover"></div>
             </a>
-            <a class="hashworks__head--case" href="/casestudyHome/">Case Study</a>
-            <a  class="hashworks__head--about dropbtn menuClass" id="menu-2" onclick="myFunction()">About</a>
+            <a class="hashworks__head--case" href="/casestudyHome">Case Study</a>
+            <a  class="hashworks__head--about dropbtn menuClass" id="menu-2" >About</a>
             <!-- <a  class="hashworks__head--blog dropbtn"> Blog</a> -->
-            <a class="hashworks__head--contact" href="/contactUs/">Contact</a>
+            <a class="hashworks__head--contact" href="/contactUs">Contact</a>
         </div>
         <img class="hashworks__head--toggle" src="/assets/image/group-2@2x.png"/>
     </header>
@@ -78,21 +78,21 @@
                 </div>
 
             <div class="productService--alignment">
-           <div class="productService__service--mobile">
+           <div onclick="redirect('/mobile/')" class="productService__service--mobile">
               <h4>Mobile Development</h4>
            </div>
             <div class="  ">
-            <div class="productService__service--ops">
+            <div onclick="redirect('/devOps/')" class="productService__service--ops">
               <h4>Data Ops</h4>
             </div>
             </div>
             <div class=" ">
-             <div class="productService__service--data">
+             <div onclick="redirect('/dataScience/')" class="productService__service--data">
                <h4>Data Science</h4>
             </div>
             </div>
             <div class="">
-             <div class="productService__service--cloud">
+             <div onclick="redirect('/cloud/')" class="productService__service--cloud">
               <h4>Application on Cloud</h4>
              </div>
             </div>
@@ -106,29 +106,34 @@
     <div class="row"> 
         <div class=" ">
             <div class="about__Content">
-                <h2><a href="/aboutUs/">ABOUT</a></h2>
+                <h2>ABOUT</h2>
                 <h3>We are IT-change partners enabling digital transformation for Large enterprise & Captive IT units.</h3>
              </div>
         </div>
         <div class="about--algin">
-            <div class="  ">
+            <a href="/aboutUs/">
+                 <div class="  ">
                 <div class="about__thinking">
                 <img class="about__thinking--img" src="/assets/image/product&service/group-26@2x.png"/>
                 <p>Our Thinking</p>
             </div>
-            </div>
-                <div class="  ">
+            </div></a>
+            <a href="/workculture/"> 
+                 <div class="  ">
                   <div class="about__culture">
                         <img class="about__culture--img" src="/assets/image/product&service/fill-1@2x.png"/>
                         <p>Work Culture</p>
                  </div>
                 </div>
+            </a>
+            <a href="/job/"> 
                     <div class="  ">
                       <div class="about__job">
                             <img class="about__job--img" src="/assets/image/product&service/fill.png"/>
                            <p>Job Opening</p>
                      </div>
                     </div>
+            </a>
                 </div>
       </div>
     </div>
@@ -136,14 +141,14 @@
 <!-- HEADER FOR MOBILE VIEW -->
 <header>
     <nav id='cssmenu'>
-    <div class="logo"><a href="index"><img src="/assets/image/logo.svg" alt="hashlogo"></a></div>
+    <div class="logo"><a href="/index"><img src="/assets/image/logo.svg" alt="hashlogo"></a></div>
     <div id="head-mobile"></div>
     <div class="button"></div>
     <ul class="menulist">
-    <li class='active'><a href="/index/">HOME</a></li>
+    <li class='active'><a href="/index">HOME</a></li>
     <li><a href='#'>Product & Services </a>
        <ul class="productDetails">
-          <li><a href='#'>
+          <li>
             <div id="mydiv" class="product_view">
               <div class=" row">
               <div class="product_view--content ">
@@ -217,7 +222,7 @@
                
          </div>
      </div>
-          </a>
+          
           </li>
          
            
@@ -232,29 +237,29 @@
           <div class="row"> 
               <div class=" ">
                   <div class="about__view__Content">
-                      <h2><a href="/aboutUs/">ABOUT</a></h2>
+                      <h2>ABOUT</h2>
                       <h3>We are IT-change partners enabling digital transformation for Large enterprise & Captive IT units.</h3>
                    </div>
               </div>
               <div class="about__view--algin">
-                  <div class="  ">
+                <a href="/aboutUs/"><div class="  ">
                       <div class="about__view__thinking">
                       <img class="about__view__thinking--img" src="/assets/image/product&service/group-26@2x.png"/>
                       <p>Our Thinking</p>
                   </div>
-                  </div>
-                      <div class="  ">
+                  </div></a>
+                  <a href="/workculture/"> <div class="  ">
                         <div class="about__view__culture">
                               <img class="about__view__culture--img" src="/assets/image/product&service/fill-1@2x.png"/>
                               <p>Work Culture</p>
                        </div>
-                      </div>
-                          <div class="  ">
+                      </div></a>
+                      <a href="/job/">  <div class="  ">
                             <div class="about__view__job">
                                   <img class="about__view__job--img" src="/assets/image/product&service/fill.png"/>
                                  <p>Job Opening</p>
                            </div>
-                          </div>
+                          </div></a>
                       </div>
             </div>
           </div>
@@ -275,157 +280,11 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
     <script type="text/javascript" src="/assets/js/product.js"></script>
-
-
-
-<script>
-    $(document).ready(function(){
-        $(' .btn-outline-primary').click(function(){
-
- 	      var categoryValue=$(this).attr('data-filter');
-        $(this).addClass('active').siblings().removeClass('active');
-			if(categoryValue=="all") {
-				$('.filter').show(1000);
-			} else {
-				$(".filter").not('.'+categoryValue).hide('3000');
-            	$('.filter').filter('.'+categoryValue).show('3000');
-			}
- });
-     });
-</script>
-    <script>
-$('#producttoggle').click(function () {
-  $('#mydiv').toggle()
+    <script type="text/javascript" src="/assets/js/head.js"></script>
   
-});
-
-$('#arrow').click(function () {
-  $('#mydiv').toggle()
-});
-
-$('#abouttoggle').click(function () {
-  $('#aboutContent').toggle()
-});
-$(window).resize(function(){
-    if($(window).width()<768){
-        $('.loader').hide()
-    }
-
-});
-if($(window).width()<768){
-
-                setTimeout(function(){ 
-                    
-                            // $('.loader').hide();
-                            $('.loader').fadeOut()
-            
-                            }, 4500);
-                            setTimeout(function(){
-                                 $('.home__hashworks--logo').css('display','block');
-            
-                                // $('.home-container--logo').fadeIn(1000);
-            
-                            },5000)
-            
-            }
-
-           
-            
-            $('.hashworks__head--product').click(function(e){
-                $('#myDropdown').toggle();
-                $("#aboutDropdown").hide();
-                e.stopPropagation();
-            });
-            $('#myDropdown,#aboutDropdown').click(function(e){
-               $(this).show();
-               e.stopPropagation();
-            })
-
-            
-            $('.hashworks__head--about').click(function(e){
-                $('#myDropdown').hide();
-                $("#aboutDropdown").toggle();
-                e.stopPropagation();
-            })
-            $(document).click(function(){
-
-                $('#myDropdown').hide();
-                $("#aboutDropdown").hide();
-            })
-
-    
-
-        
-       
-        </script>
 
 
-<script>
-    function redirect(x){
-      window.location = x;
-    }
 
-    (function($) {
-        $.fn.menumaker = function(options) {  
-          var cssmenu = $(this), settings = $.extend({
-            format: "dropdown",
-            sticky: false
-          }, options);
-          return this.each(function() {
-            $(this).find(".button").on('click', function(){
-              $(this).toggleClass('menu-opened');
-              var mainmenu = $(this).next('ul');
-              if (mainmenu.hasClass('open')) { 
-                mainmenu.slideToggle().removeClass('open');
-              }
-              else {
-                mainmenu.slideToggle().addClass('open');
-                if (settings.format === "dropdown") {
-                  mainmenu.find('ul').show();
-                }
-              }
-            });
-            cssmenu.find('li ul').parent().addClass('has-sub');
-          multiTg = function() {
-              cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
-              cssmenu.find('.submenu-button').on('click', function() {
-                $(this).toggleClass('submenu-opened');
-              
-              if($(this).parent('li').siblings('li').children('span').hasClass('submenu-opened')){
-                  $(this).parent().siblings('li').children('span').removeClass('submenu-opened');
-  
-              }
-              console.log($(this).siblings());
-              $(this).siblings('ul').slideToggle();
-              $(this).parent('li').siblings().children('ul').slideUp();
-              });
-            };
-            if (settings.format === 'multitoggle') multiTg();
-            else cssmenu.addClass('dropdown');
-            if (settings.sticky === true) cssmenu.css('position', 'fixed');
-          resizeFix = function() {
-            var mediasize = 1000;
-              if ($( window ).width() > mediasize) {
-                cssmenu.find('ul').show();
-              }
-              if ($(window).width() <= mediasize) {
-                cssmenu.find('ul').hide().removeClass('open');
-              }
-            };
-            resizeFix();
-            return $(window).on('resize');
-          });
-            };
-          })(jQuery);
-  
-          (function($){
-          $(document).ready(function(){
-          $("#cssmenu").menumaker({
-            format: "multitoggle"
-          });
-          });
-          })(jQuery);
-    </script>
 
 
    
@@ -479,7 +338,7 @@ if($(window).width()<768){
     <div class="mobile__container">
         <div class="mobile__mobility">
             <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 last-sm last-md last-lg">
+            <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 last-sm last-md last-lg">
                 <h1>Services We Offer</h1>
                 <h2>Enterprise Mobility</h2>
                 <p>Mobile first is at the center of IT strategy for every business.
@@ -488,7 +347,7 @@ if($(window).width()<768){
 
                 </p>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                 <div class="mobile__div11">
                     <p>
                         We Helped Google to get on Mobile
@@ -516,7 +375,7 @@ if($(window).width()<768){
     <div class="mobile__container">
         <div class="mobile__byod">
                 <div class="row">
-                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 last-sm last-md last-lg">
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 last-sm last-md last-lg">
                 <h1>BYOD</h1>
                 <p>A number of digital devices and platforms available for consumers today has exploded in recent years. 
                     Today digital population is more connected than ever. With more access to content & connected lifestyles,
@@ -526,7 +385,7 @@ if($(window).width()<768){
                             Today digital population is more connected than ever. With more access to content & connected lifestyles,
                              there is a rapid adoption of the second screen as a standard practice in our daily lives. </p>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                     <div class="mobile__div111">
                         <p>
                             We Helped Google to get on Mobile
@@ -534,9 +393,9 @@ if($(window).width()<768){
                     </div>
                     <div class="mobile__div112">
                             <p>
-                                 2X User
-                                    drive for 
-                                    Dell EMC
+                                    3X Rise in
+                                    Business 
+                                    Engagement
                                 </p>
                     </div>
                     <div class="mobile__div113">

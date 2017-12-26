@@ -46,7 +46,7 @@
     }
     }
     &__tab{
-        border: solid 1px #d3d3d3;
+        border:solid 1px #f7f7f7;
         display: flex;
         justify-content: center;
     &--list{
@@ -163,6 +163,7 @@
         font-weight: bold;
         text-align: center;
         color: #603c96;
+        padding-top: 32px;
     }
     p{
         font-family: 'muliRegular';
