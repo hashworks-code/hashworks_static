@@ -7,7 +7,8 @@
       background-repeat: no-repeat;
       height: 270px;
       width: 100%;
-      background-size: 100% 100%;
+      background-size:cover;
+      background-size: 100%;
       object-fit: contain;
     }
     &__content1{
@@ -332,19 +333,15 @@
     }
     &__img1{
       width: 136px;
-      height: 80px;
     }
     &__img2{
       width: 45px;
-      height: 69px;
     }
     &__img3{
       width: 131px;
-      height: 44px;
     }
     &__img4{
       width: 131px;
-      height: 30px;
     }
     
     
