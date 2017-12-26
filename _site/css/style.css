@@ -361,10 +361,11 @@ body {
         font-size: 10px;
         line-height: 1.4;
         text-align: center;
-        color: #3e3e3e; }
+        color: #3e3e3e;
+        width: 97px; }
       body .productService img {
         width: 70px;
-        height: 22px; }
+        margin: 19px 0px 0px 10px; }
       body .productService--listmargin {
         margin-left: 80px; }
       body .productService--productContent {
@@ -379,8 +380,7 @@ body {
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
         max-width: 100px;
         background-color: #f7f7f7;
-        height: 88px;
-        padding: 19px 9px 9px 9px; }
+        height: 88px; }
       body .productService__service {
         border-top: solid 1px #dadada;
         padding-top: 36px; }
@@ -391,6 +391,17 @@ body {
           cursor: pointer; }
         body .productService__service--ops, body .productService__service--data, body .productService__service--cloud {
           cursor: pointer; }
+      body .productService--produtpacto {
+        height: 51px; }
+      body .productService--produtlittle {
+        height: 60px; }
+        body .productService--produtlittle img {
+          width: 55px;
+          margin-left: 18px; }
+      body .productService--produtgroome {
+        height: 51px; }
+      body .productService--produtfrugal {
+        height: 51px; }
     body .about {
       position: absolute;
       z-index: 1;
@@ -488,20 +499,20 @@ body {
     body .popover {
       display: block;
       position: absolute;
-      top: 32px;
-      left: 182px;
-      border-left: 8px solid transparent;
-      border-right: 8px solid transparent;
-      border-bottom: 10px solid white;
+      top: 34px;
+      left: 175px;
+      border-left: 14px solid transparent;
+      border-right: 14px solid transparent;
+      border-bottom: 25px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
     body .popoverer {
       display: block;
       position: absolute;
-      top: 32px;
+      top: 34px;
       left: 445px;
-      border-left: 8px solid transparent;
-      border-right: 8px solid transparent;
-      border-bottom: 10px solid white;
+      border-left: 14px solid transparent;
+      border-right: 14px solid transparent;
+      border-bottom: 25px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
     body .paketo {
       margin-left: 48px; }
@@ -520,10 +531,11 @@ body {
       body .productService h4 {
         font-size: 14px; }
       body .productService p {
-        font-size: 12px; }
+        font-size: 12px;
+        width: 140px; }
       body .productService img {
         width: 113px;
-        height: 30px; }
+        margin: 27px 13px 16px 13px; }
       body .productService--productContent {
         border-right: solid 1px #dadada;
         height: 178px;
@@ -536,14 +548,23 @@ body {
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
         max-width: 140px;
         background-color: #f7f7f7;
-        height: 122px;
-        padding: 27px 13px 16px 13px;
-        margin-bottom: 38px; }
+        height: 122px; }
       body .productService__service {
         border-top: solid 1px #dadada;
         padding-top: 36px; }
         body .productService__service--content {
           width: 241px; }
+      body .productService--produtpacto {
+        height: 75px; }
+      body .productService--produtlittle {
+        height: 78px; }
+        body .productService--produtlittle img {
+          width: 68px;
+          margin: 24px 36px 16px 36px; }
+      body .productService--produtgroome {
+        height: 78px; }
+      body .productService--produtfrugal {
+        height: 78px; }
     body .about .row {
       width: 940px;
       margin: 0 auto;
@@ -632,10 +653,11 @@ body {
         font-size: 16px; }
       body .productService p {
         font-size: 14px;
-        padding-top: 20px; }
+        padding-top: 20px;
+        width: 170px; }
       body .productService img {
-        width: 137px;
-        height: 38px; }
+        width: 125px;
+        margin: 38px 19px 16px 13px; }
       body .productService--productContent {
         border-right: solid 1px #dadada;
         height: 178px; }
@@ -646,8 +668,6 @@ body {
         align-items: center; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
         background-color: #f7f7f7;
-        padding: 30px 19px 16px 13px;
-        margin-bottom: 38px;
         max-width: 170px;
         height: 146px; }
       body .productService__service {
@@ -657,6 +677,17 @@ body {
           width: 305px; }
         body .productService__service--mobile {
           padding-left: 95px; }
+      body .productService--produtpacto {
+        height: 75px; }
+      body .productService--produtlittle {
+        height: 78px; }
+        body .productService--produtlittle img {
+          width: 99px;
+          margin: 30px 20px 0px 13px; }
+      body .productService--produtgroome {
+        height: 78px; }
+      body .productService--produtfrugal {
+        height: 78px; }
     body .about .row {
       width: 1170px;
       margin: 0 auto;
