@@ -2904,7 +2904,11 @@ body {
     .hashworks__workculture .workculture__box h1 {
       font-size: 48px;
       font-family: 'muliRegular';
-      margin: 68px 80px 68px 61px; }
+      margin: 68px 0px 68px 65px; }
+      .hashworks__workculture .workculture__box h1 img {
+        width: 14px;
+        height: 17px;
+        margin-left: 9px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
       font-size: 16px; }
