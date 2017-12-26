@@ -79,21 +79,21 @@
                 </div>
 
             <div class="productService--alignment">
-           <div class="productService__service--mobile">
+           <div onclick="redirect('/mobile/')" class="productService__service--mobile">
               <h4>Mobile Development</h4>
            </div>
             <div class="  ">
-            <div class="productService__service--ops">
+            <div onclick="redirect('/devOps/')" class="productService__service--ops">
               <h4>Data Ops</h4>
             </div>
             </div>
             <div class=" ">
-             <div class="productService__service--data">
+             <div onclick="redirect('/dataScience/')" class="productService__service--data">
                <h4>Data Science</h4>
             </div>
             </div>
             <div class="">
-             <div class="productService__service--cloud">
+             <div onclick="redirect('/cloud/')" class="productService__service--cloud">
               <h4>Application on Cloud</h4>
              </div>
             </div>
@@ -107,29 +107,34 @@
     <div class="row"> 
         <div class=" ">
             <div class="about__Content">
-                <h2><a href="/aboutUs/">ABOUT</a></h2>
+                <h2>ABOUT</h2>
                 <h3>We are IT-change partners enabling digital transformation for Large enterprise & Captive IT units.</h3>
              </div>
         </div>
         <div class="about--algin">
-            <div class="  ">
+            <a href="/aboutUs/">
+                 <div class="  ">
                 <div class="about__thinking">
                 <img class="about__thinking--img" src="/assets/image/product&service/group-26@2x.png"/>
                 <p>Our Thinking</p>
             </div>
-            </div>
-                <div class="  ">
+            </div></a>
+            <a href="/workculture/"> 
+                 <div class="  ">
                   <div class="about__culture">
                         <img class="about__culture--img" src="/assets/image/product&service/fill-1@2x.png"/>
                         <p>Work Culture</p>
                  </div>
                 </div>
+            </a>
+            <a href="/job/"> 
                     <div class="  ">
                       <div class="about__job">
                             <img class="about__job--img" src="/assets/image/product&service/fill.png"/>
                            <p>Job Opening</p>
                      </div>
                     </div>
+            </a>
                 </div>
       </div>
     </div>
@@ -329,36 +334,32 @@
                                          sit amet quam vehicula elementum sed sit amet dui.</p>
                                 <h6>Know More —></h6>    
                             </div>
-                        </div>
-                        
-            </div>
-           
-           
+                        </div>      
+            </div> 
     </div>
 
-    <div class="home__business">
-        <div class="home__business--grew">
+    <div  class="home__business">
+        <div  onclick="redirect('/wegrew/')" class="home__business--grew">
             <h1>BUSINESS IMPACT</h1>
             <h2>How we grew 200%
                 In 3 Years and 
                 counting.&nbsp;&nbsp;></h2>
         </div>
-        <div class="home__business--impact">
+        <div  onclick="redirect('/product/')" class="home__business--impact">
          <h1>BUSINESS IMPACT</h1>
             <h2> Our Business Impact.&nbsp;&nbsp;></h2>
          </div>
     </div>
 
     <div class="home__businessImpact">
-        <div class="home__businessImpact--thinking">
+        <div onclick="redirect('/aboutUs/')" class="home__businessImpact--thinking">
                 <h1>BUSINESS IMPACT</h1>
                 <h2>Our Thinking..&nbsp;&nbsp;></h2>
             </div>
-            <div class="home__businessImpact--culture">
+            <div onclick="redirect('/workculture/')" class="home__businessImpact--culture">
                 <h1>BUSINESS IMPACT</h1>
                 <h2>  Our  Workculture Indeed a  Second home.&nbsp;&nbsp;></h2>
             </div>
-
     </div>
     <div class="home__caseStudy">
         <div class="home__caseStudy--block">
@@ -424,7 +425,7 @@
           <input type="text"  placeholder="Name">
            <input type="email" placeholder="EmailId">
         </div>
-         <input type="button" class="button" value="Subscribe">
+         <input  type="button" class="button" value="Subscribe">
     </div>
  </div>
 

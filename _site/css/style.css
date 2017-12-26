@@ -375,7 +375,10 @@ body {
         body .productService__service--content {
           width: 159px; }
         body .productService__service--mobile {
-          padding-left: 80px; }
+          padding-left: 80px;
+          cursor: pointer; }
+        body .productService__service--ops, body .productService__service--data, body .productService__service--cloud {
+          cursor: pointer; }
     body .about {
       position: absolute;
       z-index: 1;
@@ -891,21 +894,24 @@ body {
     padding: 29px 9px 25px 28px;
     width: 286px; }
   .home__business--grew {
-    background-color: #603c96; }
+    background-color: #603c96;
+    cursor: pointer; }
   .home__business--impact {
     background-image: url(../assets/image/index/rectangle1.jpg);
     height: 170px;
     background-repeat: no-repeat;
     margin-top: 8px;
     background-position: 100%;
-    background-size: cover; }
+    background-size: cover;
+    cursor: pointer; }
   .home__businessImpact h1 {
     font-family: 'muliBold';
     font-size: 12px;
     font-weight: bold;
     text-align: left;
     color: #ffffff;
-    padding: 12px 0px 0px 28px; }
+    padding: 12px 0px 0px 28px;
+    cursor: pointer; }
   .home__businessImpact h2 {
     font-family: 'muliRegular';
     font-size: 24px;
@@ -918,7 +924,8 @@ body {
     background-repeat: no-repeat;
     margin-top: 8px;
     background-position: 100%;
-    background-size: cover; }
+    background-size: cover;
+    cursor: pointer; }
     .home__businessImpact--thinking h2 {
       padding: 60px 0px 25px 28px;
       width: 100px; }
@@ -928,7 +935,8 @@ body {
     background-repeat: no-repeat;
     margin-top: 8px;
     background-position: 100%;
-    background-size: cover; }
+    background-size: cover;
+    cursor: pointer; }
     .home__businessImpact--culture h2 {
       padding: 29px 0px 0px 28px;
       width: 293px; }
@@ -1020,27 +1028,12 @@ body {
   .home__acclerated .img2 {
     width: 91px;
     height: 24px; }
-  .home__acclerated .img3 {
-    width: 91px;
-    height: 41px; }
   .home__acclerated .img4 {
     width: 46px;
     height: 52px; }
   .home__acclerated .img5 {
     width: 89px;
     height: 12px; }
-  .home__acclerated .img6 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img7 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img8 {
-    width: 44px;
-    height: 36px; }
-  .home__acclerated .img9 {
-    width: 44px;
-    height: 36px; }
   .home__roi p {
     font-family: 'muliRegular';
     font-size: 12px;
@@ -1054,7 +1047,8 @@ body {
     display: block;
     margin: 6px auto 0px;
     font-family: 'muliRegular';
-    padding: 3px 0px 5px 13px; }
+    padding: 3px 0px 5px 13px;
+    outline: none; }
   .home__roi--image {
     background-image: url(../assets/image/index/people.jpg);
     height: 147px;
@@ -1069,7 +1063,9 @@ body {
     text-align: center;
     color: #ffffff;
     border: none;
-    margin-top: 6px; } }
+    margin-top: 6px;
+    outline: none;
+    cursor: pointer; } }
 @media screen and (min-width: 768px) {
   .home__hashworks--logo {
     display: block; }

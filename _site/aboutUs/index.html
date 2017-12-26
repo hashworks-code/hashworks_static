@@ -79,21 +79,21 @@
                 </div>
 
             <div class="productService--alignment">
-           <div class="productService__service--mobile">
+           <div onclick="redirect('/mobile/')" class="productService__service--mobile">
               <h4>Mobile Development</h4>
            </div>
             <div class="  ">
-            <div class="productService__service--ops">
+            <div onclick="redirect('/devOps/')" class="productService__service--ops">
               <h4>Data Ops</h4>
             </div>
             </div>
             <div class=" ">
-             <div class="productService__service--data">
+             <div onclick="redirect('/dataScience/')" class="productService__service--data">
                <h4>Data Science</h4>
             </div>
             </div>
             <div class="">
-             <div class="productService__service--cloud">
+             <div onclick="redirect('/cloud/')" class="productService__service--cloud">
               <h4>Application on Cloud</h4>
              </div>
             </div>
@@ -107,29 +107,34 @@
     <div class="row"> 
         <div class=" ">
             <div class="about__Content">
-                <h2><a href="/aboutUs/">ABOUT</a></h2>
+                <h2>ABOUT</h2>
                 <h3>We are IT-change partners enabling digital transformation for Large enterprise & Captive IT units.</h3>
              </div>
         </div>
         <div class="about--algin">
-            <div class="  ">
+            <a href="/aboutUs/">
+                 <div class="  ">
                 <div class="about__thinking">
                 <img class="about__thinking--img" src="/assets/image/product&service/group-26@2x.png"/>
                 <p>Our Thinking</p>
             </div>
-            </div>
-                <div class="  ">
+            </div></a>
+            <a href="/workculture/"> 
+                 <div class="  ">
                   <div class="about__culture">
                         <img class="about__culture--img" src="/assets/image/product&service/fill-1@2x.png"/>
                         <p>Work Culture</p>
                  </div>
                 </div>
+            </a>
+            <a href="/job/"> 
                     <div class="  ">
                       <div class="about__job">
                             <img class="about__job--img" src="/assets/image/product&service/fill.png"/>
                            <p>Job Opening</p>
                      </div>
                     </div>
+            </a>
                 </div>
       </div>
     </div>
