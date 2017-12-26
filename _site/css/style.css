@@ -13,6 +13,9 @@
 .fullHeight {
   height: 100%; }
 
+#mypopover, #mypopover-about {
+  display: none; }
+
 .loader {
   position: fixed;
   align-items: center;
@@ -313,6 +316,15 @@ body {
       border-right: 13px solid transparent;
       border-bottom: 18px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
+    body .popoverer {
+      display: block;
+      position: absolute;
+      top: 27px;
+      left: 325px;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
+      border-bottom: 18px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
     body .productService {
       padding: 22px 0px 20px 0px;
       position: absolute;
@@ -478,6 +490,15 @@ body {
       position: absolute;
       top: 32px;
       left: 182px;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
+    body .popoverer {
+      display: block;
+      position: absolute;
+      top: 32px;
+      left: 445px;
       border-left: 8px solid transparent;
       border-right: 8px solid transparent;
       border-bottom: 10px solid white;
@@ -2857,7 +2878,11 @@ body {
     .hashworks__workculture .workculture__box h1 {
       font-size: 48px;
       font-family: 'muliRegular';
-      margin: 68px 80px 68px 61px; }
+      margin: 68px 0px 68px 65px; }
+      .hashworks__workculture .workculture__box h1 img {
+        width: 14px;
+        height: 17px;
+        margin-left: 9px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
       font-size: 16px; }

@@ -303,7 +303,13 @@
         h1{
             font-size: 48px;
             font-family: 'muliRegular';
-            margin: 68px 80px 68px 61px;
+            margin: 68px 0px 68px 65px;
+
+            img {
+                width: 14px;
+                height: 17px;
+                margin-left: 9px;
+            }
         }
         span {
             margin-left: 3px;

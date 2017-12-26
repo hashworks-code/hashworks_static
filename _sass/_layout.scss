@@ -1,3 +1,6 @@
+#mypopover,#mypopover-about{
+  display:none;
+}
 .loader{
 
   position:fixed;
@@ -418,6 +421,16 @@ margin: 0 auto;
       border-bottom: 18px solid white;
           -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
+    .popoverer{
+      display: block;
+      position: absolute;
+      top: 27px;
+      left: 325px;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
+      border-bottom: 18px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+    }
     .productService{
            padding: 22px 0px 20px 0px;
            position: absolute;
@@ -624,9 +637,7 @@ margin: 0 auto;
       &--toggle{
          display: none;
       }
-    // .popover{
-    //      display: none;
-    // }
+   
     .popover{
         display: block;
         position: absolute;
@@ -636,6 +647,16 @@ margin: 0 auto;
         border-right: 8px solid transparent;
         border-bottom: 10px solid white;
         -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+    }
+    .popoverer{
+      display: block;
+      position: absolute;
+      top: 32px;
+      left: 445px;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 10px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
     .paketo{
         margin-left:48px;
