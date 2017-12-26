@@ -1,4 +1,4 @@
-#mypopover,#mypopover-about{
+.popover,.popoverer{
   display:none;
 }
 .loader{
@@ -408,11 +408,8 @@ margin: 0 auto;
       }
     }
    // product and service
-    .popover{
-         display: none;
-    }
+    
     .popover {
-      display: block;
       position: absolute;
       top: 27px;
       left: 125px;
@@ -422,7 +419,6 @@ margin: 0 auto;
           -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
     .popoverer{
-      display: block;
       position: absolute;
       top: 27px;
       left: 325px;
@@ -657,7 +653,6 @@ margin: 0 auto;
       }
    
     .popover{
-        display: block;
         position: absolute;
         top: 34px;
         left: 175px;
@@ -667,7 +662,6 @@ margin: 0 auto;
         -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
     .popoverer{
-      display: block;
       position: absolute;
       top: 34px;
       left: 445px;
@@ -848,7 +842,6 @@ margin: 0 auto;
          display: none;
     }
     .popover{
-      display: block;
       position: absolute;
       top: 34px;
       left: 175px;
@@ -858,7 +851,6 @@ margin: 0 auto;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA);
   }
   .popoverer{
-    display: block;
     position: absolute;
     top: 34px;
     left: 445px;
