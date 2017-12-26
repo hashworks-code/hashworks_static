@@ -13,7 +13,7 @@
 .fullHeight {
   height: 100%; }
 
-#mypopover, #mypopover-about {
+.popover, .popoverer {
   display: none; }
 
 .loader {
@@ -305,9 +305,6 @@ body {
       body .hashworks__head--toggle {
         display: none; }
     body .popover {
-      display: none; }
-    body .popover {
-      display: block;
       position: absolute;
       top: 27px;
       left: 125px;
@@ -316,7 +313,6 @@ body {
       border-bottom: 18px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
     body .popoverer {
-      display: block;
       position: absolute;
       top: 27px;
       left: 325px;
@@ -504,7 +500,6 @@ body {
       border-bottom: 17px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
     body .popoverer {
-      display: block;
       position: absolute;
       top: 39px;
       left: 457px;
@@ -627,7 +622,6 @@ body {
     body--toggle {
       display: none; }
     body .popover {
-      display: block;
       position: absolute;
       top: 34px;
       left: 175px;
@@ -636,7 +630,6 @@ body {
       border-bottom: 25px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
     body .popoverer {
-      display: block;
       position: absolute;
       top: 34px;
       left: 445px;

@@ -1,4 +1,4 @@
-#mypopover,#mypopover-about{
+.popover,.popoverer{
   display:none;
 }
 .loader{
@@ -310,17 +310,7 @@ body{
         width: 100%;
         position: relative;
   }
-  // #cssmenu .submenu-button{
-  
-  //     position:absolute;
-  //     z-index:99;
-  //     right:0;
-  //     top:0;
-  //     display:block;
-  //     height:46px;
-  //     width:46px;
-  //     cursor:pointer;
-  //   }
+ 
   
   .up-arrow{
       position:absolute;
@@ -353,17 +343,7 @@ body{
     
   }
   
-  // #cssmenu .submenu-button:before{
-  //       position:absolute;
-  //       top:19px;
-  //       right:22px;
-  //       display:block;
-  //       content:' ';
-  //     }
-  // #cssmenu ul ul .submenu-button:before{
-  //       top:12px;
-  //       right:16px
-  //     }
+
   #cssmenu .submenu-button.submenu-opened:before{
         display:none
   }
@@ -408,11 +388,8 @@ body{
       }
     }
    // product and service
-    .popover{
-         display: none;
-    }
+    
     .popover {
-      display: block;
       position: absolute;
       top: 27px;
       left: 125px;
@@ -422,7 +399,6 @@ body{
           -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
     .popoverer{
-      display: block;
       position: absolute;
       top: 27px;
       left: 325px;
@@ -666,7 +642,6 @@ body{
         -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
     .popoverer{
-      display: block;
       position: absolute;
       top: 39px;
       left: 457px;
@@ -847,7 +822,6 @@ body{
          display: none;
     }
     .popover{
-      display: block;
       position: absolute;
       top: 34px;
       left: 175px;
@@ -857,7 +831,6 @@ body{
       -webkit-filter: drop-shadow(0 -2px 2px #AAA);
   }
   .popoverer{
-    display: block;
     position: absolute;
     top: 34px;
     left: 445px;
