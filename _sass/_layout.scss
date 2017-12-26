@@ -472,10 +472,11 @@ margin: 0 auto;
           line-height: 1.4;
           text-align: center;
           color: #3e3e3e;
+          width: 97px;
     }
       img{
           width: 70px;
-          height: 22px;
+          margin:19px 0px 0px 10px;
       }
     &--listmargin{
          margin-left: 80px;
@@ -495,7 +496,7 @@ margin: 0 auto;
           max-width: 100px;
           background-color: #f7f7f7;
           height: 88px;
-          padding: 19px 9px 9px 9px;
+          // padding: 19px 9px 9px 9px;
        
       }
     
@@ -514,6 +515,23 @@ margin: 0 auto;
       cursor: pointer;
        
      }
+    }
+    &--produtpacto{
+      height: 51px;
+    }
+    &--produtlittle{
+      height: 60px;
+  
+      img{
+        width: 55px;
+        margin-left: 18px;
+      }
+    }
+    &--produtgroome{
+      height: 51px;
+    }
+    &--produtfrugal{
+      height: 51px;
     }
    }
   // about 
@@ -641,21 +659,21 @@ margin: 0 auto;
     .popover{
         display: block;
         position: absolute;
-        top: 32px;
-        left: 182px;
-        border-left: 8px solid transparent;
-        border-right: 8px solid transparent;
-        border-bottom: 10px solid white;
+        top: 34px;
+        left: 175px;
+        border-left: 14px solid transparent;
+        border-right: 14px solid transparent;
+        border-bottom: 25px solid white;
         -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
     .popoverer{
       display: block;
       position: absolute;
-      top: 32px;
+      top: 34px;
       left: 445px;
-      border-left: 8px solid transparent;
-      border-right: 8px solid transparent;
-      border-bottom: 10px solid white;
+      border-left: 14px solid transparent;
+      border-right: 14px solid transparent;
+      border-bottom: 25px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
     .paketo{
@@ -682,11 +700,12 @@ margin: 0 auto;
       }
       p{
         font-size: 12px;
+        width: 140px;
       }
    
       img{
         width: 113px;
-        height: 30px;
+       margin: 27px 13px 16px 13px;
       }
     
       &--productContent{
@@ -705,8 +724,7 @@ margin: 0 auto;
         max-width: 140px;
         background-color: #f7f7f7;
         height: 122px;
-        padding: 27px 13px 16px 13px;
-        margin-bottom: 38px;
+       
        
       }
     
@@ -717,6 +735,23 @@ margin: 0 auto;
          &--content{
           width: 241px;
        }
+    }
+    &--produtpacto{
+      height: 75px;
+    }
+    &--produtlittle{
+      height: 78px;
+  
+      img{
+        width: 68px;
+        margin: 24px 36px 16px 36px;
+      }
+    }
+    &--produtgroome{
+      height: 78px;
+    }
+    &--produtfrugal{
+      height: 78px;
     }
    }
     // about 
@@ -846,11 +881,12 @@ margin: 0 auto;
       p{
           font-size: 14px;
           padding-top: 20px;
+          width: 170px;
       }
    
       img{
-          width: 137px;
-          height: 38px;
+          width: 125px;
+          margin: 38px 19px 16px 13px;
       }
     
       &--productContent{
@@ -865,8 +901,8 @@ margin: 0 auto;
     }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
           background-color: #f7f7f7;
-          padding: 30px 19px 16px 13px;
-          margin-bottom: 38px;
+        
+          // margin-bottom: 38px;
           max-width: 170px;
           height: 146px;
        
@@ -883,6 +919,23 @@ margin: 0 auto;
           padding-left: 95px;
         
       }
+    }
+    &--produtpacto{
+      height: 75px;
+    }
+    &--produtlittle{
+      height: 78px;
+  
+      img{
+        width: 99px;
+        margin: 30px 20px 0px 13px;
+      }
+    }
+    &--produtgroome{
+      height: 78px;
+    }
+    &--produtfrugal{
+      height: 78px;
     }
   }
   .about{
