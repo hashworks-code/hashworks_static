@@ -1831,10 +1831,9 @@ body {
     background-image: url(../assets/image/ferdinand-stohr-230173.png);
     background-repeat: no-repeat;
     height: 270px;
-    width: 100%;
     background-size: cover;
-    background-size: 100%;
-    object-fit: contain; }
+    object-fit: contain;
+    background-position: 100%; }
   .product__content1 {
     width: 1158px;
     margin: 0 auto; }
@@ -1873,8 +1872,7 @@ body {
     font-weight: 100;
     font-size: 48px; }
   .product__Groome_logo img {
-    width: 238px;
-    height: 73px; }
+    width: 238px; }
   .product__Groome p {
     font-size: 24px;
     margin-bottom: 10px; }
@@ -1889,11 +1887,9 @@ body {
   .product__borderRight {
     border-right: 1px solid #ccc; }
   .product__borderRight img {
-    width: 217px !important;
-    height: 128px !important; }
+    width: 217px !important; }
   .product__paketo img {
-    width: 84px;
-    height: 128px; }
+    width: 84px; }
   .product__paketo p {
     width: 457px;
     margin: 0 auto 38px;
@@ -1943,17 +1939,13 @@ body {
     align-items: center;
     justify-content: center; }
   .product__img1 {
-    width: 116px;
-    height: 69px; }
+    width: 116px; }
   .product__img2 {
-    width: 52px;
-    height: 80px; }
+    width: 52px; }
   .product__img3 {
-    width: 145px;
-    height: 50px; }
+    width: 145px; }
   .product__img4 {
-    width: 144px;
-    height: 31px; }
+    width: 144px; }
   .product__arrow {
     vertical-align: middle; }
 
@@ -1983,8 +1975,7 @@ body {
   .product__Groome h2 {
     font-size: 24px; }
   .product__Groome_logo img {
-    width: 189px;
-    height: 38px; }
+    width: 189px; }
   .product__Groome p {
     font-size: 16px; }
   .product__Groome span {
@@ -1996,11 +1987,9 @@ body {
   .product__borderRight {
     border-right: 1px solid #ccc; }
   .product__borderRight img {
-    width: 185px !important;
-    height: 109px !important; }
+    width: 185px !important; }
   .product__paketo img {
-    width: 71.5px;
-    height: 109px; }
+    width: 71.5px; }
   .product__paketo p {
     width: 380px;
     margin: 16px auto;
@@ -2062,8 +2051,7 @@ body {
   .product__Groome {
     height: 309px; }
   .product__Groome_logo img {
-    width: 142px;
-    height: 29px; }
+    width: 142px; }
   .product__Groome h4 {
     font-size: 14px; }
   .product__Groome h2 {
@@ -2075,8 +2063,7 @@ body {
   .product__paketo {
     margin: 16px 0 32px; }
   .product__borderRight img {
-    width: 135.3px !important;
-    height: 80px !important; }
+    width: 135.3px !important; }
   .product__paketo h2 {
     font-size: 18px;
     font-weight: 100; }
@@ -2087,8 +2074,7 @@ body {
     width: 160px;
     height: 38px; }
   .product__paketo img {
-    width: 52px;
-    height: 79px; }
+    width: 52px; }
   .product__borderTop {
     width: 701px;
     margin: 30px auto 32px; }
@@ -2108,17 +2094,13 @@ body {
   .product__pipeline h1 {
     font-size: 24px; }
   .product__img1 {
-    width: 94px;
-    height: 56px; }
+    width: 94px; }
   .product__img2 {
-    width: 39px;
-    height: 59px; }
+    width: 39px; }
   .product__img3 {
-    width: 110px;
-    height: 44px; }
+    width: 110px; }
   .product__img4 {
-    width: 110px;
-    height: 40px; } }
+    width: 110px; } }
 @media only screen and (max-width: 767px) {
   .product__headImg {
     height: 144px; }
@@ -2148,8 +2130,7 @@ body {
     justify-content: left;
     align-items: left; }
   .product__Groome_logo img {
-    width: 88px;
-    height: 18px; }
+    width: 88px; }
   .product__Groome h4 {
     font-size: 12px;
     padding: 17px 0 8px;
@@ -2167,8 +2148,7 @@ body {
     border-right: none;
     padding-bottom: 39px; }
   .product__borderRight img {
-    width: 100px !important;
-    height: 59px !important; }
+    width: 100px !important; }
   .product__paketo h2 {
     font-size: 16px; }
   .product__paketo p {
@@ -2191,20 +2171,15 @@ body {
     height: 26.4px;
     font-size: 10px; }
   .product__paketo img {
-    width: 38px;
-    height: 58px; }
+    width: 38px; }
   .product__img1 {
-    width: 94px;
-    height: 56px; }
+    width: 94px; }
   .product__img2 {
-    width: 39px;
-    height: 59px; }
+    width: 39px; }
   .product__img3 {
-    width: 110px;
-    height: 44px; }
+    width: 110px; }
   .product__img4 {
-    width: 110px;
-    height: 40px; }
+    width: 110px; }
   .product__borderTop {
     width: 261px;
     margin: 32px auto; }
@@ -3714,7 +3689,8 @@ ul.tabs li.current {
     background-repeat: no-repeat;
     height: 229px;
     width: 100%;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: 1000%;
     object-fit: contain; }
   .aboutus__content1 {
     height: 229px;

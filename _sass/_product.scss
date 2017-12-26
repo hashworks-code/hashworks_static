@@ -6,10 +6,9 @@
       background-image: url(../assets/image/ferdinand-stohr-230173.png);
       background-repeat: no-repeat;
       height: 270px;
-      width: 100%;
       background-size:cover;
-      background-size: 100%;
       object-fit: contain;
+      background-position: 100%;
     }
     &__content1{
       width: 1158px;
@@ -63,7 +62,6 @@
     }
     &__Groome_logo img{
       width: 238px;
-      height: 73px;
     }
     &__Groome p {
       font-size: 24px;
@@ -90,11 +88,9 @@
     }
     &__borderRight img{
       width: 217px !important;
-      height: 128px !important;
     }
     &__paketo img{
       width: 84px;
-      height: 128px;
     }
     &__paketo p{
       width: 457px;
@@ -163,19 +159,19 @@
     }
     &__img1{
       width: 116px;
-      height: 69px;
+      
     }
     &__img2{
       width: 52px;
-      height: 80px
+     
     }
     &__img3{
       width: 145px;
-      height: 50px;
+     
     }
     &__img4{
       width: 144px;
-      height: 31px;
+     
     }
   
   
@@ -244,7 +240,6 @@
     }
     &__Groome_logo img{
       width: 189px;
-      height: 38px;
     }
     &__Groome p {
       font-size: 16px;
@@ -265,11 +260,9 @@
     }
     &__borderRight img{
       width: 185px !important;
-      height: 109px !important;
     }
     &__paketo img{
       width: 71.5px;
-      height: 109px;
     }
     &__paketo p{
       width: 380px;
@@ -333,15 +326,19 @@
     }
     &__img1{
       width: 136px;
+     
     }
     &__img2{
       width: 45px;
+   
     }
     &__img3{
       width: 131px;
+      
     }
     &__img4{
       width: 131px;
+   
     }
     
     
@@ -375,7 +372,6 @@
       }
       &__Groome_logo img {
         width: 142px;
-        height: 29px;
       }
       &__Groome h4 {
         font-size: 14px;
@@ -395,7 +391,6 @@
     }
     &__borderRight img {
       width: 135.3px !important;
-      height: 80px !important;
     }
     &__paketo h2 {
       font-size: 18px;
@@ -411,7 +406,6 @@
     }
     &__paketo img {
       width: 52px;
-      height: 79px;
     }
     &__borderTop {
       width: 701px;
@@ -442,19 +436,19 @@
     }
     &__img1 {
       width: 94px;
-      height: 56px;
+     
     }
     &__img2 {
       width: 39px;
-      height: 59px;
+  
     }
     &__img3 {
       width: 110px;
-      height: 44px;
+ 
     }
     &__img4 {
       width: 110px;
-      height: 40px;
+     
     }
     }
   
@@ -501,7 +495,6 @@
     }
     &__Groome_logo img {
       width: 88px;
-      height: 18px;
     }
     &__Groome h4 {
       font-size: 12px;
@@ -526,7 +519,6 @@
     }
     &__borderRight img {
       width: 100px !important;
-      height: 59px !important;
     }
     &__paketo h2 {
       font-size: 16px;
@@ -559,23 +551,22 @@
     }
     &__paketo img {
       width: 38px;
-      height: 58px;
     }
     &__img1 {
       width: 94px;
-      height: 56px;
+  
     }
     &__img2 {
       width: 39px;
-      height: 59px;
+ 
     }
     &__img3 {
       width: 110px;
-      height: 44px;
+   
     }
     &__img4 {
       width: 110px;
-      height: 40px;
+    
     }
     &__borderTop{
       width: 261px;
