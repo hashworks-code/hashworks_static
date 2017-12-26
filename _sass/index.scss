@@ -1373,8 +1373,9 @@
             }
             &--image{
                 background-image:url(../assets/image/index/people.jpg);
-                background-size: 100% 100%;
-                height:672px;
+                background-size: cover;
+                height: 672px;
+                background-position: 100%;
             }
             .button{
                 width: 270px;

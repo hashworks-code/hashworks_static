@@ -84,8 +84,8 @@ body{
   .product_view{
       background-color: none;
       .row{
-width: 261px;
-margin: 0 auto;
+        width: 261px;
+        margin: 0 auto;
       }
     h2 {
         font-family: 'muliBold';
@@ -122,9 +122,9 @@ margin: 0 auto;
         padding: 7px 0px 0px 7px;
       }
     img{
-        width: 70px;
-        height: 22px;
-        padding-left: 9px;
+      width: 67px;
+      margin-top: 19px;
+      margin-left: 10px;
     }
     &--content{
         width: 100%;
@@ -149,7 +149,7 @@ margin: 0 auto;
         max-width: 100px;
         background-color: #f7f7f7;
         height: 88px;
-        padding: 19px 6px 0px 2px;
+        // padding: 19px 6px 0px 2px;
         margin-right: 10px;
      
     }
@@ -658,22 +658,21 @@ margin: 0 auto;
    
     .popover{
         display: block;
-        position: absolute;
-        top: 34px;
+        top: 39px;
         left: 175px;
-        border-left: 14px solid transparent;
-        border-right: 14px solid transparent;
-        border-bottom: 25px solid white;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 17px solid white;
         -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
     .popoverer{
       display: block;
       position: absolute;
-      top: 34px;
-      left: 445px;
-      border-left: 14px solid transparent;
-      border-right: 14px solid transparent;
-      border-bottom: 25px solid white;
+      top: 39px;
+      left: 457px;
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-bottom: 17px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA);
     }
     .paketo{
