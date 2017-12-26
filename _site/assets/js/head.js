@@ -31,7 +31,7 @@ $('#abouttoggle').click(function () {
 $(window).resize(function(){
     if($(window).width()<768){
         $('.loader').hide();
-         $('.menulist').hide();
+        $('#myDropdown,#aboutDropdown').hide();
     }
 
 });
