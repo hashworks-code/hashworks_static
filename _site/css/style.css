@@ -107,9 +107,9 @@ body {
         color: #3e3e3e;
         padding: 7px 0px 0px 7px; }
       body .product_view img {
-        width: 70px;
-        height: 22px;
-        padding-left: 9px; }
+        width: 67px;
+        margin-top: 19px;
+        margin-left: 10px; }
       body .product_view--content {
         width: 100%; }
       body .product_view--productContent {
@@ -127,7 +127,6 @@ body {
         max-width: 100px;
         background-color: #f7f7f7;
         height: 88px;
-        padding: 19px 6px 0px 2px;
         margin-right: 10px; }
       body .product_view .service__view {
         border-top: solid 1px #dadada;
@@ -494,19 +493,19 @@ body {
       display: none; }
     body .popover {
       position: absolute;
-      top: 34px;
+      top: 40px;
       left: 175px;
-      border-left: 14px solid transparent;
-      border-right: 14px solid transparent;
-      border-bottom: 25px solid white;
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-bottom: 17px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
     body .popoverer {
       position: absolute;
-      top: 34px;
-      left: 445px;
-      border-left: 14px solid transparent;
-      border-right: 14px solid transparent;
-      border-bottom: 25px solid white;
+      top: 40px;
+      left: 457px;
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-bottom: 17px solid white;
       -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
     body .paketo {
       margin-left: 48px; }
@@ -1813,8 +1812,9 @@ body {
     font-size: 24px; }
   .home__roi--image {
     background-image: url(../assets/image/index/people.jpg);
-    background-size: 100% 100%;
-    height: 672px; }
+    background-size: cover;
+    height: 672px;
+    background-position: 100%; }
   .home__roi .button {
     width: 270px;
     font-size: 24px;
@@ -1832,7 +1832,8 @@ body {
     background-repeat: no-repeat;
     height: 270px;
     width: 100%;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-size: 100%;
     object-fit: contain; }
   .product__content1 {
     width: 1158px;
@@ -2035,17 +2036,13 @@ body {
     align-items: center;
     justify-content: center; }
   .product__img1 {
-    width: 136px;
-    height: 80px; }
+    width: 136px; }
   .product__img2 {
-    width: 45px;
-    height: 69px; }
+    width: 45px; }
   .product__img3 {
-    width: 131px;
-    height: 44px; }
+    width: 131px; }
   .product__img4 {
-    width: 131px;
-    height: 30px; } }
+    width: 131px; } }
 @media only screen and (max-width: 1024px) {
   .product__headImg {
     height: 144px; }
