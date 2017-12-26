@@ -631,8 +631,22 @@ body {
     body .popover {
       display: block;
       position: absolute;
+<<<<<<< HEAD
       top: 32px;
       left: 182px;
+=======
+      top: 34px;
+      left: 175px;
+      border-left: 14px solid transparent;
+      border-right: 14px solid transparent;
+      border-bottom: 25px solid white;
+      -webkit-filter: drop-shadow(0 -2px 2px #AAA); }
+    body .popoverer {
+      display: block;
+      position: absolute;
+      top: 34px;
+      left: 445px;
+>>>>>>> 01db9cfa0b31b6225ac895a2a5c3496395e4ea7e
       border-left: 14px solid transparent;
       border-right: 14px solid transparent;
       border-bottom: 25px solid white;
@@ -1691,7 +1705,8 @@ body {
       padding: 103px 95px 29px 42px; }
     .home__business--grew {
       background-color: #603c96;
-      width: 770px; }
+      width: 770px;
+      margin: 0px; }
     .home__business--impact {
       height: 396px;
       width: 370px;
