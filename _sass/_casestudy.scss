@@ -1,17 +1,41 @@
 @media screen and (min-width:320px){ 
+
    .hashworks__casestudy {
-      
+      .content__inner {
+	
+    position:absolute;
+    width: 262px;
+    height: 120px;
+    bottom:42px;
+    margin:0 auto;
+    left:29px;
+    bottom:16px;
+	h2{
+        
+       
+
+        font-family:'muliRegular';
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+    }
+}
        .row{
         width: 270px;
         margin: 0px auto;
         padding: 0;
         }
         .casestudy__image{
-            background-image: url(../assets/image/casestudy/1.png);
+            // background-image: url(../assets/image/casestudy/1.png);
               background-size: 100% 100%;
              background-repeat: no-repeat;
             width: 100%;
-            height: 249px;
+            // height: 249px;
             
           h1 {
               font-family: 'muliRegular';
@@ -229,6 +253,20 @@
 
 @media screen and (min-width:768px){ 
     .hashworks__casestudy { 
+
+        .content__inner {
+            
+
+            width: 614px;
+            height: 88px;
+
+            margin:0 auto;
+            left:33px;
+            bottom:32px;
+            h2{
+                font-size: 32px;
+              }
+        }
        .row{
         width: 703px;
         }
@@ -380,6 +418,19 @@
 
 @media screen and (min-width:1024px){ 
     .hashworks__casestudy { 
+        .content__inner {
+            
+
+            width: 826px;
+            height: 120px;
+
+            margin:0 auto;
+            left:42px;
+            bottom:32px;
+            h2{
+                font-size: 48px;
+              }
+        }
        .row{
         width: 940px;
         }
@@ -526,6 +577,19 @@
 
 @media screen and (min-width:1367px){ 
     .hashworks__casestudy { 
+        .content__inner {
+            
+
+            width: 964px;
+            height: 150px;
+
+            margin:0 auto;
+            left:133px;
+            bottom:32px;
+            h2{
+                font-size: 56px;
+              }
+        }
        .row{
         width: 1097px;
         }
