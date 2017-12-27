@@ -36,6 +36,24 @@
         }
 
 @media screen and(min-width:320px) {
+
+    .slickright{
+        color: white;
+        position: absolute;
+        right: 12px;
+        top: 61px;
+        font-size: 24px;
+        cursor: pointer;
+      }
+      .slickleft{
+        color: white;
+        position: absolute;
+        left: 12px;
+        top: 61px;
+        font-size: 24px;
+        cursor: pointer;
+      }
+    
     .home__hashworks--logo{
         display:none;
     }
@@ -140,32 +158,8 @@
     outline: none;
  
 }
-.slick-next {
-    right: 18px;
-}
-.slick-prev {
-    left: 10px;
-    z-index: 1;
-    position: absolute;
-}
-.slick-next:before {
-    content: '>';
-    font-size: 35px;
-    line-height: 0.4;
-    width: 10.3px;
-    height: 5.7px;
-     color: #f7f7f7;
-     opacity: 1;
-}
-.slick-prev:before {
-   content: '<';
-    font-size: 35px;
-    line-height: 0.4;
-    width: 10.3px;
-    height: 5.7px;
-    color: #f7f7f7;
-    opacity: 1;
-}
+
+
 .slick-initialized .slick-slide {
     display: block;
     outline: none !important;
@@ -404,6 +398,24 @@
 }
       
 @media screen and(min-width:768px) {
+    
+    .slickright{
+        color: white;
+        position: absolute;
+        right: 26px;
+        top: 119px;
+        font-size: 36px;
+        cursor: pointer;
+      }
+      .slickleft{
+        color: white;
+        position: absolute;
+        left: 26px;
+        top: 119px;
+        font-size: 36px;
+        cursor: pointer;
+        z-index: 1;
+      }
     .home__hashworks--logo{
         display:block;
     }
@@ -508,37 +520,8 @@
                 margin: 0px 0px 48px;
             }
    
-    .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-        /* color: transparent; */
-        outline: none;
-     
-    }
-    .slick-next {
-        right: 33px;
-    }
-    .slick-prev {
-        left: 33px;
-    }
-    .slick-next:before {
-        content: '>';
-        font-size: 40px;
-        line-height: 0.4;
-        width: 10.3px;
-        height: 5.7px;
-         color: #f7f7f7;
-         opacity: 1;
-    }
-    .slick-prev:before {
-       content: '<';
-        font-size: 40px;
-        line-height: 0.4;
-        width: 10.3px;
-        height: 5.7px;
-        color: #f7f7f7;
-        opacity: 1;
-    }
-    
-        }
+       
+     }
         &__business{
             display: flex;
             width: 700px;
@@ -753,6 +736,16 @@
 
           
 @media screen and(min-width:1024px) {
+    .slickright{
+        right: 35px;
+        top: 163px;
+        font-size: 52px;
+      }
+      .slickleft{
+        left: 35px;
+        top: 163px;
+        font-size: 52px;
+      }
     .home__hashworks--logo{
         display:block;
     }
@@ -835,35 +828,7 @@
                 font-size: 16px;
                 margin: 0px 0px 93px;
             }
-    .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-        /* color: transparent; */
-        outline: none;
-     
-    }
-    .slick-next {
-        right: 33px;
-    }
-    .slick-prev {
-        left: 33px;
-    }
-    .slick-next:before {
-        content: '>';
-        font-size: 50px;
-        line-height: 0.4;
-        width: 10.3px;
-        height: 5.7px;
-         color: #f7f7f7;
-         opacity: 1;
-    }
-    .slick-prev:before {
-       content: '<';
-        font-size: 50px;
-        line-height: 0.4;
-        width: 10.3px;
-        height: 5.7px;
-        color: #f7f7f7;
-        opacity: 1;
-    }
+  
         }
         &__business{
             display: flex;
@@ -1071,6 +1036,16 @@
 
               
 @media screen and(min-width:1367px) {
+    .slickright{
+    right: 125px;
+        top: 146px;
+        font-size: 119px;
+      }
+      .slickleft{
+        left: 143px;
+        top: 146px;
+        font-size: 119px;
+      }
     .home-container--logo{
         display:block;
     }
@@ -1131,6 +1106,10 @@
                     align-items: center;
                     justify-content: center;
                 }
+                .row{
+                    width: 1193px;
+                    margin: 0 auto;
+                }
             }
         
             h1{
@@ -1153,35 +1132,7 @@
                 margin: 0px 0px 85px;
             }
 
-    .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-        /* color: transparent; */
-        outline: none;
-     
-    }
-    .slick-next {
-        right: 120px;
-    }
-    .slick-prev {
-        left: 120px;
-    }
-    .slick-next:before {
-        content: '>';
-        font-size: 50px;
-        line-height: 0.4;
-        width: 10.3px;
-        height: 5.7px;
-         color: #f7f7f7;
-         opacity: 1;
-    }
-    .slick-prev:before {
-       content: '<';
-        font-size: 50px;
-        line-height: 0.4;
-        width: 10.3px;
-        height: 5.7px;
-        color: #f7f7f7;
-        opacity: 1;
-    }
+  
 
         }
         &__business{
