@@ -317,17 +317,7 @@ body{
         width: 100%;
         position: relative;
   }
-  // #cssmenu .submenu-button{
-  
-  //     position:absolute;
-  //     z-index:99;
-  //     right:0;
-  //     top:0;
-  //     display:block;
-  //     height:46px;
-  //     width:46px;
-  //     cursor:pointer;
-  //   }
+ 
   
   .up-arrow{
     position:absolute;
@@ -362,17 +352,6 @@ body{
     
   }
   
-  // #cssmenu .submenu-button:before{
-  //       position:absolute;
-  //       top:19px;
-  //       right:22px;
-  //       display:block;
-  //       content:' ';
-  //     }
-  // #cssmenu ul ul .submenu-button:before{
-  //       top:12px;
-  //       right:16px
-  //     }
   #cssmenu .submenu-button.submenu-opened:before{
         display:none
   }
@@ -380,6 +359,7 @@ body{
   }
   
   @media screen and (min-width:768px){ 
+  
     #cssmenu{
           display: none;
     }
@@ -395,6 +375,7 @@ body{
           background-color: #ffffff;
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
           border: solid 1px #f7f7f7;
+          position: relative;
       &--logo{
           height: 23px;
       }
@@ -799,7 +780,7 @@ body{
    
    }
    &__culture{
-        width: 145px;
+        width: 146px;
         height: 47px;
         background-color: #f7f7f7;
         padding: 9px;

@@ -296,7 +296,8 @@ body {
       padding: 17px 0px 15px 34px;
       background-color: #ffffff;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-      border: solid 1px #f7f7f7; }
+      border: solid 1px #f7f7f7;
+      position: relative; }
       body .hashworks__head--logo {
         height: 23px; }
       body .hashworks__head--list {
@@ -595,7 +596,7 @@ body {
         height: 22px;
         display: inline-block; }
     body .about__culture {
-      width: 145px;
+      width: 146px;
       height: 47px;
       background-color: #f7f7f7;
       padding: 9px; }
@@ -834,6 +835,22 @@ body {
   border-bottom: none; }
 
 @media screen and (min-width: 320px) {
+  .slickright {
+    color: white;
+    position: absolute;
+    right: 12px;
+    top: 61px;
+    font-size: 24px;
+    cursor: pointer; }
+
+  .slickleft {
+    color: white;
+    position: absolute;
+    left: 12px;
+    top: 61px;
+    font-size: 24px;
+    cursor: pointer; }
+
   .home__hashworks--logo {
     display: none; }
 
@@ -915,28 +932,6 @@ body {
     .home__groome .slick-prev:hover, .home__groome .slick-prev:focus, .home__groome .slick-next:hover, .home__groome .slick-next:focus {
       /* color: transparent; */
       outline: none; }
-    .home__groome .slick-next {
-      right: 18px; }
-    .home__groome .slick-prev {
-      left: 10px;
-      z-index: 1;
-      position: absolute; }
-    .home__groome .slick-next:before {
-      content: '>';
-      font-size: 35px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
-    .home__groome .slick-prev:before {
-      content: '<';
-      font-size: 35px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
     .home__groome .slick-initialized .slick-slide {
       display: block;
       outline: none !important; }
@@ -1121,6 +1116,23 @@ body {
     outline: none;
     cursor: pointer; } }
 @media screen and (min-width: 768px) {
+  .slickright {
+    color: white;
+    position: absolute;
+    right: 26px;
+    top: 119px;
+    font-size: 36px;
+    cursor: pointer; }
+
+  .slickleft {
+    color: white;
+    position: absolute;
+    left: 26px;
+    top: 119px;
+    font-size: 36px;
+    cursor: pointer;
+    z-index: 1; }
+
   .home__hashworks--logo {
     display: block; }
 
@@ -1203,29 +1215,6 @@ body {
     .home__groome h6 {
       font-size: 14px;
       margin: 0px 0px 48px; }
-    .home__groome .slick-prev:hover, .home__groome .slick-prev:focus, .home__groome .slick-next:hover, .home__groome .slick-next:focus {
-      /* color: transparent; */
-      outline: none; }
-    .home__groome .slick-next {
-      right: 33px; }
-    .home__groome .slick-prev {
-      left: 33px; }
-    .home__groome .slick-next:before {
-      content: '>';
-      font-size: 40px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
-    .home__groome .slick-prev:before {
-      content: '<';
-      font-size: 40px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
   .home__business {
     display: flex;
     width: 700px;
@@ -1374,6 +1363,16 @@ body {
     width: 490px;
     margin: 0 auto; } }
 @media screen and (min-width: 1024px) {
+  .slickright {
+    right: 35px;
+    top: 163px;
+    font-size: 52px; }
+
+  .slickleft {
+    left: 35px;
+    top: 163px;
+    font-size: 52px; }
+
   .home__hashworks--logo {
     display: block; }
 
@@ -1438,29 +1437,6 @@ body {
     .home__groome h6 {
       font-size: 16px;
       margin: 0px 0px 93px; }
-    .home__groome .slick-prev:hover, .home__groome .slick-prev:focus, .home__groome .slick-next:hover, .home__groome .slick-next:focus {
-      /* color: transparent; */
-      outline: none; }
-    .home__groome .slick-next {
-      right: 33px; }
-    .home__groome .slick-prev {
-      left: 33px; }
-    .home__groome .slick-next:before {
-      content: '>';
-      font-size: 50px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
-    .home__groome .slick-prev:before {
-      content: '<';
-      font-size: 50px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
   .home__business {
     display: flex;
     width: 940px;
@@ -1601,6 +1577,16 @@ body {
     width: 654px;
     margin: 0 auto; } }
 @media screen and (min-width: 1367px) {
+  .slickright {
+    right: 125px;
+    top: 146px;
+    font-size: 119px; }
+
+  .slickleft {
+    left: 143px;
+    top: 146px;
+    font-size: 119px; }
+
   .home-container--logo {
     display: block; }
 
@@ -1649,6 +1635,9 @@ body {
       display: flex;
       align-items: center;
       justify-content: center; }
+    .home__groome__product .row {
+      width: 1193px;
+      margin: 0 auto; }
     .home__groome h1 {
       display: -webkit-box;
       font-size: 16px;
@@ -1664,29 +1653,6 @@ body {
     .home__groome h6 {
       font-size: 16px;
       margin: 0px 0px 85px; }
-    .home__groome .slick-prev:hover, .home__groome .slick-prev:focus, .home__groome .slick-next:hover, .home__groome .slick-next:focus {
-      /* color: transparent; */
-      outline: none; }
-    .home__groome .slick-next {
-      right: 120px; }
-    .home__groome .slick-prev {
-      left: 120px; }
-    .home__groome .slick-next:before {
-      content: '>';
-      font-size: 50px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
-    .home__groome .slick-prev:before {
-      content: '<';
-      font-size: 50px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
   .home__business {
     display: flex;
     width: 1170px;
