@@ -9,8 +9,9 @@
         }
         &__image {
              background-image: url(../assets/image/contactus/group-6.png);
-              background-size: 100% 100%;
-             background-repeat: no-repeat;
+             background-size: cover;
+                 background-position: center center;
+                 background-repeat: no-repeat;
             width: 100%;
             height: 180px;
 

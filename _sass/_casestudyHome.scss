@@ -78,7 +78,8 @@
            }
             &__image1 {
                  background-image: url(../assets/image/casestudy/casestudy1.jpg);
-                 background-size: 100% 100%;
+                 background-size: cover;
+                 background-position: center center;
                  background-repeat: no-repeat;
                  width: 100%;
                  height: 148px;
