@@ -1,0 +1,50 @@
+.content {
+	position: relative;
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 0 auto; */
+	min-height:850px;
+	max-height:850px;
+	width:100% !important;
+}
+
+/* .content__inner > h2 {
+	
+	position:absolute;
+	left:133px;
+	bottom:42px;
+
+	width: 964px;
+	height: 120px;
+	font-family:'muliRegular';
+	font-size: 56px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+} */
+
+.row.demo-2{
+	width:100% !important;
+	max-height:850px !important;
+	min-height:850px !important;
+}
+canvas{
+	width:100% !important;
+	max-height:850px !important;
+	min-height:850px !important;
+	position: absolute !important;
+}
+.casestudy__image{
+	max-height:850px !important;
+	min-height:850px !important;
+}
+
+
+
+

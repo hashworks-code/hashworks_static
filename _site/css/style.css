@@ -2877,16 +2877,32 @@ body {
     height: 331px;
     margin-top: -212px; } }
 @media screen and (min-width: 320px) {
+  .hashworks__casestudy .content__inner {
+    position: absolute;
+    width: 262px;
+    height: 120px;
+    bottom: 42px;
+    margin: 0 auto;
+    left: 29px;
+    bottom: 16px; }
+    .hashworks__casestudy .content__inner h2 {
+      font-family: 'muliRegular';
+      font-size: 24px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff; }
   .hashworks__casestudy .row {
     width: 270px;
     margin: 0px auto;
     padding: 0; }
   .hashworks__casestudy .casestudy__image {
-    background-image: url(../assets/image/casestudy/1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 249px; }
+    width: 100%; }
     .hashworks__casestudy .casestudy__image h1 {
       font-family: 'muliRegular';
       font-size: 24px;
@@ -3055,6 +3071,14 @@ body {
       width: 100%;
       height: 202px; } }
 @media screen and (min-width: 768px) {
+  .hashworks__casestudy .content__inner {
+    width: 614px;
+    height: 88px;
+    margin: 0 auto;
+    left: 33px;
+    bottom: 32px; }
+    .hashworks__casestudy .content__inner h2 {
+      font-size: 32px; }
   .hashworks__casestudy .row {
     width: 703px; }
   .hashworks__casestudy .casestudy__image {
@@ -3158,6 +3182,14 @@ body {
       width: 340px;
       height: 187px; } }
 @media screen and (min-width: 1024px) {
+  .hashworks__casestudy .content__inner {
+    width: 826px;
+    height: 120px;
+    margin: 0 auto;
+    left: 42px;
+    bottom: 32px; }
+    .hashworks__casestudy .content__inner h2 {
+      font-size: 48px; }
   .hashworks__casestudy .row {
     width: 940px; }
   .hashworks__casestudy .casestudy__image {
@@ -3254,6 +3286,14 @@ body {
       width: 460px;
       height: 254px; } }
 @media screen and (min-width: 1367px) {
+  .hashworks__casestudy .content__inner {
+    width: 964px;
+    height: 150px;
+    margin: 0 auto;
+    left: 133px;
+    bottom: 32px; }
+    .hashworks__casestudy .content__inner h2 {
+      font-size: 56px; }
   .hashworks__casestudy .row {
     width: 1097px; }
   .hashworks__casestudy .casestudy__image {
