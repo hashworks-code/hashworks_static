@@ -381,7 +381,12 @@ body {
         width: 500px;
         display: flex;
         justify-content: space-between;
-        align-items: center; }
+        align-items: flex-start; }
+      body .productService--alignment2 {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
         max-width: 100px;
         background-color: #f7f7f7;
@@ -547,7 +552,9 @@ body {
         width: 689px;
         display: flex;
         justify-content: space-between;
-        align-items: center; }
+        align-items: flex-start; }
+      body .productService--alignment2 {
+        width: 689px; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
         max-width: 140px;
         background-color: #f7f7f7;
@@ -675,7 +682,10 @@ body {
         width: 836px;
         display: flex;
         justify-content: space-between;
-        align-items: center; }
+        align-items: flex-start; }
+      body .productService--alignment2 {
+        width: 836px;
+        margin-top: 32px; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
         background-color: #f7f7f7;
         max-width: 170px;

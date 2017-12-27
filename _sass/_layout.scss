@@ -476,7 +476,13 @@ body{
           width: 500px;
           display: flex;
           justify-content: space-between;
-          align-items: center;
+          align-items: flex-start;
+      }
+        &--alignment2{
+          width: 500px;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 30px;
       }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
           max-width: 100px;
@@ -702,7 +708,10 @@ body{
         width: 689px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
+      }
+      &--alignment2{
+        width: 689px;
       }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
         max-width: 140px;
@@ -886,7 +895,11 @@ body{
           width: 836px;
           display: flex;
           justify-content: space-between;
-          align-items: center;
+          align-items: flex-start;
+    }
+         &--alignment2 {
+          width: 836px;
+          margin-top: 32px;
     }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
           background-color: #f7f7f7;
