@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="/css/hashGrid.css">
     <link rel="stylesheet" href="/css/style.css">
-    <!-- <link rel="stylesheet" href="/css/ionicons-2.0.1/"> -->
+    <link rel="stylesheet" href="/css/ionicons-2.0.1/css/ionicons.css">
      <link rel="alternate" type="application/rss+xml" title="Hashworks" href="/feed.xml">
      <link rel="stylesheet" type="text/css" href="/css/demo2.css" />
     <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css"/>
@@ -94,7 +94,7 @@
                     </div> 
                 </div>
 
-            <div class="productService--alignment">
+            <div class="productService--alignment2">
            <div onclick="redirect('/mobile/')" class="productService__service--mobile">
               <h4>Mobile Development</h4>
            </div>
@@ -131,14 +131,14 @@
             <a href="/aboutUs/">
                  <div class="  ">
                 <div class="about__thinking">
-                <img class="about__thinking--img" src="/assets/image/product&service/group-26@2x.png"/>
+                <img class="about__thinking--img" src="/assets/image/product&service/group-26.svg"/>
                 <p>Our Thinking</p>
             </div>
             </div></a>
             <a href="/workculture/"> 
                  <div class="  ">
                   <div class="about__culture">
-                        <img class="about__culture--img" src="/assets/image/product&service/fill-1@2x.png"/>
+                        <img class="about__culture--img" src="/assets/image/product&service/fill-1.svg"/>
                         <p>Work Culture</p>
                  </div>
                 </div>
@@ -146,7 +146,7 @@
             <a href="/job/"> 
                     <div class="  ">
                       <div class="about__job">
-                            <img class="about__job--img" src="/assets/image/product&service/fill.png"/>
+                            <img class="about__job--img" src="/assets/image/product&service/fill-2.svg"/>
                            <p>Job Opening</p>
                      </div>
                     </div>
@@ -320,6 +320,7 @@
         <h2>Innovation.Colloboration.Change</h2>
         <p> Partner for your software driven  business to deliver profits and growth...</p>
     </div>
+    
     </div>
 
     <div class="home__groome">
@@ -359,7 +360,7 @@
             <h1>BUSINESS IMPACT</h1>
             <h2>How we grew 200%
                 In 3 Years and 
-                counting.&nbsp;&nbsp;></h2>
+                counting.&nbsp;&nbsp;<i class="ion-chevron-right"></i></h2>
         </div>
         <div  onclick="redirect('/product/')" class="home__business--impact">
          <h1>BUSINESS IMPACT</h1>
@@ -454,6 +455,8 @@
 <script>
      $(document).ready(function(){
       $('.home__groome').slick({
+        nextArrow: '<i class="ion-ios-arrow-right slickright"></i>',
+        prevArrow: '<i class="ion-ios-arrow-left slickleft"></i>',
         dots:false
         });
     });

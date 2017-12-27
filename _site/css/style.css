@@ -296,7 +296,8 @@ body {
       padding: 17px 0px 15px 34px;
       background-color: #ffffff;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-      border: solid 1px #f7f7f7; }
+      border: solid 1px #f7f7f7;
+      position: relative; }
       body .hashworks__head--logo {
         height: 23px; }
       body .hashworks__head--list {
@@ -380,7 +381,12 @@ body {
         width: 500px;
         display: flex;
         justify-content: space-between;
-        align-items: center; }
+        align-items: flex-start; }
+      body .productService--alignment2 {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
         max-width: 100px;
         background-color: #f7f7f7;
@@ -546,7 +552,9 @@ body {
         width: 689px;
         display: flex;
         justify-content: space-between;
-        align-items: center; }
+        align-items: flex-start; }
+      body .productService--alignment2 {
+        width: 689px; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
         max-width: 140px;
         background-color: #f7f7f7;
@@ -595,7 +603,7 @@ body {
         height: 22px;
         display: inline-block; }
     body .about__culture {
-      width: 145px;
+      width: 146px;
       height: 47px;
       background-color: #f7f7f7;
       padding: 9px; }
@@ -674,7 +682,10 @@ body {
         width: 836px;
         display: flex;
         justify-content: space-between;
-        align-items: center; }
+        align-items: flex-start; }
+      body .productService--alignment2 {
+        width: 836px;
+        margin-top: 32px; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
         background-color: #f7f7f7;
         max-width: 170px;
@@ -834,6 +845,22 @@ body {
   border-bottom: none; }
 
 @media screen and (min-width: 320px) {
+  .slickright {
+    color: white;
+    position: absolute;
+    right: 12px;
+    top: 61px;
+    font-size: 24px;
+    cursor: pointer; }
+
+  .slickleft {
+    color: white;
+    position: absolute;
+    left: 12px;
+    top: 61px;
+    font-size: 24px;
+    cursor: pointer; }
+
   .home__hashworks--logo {
     display: none; }
 
@@ -915,28 +942,6 @@ body {
     .home__groome .slick-prev:hover, .home__groome .slick-prev:focus, .home__groome .slick-next:hover, .home__groome .slick-next:focus {
       /* color: transparent; */
       outline: none; }
-    .home__groome .slick-next {
-      right: 18px; }
-    .home__groome .slick-prev {
-      left: 10px;
-      z-index: 1;
-      position: absolute; }
-    .home__groome .slick-next:before {
-      content: '>';
-      font-size: 35px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
-    .home__groome .slick-prev:before {
-      content: '<';
-      font-size: 35px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
     .home__groome .slick-initialized .slick-slide {
       display: block;
       outline: none !important; }
@@ -1121,6 +1126,23 @@ body {
     outline: none;
     cursor: pointer; } }
 @media screen and (min-width: 768px) {
+  .slickright {
+    color: white;
+    position: absolute;
+    right: 26px;
+    top: 119px;
+    font-size: 36px;
+    cursor: pointer; }
+
+  .slickleft {
+    color: white;
+    position: absolute;
+    left: 26px;
+    top: 119px;
+    font-size: 36px;
+    cursor: pointer;
+    z-index: 1; }
+
   .home__hashworks--logo {
     display: block; }
 
@@ -1203,29 +1225,6 @@ body {
     .home__groome h6 {
       font-size: 14px;
       margin: 0px 0px 48px; }
-    .home__groome .slick-prev:hover, .home__groome .slick-prev:focus, .home__groome .slick-next:hover, .home__groome .slick-next:focus {
-      /* color: transparent; */
-      outline: none; }
-    .home__groome .slick-next {
-      right: 33px; }
-    .home__groome .slick-prev {
-      left: 33px; }
-    .home__groome .slick-next:before {
-      content: '>';
-      font-size: 40px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
-    .home__groome .slick-prev:before {
-      content: '<';
-      font-size: 40px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
   .home__business {
     display: flex;
     width: 700px;
@@ -1374,6 +1373,16 @@ body {
     width: 490px;
     margin: 0 auto; } }
 @media screen and (min-width: 1024px) {
+  .slickright {
+    right: 35px;
+    top: 163px;
+    font-size: 52px; }
+
+  .slickleft {
+    left: 35px;
+    top: 163px;
+    font-size: 52px; }
+
   .home__hashworks--logo {
     display: block; }
 
@@ -1438,29 +1447,6 @@ body {
     .home__groome h6 {
       font-size: 16px;
       margin: 0px 0px 93px; }
-    .home__groome .slick-prev:hover, .home__groome .slick-prev:focus, .home__groome .slick-next:hover, .home__groome .slick-next:focus {
-      /* color: transparent; */
-      outline: none; }
-    .home__groome .slick-next {
-      right: 33px; }
-    .home__groome .slick-prev {
-      left: 33px; }
-    .home__groome .slick-next:before {
-      content: '>';
-      font-size: 50px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
-    .home__groome .slick-prev:before {
-      content: '<';
-      font-size: 50px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
   .home__business {
     display: flex;
     width: 940px;
@@ -1601,6 +1587,16 @@ body {
     width: 654px;
     margin: 0 auto; } }
 @media screen and (min-width: 1367px) {
+  .slickright {
+    right: 125px;
+    top: 146px;
+    font-size: 100px; }
+
+  .slickleft {
+    left: 143px;
+    top: 146px;
+    font-size: 100px; }
+
   .home-container--logo {
     display: block; }
 
@@ -1649,6 +1645,9 @@ body {
       display: flex;
       align-items: center;
       justify-content: center; }
+    .home__groome__product .row {
+      width: 1193px;
+      margin: 0 auto; }
     .home__groome h1 {
       display: -webkit-box;
       font-size: 16px;
@@ -1664,29 +1663,6 @@ body {
     .home__groome h6 {
       font-size: 16px;
       margin: 0px 0px 85px; }
-    .home__groome .slick-prev:hover, .home__groome .slick-prev:focus, .home__groome .slick-next:hover, .home__groome .slick-next:focus {
-      /* color: transparent; */
-      outline: none; }
-    .home__groome .slick-next {
-      right: 120px; }
-    .home__groome .slick-prev {
-      left: 120px; }
-    .home__groome .slick-next:before {
-      content: '>';
-      font-size: 50px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
-    .home__groome .slick-prev:before {
-      content: '<';
-      font-size: 50px;
-      line-height: 0.4;
-      width: 10.3px;
-      height: 5.7px;
-      color: #f7f7f7;
-      opacity: 1; }
   .home__business {
     display: flex;
     width: 1170px;
@@ -1841,8 +1817,7 @@ body {
     background-repeat: no-repeat;
     height: 270px;
     background-size: cover;
-    object-fit: contain;
-    background-position: 100%; }
+    background-position: center center; }
   .product__content1 {
     width: 1158px;
     margin: 0 auto; }
@@ -2201,37 +2176,24 @@ body {
     .product__pipeline h1 {
       font-size: 18px;
       margin-bottom: 32px; }
-    .product__pipeline .slick-prev:before, .product__pipeline .slick-next:before {
-      font-family: 'slick';
-      font-size: 20px;
-      line-height: 1;
-      opacity: .75;
-      color: black;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale; }
-    .product__pipeline .slick-slide img {
-      display: inline-block; }
-    .product__pipeline .slick-prev:before, .product__pipeline .slick-next:before {
-      font-family: 'slick';
-      font-size: 27px;
-      width: 20px !important;
-      height: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      line-height: 30px;
-      padding: 3px;
-      opacity: .75;
-      color: white;
-      background-color: #777777;
-      border-radius: 50%;
-      -webkit-font-smoothing: antialiased; }
-    .product__pipeline .slick-prev {
-      left: 0;
-      z-index: 11; }
-    .product__pipeline .slick-next {
-      right: 0;
-      z-index: 11; } }
+
+  .slickprod {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 35px;
+    color: #7f7f7f; }
+
+  .slickprod1 {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 35px;
+    color: #7f7f7f; } }
 @media only screen and (min-width: 320px) {
   .service {
     font-family: 'muliRegular';
@@ -2510,7 +2472,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 115px; }
+    height: 115px;
+    background-position: center center; }
     .hashworks__grewpage .grewpage__image h1 {
       font-family: 'muliRegular';
       font-size: 24px;
@@ -2709,10 +2672,11 @@ body {
     padding: 0px; }
   .hashworks__workculture .workculture__image {
     background-image: url(../assets/image/workculture/work.png);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 228px; }
+    height: 228px;
+    background-position: center center; }
     .hashworks__workculture .workculture__image h1 {
       font-family: 'muliRegular';
       font-size: 24px;
@@ -3453,8 +3417,9 @@ body {
   .hashworks__casestudyHome .casestudy__events__banner {
     background-image: url(../assets/image/casestudy/case-study-banner.png);
     background-size: cover;
-    background-position: 100%;
+    background-position: center center;
     background-repeat: no-repeat;
+    width: 100%;
     height: 230px; }
     .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-family: 'muliRegular';
@@ -3478,7 +3443,8 @@ body {
     padding: 0; }
   .hashworks__casestudyHome .casestudy__events__image1 {
     background-image: url(../assets/image/casestudy/casestudy1.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
     height: 148px; }
@@ -3549,7 +3515,7 @@ body {
       font-size: 48px;
       padding: 220px 720px 28px 43px; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
-    margin: 32px 97px 27px 243px; }
+    margin: 32px 177px 27px 243px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {
       font-size: 16px;
       padding-right: 27px; }
@@ -3582,9 +3548,11 @@ body {
     .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-size: 56px;
       padding: 330px 936px 32px 136px; }
-  .hashworks__casestudyHome .casestudy__events .category-filter p {
-    font-size: 18px;
-    padding-right: 26px; }
+  .hashworks__casestudyHome .casestudy__events .category-filter {
+    margin: 27px 313px 31px 312px; }
+    .hashworks__casestudyHome .casestudy__events .category-filter p {
+      font-size: 18px;
+      padding-right: 26px; }
   .hashworks__casestudyHome .casestudy__events .event {
     padding: 0; }
   .hashworks__casestudyHome .casestudy__events__image1 {
@@ -3739,8 +3707,7 @@ ul.tabs li.current {
     height: 229px;
     width: 100%;
     background-size: cover;
-    background-position: 1000%;
-    object-fit: contain; }
+    background-position: center center; }
   .aboutus__content1 {
     height: 229px;
     width: 100%;
@@ -6845,7 +6812,8 @@ ul.tabs li.current {
     padding: 0; }
   .hashworks__contactUs__image {
     background-image: url(../assets/image/contactus/group-6.png);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
     height: 180px; }

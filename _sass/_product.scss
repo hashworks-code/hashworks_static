@@ -7,8 +7,8 @@
       background-repeat: no-repeat;
       height: 270px;
       background-size:cover;
-      object-fit: contain;
-      background-position: 100%;
+      // object-fit: contain;
+      background-position: center center;
     }
     &__content1{
       width: 1158px;
@@ -138,10 +138,7 @@
       font-weight: 100;
       font-size: 32px;
     }
-    // &__borderTop2{
-    //   border-top: 1px solid #ccc;
-    //   margin: 5% 5% 0;
-    // }
+
     &__pipeline h1 {
       margin-bottom: 68px;
       color: #603c96;
@@ -183,12 +180,7 @@
   @media only screen and (max-width: 1366px){
   .product{
     &__headImg{
-      // background-image: url(../assets/image/ferdinand-stohr-230173.png);
-      // background-repeat: no-repeat;
       height: 192px;
-      // width: 100%;
-      // background-size: 100% 100%;
-      // object-fit: contain;
     }
     &__content1{
       width: 935px;
@@ -216,19 +208,10 @@
      
     }
     &__GroomeImg{
-      // background-image: url(../assets/image/rectangle-10.png);
-      // background-repeat: no-repeat;
-      height: 400px;
-      // background-size: 100% 100%;
+     height: 400px;
     }
      &__Groome{
-    //   // background-color: #5e5b5b;
-    //   color: #fff;
     height: 400px;
-    //   display: flex;
-    //   // justify-content: center;
-    //   align-items: center;
-    //   // margin: 32px 0;
     }
     &__Groome h4 {
       font-size: 16px;
@@ -302,17 +285,9 @@
     }
     &__detail h1 {
       margin-bottom: 32px;
-      // color: #603c96;
-      // font-weight: 100;
     }
-    // &__borderTop2{
-    //   border-top: 1px solid #ccc;
-    //   margin: 5% 5% 0;
-    // }
     &__pipeline h1 {
       margin-bottom: 62px;
-      // color: #603c96;
-      // font-weight: 100;
     }
     
     &__pipeline {
@@ -583,46 +558,27 @@
         font-size: 18px;
         margin-bottom: 32px;
       }
-      .slick-prev:before, .slick-next:before {
-        font-family: 'slick';
-        font-size: 20px;
-        line-height: 1;
-        opacity: .75;
-        color: black;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        }
-        .slick-slide img {
-          display: inline-block;
-      }
-      .slick-prev:before, .slick-next:before{
-        font-family: 'slick';
-        font-size: 27px;
-        width: 20px !important;
-        height: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        line-height: 30px;
-        padding: 3px;
-        opacity: .75;
-        color: white;
-        background-color: #777777;
-        border-radius: 50%;
-        -webkit-font-smoothing: antialiased;
-    
-      }
-      .slick-prev {
-        left: 0;
-        z-index: 11;
-      }
-      .slick-next {
-        right: 0;
-        z-index: 11;
-      }
-      
+          
     }
    
   }
+  .slickprod{
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 35px;
+    color: #7f7f7f;
+  } 
+  .slickprod1{
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 35px;
+    color: #7f7f7f;
+  } 
   } 
   
