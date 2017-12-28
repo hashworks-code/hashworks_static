@@ -3,11 +3,12 @@
         font-family: 'muliRegular';
         color: #4a4a4a;
         &__container{
-            width: 270px;
+            width: 270px;            // background-image: url(../assets/image/devOps/data-ops-banner-1.png);
+            
             margin: 0 auto;
         }
         &__headImg{
-            background-image: url(../assets/image/devOps/data-ops-banner-1.png);
+            // background-image: url(../assets/image/devOps/data-ops-banner-1.png);
             background-repeat: no-repeat;
             height: 232px;
             width: 100%;
@@ -16,7 +17,9 @@
         }
         &__head{
             font-size: 24px;
-            padding-top: 186px;
+            position: absolute;
+            left:27px;
+            bottom:16px;
             color: #fff;
         }
         &__content{
@@ -206,7 +209,8 @@
         }
         &__head {
             font-size: 36px;
-            padding-top: 149px;
+            left:32px;
+            bottom:30px;
         }
         &__content {
             padding: 32px 0;
@@ -331,7 +335,8 @@
         }
         &__head {
             font-size: 48px;
-            padding-top: 216px;
+            left:40px;
+            bottom:30px;
         }
         &__content {
             padding: 35px 0 32px;
@@ -466,8 +471,10 @@
         }
         &__head {
             font-size: 56px;
-            padding-top: 327px;
-        }
+            bottom:33px;
+            left:135px;
+
+       }
         &__content {
             padding: 92px 0 118px;
             h1 {

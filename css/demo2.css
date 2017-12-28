@@ -1,12 +1,17 @@
 @media screen and (min-width:320px){
-	.content {
+	.animator{
+		width:100% !important;
+		min-height:400px;
+		max-height:400px;
+		position: relative;
+	}
+	/* .content {
 		position: relative;
 		min-height:400px;
 		max-height:400px;
 		width:100% !important;
 		
-	}
-	
+	} */
 	
 	
 	.row.demo-2{
@@ -21,12 +26,7 @@
 		min-height:400px !important;
 		position: absolute !important;
 	}
-	.casestudy__image{
-		width:100% !important;
-		
-		max-height:400px !important;
-		min-height:400px !important;
-	}
+
 
 }
 
@@ -34,33 +34,37 @@
 
 
 @media screen and (min-width:768px){
-	.content {
+	/* .content {
 		position: relative;
 		min-height:520px;
 		max-height:520px;
+	} */
+	
+	
+	.animator{
+		max-height:520px !important;
+		min-height:520px !important;
 	}
-	
-	
-	
 	.row.demo-2{
 		max-height:520px !important;
 		min-height:520px !important;
 	}
 	canvas{
-		max-height:650px !important;
-		min-height:650px !important;
+		max-height:520px !important;
+		min-height:520px !important;
 		position: absolute !important;
 	}
-	.casestudy__image{
-		max-height:650px !important;
-		min-height:650px !important;
-	}
+
 
 }
 @media screen and (min-width:1024px){
-	.content {
+	/* .content {
 		min-height:650px;
 		max-height:650px;
+	} */
+	.animator{
+		max-height:650px !important;
+		min-height:650px !important;
 	}
 	.row.demo-2{
 		max-height:650px !important;
@@ -70,10 +74,7 @@
 		max-height:650px !important;
 		min-height:650px !important;
 	}
-	.casestudy__image{
-		max-height:650px !important;
-		min-height:650px !important;
-	}
+	
 
 }
 
