@@ -28,66 +28,57 @@ $('#mydiv').toggle()
 $('#abouttoggle').click(function () {
 $('#aboutContent').toggle()
 });
-$(window).resize(function(){
-if($(window).width()<768){
-  $('.loader').hide();
-  $('#myDropdown,#aboutDropdown,#mypopover,#mypopover-about').hide();
-}
 
-});
-if($(window).width()<768){
+if($(window).width()<768)
+{
 
           setTimeout(function(){ 
-              
-                      // $('.loader').hide();
-                      $('.loader').fadeOut()
-      
-                      }, 4500);
-                      setTimeout(function(){
-                           $('.home__hashworks--logo').css('display','block');
-      
-                          // $('.home-container--logo').fadeIn(1000);
-      
-                      },5000)
-      
-      }
+              $('.loader').fadeOut()
+               }, 4500);
 
-     
-      
-      $('.hashworks__head--product').click(function(e){
+           setTimeout(function(){
+              $('.home__hashworks--logo').css('display','block');      
+                },5000)
+}
+
+ $('.hashworks__head--product').click(function(e)
+{
           $('#myDropdown').toggle();
           $('#mypopover').toggle();
           $("#aboutDropdown,#mypopover-about").hide();
-
-          e.stopPropagation();
-      });
-      $('#aboutDropdown').click(function(e){
+         e.stopPropagation();
+});
+      
+$('#aboutDropdown').click(function(e)
+{
          $(this).show();
          $('#mypopover-about').show();
          e.stopPropagation();
-      })
-      $('#myDropdown').click(function(e){
+})
+     
+$('#myDropdown').click(function(e){
         $(this).show();
         $('#mypopover').show();
         e.stopPropagation();
-        
-      })
+ })
       
-      $('.hashworks__head--about').click(function(e){
+$('.hashworks__head--about').click(function(e){
           $('#myDropdown,#mypopover').hide();
           $("#aboutDropdown,#mypopover-about").toggle();
           e.stopPropagation();
-      })
-      $(document).click(function(){
+})
+
+$(document).click(function(){
 
           $('#myDropdown,#mypopover,#aboutDropdown,#mypopover-about').hide();
           
-      })
+})
 
 
 
-function redirect(x){
-window.location = x;
+function redirect(x)
+{
+      window.location = x;
 }
 
 (function($) {
@@ -154,3 +145,12 @@ window.location = x;
     });
     });
     })(jQuery);
+    
+    $(window).resize(function(){
+      if($(window).width()<768){
+        $('.home__hashworks--logo').css('display','block');
+        $('.loader').hide();
+        $('#myDropdown,#aboutDropdown,#mypopover,#mypopover-about').hide();
+      }
+      
+      });
