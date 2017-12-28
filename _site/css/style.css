@@ -994,7 +994,7 @@ body {
     cursor: pointer; }
     .home__businessImpact--thinking h2 {
       padding: 60px 0px 25px 28px;
-      width: 100px; }
+      width: 160px; }
   .home__businessImpact--culture {
     background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
     height: 170px;
@@ -1236,7 +1236,7 @@ body {
     .home__business h2 {
       font-size: 32px;
       padding: 36px 11px 29px 39px;
-      width: 100%; }
+      width: 388px; }
     .home__business--grew {
       background-color: #603c96;
       width: 460px;
@@ -1245,6 +1245,8 @@ body {
       height: 227px;
       width: 220px;
       margin-top: 16px; }
+      .home__business--impact h2 {
+        width: 220px; }
   .home__businessImpact {
     display: flex;
     justify-content: space-between;
@@ -1262,7 +1264,7 @@ body {
       margin-top: 16px; }
       .home__businessImpact--thinking h2 {
         padding: 72px 0px 25px 39px;
-        width: 100px; }
+        width: 220px; }
     .home__businessImpact--culture {
       width: 460px;
       height: 170px;
@@ -1457,13 +1459,16 @@ body {
       padding: 30px 0px 0px 29px; }
     .home__business h2 {
       font-size: 42px;
-      padding: 56px 68px 29px 29px; }
+      padding: 56px 0px 29px 29px;
+      width: 474px; }
     .home__business--grew {
       background-color: #603c96;
       width: 621px; }
     .home__business--impact {
       height: 323px;
       width: 300px; }
+      .home__business--impact h2 {
+        width: 280px; }
   .home__businessImpact {
     display: flex;
     width: 940px;
@@ -1479,7 +1484,7 @@ body {
       margin-top: 16px; }
       .home__businessImpact--thinking h2 {
         padding: 118px 0px 25px 26px;
-        width: 100px;
+        width: 300px;
         font-size: 42px; }
     .home__businessImpact--culture {
       width: 621px;
@@ -1673,7 +1678,8 @@ body {
       padding: 25px 0px 0px 42px; }
     .home__business h2 {
       font-size: 48px;
-      padding: 103px 95px 29px 42px; }
+      padding: 103px 0px 29px 42px;
+      width: 545px; }
     .home__business--grew {
       background-color: #603c96;
       width: 770px;
@@ -1682,6 +1688,8 @@ body {
       height: 396px;
       width: 370px;
       margin: 0 auto; }
+      .home__business--impact h2 {
+        width: 326px; }
   .home__businessImpact {
     display: flex;
     width: 1170px;
@@ -1699,7 +1707,7 @@ body {
       margin: 0 auto; }
       .home__businessImpact--thinking h2 {
         padding: 177px 0px 25px 42px;
-        width: 100px; }
+        width: 336px; }
     .home__businessImpact--culture {
       width: 770px;
       margin: 0 auto;
