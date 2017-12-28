@@ -52,12 +52,12 @@ body {
       background-color: white; }
     body .menulist {
       position: absolute;
-      display: block;
       background-color: #f7f7f7;
       width: 100%;
       padding: 32px 0px 17px 0px;
       list-style-type: none;
-      z-index: 50; }
+      z-index: 50;
+      display: none; }
       body .menulist li {
         list-style-type: none; }
       body .menulist a {
@@ -994,7 +994,7 @@ body {
     cursor: pointer; }
     .home__businessImpact--thinking h2 {
       padding: 60px 0px 25px 28px;
-      width: 100px; }
+      width: 160px; }
   .home__businessImpact--culture {
     background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
     height: 170px;
@@ -1236,7 +1236,7 @@ body {
     .home__business h2 {
       font-size: 32px;
       padding: 36px 11px 29px 39px;
-      width: 100%; }
+      width: 388px; }
     .home__business--grew {
       background-color: #603c96;
       width: 460px;
@@ -1245,6 +1245,8 @@ body {
       height: 227px;
       width: 220px;
       margin-top: 16px; }
+      .home__business--impact h2 {
+        width: 220px; }
   .home__businessImpact {
     display: flex;
     justify-content: space-between;
@@ -1262,7 +1264,7 @@ body {
       margin-top: 16px; }
       .home__businessImpact--thinking h2 {
         padding: 72px 0px 25px 39px;
-        width: 100px; }
+        width: 220px; }
     .home__businessImpact--culture {
       width: 460px;
       height: 170px;
@@ -1457,13 +1459,16 @@ body {
       padding: 30px 0px 0px 29px; }
     .home__business h2 {
       font-size: 42px;
-      padding: 56px 68px 29px 29px; }
+      padding: 56px 0px 29px 29px;
+      width: 474px; }
     .home__business--grew {
       background-color: #603c96;
       width: 621px; }
     .home__business--impact {
       height: 323px;
       width: 300px; }
+      .home__business--impact h2 {
+        width: 280px; }
   .home__businessImpact {
     display: flex;
     width: 940px;
@@ -1479,7 +1484,7 @@ body {
       margin-top: 16px; }
       .home__businessImpact--thinking h2 {
         padding: 118px 0px 25px 26px;
-        width: 100px;
+        width: 300px;
         font-size: 42px; }
     .home__businessImpact--culture {
       width: 621px;
@@ -1673,7 +1678,8 @@ body {
       padding: 25px 0px 0px 42px; }
     .home__business h2 {
       font-size: 48px;
-      padding: 103px 95px 29px 42px; }
+      padding: 103px 0px 29px 42px;
+      width: 545px; }
     .home__business--grew {
       background-color: #603c96;
       width: 770px;
@@ -1682,6 +1688,8 @@ body {
       height: 396px;
       width: 370px;
       margin: 0 auto; }
+      .home__business--impact h2 {
+        width: 326px; }
   .home__businessImpact {
     display: flex;
     width: 1170px;
@@ -1699,7 +1707,7 @@ body {
       margin: 0 auto; }
       .home__businessImpact--thinking h2 {
         padding: 177px 0px 25px 42px;
-        width: 100px; }
+        width: 336px; }
     .home__businessImpact--culture {
       width: 770px;
       margin: 0 auto;
@@ -2176,37 +2184,24 @@ body {
     .product__pipeline h1 {
       font-size: 18px;
       margin-bottom: 32px; }
-    .product__pipeline .slick-prev:before, .product__pipeline .slick-next:before {
-      font-family: 'slick';
-      font-size: 20px;
-      line-height: 1;
-      opacity: .75;
-      color: black;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale; }
-    .product__pipeline .slick-slide img {
-      display: inline-block; }
-    .product__pipeline .slick-prev:before, .product__pipeline .slick-next:before {
-      font-family: 'slick';
-      font-size: 27px;
-      width: 20px !important;
-      height: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      line-height: 30px;
-      padding: 3px;
-      opacity: .75;
-      color: white;
-      background-color: #777777;
-      border-radius: 50%;
-      -webkit-font-smoothing: antialiased; }
-    .product__pipeline .slick-prev {
-      left: 0;
-      z-index: 11; }
-    .product__pipeline .slick-next {
-      right: 0;
-      z-index: 11; } }
+
+  .slickprod {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 35px;
+    color: #7f7f7f; }
+
+  .slickprod1 {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 35px;
+    color: #7f7f7f; } }
 @media only screen and (min-width: 320px) {
   .service {
     font-family: 'muliRegular';
@@ -2890,16 +2885,32 @@ body {
     height: 331px;
     margin-top: -212px; } }
 @media screen and (min-width: 320px) {
+  .hashworks__casestudy .content__inner {
+    position: absolute;
+    width: 262px;
+    height: 120px;
+    bottom: 42px;
+    margin: 0 auto;
+    left: 29px;
+    bottom: 16px; }
+    .hashworks__casestudy .content__inner h2 {
+      font-family: 'muliRegular';
+      font-size: 24px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff; }
   .hashworks__casestudy .row {
     width: 270px;
     margin: 0px auto;
     padding: 0; }
   .hashworks__casestudy .casestudy__image {
-    background-image: url(../assets/image/casestudy/1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 249px; }
+    width: 100%; }
     .hashworks__casestudy .casestudy__image h1 {
       font-family: 'muliRegular';
       font-size: 24px;
@@ -3068,6 +3079,14 @@ body {
       width: 100%;
       height: 202px; } }
 @media screen and (min-width: 768px) {
+  .hashworks__casestudy .content__inner {
+    width: 614px;
+    height: 88px;
+    margin: 0 auto;
+    left: 33px;
+    bottom: 32px; }
+    .hashworks__casestudy .content__inner h2 {
+      font-size: 32px; }
   .hashworks__casestudy .row {
     width: 703px; }
   .hashworks__casestudy .casestudy__image {
@@ -3171,6 +3190,14 @@ body {
       width: 340px;
       height: 187px; } }
 @media screen and (min-width: 1024px) {
+  .hashworks__casestudy .content__inner {
+    width: 826px;
+    height: 120px;
+    margin: 0 auto;
+    left: 42px;
+    bottom: 32px; }
+    .hashworks__casestudy .content__inner h2 {
+      font-size: 48px; }
   .hashworks__casestudy .row {
     width: 940px; }
   .hashworks__casestudy .casestudy__image {
@@ -3267,6 +3294,14 @@ body {
       width: 460px;
       height: 254px; } }
 @media screen and (min-width: 1367px) {
+  .hashworks__casestudy .content__inner {
+    width: 964px;
+    height: 150px;
+    margin: 0 auto;
+    left: 133px;
+    bottom: 32px; }
+    .hashworks__casestudy .content__inner h2 {
+      font-size: 56px; }
   .hashworks__casestudy .row {
     width: 1097px; }
   .hashworks__casestudy .casestudy__image {
