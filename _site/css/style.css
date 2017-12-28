@@ -5182,7 +5182,6 @@ ul.tabs li.current {
       width: 270px;
       margin: 0 auto; }
     .dataScience__headImg {
-      background-image: url(../assets/image/dataScience/data-science-banner.png);
       background-repeat: no-repeat;
       height: 232px;
       width: 100%;
@@ -5190,7 +5189,9 @@ ul.tabs li.current {
       object-fit: contain; }
     .dataScience__head {
       font-size: 24px;
-      padding-top: 186px;
+      position: absolute;
+      left: 27px;
+      bottom: 16px;
       color: #fff; }
     .dataScience__content {
       height: 100%;
@@ -5337,7 +5338,8 @@ ul.tabs li.current {
     height: 230px; }
   .dataScience__head {
     font-size: 36px;
-    padding-top: 149px; }
+    left: 32px;
+    bottom: 30px; }
   .dataScience__content {
     padding: 32px 0; }
     .dataScience__content h1 {
@@ -5424,7 +5426,8 @@ ul.tabs li.current {
     height: 306px; }
   .dataScience__head {
     font-size: 48px;
-    padding-top: 216px; }
+    left: 40px;
+    bottom: 30px; }
   .dataScience__content {
     padding: 35px 0 32px; }
     .dataScience__content h1 {
@@ -5521,7 +5524,8 @@ ul.tabs li.current {
     height: 430px; }
   .dataScience__head {
     font-size: 56px;
-    padding-top: 327px; }
+    left: 135px;
+    bottom: 33px; }
   .dataScience__content {
     padding: 92px 0 118px; }
     .dataScience__content h1 {
@@ -5630,7 +5634,6 @@ ul.tabs li.current {
       width: 270px;
       margin: 0 auto; }
     .devOps__headImg {
-      background-image: url(../assets/image/devOps/data-ops-banner-1.png);
       background-repeat: no-repeat;
       height: 232px;
       width: 100%;
@@ -5638,7 +5641,9 @@ ul.tabs li.current {
       object-fit: contain; }
     .devOps__head {
       font-size: 24px;
-      padding-top: 186px;
+      position: absolute;
+      left: 27px;
+      bottom: 16px;
       color: #fff; }
     .devOps__content {
       height: 100%;
@@ -5785,7 +5790,8 @@ ul.tabs li.current {
     height: 230px; }
   .devOps__head {
     font-size: 36px;
-    padding-top: 149px; }
+    left: 32px;
+    bottom: 30px; }
   .devOps__content {
     padding: 32px 0; }
     .devOps__content h1 {
@@ -5872,7 +5878,8 @@ ul.tabs li.current {
     height: 306px; }
   .devOps__head {
     font-size: 48px;
-    padding-top: 216px; }
+    left: 40px;
+    bottom: 30px; }
   .devOps__content {
     padding: 35px 0 32px; }
     .devOps__content h1 {
@@ -5969,7 +5976,8 @@ ul.tabs li.current {
     height: 430px; }
   .devOps__head {
     font-size: 56px;
-    padding-top: 327px; }
+    bottom: 33px;
+    left: 135px; }
   .devOps__content {
     padding: 92px 0 118px; }
     .devOps__content h1 {
