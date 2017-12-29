@@ -42,6 +42,11 @@
 
         }
         .casestudy__events {
+            .shadow:hover{
+                transform:scale(1.03);
+                box-shadow: 0px 0px 4px 2px red;
+                
+            }
             &__banner {
                background-image: url(../assets/image/casestudy/case-study-banner.png);
                  background-size: cover;
@@ -126,6 +131,9 @@
 
         }
         .casestudy__events {
+            .shadow{
+                width:340px;
+            }
             &__banner {
                  h1 {
                        font-size: 36px;
@@ -182,6 +190,9 @@
 
         }
         .casestudy__events {
+            .shadow{
+                width:458px;
+            }
             &__banner {
                 height: 306px;
                  h1 {
@@ -239,6 +250,9 @@
 
         }
         .casestudy__events {
+            .shadow{
+                width:569px;
+            }
             &__banner {
                 height: 430px;
                  h1 {
