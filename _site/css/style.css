@@ -2887,11 +2887,7 @@ body {
 @media screen and (min-width: 320px) {
   .hashworks__casestudy .content__inner {
     position: absolute;
-    width: 262px;
-    height: 120px;
-    bottom: 42px;
-    margin: 0 auto;
-    left: 29px;
+    width: 100%;
     bottom: 16px; }
     .hashworks__casestudy .content__inner h2 {
       font-family: 'muliRegular';
@@ -2902,7 +2898,9 @@ body {
       line-height: normal;
       letter-spacing: normal;
       text-align: left;
-      color: #ffffff; }
+      color: #ffffff;
+      width: 270px;
+      margin: 0 auto; }
   .hashworks__casestudy .row {
     width: 270px;
     margin: 0px auto;
@@ -3080,13 +3078,11 @@ body {
       height: 202px; } }
 @media screen and (min-width: 768px) {
   .hashworks__casestudy .content__inner {
-    width: 614px;
-    height: 88px;
-    margin: 0 auto;
-    left: 33px;
+    width: 100%;
     bottom: 32px; }
     .hashworks__casestudy .content__inner h2 {
-      font-size: 32px; }
+      font-size: 32px;
+      width: 710px; }
   .hashworks__casestudy .row {
     width: 703px; }
   .hashworks__casestudy .casestudy__image {
@@ -3191,13 +3187,11 @@ body {
       height: 187px; } }
 @media screen and (min-width: 1024px) {
   .hashworks__casestudy .content__inner {
-    width: 826px;
-    height: 120px;
-    margin: 0 auto;
-    left: 42px;
+    width: 100%;
     bottom: 32px; }
     .hashworks__casestudy .content__inner h2 {
-      font-size: 48px; }
+      font-size: 48px;
+      width: 940px; }
   .hashworks__casestudy .row {
     width: 940px; }
   .hashworks__casestudy .casestudy__image {
@@ -3295,13 +3289,10 @@ body {
       height: 254px; } }
 @media screen and (min-width: 1367px) {
   .hashworks__casestudy .content__inner {
-    width: 964px;
-    height: 150px;
-    margin: 0 auto;
-    left: 133px;
     bottom: 32px; }
     .hashworks__casestudy .content__inner h2 {
-      font-size: 56px; }
+      font-size: 56px;
+      width: 1097px; }
   .hashworks__casestudy .row {
     width: 1097px; }
   .hashworks__casestudy .casestudy__image {
@@ -4782,11 +4773,21 @@ ul.tabs li.current {
       background-size: 100% 100%;
       object-fit: contain; }
     .cloud__head {
-      font-size: 24px;
       position: absolute;
-      left: 27px;
-      bottom: 16px;
-      color: #fff; }
+      width: 100%;
+      bottom: 16px; }
+      .cloud__head h1 {
+        font-family: 'muliRegular';
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        width: 270px;
+        margin: 0 auto; }
     .cloud__content {
       height: 100%;
       background-color: #000000;
@@ -4931,9 +4932,11 @@ ul.tabs li.current {
   .cloud__headImg {
     height: 230px; }
   .cloud__head {
-    font-size: 36px;
-    left: 32px;
-    bottom: 30px; }
+    width: 100%;
+    bottom: 32px; }
+    .cloud__head h1 {
+      font-size: 32px;
+      width: 710px; }
   .cloud__content {
     padding: 32px 0; }
     .cloud__content h1 {
@@ -5019,9 +5022,11 @@ ul.tabs li.current {
   .cloud__headImg {
     height: 306px; }
   .cloud__head {
-    font-size: 48px;
-    left: 40px;
-    bottom: 30px; }
+    width: 100%;
+    bottom: 32px; }
+    .cloud__head h1 {
+      font-size: 48px;
+      width: 943px; }
   .cloud__content {
     padding: 35px 0 32px; }
     .cloud__content h1 {
@@ -5117,9 +5122,11 @@ ul.tabs li.current {
   .cloud__headImg {
     height: 430px; }
   .cloud__head {
-    font-size: 56px;
-    left: 135px;
-    bottom: 33px; }
+    width: 100%;
+    bottom: 32px; }
+    .cloud__head h1 {
+      font-size: 56px;
+      width: 1107px; }
   .cloud__content {
     padding: 92px 0 118px; }
     .cloud__content h1 {
@@ -5234,11 +5241,22 @@ ul.tabs li.current {
       background-size: 100% 100%;
       object-fit: contain; }
     .dataScience__head {
-      font-size: 24px;
       position: absolute;
-      left: 27px;
+      width: 100%;
       bottom: 16px;
-      color: #fff; }
+      z-index: 500; }
+      .dataScience__head h1 {
+        font-family: 'muliRegular';
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        width: 270px;
+        margin: 0 auto; }
     .dataScience__content {
       height: 100%;
       background-color: #000000;
@@ -5383,9 +5401,11 @@ ul.tabs li.current {
   .dataScience__headImg {
     height: 230px; }
   .dataScience__head {
-    font-size: 36px;
-    left: 32px;
-    bottom: 30px; }
+    width: 100%;
+    bottom: 32px; }
+    .dataScience__head h1 {
+      font-size: 32px;
+      width: 702px; }
   .dataScience__content {
     padding: 32px 0; }
     .dataScience__content h1 {
@@ -5471,9 +5491,11 @@ ul.tabs li.current {
   .dataScience__headImg {
     height: 306px; }
   .dataScience__head {
-    font-size: 48px;
-    left: 40px;
-    bottom: 30px; }
+    width: 100%;
+    bottom: 32px; }
+    .dataScience__head h1 {
+      font-size: 48px;
+      width: 943px; }
   .dataScience__content {
     padding: 35px 0 32px; }
     .dataScience__content h1 {
@@ -5569,9 +5591,11 @@ ul.tabs li.current {
   .dataScience__headImg {
     height: 430px; }
   .dataScience__head {
-    font-size: 56px;
-    left: 135px;
-    bottom: 33px; }
+    width: 100%;
+    bottom: 32px; }
+    .dataScience__head h1 {
+      font-size: 56px;
+      width: 1107px; }
   .dataScience__content {
     padding: 92px 0 118px; }
     .dataScience__content h1 {
@@ -5686,11 +5710,22 @@ ul.tabs li.current {
       background-size: 100% 100%;
       object-fit: contain; }
     .devOps__head {
-      font-size: 24px;
       position: absolute;
-      left: 27px;
+      width: 100%;
       bottom: 16px;
-      color: #fff; }
+      z-index: 500; }
+      .devOps__head h1 {
+        font-family: 'muliRegular';
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        width: 270px;
+        margin: 0 auto; }
     .devOps__content {
       height: 100%;
       background-color: #000000;
@@ -5835,9 +5870,11 @@ ul.tabs li.current {
   .devOps__headImg {
     height: 230px; }
   .devOps__head {
-    font-size: 36px;
-    left: 32px;
-    bottom: 30px; }
+    width: 100%;
+    bottom: 32px; }
+    .devOps__head h1 {
+      font-size: 32px;
+      width: 702px; }
   .devOps__content {
     padding: 32px 0; }
     .devOps__content h1 {
@@ -5923,9 +5960,11 @@ ul.tabs li.current {
   .devOps__headImg {
     height: 306px; }
   .devOps__head {
-    font-size: 48px;
-    left: 40px;
-    bottom: 30px; }
+    width: 100%;
+    bottom: 32px; }
+    .devOps__head h1 {
+      font-size: 48px;
+      width: 943px; }
   .devOps__content {
     padding: 35px 0 32px; }
     .devOps__content h1 {
@@ -6021,9 +6060,11 @@ ul.tabs li.current {
   .devOps__headImg {
     height: 430px; }
   .devOps__head {
-    font-size: 56px;
-    bottom: 33px;
-    left: 135px; }
+    width: 100%;
+    bottom: 32px; }
+    .devOps__head h1 {
+      font-size: 56px;
+      width: 1107px; }
   .devOps__content {
     padding: 92px 0 118px; }
     .devOps__content h1 {
@@ -6139,11 +6180,22 @@ ul.tabs li.current {
       background-size: 100% 100%;
       object-fit: contain; }
     .mobile__head {
-      font-size: 24px;
       position: absolute;
-      left: 27px;
+      width: 100%;
       bottom: 16px;
-      color: #fff; }
+      z-index: 500; }
+      .mobile__head h1 {
+        font-family: 'muliRegular';
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        width: 270px;
+        margin: 0 auto; }
     .mobile__content {
       height: 100%;
       background-color: #000000;
@@ -6288,9 +6340,11 @@ ul.tabs li.current {
   .mobile__headImg {
     height: 230px; }
   .mobile__head {
-    font-size: 36px;
-    left: 32px;
-    bottom: 30px; }
+    width: 100%;
+    bottom: 32px; }
+    .mobile__head h1 {
+      font-size: 32px;
+      width: 702px; }
   .mobile__content {
     padding: 32px 0; }
     .mobile__content h1 {
@@ -6376,9 +6430,11 @@ ul.tabs li.current {
   .mobile__headImg {
     height: 306px; }
   .mobile__head {
-    font-size: 48px;
-    left: 40px;
-    bottom: 30px; }
+    width: 100%;
+    bottom: 32px; }
+    .mobile__head h1 {
+      font-size: 48px;
+      width: 943px; }
   .mobile__content {
     padding: 35px 0 32px; }
     .mobile__content h1 {
@@ -6474,9 +6530,11 @@ ul.tabs li.current {
   .mobile__headImg {
     height: 430px; }
   .mobile__head {
-    font-size: 56px;
-    left: 135px;
-    bottom: 33px; }
+    width: 100%;
+    bottom: 32px; }
+    .mobile__head h1 {
+      font-size: 56px;
+      width: 1107px; }
   .mobile__content {
     padding: 92px 0 118px; }
     .mobile__content h1 {

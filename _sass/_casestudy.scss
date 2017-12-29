@@ -4,16 +4,9 @@
       .content__inner {
 	
     position:absolute;
-    width: 262px;
-    height: 120px;
-    bottom:42px;
-    margin:0 auto;
-    left:29px;
+    width: 100%;
     bottom:16px;
 	h2{
-        
-       
-
         font-family:'muliRegular';
         font-size: 24px;
         font-weight: normal;
@@ -23,6 +16,8 @@
         letter-spacing: normal;
         text-align: left;
         color: #ffffff;
+        width: 270px;
+        margin: 0 auto;
     }
 }
        .row{
@@ -256,15 +251,11 @@
 
         .content__inner {
             
-
-            width: 614px;
-            height: 88px;
-
-            margin:0 auto;
-            left:33px;
+            width: 100%;
             bottom:32px;
             h2{
                 font-size: 32px;
+                width: 710px;
               }
         }
        .row{
@@ -419,16 +410,11 @@
 @media screen and (min-width:1024px){ 
     .hashworks__casestudy { 
         .content__inner {
-            
-
-            width: 826px;
-            height: 120px;
-
-            margin:0 auto;
-            left:42px;
+            width: 100%;
             bottom:32px;
             h2{
                 font-size: 48px;
+                width: 940px;
               }
         }
        .row{
@@ -578,16 +564,11 @@
 @media screen and (min-width:1367px){ 
     .hashworks__casestudy { 
         .content__inner {
-            
-
-            width: 964px;
-            height: 150px;
-
-            margin:0 auto;
-            left:133px;
+   
             bottom:32px;
             h2{
                 font-size: 56px;
+                width: 1097px;
               }
         }
        .row{
