@@ -13,7 +13,7 @@ renderer.setClearColor(0x603c96);
 var scene = new THREE.Scene();
 
 var camera = new THREE.PerspectiveCamera(100, width / height, 0.1, 10000);
-camera.position.set(120, 0, 300);
+camera.position.set(0, 0, 300);
 
 var light = new THREE.HemisphereLight(0xB22222, 0xDB7093, 0.6);
 scene.add(light);
