@@ -19,7 +19,7 @@
                             void main(){
                                 vec4 textureColor = texture2D( texture, gl_PointCoord );
                                 if ( textureColor.a < 0.3 ) discard;
-                                vec4 dotColor = vec4(0.06, 0.18, 0.36, 0.4);
+                                vec4 dotColor = vec4(7, 7, 7,7);
                                 vec4 color = dotColor * textureColor;
                                 gl_FragColor = color;
                             }
