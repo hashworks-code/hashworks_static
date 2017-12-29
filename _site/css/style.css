@@ -2262,6 +2262,8 @@ body {
         padding: 111px 12px 0;
         font-weight: 100; }
     .service__cloudImg {
+      background-image: url(../assets/image/rectangle-3-copy-8.png);
+      background-repeat: no-repeat;
       height: 166px;
       width: 100%;
       background-size: 100% 100%;
@@ -7332,8 +7334,6 @@ ul.tabs li.current {
       width: 270px;
       margin: 0 auto; }
     .uiux__headImg {
-      background-image: url(../assets/image/mobile/group-16.png);
-      background-repeat: no-repeat;
       height: 232px;
       width: 100%;
       background-size: 100% 100%;
