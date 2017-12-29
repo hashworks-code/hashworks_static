@@ -4734,7 +4734,6 @@ ul.tabs li.current {
       width: 270px;
       margin: 0 auto; }
     .cloud__headImg {
-      background-image: url(../assets/image/cloud/server-01.png);
       background-repeat: no-repeat;
       height: 232px;
       width: 100%;
@@ -4742,7 +4741,9 @@ ul.tabs li.current {
       object-fit: contain; }
     .cloud__head {
       font-size: 24px;
-      padding-top: 186px;
+      position: absolute;
+      left: 27px;
+      bottom: 16px;
       color: #fff; }
     .cloud__content {
       height: 100%;
@@ -4889,7 +4890,8 @@ ul.tabs li.current {
     height: 230px; }
   .cloud__head {
     font-size: 36px;
-    padding-top: 149px; }
+    left: 32px;
+    bottom: 30px; }
   .cloud__content {
     padding: 32px 0; }
     .cloud__content h1 {
@@ -4976,7 +4978,8 @@ ul.tabs li.current {
     height: 306px; }
   .cloud__head {
     font-size: 48px;
-    padding-top: 216px; }
+    left: 40px;
+    bottom: 30px; }
   .cloud__content {
     padding: 35px 0 32px; }
     .cloud__content h1 {
@@ -5073,7 +5076,8 @@ ul.tabs li.current {
     height: 430px; }
   .cloud__head {
     font-size: 56px;
-    padding-top: 327px; }
+    left: 135px;
+    bottom: 33px; }
   .cloud__content {
     padding: 92px 0 118px; }
     .cloud__content h1 {
@@ -6094,7 +6098,9 @@ ul.tabs li.current {
       object-fit: contain; }
     .mobile__head {
       font-size: 24px;
-      padding-top: 186px;
+      position: absolute;
+      left: 27px;
+      bottom: 16px;
       color: #fff; }
     .mobile__content {
       height: 100%;
@@ -6241,7 +6247,8 @@ ul.tabs li.current {
     height: 230px; }
   .mobile__head {
     font-size: 36px;
-    padding-top: 149px; }
+    left: 32px;
+    bottom: 30px; }
   .mobile__content {
     padding: 32px 0; }
     .mobile__content h1 {
@@ -6328,7 +6335,8 @@ ul.tabs li.current {
     height: 306px; }
   .mobile__head {
     font-size: 48px;
-    padding-top: 216px; }
+    left: 40px;
+    bottom: 30px; }
   .mobile__content {
     padding: 35px 0 32px; }
     .mobile__content h1 {
@@ -6425,7 +6433,8 @@ ul.tabs li.current {
     height: 430px; }
   .mobile__head {
     font-size: 56px;
-    padding-top: 327px; }
+    left: 135px;
+    bottom: 33px; }
   .mobile__content {
     padding: 92px 0 118px; }
     .mobile__content h1 {

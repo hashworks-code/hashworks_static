@@ -16,7 +16,9 @@
         }
         &__head{
             font-size: 24px;
-            padding-top: 186px;
+            position: absolute;
+            left:27px;
+            bottom:16px;
             color: #fff;
         }
         &__content{
@@ -206,7 +208,8 @@
         }
         &__head {
             font-size: 36px;
-            padding-top: 149px;
+            left:32px;
+            bottom:30px;
         }
         &__content {
             padding: 32px 0;
@@ -331,7 +334,8 @@
         }
         &__head {
             font-size: 48px;
-            padding-top: 216px;
+            left:40px;
+            bottom:30px;
         }
         &__content {
             padding: 35px 0 32px;
@@ -468,7 +472,8 @@
         }
         &__head {
             font-size: 56px;
-            padding-top: 327px;
+            left:135px;
+            bottom:33px;
         }
         &__content {
             padding: 92px 0 118px;
