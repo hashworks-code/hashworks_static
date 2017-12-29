@@ -3,11 +3,12 @@
         font-family: 'muliRegular';
         color: #4a4a4a;
         &__container{
-            width: 270px;
+            width: 270px;            // background-image: url(../assets/image/devOps/data-ops-banner-1.png);
+            
             margin: 0 auto;
         }
         &__headImg{
-            background-image: url(../assets/image/devOps/data-ops-banner-1.png);
+            // background-image: url(../assets/image/devOps/data-ops-banner-1.png);
             background-repeat: no-repeat;
             height: 232px;
             width: 100%;
@@ -15,9 +16,23 @@
             object-fit: contain;
         }
         &__head{
-            font-size: 24px;
-            padding-top: 186px;
-            color: #fff;
+            position:absolute;
+            width: 100%;
+            bottom:16px;
+            z-index: 500;
+            h1{
+                font-family:'muliRegular';
+                font-size: 24px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ffffff;
+                width: 270px;
+                margin: 0 auto;
+            }
         }
         &__content{
             height: 100%;
@@ -205,8 +220,12 @@
             height: 230px;
         }
         &__head {
-            font-size: 36px;
-            padding-top: 149px;
+            width: 100%;
+            bottom:32px;
+            h1{
+                font-size: 32px;
+                width: 702px;
+              }
         }
         &__content {
             padding: 32px 0;
@@ -330,8 +349,12 @@
             height: 306px;
         }
         &__head {
-            font-size: 48px;
-            padding-top: 216px;
+            width: 100%;
+            bottom:32px;
+            h1{
+                font-size: 48px;
+                width: 943px;
+              }
         }
         &__content {
             padding: 35px 0 32px;
@@ -465,9 +488,14 @@
             height: 430px;
         }
         &__head {
-            font-size: 56px;
-            padding-top: 327px;
-        }
+            width: 100%;
+            bottom:32px;
+            h1{
+                font-size: 56px;
+                width: 1107px;
+              }
+
+       }
         &__content {
             padding: 92px 0 118px;
             h1 {

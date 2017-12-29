@@ -2888,11 +2888,7 @@ body {
 @media screen and (min-width: 320px) {
   .hashworks__casestudy .content__inner {
     position: absolute;
-    width: 262px;
-    height: 120px;
-    bottom: 42px;
-    margin: 0 auto;
-    left: 29px;
+    width: 100%;
     bottom: 16px; }
     .hashworks__casestudy .content__inner h2 {
       font-family: 'muliRegular';
@@ -2903,7 +2899,9 @@ body {
       line-height: normal;
       letter-spacing: normal;
       text-align: left;
-      color: #ffffff; }
+      color: #ffffff;
+      width: 270px;
+      margin: 0 auto; }
   .hashworks__casestudy .row {
     width: 270px;
     margin: 0px auto;
@@ -3081,13 +3079,11 @@ body {
       height: 202px; } }
 @media screen and (min-width: 768px) {
   .hashworks__casestudy .content__inner {
-    width: 614px;
-    height: 88px;
-    margin: 0 auto;
-    left: 33px;
+    width: 100%;
     bottom: 32px; }
     .hashworks__casestudy .content__inner h2 {
-      font-size: 32px; }
+      font-size: 32px;
+      width: 710px; }
   .hashworks__casestudy .row {
     width: 703px; }
   .hashworks__casestudy .casestudy__image {
@@ -3192,13 +3188,11 @@ body {
       height: 187px; } }
 @media screen and (min-width: 1024px) {
   .hashworks__casestudy .content__inner {
-    width: 826px;
-    height: 120px;
-    margin: 0 auto;
-    left: 42px;
+    width: 100%;
     bottom: 32px; }
     .hashworks__casestudy .content__inner h2 {
-      font-size: 48px; }
+      font-size: 48px;
+      width: 940px; }
   .hashworks__casestudy .row {
     width: 940px; }
   .hashworks__casestudy .casestudy__image {
@@ -3296,13 +3290,10 @@ body {
       height: 254px; } }
 @media screen and (min-width: 1367px) {
   .hashworks__casestudy .content__inner {
-    width: 964px;
-    height: 150px;
-    margin: 0 auto;
-    left: 133px;
     bottom: 32px; }
     .hashworks__casestudy .content__inner h2 {
-      font-size: 56px; }
+      font-size: 56px;
+      width: 1097px; }
   .hashworks__casestudy .row {
     width: 1097px; }
   .hashworks__casestudy .casestudy__image {
@@ -4032,7 +4023,49 @@ ul.tabs li.current {
       object-fit: contain; }
       .aboutus__company--explore h1 {
         font-size: 24px;
-        height: 124px; } }
+        height: 124px; }
+    .aboutus__company .profilehover {
+      position: relative;
+      display: inline-block; }
+      .aboutus__company .profilehover__text {
+        visibility: hidden;
+        position: absolute;
+        z-index: 1;
+        width: 700px;
+        background-color: #f7f7f7;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+        border: solid 1px #d3d3d3;
+        top: -20px; }
+        .aboutus__company .profilehover__text--content {
+          display: flex;
+          justify-content: space-between;
+          width: 700px; }
+          .aboutus__company .profilehover__text--content img {
+            margin: 43px 61px 88px; }
+          .aboutus__company .profilehover__text--content h2 {
+            margin-top: 43px;
+            text-align: left; }
+          .aboutus__company .profilehover__text--content h3 {
+            margin: 10px 0px 12px;
+            text-align: left; }
+          .aboutus__company .profilehover__text--content p {
+            width: 386px;
+            margin-right: 32px;
+            text-align: left;
+            margin: 0px 32px 16px 0px; }
+          .aboutus__company .profilehover__text--content a {
+            font-family: 'muliRegular';
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #4a4a4a;
+            margin-bottom: 16px; }
+    .aboutus__company .profilehover:hover .profilehover__text {
+      visibility: visible; } }
 @media only screen and (min-width: 1367px) {
   .aboutus__headImg {
     height: 430px;
@@ -4735,16 +4768,27 @@ ul.tabs li.current {
       width: 270px;
       margin: 0 auto; }
     .cloud__headImg {
-      background-image: url(../assets/image/cloud/server-01.png);
       background-repeat: no-repeat;
       height: 232px;
       width: 100%;
       background-size: 100% 100%;
       object-fit: contain; }
     .cloud__head {
-      font-size: 24px;
-      padding-top: 186px;
-      color: #fff; }
+      position: absolute;
+      width: 100%;
+      bottom: 16px; }
+      .cloud__head h1 {
+        font-family: 'muliRegular';
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        width: 270px;
+        margin: 0 auto; }
     .cloud__content {
       height: 100%;
       background-color: #000000;
@@ -4889,8 +4933,11 @@ ul.tabs li.current {
   .cloud__headImg {
     height: 230px; }
   .cloud__head {
-    font-size: 36px;
-    padding-top: 149px; }
+    width: 100%;
+    bottom: 32px; }
+    .cloud__head h1 {
+      font-size: 32px;
+      width: 710px; }
   .cloud__content {
     padding: 32px 0; }
     .cloud__content h1 {
@@ -4976,8 +5023,11 @@ ul.tabs li.current {
   .cloud__headImg {
     height: 306px; }
   .cloud__head {
-    font-size: 48px;
-    padding-top: 216px; }
+    width: 100%;
+    bottom: 32px; }
+    .cloud__head h1 {
+      font-size: 48px;
+      width: 943px; }
   .cloud__content {
     padding: 35px 0 32px; }
     .cloud__content h1 {
@@ -5073,8 +5123,11 @@ ul.tabs li.current {
   .cloud__headImg {
     height: 430px; }
   .cloud__head {
-    font-size: 56px;
-    padding-top: 327px; }
+    width: 100%;
+    bottom: 32px; }
+    .cloud__head h1 {
+      font-size: 56px;
+      width: 1107px; }
   .cloud__content {
     padding: 92px 0 118px; }
     .cloud__content h1 {
@@ -5183,16 +5236,28 @@ ul.tabs li.current {
       width: 270px;
       margin: 0 auto; }
     .dataScience__headImg {
-      background-image: url(../assets/image/dataScience/data-science-banner.png);
       background-repeat: no-repeat;
       height: 232px;
       width: 100%;
       background-size: 100% 100%;
       object-fit: contain; }
     .dataScience__head {
-      font-size: 24px;
-      padding-top: 186px;
-      color: #fff; }
+      position: absolute;
+      width: 100%;
+      bottom: 16px;
+      z-index: 500; }
+      .dataScience__head h1 {
+        font-family: 'muliRegular';
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        width: 270px;
+        margin: 0 auto; }
     .dataScience__content {
       height: 100%;
       background-color: #000000;
@@ -5337,8 +5402,11 @@ ul.tabs li.current {
   .dataScience__headImg {
     height: 230px; }
   .dataScience__head {
-    font-size: 36px;
-    padding-top: 149px; }
+    width: 100%;
+    bottom: 32px; }
+    .dataScience__head h1 {
+      font-size: 32px;
+      width: 702px; }
   .dataScience__content {
     padding: 32px 0; }
     .dataScience__content h1 {
@@ -5424,8 +5492,11 @@ ul.tabs li.current {
   .dataScience__headImg {
     height: 306px; }
   .dataScience__head {
-    font-size: 48px;
-    padding-top: 216px; }
+    width: 100%;
+    bottom: 32px; }
+    .dataScience__head h1 {
+      font-size: 48px;
+      width: 943px; }
   .dataScience__content {
     padding: 35px 0 32px; }
     .dataScience__content h1 {
@@ -5521,8 +5592,11 @@ ul.tabs li.current {
   .dataScience__headImg {
     height: 430px; }
   .dataScience__head {
-    font-size: 56px;
-    padding-top: 327px; }
+    width: 100%;
+    bottom: 32px; }
+    .dataScience__head h1 {
+      font-size: 56px;
+      width: 1107px; }
   .dataScience__content {
     padding: 92px 0 118px; }
     .dataScience__content h1 {
@@ -5631,16 +5705,28 @@ ul.tabs li.current {
       width: 270px;
       margin: 0 auto; }
     .devOps__headImg {
-      background-image: url(../assets/image/devOps/data-ops-banner-1.png);
       background-repeat: no-repeat;
       height: 232px;
       width: 100%;
       background-size: 100% 100%;
       object-fit: contain; }
     .devOps__head {
-      font-size: 24px;
-      padding-top: 186px;
-      color: #fff; }
+      position: absolute;
+      width: 100%;
+      bottom: 16px;
+      z-index: 500; }
+      .devOps__head h1 {
+        font-family: 'muliRegular';
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        width: 270px;
+        margin: 0 auto; }
     .devOps__content {
       height: 100%;
       background-color: #000000;
@@ -5785,8 +5871,11 @@ ul.tabs li.current {
   .devOps__headImg {
     height: 230px; }
   .devOps__head {
-    font-size: 36px;
-    padding-top: 149px; }
+    width: 100%;
+    bottom: 32px; }
+    .devOps__head h1 {
+      font-size: 32px;
+      width: 702px; }
   .devOps__content {
     padding: 32px 0; }
     .devOps__content h1 {
@@ -5872,8 +5961,11 @@ ul.tabs li.current {
   .devOps__headImg {
     height: 306px; }
   .devOps__head {
-    font-size: 48px;
-    padding-top: 216px; }
+    width: 100%;
+    bottom: 32px; }
+    .devOps__head h1 {
+      font-size: 48px;
+      width: 943px; }
   .devOps__content {
     padding: 35px 0 32px; }
     .devOps__content h1 {
@@ -5969,8 +6061,11 @@ ul.tabs li.current {
   .devOps__headImg {
     height: 430px; }
   .devOps__head {
-    font-size: 56px;
-    padding-top: 327px; }
+    width: 100%;
+    bottom: 32px; }
+    .devOps__head h1 {
+      font-size: 56px;
+      width: 1107px; }
   .devOps__content {
     padding: 92px 0 118px; }
     .devOps__content h1 {
@@ -6086,9 +6181,22 @@ ul.tabs li.current {
       background-size: 100% 100%;
       object-fit: contain; }
     .mobile__head {
-      font-size: 24px;
-      padding-top: 186px;
-      color: #fff; }
+      position: absolute;
+      width: 100%;
+      bottom: 16px;
+      z-index: 500; }
+      .mobile__head h1 {
+        font-family: 'muliRegular';
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        width: 270px;
+        margin: 0 auto; }
     .mobile__content {
       height: 100%;
       background-color: #000000;
@@ -6233,8 +6341,11 @@ ul.tabs li.current {
   .mobile__headImg {
     height: 230px; }
   .mobile__head {
-    font-size: 36px;
-    padding-top: 149px; }
+    width: 100%;
+    bottom: 32px; }
+    .mobile__head h1 {
+      font-size: 32px;
+      width: 702px; }
   .mobile__content {
     padding: 32px 0; }
     .mobile__content h1 {
@@ -6320,8 +6431,11 @@ ul.tabs li.current {
   .mobile__headImg {
     height: 306px; }
   .mobile__head {
-    font-size: 48px;
-    padding-top: 216px; }
+    width: 100%;
+    bottom: 32px; }
+    .mobile__head h1 {
+      font-size: 48px;
+      width: 943px; }
   .mobile__content {
     padding: 35px 0 32px; }
     .mobile__content h1 {
@@ -6417,8 +6531,11 @@ ul.tabs li.current {
   .mobile__headImg {
     height: 430px; }
   .mobile__head {
-    font-size: 56px;
-    padding-top: 327px; }
+    width: 100%;
+    bottom: 32px; }
+    .mobile__head h1 {
+      font-size: 56px;
+      width: 1107px; }
   .mobile__content {
     padding: 92px 0 118px; }
     .mobile__content h1 {
@@ -6520,21 +6637,21 @@ ul.tabs li.current {
       line-height: 1.33;
       padding-left: 15px; } }
 @media screen and (min-width: 320px) {
-  .jobslider button {
+  .internshipslider button {
     background-color: #603c96;
     top: 100%;
     width: 32px;
     height: 32px;
     border-radius: 50%; }
-  .jobslider .slick-prev:hover, .jobslider .slick-prev:focus, .jobslider .slick-next:hover, .jobslider .slick-next:focus {
+  .internshipslider .slick-prev:hover, .internshipslider .slick-prev:focus, .internshipslider .slick-next:hover, .internshipslider .slick-next:focus {
     /* color: transparent; */
     outline: none;
     background-color: #603c96; }
-  .jobslider .slick-next {
+  .internshipslider .slick-next {
     right: 98px; }
-  .jobslider .slick-prev {
+  .internshipslider .slick-prev {
     left: 99px; }
-  .jobslider .slick-next:before {
+  .internshipslider .slick-next:before {
     content: '>';
     font-size: 20px;
     line-height: 0.4;
@@ -6542,7 +6659,7 @@ ul.tabs li.current {
     height: 5.7px;
     color: #f7f7f7;
     opacity: 1; }
-  .jobslider .slick-prev:before {
+  .internshipslider .slick-prev:before {
     content: '<';
     font-size: 20px;
     line-height: 0.4;
@@ -6550,17 +6667,17 @@ ul.tabs li.current {
     height: 5.7px;
     color: #f7f7f7;
     opacity: 1; }
-  .jobslider .slick-initialized .slick-slide {
+  .internshipslider .slick-initialized .slick-slide {
     display: block;
     outline: none; }
 
-  .job__headImg {
+  .internship__headImg {
     background-image: url(../assets/image/job/joblogo.png);
     background-repeat: no-repeat;
     height: 237px;
     width: 100%;
     background-size: cover; }
-  .job__content {
+  .internship__content {
     height: 237px;
     width: 100%;
     display: flex;
@@ -6571,10 +6688,10 @@ ul.tabs li.current {
     text-align: left;
     color: #ffffff;
     font-weight: normal; }
-  .job__opening {
+  .internship__opening {
     width: 271px;
     margin: 0 auto; }
-    .job__opening h1 {
+    .internship__opening h1 {
       font-family: 'muliBold';
       font-size: 16px;
       font-weight: bold;
@@ -6585,7 +6702,7 @@ ul.tabs li.current {
       text-align: center;
       color: #603c96;
       padding: 24px 0px 16px; }
-    .job__opening p {
+    .internship__opening p {
       font-family: 'muliRegular';
       font-size: 12px;
       font-weight: normal;
@@ -6595,17 +6712,17 @@ ul.tabs li.current {
       letter-spacing: normal;
       text-align: center;
       color: #3e3e3e; }
-    .job__opening__position {
+    .internship__opening__position {
       background-color: #ffffff;
       box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
       border: solid 1px #dcdcdc;
       margin-top: 32px;
       padding-bottom: 70px; }
-      .job__opening__position h1 {
+      .internship__opening__position h1 {
         font-family: 'muliSemiBold';
         font-size: 16px;
         padding: 38px 0px 6px; }
-      .job__opening__position h2 {
+      .internship__opening__position h2 {
         font-family: 'muliRegular';
         font-size: 12px;
         font-weight: normal;
@@ -6613,8 +6730,9 @@ ul.tabs li.current {
         text-align: center;
         color: #3e3e3e;
         padding: 6px 0px; }
-      .job__opening__position--apply {
+      .internship__opening__position--apply {
         width: 101px;
+        cursor: pointer;
         border-radius: 4px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
         border: solid 1px #603c96;
@@ -6625,17 +6743,17 @@ ul.tabs li.current {
         color: #603c96;
         margin: 6px  auto 0px;
         padding: 5px 0px 4px; }
-      .job__opening__position--next {
+      .internship__opening__position--next {
         width: 32px;
         height: 32px;
         background-color: #603c96;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
         border-radius: 50%; }
-  .job__footer {
+  .internship__footer {
     position: relative;
     height: 165px; }
-    .job__footer__img {
-      background-image: url(../assets/image/job/1@2x.png);
+    .internship__footer__img {
+      background-image: url(../assets/image/internship/1@2x.png);
       background-repeat: no-repeat;
       width: 100%;
       height: 237px;
@@ -6644,53 +6762,53 @@ ul.tabs li.current {
       top: -70px;
       z-index: -1; } }
 @media screen and (min-width: 768px) {
-  .jobslider .slick-next {
+  .internshipslider .slick-next {
     right: 19px; }
-  .jobslider .slick-prev {
+  .internshipslider .slick-prev {
     left: 484px; }
 
-  .job__headImg {
+  .internship__headImg {
     height: 229px; }
-  .job__content {
+  .internship__content {
     height: 229px;
     width: 100%;
     padding: 32px 31px;
     font-size: 36px; }
-  .job__opening {
+  .internship__opening {
     width: 578px;
     margin: 0 auto; }
-    .job__opening h1 {
+    .internship__opening h1 {
       font-family: 'muliBold';
       font-size: 18px;
       padding: 34px 0px 16px; }
-    .job__opening p {
+    .internship__opening p {
       width: 433px;
       margin: 0 auto;
       font-size: 14px; }
-    .job__opening__position {
+    .internship__opening__position {
       margin-top: 34px;
       padding: 43px 0px 18px; }
-      .job__opening__position h1 {
+      .internship__opening__position h1 {
         font-family: 'muliSemiBold';
         font-size: 18px;
         padding: 0px;
         width: 180px;
         text-align: left; }
-      .job__opening__position h2 {
+      .internship__opening__position h2 {
         font-size: 14px;
         padding: 6px 0px; }
-      .job__opening__position--apply {
+      .internship__opening__position--apply {
         font-size: 16px;
         margin: 0px;
         padding: 6px 0px 8px; }
-      .job__opening__position--alignment {
+      .internship__opening__position--alignment {
         display: flex;
         justify-content: space-around;
         margin-bottom: 29px; }
-  .job__footer {
+  .internship__footer {
     position: relative;
     height: 165px; }
-    .job__footer__img {
+    .internship__footer__img {
       width: 100%;
       height: 237px;
       background-size: cover;
@@ -6698,52 +6816,52 @@ ul.tabs li.current {
       top: -70px;
       z-index: -1; } }
 @media screen and (min-width: 1024px) {
-  .jobslider .slick-next {
+  .internshipslider .slick-next {
     right: 29px; }
-  .jobslider .slick-prev {
+  .internshipslider .slick-prev {
     left: 670px; }
 
-  .job__headImg {
+  .internship__headImg {
     height: 305px; }
-  .job__content {
+  .internship__content {
     height: 305px;
     padding: 26px 43px;
     font-size: 48px; }
-  .job__opening {
+  .internship__opening {
     width: 780px;
     margin: 0 auto; }
-    .job__opening h1 {
+    .internship__opening h1 {
       font-family: 'muliBold';
       font-size: 24px;
       padding: 31px 0px 16px; }
-    .job__opening p {
+    .internship__opening p {
       width: 623px;
       margin: 0 auto;
       font-size: 16px; }
-    .job__opening__position {
+    .internship__opening__position {
       margin-top: 34px;
       padding: 43px 0px 18px; }
-      .job__opening__position h1 {
+      .internship__opening__position h1 {
         font-family: 'muliSemiBold';
         font-size: 24px;
         padding: 0px;
         width: 251px;
         text-align: left; }
-      .job__opening__position h2 {
+      .internship__opening__position h2 {
         font-size: 16px;
         padding: 6px 0px; }
-      .job__opening__position--apply {
+      .internship__opening__position--apply {
         font-size: 18px;
         margin: 0px;
         padding: 6px 0px 8px; }
-      .job__opening__position--alignment {
+      .internship__opening__position--alignment {
         display: flex;
         justify-content: space-around;
         margin-bottom: 29px; }
-  .job__footer {
+  .internship__footer {
     position: relative;
     height: 165px; }
-    .job__footer__img {
+    .internship__footer__img {
       width: 100%;
       height: 237px;
       background-size: cover;
@@ -6751,62 +6869,62 @@ ul.tabs li.current {
       top: -70px;
       z-index: -1; } }
 @media screen and (min-width: 1367px) {
-  .jobslider button {
+  .internshipslider button {
     top: 100%;
     width: 56px;
     height: 56px; }
-  .jobslider .slick-next {
+  .internshipslider .slick-next {
     right: 40px; }
-  .jobslider .slick-prev {
+  .internshipslider .slick-prev {
     left: 800px; }
-  .jobslider .slick-next:before {
+  .internshipslider .slick-next:before {
     content: '>';
     font-size: 28px; }
-  .jobslider .slick-prev:before {
+  .internshipslider .slick-prev:before {
     content: '<';
     font-size: 28px; }
 
-  .job__headImg {
+  .internship__headImg {
     height: 430px; }
-  .job__content {
+  .internship__content {
     height: 430px;
     padding: 31px 134px;
     font-size: 56px; }
-  .job__opening {
+  .internship__opening {
     width: 970px;
     margin: 0 auto; }
-    .job__opening h1 {
+    .internship__opening h1 {
       font-family: 'muliBold';
       font-size: 32px;
       padding: 32px 0px 16px; }
-    .job__opening p {
+    .internship__opening p {
       width: 731px;
       margin: 0 auto;
       font-size: 18px; }
-    .job__opening__position {
+    .internship__opening__position {
       margin-top: 34px;
       padding: 46px 0px 30px; }
-      .job__opening__position h1 {
+      .internship__opening__position h1 {
         font-family: 'muliSemiBold';
         font-size: 28px;
         padding: 0px;
         width: 313px;
         text-align: left; }
-      .job__opening__position h2 {
+      .internship__opening__position h2 {
         font-size: 18px;
         padding: 6px 0px; }
-      .job__opening__position--apply {
+      .internship__opening__position--apply {
         font-size: 24px;
         margin: 0px;
         padding: 6px 0px 8px; }
-      .job__opening__position--alignment {
+      .internship__opening__position--alignment {
         display: flex;
         justify-content: space-around;
         margin-bottom: 46px; }
-  .job__footer {
+  .internship__footer {
     position: relative;
     height: 165px; }
-    .job__footer__img {
+    .internship__footer__img {
       width: 100%;
       height: 237px;
       background-size: cover;

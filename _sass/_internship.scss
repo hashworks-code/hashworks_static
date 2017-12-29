@@ -1,7 +1,7 @@
 
  @media screen and(min-width:320px){
     
-   .jobslider{
+   .internshipslider{
        
         button{
             background-color: #603c96;
@@ -45,7 +45,7 @@
         }
         
     }
-    .job{
+    .internship{
     
         &__headImg{
             background-image: url(../assets/image/job/joblogo.png);
@@ -115,7 +115,7 @@
             }
             &--apply{
                 width: 101px;
-              
+              cursor: pointer;
                 border-radius: 4px;
                 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
                 border: solid 1px #603c96;
@@ -141,7 +141,7 @@
         position: relative;
         height: 165px;
         &__img{
-            background-image: url(../assets/image/job/1@2x.png);
+            background-image: url(../assets/image/internship/1@2x.png);
             background-repeat: no-repeat;
             width: 100%;
             height: 237px;
@@ -157,7 +157,7 @@
     }
     
    @media screen and (min-width:768px){
-   .jobslider{
+   .internshipslider{
         .slick-next {
             right: 19px;
         }
@@ -165,7 +165,7 @@
             left: 484px;
         }   
     }
-          .job{
+          .internship{
                  &__headImg{
                      height: 229px;   
                    }
@@ -235,7 +235,7 @@
    
    
    @media screen and (min-width:1024px){
-       .jobslider{
+       .internshipslider{
             .slick-next {
                 right: 29px;
             }
@@ -243,7 +243,7 @@
                 left:670px;
             }   
         }
-              .job{
+              .internship{
                      &__headImg{
                          height: 305px;     
                        }
@@ -313,7 +313,7 @@
             //
    
    @media screen and (min-width:1367px){
-       .jobslider{
+       .internshipslider{
            button{
                top: 100%;
                width: 56px;
@@ -337,7 +337,7 @@
               
            } 
         }
-              .job{
+              .internship{
                      &__headImg{
                          height: 430px;     
                        }

@@ -297,6 +297,9 @@
     <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
     <script type="text/javascript" src="/assets/js/product.js"></script>
     <script type="text/javascript" src="/assets/js/head.js"></script>
+    <script src="/assets/js/demo.js"></script>
+    <script src="/assets/js/three.min.js"></script>
+    <script src="/assets/js/TweenMax.min.js"></script>
   
 
 
@@ -309,13 +312,45 @@
            
 
 <div class="mobile">
-    <div class="mobile__headImg">
-        <div class="mobile__container">
-            <div class="mobile__head">
+    <div class="mobile__headImg animator">
+        <div class="mobile__container animator">
+            <!-- <div class="mobile__head">
                    Mobile Development
-            </div>
+            </div> -->
+            <div class="row demo-2">
+                
+                                <div class="content animator">
+                                        <canvas id="scene"></canvas>
+                                        <script type="x-shader/x-vertex" id="wrapVertexShader">
+                                            #define PI 3.1415926535897932384626433832795
+                                            attribute float size;
+                                            void main() {
+                                                vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+                                                gl_PointSize = 3.0;
+                                                gl_Position = projectionMatrix * mvPosition;
+                                            }
+                                        </script>
+                                        <script type="x-shader/x-fragment" id="wrapFragmentShader">
+                                            uniform sampler2D texture;
+                                            void main(){
+                                                vec4 textureColor = texture2D( texture, gl_PointCoord );
+                                                if ( textureColor.a < 0.3 ) discard;
+                                                vec4 dotColor = vec4(0.06, 0.18, 0.36, 0.4);
+                                                vec4 color = dotColor * textureColor;
+                                                gl_FragColor = color;
+                                            }
+                                        </script>
+                                          <div class="mobile__head">
+                                           <h1> Mobile Development</h1>
+                                          </div>
+                                    </div>
+                    
+                        </div>
+
+           
         </div>
     </div>
+
     <div class="mobile__content">
         <div class="mobile__container">
             <div class="row">
@@ -498,6 +533,6 @@
 
 
 </html>
-    
-
-
+ 
+ <script src="/assets/js/demo6.js"></script>
+ 

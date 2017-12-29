@@ -8,7 +8,7 @@ var renderer = new THREE.WebGLRenderer({
 });
 renderer.setPixelRatio(window.devicePixelRatio > 1 ? 2 : 1);
 renderer.setSize(width, height);
-renderer.setClearColor(0x0F1617);
+renderer.setClearColor(0x603c96);
 
 var scene = new THREE.Scene();
 
@@ -45,12 +45,12 @@ for(var i=0;i<geometry.vertices.length;i++){
 
 var material = [
 new THREE.MeshBasicMaterial({
-    color: 0x000000,
+    color: 0xFFFAFA,
     transparent: true,
     opacity:0
 }),
 new THREE.MeshBasicMaterial({
-    color: 0x13756a,
+    color: 0xFFFAFA,
     side: THREE.DoubleSide,
     wireframe: true
 })];
