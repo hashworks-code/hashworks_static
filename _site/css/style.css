@@ -2262,8 +2262,6 @@ body {
         padding: 111px 12px 0;
         font-weight: 100; }
     .service__cloudImg {
-      background-image: url(../assets/image/rectangle-3-copy-8.png);
-      background-repeat: no-repeat;
       height: 166px;
       width: 100%;
       background-size: 100% 100%;
