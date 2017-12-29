@@ -3,8 +3,26 @@
 
 
 
-
 @media only screen and (min-width: 320px){
+    .heading{
+    position:absolute;
+    width: 100%;
+    bottom:16px;
+    z-index: 500;
+    h1{
+        font-family:'muliRegular';
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+        width: 307px;
+        margin: 0 auto;
+    }
+}
     .service{
         font-family: 'muliRegular';
         color: #4a4a4a;
@@ -45,6 +63,7 @@
             background-color: #d8d8d8;
             margin-bottom: 10px;
             cursor: pointer;
+            padding: 0px;
             h1{
                 color: #fff;
                 font-size: 24px;
@@ -130,8 +149,17 @@
 
 
 @media only screen and (min-width: 768px){
-    .service{
     
+    .heading{
+        width: 100%;
+        bottom:36px;
+        h1{
+           font-size: 36px;
+            width: 700px;
+            margin: 0 auto;
+        }
+    }
+    .service{
         &__container{
             width: 700px;
         }
@@ -203,6 +231,16 @@
 }
 
 @media only screen and (min-width: 1025px){
+   
+    .heading{
+        width: 100%;
+        bottom:46px;
+        h1{
+           font-size: 48px;
+            width: 940px;
+            margin: 0 auto;
+        }
+    }
     .service{
         &__container{
             width: 940px;
@@ -274,6 +312,16 @@
     }
 }
 @media only screen and (min-width: 1367px){
+   
+    .heading{
+        width: 100%;
+        bottom:46px;
+        h1{
+           font-size: 48px;
+            width: 940px;
+            margin: 0 auto;
+        }
+    }
     .service{
         &__container{
             width: 1170px;
