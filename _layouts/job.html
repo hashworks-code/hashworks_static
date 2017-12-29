@@ -207,7 +207,11 @@ $("#uploadIcon").click(function(){
     });
 
 $(".jobslider").slick({
-        dots:false
+        dots:false,
+        infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
     });
 
 $('.modal-toggle').on('click', function(e) {

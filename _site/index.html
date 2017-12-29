@@ -349,7 +349,7 @@
                             </div>
                             <div class="col-xs-12 col-sm-8  col-md-8 col-lg-7 home__groome__product--content">
                             <h1>PRODUCT</h1>
-                              <h2 class="read-more-wrap">Solving Human resource problem   with AI Touch.</h2>
+                              <h2 class="read-more-wrap">Solving Human resource problem  with AI Touch.</h2>
                                  <p>Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada. Vestibulum ac diam 
                                          sit amet quam vehicula elementum sed sit amet dui.</p>
                                 <h6>Know More —></h6>    
@@ -460,7 +460,11 @@
       $('.home__groome').slick({
         nextArrow: '<i class="ion-ios-arrow-right slickright"></i>',
         prevArrow: '<i class="ion-ios-arrow-left slickleft"></i>',
-        dots:false
+        dots:false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
         });
     });
 </script>
