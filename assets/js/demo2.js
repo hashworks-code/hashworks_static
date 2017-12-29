@@ -4,7 +4,8 @@ var width = canvas.offsetWidth,
 
 var renderer = new THREE.WebGLRenderer({
     canvas: canvas,
-    antialias: true
+    antialias: true,
+
 });
 renderer.setPixelRatio(window.devicePixelRatio > 1 ? 2 : 1);
 renderer.setSize(width, height);
@@ -53,6 +54,7 @@ function updateDot(index, vector) {
 var attributePositions = new THREE.BufferAttribute(positions, 3);
 bufferDotsGeom.addAttribute('position', attributePositions);
 var shaderMaterial = new THREE.ShaderMaterial({
+    color:'red',
     uniforms: {
         texture: {
             value: dotTexture
@@ -67,6 +69,7 @@ scene.add(dots);
 
 function render(a) {
     dots.geometry.verticesNeedUpdate = true;
+    
     dots.geometry.attributes.position.needsUpdate = true;
     renderer.render(scene, camera);
 }

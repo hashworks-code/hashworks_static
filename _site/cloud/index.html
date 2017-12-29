@@ -316,6 +316,7 @@
         <div class="cloud__container animator">
             <div class="row demo-2">
                   <div class="content animator">
+<<<<<<< HEAD
                         <canvas id="scene"></canvas>
                         <script type="x-shader/x-vertex" id="wrapVertexShader">
                             #define PI 3.1415926535897932384626433832795
@@ -338,6 +339,32 @@
                         </script>
                         <div class="cloud__head">
                             <h1> Application On Cloud</h1>
+=======
+                                        <canvas id="scene"></canvas>
+                                        <script type="x-shader/x-vertex" id="wrapVertexShader">
+                                            #define PI 3.1415926535897932384626433832795
+                                            attribute float size;
+                                            void main() {
+                                                vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+                                                gl_PointSize = 3.0;
+                                                gl_Position = projectionMatrix * mvPosition;
+                                            }
+                                        </script>
+                                        <script type="x-shader/x-fragment" id="wrapFragmentShader">
+                                            uniform sampler2D texture;
+                                            void main(){
+                                                vec4 textureColor = texture2D( texture, gl_PointCoord );
+                                                if ( textureColor.a < 0.3 ) discard;
+                                                vec4 color = dotColor * textureColor;
+                                                gl_FragColor = color;
+                                            }
+                                        </script>
+                                        <div class="cloud__head">
+                                            <h1> Application On Cloud</h1>
+                                        </div>
+                                    </div>
+                    
+>>>>>>> 50f4702f8871da4fe39977e8a61705131ee9a216
                         </div>
                     </div>
          </div>
