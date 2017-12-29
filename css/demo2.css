@@ -58,10 +58,7 @@
 
 }
 @media screen and (min-width:1024px){
-	/* .content {
-		min-height:650px;
-		max-height:650px;
-	} */
+	
 	.animator{
 		max-height:650px !important;
 		min-height:650px !important;
