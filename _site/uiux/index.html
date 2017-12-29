@@ -99,7 +99,7 @@
            </div>
             <div class="  ">
             <div onclick="redirect('/devOps/')" class="productService__service--ops">
-              <h4>Data Ops</h4>
+              <h4>DevOps</h4>
             </div>
             </div>
             <div class=" ">
@@ -219,7 +219,7 @@
                             </div>
                              <div class="  ">
                              <div class="service__view--ops">
-                               <h4><a href="/devOps/">Data Ops</a></h4>
+                               <h4><a href="/devOps/">DevOps</a></h4>
                              </div>
                              </div>
                              <div class=" ">
@@ -317,25 +317,23 @@
             <div class="row demo-2">
                 
                                 <div class="content animator">
-                                        <canvas id="scene11"></canvas>
+                                        <canvas id="scene"></canvas>
                                         <script type="x-shader/x-vertex" id="wrapVertexShader">
+                                            #define PI 3.1415926535897932384626433832795
                                             attribute float size;
-                                            attribute vec3 color;
-                                            varying vec3 vColor;
                                             void main() {
-                                                vColor = color;
                                                 vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-                                                gl_PointSize = size * ( 350.0 / - mvPosition.z );
+                                                gl_PointSize = 3.0;
                                                 gl_Position = projectionMatrix * mvPosition;
                                             }
                                         </script>
                                         <script type="x-shader/x-fragment" id="wrapFragmentShader">
-                                            varying vec3 vColor;
                                             uniform sampler2D texture;
                                             void main(){
                                                 vec4 textureColor = texture2D( texture, gl_PointCoord );
                                                 if ( textureColor.a < 0.3 ) discard;
-                                                vec4 color = vec4(vColor.xyz, 1.0) * textureColor;
+                                                vec4 dotColor = vec4(7, 7, 7,7);
+                                                vec4 color = dotColor * textureColor;
                                                 gl_FragColor = color;
                                             }
                                         </script>
@@ -530,5 +528,5 @@
 
 </html>
  
- <script src="/assets/js/demo1.js"></script>
+ <script src="/assets/js/demo2.js"></script>
  

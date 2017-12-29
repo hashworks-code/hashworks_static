@@ -1,43 +1,7 @@
 {% include head.html %}
 <section class="hashworks__casestudy">
-    <div class="casestudy__image animator">
-        <div class="row demo-2">
-
-                <div class="content animator">
-                        <canvas id="scene"></canvas>
-                        <script type="x-shader/x-vertex" id="wrapVertexShader">
-                            #define PI 3.1415926535897932384626433832795
-                            attribute float size;
-                            void main() {
-                                vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-                                gl_PointSize = 3.0;
-                                gl_Position = projectionMatrix * mvPosition;
-                            }
-                        </script>
-                        <script type="x-shader/x-fragment" id="wrapFragmentShader">
-                            uniform sampler2D texture;
-                            void main(){
-                                vec4 textureColor = texture2D( texture, gl_PointCoord );
-                                if ( textureColor.a < 0.3 ) discard;
-                                vec4 dotColor = vec4(7, 7, 7,7);
-                                vec4 color = dotColor * textureColor;
-                                gl_FragColor = color;
-                            }
-                        </script>
-                        <div class="content__inner ">
-                            <h2 class="content__title">Using virtual reality to build empathy in distributed organizations.</h2>
-                            <!-- <h3 class="content__subtitle">Warp Drive</h2> -->
-                        </div>
-                    </div>
-
-
-
-
-
-              
-
-
-        </div>
+    <div class="casestudy__image">
+         <h2>Using virtual reality to build empathy in distributed organizations.</h2>   
     </div>
     <div class="casestudy__overview">
        <div class="row">
@@ -125,6 +89,3 @@
 </section>
 
  {% include footer.html %}
- 
- <script src="/assets/js/demo2.js"></script>
- <!-- <script src="/assets/js/perlin.js"></script> -->

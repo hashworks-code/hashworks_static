@@ -2950,15 +2950,27 @@ body {
     margin: 0px auto;
     padding: 0; }
   .hashworks__casestudy .casestudy__image {
+    background-image: url(../assets/image/casestudy/1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 100%; }
-    .hashworks__casestudy .casestudy__image h1 {
+    width: 100%;
+    height: 249px; }
+    .hashworks__casestudy .casestudy__image h2 {
       font-family: 'muliRegular';
       font-size: 24px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
       text-align: left;
       color: #ffffff;
-      margin: 113px 0px 16px 0px; }
+      display: flex;
+      align-items: flex-end;
+      height: 249px;
+      width: 262px;
+      margin: 0 auto;
+      padding-bottom: 32px; }
   .hashworks__casestudy .casestudy__overview {
     background-color: #000000;
     height: 330px;
@@ -3131,10 +3143,12 @@ body {
     width: 703px; }
   .hashworks__casestudy .casestudy__image {
     height: 320px; }
-    .hashworks__casestudy .casestudy__image h1 {
+    .hashworks__casestudy .casestudy__image h2 {
       font-size: 32px;
-      margin: 200px 121px 32px 0px;
-      line-height: 1.38; }
+      height: 320px;
+      width: 703px;
+      margin: 0 auto;
+      padding-bottom: 32px; }
   .hashworks__casestudy .casestudy__overview {
     height: 227px; }
     .hashworks__casestudy .casestudy__overview h1 {
@@ -3240,9 +3254,12 @@ body {
     width: 940px; }
   .hashworks__casestudy .casestudy__image {
     height: 416px; }
-    .hashworks__casestudy .casestudy__image h1 {
+    .hashworks__casestudy .casestudy__image h2 {
       font-size: 48px;
-      margin: 264px 114px 32px 0px; }
+      height: 416px;
+      width: 940px;
+      margin: 0 auto;
+      padding-bottom: 32px; }
   .hashworks__casestudy .casestudy__overview {
     height: 295px; }
     .hashworks__casestudy .casestudy__overview h1 {
@@ -3341,10 +3358,12 @@ body {
     width: 1097px; }
   .hashworks__casestudy .casestudy__image {
     height: 585px; }
-    .hashworks__casestudy .casestudy__image h1 {
+    .hashworks__casestudy .casestudy__image h2 {
       font-size: 56px;
-      line-height: 1.34;
-      margin: 403px 114px 32px 0px; }
+      height: 585px;
+      width: 1097px;
+      margin: 0 auto;
+      padding-bottom: 32px; }
   .hashworks__casestudy .casestudy__overview {
     height: 415px; }
     .hashworks__casestudy .casestudy__overview h1 {
