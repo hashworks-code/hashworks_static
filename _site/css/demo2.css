@@ -128,6 +128,19 @@
 }
 
 @media screen and (min-width:1368px){
+
+	.animator{
+		max-height:696px !important;
+		min-height:696px !important;
+	}
+	.row.demo-2{
+		max-height:696px !important;
+		min-height:6696px !important;
+	}
+	canvas{
+		max-height:696px !important;
+		min-height:6696px !important;
+	}
 	
 	/* 2nd animation */
 	.devanimation{

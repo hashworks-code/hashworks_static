@@ -15,10 +15,15 @@
             object-fit: contain;
         }
         &__head{
-            position:absolute;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            height: 400px;
             width: 100%;
-            bottom:16px;
-            z-index: 500;
+          
             h1{
                 font-family:'muliRegular';
                 font-size: 24px;
@@ -27,9 +32,9 @@
                 font-stretch: normal;
                 line-height: normal;
                 letter-spacing: normal;
-                text-align: left;
+                text-align: center;
                 color: #ffffff;
-                width: 270px;
+                // width: 270px;
                 margin: 0 auto;
             }
         }
@@ -220,10 +225,10 @@
         }
         &__head {
             width: 100%;
-            bottom:32px;
+           height: 520px;
             h1{
                 font-size: 32px;
-                width: 702px;
+              
               }
         }
         &__content {
@@ -349,10 +354,10 @@
         }
         &__head {
             width: 100%;
-            bottom:32px;
+           height: 650px;
             h1{
                 font-size: 48px;
-                width: 943px;
+               
               }
         }
         &__content {
@@ -490,10 +495,10 @@
         }
         &__head {
             width: 100%;
-            bottom:32px;
+       height: 696px;
             h1{
                 font-size: 56px;
-                width: 1107px;
+
               }
         }
         &__content {
