@@ -322,66 +322,90 @@
 
 
 </body>
-  <section class="hashworks__casestudyHome">
-	<div class="casestudy__events">
-		  <div class="casestudy__events__banner">
-				<h1>Case Study</h1>
-			</div>
-			<div class=" category-filter center-xs">
-                <div class="">
-    			<p class=" btn-outline-primary category-button active " data-filter="all">All
-				</p>
-    			<p class=" btn-outline-primary category-button " data-filter="applicationdev">Data Science
-				</p>
-    			<p class=" btn-outline-primary category-button " data-filter="devops">DevOps
-				</p>
-				<p class=" btn-outline-primary category-button " data-filter="mobile">Mobile
-				</p>
-				<p class=" btn-outline-primary category-button " data-filter="applicationdev">Application
-				</p>
-			</div>
-			</div>
-		<div class="row">
-			
-			<div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter applicationdev">
-				<div class="shadow">
-				 <a href="/casestudy">
-				   <div class="casestudy__events__image1 "></div>
-						<h1>Application Dev</h1>
-						<h2>Using virtualy reality build empathy in distributed organizations</h2>
-				 </a>
-			  </div>
-			</div>
-			<div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter devops">
-				<div class="shadow">
-				 <a href="/devOps">
-				     <div class="casestudy__events__image2"></div>
-						<h1>DevOps</h1>
-						<h2>Using virtualy reality build empathy in distributed organizations</h2>
-				 </a>
-                </div>
-			</div>
-			<div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter mobile">
-				<div class="shadow">
-				<a href="/mobile">
-					 <div class="casestudy__events__image3"></div>
-						<h1>Mobile</h1>
-						<h2>Using virtualy reality build empathy in distributed organizations</h2>
-				</a>
-				</div>
-			</div>
-			<div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter mobile">
+<section class="hashworks__casestudyHome">
+    <div class="casestudy__events">
+        <div class="casestudy__events__banner lazy" data-src="../assets/image/casestudy/case-study-banner.png">
+            <h1>Case Study</h1>
+        </div>
+        <div class=" category-filter center-xs">
+            <div class="">
+                <p class=" btn-outline-primary category-button active " data-filter="all">All
+                </p>
+                <p class=" btn-outline-primary category-button " data-filter="applicationdev">Data Science
+                </p>
+                <p class=" btn-outline-primary category-button " data-filter="devops">DevOps
+                </p>
+                <p class=" btn-outline-primary category-button " data-filter="mobile">Mobile
+                </p>
+                <p class=" btn-outline-primary category-button " data-filter="applicationdev">Application
+                </p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter applicationdev">
                 <div class="shadow">
-				<a href="/dataScience" >
-				   <div class="casestudy__events__image4 "></div>
-						<h1>Data Science</h1>
-						<h2>Using virtualy reality build empathy in distributed organizations</h2>
-				</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>  
+                    <a href="/casestudy">
+                        <div class="casestudy__events__image1 lazy" data-src="../assets/image/casestudy/casestudy1.jpg"></div>
+                        <h1>Application Dev</h1>
+                        <h2>Using virtualy reality build empathy in distributed organizations</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter devops">
+                <div class="shadow">
+                    <a href="/devOps">
+                        <div class="casestudy__events__image2 lazy" data-src="../assets/image/casestudy/6.png"></div>
+                        <h1>DevOps</h1>
+                        <h2>Using virtualy reality build empathy in distributed organizations</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter mobile">
+                <div class="shadow">
+                    <a href="/mobile">
+                        <div class="casestudy__events__image3 lazy" data-src="../assets/image/casestudy/4.png"></div>
+                        <h1>Mobile</h1>
+                        <h2>Using virtualy reality build empathy in distributed organizations</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="event col-xs-12 col-sm-6 col-md-6 col-lg-6 filter mobile lazy">
+                <div class="shadow">
+                    <a href="/dataScience">
+                        <div class="casestudy__events__image4 lazy" data-src="../assets/image/casestudy/5.png"></div>
+                        <h1>Data Science</h1>
+                        <h2>Using virtualy reality build empathy in distributed organizations</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $('.lazy').Lazy({
+        // your configuration goes here
+        scrollDirection: 'vertical',
+        effect: "fadeIn",
+        effectTime: 2000,
+        threshold: 0,
+        visibleOnly: true,
+        // placeholder: "data:'../assets/image/testing.jpg';base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
+        beforeLoad: function(element) {
+            console.log(' started loading ' + element.data('src'));
+        },
+        afterLoad: function(element) {
+            console.log('finish loading ' + element.data('src'));
+        },
+        onError: function(element) {
+            console.log('error loading ' + element.data('src'));
+        },
+        onFinishedAll: function() {
+            console.log('all Done')
+        }
+    });
+</script>
 
 
  
