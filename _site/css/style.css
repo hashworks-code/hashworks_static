@@ -3495,7 +3495,8 @@ body {
     font-weight: bold;
     text-align: left;
     color: #9c9c9c;
-    margin: 16px 0px 8px 0px; }
+    margin: 16px 0px 8px 0px;
+    padding: 0rem 10px; }
   .hashworks__casestudyHome h2 {
     font-family: 'muliRegular';
     font-size: 16px;
@@ -3503,7 +3504,8 @@ body {
     text-align: left;
     color: #3e3e3e;
     margin-bottom: 24px;
-    width: 267px; }
+    width: 267px;
+    padding: 0rem 10px 10px; }
   .hashworks__casestudyHome .casestudy__events .shadow {
     transition: all .5s ease; }
     .hashworks__casestudyHome .casestudy__events .shadow:hover {
@@ -3793,12 +3795,22 @@ ul.tabs li.current {
   display: inherit;
   padding: 0px; }
 
+.plugin {
+  background: #fff;
+  min-height: 800px;
+  max-height: 100%;
+  margin-top: 3rem; }
+  .plugin img {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 0px !important;
+    margin: 0 !important; }
+
 @media only screen and (min-width: 320px) {
   .aboutus .border {
     border-top: solid 1px #e0e0e0;
     margin-top: 32px; }
   .aboutus__headImg {
-    background-image: url(../assets/image/aboutus/origami@2x.png);
     background-repeat: no-repeat;
     height: 229px;
     width: 100%;
@@ -3862,21 +3874,18 @@ ul.tabs li.current {
     text-align: left;
     color: #898989; }
   .aboutus__thinking--capitalImage {
-    background-image: url(../assets/image/aboutus/1.svg);
     background-repeat: no-repeat;
     height: 160px;
     width: 100%;
     background-size: 100% 100%;
     object-fit: contain; }
   .aboutus__thinking--clientImage {
-    background-image: url(../assets/image/aboutus/2.svg);
     background-repeat: no-repeat;
     height: 160px;
     width: 100%;
     background-size: 100% 100%;
     object-fit: contain; }
   .aboutus__thinking--industryImage {
-    background-image: url(../assets/image/aboutus/3.svg);
     background-repeat: no-repeat;
     height: 160px;
     width: 100%;

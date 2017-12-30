@@ -1,89 +1,100 @@
+ul.tabs li.current {
+  color: #603c96;
+}
 
-		ul.tabs li.current{
-			color:#603c96;
-		}
+.tab-content {
+  display: none;
+}
 
-		.tab-content{
-			display: none;
-		}
+.tab-content.current {
+  display: inherit;
+  padding: 0px;
+}
 
-		.tab-content.current{
-            display: inherit;
-            padding: 0px;
-		}
-@media only screen and (min-width:320px){
-.aboutus{
-    .border{
-        border-top: solid 1px #e0e0e0;
-        margin-top: 32px;
+.plugin {
+  background: #fff;
+  min-height: 800px;
+  max-height: 100%;
+  margin-top: 3rem;
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 0px !important;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (min-width:320px) {
+  .aboutus {
+    .border {
+      border-top: solid 1px #e0e0e0;
+      margin-top: 32px;
     }
-    &__headImg{
-        background-image: url(../assets/image/aboutus/origami@2x.png);
-        background-repeat: no-repeat;
-        height: 229px;
-        width: 100%;
-        background-size:cover;
-         background-position: center center;
-        // object-fit: contain;
-       
-      }
-      &__content1{
-        height: 229px;
-        width: 100%;
-        display: flex;
-        align-items: flex-end;
-        padding: 16px 28px;
-        font-family: 'muliRegular';
-        font-size: 24px;
-        text-align: left;
-        color: #ffffff;
-         
-    h1{
+    &__headImg {
+      // background-image: url(../assets/image/aboutus/origami@2x.png);
+      background-repeat: no-repeat;
+      height: 229px;
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+      // object-fit: contain;
+    }
+    &__content1 {
+      height: 229px;
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      padding: 16px 28px;
+      font-family: 'muliRegular';
+      font-size: 24px;
+      text-align: left;
+      color: #ffffff;
+      h1 {
         padding: 188px 0px 0px 28px;
         font-family: 'muliRegular';
         font-size: 24px;
         text-align: left;
-        color: #ffffff;   
+        color: #ffffff;
+      }
     }
-    }
-    &__tab{
-        border:solid 1px #f7f7f7;
-        display: flex;
-        justify-content: center;
-    &--list{
+    &__tab {
+      border: solid 1px #f7f7f7;
+      display: flex;
+      justify-content: center;
+      &--list {
         margin: 0px;
         padding: 0px;
         list-style: none;
-        li{
-            font-family: 'muliBold';
-            font-size: 12px;
-            font-weight: bold;
-            text-align: center;
-            color: #838383;
-            cursor: pointer;
-            display: inline-block;
-            margin: 20px 45px 15px 45px;
+        li {
+          font-family: 'muliBold';
+          font-size: 12px;
+          font-weight: bold;
+          text-align: center;
+          color: #838383;
+          cursor: pointer;
+          display: inline-block;
+          margin: 20px 45px 15px 45px;
         }
+      }
     }
-}
-    &__thinking{
-       &--container1{
-           width: 266px;
-            margin: 0 auto;
-       }
-        .row{
-            // width: 266px;
-            // margin: 0 auto;
-        }
-       h2{
-        font-family:'muliBold';
+    &__thinking {
+      &--container1 {
+        width: 266px;
+        margin: 0 auto;
+      }
+      .row {
+        // width: 266px;
+        // margin: 0 auto;
+      }
+      h2 {
+        font-family: 'muliBold';
         font-size: 16px;
         font-weight: bold;
         text-align: center;
         color: #603c96;
         padding: 32px 0px 0px 0px;
-       }
-       p{
+      }
+      p {
         width: 265px;
         font-family: 'muliRegular';
         font-size: 12px;
@@ -91,556 +102,528 @@
         text-align: center;
         color: #3e3e3e;
         padding-top: 16px;
-       }
-       h3{
+      }
+      h3 {
         font-family: 'muliSemiBold';
         font-size: 16px;
         font-weight: 600;
         text-align: left;
         color: #898989;
-       }
-      
-     
-     &--capitalImage{
-        background-image: url(../assets/image/aboutus/1.svg);
+      }
+      &--capitalImage {
+        // background-image: url(../assets/image/aboutus/1.svg);
         background-repeat: no-repeat;
         height: 160px;
         width: 100%;
         background-size: 100% 100%;
         object-fit: contain;
-     }
-     &--clientImage{
-        background-image: url(../assets/image/aboutus/2.svg);
+      }
+      &--clientImage {
+        // background-image: url(../assets/image/aboutus/2.svg);
         background-repeat: no-repeat;
         height: 160px;
         width: 100%;
         background-size: 100% 100%;
         object-fit: contain;
-     }
-     &--industryImage{
-        background-image: url(../assets/image/aboutus/3.svg);
+      }
+      &--industryImage {
+        // background-image: url(../assets/image/aboutus/3.svg);
         background-repeat: no-repeat;
         height: 160px;
         width: 100%;
         background-size: 100% 100%;
         object-fit: contain;
-     }
-     &--ourculture{
+      }
+      &--ourculture {
         padding-bottom: 51px;
-        &--container1{
-            width: 266px;
-            margin: 0 auto;
+        &--container1 {
+          width: 266px;
+          margin: 0 auto;
         }
-        .culture{
-         padding-top: 50px;
-     }
-    }
-    &--grew{
+        .culture {
+          padding-top: 50px;
+        }
+      }
+      &--grew {
         background-color: #603c96;
-        p{
-            width: 100%;
-            font-family: 'muliBold';
-            font-size: 16px;
-            font-weight: bold;
-            text-align: center;
-            color: #ffffff;
-            padding: 54px 59px 32px 59px;
+        p {
+          width: 100%;
+          font-family: 'muliBold';
+          font-size: 16px;
+          font-weight: bold;
+          text-align: center;
+          color: #ffffff;
+          padding: 54px 59px 32px 59px;
         }
+      }
     }
-    }
-  
-   
-}
-// about company css
-.aboutus__company{
+  }
+  // about company css
+  .aboutus__company {
     background-color: #f7f7f7;
-    .row{
-        width: 266px;
-        margin: 0 auto;
+    .row {
+      width: 266px;
+      margin: 0 auto;
     }
-    h1{
+    h1 {
+      font-family: 'muliBold';
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      color: #603c96;
+      padding-top: 32px;
+    }
+    p {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: center;
+      color: #3e3e3e;
+      margin: 12px 0px 32px;
+    }
+    img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-left: 85px;
+    }
+    h2 {
+      font-family: 'muliBold';
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      color: #434343;
+      margin: 10px 0px;
+    }
+    h3 {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      text-align: center;
+      color: #434343;
+      margin-bottom: 64px;
+    }
+    &--explore {
+      background-image: url(../assets/image/aboutus/group-6@2x.png);
+      background-repeat: no-repeat;
+      height: 92px;
+      width: 100%;
+      background-size: 100% 100%;
+      object-fit: contain;
+      h1 {
         font-family: 'muliBold';
         font-size: 16px;
         font-weight: bold;
         text-align: center;
-        color: #603c96;
-        padding-top: 32px;
-    }
-    p{
-        font-family: 'muliRegular';
-        font-size: 12px;
-        line-height: 1.5;
-        text-align: center;
-        color: #3e3e3e;
-        margin: 12px 0px 32px;
-    }
-    img{
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        margin-left: 85px;
-    }
-    h2{
-        font-family: 'muliBold';
-        font-size: 12px;
-        font-weight: bold;
-        text-align: center;
-        color: #434343;
-        margin: 10px 0px;
-    }
-    h3{
-        font-family: 'muliRegular';
-        font-size: 12px;
-        text-align: center;
-        color: #434343;
-        margin-bottom: 64px;
-    }
-    &--explore{
-        background-image: url(../assets/image/aboutus/group-6@2x.png);
-        background-repeat: no-repeat;
-        height:92px;
-        width: 100%;
-        background-size: 100% 100%;
-        object-fit: contain;
-        h1{
-            font-family: 'muliBold';
-            font-size: 16px;
-            font-weight: bold;
-            text-align: center;
-            color: #ffffff;
-            height: 92px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    }
-}
-
-}
-
-@media only screen and (min-width: 767px){
-
-.aboutus{
-    .border{
-      
-        margin-top: 64px;
-    }
-    &__headImg{
-        height: 230px;
-        width: 100%;
-      }
-      &__content1{
-        height: 230px;
-        padding: 29px 34px;
-        font-size: 24px;
-         
-    h1{
-        padding: 161px 0px 0px 34px;
-        font-size: 36px;  
-    }
-    }
-    &__tab{
+        color: #ffffff;
+        height: 92px;
         display: flex;
+        align-items: center;
         justify-content: center;
-
-    &--list{
-    
-        li{
-            margin: 24px 52px;
-            font-size: 14px;
-        }
+      }
     }
+  }
 }
-    &__thinking{
-     
-        &--container1{
-            width: 461px;
-             margin: 0 auto;
+
+@media only screen and (min-width: 767px) {
+  .aboutus {
+    .border {
+      margin-top: 64px;
+    }
+    &__headImg {
+      height: 230px;
+      width: 100%;
+    }
+    &__content1 {
+      height: 230px;
+      padding: 29px 34px;
+      font-size: 24px;
+      h1 {
+        padding: 161px 0px 0px 34px;
+        font-size: 36px;
+      }
+    }
+    &__tab {
+      display: flex;
+      justify-content: center;
+      &--list {
+        li {
+          margin: 24px 52px;
+          font-size: 14px;
         }
-       h2{
+      }
+    }
+    &__thinking {
+      &--container1 {
+        width: 461px;
+        margin: 0 auto;
+      }
+      h2 {
         font-size: 18px;
         padding: 47px 0px 0px 0px;
-       }
-       p{
-        width:460px;;
+      }
+      p {
+        width: 460px;
+        ;
         font-size: 14px;
         padding-top: 32px;
-       }
-       h3{
-     font-size: 18px;
-       }
-     &--capitalImage{
-        height: 300px;
-        margin-top: 32px;
-     }
-     &--clientImage{
-        height: 300px;
-        margin-top: 32px;
-     }
-     &--industryImage{
-        height: 300px;
-        margin-top: 32px;
-     }
-     &--ourculture{
-        padding-bottom: 51px;
-        &--container1{
-            width: 580px;
-            margin: 0 auto;
-        }
-        .culture{
-             padding-top: 64px;
-         }
-         p{
-            width: 100%;
-            padding: 16px 0px 0px 22px;
-         }
-    }
-    &--grew{
-        background-color: #603c96;
-        p{
-            font-size: 18px;
-            padding: 50px 59px 53px 59px;
-            width: 100%;
-        }
-    }
-    }
-  
-}
-// about company css
-.aboutus__company{
-    background-color: #f7f7f7;
-    .row{
-        width: 537px;
-        margin: 0 auto;
-    }
-    h1{
+      }
+      h3 {
         font-size: 18px;
-        margin: 16px 0px 17px 0px;
-    }
-    p{
-        font-size: 14px;
-        margin: 12px 0px 32px;
-    }
-    img{
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        margin-left: 95px;
-    }
-    h2{
-        font-size: 14px;
-        margin: 10px 0px;
-    }
-    h3{
-        font-size: 14px;
-        margin-bottom: 64px;
-    }
-    &--explore{
-       
-        h1{
-            font-size: 18px;
-          
+      }
+      &--capitalImage {
+        height: 300px;
+        margin-top: 32px;
+      }
+      &--clientImage {
+        height: 300px;
+        margin-top: 32px;
+      }
+      &--industryImage {
+        height: 300px;
+        margin-top: 32px;
+      }
+      &--ourculture {
+        padding-bottom: 51px;
+        &--container1 {
+          width: 580px;
+          margin: 0 auto;
         }
+        .culture {
+          padding-top: 64px;
+        }
+        p {
+          width: 100%;
+          padding: 16px 0px 0px 22px;
+        }
+      }
+      &--grew {
+        background-color: #603c96;
+        p {
+          font-size: 18px;
+          padding: 50px 59px 53px 59px;
+          width: 100%;
+        }
+      }
     }
-}
+  }
+  // about company css
+  .aboutus__company {
+    background-color: #f7f7f7;
+    .row {
+      width: 537px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 18px;
+      margin: 16px 0px 17px 0px;
+    }
+    p {
+      font-size: 14px;
+      margin: 12px 0px 32px;
+    }
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-left: 95px;
+    }
+    h2 {
+      font-size: 14px;
+      margin: 10px 0px;
+    }
+    h3 {
+      font-size: 14px;
+      margin-bottom: 64px;
+    }
+    &--explore {
+      h1 {
+        font-size: 18px;
+      }
+    }
+  }
 }
 
-@media only screen and (min-width: 1025px){
-    
-    .aboutus{
-       
-        &__headImg{
-            height: 306px;
-            width: 100%;
-          }
-          &__content1{
-            height: 306px;
-            width: 100%;
-            display: flex;
-            align-items: flex-end;
-            padding: 31px 43px;
-            font-family: 'muliRegular';
-            font-size: 48px;
-            text-align: left;
-            color: #ffffff;
-             
-        h1{
-            padding: 161px 0px 0px 34px;
-            font-size: 36px;  
-        }
-        }
-        &__tab{
-        &--list{
-        
-            li{
-                margin: 25px 55px;
-                font-size: 16px;
-            }
-        }
+@media only screen and (min-width: 1025px) {
+  .aboutus {
+    &__headImg {
+      height: 306px;
+      width: 100%;
     }
-        &__thinking{
-           
-            &--container1{
-                width: 731px;
-                 margin: 0 auto;
-            }
-           h2{
-            font-size: 24px;
-            padding: 35px 0px 0px 0px;
-           }
-           p{
-            width:731px;;
-            font-size: 16px;
-            padding-top: 33px;
-           }
-           h3{
-         font-size: 24px;
-           }
-         &--capitalImage{
-            height: 430px;
-            margin-top: 32px;
-         }
-         &--clientImage{
-            height: 430px;
-            margin-top: 32px;
-         }
-         &--industryImage{
-            height: 430px;
-            margin-top: 32px;
-         }
-         &--ourculture{
-            padding-bottom: 51px;
-            &--container1{
-                width: 799px;
-                 margin: 0 auto;
-            }
-            .culture{
-                 padding-top: 64px;
-             }
-             p{
-                width: 100%;
-                padding: 16px 21px 0px 34px;
-             }
-        }
-        &--grew{
-            background-color: #603c96;
-            p{
-                font-size: 24px;
-                padding: 69px 0px;
-            }
-        }
-        }
+    &__content1 {
+      height: 306px;
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      padding: 31px 43px;
+      font-family: 'muliRegular';
+      font-size: 48px;
+      text-align: left;
+      color: #ffffff;
+      h1 {
+        padding: 161px 0px 0px 34px;
+        font-size: 36px;
+      }
     }
-    // about company css
-.aboutus__company{
-    background-color: #f7f7f7;
-    .row{
+    &__tab {
+      &--list {
+        li {
+          margin: 25px 55px;
+          font-size: 16px;
+        }
+      }
+    }
+    &__thinking {
+      &--container1 {
         width: 731px;
         margin: 0 auto;
-    }
-    h1{
+      }
+      h2 {
         font-size: 24px;
-         margin: 34px 0px 16px 0px;
-    }
-    p{
+        padding: 35px 0px 0px 0px;
+      }
+      p {
+        width: 731px;
+        ;
         font-size: 16px;
-        margin: 12px 0px 67px;
+        padding-top: 33px;
+      }
+      h3 {
+        font-size: 24px;
+      }
+      &--capitalImage {
+        height: 430px;
+        margin-top: 32px;
+      }
+      &--clientImage {
+        height: 430px;
+        margin-top: 32px;
+      }
+      &--industryImage {
+        height: 430px;
+        margin-top: 32px;
+      }
+      &--ourculture {
+        padding-bottom: 51px;
+        &--container1 {
+          width: 799px;
+          margin: 0 auto;
+        }
+        .culture {
+          padding-top: 64px;
+        }
+        p {
+          width: 100%;
+          padding: 16px 21px 0px 34px;
+        }
+      }
+      &--grew {
+        background-color: #603c96;
+        p {
+          font-size: 24px;
+          padding: 69px 0px;
+        }
+      }
     }
-    img{
-        width: 124px;
+  }
+  // about company css
+  .aboutus__company {
+    background-color: #f7f7f7;
+    .row {
+      width: 731px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 24px;
+      margin: 34px 0px 16px 0px;
+    }
+    p {
+      font-size: 16px;
+      margin: 12px 0px 67px;
+    }
+    img {
+      width: 124px;
+      height: 124px;
+      border-radius: 50%;
+      margin-left: 120px;
+    }
+    h2 {
+      font-size: 16px;
+      margin: 10px 0px;
+    }
+    h3 {
+      font-size: 16px;
+      margin-bottom: 75px;
+    }
+    &--explore {
+      height: 124px;
+      object-fit: contain;
+      h1 {
+        font-size: 24px;
         height: 124px;
-        border-radius: 50%;
-        margin-left: 120px;
+      }
     }
-    h2{
-        font-size: 16px;
-        margin: 10px 0px;
-    }
-    h3{
-        font-size: 16px;
-        margin-bottom: 75px;
-    }
-    &--explore{
-        height:124px;
-        object-fit: contain;
-        h1{
-            
-            font-size: 24px;
-            height: 124px;
+    .profilehover {
+      position: relative;
+      display: inline-block;
+      &__text {
+        visibility: hidden;
+        position: absolute;
+        z-index: 1;
+        width: 700px;
+        background-color: #f7f7f7;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+        border: solid 1px #d3d3d3;
+        top: -20px;
+        &--content {
+          display: flex;
+          justify-content: space-between;
+          width: 700px;
+          img {
+            margin: 43px 61px 88px;
+          }
+          h2 {
+            margin-top: 43px;
+            text-align: left;
+          }
+          h3 {
+            margin: 10px 0px 12px;
+            text-align: left;
+          }
+          p {
+            width: 386px;
+            margin-right: 32px;
+            text-align: left;
+            margin: 0px 32px 16px 0px;
+          }
+          a {
+            font-family: 'muliRegular';
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #4a4a4a;
+            margin-bottom: 16px;
+          }
         }
-    }
-    .profilehover
-    {
-        position: relative;
-        display: inline-block;
-        &__text{
-            visibility: hidden;
-            position: absolute;
-            z-index: 1;
-            width: 700px;
-            background-color: #f7f7f7;
-            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
-            border: solid 1px #d3d3d3;
-            top:-20px;
-            &--content{
-                display: flex;
-                justify-content: space-between;
-                width: 700px;
-                img{
-                    margin: 43px 61px 88px;
-                }
-                h2{
-                    margin-top: 43px;
-                    text-align: left;
-                }
-                h3{
-                    margin: 10px 0px 12px;
-                    text-align: left;
-                }
-                p{
-                    width: 386px;
-                    margin-right: 32px;
-                    text-align: left;
-                     margin: 0px 32px 16px 0px;
-                }
-                a{
-                    font-family: 'muliRegular';
-                    font-size: 16px;
-                    font-weight: normal;
-                    font-style: normal;
-                    font-stretch: normal;
-                    line-height: normal;
-                    letter-spacing: normal;
-                    text-align: center;
-                    color: #4a4a4a;
-                    margin-bottom: 16px;
-                }
-            }
-        }
-      
+      }
     }
     .profilehover:hover .profilehover__text {
-        visibility: visible;
+      visibility: visible;
     }
-    
+  }
 }
-    }
 
-    @media only screen and (min-width: 1367px){
-        
-        .aboutus{
-           
-            &__headImg{
-                height: 430px;
-                width: 100%;
-              }
-              &__content1{
-                height: 430px;
-                padding: 33px 134px;
-                font-size: 56px;
-                 
-            h1{
-                padding: 161px 0px 0px 34px;
-                font-size: 36px;  
-            }
-            }
-            &__tab{
-            &--list{
-            
-                li{
-                    margin: 24px 50px;
-                    font-size: 18px;
-                }
-            }
+@media only screen and (min-width: 1367px) {
+  .aboutus {
+    &__headImg {
+      height: 430px;
+      width: 100%;
+    }
+    &__content1 {
+      height: 430px;
+      padding: 33px 134px;
+      font-size: 56px;
+      h1 {
+        padding: 161px 0px 0px 34px;
+        font-size: 36px;
+      }
+    }
+    &__tab {
+      &--list {
+        li {
+          margin: 24px 50px;
+          font-size: 18px;
         }
-            &__thinking{
-               
-                &--container1{
-                    width: 731px;
-                     margin: 0 auto;
-                }
-               h2{
-                font-size: 32px;
-                padding: 64px 0px 0px 0px;
-               }
-               p{
-                width:731px;;
-                font-size: 18px;
-                padding-top: 33px;
-               }
-               h3{
-             font-size: 24px;
-               }
-             &--capitalImage{
-                height: 557px;
-                margin-top: 32px;
-             }
-             &--clientImage{
-                height: 557px;
-                margin-top: 32px;
-             }
-             &--industryImage{
-                height: 557px;
-                margin-top: 32px;
-             }
-             &--ourculture{
-                padding-bottom: 100px;
-                &--container1{
-                    width: 985px;
-                     margin: 0 auto;
-                }
-                .culture{
-                     padding-top:32px;
-                 }
-                 p{
-                    width: 100%;
-                    padding: 16px 21px 32px 34px;
-                 }
-            }
-            &--grew{
-                background-color: #603c96;
-                p{
-                    width: 100%;
-                    font-size: 32px;
-                    padding: 98px 0px;
-                }
-            }
-            }
-        }
-            // about company css
-.aboutus__company{
-  
-    h1{
+      }
+    }
+    &__thinking {
+      &--container1 {
+        width: 731px;
+        margin: 0 auto;
+      }
+      h2 {
         font-size: 32px;
-          margin: 29px 0px 16px 0px;
-    }
-    p{
+        padding: 64px 0px 0px 0px;
+      }
+      p {
+        width: 731px;
+        ;
         font-size: 18px;
-        margin: 16px 0px 52px;
-    }
-    img{
-        width: 145px;
-        height: 145px;
-        border-radius: 50%;
-        margin-left: 105px;
-    }
-    h2{
-        font-size: 18px;
-        margin: 10px 0px;
-    }
-    h3{
-        font-size: 18px;
-        margin-bottom: 65px;
-    }
-    &--explore{
-        height:175px;
-        object-fit: contain;
-        h1{
-            
-            font-size: 32px;
-            height: 175px;
+        padding-top: 33px;
+      }
+      h3 {
+        font-size: 24px;
+      }
+      &--capitalImage {
+        height: 557px;
+        margin-top: 32px;
+      }
+      &--clientImage {
+        height: 557px;
+        margin-top: 32px;
+      }
+      &--industryImage {
+        height: 557px;
+        margin-top: 32px;
+      }
+      &--ourculture {
+        padding-bottom: 100px;
+        &--container1 {
+          width: 985px;
+          margin: 0 auto;
         }
-           
-}
-}
+        .culture {
+          padding-top: 32px;
+        }
+        p {
+          width: 100%;
+          padding: 16px 21px 32px 34px;
+        }
+      }
+      &--grew {
+        background-color: #603c96;
+        p {
+          width: 100%;
+          font-size: 32px;
+          padding: 98px 0px;
+        }
+      }
+    }
+  }
+  // about company css
+  .aboutus__company {
+    h1 {
+      font-size: 32px;
+      margin: 29px 0px 16px 0px;
+    }
+    p {
+      font-size: 18px;
+      margin: 16px 0px 52px;
+    }
+    img {
+      width: 145px;
+      height: 145px;
+      border-radius: 50%;
+      margin-left: 105px;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 10px 0px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 65px;
+    }
+    &--explore {
+      height: 175px;
+      object-fit: contain;
+      h1 {
+        font-size: 32px;
+        height: 175px;
+      }
+    }
+  }
 }
