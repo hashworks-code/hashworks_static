@@ -128,6 +128,32 @@
 
 </div>
 
+<script>
+    $(document).ready(function() {
+        $('.lazy').Lazy({
+            // your configuration goes here
+            scrollDirection: 'vertical',
+            effect: "fadeIn",
+            effectTime: 1000,
+            threshold: 0,
+            visibleOnly: true,
+            // placeholder: "data:'../assets/image/testing.jpg';base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
+            beforeLoad: function(element) {
+                console.log(' started loading ' + element.data('src'));
+            },
+            afterLoad: function(element) {
+                console.log('finish loading ' + element.data('src'));
+            },
+            onError: function(element) {
+                console.log('error loading ' + element.data('src'));
+            },
+            onFinishedAll: function() {
+                console.log('all Done')
+            }
+    });
+
+    })
+</script>
 
 
 
