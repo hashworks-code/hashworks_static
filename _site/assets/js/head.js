@@ -6,8 +6,8 @@ $(document).ready(function() {
         if (categoryValue == "all") {
             $('.filter').show(1000);
         } else {
-            $(".filter").not('.' + categoryValue).hide('3000');
-            $('.filter').filter('.' + categoryValue).show('3000');
+            $(".filter").not('.' + categoryValue).hide();
+            $('.filter').filter('.' + categoryValue).fadeIn(3000);
         }
     });
 });
