@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     function checkWidth() {
         var windowSize = $(window).width();
         if (windowSize <= 768) {

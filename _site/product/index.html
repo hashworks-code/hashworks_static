@@ -323,7 +323,7 @@
 
 </body>
 <div class="product">
-    <div class="product__headImg">
+    <div class="product__headImg lazy">
         <div class=" product__content1">
     <div class="product__head">
         Products
@@ -338,12 +338,12 @@
              Donec sollicitudin molestie malesuada.
         </p>
     </div>
-    <div class="product__GroomeImg">
+    <div class="product__GroomeImg lazy" data-src="../assets/image/rectangle-10.png">
         <div class="product__content1">
     <div class="product__Groome">
             <div class="row">
                     <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 product__Groome_logo">
-                        <img src="../assets/image/groome.png">
+                        <img class="lazy" data-src="../assets/image/groome.png">
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <h4>PRODUCT</h4>
@@ -365,7 +365,7 @@
     <div class="product__paketo">
             <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 product__borderRight">
-                            <img src="../assets/image/packeto.svg">
+                            <img class="lazy" data-src="../assets/image/packeto.svg">
                         <h2>Project Integration</h2>
                         <p>
                             Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.
@@ -374,7 +374,7 @@
                         <button class="product__myButton" id="a">Know More</button>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                            <img src="../assets/image/little.svg">
+                            <img class="lazy" data-src="../assets/image/little.svg">
                             <h2>Project Integration</h2>
                             <p>
                                 Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.
@@ -432,16 +432,16 @@
         <h1>Our Product Pipeline</h1>
         <div class="row" id="carousel" class="single-item">
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
-                <img src="../assets/image/packeto.svg" class="product__img1">
+                <img data-src="../assets/image/packeto.svg" class="product__img1 lazy">
             </div>
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
-                    <img src="../assets/image/little.svg" class="product__img2">
+                    <img data-src="../assets/image/little.svg" class="product__img2 lazy">
             </div>
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
-                    <img src="../assets/image/groome.svg" class="product__img3">
+                    <img data-src="../assets/image/groome.svg" class="product__img3 lazy">
             </div>
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
-                    <img src="../assets/image/frugal.svg" class="product__img4">
+                    <img data-src="../assets/image/frugal.svg" class="product__img4 lazy">
             </div>
             
         </div>
@@ -450,6 +450,9 @@
 
 
 </div>
+
+
+
 
 
  
