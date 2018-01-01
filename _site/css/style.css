@@ -963,14 +963,22 @@ body {
     width: 254px; }
   .home__business--grew {
     background-color: #603c96;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: all .5s ease; }
+    .home__business--grew:hover {
+      box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
+      transform: scale(1.01); }
   .home__business--impact {
     height: 170px;
     background-repeat: no-repeat;
     margin-top: 8px;
     background-position: 100%;
     background-size: cover;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: all .5s ease; }
+    .home__business--impact:hover {
+      box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
+      transform: scale(1.01); }
   .home__businessImpact h1 {
     font-family: 'muliBold';
     font-size: 12px;
@@ -991,7 +999,11 @@ body {
     margin-top: 8px;
     background-position: 100%;
     background-size: cover;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: all .5s ease; }
+    .home__businessImpact--thinking:hover {
+      box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
+      transform: scale(1.01); }
     .home__businessImpact--thinking h2 {
       padding: 60px 0px 25px 28px;
       width: 160px; }
@@ -1001,7 +1013,11 @@ body {
     margin-top: 8px;
     background-position: 100%;
     background-size: cover;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: all .5s ease; }
+    .home__businessImpact--culture:hover {
+      box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
+      transform: scale(1.01); }
     .home__businessImpact--culture h2 {
       padding: 29px 0px 0px 28px;
       width: 293px; }
@@ -1692,17 +1708,11 @@ body {
     .home__business--grew {
       background-color: #603c96;
       width: 770px;
-      margin: 0px;
-      transition: all .5s ease; }
-      .home__business--grew:hover {
-        transform: scale(1.01); }
+      margin: 0px; }
     .home__business--impact {
       height: 396px;
       width: 370px;
-      margin: 0 auto;
-      transition: all .5s ease; }
-      .home__business--impact:hover {
-        transform: scale(1.01); }
+      margin: 0 auto; }
       .home__business--impact h2 {
         width: 326px; }
   .home__businessImpact {
@@ -1719,20 +1729,14 @@ body {
     .home__businessImpact--thinking {
       height: 396px;
       width: 337px;
-      margin: 0 auto;
-      transition: all .5s ease; }
-      .home__businessImpact--thinking:hover {
-        transform: scale(1.01); }
+      margin: 0 auto; }
       .home__businessImpact--thinking h2 {
         padding: 177px 0px 25px 42px;
         width: 336px; }
     .home__businessImpact--culture {
       width: 770px;
       margin: 0 auto;
-      height: 396px;
-      transition: all .5s ease; }
-      .home__businessImpact--culture:hover {
-        transform: scale(1.01); }
+      height: 396px; }
       .home__businessImpact--culture h2 {
         padding: 177px 38px 0px 42px;
         width: 625px; }
