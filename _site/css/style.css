@@ -3927,12 +3927,12 @@ ul.tabs li.current {
       line-height: 1.5;
       text-align: center;
       color: #3e3e3e;
-      margin: 12px 0px 32px; }
+      margin: 12px 0px 0px; }
     .aboutus__company img {
       width: 70px;
       height: 70px;
       border-radius: 50%;
-      margin-left: 85px; }
+      margin-left: 100px; }
     .aboutus__company h2 {
       font-family: 'muliBold';
       font-size: 12px;
@@ -3962,7 +3962,24 @@ ul.tabs li.current {
         height: 92px;
         display: flex;
         align-items: center;
-        justify-content: center; } }
+        justify-content: center; }
+    .aboutus__company .hoverhidden {
+      display: none; }
+    .aboutus__company .profilehover--profile {
+      margin-top: 20px; }
+    .aboutus__company .profilehover h3 {
+      margin-bottom: 20px; }
+    .aboutus__company .profilehover__text--content p {
+      margin: 0px;
+      padding: 0px 0px 10px; }
+    .aboutus__company .profilehover__text--content a {
+      font-family: 'muliRegular';
+      font-size: 12px;
+      font-weight: normal;
+      color: #4a4a4a;
+      margin-bottom: 16px; }
+    .aboutus__company .profilehover .rajeshProfile {
+      width: 100%; } }
 @media only screen and (min-width: 767px) {
   .aboutus .border {
     margin-top: 64px; }
@@ -4035,7 +4052,7 @@ ul.tabs li.current {
       width: 80px;
       height: 80px;
       border-radius: 50%;
-      margin-left: 95px; }
+      margin-left: 230px; }
     .aboutus__company h2 {
       font-size: 14px;
       margin: 10px 0px; }
@@ -4113,10 +4130,10 @@ ul.tabs li.current {
       font-size: 16px;
       margin: 12px 0px 67px; }
     .aboutus__company img {
-      width: 124px;
-      height: 124px;
+      width: 200px;
+      height: 200px;
       border-radius: 50%;
-      margin-left: 120px; }
+      margin: 0px; }
     .aboutus__company h2 {
       font-size: 16px;
       margin: 10px 0px; }
@@ -4130,8 +4147,16 @@ ul.tabs li.current {
         font-size: 24px;
         height: 124px; }
     .aboutus__company .profilehover {
+      display: flex;
+      width: 700px;
+      justify-content: space-around;
       position: relative;
-      display: inline-block; }
+      margin: 0 auto; }
+      .aboutus__company .profilehover--profile {
+        margin-top: 40px; }
+      .aboutus__company .profilehover--profile {
+        position: relative;
+        vertical-align: top; }
       .aboutus__company .profilehover__text {
         visibility: hidden;
         position: absolute;
@@ -4140,13 +4165,15 @@ ul.tabs li.current {
         background-color: #f7f7f7;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
         border: solid 1px #d3d3d3;
-        top: -20px; }
+        top: -44px;
+        left: -45px;
+        height: 330px; }
         .aboutus__company .profilehover__text--content {
           display: flex;
           justify-content: space-between;
           width: 700px; }
           .aboutus__company .profilehover__text--content img {
-            margin: 43px 61px 88px; }
+            margin: 43px 44px 64px; }
           .aboutus__company .profilehover__text--content h2 {
             margin-top: 43px;
             text-align: left; }
@@ -4169,8 +4196,28 @@ ul.tabs li.current {
             text-align: center;
             color: #4a4a4a;
             margin-bottom: 16px; }
-    .aboutus__company .profilehover:hover .profilehover__text {
-      visibility: visible; } }
+      .aboutus__company .profilehover__text2 {
+        visibility: hidden;
+        position: absolute;
+        z-index: 1;
+        width: 700px;
+        background-color: #f7f7f7;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+        border: solid 1px #d3d3d3;
+        top: -44px;
+        right: -22px;
+        padding-left: 40px;
+        height: 330px; }
+        .aboutus__company .profilehover__text2 img {
+          margin: 43px 0px 0px;
+          position: absolute;
+          right: 21px; }
+      .aboutus__company .profilehover .rajeshProfile {
+        width: 200px; }
+    .aboutus__company .profilehover--profile:hover .hoverdiv {
+      visibility: visible; }
+    .aboutus__company .hoverhidden {
+      display: -webkit-box; } }
 @media only screen and (min-width: 1367px) {
   .aboutus__headImg {
     height: 430px;
@@ -4223,29 +4270,44 @@ ul.tabs li.current {
       font-size: 32px;
       padding: 98px 0px; }
 
-  .aboutus__company h1 {
-    font-size: 32px;
-    margin: 29px 0px 16px 0px; }
-  .aboutus__company p {
-    font-size: 18px;
-    margin: 16px 0px 52px; }
-  .aboutus__company img {
-    width: 145px;
-    height: 145px;
-    border-radius: 50%;
-    margin-left: 105px; }
-  .aboutus__company h2 {
-    font-size: 18px;
-    margin: 10px 0px; }
-  .aboutus__company h3 {
-    font-size: 18px;
-    margin-bottom: 65px; }
-  .aboutus__company--explore {
-    height: 175px;
-    object-fit: contain; }
-    .aboutus__company--explore h1 {
+  .aboutus__company {
+    background-color: #f7f7f7; }
+    .aboutus__company .row {
+      width: 731px;
+      margin: 0 auto; }
+    .aboutus__company h1 {
       font-size: 32px;
-      height: 175px; } }
+      margin: 34px 0px 16px 0px; }
+    .aboutus__company p {
+      font-size: 18px;
+      margin: 12px 0px 67px; }
+    .aboutus__company img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%; }
+    .aboutus__company h2 {
+      font-size: 18px;
+      margin: 10px 0px; }
+    .aboutus__company h3 {
+      font-size: 18px;
+      margin-bottom: 75px; }
+    .aboutus__company--explore {
+      height: 124px;
+      object-fit: contain; }
+      .aboutus__company--explore h1 {
+        font-size: 24px;
+        height: 124px; }
+    .aboutus__company .profilehover__text {
+      height: 340px; }
+    .aboutus__company .profilehover__text2 {
+      top: -44px;
+      right: -38px;
+      padding-left: 40px;
+      height: 340px; }
+      .aboutus__company .profilehover__text2 img {
+        margin: 43px 0px 0px;
+        position: absolute;
+        right: 37px; } }
 .slick-initialized .slick-slide {
   outline: none; }
 
