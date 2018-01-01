@@ -7,6 +7,21 @@
         .pad {
             padding: 0;
         }
+        .shadow1 {
+        transition: all .5s ease;
+        &:hover {
+          box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, .25);
+          transform: scale(1.01);
+        }
+      }
+     .shadow2 {
+        transition: all .5s ease;
+        // box-shadow: 0px 0px 4px 2px #999;
+        &:hover {
+          box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, .25);
+          transform: scale(1.01);
+        }
+      }
         &__image {
              background-image: url(../assets/image/contactus/group-6.png);
              background-size: cover;
@@ -183,6 +198,12 @@
             width: 703px;
             margin: 0 auto;
         }
+        .shadow1 {
+          width: 220px;
+        }
+        .shadow2 {
+          width: 462px;
+        }
         &__image {
              height: 213px;
 
@@ -296,6 +317,12 @@
             width: 942px;
             margin: 0 auto;
         }
+         .shadow1 {
+             width: 300px;
+        }
+        .shadow2 {
+          width: 624px;   
+        }
         &__image {
              height: 284px;
 
@@ -404,6 +431,12 @@
         .row {
             width: 1174px;
             margin: 0 auto;
+        }
+         .shadow1 {
+           width: 372px;
+        }
+        .shadow2 {
+          width: 774px;
         }
         &__image {
              height: 400px;
