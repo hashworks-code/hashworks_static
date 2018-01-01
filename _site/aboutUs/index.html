@@ -1,6 +1,6 @@
-
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +8,31 @@
 
     <title>Hashworks</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="/css/hashGrid.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/ionicons-2.0.1/css/ionicons.css">
-     <link rel="alternate" type="application/rss+xml" title="Hashworks" href="/feed.xml">
-     <link rel="stylesheet" type="text/css" href="/css/demo2.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css"/>
+    <link rel="alternate" type="application/rss+xml" title="Hashworks" href="/feed.xml">
+    <link rel="stylesheet" type="text/css" href="/css/demo2.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css" />
+
     <!-- <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script> -->
 </head>
+
 <body id="close">
-        <div class="loader">
-                <img  class="loader-image" src="../assets/image/job/hashlogo.gif">
-              </div>
+    <div class="loader">
+        <img class="loader-image" src="../assets/image/job/hashlogo.gif">
+    </div>
     <header class="hashworks__head">
-        <a href="/index"> <img class="hashworks__head--logo" src="/assets/image/logo.svg" alt="hashlogo"></a>
+        <a href="/index"> <img class="hashworks__head--logo lazy" src="/assets/image/logo.svg" alt="hashlogo"></a>
         <div class="hashworks__head--list">
             <a href="/index" class="hashworks__head--home">Home</a>
-            <a  class="hashworks__head--product dropbtn menuClass" id="menu-1" >Product & Service
+            <a class="hashworks__head--product dropbtn menuClass" id="menu-1">Product & Service
                 <div class="popover" id="mypopover"></div>
             </a>
             <a class="hashworks__head--case" href="/casestudyHome">Case Study</a>
-            <a  class="hashworks__head--about dropbtn menuClass" id="menu-2" >About
+            <a class="hashworks__head--about dropbtn menuClass" id="menu-2">About
 
                 <div class="popoverer" id="mypopover-about"></div>
 
@@ -38,460 +40,1567 @@
             <!-- <a  class="hashworks__head--blog dropbtn"> Blog</a> -->
             <a class="hashworks__head--contact" href="/contactUs">Contact</a>
         </div>
-        <img class="hashworks__head--toggle" src="/assets/image/group-2@2x.png"/>
+        <img class="hashworks__head--toggle" src="/assets/image/group-2@2x.png" />
     </header>
 
     <div id="myDropdown" class="productService dropdown menu-1-Content">
         <div class=" row">
             <div class=" ">
                 <div class="productService--productContent">
-                 <h2><a href="/product/">PRODUCT</a></h2>
-                 <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
+                    <h2><a href="/product/">PRODUCT</a></h2>
+                    <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
                 </div>
             </div>
             <div class="productService--alignment">
-            <div class=" paketo">
-                <div class="productService--paketo fortext">
-                    <div class="productService--produtpacto">
-                            <img  src="/assets/image/product&service/paketo@2x.png"/>
+                <div class=" paketo">
+                    <div class="productService--paketo fortext">
+                        <div class="productService--produtpacto">
+                            <img src="/assets/image/product&service/paketo@2x.png" />
+                        </div>
+
+                        <p>Enterprise Devops Framework</p>
                     </div>
-                  
-                   <p>Enterprise Devops Framework</p>  
                 </div>
-             </div>
-             <div class=" ">
-                <div class="productService--littlebhrahma fortext">
-                    <div class="productService--produtlittle">
-                            <img  src="/assets/image/product&service/little.png"/>
+                <div class=" ">
+                    <div class="productService--littlebhrahma fortext">
+                        <div class="productService--produtlittle">
+                            <img src="/assets/image/product&service/little.png" />
+                        </div>
+                        <p>Design Marketplace</p>
                     </div>
-                    <p>Design Marketplace</p>
                 </div>
-              </div>
-              <div class=" ">
-                  <div class="productService--groome  fortext">
-                  <div class="productService--produtgroome">
-                        <img  src="/assets/image/product&service/groome@2x.png"/>
-                  </div>
-                    <p>A Talent Marketplace</p>
-                  </div>
-              </div>
-              <div class=" ">
-                <div class="productService--frugal fortext">
-                   <div class="productService--produtfrugal">
-                        <img  src="/assets/image/product&service/frugal.png"/>
-                   </div>
-                    <p>Cashflow Managment App</p>
+                <div class=" ">
+                    <div class="productService--groome  fortext">
+                        <div class="productService--produtgroome">
+                            <img src="/assets/image/product&service/groome@2x.png" />
+                        </div>
+                        <p>A Talent Marketplace</p>
+                    </div>
                 </div>
-              </div>
-              </div>
+                <div class=" ">
+                    <div class="productService--frugal fortext">
+                        <div class="productService--produtfrugal">
+                            <img src="/assets/image/product&service/frugal.png" />
+                        </div>
+                        <p>Cashflow Managment App</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="productService__service ">
             <div class="row">
-               <div class=" ">
-                <div class="productService__service--content ">
+                <div class=" ">
+                    <div class="productService__service--content ">
                         <h2><a href="/service/">SERVICES</a></h2>
                         <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
-                    </div> 
+                    </div>
                 </div>
 
-            <div class="productService--alignment2">
-           <div onclick="redirect('/mobile/')" class="productService__service--mobile">
-              <h4>Mobile Development</h4>
-           </div>
-            <div class="  ">
-            <div onclick="redirect('/devOps/')" class="productService__service--ops">
-              <h4>Data Ops</h4>
-            </div>
-            </div>
-            <div class=" ">
-             <div onclick="redirect('/dataScience/')" class="productService__service--data">
-               <h4>Data Science</h4>
-            </div>
-            </div>
-            <div class="">
-             <div onclick="redirect('/cloud/')" class="productService__service--cloud">
-              <h4>Application on Cloud</h4>
-             </div>
-            </div>
-            </div>
+                <div class="productService--alignment2">
+                    <div onclick="redirect('/mobile/')" class="productService__service--mobile">
+                        <h4>Mobile Development</h4>
+                    </div>
+                    <div class="  ">
+                        <div onclick="redirect('/devOps/')" class="productService__service--ops">
+                            <h4>DevOps</h4>
+                        </div>
+                    </div>
+                    <div class=" ">
+                        <div onclick="redirect('/dataScience/')" class="productService__service--data">
+                            <h4>Data Science</h4>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div onclick="redirect('/cloud/')" class="productService__service--cloud">
+                            <h4>Application on Cloud</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- about -->
     <div id="aboutDropdown" class="about dropdown menu-2-Content">
-    <div class="row"> 
-        <div class=" ">
-            <div class="about__Content">
-                <h2>ABOUT</h2>
-                <h3>We are IT-change partners enabling digital transformation for Large enterprise & Captive IT units.</h3>
-             </div>
-        </div>
-        <div class="about--algin">
-            <a href="/aboutUs/">
-                 <div class="  ">
-                <div class="about__thinking">
-                <img class="about__thinking--img" src="/assets/image/product&service/group-26.svg"/>
-                <p>Our Thinking</p>
+        <div class="row">
+            <div class=" ">
+                <div class="about__Content">
+                    <h2>ABOUT</h2>
+                    <h3>We are IT-change partners enabling digital transformation for Large enterprise & Captive IT units.</h3>
+                </div>
             </div>
-            </div></a>
-            <a href="/workculture/"> 
-                 <div class="  ">
-                  <div class="about__culture">
-                        <img class="about__culture--img" src="/assets/image/product&service/fill-1.svg"/>
-                        <p>Work Culture</p>
-                 </div>
-                </div>
-            </a>
-            <a href="/job/"> 
+            <div class="about--algin">
+                <a href="/aboutUs/">
                     <div class="  ">
-                      <div class="about__job">
-                            <img class="about__job--img" src="/assets/image/product&service/fill-2.svg"/>
-                           <p>Job Opening</p>
-                     </div>
+                        <div class="about__thinking">
+                            <img class="about__thinking--img" src="/assets/image/product&service/group-26.svg" />
+                            <p>Our Thinking</p>
+                        </div>
                     </div>
-            </a>
-                </div>
-      </div>
+                </a>
+                <a href="/workculture/">
+                    <div class="  ">
+                        <div class="about__culture">
+                            <img class="about__culture--img" src="/assets/image/product&service/fill-1.svg" />
+                            <p>Work Culture</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/job/">
+                    <div class="  ">
+                        <div class="about__job">
+                            <img class="about__job--img" src="/assets/image/product&service/fill-2.svg" />
+                            <p>Job Opening</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
 
-<!-- HEADER FOR MOBILE VIEW -->
-<header>
-    <nav id='cssmenu'>
-    <div class="logo"><a href="/index"><img src="/assets/image/logo.svg" alt="hashlogo"></a></div>
-    <div id="head-mobile"></div>
-    <div class="button"></div>
-    <ul class="menulist">
-    <li class='active'><a href="/index/">HOME</a></li>
-    <li><a href='#'>Product & Services </a>
-       <ul class="productDetails">
-          <li>
-            <div id="mydiv" class="product_view">
-              <div class=" row">
-              <div class="product_view--content ">
-                 <div class="">
-                  <h2 onclick="redirect('/product/')">PRODUCT</h2>
-                  <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
-                 </div>
-              </div>
-              <div class="product_view--alignment">
- 
-                     <div class=" paketo">
-                         <div class="product_view--paketo ">
-                            <img  src="/assets/image/product&service/paketo@2x.png"/>
-                            <p>Enterprise Devops Framework</p>  
-                         </div>
-                     </div>
-                     
-                      <div class=" ">
-                         <div class="product_view--littlebhrahma">
-                             <img  src="/assets/image/product&service/little.png"/>
-                             <p>Design Marketplace</p>
-                         </div>
-                       </div>
-                     </div>
-                       <div class="product_view--alignment1">
-                       <div class=" ">
-                           <div class="product_view--groome">
-                             <img  src="/assets/image/product&service/groome@2x.png"/>
-                             <p>A Talent Marketplace</p>
-                           </div>
-                       </div>
-                       <div class=" ">
-                         <div class="product_view--frugal">
-                             <img  src="/assets/image/product&service/frugal.png"/>
-                             <p>Cashflow Managment App</p>
-                         </div>
-                       </div>
-        
-                     </div>
-                     <div class="service__view ">
-                             <div class="row">
-                                <div class=" service__view--content ">
-                                 <div class="">
-                                         <h2 onclick="redirect('/service/')">SERVICES</h2>
-                                         <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
-                                     </div> 
-                                 </div>
-                 
-                             <div class="service__view--alignment">
-                            <div class="service__view--mobile">
-                               <h4><a href="/mobile/">Mobile Development</a></h4>
-                            </div>
-                             <div class="  ">
-                             <div class="service__view--ops">
-                               <h4><a href="/devOps/">Data Ops</a></h4>
-                             </div>
-                             </div>
-                             <div class=" ">
-                              <div class="service__view--data">
-                                <h4><a href="/dataScience/">Data Science</a></h4>
-                             </div>
-                             </div>
-                             <div class="">
-                              <div class="service__view--cloud">
-                               <h4><a href="/cloud/">Application on Cloud</a></h4>
-                              </div>
-                             </div>
-                             </div>
-                             </div>
-                         </div>
-               
-         </div>
-     </div>
-          
-          </li>
-         
-           
-          </li>
-       </ul>
-    </li>
-    <li><a href="/casestudyHome/">Casestudy</a></li>
-    <li><a href='#'>About Us</a>
-      <ul class="aboutDetails">
-      <li>
-        <div id="aboutContent" class="about__view">
-          <div class="row"> 
-              <div class=" ">
-                  <div class="about__view__Content">
-                      <h2>ABOUT</h2>
-                      <h3>We are IT-change partners enabling digital transformation for Large enterprise & Captive IT units.</h3>
-                   </div>
-              </div>
-              <div class="about__view--algin">
-                <a href="/aboutUs/"><div class="  ">
-                      <div class="about__view__thinking">
-                      <img class="about__view__thinking--img" src="/assets/image/product&service/group-26@2x.png"/>
-                      <p>Our Thinking</p>
-                  </div>
-                  </div></a>
-                  <a href="/workculture/"> <div class="  ">
-                        <div class="about__view__culture">
-                              <img class="about__view__culture--img" src="/assets/image/product&service/fill-1@2x.png"/>
-                              <p>Work Culture</p>
-                       </div>
-                      </div></a>
-                      <a href="/job/">  <div class="  ">
-                            <div class="about__view__job">
-                                  <img class="about__view__job--img" src="/assets/image/product&service/fill.png"/>
-                                 <p>Job Opening</p>
-                           </div>
-                          </div></a>
-                      </div>
+    <!-- HEADER FOR MOBILE VIEW -->
+    <header>
+        <nav id='cssmenu'>
+            <div class="logo">
+                <a href="/index"><img src="/assets/image/logo.svg" alt="hashlogo"></a>
             </div>
-          </div>
-    </li>
-    </ul>
-    
-    </li>
-    <!-- <li><a href='#'>Blog</a></li> -->
-    <li><a href="/contactUs/">Contact Us</a></li>
-    </ul>
-    </nav>
-    </header>
-<!-- END HEADER CODE -->
+            <div id="head-mobile"></div>
+            <div class="button"></div>
+            <ul class="menulist">
+                <li class='active'><a href="/index/">HOME</a></li>
+                <li><a href='#'>Product & Services </a>
+                    <ul class="productDetails">
+                        <li>
+                            <div id="mydiv" class="product_view">
+                                <div class=" row">
+                                    <div class="product_view--content ">
+                                        <div class="">
+                                            <h2 onclick="redirect('/product/')">PRODUCT</h2>
+                                            <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
+                                        </div>
+                                    </div>
+                                    <div class="product_view--alignment">
 
-     
-    
+                                        <div class=" paketo">
+                                            <div class="product_view--paketo ">
+                                                <img src="/assets/image/product&service/paketo@2x.png" />
+                                                <p>Enterprise Devops Framework</p>
+                                            </div>
+                                        </div>
+
+                                        <div class=" ">
+                                            <div class="product_view--littlebhrahma">
+                                                <img src="/assets/image/product&service/little.png" />
+                                                <p>Design Marketplace</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product_view--alignment1">
+                                        <div class=" ">
+                                            <div class="product_view--groome">
+                                                <img src="/assets/image/product&service/groome@2x.png" />
+                                                <p>A Talent Marketplace</p>
+                                            </div>
+                                        </div>
+                                        <div class=" ">
+                                            <div class="product_view--frugal">
+                                                <img src="/assets/image/product&service/frugal.png" />
+                                                <p>Cashflow Managment App</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="service__view ">
+                                        <div class="row">
+                                            <div class=" service__view--content ">
+                                                <div class="">
+                                                    <h2 onclick="redirect('/service/')">SERVICES</h2>
+                                                    <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
+                                                </div>
+                                            </div>
+
+                                            <div class="service__view--alignment">
+                                                <div class="service__view--mobile">
+                                                    <h4><a href="/mobile/">Mobile Development</a></h4>
+                                                </div>
+                                                <div class="  ">
+                                                    <div class="service__view--ops">
+                                                        <h4><a href="/devOps/">DevOps</a></h4>
+                                                    </div>
+                                                </div>
+                                                <div class=" ">
+                                                    <div class="service__view--data">
+                                                        <h4><a href="/dataScience/">Data Science</a></h4>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="service__view--cloud">
+                                                        <h4><a href="/cloud/">Application on Cloud</a></h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </li>
+
+
+                </li>
+                </ul>
+                </li>
+                <li><a href="/casestudyHome/">Casestudy</a></li>
+                <li><a href='#'>About Us</a>
+                    <ul class="aboutDetails">
+                        <li>
+                            <div id="aboutContent" class="about__view">
+                                <div class="row">
+                                    <div class=" ">
+                                        <div class="about__view__Content">
+                                            <h2>ABOUT</h2>
+                                            <h3>We are IT-change partners enabling digital transformation for Large enterprise & Captive IT units.</h3>
+                                        </div>
+                                    </div>
+                                    <div class="about__view--algin">
+                                        <a href="/aboutUs/">
+                                            <div class="  ">
+                                                <div class="about__view__thinking">
+                                                    <img class="about__view__thinking--img" src="/assets/image/product&service/group-26@2x.png" />
+                                                    <p>Our Thinking</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="/workculture/">
+                                            <div class="  ">
+                                                <div class="about__view__culture">
+                                                    <img class="about__view__culture--img" src="/assets/image/product&service/fill-1@2x.png" />
+                                                    <p>Work Culture</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="/job/">
+                                            <div class="  ">
+                                                <div class="about__view__job">
+                                                    <img class="about__view__job--img" src="/assets/image/product&service/fill.png" />
+                                                    <p>Job Opening</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </li>
+                <!-- <li><a href='#'>Blog</a></li> -->
+                <li><a href="/contactUs/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- END HEADER CODE -->
+
+
+
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
     <script type="text/javascript" src="/assets/js/product.js"></script>
-    <script type="text/javascript" src="/assets/js/head.js"></script>
+
     <script src="/assets/js/demo.js"></script>
     <script src="/assets/js/three.min.js"></script>
     <script src="/assets/js/TweenMax.min.js"></script>
-  
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.plugins.min.js"></script>
+    <script type="text/javascript" src="/assets/js/head.js"></script>
 
 
 
 
 
-   
+
 </body>
-
-           
-
+<style>
+    .app {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: box;
+        flex-direction: box;
+        min-height: calc(100vh - 45px)
+    }
+    
+    .hash-grid {
+        height: 360px;
+        position: relative;
+        width: 100%
+    }
+    
+    @media (min-width:600px) {
+        .hash-grid {
+            height: 440px
+        }
+    }
+    
+    @media (min-width:1000px) {
+        .hash-grid {
+            height: 540px
+        }
+    }
+    
+    @media (min-width:1400px) {
+        .hash-grid {
+            height: 600px
+        }
+    }
+    
+    @media (min-width:1800px) {
+        .hash-grid {
+            height: 640px
+        }
+    }
+    
+    .is-preparing .hash-grid {
+        opacity: 0
+    }
+    
+    .hash-grid__inner {
+        overflow: hidden;
+        position: absolute;
+        bottom: -220px;
+        left: 0;
+        right: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 760px
+    }
+    
+    @media (min-width:600px) {
+        .hash-grid__inner {
+            height: 840px
+        }
+    }
+    
+    @media (min-width:1000px) {
+        .hash-grid__inner {
+            height: 940px
+        }
+    }
+    
+    @media (min-width:1400px) {
+        .hash-grid__inner {
+            height: 1000px
+        }
+    }
+    
+    @media (min-width:1800px) {
+        .hash-grid__inner {
+            height: 1040px
+        }
+    }
+    
+    @media (max-height:700px) {
+        .hash-grid__inner {
+            bottom: -180px
+        }
+    }
+    
+    .hash-grid__box {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 160px;
+        margin-left: -80px;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-animation: boxs-trajectory-0 80s infinite;
+        animation: boxs-trajectory-0 80s infinite;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        will-change: transform
+    }
+    
+    @media (min-width:600px) {
+        .hash-grid__box {
+            width: 200px;
+            margin-left: -100px;
+            -webkit-animation-name: boxs-trajectory-600;
+            animation-name: boxs-trajectory-600
+        }
+    }
+    
+    @media (min-width:1000px) {
+        .hash-grid__box {
+            width: 240px;
+            margin-left: -120px;
+            -webkit-animation-name: boxs-trajectory-1000;
+            animation-name: boxs-trajectory-1000
+        }
+    }
+    
+    @media (min-width:1400px) {
+        .hash-grid__box {
+            width: 300px;
+            margin-left: -150px;
+            -webkit-animation-name: boxs-trajectory-1400;
+            animation-name: boxs-trajectory-1400
+        }
+    }
+    
+    @media (min-width:1800px) {
+        .hash-grid__box {
+            width: 320px;
+            margin-left: -160px;
+            -webkit-animation-name: boxs-trajectory-1800;
+            animation-name: boxs-trajectory-1800
+        }
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box {
+            -webkit-animation-duration: 130s;
+            animation-duration: 130s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box {
+            -webkit-animation-duration: 180s;
+            animation-duration: 180s
+        }
+    }
+    
+    .hash-grid__box:nth-child(2) {
+        -webkit-animation-delay: -71.11111s;
+        animation-delay: -71.11111s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(2) {
+            -webkit-animation-delay: -115.55556s;
+            animation-delay: -115.55556s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(2) {
+            -webkit-animation-delay: -160s;
+            animation-delay: -160s
+        }
+    }
+    
+    .hash-grid__box:nth-child(3) {
+        -webkit-animation-delay: -62.22222s;
+        animation-delay: -62.22222s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(3) {
+            -webkit-animation-delay: -101.11111s;
+            animation-delay: -101.11111s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(3) {
+            -webkit-animation-delay: -140s;
+            animation-delay: -140s
+        }
+    }
+    
+    .hash-grid__box:nth-child(4) {
+        -webkit-animation-delay: -53.33333s;
+        animation-delay: -53.33333s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(4) {
+            -webkit-animation-delay: -86.66667s;
+            animation-delay: -86.66667s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(4) {
+            -webkit-animation-delay: -120s;
+            animation-delay: -120s
+        }
+    }
+    
+    .hash-grid__box:nth-child(5) {
+        -webkit-animation-delay: -44.44444s;
+        animation-delay: -44.44444s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(5) {
+            -webkit-animation-delay: -72.22222s;
+            animation-delay: -72.22222s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(5) {
+            -webkit-animation-delay: -100s;
+            animation-delay: -100s
+        }
+    }
+    
+    .hash-grid__box:nth-child(6) {
+        -webkit-animation-delay: -35.55556s;
+        animation-delay: -35.55556s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(6) {
+            -webkit-animation-delay: -57.77778s;
+            animation-delay: -57.77778s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(6) {
+            -webkit-animation-delay: -80s;
+            animation-delay: -80s
+        }
+    }
+    
+    .hash-grid__box:nth-child(7) {
+        -webkit-animation-delay: -26.66667s;
+        animation-delay: -26.66667s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(7) {
+            -webkit-animation-delay: -43.33333s;
+            animation-delay: -43.33333s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(7) {
+            -webkit-animation-delay: -60s;
+            animation-delay: -60s
+        }
+    }
+    
+    .hash-grid__box:nth-child(8) {
+        -webkit-animation-delay: -17.77778s;
+        animation-delay: -17.77778s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(8) {
+            -webkit-animation-delay: -28.88889s;
+            animation-delay: -28.88889s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(8) {
+            -webkit-animation-delay: -40s;
+            animation-delay: -40s
+        }
+    }
+    
+    .hash-grid__box:nth-child(9) {
+        -webkit-animation-delay: -8.88889s;
+        animation-delay: -8.88889s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(9) {
+            -webkit-animation-delay: -14.44444s;
+            animation-delay: -14.44444s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(9) {
+            -webkit-animation-delay: -20s;
+            animation-delay: -20s
+        }
+    }
+    
+    .hash-grid__box:nth-child(n+10) {
+        display: none
+    }
+    
+    @-webkit-keyframes boxs-trajectory-0 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(825px, 10px, 0);
+            transform: rotate(.001deg) translate3d(825px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-825px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-825px, 10px, 0)
+        }
+    }
+    
+    @keyframes boxs-trajectory-0 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(825px, 10px, 0);
+            transform: rotate(.001deg) translate3d(825px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-825px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-825px, 10px, 0)
+        }
+    }
+    
+    @-webkit-keyframes boxs-trajectory-600 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1040px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1040px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1040px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1040px, 10px, 0)
+        }
+    }
+    
+    @keyframes boxs-trajectory-600 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1040px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1040px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1040px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1040px, 10px, 0)
+        }
+    }
+    
+    @-webkit-keyframes boxs-trajectory-1000 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1255px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1255px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1255px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1255px, 10px, 0)
+        }
+    }
+    
+    @keyframes boxs-trajectory-1000 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1255px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1255px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1255px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1255px, 10px, 0)
+        }
+    }
+    
+    @-webkit-keyframes boxs-trajectory-1400 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1595px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1595px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1595px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1595px, 10px, 0)
+        }
+    }
+    
+    @keyframes boxs-trajectory-1400 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1595px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1595px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1595px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1595px, 10px, 0)
+        }
+    }
+    
+    @-webkit-keyframes boxs-trajectory-1800 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1685px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1685px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1685px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1685px, 10px, 0)
+        }
+    }
+    
+    @keyframes boxs-trajectory-1800 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1685px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1685px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1685px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1685px, 10px, 0)
+        }
+    }
+    
+    .hash-grid__item {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 160px;
+        background: #fff;
+        background-size: cover;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+        -webkit-animation: card-jiggle 30s infinite alternate;
+        animation: card-jiggle 30s infinite alternate;
+        -webkit-transition: opacity .15s, -webkit-transform .7s cubic-bezier(.205, .96, .375, 1.025);
+        transition: opacity .15s, transform .7s cubic-bezier(.205, .96, .375, 1.025);
+        transition: opacity .15s, transform .7s cubic-bezier(.205, .96, .375, 1.025), -webkit-transform .7s cubic-bezier(.205, .96, .375, 1.025)
+    }
+    
+    @media (min-width:600px) {
+        .hash-grid__item {
+            height: 200px
+        }
+    }
+    
+    @media (min-width:1000px) {
+        .hash-grid__item {
+            height: 240px
+        }
+    }
+    
+    @media (min-width:1400px) {
+        .hash-grid__item {
+            height: 260px
+        }
+    }
+    
+    @media (min-width:1800px) {
+        .hash-grid__item {
+            height: 280px
+        }
+    }
+    
+    .hash-grid__item-container {
+        -webkit-transform-origin: center bottom;
+        transform-origin: center bottom;
+        -webkit-transition: opacity .25s, -webkit-transform .7s cubic-bezier(.205, .96, .375, 1.025);
+        transition: opacity .25s, transform .7s cubic-bezier(.205, .96, .375, 1.025);
+        transition: opacity .25s, transform .7s cubic-bezier(.205, .96, .375, 1.025), -webkit-transform .7s cubic-bezier(.205, .96, .375, 1.025)
+    }
+    
+    .is-preparing .hash-grid__item-container {
+        opacity: 0;
+        -webkit-transform: translateY(130px) scale(.8);
+        transform: translateY(130px) scale(.8)
+    }
+    
+    @-webkit-keyframes card-jiggle {
+        0% {
+            -webkit-transform: translate3d(1px, 4px, 0);
+            transform: translate3d(1px, 4px, 0)
+        }
+        10% {
+            -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0)
+        }
+        20%,
+        to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0)
+        }
+        30% {
+            -webkit-transform: translate3d(0, 1px, 0);
+            transform: translate3d(0, 1px, 0)
+        }
+        40% {
+            -webkit-transform: translate3d(-4px, -3px, 0);
+            transform: translate3d(-4px, -3px, 0)
+        }
+        50% {
+            -webkit-transform: translate3d(5px, 2px, 0);
+            transform: translate3d(5px, 2px, 0)
+        }
+        60% {
+            -webkit-transform: translate3d(3px, -1px, 0);
+            transform: translate3d(3px, -1px, 0)
+        }
+        70% {
+            -webkit-transform: translate3d(-1px, 2px, 0);
+            transform: translate3d(-1px, 2px, 0)
+        }
+        80% {
+            -webkit-transform: translate3d(3px, -2px, 0);
+            transform: translate3d(3px, -2px, 0)
+        }
+        90% {
+            -webkit-transform: translate3d(3px, 2px, 0);
+            transform: translate3d(3px, 2px, 0)
+        }
+    }
+    
+    @keyframes card-jiggle {
+        0% {
+            -webkit-transform: translate3d(1px, 4px, 0);
+            transform: translate3d(1px, 4px, 0)
+        }
+        10% {
+            -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0)
+        }
+        20%,
+        to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0)
+        }
+        30% {
+            -webkit-transform: translate3d(0, 1px, 0);
+            transform: translate3d(0, 1px, 0)
+        }
+        40% {
+            -webkit-transform: translate3d(-4px, -3px, 0);
+            transform: translate3d(-4px, -3px, 0)
+        }
+        50% {
+            -webkit-transform: translate3d(5px, 2px, 0);
+            transform: translate3d(5px, 2px, 0)
+        }
+        60% {
+            -webkit-transform: translate3d(3px, -1px, 0);
+            transform: translate3d(3px, -1px, 0)
+        }
+        70% {
+            -webkit-transform: translate3d(-1px, 2px, 0);
+            transform: translate3d(-1px, 2px, 0)
+        }
+        80% {
+            -webkit-transform: translate3d(3px, -2px, 0);
+            transform: translate3d(3px, -2px, 0)
+        }
+        90% {
+            -webkit-transform: translate3d(3px, 2px, 0);
+            transform: translate3d(3px, 2px, 0)
+        }
+    }
+    
+    .hash-grid__box:nth-child(1) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -5.30204s;
+        animation-delay: -5.30204s
+    }
+    
+    .hash-grid__box:nth-child(1) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: .75s;
+        transition-delay: .75s
+    }
+    
+    .hash-grid__box:nth-child(1) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -13.16395s;
+        animation-delay: -13.16395s
+    }
+    
+    .hash-grid__box:nth-child(1) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: .8s;
+        transition-delay: .8s
+    }
+    
+    .hash-grid__box:nth-child(2) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -6.88356s;
+        animation-delay: -6.88356s
+    }
+    
+    .hash-grid__box:nth-child(2) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: .8s;
+        transition-delay: .8s
+    }
+    
+    .hash-grid__box:nth-child(2) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -28.7621s;
+        animation-delay: -28.7621s
+    }
+    
+    .hash-grid__box:nth-child(2) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: .85s;
+        transition-delay: .85s
+    }
+    
+    .hash-grid__box:nth-child(3) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -26.03077s;
+        animation-delay: -26.03077s
+    }
+    
+    .hash-grid__box:nth-child(3) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: .85s;
+        transition-delay: .85s
+    }
+    
+    .hash-grid__box:nth-child(3) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -23.42802s;
+        animation-delay: -23.42802s
+    }
+    
+    .hash-grid__box:nth-child(3) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: .9s;
+        transition-delay: .9s
+    }
+    
+    .hash-grid__box:nth-child(4) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -27.86454s;
+        animation-delay: -27.86454s
+    }
+    
+    .hash-grid__box:nth-child(4) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: .9s;
+        transition-delay: .9s
+    }
+    
+    .hash-grid__box:nth-child(4) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -18.39546s;
+        animation-delay: -18.39546s
+    }
+    
+    .hash-grid__box:nth-child(4) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: .95s;
+        transition-delay: .95s
+    }
+    
+    .hash-grid__box:nth-child(5) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -15.22776s;
+        animation-delay: -15.22776s
+    }
+    
+    .hash-grid__box:nth-child(5) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: .95s;
+        transition-delay: .95s
+    }
+    
+    .hash-grid__box:nth-child(5) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -24.40217s;
+        animation-delay: -24.40217s
+    }
+    
+    .hash-grid__box:nth-child(5) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s
+    }
+    
+    .hash-grid__box:nth-child(6) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -6.897s;
+        animation-delay: -6.897s
+    }
+    
+    .hash-grid__box:nth-child(6) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s
+    }
+    
+    .hash-grid__box:nth-child(6) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -26.04068s;
+        animation-delay: -26.04068s
+    }
+    
+    .hash-grid__box:nth-child(6) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: 1.05s;
+        transition-delay: 1.05s
+    }
+    
+    .hash-grid__box:nth-child(7) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -6.8831s;
+        animation-delay: -6.8831s
+    }
+    
+    .hash-grid__box:nth-child(7) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: 1.05s;
+        transition-delay: 1.05s
+    }
+    
+    .hash-grid__box:nth-child(7) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -6.11901s;
+        animation-delay: -6.11901s
+    }
+    
+    .hash-grid__box:nth-child(7) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: 1.1s;
+        transition-delay: 1.1s
+    }
+    
+    .hash-grid__box:nth-child(8) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -28.119s;
+        animation-delay: -28.119s
+    }
+    
+    .hash-grid__box:nth-child(8) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: 1.1s;
+        transition-delay: 1.1s
+    }
+    
+    .hash-grid__box:nth-child(8) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -9.3362s;
+        animation-delay: -9.3362s
+    }
+    
+    .hash-grid__box:nth-child(8) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: 1.15s;
+        transition-delay: 1.15s
+    }
+    
+    .hash-grid__box:nth-child(9) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -16.30265s;
+        animation-delay: -16.30265s
+    }
+    
+    .hash-grid__box:nth-child(9) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: 1.15s;
+        transition-delay: 1.15s
+    }
+    
+    .hash-grid__box:nth-child(9) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -24.63739s;
+        animation-delay: -24.63739s
+    }
+    
+    .hash-grid__box:nth-child(9) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: 1.2s;
+        transition-delay: 1.2s
+    }
+    
+    .hash-grid__item:first-child {
+        margin-bottom: 20px
+    }
+    
+    @media (min-width:600px) {
+        .hash-grid__item:first-child {
+            margin-bottom: 20px
+        }
+    }
+    
+    @media (min-width:1000px) {
+        .hash-grid__item:first-child {
+            margin-bottom: 40px
+        }
+    }
+    
+    @media (min-width:1400px) {
+        .hash-grid__item:first-child {
+            margin-bottom: 60px
+        }
+    }
+    
+    @media (min-width:1800px) {
+        .hash-grid__item:first-child {
+            margin-bottom: 60px
+        }
+    }
+</style>
 <div class="aboutus">
-  <div class="aboutus__headImg">
-    <h1 class="aboutus__content1">Who are we ?</h1>
-  </div>
-
-    <div class="aboutus__tab">
-      <ul class="aboutus__tab--list tabs">
-          <li class="thinkingtab current" data-tab="tab-1">Our Thinking</li>
-          <li class="" data-tab="tab-2">Company</li>
-      </ul>
+    <div class="aboutus__headImg lazy" data-src="../assets/image/aboutus/origami@2x.png">
+        <h1 class="aboutus__content1">Who are we ?</h1>
     </div>
 
-    
-    
-      <div id="tab-1" class="tab-content current aboutus__thinking thinkingtab">
-         
-              <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  <div class="aboutus__thinking--container1">
-                  <h2>Human Capital Acceleration</h2>
-                  <div class="aboutus__thinking--capitalImage"></div>
-                  <p>Our prime focus is complete retention and this is why we are  averse to any form of attrition. Our engagement with the team is comprehensive, familial and dedicated to individual and overall development. This spreads across making the diversity,
+    <div class="aboutus__tab">
+        <ul class="aboutus__tab--list tabs">
+            <li class="thinkingtab current" data-tab="tab-1">Our Thinking</li>
+            <li class="" data-tab="tab-2">Company</li>
+        </ul>
+    </div>
+
+
+
+    <div id="tab-1" class="tab-content current aboutus__thinking thinkingtab">
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="aboutus__thinking--container1">
+                    <h2>Human Capital Acceleration</h2>
+                    <div class="aboutus__thinking--capitalImage lazy" data-src="../assets/image/aboutus/1.svg"></div>
+                    <p>Our prime focus is complete retention and this is why we are averse to any form of attrition. Our engagement with the team is comprehensive, familial and dedicated to individual and overall development. This spreads across making the
+                        diversity,
                     </p>
                     <P>
-                      backgrounds, perspectives and communication channels stronger and inclusive. They are our assets and addition, our face and symbol, our attitude and approach, our viewpoints and strengths and at the same time our favoured critics and trusted friends.</p>
-                    </div>
-                    </div>
-      
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border ">
-                    <div class="aboutus__thinking--container1">
+                        backgrounds, perspectives and communication channels stronger and inclusive. They are our assets and addition, our face and symbol, our attitude and approach, our viewpoints and strengths and at the same time our favoured critics and trusted friends.</p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border ">
+                <div class="aboutus__thinking--container1">
                     <h2>Client Handling</h2>
-                    <div class="aboutus__thinking--clientImage"></div>
-                   <p>Whether our clients are going through a business transition or moving across geographies, setting up new verticles that demand maximum attention or just want to talk to us on a trending doubt anytime, we are always there to assist and move them beyond the existing and future challenges. 
-                     </p>
-                     <P>
-                      We consider client handholding to be the
-                      building block of our corporate philosophy
-                       and embed this as a solid practice at every opportunity that makes  us add positive value.</p>
-                  </div>
+                    <div class="aboutus__thinking--clientImage lazy" data-src="../assets/image/aboutus/2.svg"></div>
+                    <p>Whether our clients are going through a business transition or moving across geographies, setting up new verticles that demand maximum attention or just want to talk to us on a trending doubt anytime, we are always there to assist
+                        and move them beyond the existing and future challenges.
+                    </p>
+                    <P>
+                        We consider client handholding to be the building block of our corporate philosophy and embed this as a solid practice at every opportunity that makes us add positive value.</p>
                 </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border">
-                      <div class="aboutus__thinking--container1">
-                      <h2>Industry stewardship and sustainability</h2>
-                      <div class="aboutus__thinking--industryImage"></div>
-                     <p>Whether our clients are going through a business transition or moving across geographies, setting up new verticles that demand maximum attention or just want to talk to us on a trending doubt anytime, we are always there to assist and move them beyond the existing and future challenges. 
-                      </p>
-                      <P>
-                        We consider client handholding to be the
-                        building block of our corporate philosophy
-                         and embed this as a solid practice at every opportunity that makes  us add positive value.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border">
+                <div class="aboutus__thinking--container1">
+                    <h2>Industry stewardship and sustainability</h2>
+                    <div class="aboutus__thinking--industryImage lazy" data-src="../assets/image/aboutus/3.svg"></div>
+                    <p>Whether our clients are going through a business transition or moving across geographies, setting up new verticles that demand maximum attention or just want to talk to us on a trending doubt anytime, we are always there to assist
+                        and move them beyond the existing and future challenges.
+                    </p>
+                    <P>
+                        We consider client handholding to be the building block of our corporate philosophy and embed this as a solid practice at every opportunity that makes us add positive value.</p>
+                </div>
+            </div>
+        </div>
+        <div class="aboutus__thinking--ourculture">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border">
+                    <div class="aboutus__thinking--ourculture--container1 lazy">
+                        <h2>Our Culture Code</h2>
+                        <p>Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.</p>
+                        <div class="row ">
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture ">
+                                <h3>Innovation</h3>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture ">
+                                <h3>Honesty</h3>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture">
+                                <h3>Impact</h3>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture">
+                                <h3>Courage</h3>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture">
+                                <h3>Judgement</h3>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture">
+                                <h3>Curiosity</h3>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture">
+                                <h3>Selflessness</h3>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture">
+                                <h3>Passion</h3>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture">
+                                <h3>Communication</h3>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-              </div>
-              <div class="aboutus__thinking--ourculture">
-              <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border">
-                  <div class="aboutus__thinking--ourculture--container1">
-                  <h2>Our Culture Code</h2>
-                 <p>Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.</p>
-               <div class="row ">
-                     <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture " >
-                        <h3>Innovation</h3>
-                     </div>
-                     <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture " >
-                        <h3>Honesty</h3>
-                     </div>
-                     <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture" >
-                        <h3>Impact</h3>
-                     </div>
-                     <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture" >
-                        <h3>Courage</h3>
-                     </div>
-                     <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture" >
-                        <h3>Judgement</h3>
-                     </div>
-                     <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture" >
-                        <h3>Curiosity</h3>
-                     </div>
-                     <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture" >
-                        <h3>Selflessness</h3>
-                     </div>
-                     <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture" >
-                        <h3>Passion</h3>
-                     </div>
-                     <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 culture" >
-                        <h3>Communication</h3>
-                     </div>
-               </div>
-              </div>
-            </div>
-            </div>
                 </div>
-              
-                  <div class="aboutus__thinking--grew">
-                    <p>How we Grew 200 % over 3 years</p>
-                  </div>
-       
-      </div>
-      <div id="tab-2" class="tab-content aboutus__company">
-         
-              <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                   <h1>Leadership</h1>
-                   <p>Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta.
-                      Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.</p>
+            </div>
+        </div>
+
+        <div class="aboutus__thinking--grew">
+            <p>How we Grew 200 % over 3 years</p>
+        </div>
+
+    </div>
+    <div id="tab-2" class="tab-content aboutus__company">
+
+        <section class="plugin">
+            <div class="">
+                <div class="hash-grid js-hash-grid " aria-hidden="true">
+                    <div class="hash-grid__inner">
+
+
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/casestudy/1.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 profilehover">
-                    <img src="../assets/image/aboutus/gk-2@2x.jpg">
-                    <h2>Gopikrishna Kannan</h2>
-                    <h3>Founder & CEO</h3>
-                   <!-- hover function -->
-                    <div class="profilehover__text">
-                  
-                      <div class="profilehover__text--content">
-                       
-                            <img src="../assets/image/aboutus/gk-2@2x.jpg">
-                       
-                        <div  class="">
+            </div>
+        </section>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1>Leadership</h1>
+                <p>Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 profilehover">
+                <img src="../assets/image/aboutus/gk-2@2x.jpg">
+                <h2>Gopikrishna Kannan</h2>
+                <h3>Founder & CEO</h3>
+                <!-- hover function -->
+                <div class="profilehover__text">
+
+                    <div class="profilehover__text--content">
+
+                        <img src="../assets/image/aboutus/gk-2@2x.jpg">
+
+                        <div class="">
                             <h2>Gopikrishna Kannan</h2>
                             <h3>Founder & CEO</h3>
-                            <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
-                               He is responsible for setting the overall direction and product strategy for the company.</p>
-                        
-                               <a href="https://in.linkedin.com/in/kannangk" target="_blank">
-                                in.linkedin.com/in/kannangk</a>  
-                          </div>
-                      </div>
+                            <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world. He is responsible for setting the overall direction and product strategy for the
+                                company.
+                            </p>
+
+                            <a href="https://in.linkedin.com/in/kannangk" target="_blank">
+                                in.linkedin.com/in/kannangk</a>
+                        </div>
                     </div>
-                 </div>
-                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <img src="../assets/image/aboutus/rajesh@2x.jpg">
-                    <h2>Rajesh Murugan</h2>
-                    <h3>Co - founder & Delivery Head</h3>
-                 </div>
-                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <img src="../assets/image/aboutus/venki@2x.jpg">
-                    <h2>Venkatesh Srinivasachar</h2>
-                    <h3>Technology Leader</h3>
-                 </div>
-                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <img src="../assets/image/aboutus/sudharsanan@2x.jpg">
-                    <h2>Sudharsanaraman</h2>
-                    <h3>Portfolio & RMG Head</h3>
-                 </div>
-                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <img src="../assets/image/aboutus/shilpa@2x.jpg">
-                    <h2>Shilpa Gopikrishna</h2>
-                    <h3>Creative Director</h3>
-                 </div>
-                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <img src="../assets/image/aboutus/harish@2x.jpg">
-                    <h2>Harish Babu</h2>
-                    <h3>Finance</h3>
-                 </div>
-      
-              </div>
-              <div class="aboutus__company--explore">
-                <h1>Explore Workculture</h1>
-              </div>
-      </div>
-      <!-- company tag -->  
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <img src="../assets/image/aboutus/rajesh@2x.jpg">
+                <h2>Rajesh Murugan</h2>
+                <h3>Co - founder & Delivery Head</h3>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <img src="../assets/image/aboutus/venki@2x.jpg">
+                <h2>Venkatesh Srinivasachar</h2>
+                <h3>Technology Leader</h3>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <img src="../assets/image/aboutus/sudharsanan@2x.jpg">
+                <h2>Sudharsanaraman</h2>
+                <h3>Portfolio & RMG Head</h3>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <img src="../assets/image/aboutus/shilpa@2x.jpg">
+                <h2>Shilpa Gopikrishna</h2>
+                <h3>Creative Director</h3>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <img src="../assets/image/aboutus/harish@2x.jpg">
+                <h2>Harish Babu</h2>
+                <h3>Finance</h3>
+            </div>
+
+        </div>
+        <div class="aboutus__company--explore">
+            <h1>Explore Workculture</h1>
+        </div>
+    </div>
+    <!-- company tag -->
 </div>
 
 
 <script>
-$(document).ready(function(){
-	
-	$('ul.tabs li').click(function(){
-		var tab_id = $(this).attr('data-tab');
+    $(document).ready(function() {
+        $('.lazy').Lazy({
+            // your configuration goes here
+            scrollDirection: 'vertical',
+            effect: 'fadeIn',
+            effectTime: 2000,
+            threshold: 0,
+            visibleOnly: true,
+            beforeLoad: function(element) {
+                console.log('In')
+            },
+            afterLoad: function(element) {
+                console.log('Out')
+            },
+            onError: function(element) {
+                console.log('error loading ' + element.data('src'));
+            },
+            onFinishedAll: function() {
+                console.log('working')
+            }
+        });
 
-		$('ul.tabs li').removeClass('current');
-		$('.tab-content').removeClass('current');
+        $('ul.tabs li').click(function() {
+            var tab_id = $(this).attr('data-tab');
 
-		$(this).addClass('current');
-		$("#"+tab_id).addClass('current');
-	})
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
 
-})
-      
-  </script>
+            $(this).addClass('current');
+            $("#" + tab_id).addClass('current');
+        })
+
+    })
+</script>
+<script type="application/javascript">
+    ! function(t) {}({
+        8: function(t, e, n) {
+            "use strict";
+
+            function o(t) {
+                return t && t.__esModule ? t : {
+                    default: t
+                }
+            }
+            n(2);
+            var i = n(42),
+                r = o(i),
+                a = "is-enhanced",
+                s = "is-preparing",
+                c = "has-transitioned";
+            requestAnimationFrame && sessionStorage && !sessionStorage.getItem("homepage-has-transitioned") && document.documentElement.classList.add(s);
+            var u = function() {
+                if (requestAnimationFrame && sessionStorage && !sessionStorage.getItem("homepage-has-transitioned")) {
+                    var t = document.querySelector(".js-homepage-header"),
+                        e = document.querySelector(".js-hash-grid");
+                    requestAnimationFrame(function() {
+                        var n = new r.default("Calibre");
+                        n.load().then(function() {
+                            t.classList.add(a), e.classList.add(a), t.querySelector(".js-home-header-button").addEventListener("transitionend", function(e) {
+                                "transform" === e.propertyName && t.classList.add(c)
+                            }), requestAnimationFrame(function() {
+                                document.documentElement.classList.remove(s)
+                            })
+                        }, function() {
+                            document.documentElement.classList.remove(s)
+                        }), sessionStorage.setItem("homepage-has-transitioned", !0)
+                    })
+                }
+            };
+            "loading" !== document.readyState ? u() : document.addEventListener("DOMContentLoaded", u)
+        }
+    });
+    //# sourceMappingURL=homepage.83a56f12.js.map
+</script>
 
  
 
@@ -515,7 +1624,7 @@ $(document).ready(function(){
                     <ul>
                         <li><a href="/mobile/">Mobility</a></li>
                         <li><a href="/dataScience/">Datascience</a></li>
-                        <li><a href="/mobile/">Application Development</a> </li>
+                        <li><a href="/uiux/">Application Development</a> </li>
                         <li><a href="/cloud/">Cloud</a></li>
                     </ul>
                 </div>
