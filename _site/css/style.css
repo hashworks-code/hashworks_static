@@ -961,6 +961,9 @@ body {
     color: #ffffff;
     padding: 29px 9px 25px 28px;
     width: 254px; }
+  .home__business img {
+    width: 8.5px;
+    height: 16px; }
   .home__business--grew {
     background-color: #603c96;
     cursor: pointer;
@@ -993,6 +996,9 @@ body {
     font-weight: normal;
     text-align: left;
     color: #ffffff; }
+  .home__businessImpact img {
+    width: 8.5px;
+    height: 16px; }
   .home__businessImpact--thinking {
     height: 170px;
     background-repeat: no-repeat;
@@ -1250,6 +1256,9 @@ body {
       font-size: 32px;
       padding: 36px 11px 29px 39px;
       width: 388px; }
+    .home__business img {
+      width: 12px;
+      height: 22px; }
     .home__business--grew {
       background-color: #603c96;
       width: 460px;
@@ -1271,6 +1280,9 @@ body {
       padding: 27px 0px 0px 39px; }
     .home__businessImpact h2 {
       font-size: 32px; }
+    .home__businessImpact img {
+      width: 12px;
+      height: 22px; }
     .home__businessImpact--thinking {
       height: 227px;
       width: 220px;
@@ -1480,6 +1492,9 @@ body {
       font-size: 42px;
       padding: 56px 0px 29px 29px;
       width: 474px; }
+    .home__business img {
+      width: 15px;
+      height: 27px; }
     .home__business--grew {
       background-color: #603c96;
       width: 621px; }
@@ -1497,6 +1512,9 @@ body {
     .home__businessImpact h1 {
       font-size: 16px;
       padding: 30px 0px 0px 26px; }
+    .home__businessImpact img {
+      width: 15px;
+      height: 27px; }
     .home__businessImpact--thinking {
       height: 323px;
       width: 300px;
@@ -1705,6 +1723,9 @@ body {
       font-size: 48px;
       padding: 103px 0px 29px 42px;
       width: 545px; }
+    .home__business img {
+      width: 18px;
+      height: 33px; }
     .home__business--grew {
       background-color: #603c96;
       width: 770px;
@@ -1726,6 +1747,9 @@ body {
       padding: 25px 0px 0px 42px; }
     .home__businessImpact h2 {
       font-size: 48px; }
+    .home__businessImpact img {
+      width: 18px;
+      height: 33px; }
     .home__businessImpact--thinking {
       height: 396px;
       width: 337px;
@@ -2749,6 +2773,11 @@ body {
     height: 325px;
     margin-left: 112px; } }
 @media screen and (min-width: 320px) {
+  .hashworks__workculture .plugin {
+    background: #fff;
+    min-height: 430px;
+    max-height: 100%;
+    margin-top: 0rem; }
   .hashworks__workculture .row {
     width: 261px;
     margin: 0px auto;
@@ -2788,7 +2817,7 @@ body {
     font-weight: bold;
     text-align: center;
     color: #603c96;
-    margin-top: 20px;
+    margin-top: 60px;
     width: 100%; }
   .hashworks__workculture .workculture__facility h2 {
     font-family: 'muliRegular';
@@ -2821,9 +2850,9 @@ body {
       color: #4a4a4a;
       margin: 44px 66px 44px 38px; }
       .hashworks__workculture .workculture__box h1 img {
-        width: 14px;
-        height: 17px;
-        margin-left: -4px; }
+        width: 12px;
+        height: 20px;
+        margin-left: -2px; }
   .hashworks__workculture .workculture__bottomImage {
     background-image: url(../assets/image/workculture/1.png);
     background-size: cover;
@@ -2832,6 +2861,11 @@ body {
     height: 270px;
     margin-top: -93px; } }
 @media screen and (min-width: 768px) {
+  .hashworks__workculture .plugin {
+    background: #fff;
+    min-height: 510px;
+    max-height: 100%;
+    margin-top: 3rem; }
   .hashworks__workculture .row {
     width: 698px; }
   .hashworks__workculture .workculture__image h1 {
@@ -2861,8 +2895,8 @@ body {
     .hashworks__workculture .workculture__box h1 {
       margin: 47px 20px 40px 44px; }
       .hashworks__workculture .workculture__box h1 img {
-        width: 14px;
-        height: 17px;
+        width: 11px;
+        height: 19px;
         margin-left: 4px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
@@ -2873,6 +2907,11 @@ body {
 @media screen and (min-width: 1024px) {
   .hashworks__workculture .row {
     width: 940px; }
+  .hashworks__workculture .plugin {
+    background: #fff;
+    min-height: 610px;
+    max-height: 100%;
+    margin-top: 3rem; }
   .hashworks__workculture .workculture__image {
     height: 305px; }
     .hashworks__workculture .workculture__image h1 {
@@ -2887,7 +2926,7 @@ body {
     margin: 0px 136px 0px 143px; }
   .hashworks__workculture .workculture__facility h1 {
     font-size: 24px;
-    margin-top: 40px;
+    margin-top: 64px;
     width: 100%; }
   .hashworks__workculture .workculture__facility h2 {
     font-size: 18px;
@@ -2906,8 +2945,8 @@ body {
       font-size: 32px;
       margin: 51px 35px 60px 56px; }
       .hashworks__workculture .workculture__box h1 img {
-        width: 14px;
-        height: 17px;
+        width: 13px;
+        height: 24px;
         margin-left: 11px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
@@ -2918,6 +2957,11 @@ body {
 @media screen and (min-width: 1367px) {
   .hashworks__workculture .row {
     width: 1095px; }
+  .hashworks__workculture .plugin {
+    background: #fff;
+    min-height: 610px;
+    max-height: 610px;
+    margin-top: 3rem; }
   .hashworks__workculture .workculture__image {
     height: 430px; }
     .hashworks__workculture .workculture__image h1 {
@@ -2950,8 +2994,8 @@ body {
       font-family: 'muliRegular';
       margin: 68px 0px 68px 65px; }
       .hashworks__workculture .workculture__box h1 img {
-        width: 14px;
-        height: 17px;
+        width: 18px;
+        height: 30px;
         margin-left: 9px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;

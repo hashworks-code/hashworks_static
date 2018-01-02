@@ -6,6 +6,7 @@
   // background-image: url('../assets/image/testing.jpg');
 }
 
+
 .loader {
   position: fixed;
   align-items: center;
@@ -182,6 +183,10 @@
         padding: 29px 9px 25px 28px;
         width: 254px;
       }
+      img {
+        width: 8.5px;
+        height: 16px;
+      }
       &--grew {
         background-color: #603c96;
         cursor: pointer;
@@ -222,6 +227,10 @@
         font-weight: normal;
         text-align: left;
         color: #ffffff;
+      }
+      img {
+        width: 8.5px;
+        height: 16px;
       }
       &--thinking {
         // background-image: url(../assets/image/index/customer.jpg);
@@ -542,6 +551,10 @@
         padding: 36px 11px 29px 39px;
         width: 388px;
       }
+      img {
+        width: 12px;
+        height: 22px;
+      }
       &--grew {
         background-color: #603c96;
         width: 460px;
@@ -568,6 +581,10 @@
       }
       h2 {
         font-size: 32px;
+      }
+      img {
+        width: 12px;
+        height: 22px;
       }
       &--thinking {
         height: 227px;
@@ -837,6 +854,10 @@
         padding: 56px 0px 29px 29px;
         width: 474px;
       }
+      img {
+        width: 15px;
+        height: 27px;
+      }
       &--grew {
         background-color: #603c96;
         width: 621px;
@@ -861,6 +882,10 @@
       h1 {
         font-size: 16px;
         padding: 30px 0px 0px 26px;
+      }
+      img {
+        width: 15px;
+        height: 27px;
       }
       &--thinking {
         height: 323px;
@@ -1130,6 +1155,10 @@
         width: 545px;
         ;
       }
+      img {
+        width: 18px;
+        height: 33px;
+      }
       &--grew {
         background-color: #603c96;
         width: 770px;
@@ -1164,6 +1193,10 @@
       }
       h2 {
         font-size: 48px;
+      }
+       img {
+        width: 18px;
+        height: 33px;
       }
       &--thinking {
         height: 396px;

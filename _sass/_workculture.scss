@@ -1,5 +1,11 @@
 @media screen and (min-width:320px){ 
     .hashworks__workculture {
+        .plugin {
+    background: #fff;
+    min-height: 430px;
+    max-height: 100%;
+    margin-top: 0rem;
+}
          .row{
         width: 261px;
         margin: 0px auto;
@@ -51,7 +57,7 @@ background-position: center center;
                font-weight: bold;
                text-align: center;
                color: #603c96;
-               margin-top: 20px;
+               margin-top: 60px;
               width: 100%;
             }
             h2{
@@ -92,9 +98,9 @@ background-position: center center;
            margin: 44px 66px 44px 38px;
 
             img {
-                width: 14px;
-                height: 17px;
-                margin-left: -4px;
+                width: 12px;
+                height: 20px;
+                margin-left: -2px;
             }
         }
     
@@ -113,6 +119,12 @@ background-position: center center;
 @media screen and (min-width:768px){ 
 
     .hashworks__workculture {
+        .plugin {
+    background: #fff;
+    min-height: 510px;
+    max-height: 100%;
+    margin-top: 3rem;
+}
          .row{
         width: 698px;
         }
@@ -166,8 +178,8 @@ background-position: center center;
             margin: 47px 20px 40px 44px;
 
             img {
-                width: 14px;
-                height: 17px;
+                width: 11px;
+                height: 19px;
                 margin-left: 4px;
             }
         }
@@ -189,6 +201,14 @@ background-position: center center;
          .row{
         width: 940px;
         }
+    .plugin {
+    background: #fff;
+    min-height: 610px;
+    max-height: 100%;
+    margin-top: 3rem;
+}
+
+
         .workculture__image{  
             height: 305px;  
           h1 {
@@ -212,7 +232,7 @@ background-position: center center;
         .workculture__facility {
             h1 {
                font-size: 24px;
-               margin-top: 40px;
+               margin-top: 64px;
             //    margin-left: 175px;
             width: 100%;
             }
@@ -239,8 +259,8 @@ background-position: center center;
             margin: 51px 35px 60px 56px;
 
             img {
-                width: 14px;
-                height: 17px;
+                width: 13px;
+                height: 24px;
                 margin-left: 11px;
             }
         }
@@ -263,6 +283,14 @@ background-position: center center;
          .row{
         width: 1095px;
         }
+    .plugin {
+    background: #fff;
+    min-height: 610px;
+    max-height: 610px;
+    margin-top: 3rem;
+}
+
+
         .workculture__image{  
             height: 430px;  
           h1 {
@@ -310,8 +338,8 @@ background-position: center center;
             margin: 68px 0px 68px 65px;
 
             img {
-                width: 14px;
-                height: 17px;
+                width: 18px;
+                height: 30px;
                 margin-left: 9px;
             }
         }
