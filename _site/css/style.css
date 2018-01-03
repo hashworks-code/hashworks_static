@@ -5017,6 +5017,8 @@ ul.tabs li.current {
       background-color: #000000;
       color: #ffffff;
       padding-bottom: 24px; }
+      .cloud__content .pad {
+        padding: 0; }
       .cloud__content h1 {
         font-size: 16px;
         font-family: 'muliRegular';
