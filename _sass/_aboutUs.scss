@@ -147,13 +147,14 @@ ul.tabs li.current {
       &--grew {
         background-color: #603c96;
         p {
-          width: 100%;
+          width: 202px;
           font-family: 'muliBold';
           font-size: 16px;
           font-weight: bold;
           text-align: center;
           color: #ffffff;
-          padding: 54px 59px 32px 59px;
+          padding: 54px 0px 32px 0px;
+          margin: 0 auto;
         }
       }
     }

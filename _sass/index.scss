@@ -58,9 +58,9 @@
     font-size: 24px;
     cursor: pointer;
   }
-  .home__hashworks--logo {
-    display: none;
-  }
+  // .home__hashworks--logo {
+  //   display: none;
+  // }
   .loader {
     display: flex;
   }
@@ -364,6 +364,7 @@
         width: 230px;
         margin: 0 auto;
         height: 153px;
+        margin-bottom: 6px;
       }
       .img1 {
         width: 44px;
@@ -414,6 +415,7 @@
         margin-top: 6px;
         outline: none;
         cursor: pointer;
+        padding: 3px 0px 5px 0px;
       }
     }
   }
@@ -776,7 +778,8 @@
         height: 400px;
         top: -17px;
         position: absolute;
-        right: 86px;
+        // right: 86px;
+        left: 485px;
       }
       &--heading {
         position: absolute;
@@ -1073,7 +1076,8 @@
         height: 500px;
         top: 0px;
         position: absolute;
-        right: 86px;
+        // right: 86px;
+        left: 590px;
       }
       &--heading {
         position: absolute;

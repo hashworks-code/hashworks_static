@@ -49,16 +49,16 @@ $('#abouttoggle').click(function() {
     $('#aboutContent').toggle()
 });
 
-if ($(window).width() < 768) {
+// if ($(window).width() < 768) {
 
-    setTimeout(function() {
-        $('.loader').fadeOut()
-    }, 4500);
+//     setTimeout(function() {
+//         $('.loader').fadeOut()
+//     }, 4500);
 
-    setTimeout(function() {
-        $('.home__hashworks--logo').css('display', 'block');
-    }, 5000)
-}
+//     setTimeout(function() {
+//         $('.home__hashworks--logo').css('display', 'block');
+//     }, 5000)
+// }
 
 $('.hashworks__head--product').click(function(e) {
     $('#myDropdown').toggle();

@@ -861,9 +861,6 @@ body {
     font-size: 24px;
     cursor: pointer; }
 
-  .home__hashworks--logo {
-    display: none; }
-
   .loader {
     display: flex; }
 
@@ -1104,7 +1101,8 @@ body {
   .home__acclerated .row {
     width: 230px;
     margin: 0 auto;
-    height: 153px; }
+    height: 153px;
+    margin-bottom: 6px; }
   .home__acclerated .img1 {
     width: 44px; }
   .home__acclerated .img2 {
@@ -1143,7 +1141,8 @@ body {
     border: none;
     margin-top: 6px;
     outline: none;
-    cursor: pointer; } }
+    cursor: pointer;
+    padding: 3px 0px 5px 0px; } }
 @media screen and (min-width: 768px) {
   .slickright {
     color: white;
@@ -1431,7 +1430,7 @@ body {
       height: 400px;
       top: -17px;
       position: absolute;
-      right: 86px; }
+      left: 485px; }
     .home__hashworks--heading {
       position: absolute;
       top: 225px;
@@ -1660,7 +1659,7 @@ body {
       height: 500px;
       top: 0px;
       position: absolute;
-      right: 86px; }
+      left: 590px; }
     .home__hashworks--heading {
       position: absolute;
       top: 310px;
@@ -3949,13 +3948,14 @@ ul.tabs li.current {
   .aboutus__thinking--grew {
     background-color: #603c96; }
     .aboutus__thinking--grew p {
-      width: 100%;
+      width: 202px;
       font-family: 'muliBold';
       font-size: 16px;
       font-weight: bold;
       text-align: center;
       color: #ffffff;
-      padding: 54px 59px 32px 59px; }
+      padding: 54px 0px 32px 0px;
+      margin: 0 auto; }
 
   .aboutus__company {
     background-color: #f7f7f7; }
