@@ -27,8 +27,9 @@
         }
         .casestudy__image{
             background-image: url(../assets/image/casestudy/1.png);
-              background-size: 100% 100%;
+              background-size: cover;
              background-repeat: no-repeat;
+             background-position: center center;
             width: 100%;
             height: 249px;
             h2{
@@ -150,7 +151,8 @@
         }
         .casestudy__image2 {
             background-image: url(../assets/image/casestudy/2.png);
-              background-size: 100% 100%;
+              background-size: cover;
+               background-position: center center;
              background-repeat: no-repeat;
             width: 100%;
             height: 170px;
@@ -185,7 +187,8 @@
         }
         .casestudy__image3 {
             background-image: url(../assets/image/casestudy/3.png);
-              background-size: 100% 100%;
+              background-size: cover;
+               background-position: center center;
              background-repeat: no-repeat;
             width: 100%;
             height: 120px;
