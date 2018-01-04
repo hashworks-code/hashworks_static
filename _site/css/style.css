@@ -680,7 +680,8 @@ body {
           body .productService__service--cloud img {
             width: 19px;
             height: 16px;
-            margin-top: 21px; }
+            margin-top: 21px;
+            margin-right: 2px; }
       body .productService--produtpacto {
         height: 75px; }
       body .productService--produtlittle {
@@ -784,7 +785,8 @@ body {
         font-size: 16px;
         width: 305px; }
       body .productService h4 {
-        font-size: 16px; }
+        font-size: 16px;
+        margin-top: 18px; }
       body .productService p {
         font-size: 14px;
         padding-top: 20px;
@@ -844,7 +846,8 @@ body {
           body .productService__service--cloud img {
             width: 19px;
             height: 16px;
-            margin-top: 21px; }
+            margin-top: 21px;
+            margin-right: 2px; }
       body .productService--produtpacto {
         height: 75px; }
       body .productService--produtlittle {
