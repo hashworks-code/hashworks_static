@@ -623,7 +623,13 @@
         border-radius: 50%;
         padding-top: 4px;
         right: 38px;
-        bottom: -27px;
+        bottom: -20px;
+
+        img {
+          width: 8px;
+          height: 14px;
+          margin-left: 18px;
+        }
       }
       &--block {
         display: flex;
@@ -927,6 +933,12 @@
         padding-top: 4px;
         right: 38px;
         bottom: -27px;
+
+        img {
+          width: 10px;
+          height: 18px;
+          margin-left: 24px;
+        }
       }
       &--block {
         display: flex;
@@ -1235,6 +1247,12 @@
         padding-top: 4px;
         right: 38px;
         bottom: -27px;
+
+        img {
+          width: 11px;
+          height: 20px;
+          margin-left: 25px;
+        }
       }
       &--block {
         display: flex;

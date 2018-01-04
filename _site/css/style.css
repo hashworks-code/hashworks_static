@@ -1314,7 +1314,11 @@ body {
       border-radius: 50%;
       padding-top: 4px;
       right: 38px;
-      bottom: -27px; }
+      bottom: -20px; }
+      .home__caseStudy--arrow img {
+        width: 8px;
+        height: 14px;
+        margin-left: 18px; }
     .home__caseStudy--block {
       display: flex;
       width: 670px;
@@ -1548,6 +1552,10 @@ body {
       padding-top: 4px;
       right: 38px;
       bottom: -27px; }
+      .home__caseStudy--arrow img {
+        width: 10px;
+        height: 18px;
+        margin-left: 24px; }
     .home__caseStudy--block {
       display: flex;
       width: 927px;
@@ -1779,6 +1787,10 @@ body {
       padding-top: 4px;
       right: 38px;
       bottom: -27px; }
+      .home__caseStudy--arrow img {
+        width: 11px;
+        height: 20px;
+        margin-left: 25px; }
     .home__caseStudy--block {
       display: flex;
       width: 1170px;
