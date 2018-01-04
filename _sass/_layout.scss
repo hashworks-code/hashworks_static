@@ -162,9 +162,9 @@ body{
     }
     .service__view{
         border-top: solid 1px #dadada; 
-        margin-bottom: 24px;
+        margin-bottom: 16px;
         a{
-          padding:0px 30px 6px 0px;
+          // padding:0px 30px 6px 0px;
           font-size: 12px;
         }
       h2{
@@ -178,9 +178,53 @@ body{
       h4{
         font-size: 12px;
         text-align: left;
+        margin: 14px 26px 8px 10px;
       }
       &--content{
         width: 100%;
+      }
+      &--mobile {
+       width: 134px;
+  height: 42px;
+  background-color: #f7f7f7;
+  margin-bottom: 8px;
+  display: flex;
+  img {
+    width: 13px;
+    height: 11px;
+  }
+      }
+      &--ops {
+        width: 134px;
+        height: 42px;
+         background-color: #f7f7f7;
+         margin-bottom: 8px;
+         display: flex;
+         img {
+    width: 13px;
+    height: 11px;
+  }
+      }
+        &--data {
+        width: 134px;
+        height: 42px;
+         background-color: #f7f7f7;
+         margin-bottom: 8px;
+         display: flex;
+         img {
+    width: 13px;
+    height: 11px;
+  }
+      }
+        &--cloud {
+        width: 134px;
+        height: 42px;
+         background-color: #f7f7f7;
+         display: flex;
+         img {
+    width: 13px;
+    height: 11px;
+  }
       }
     }
   }
@@ -451,6 +495,7 @@ body{
           text-align: center;
           color: #3e3e3e;
           font-weight: 100;
+          margin-top: -22px;
     }
     p{
           font-family: 'muliRegular';
@@ -480,7 +525,7 @@ body{
       }
         &--alignment2{
           width: 500px;
-          display: flex;
+          // display: flex;
           justify-content: space-between;
           margin-top: 30px;
       }
@@ -500,13 +545,63 @@ body{
          width: 159px;
       }
       &--mobile{
-         padding-left: 80px;
+         margin-left: 80px;
+          margin-right: 21px;
+         width: 122px;
+         height: 42px;
+        background-color: #f7f7f7;
          cursor: pointer;
+         display: inline-block;
+
+         img {
+        width: 15px;
+  height: 13px;
       }
-    &--ops,&--data,  &--cloud{
-      cursor: pointer;
-       
+      }
+      &--ops {
+         cursor: pointer;
+      width: 122px;
+  height: 42px;
+  background-color: #f7f7f7;
+  display: inline-block;
+   margin-right: 21px;
+    img {
+        width: 15px;
+  height: 13px;
+      }
+      }
+     &--data {
+        cursor: pointer;
+      width: 122px;
+  height: 42px;
+  background-color: #f7f7f7;
+  // margin-right: 21px;
+  display: inline-block;
+   img {
+        width: 15px;
+  height: 13px;
+      }
      }
+
+     &--cloud {
+        cursor: pointer;
+      width: 122px;
+  height: 42px;
+  background-color: #f7f7f7;
+   margin-left: 80px;
+   margin-top: 16px;
+  display: flex;
+  h4 {
+    margin-top: 14px;
+    margin-left: 10px;
+  }
+   img {
+        width: 15px;
+  height: 13px;
+      }
+     }
+
+     
     }
     &--produtpacto{
       height: 51px;
@@ -689,6 +784,7 @@ body{
       }
       h4{
         font-size: 14px;
+         margin-top: 21px;
       }
       p{
         font-size: 12px;
@@ -714,6 +810,7 @@ body{
       }
       &--alignment2{
         width: 689px;
+        display: flex;
       }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
         max-width: 140px;
@@ -730,6 +827,55 @@ body{
          &--content{
           width: 241px;
        }
+
+       &--mobile{
+         margin-left: 79px;
+         margin-right: 12px;
+         width: 146px;
+         height: 54px;
+         display: inline-flex;
+         img {
+        width: 19px;
+        height: 16px;
+        margin-top: 21px;
+      }
+      }
+      &--ops {
+      width: 146px;
+  height: 54px;
+  margin-right: 12px;
+  display: inline-flex;
+   img {
+        width: 19px;
+  height: 16px;
+  margin-top: 21px;
+      }
+      }
+     &--data {
+        width: 146px;
+  height: 54px;
+  margin-right: 12px;
+  display: inline-flex;
+   img {
+        width: 19px;
+  height: 16px;
+  margin-top: 21px;
+      }
+     }
+
+     &--cloud {
+         width: 146px;
+        height: 54px;
+        margin-right: 12px;
+        margin-left: 0px;
+        margin-top: 0px;
+         display: inline-flex;
+   img {
+        width: 19px;
+  height: 16px;
+  margin-top: 21px;
+      }
+     }
     }
     &--produtpacto{
       height: 75px;
@@ -919,10 +1065,48 @@ body{
         &--content {
            width: 305px;
       }
-      &--mobile{
-          padding-left: 95px;
-        
+     &--mobile{
+         margin-left: 95px;
+         margin-right: 22px;
+         width: 176px;
+         height: 68px;
+         img {
+        width: 19px;
+        height: 16px;
+        margin-top: 21px;
       }
+      }
+      &--ops {
+      width: 176px;
+  height: 68px;
+  margin-right: 22px;
+   img {
+        width: 19px;
+  height: 16px;
+  margin-top: 21px;
+      }
+      }
+     &--data {
+        width: 176px;
+  height: 68px;
+  margin-right: 22px;
+   img {
+        width: 19px;
+  height: 16px;
+  margin-top: 21px;
+      }
+     }
+
+     &--cloud {
+        width: 176px;
+  height: 68px;
+  margin-right: 22px;
+   img {
+        width: 19px;
+  height: 16px;
+  margin-top: 21px;
+      }
+     }
     }
     &--produtpacto{
       height: 75px;

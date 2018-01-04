@@ -134,9 +134,8 @@ body {
         width: 55px; }
       body .product_view .service__view {
         border-top: solid 1px #dadada;
-        margin-bottom: 24px; }
+        margin-bottom: 16px; }
         body .product_view .service__view a {
-          padding: 0px 30px 6px 0px;
           font-size: 12px; }
         body .product_view .service__view h2 {
           font-size: 14px;
@@ -146,9 +145,45 @@ body {
           font-size: 14px; }
         body .product_view .service__view h4 {
           font-size: 12px;
-          text-align: left; }
+          text-align: left;
+          margin: 14px 26px 8px 10px; }
         body .product_view .service__view--content {
           width: 100%; }
+        body .product_view .service__view--mobile {
+          width: 134px;
+          height: 42px;
+          background-color: #f7f7f7;
+          margin-bottom: 8px;
+          display: flex; }
+          body .product_view .service__view--mobile img {
+            width: 13px;
+            height: 11px; }
+        body .product_view .service__view--ops {
+          width: 134px;
+          height: 42px;
+          background-color: #f7f7f7;
+          margin-bottom: 8px;
+          display: flex; }
+          body .product_view .service__view--ops img {
+            width: 13px;
+            height: 11px; }
+        body .product_view .service__view--data {
+          width: 134px;
+          height: 42px;
+          background-color: #f7f7f7;
+          margin-bottom: 8px;
+          display: flex; }
+          body .product_view .service__view--data img {
+            width: 13px;
+            height: 11px; }
+        body .product_view .service__view--cloud {
+          width: 134px;
+          height: 42px;
+          background-color: #f7f7f7;
+          display: flex; }
+          body .product_view .service__view--cloud img {
+            width: 13px;
+            height: 11px; }
     body .aboutDetails {
       background-color: white;
       padding: 25px 30px 35px 29px; }
@@ -360,7 +395,8 @@ body {
         line-height: 1.42;
         text-align: center;
         color: #3e3e3e;
-        font-weight: 100; }
+        font-weight: 100;
+        margin-top: -22px; }
       body .productService p {
         font-family: 'muliRegular';
         font-size: 10px;
@@ -384,7 +420,6 @@ body {
         align-items: flex-start; }
       body .productService--alignment2 {
         width: 500px;
-        display: flex;
         justify-content: space-between;
         margin-top: 30px; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
@@ -397,10 +432,49 @@ body {
         body .productService__service--content {
           width: 159px; }
         body .productService__service--mobile {
-          padding-left: 80px;
-          cursor: pointer; }
-        body .productService__service--ops, body .productService__service--data, body .productService__service--cloud {
-          cursor: pointer; }
+          margin-left: 80px;
+          margin-right: 21px;
+          width: 122px;
+          height: 42px;
+          background-color: #f7f7f7;
+          cursor: pointer;
+          display: inline-block; }
+          body .productService__service--mobile img {
+            width: 15px;
+            height: 13px; }
+        body .productService__service--ops {
+          cursor: pointer;
+          width: 122px;
+          height: 42px;
+          background-color: #f7f7f7;
+          display: inline-block;
+          margin-right: 21px; }
+          body .productService__service--ops img {
+            width: 15px;
+            height: 13px; }
+        body .productService__service--data {
+          cursor: pointer;
+          width: 122px;
+          height: 42px;
+          background-color: #f7f7f7;
+          display: inline-block; }
+          body .productService__service--data img {
+            width: 15px;
+            height: 13px; }
+        body .productService__service--cloud {
+          cursor: pointer;
+          width: 122px;
+          height: 42px;
+          background-color: #f7f7f7;
+          margin-left: 80px;
+          margin-top: 16px;
+          display: flex; }
+          body .productService__service--cloud h4 {
+            margin-top: 14px;
+            margin-left: 10px; }
+          body .productService__service--cloud img {
+            width: 15px;
+            height: 13px; }
       body .productService--produtpacto {
         height: 51px; }
       body .productService--produtlittle {
@@ -539,7 +613,8 @@ body {
         font-size: 14px;
         width: 222px; }
       body .productService h4 {
-        font-size: 14px; }
+        font-size: 14px;
+        margin-top: 21px; }
       body .productService p {
         font-size: 12px;
         width: 140px; }
@@ -556,7 +631,8 @@ body {
         justify-content: space-between;
         align-items: flex-start; }
       body .productService--alignment2 {
-        width: 689px; }
+        width: 689px;
+        display: flex; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
         max-width: 140px;
         background-color: #f7f7f7;
@@ -566,6 +642,45 @@ body {
         padding-top: 36px; }
         body .productService__service--content {
           width: 241px; }
+        body .productService__service--mobile {
+          margin-left: 79px;
+          margin-right: 12px;
+          width: 146px;
+          height: 54px;
+          display: inline-flex; }
+          body .productService__service--mobile img {
+            width: 19px;
+            height: 16px;
+            margin-top: 21px; }
+        body .productService__service--ops {
+          width: 146px;
+          height: 54px;
+          margin-right: 12px;
+          display: inline-flex; }
+          body .productService__service--ops img {
+            width: 19px;
+            height: 16px;
+            margin-top: 21px; }
+        body .productService__service--data {
+          width: 146px;
+          height: 54px;
+          margin-right: 12px;
+          display: inline-flex; }
+          body .productService__service--data img {
+            width: 19px;
+            height: 16px;
+            margin-top: 21px; }
+        body .productService__service--cloud {
+          width: 146px;
+          height: 54px;
+          margin-right: 12px;
+          margin-left: 0px;
+          margin-top: 0px;
+          display: inline-flex; }
+          body .productService__service--cloud img {
+            width: 19px;
+            height: 16px;
+            margin-top: 21px; }
       body .productService--produtpacto {
         height: 75px; }
       body .productService--produtlittle {
@@ -698,7 +813,38 @@ body {
         body .productService__service--content {
           width: 305px; }
         body .productService__service--mobile {
-          padding-left: 95px; }
+          margin-left: 95px;
+          margin-right: 22px;
+          width: 176px;
+          height: 68px; }
+          body .productService__service--mobile img {
+            width: 19px;
+            height: 16px;
+            margin-top: 21px; }
+        body .productService__service--ops {
+          width: 176px;
+          height: 68px;
+          margin-right: 22px; }
+          body .productService__service--ops img {
+            width: 19px;
+            height: 16px;
+            margin-top: 21px; }
+        body .productService__service--data {
+          width: 176px;
+          height: 68px;
+          margin-right: 22px; }
+          body .productService__service--data img {
+            width: 19px;
+            height: 16px;
+            margin-top: 21px; }
+        body .productService__service--cloud {
+          width: 176px;
+          height: 68px;
+          margin-right: 22px; }
+          body .productService__service--cloud img {
+            width: 19px;
+            height: 16px;
+            margin-top: 21px; }
       body .productService--produtpacto {
         height: 75px; }
       body .productService--produtlittle {
