@@ -306,7 +306,7 @@ body {
       body .hashworks__head--home, body .hashworks__head--product, body .hashworks__head--case, body .hashworks__head--blog, body .hashworks__head--about, body .hashworks__head--contact {
         font-family: 'muliSemiBold';
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 500;
         text-align: center;
         color: #4a4a4a;
         padding: 0px 10px;
@@ -343,7 +343,7 @@ body {
       body .productService h2 {
         font-family: 'muliBold';
         font-size: 14px;
-        font-weight: bold;
+        font-weight: 500;
         padding-bottom: 16px;
         color: #603c96; }
       body .productService h3 {
@@ -503,7 +503,9 @@ body {
         font-size: 16px;
         padding: 0px 24px;
         display: -webkit-inline-box;
-        cursor: pointer; }
+        cursor: pointer;
+        font-weight: 500;
+        font-family: 'muliSemiBold'; }
     body--toggle {
       display: none; }
     body .popover {
@@ -2947,7 +2949,7 @@ body {
       .hashworks__workculture .workculture__box h1 img {
         width: 13px;
         height: 24px;
-        margin-left: 11px; }
+        margin-left: 10px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
       font-size: 16px; }

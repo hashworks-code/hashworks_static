@@ -386,7 +386,7 @@ body{
       &--home,&--product,&--case,&--blog,&--about,&--contact{
           font-family: 'muliSemiBold';
           font-size: 14px;
-          font-weight: 600;
+          font-weight: 500;
           text-align: center;
           color: #4a4a4a;
           padding: 0px 10px;
@@ -431,7 +431,7 @@ body{
       h2{
           font-family: 'muliBold';
           font-size: 14px;
-          font-weight: bold;
+          font-weight: 500;
           padding-bottom: 16px;
           color: #603c96;
     }
@@ -641,6 +641,8 @@ body{
           padding: 0px 24px;
           display: -webkit-inline-box;
           cursor: pointer;
+          font-weight: 500;
+          font-family: 'muliSemiBold';
       }
     
       }
