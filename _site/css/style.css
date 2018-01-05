@@ -1017,11 +1017,12 @@ body {
 
   .home__hashworks--pattern {
     height: 269px;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
-    margin: 15px 0px 16px; }
+    margin: 15px 0px 16px;
+    background: radial-gradient(#95989A 0.3px, transparent 1px), radial-gradient(#95989A 0.3px, transparent 1px), #fff;
+    background-position: 0 0, 20px 20px;
+    background-size: 40px 40px; }
   .home__hashworks--logo {
     width: 220px;
     height: 220px;
