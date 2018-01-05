@@ -50,6 +50,7 @@
         &__headImg{
             background-image: url(../assets/image/job/joblogo.png);
             background-repeat: no-repeat;
+            background-position: center center;
             height: 237px;
             width: 100%;
             background-size:cover;       
@@ -139,12 +140,13 @@
     
     &__footer{
         position: relative;
-        height: 165px;
+        height: 104px;
         &__img{
-            background-image: url(../assets/image/internship/1@2x.png);
+            background-image: url(../assets/image/job/1@2x.png);
             background-repeat: no-repeat;
+            background-position: center center;
             width: 100%;
-            height: 237px;
+            height: 174px;
             background-size:cover;    
             position: absolute;
             top:-70px;
@@ -218,11 +220,11 @@
              
              &__footer{
                  position: relative;
-                 height: 165px;
+                 height: 104px;
                  &__img{
                     
                      width: 100%;
-                     height: 237px;
+                     height: 174px;
                      background-size:cover;    
                      position: absolute;
                      top:-70px;
@@ -295,11 +297,11 @@
                  
                  &__footer{
                      position: relative;
-                     height: 165px;
+                     height: 162px;
                      &__img{
                         
                          width: 100%;
-                         height: 237px;
+                         height: 232px;
                          background-size:cover;    
                          position: absolute;
                          top:-70px;
@@ -389,11 +391,11 @@
                  
                  &__footer{
                      position: relative;
-                     height: 165px;
+                     height: 261px;
                      &__img{
                         
                          width: 100%;
-                         height: 237px;
+                         height: 331px;
                          background-size:cover;    
                          position: absolute;
                          top:-70px;

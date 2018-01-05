@@ -4633,7 +4633,8 @@ ul.tabs li.current {
     background-repeat: no-repeat;
     height: 237px;
     width: 100%;
-    background-size: cover; }
+    background-size: cover;
+    background-position: center center; }
   .job__content {
     height: 237px;
     width: 100%;
@@ -4712,6 +4713,7 @@ ul.tabs li.current {
     .job__footer__img {
       background-image: url(../assets/image/job/1@2x.png);
       background-repeat: no-repeat;
+      background-position: center center;
       width: 100%;
       height: 237px;
       background-size: cover;
@@ -5090,10 +5092,10 @@ ul.tabs li.current {
         margin-bottom: 46px; }
   .job__footer {
     position: relative;
-    height: 165px; }
+    height: 261px; }
     .job__footer__img {
       width: 100%;
-      height: 237px;
+      height: 331px;
       background-size: cover;
       position: absolute;
       top: -70px;
@@ -7073,6 +7075,7 @@ ul.tabs li.current {
   .internship__headImg {
     background-image: url(../assets/image/job/joblogo.png);
     background-repeat: no-repeat;
+    background-position: center center;
     height: 237px;
     width: 100%;
     background-size: cover; }
@@ -7150,12 +7153,13 @@ ul.tabs li.current {
         border-radius: 50%; }
   .internship__footer {
     position: relative;
-    height: 165px; }
+    height: 104px; }
     .internship__footer__img {
-      background-image: url(../assets/image/internship/1@2x.png);
+      background-image: url(../assets/image/job/1@2x.png);
       background-repeat: no-repeat;
+      background-position: center center;
       width: 100%;
-      height: 237px;
+      height: 174px;
       background-size: cover;
       position: absolute;
       top: -70px;
@@ -7206,10 +7210,10 @@ ul.tabs li.current {
         margin-bottom: 29px; }
   .internship__footer {
     position: relative;
-    height: 165px; }
+    height: 104px; }
     .internship__footer__img {
       width: 100%;
-      height: 237px;
+      height: 174px;
       background-size: cover;
       position: absolute;
       top: -70px;
@@ -7259,10 +7263,10 @@ ul.tabs li.current {
         margin-bottom: 29px; }
   .internship__footer {
     position: relative;
-    height: 165px; }
+    height: 162px; }
     .internship__footer__img {
       width: 100%;
-      height: 237px;
+      height: 232px;
       background-size: cover;
       position: absolute;
       top: -70px;
@@ -7322,10 +7326,10 @@ ul.tabs li.current {
         margin-bottom: 46px; }
   .internship__footer {
     position: relative;
-    height: 165px; }
+    height: 261px; }
     .internship__footer__img {
       width: 100%;
-      height: 237px;
+      height: 331px;
       background-size: cover;
       position: absolute;
       top: -70px;
