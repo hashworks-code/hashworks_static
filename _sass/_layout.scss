@@ -316,7 +316,9 @@ body{
    
       }
       }
-  
+  .button{
+    cursor: pointer;
+  }
   .button:after{
           position: absolute;
           top: 22px;
@@ -349,8 +351,10 @@ body{
           background:#603c96;
           -webkit-transform:rotate(45deg);
           -moz-transform:rotate(45deg);-ms-transform:rotate(45deg);
-          -o-transform:rotate(45deg)
-          ;transform:rotate(45deg)
+          -o-transform:rotate(45deg);
+          transform:rotate(45deg);
+          cursor: pointer;
+          
         }
   .button.menu-opened:before{
           top:23px;
@@ -360,7 +364,8 @@ body{
           -moz-transform:rotate(-45deg);
           -ms-transform:rotate(-45deg);
           -o-transform:rotate(-45deg);
-          transform:rotate(-45deg)
+          transform:rotate(-45deg);
+          cursor: pointer;
   }
   
     //extra

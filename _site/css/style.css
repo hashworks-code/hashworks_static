@@ -245,6 +245,8 @@ body {
         width: 17px;
         height: 20px;
         display: inline-block; }
+    body .button {
+      cursor: pointer; }
     body .button:after {
       position: absolute;
       top: 22px;
@@ -280,7 +282,8 @@ body {
       -moz-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       -o-transform: rotate(45deg);
-      transform: rotate(45deg); }
+      transform: rotate(45deg);
+      cursor: pointer; }
     body .button.menu-opened:before {
       top: 23px;
       background: #603c96;
@@ -289,7 +292,8 @@ body {
       -moz-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
       -o-transform: rotate(-45deg);
-      transform: rotate(-45deg); }
+      transform: rotate(-45deg);
+      cursor: pointer; }
     body #cssmenu ul li {
       width: 100%;
       position: relative; }
