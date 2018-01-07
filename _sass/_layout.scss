@@ -450,7 +450,7 @@ body{
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
       border-bottom: 18px solid white;
-          -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+      -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
     }
     .popoverer{
       position: absolute;
@@ -459,14 +459,14 @@ body{
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
       border-bottom: 18px solid white;
-      -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+      -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
     }
     .productService{
            padding: 22px 0px 20px 0px;
            position: absolute;
            width: 100%;
            z-index: 1;
-           box-shadow: 5px 2px 4px 9px rgba(6, 6, 6, 0.05);
+           box-shadow: 5px 8px 4px 9px rgba(6, 6, 6, 0.05);
      .row{
           width: 700px;
           margin: 0 auto;
@@ -629,7 +629,7 @@ body{
     background-color: #ffffff;
     padding: 25px;
     margin: 0px;
-    box-shadow: 5px 2px 4px 9px rgba(6, 6, 6, 0.05);
+    box-shadow: 5px 8px 4px 9px rgba(6, 6, 6, 0.05);
     .row{
         width: 700px;
         margin: 0 auto;
@@ -747,21 +747,21 @@ body{
    
     .popover{
         position: absolute;
-        top: 40px;
+        top: 42px;
         left: 175px;
         border-left: 12px solid transparent;
         border-right: 12px solid transparent;
         border-bottom: 17px solid white;
-        -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+        -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
     }
     .popoverer{
       position: absolute;
-      top: 40px;
+      top: 42px;
       left: 457px;
       border-left: 12px solid transparent;
       border-right: 12px solid transparent;
       border-bottom: 17px solid white;
-      -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+      -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
     }
     .paketo{
         margin-left:48px;
@@ -996,7 +996,7 @@ body{
       border-left: 14px solid transparent;
       border-right: 14px solid transparent;
       border-bottom: 25px solid white;
-      -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+      -webkit-filter:drop-shadow(0 0px 1px rgb(216, 197, 197));
   }
   .popoverer{
     position: absolute;
@@ -1005,7 +1005,7 @@ body{
     border-left: 14px solid transparent;
     border-right: 14px solid transparent;
     border-bottom: 25px solid white;
-    -webkit-filter: drop-shadow(0 -2px 2px #AAA);
+    -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
   }
     .productService{
          padding: 41px 0px;
