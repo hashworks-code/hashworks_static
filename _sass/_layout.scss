@@ -19,10 +19,17 @@
 }
 body{
     margin: 0px;
+   
   
   a{
     text-decoration: none;
     margin: 0px;
+  }
+  input{
+    outline: none;
+  }
+  textarea{
+    outline: none;
   }
  // dropdown header
 .productService{

@@ -34,6 +34,10 @@ body {
   body a {
     text-decoration: none;
     margin: 0px; }
+  body input {
+    outline: none; }
+  body textarea {
+    outline: none; }
   body .productService {
     position: relative;
     display: none;
@@ -4563,7 +4567,8 @@ ul.tabs li.current {
   padding: 1em;
   color: #aaa;
   background: none;
-  border: 0; }
+  border: 0;
+  cursor: pointer; }
 
 @media screen and (min-width: 320px) {
   .applyfield {
