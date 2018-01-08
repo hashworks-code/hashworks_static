@@ -7457,8 +7457,9 @@ ul.tabs li.current {
       color: #3e3e3e; }
   .hashworks__contactUs__images__image1 {
     background-image: url(../assets/image/contactus/contact1.png);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     width: 100%;
     height: 192px;
     margin-bottom: 15px;
@@ -7479,8 +7480,9 @@ ul.tabs li.current {
       padding: 0px 140px 15px 18px; }
   .hashworks__contactUs__images__image2 {
     background-image: url(../assets/image/contactus/contact2.png);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     width: 100%;
     height: 199px;
     cursor: pointer; }
