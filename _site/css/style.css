@@ -3175,6 +3175,14 @@ body {
   .hashworks__workculture .workculture__bottomImage {
     height: 331px;
     margin-top: -212px; } }
+@media screen and (min-width: 1798px) {
+  .hashworks__workculture .row {
+    width: 1095px; }
+  .hashworks__workculture .plugin {
+    background: #fff;
+    min-height: 710px;
+    max-height: 100%;
+    margin-top: 3rem; } }
 @media screen and (min-width: 320px) {
   .hashworks__casestudy .content__inner {
     position: absolute;
