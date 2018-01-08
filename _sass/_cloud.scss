@@ -201,7 +201,8 @@
         &__div112{
             background-image: url(../assets/image/cloud/bitmap.png);
             background-repeat: no-repeat;
-            background-size: 100% 100%;
+            background-size: cover;
+            background-position: center center;
             object-fit: contain;
             display: inline-block;
             vertical-align: top;
@@ -613,7 +614,7 @@
      
         &__div111 {
             margin-left: 0;
-            margin-right: 30px;
+            margin-right: 15px;
             margin-top: 78px;
             padding: 46px 9px 40px 8px;
             width: 170px;

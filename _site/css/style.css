@@ -5325,7 +5325,8 @@ ul.tabs li.current {
     .cloud__div112 {
       background-image: url(../assets/image/cloud/bitmap.png);
       background-repeat: no-repeat;
-      background-size: 100% 100%;
+      background-size: cover;
+      background-position: center center;
       object-fit: contain;
       display: inline-block;
       vertical-align: top;
@@ -5617,7 +5618,7 @@ ul.tabs li.current {
       margin-left: 10px; }
   .cloud__div111 {
     margin-left: 0;
-    margin-right: 30px;
+    margin-right: 15px;
     margin-top: 78px;
     padding: 46px 9px 40px 8px;
     width: 170px; }
@@ -5796,7 +5797,8 @@ ul.tabs li.current {
     .dataScience__div112 {
       background-image: url(../assets/image/cloud/bitmap.png);
       background-repeat: no-repeat;
-      background-size: 100% 100%;
+      background-size: cover;
+      background-position: center center;
       object-fit: contain;
       display: inline-block;
       vertical-align: top;
@@ -6266,7 +6268,8 @@ ul.tabs li.current {
     .devOps__div112 {
       background-image: url(../assets/image/cloud/bitmap.png);
       background-repeat: no-repeat;
-      background-size: 100% 100%;
+      background-size: cover;
+      background-position: center center;
       object-fit: contain;
       display: inline-block;
       vertical-align: top;
@@ -6735,7 +6738,8 @@ ul.tabs li.current {
     .mobile__div112 {
       background-image: url(../assets/image/cloud/bitmap.png);
       background-repeat: no-repeat;
-      background-size: 100% 100%;
+      background-size: cover;
+      background-position: center center;
       object-fit: contain;
       display: inline-block;
       vertical-align: top;
@@ -7876,7 +7880,8 @@ ul.tabs li.current {
     .uiux__div112 {
       background-image: url(../assets/image/cloud/bitmap.png);
       background-repeat: no-repeat;
-      background-size: 100% 100%;
+      background-size: cover;
+      background-position: center center;
       object-fit: contain;
       display: inline-block;
       vertical-align: top;
