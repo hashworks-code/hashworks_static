@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="115" height="25" viewBox="0 0 115 25">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#2FAABA" font-family="Lato-Bold, Lato" font-size="32" font-weight="bold" transform="translate(-22 -17)">
+            <tspan x="21.588" y="41">Groome</tspan>
+        </text>
+        <path d="M-22-17h158v57H-22z"/>
+    </g>
+</svg>
