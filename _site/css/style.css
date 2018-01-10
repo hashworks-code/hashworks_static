@@ -4187,7 +4187,8 @@ ul.tabs li.current {
       background-repeat: no-repeat;
       height: 92px;
       width: 100%;
-      background-size: 100% 100%;
+      background-size: cover;
+      background-position: center center;
       object-fit: contain; }
       .aboutus__company--explore h1 {
         font-family: 'muliBold';
