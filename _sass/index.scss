@@ -66,6 +66,16 @@
   }
   .home {
     &__hashworks {
+     
+        //  display: flex;
+        //  justify-content: center;
+        //  margin: 15px 0px 16px;
+   background:
+        radial-gradient(#95989A 0.3px, transparent 1px),
+        radial-gradient(#95989A 0.3px, transparent 1px),
+        #fff;
+    background-position: 0 0, 20px 20px;
+    background-size: 40px 40px;
       &--pattern {
         // background-image: url('../assets/image/job/BG.png');
         height: 269px;
@@ -368,7 +378,7 @@
         width: 230px;
         margin: 0 auto;
         height: 153px;
-        margin-bottom: 6px;
+        margin-bottom: 9px;
       }
       .img1 {
         width: 44px;
@@ -384,9 +394,11 @@
       }
       .img7 {
         width: 46px;
+        margin-top: 15px;
       }
       .img8 {
           width: 89px;
+          margin-top: 15px;
       }
     }
     &__roi {

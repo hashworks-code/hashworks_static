@@ -128,11 +128,7 @@ body{
         color: #3e3e3e;
         padding: 7px 0px 0px 7px;
       }
-    img{
-      width: 67px;
-      margin-top: 19px;
-      margin-left: 10px;
-    }
+    
     &--content{
         width: 100%;
     }
@@ -158,6 +154,19 @@ body{
         height: 88px;
         // padding: 19px 6px 0px 2px;
         margin-right: 10px;
+        img{
+      width: 67px;
+      margin-top: 19px;
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+      // .image {
+      //    width: 88px;
+      //    height: 30px;
+      //    margin-left: 6px;
+      //    margin-top: 16px;
+      //    margin-bottom: 8px;
+      // }
     }
     &--littlebhrahma{
       p{
@@ -165,6 +174,7 @@ body{
       }
       img{
         width: 55px;
+        margin: 19px 22px 0px 22px;
       }
     }
     .service__view{
@@ -185,7 +195,7 @@ body{
       h4{
         font-size: 12px;
         text-align: left;
-        margin: 14px 26px 8px 10px;
+        margin: 13px 13px 8px 0px;
       }
       &--content{
         width: 100%;
@@ -197,8 +207,9 @@ body{
   margin-bottom: 8px;
   display: flex;
   img {
-    width: 13px;
-    height: 11px;
+    width: 14px;
+    height: 12px;
+    margin: 14px 14px 0px 14px;
   }
       }
       &--ops {
@@ -209,7 +220,8 @@ body{
          display: flex;
          img {
     width: 13px;
-    height: 11px;
+    height: 9px;
+     margin: 17px 14px 0px 14px;
   }
       }
         &--data {
@@ -220,7 +232,8 @@ body{
          display: flex;
          img {
     width: 13px;
-    height: 11px;
+    height: 12px;
+    margin: 15px 16px 0px 15px;
   }
       }
         &--cloud {
@@ -229,8 +242,9 @@ body{
          background-color: #f7f7f7;
          display: flex;
          img {
-    width: 13px;
-    height: 11px;
+    width: 17px;
+    height: 15px;
+    margin: 14px 12px 0px 12px;
   }
       }
     }
@@ -566,7 +580,7 @@ body{
          display: inline-block;
 
          img {
-        width: 15px;
+        width: 16px;
   height: 13px;
       }
       }
@@ -579,7 +593,7 @@ body{
    margin-right: 21px;
     img {
         width: 15px;
-  height: 13px;
+  height: 12px;
       }
       }
      &--data {
@@ -608,8 +622,8 @@ body{
     margin-left: 10px;
   }
    img {
-        width: 15px;
-  height: 13px;
+        width: 16px;
+  height: 15px;
       }
      }
 
@@ -1125,20 +1139,36 @@ body{
     }
     &--produtpacto{
       height: 75px;
+      img{
+        width: 139px;
+        height: 35px;
+        margin: 30px 16px 0px 16px;
+      }
     }
     &--produtlittle{
-      height: 78px;
+      // height: 78px;
   
       img{
-        width: 99px;
-        margin: 30px 20px 0px 13px;
+        width: 137px;
+        height: 42px;
+        margin: 30px 16px 0px 16px;
       }
     }
     &--produtgroome{
       height: 78px;
+      img{
+        width: 115px;
+        height: 26px;
+        margin: 30px 28px 0px 28px;
+      }
     }
     &--produtfrugal{
       height: 78px;
+      img{
+        width: 128px;
+        height: 31px;
+        margin: 30px 21px 0px 21px;
+      }
     }
   }
   .about{
