@@ -323,6 +323,11 @@ ul.tabs li.current {
         &--container1 {
           width: 580px;
           margin: 0 auto;
+
+          .row {
+            width: 673px;
+            margin: 0 auto;
+          }
         }
         .culture {
           padding-top: 64px;
@@ -444,6 +449,11 @@ ul.tabs li.current {
         &--container1 {
           width: 799px;
           margin: 0 auto;
+
+          .row {
+            width: 920px;
+            margin: 0 auto;
+          }
         }
         .culture {
           padding-top: 64px;
@@ -631,7 +641,7 @@ ul.tabs li.current {
         padding-top: 33px;
       }
       h3 {
-        font-size: 24px;
+        font-size: 32px;
       }
       &--capitalImage {
         height: 557px;
@@ -650,6 +660,11 @@ ul.tabs li.current {
         &--container1 {
           width: 985px;
           margin: 0 auto;
+
+          .row {
+            width: 1075px;
+            margin: 0 auto;
+          }
         }
         .culture {
           padding-top: 32px;
