@@ -411,7 +411,7 @@ body {
         color: #3e3e3e;
         font-weight: 100;
         margin-top: -21px;
-        margin-left: -10px; }
+        margin-left: 5px; }
       body .productService p {
         font-family: 'muliRegular';
         font-size: 10px;
@@ -421,7 +421,7 @@ body {
         width: 97px; }
       body .productService img {
         width: 70px;
-        margin: 19px 0px 0px 10px; }
+        margin: 17px 0px 0px 17px; }
       body .productService--listmargin {
         margin-left: 80px; }
       body .productService--productContent {
