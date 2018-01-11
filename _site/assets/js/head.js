@@ -119,16 +119,16 @@ function redirect(x) {
             });
             cssmenu.find('li ul').parent().addClass('has-sub');
             multiTg = function() {
-                cssmenu.find(".has-sub").prepend('<span class="submenu-button up-arrow"></span>');
+                cssmenu.find(".has-sub").prepend('<span class="submenu-button down-arrow"></span>');
                 cssmenu.find('.submenu-button').on('click', function() {
-                    $(this).toggleClass('up-arrow');
                     $(this).toggleClass('down-arrow');
+                    $(this).toggleClass('up-arrow');
                     $(this).toggleClass('submenu-opened');
 
 
-                    if ($(this).parent('li').siblings('li').children('span').hasClass('down-arrow')) {
-                        $(this).parent().siblings('li').children('span').removeClass('down-arrow');
-                        $(this).parent().siblings('li').children('span').addClass('up-arrow')
+                    if ($(this).parent('li').siblings('li').children('span').hasClass('up-arrow')) {
+                        $(this).parent().siblings('li').children('span').removeClass('up-arrow');
+                        $(this).parent().siblings('li').children('span').addClass('down-arrow')
 
                     }
 
