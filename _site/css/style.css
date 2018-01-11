@@ -410,7 +410,8 @@ body {
         text-align: center;
         color: #3e3e3e;
         font-weight: 100;
-        margin-top: -22px; }
+        margin-top: -21px;
+        margin-left: -10px; }
       body .productService p {
         font-family: 'muliRegular';
         font-size: 10px;
@@ -488,7 +489,8 @@ body {
             margin-left: 10px; }
           body .productService__service--cloud img {
             width: 16px;
-            height: 15px; }
+            height: 15px;
+            margin-top: 16px; }
       body .productService--produtpacto {
         height: 51px; }
       body .productService--produtlittle {
