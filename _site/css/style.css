@@ -4087,7 +4087,7 @@ h2.tl-headline-title {
   position: absolute;
   background-color: #ffffff !important;
   height: 100%;
-  width: 100px;
+  width: 101px;
   overflow: hidden;
   border: none !important;
   box-shadow: none !important;
@@ -4165,6 +4165,9 @@ ul.tabs li.current {
     margin: 0 !important; }
 
 @media only screen and (min-width: 320px) {
+  .tl-headline .tl-headline-title {
+    font-size: 24px !important; }
+
   .aboutus .border {
     border-top: solid 1px #e0e0e0;
     margin-top: 32px; }
