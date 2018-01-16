@@ -4076,6 +4076,12 @@ h2.tl-headline-title {
   width: 13px !important;
   height: 22px !important; }
 
+.tl-slidenav-next {
+  top: 174px  !important; }
+
+.tl-slidenav-previous {
+  top: 174px  !important; }
+
 .tl-slide {
   overflow-x: hidden;
   overflow-y: hidden !important; }
@@ -4173,6 +4179,11 @@ ul.tabs li.current {
   .tl-skinny .tl-text h2.tl-headline, .tl-skinny .tl-text h2.tl-headline-title {
     font-size: 24px !important;
     line-height: 36px; }
+
+  .tabslider {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 37px; }
 
   .aboutus .border {
     border-top: solid 1px #e0e0e0;
@@ -4350,6 +4361,11 @@ ul.tabs li.current {
     .aboutus__company .profilehover .rajeshProfile {
       width: 100%; } }
 @media only screen and (min-width: 767px) {
+  .tabslider {
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 37px; }
+
   .aboutus .border {
     margin-top: 64px; }
   .aboutus__headImg {
@@ -4434,6 +4450,11 @@ ul.tabs li.current {
     .aboutus__company--explore h1 {
       font-size: 18px; } }
 @media only screen and (min-width: 1025px) {
+  .tabslider {
+    width: 950px;
+    margin: 0 auto;
+    margin-bottom: 37px; }
+
   .aboutus__headImg {
     height: 306px;
     width: 100%; }
@@ -4594,6 +4615,11 @@ ul.tabs li.current {
     .aboutus__company .hoverhidden {
       display: -webkit-box; } }
 @media only screen and (min-width: 1367px) {
+  .tabslider {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 37px; }
+
   .aboutus__headImg {
     height: 430px;
     width: 100%; }
