@@ -29,10 +29,10 @@
   height: 22px !important;
 }
 
-
-/*.tl-slidenav-title, .tl-slidenav-content-container, .tl-menubar {
- display: none;
-}*/
+.tl-slide {
+  overflow-x: hidden;
+  overflow-y: hidden !important;
+}
 .tl-timemarker .tl-timemarker-line-left, .tl-timemarker .tl-timemarker-line-right {
    margin-top: -38px !important;
      box-shadow: 1px 1px 1px #FFF;
@@ -124,11 +124,15 @@ ul.tabs li.current {
     margin: 0 !important;
   }
 }
-
+.tl-skinny .tl-text h2.tl-headline, .tl-skinny .tl-text h2.tl-headline-title {
+  font-size: 32px !important;
+  line-height: 36px;
+}
 @media only screen and (min-width:320px) {
-  .tl-headline .tl-headline-title{
+  .tl-skinny .tl-text h2.tl-headline, .tl-skinny .tl-text h2.tl-headline-title {
     font-size: 24px !important;
-  }
+    line-height: 36px;
+}
   .aboutus {
     .border {
       border-top: solid 1px #e0e0e0;
