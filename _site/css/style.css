@@ -251,6 +251,8 @@ body {
         width: 17px;
         height: 20px;
         display: inline-block; }
+    body .about__view__Content h2 {
+      cursor: pointer; }
     body .button {
       cursor: pointer; }
     body .button:after {
@@ -4082,10 +4084,6 @@ h2.tl-headline-title {
 .tl-slidenav-previous {
   top: 174px  !important; }
 
-.tl-slide {
-  overflow-x: hidden;
-  overflow-y: hidden !important; }
-
 .tl-timemarker .tl-timemarker-line-left, .tl-timemarker .tl-timemarker-line-right {
   margin-top: -38px !important;
   box-shadow: 1px 1px 1px #FFF; }
@@ -4185,6 +4183,9 @@ ul.tabs li.current {
 
   .tl-timenav {
     height: 165px !important; }
+
+  .tl-timeaxis-background {
+    top: 115px !important; }
 
   .tabslider {
     width: 300px;
