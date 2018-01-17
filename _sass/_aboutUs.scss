@@ -1,11 +1,22 @@
 
 
  .tl-timeaxis-background {
-  
    background-color: #876cb0 !important;
    background-image: url(../assets/image/aboutus/line-2-16.png);
    background-repeat: repeat;
+   height: 10px !important;
+   width: 100%;
+   position: absolute;
+  //  bottom: 30px !important;
  }
+ .tl-attribution{
+   display: none;
+ }
+ .tl-timenav {
+  background-color: #ffffff !important;
+  border-top: 1px solid #603c96 !important;
+ }
+ ///////////////////////
  ul.tabs li.current {
    color: #603c96;
  }
