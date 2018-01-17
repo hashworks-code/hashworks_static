@@ -1,21 +1,22 @@
 
-.tl-timenav .tl-timenav-slider .tl-timenav-slider-background {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  cursor: move;
-  z-index: 6;
-  border-bottom: 7px solid #876cb0 !important;
-  bottom: 32px !important;
-}
+// .tl-timenav .tl-timenav-slider .tl-timenav-slider-background {
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   cursor: move;
+//   z-index: 6;
+//   border-bottom: 7px solid #876cb0 !important;
+//   bottom: 32px !important;
+// }
+
  .tl-timeaxis-background {
-  // background-color: #876cb0 !important;
-  // background-image: url(../assets/image/aboutus/line-2-16.png);
-  // background-repeat: repeat;
-  // height: 8px !important;
-  // width: 100%;
-  // position: absolute;
-  // bottom: 35px !important;
+  background-color: #876cb0 !important;
+  background-image: url(../assets/image/aboutus/line-2-16.png);
+  background-repeat: repeat;
+  height: 8px !important;
+  width: 100%;
+  position: absolute;
+  bottom: 35px !important;
  //  bottom: 30px !important;
 }
 .tl-attribution{
@@ -34,12 +35,12 @@
   color: black !important;
   opacity: 0.6 !important;
 }
-// .tl-storyslider {
-//   height: 300px !important;
-// }
-// .tl-timenav {
-//   height: 205px !important;
-// }
+.tl-storyslider {
+  height: 300px !important;
+}
+.tl-timenav {
+  height: 205px !important;
+}
 .tl-slidenav-next{
   top: 125px  !important;
 }

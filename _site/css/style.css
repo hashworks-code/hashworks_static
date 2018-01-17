@@ -4051,14 +4051,14 @@ body {
         width: 32px;
         height: 26px;
         margin-left: 20px; } }
-.tl-timenav .tl-timenav-slider .tl-timenav-slider-background {
-  position: absolute;
-  height: 100%;
+.tl-timeaxis-background {
+  background-color: #876cb0 !important;
+  background-image: url(../assets/image/aboutus/line-2-16.png);
+  background-repeat: repeat;
+  height: 8px !important;
   width: 100%;
-  cursor: move;
-  z-index: 6;
-  border-bottom: 7px solid #876cb0 !important;
-  bottom: 32px !important; }
+  position: absolute;
+  bottom: 35px !important; }
 
 .tl-attribution {
   display: none; }
@@ -4075,6 +4075,12 @@ body {
 .tl-timemarker:hover .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
   color: black !important;
   opacity: 0.6 !important; }
+
+.tl-storyslider {
+  height: 300px !important; }
+
+.tl-timenav {
+  height: 205px !important; }
 
 .tl-slidenav-next {
   top: 125px  !important; }
