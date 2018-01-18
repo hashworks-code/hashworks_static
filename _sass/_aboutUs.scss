@@ -91,6 +91,12 @@ ul.tabs li.current {
 }
 
 @media only screen and (min-width:320px) {
+  .tl-slidenav-next{
+  display: none !important;
+  }
+  .tl-slidenav-previous{
+    display: none !important;
+  }
   .tabslider{
     width: 80%;
     margin: 0 auto;
@@ -340,6 +346,12 @@ width: 100% !important;
 }
 
 @media only screen and (min-width: 767px) {
+  .tl-slidenav-next{
+    display: -webkit-box !important;
+    }
+    .tl-slidenav-previous{
+      display: -webkit-box !important;
+    }
   .tabslider{
     width: 700px;
     margin: 0 auto;
