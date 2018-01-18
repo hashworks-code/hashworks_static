@@ -2,11 +2,6 @@
   border-bottom: solid 1px #e0e0e0;
 }
 
-.lazy {
-  // background-image: url('../assets/image/testing.jpg');
-}
-
-
 .loader {
   position: fixed;
   align-items: center;
@@ -41,7 +36,7 @@
   border-bottom: none;
 }
 
-// @media screen and(min-width:320px) {
+@media screen and(min-width:320px) {
   .slickright {
     color: white;
     position: absolute;
@@ -58,31 +53,30 @@
     font-size: 24px;
     cursor: pointer;
   }
-  // .home__hashworks--logo {
-  //   display: none;
-  // }
+ 
   .loader {
     display: flex;
   }
   .home {
     &__hashworks {
-     
-        //  display: flex;
-        //  justify-content: center;
-        //  margin: 15px 0px 16px;
-   background:
+   
+       background:
         radial-gradient(#95989A 0.3px, transparent 1px),
         radial-gradient(#95989A 0.3px, transparent 1px),
         #fff;
-    background-position: 0 0, 20px 20px;
-    background-size: 40px 40px;
+        background-position: 0 0, 20px 20px;
+        background-size: 40px 40px;
+        .row{
+          width: 256px;
+          margin: 0 auto;
+        }
       &--pattern {
         // background-image: url('../assets/image/job/BG.png');
-         height: 269px;
+        height: 269px;
          display: flex;
          justify-content: center;
          margin: 15px 0px 16px;
-         background:
+   background:
         radial-gradient(#95989A 0.3px, transparent 1px),
         radial-gradient(#95989A 0.3px, transparent 1px),
         #fff;
@@ -92,7 +86,7 @@
       &--logo {
         width: 220px;
         height: 220px;
-        margin-top: 33px;
+        // margin-top: 33px;
       }
       h1 {
         margin: 0 auto;
@@ -125,9 +119,6 @@
         color: #3e3e3e;
         margin-bottom: 33px;
       }
-      // &--heading{
-      //     margin-top: 16px;
-      // }
     }
     &__groome {
       background-color: #000000;
@@ -441,7 +432,7 @@
       }
     }
   }
-// }
+}
 
 @media screen and(min-width:768px) {
   .slickright {
@@ -469,19 +460,19 @@
   }
   .home {
     &__hashworks {
-      padding: 0px 26px 0px 40px;
+      .row{
+        width: 700px;
+        margin: 0 auto;
+        height: 330px;
+        display: flex;
+        align-items: center;
+      }
       &--pattern {
         position: relative;
         height: 327px;
         margin: 6px 0px;
       }
-      &--logo {
-        width: 250px;
-        height: 250px;
-        top: 22px;
-        position: absolute;
-        right: 25px;
-      }
+  
       &--heading {
         position: absolute;
         top: 158px;
@@ -797,17 +788,21 @@
   }
   .home {
     &__hashworks {
-      padding: 17px 33px 25px 40px;
+      .row{
+        width:939px;
+        margin: 0 auto;
+        height: 437px;
+      }
       &--pattern {
         height: 440px;
       }
       &--logo {
         width: 400px;
         height: 400px;
-        top: -17px;
-        position: absolute;
+        // top: -17px;
+        // position: absolute;
         // right: 86px;
-        right: 0px;
+        // left: 485px;
       }
       &--heading {
         position: absolute;
@@ -1101,7 +1096,11 @@
   }
   .home {
     &__hashworks {
-      padding: 59px 124px 67px 143px;
+      .row{
+        width:1173px;
+        margin: 0 auto;
+        height: 545px;
+      }
       &--pattern {
         height: 545px;
       }
@@ -1109,14 +1108,14 @@
         width: 500px;
         height: 500px;
         top: 0px;
-        position: absolute;
+        // position: absolute;
         // right: 86px;
-      right: 0px;
+        // left: 590px;
       }
       &--heading {
-        position: absolute;
-        top: 310px;
-        left: 141px;
+        // position: absolute;
+        // top: 310px;
+        // left: 141px;
       }
       h1 {
         width: 474px;
