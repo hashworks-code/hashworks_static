@@ -41,7 +41,7 @@
   border-bottom: none;
 }
 
-@media screen and(min-width:320px) {
+// @media screen and(min-width:320px) {
   .slickright {
     color: white;
     position: absolute;
@@ -78,11 +78,11 @@
     background-size: 40px 40px;
       &--pattern {
         // background-image: url('../assets/image/job/BG.png');
-        height: 269px;
+         height: 269px;
          display: flex;
          justify-content: center;
          margin: 15px 0px 16px;
-   background:
+         background:
         radial-gradient(#95989A 0.3px, transparent 1px),
         radial-gradient(#95989A 0.3px, transparent 1px),
         #fff;
@@ -441,7 +441,7 @@
       }
     }
   }
-}
+// }
 
 @media screen and(min-width:768px) {
   .slickright {
@@ -807,7 +807,7 @@
         top: -17px;
         position: absolute;
         // right: 86px;
-        left: 485px;
+        right: 0px;
       }
       &--heading {
         position: absolute;
@@ -1111,7 +1111,7 @@
         top: 0px;
         position: absolute;
         // right: 86px;
-        left: 590px;
+      right: 0px;
       }
       &--heading {
         position: absolute;
