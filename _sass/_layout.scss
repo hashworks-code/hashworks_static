@@ -159,13 +159,6 @@ body{
       margin-left: 16px;
       margin-right: 16px;
     }
-      // .image {
-      //    width: 88px;
-      //    height: 30px;
-      //    margin-left: 6px;
-      //    margin-top: 16px;
-      //    margin-bottom: 8px;
-      // }
     }
     &--littlebhrahma{
       p{
@@ -193,18 +186,21 @@ body{
       }
       h4{
         font-size: 12px;
+        display: flex;
+        align-items: center;
+        width: 100px;
         text-align: left;
-        margin: 13px 13px 8px 0px;
       }
       &--content{
         width: 100%;
       }
       &--mobile {
-       width: 134px;
-  height: 42px;
-  background-color: #f7f7f7;
-  margin-bottom: 8px;
-  display: flex;
+       width: 155px;
+      height: 42px;
+      background-color: #f7f7f7;
+      margin-bottom: 8px;
+      display: flex;
+      cursor: pointer;
   img {
     width: 14px;
     height: 12px;
@@ -212,23 +208,25 @@ body{
   }
       }
       &--ops {
-        width: 134px;
+        width: 155px;
         height: 42px;
          background-color: #f7f7f7;
          margin-bottom: 8px;
          display: flex;
+         cursor: pointer;
          img {
-    width: 13px;
-    height: 9px;
-     margin: 17px 14px 0px 14px;
+          width: 13px;
+          height: 14px;
+          margin: 11px 14px 0px 16px;
   }
       }
         &--data {
-        width: 134px;
+        width: 155px;
         height: 42px;
          background-color: #f7f7f7;
          margin-bottom: 8px;
          display: flex;
+         cursor: pointer;
          img {
     width: 13px;
     height: 12px;
@@ -236,10 +234,11 @@ body{
   }
       }
         &--cloud {
-        width: 134px;
+        width: 155px;
         height: 42px;
          background-color: #f7f7f7;
          display: flex;
+         cursor: pointer;
          img {
     width: 17px;
     height: 15px;
@@ -519,11 +518,12 @@ body{
           font-family: 'muliRegular';
           font-size: 12px;
           line-height: 1.42;
-          text-align: center;
+          text-align: left;
           color: #3e3e3e;
           font-weight: 100;
-          margin-top: 12px;
-          margin-bottom: 16px;
+          display: flex;
+          align-items: center;
+          width: 100px;
           // margin-left: 5px;
     }
     p{
@@ -553,7 +553,7 @@ body{
           align-items: flex-start;
       }
         &--alignment2{
-          width: 500px;
+          width: 540px;
           // display: flex;
           justify-content: space-between;
           margin-top: 30px;
@@ -575,7 +575,7 @@ body{
       }
       &--mobile{
          margin-left: 80px;
-          margin-right: 21px;
+          margin-right: 20px;
          width: 122px;
          height: 42px;
         background-color: #f7f7f7;
@@ -584,47 +584,48 @@ body{
 
          img {
         width: 16px;
-  height: 13px;
-   margin:14px 16px 15px 17px;
+        height: 13px;
+        margin:14px 16px 15px 17px;
       }
       }
       &--ops {
-         cursor: pointer;
-      width: 122px;
-  height: 42px;
-  background-color: #f7f7f7;
-  display: inline-flex;
-   margin-right: 21px;
+       cursor: pointer;
+      width: 167px;
+      height: 42px;
+      background-color: #f7f7f7;
+      display: inline-flex;
+      margin-right: 20px;
+   
     img {
-        width: 15px;
-  height: 12px;
-   margin:14px 14px 17px 27px;
+      width: 15px;
+      height: 12px;
+      margin: 14px 14px 0px 16px;
       }
       }
      &--data {
         cursor: pointer;
       width: 122px;
-  height: 42px;
-  background-color: #f7f7f7;
-  // margin-right: 21px;
-  display: inline-flex;
+      height: 42px;
+      background-color: #f7f7f7;
+      // margin-right: 21px;
+      display: inline-flex;
    img {
         width: 15px;
-  height: 13px;
-   margin:14px 16px 17px 22px;
+        height: 13px;
+        margin:14px 16px 17px 22px;
       }
      }
 
      &--cloud {
         cursor: pointer;
       width: 122px;
-  height: 42px;
-  background-color: #f7f7f7;
-   margin-left: 80px;
-   margin-top: 16px;
-  display: flex;
+      height: 42px;
+      background-color: #f7f7f7;
+      margin-left: 80px;
+      margin-top: 16px;
+      display: flex;
   h4 {
-    margin-top: 14px;
+   
     margin-left: 10px;
   }
    img {
@@ -820,6 +821,7 @@ body{
          margin-top: 20px;
          margin-bottom: 22px;
          margin-left: 0px;
+         width: 127px;
       }
       p{
         font-size: 12px;
@@ -845,7 +847,7 @@ body{
       }
       &--alignment2{
         width: 689px;
-        display: flex;
+        margin: 0px;
       }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
         max-width: 140px;
@@ -864,7 +866,7 @@ body{
        }
 
        &--mobile{
-         margin-left: 79px;
+         margin-left: 60px;
          margin-right: 12px;
          width: 146px;
          height: 54px;
@@ -876,10 +878,10 @@ body{
       }
       }
       &--ops {
-      width: 146px;
-  height: 54px;
-  margin-right: 12px;
-  display: inline-flex;
+      width: 201px;
+      height: 54px;
+      margin-right: 12px;
+      display: inline-flex;
    img {
         width: 19px;
   height: 16px;
@@ -888,27 +890,26 @@ body{
       }
      &--data {
         width: 146px;
-  height: 54px;
-  margin-right: 12px;
-  display: inline-flex;
+        height: 54px;
+        margin-right: 12px;
+        display: inline-flex;
    img {
         width: 18px;
-  height: 16px;
-  margin: 20px 16px 18px 29px;
+        height: 16px;
+        margin: 20px 16px 18px 29px;
       }
      }
 
      &--cloud {
-         width: 146px;
-        height: 54px;
-        margin-right: 12px;
-        margin-left: 0px;
-        margin-top: 0px;
-         display: inline-flex;
+          width: 146px;
+          height: 54px;
+          margin-right: 12px;
+          margin-left: 60px;
+          margin-top: 16px;
    img {
         width: 24px;
-  height: 24px;
-  margin: 16px 13px 16px 10px;
+        height: 24px;
+        margin: 16px 13px 16px 10px;
       }
      }
     }
@@ -1058,8 +1059,7 @@ body{
       }
       h4{
          font-size: 16px;
-         margin-top: 25px;
-         margin-bottom: 29px;
+       width: 141px;
       }
       p{
           font-size: 14px;
@@ -1084,12 +1084,9 @@ body{
     }
          &--alignment2 {
           width: 836px;
-          margin-top: 32px;
     }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
           background-color: #f7f7f7;
-        
-          // margin-bottom: 38px;
           max-width: 170px;
           height: 146px;
        
@@ -1114,30 +1111,31 @@ body{
       }
       }
       &--ops {
-      width: 176px;
-  height: 68px;
-  margin-right: 22px;
+      width: 210px;
+      height: 68px;
+      margin-right: 22px;
    img {
-        width: 25px;
-  height: 18px;
-   margin: 26px 16px 25px 47px;
+    width: 25px;
+    height: 18px;
+    margin: 26px 17px 0px 20px;
       }
       }
      &--data {
         width: 176px;
-  height: 68px;
-  margin-right: 22px;
+        height: 68px;
+        margin-right: 22px;
    img {
         width: 21px;
-  height: 21px;
-  margin: 26px 20px 24px 33px;
+        height: 21px;
+        margin: 26px 20px 24px 33px;
       }
      }
 
      &--cloud {
-        width: 176px;
-  height: 68px;
-  margin-right: 22px;
+      width: 176px;
+      height: 68px;
+      margin: 24px 0px 0px 95px;
+      
    img {
         width: 29px;
   height: 28px;
