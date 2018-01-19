@@ -1504,18 +1504,16 @@ body {
       width: 42px;
       height: 42px;
       background-color: #603c96;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
       position: absolute;
-      color: white;
-      font-size: 28px;
       border-radius: 50%;
-      padding-top: 4px;
       right: 38px;
-      bottom: -20px; }
+      bottom: -20px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
       .home__caseStudy--arrow img {
         width: 8px;
-        height: 14px;
-        margin-left: 18px; }
+        height: 14px; }
     .home__caseStudy--block {
       display: flex;
       width: 670px;
@@ -1739,19 +1737,11 @@ body {
     .home__caseStudy--arrow {
       width: 56px;
       height: 56px;
-      background-color: #603c96;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-      position: absolute;
-      color: white;
-      font-size: 39px;
-      border-radius: 50%;
-      padding-top: 4px;
-      right: 38px;
+      right: 40px;
       bottom: -27px; }
       .home__caseStudy--arrow img {
         width: 10px;
-        height: 18px;
-        margin-left: 24px; }
+        height: 18px; }
     .home__caseStudy--block {
       display: flex;
       width: 927px;
@@ -1968,21 +1958,13 @@ body {
   .home__caseStudy {
     background-color: #000000; }
     .home__caseStudy--arrow {
-      width: 62px;
-      height: 62px;
-      background-color: #603c96;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-      position: absolute;
-      color: white;
-      font-size: 47px;
-      border-radius: 50%;
-      padding-top: 4px;
-      right: 38px;
+      width: 56px;
+      height: 56px;
+      right: 40px;
       bottom: -27px; }
       .home__caseStudy--arrow img {
         width: 11px;
-        height: 20px;
-        margin-left: 25px; }
+        height: 20px; }
     .home__caseStudy--block {
       display: flex;
       width: 1170px;
