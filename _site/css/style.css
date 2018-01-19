@@ -4284,6 +4284,7 @@ ul.tabs li.current {
       color: #434343;
       margin-bottom: 64px; }
     .aboutus__company--explore {
+      cursor: pointer;
       background-image: url(../assets/image/aboutus/group-6@2x.png);
       background-repeat: no-repeat;
       height: 92px;
@@ -4386,6 +4387,7 @@ ul.tabs li.current {
       width: 100%;
       padding: 16px 0px 0px 22px; }
   .aboutus__thinking--grew {
+    cursor: pointer;
     background-color: #603c96; }
     .aboutus__thinking--grew p {
       font-size: 18px;

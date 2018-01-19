@@ -281,6 +281,7 @@ width: 100% !important;
       margin-bottom: 64px;
     }
     &--explore {
+      cursor: pointer;
       background-image: url(../assets/image/aboutus/group-6@2x.png);
       background-repeat: no-repeat;
       height: 92px;
@@ -429,6 +430,7 @@ width: 100% !important;
         }
       }
       &--grew {
+        cursor: pointer;
         background-color: #603c96;
         p {
           font-size: 18px;
