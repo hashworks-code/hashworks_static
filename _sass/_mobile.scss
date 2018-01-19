@@ -7,8 +7,8 @@
             margin: 0 auto;
         }
         &__headImg{
-            // background-image: url(../assets/image/mobile/group-16.png);
-            // background-repeat: no-repeat;
+            // background-image: url(../assets/image/dataScience/data-science-banner.png);
+            background-repeat: no-repeat;
             height: 232px;
             width: 100%;
             background-size: 100% 100%;
@@ -34,6 +34,7 @@
                 letter-spacing: normal;
                 text-align: center;
                 color: #ffffff;
+                // width: 270px;
                 margin: 0 auto;
             }
         }
@@ -123,7 +124,7 @@
             margin-left: 25px;
             padding: 25px 20px 17px 7px;
             p{
-                font-size: 12px !important;
+                font-size: 12px;
                 line-height: 1.58;
                 color: #ffffff;
             }
@@ -136,13 +137,13 @@
             background-color: #f7f7f7;
             padding: 26px 35px 17px 11px;
             p{
-                font-size: 12px !important;
+                font-size: 12px ;
                 line-height: 1.58;
                 color: #191919;
             }
         }
         &__productImg{
-            background-image: url(../assets/image/mobile/content-banner-mobile-and-develop.png);
+            background-image: url(../assets/image/dataScience/data-science-content-banner-1.png);
             background-repeat: no-repeat;
             height: 189px;
             width: 100%;
@@ -177,7 +178,7 @@
             margin-left: 25px;
             padding: 25px 20px 0 7px;
             p{
-                font-size: 12px !important;
+                font-size: 12px;
                 line-height: 1.58;
                 color: #ffffff;
             }
@@ -193,7 +194,7 @@
             width: 102px;
             padding: 26px 35px 0 11px;
             p{
-                font-size: 12px !important;
+                font-size: 12px;
                 line-height: 1.58;
                 color: #fff;
             }
@@ -208,7 +209,7 @@
             padding: 26px 35px 0 11px;
             
             p{
-                font-size: 12px !important;
+                font-size: 12px;
                 line-height: 1.58;
                 color: #fff;
             }
@@ -226,10 +227,10 @@
         }
         &__head {
             width: 100%;
-           height: 520px;
+          height: 520px;
             h1{
                 font-size: 32px;
-              
+             
               }
         }
         &__content {
@@ -344,7 +345,6 @@
     }
 }
 
-
 @media only screen and (min-width: 1025px){
     .mobile{
         &__container{
@@ -355,9 +355,10 @@
         }
         &__head {
             width: 100%;
-            height: 650px;
+           height: 650px;
             h1{
                 font-size: 48px;
+              
               }
         }
         &__content {
@@ -448,7 +449,7 @@
         }
         &__div111 {
             margin-left: 0;
-            margin-right: 10px;
+            margin-right: 8px;
             margin-top: 10px;
             padding: 32px 9px 32px 8px;
             width: 140px;
@@ -484,7 +485,6 @@
     }
 }
 
-
 @media only screen and (min-width: 1367px){
     .mobile{
         &__container{
@@ -498,7 +498,6 @@
           height: 696px;
             h1{
                 font-size: 56px;
-              
               }
         }
         &__content {
@@ -598,7 +597,7 @@
      
         &__div111 {
             margin-left: 0;
-            margin-right: 30px;
+            margin-right: 13px;
             margin-top: 78px;
             padding: 46px 9px 40px 8px;
             width: 170px;

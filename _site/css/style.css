@@ -6744,6 +6744,7 @@ ul.tabs li.current {
       width: 270px;
       margin: 0 auto; }
     .mobile__headImg {
+      background-repeat: no-repeat;
       height: 232px;
       width: 100%;
       background-size: 100% 100%;
@@ -6835,7 +6836,7 @@ ul.tabs li.current {
       margin-left: 25px;
       padding: 25px 20px 17px 7px; }
       .mobile__div11 p {
-        font-size: 12px !important;
+        font-size: 12px;
         line-height: 1.58;
         color: #ffffff; }
     .mobile__div12 {
@@ -6845,11 +6846,11 @@ ul.tabs li.current {
       background-color: #f7f7f7;
       padding: 26px 35px 17px 11px; }
       .mobile__div12 p {
-        font-size: 12px !important;
+        font-size: 12px;
         line-height: 1.58;
         color: #191919; }
     .mobile__productImg {
-      background-image: url(../assets/image/mobile/content-banner-mobile-and-develop.png);
+      background-image: url(../assets/image/dataScience/data-science-content-banner-1.png);
       background-repeat: no-repeat;
       height: 189px;
       width: 100%;
@@ -6879,7 +6880,7 @@ ul.tabs li.current {
       margin-left: 25px;
       padding: 25px 20px 0 7px; }
       .mobile__div111 p {
-        font-size: 12px !important;
+        font-size: 12px;
         line-height: 1.58;
         color: #ffffff; }
     .mobile__div112 {
@@ -6893,7 +6894,7 @@ ul.tabs li.current {
       width: 102px;
       padding: 26px 35px 0 11px; }
       .mobile__div112 p {
-        font-size: 12px !important;
+        font-size: 12px;
         line-height: 1.58;
         color: #fff; }
     .mobile__div113 {
@@ -6904,7 +6905,7 @@ ul.tabs li.current {
       background-color: #151515;
       padding: 26px 35px 0 11px; }
       .mobile__div113 p {
-        font-size: 12px !important;
+        font-size: 12px;
         line-height: 1.58;
         color: #fff; } }
 @media only screen and (min-width: 768px) {
@@ -7071,7 +7072,7 @@ ul.tabs li.current {
       font-size: 16px; }
   .mobile__div111 {
     margin-left: 0;
-    margin-right: 10px;
+    margin-right: 8px;
     margin-top: 10px;
     padding: 32px 9px 32px 8px;
     width: 140px; }
@@ -7177,7 +7178,7 @@ ul.tabs li.current {
       margin-left: 10px; }
   .mobile__div111 {
     margin-left: 0;
-    margin-right: 30px;
+    margin-right: 13px;
     margin-top: 78px;
     padding: 46px 9px 40px 8px;
     width: 170px; }
