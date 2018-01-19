@@ -3952,7 +3952,7 @@ body {
     margin: 24px 0px 10px 0px; }
   .footer__list {
     background-color: black;
-    height: 329px; }
+    padding-bottom: 11px; }
     .footer__list--view {
       padding: 0px 0px 0px 16px; }
     .footer__list--copyright {
@@ -4890,7 +4890,6 @@ ul.tabs li.current {
     position: absolute;
     z-index: 1;
     background-color: #fff;
-    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.35);
     margin-top: 49px; }
     .modal-wrapper .modal-header h1 {
       font-size: 18px;
