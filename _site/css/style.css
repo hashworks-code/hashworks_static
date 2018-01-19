@@ -1069,7 +1069,8 @@ body {
       background-size: 40px 40px; }
     .home__hashworks--logo {
       width: 220px;
-      height: 220px; }
+      height: 220px;
+      margin-left: 12px; }
     .home__hashworks h1 {
       margin: 0 auto;
       width: 247px;
