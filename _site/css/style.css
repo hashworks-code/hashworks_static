@@ -4741,36 +4741,31 @@ ul.tabs li.current {
       float: right;
       margin-right: -3px; }
 
-  .jobslider button {
+  .jobslider .jobbutton {
     background-color: #603c96;
-    top: 100%;
+    /* top: 100%; */
     width: 32px;
     height: 32px;
-    border-radius: 50%; }
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 8px 0px 0px 14px;
+    position: absolute;
+    top: 98%;
+    left: 140px; }
+  .jobslider .jobbutton1 {
+    background-color: #603c96;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 8px 0px 0px 14px;
+    position: absolute;
+    top: 98%;
+    left: 97px; }
   .jobslider .slick-prev:hover, .jobslider .slick-prev:focus, .jobslider .slick-next:hover, .jobslider .slick-next:focus {
     /* color: transparent; */
     outline: none;
     background-color: #603c96; }
-  .jobslider .slick-next {
-    right: 98px; }
-  .jobslider .slick-prev {
-    left: 99px; }
-  .jobslider .slick-next:before {
-    content: '>';
-    font-size: 20px;
-    line-height: 0.4;
-    width: 10.3px;
-    height: 5.7px;
-    color: #f7f7f7;
-    opacity: 1; }
-  .jobslider .slick-prev:before {
-    content: '<';
-    font-size: 20px;
-    line-height: 0.4;
-    width: 10.3px;
-    height: 5.7px;
-    color: #f7f7f7;
-    opacity: 1; }
   .jobslider .slick-initialized .slick-slide {
     display: block;
     outline: none !important; }
@@ -4952,10 +4947,28 @@ ul.tabs li.current {
       float: right;
       margin-right: -3px; }
 
-  .jobslider .slick-next {
-    right: 19px; }
-  .jobslider .slick-prev {
-    left: 484px; }
+  .jobslider .jobbutton {
+    background-color: #603c96;
+    /* top: 100%; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    padding: 8px 0px 0px 17px;
+    position: absolute;
+    top: 436px;
+    left: 523px; }
+  .jobslider .jobbutton1 {
+    background-color: #603c96;
+    /* top: 100%; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    padding: 8px 0px 0px 15px;
+    position: absolute;
+    top: 436px;
+    left: 474px; }
 
   .job__headImg {
     height: 229px; }
@@ -5069,10 +5082,20 @@ ul.tabs li.current {
       width: 25px;
       margin-right: 12px; }
 
-  .jobslider .slick-next {
-    right: 29px; }
-  .jobslider .slick-prev {
-    left: 670px; }
+  .jobslider .jobbutton {
+    width: 54px;
+    height: 54px;
+    font-size: 30px;
+    padding: 10px 0px 0px 23px;
+    top: 440px;
+    left: 695px; }
+  .jobslider .jobbutton1 {
+    width: 54px;
+    height: 54px;
+    font-size: 30px;
+    padding: 10px 0px 0px 19px;
+    top: 440px;
+    left: 625px; }
 
   .job__headImg {
     height: 305px; }
@@ -5188,16 +5211,20 @@ ul.tabs li.current {
     top: 100%;
     width: 56px;
     height: 56px; }
-  .jobslider .slick-next {
-    right: 40px; }
-  .jobslider .slick-prev {
+  .jobslider .jobbutton {
+    width: 56px;
+    height: 56px;
+    font-size: 34px;
+    padding: 10px 0px 0px 23px;
+    top: 602px;
+    left: 870px; }
+  .jobslider .jobbutton1 {
+    width: 56px;
+    height: 56px;
+    font-size: 34px;
+    padding: 10px 0px 0px 23px;
+    top: 602px;
     left: 800px; }
-  .jobslider .slick-next:before {
-    content: '>';
-    font-size: 28px; }
-  .jobslider .slick-prev:before {
-    content: '<';
-    font-size: 28px; }
 
   .job__headImg {
     height: 430px; }

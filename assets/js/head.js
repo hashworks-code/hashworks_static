@@ -170,3 +170,5 @@ $(window).resize(function() {
     }
 
 });
+
+//accordian

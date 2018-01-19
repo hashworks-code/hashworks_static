@@ -501,12 +501,16 @@ $("#uploadIcon").click(function(){
         $(this).next().trigger('click');
     });
 $(".jobslider").slick({
+           nextArrow: '<i class="ion-ios-arrow-right slickright jobbutton"></i>',
+            prevArrow: '<i class="ion-ios-arrow-left slickleft jobbutton1"></i>',
         dots:false,
         infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear'
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
     });
+ 
+   
 $('.modal-toggle').on('click', function(e) {
   e.preventDefault();
   $('.modal').toggleClass('is-visible');
