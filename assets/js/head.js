@@ -171,4 +171,3 @@ $(window).resize(function() {
 
 });
 
-//accordian

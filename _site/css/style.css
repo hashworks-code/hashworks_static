@@ -211,7 +211,8 @@ body {
       font-family: 'muliRegular';
       line-height: 1.4;
       text-align: center;
-      color: #3e3e3e; }
+      color: #3e3e3e;
+      margin-left: 10px; }
     body .about__view h2 {
       font-family: 'muliBold';
       font-size: 12px;
@@ -230,11 +231,13 @@ body {
       body .about__view--algin a {
         padding: 0px; }
     body .about__view__thinking {
-      padding: 7px 9px 8px 8px;
       width: 116px;
       height: 36px;
       background-color: #f7f7f7;
-      margin-bottom: 18px; }
+      margin-bottom: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
       body .about__view__thinking--img {
         width: 19px;
         height: 22px;
@@ -244,16 +247,20 @@ body {
       height: 36px;
       background-color: #f7f7f7;
       margin-bottom: 18px;
-      padding: 9px; }
+      display: flex;
+      justify-content: center;
+      align-items: center; }
       body .about__view__culture--img {
         width: 25px;
         height: 16px;
         display: inline-block; }
     body .about__view__job {
-      padding: 9px;
       width: 116px;
       height: 36px;
-      background-color: #f7f7f7; }
+      background-color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
       body .about__view__job--img {
         width: 17px;
         height: 20px;

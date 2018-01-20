@@ -267,7 +267,7 @@
                                         <a href="/aboutUs/">
                                             <div class="  ">
                                                 <div class="about__view__thinking">
-                                                    <img class="about__view__thinking--img" src="/assets/image/product&service/group-26@2x.png" />
+                                                    <img class="about__view__thinking--img" src="/assets/image/product&service/group-26.svg" />
                                                     <p>Our Thinking</p>
                                                 </div>
                                             </div>
@@ -275,7 +275,7 @@
                                         <a href="/workculture/">
                                             <div class="  ">
                                                 <div class="about__view__culture">
-                                                    <img class="about__view__culture--img" src="/assets/image/product&service/fill-1@2x.png" />
+                                                    <img class="about__view__culture--img" src="/assets/image/product&service/fill-1.svg" />
                                                     <p>Work Culture</p>
                                                 </div>
                                             </div>
@@ -283,7 +283,7 @@
                                         <a href="/job/">
                                             <div class="  ">
                                                 <div class="about__view__job">
-                                                    <img class="about__view__job--img" src="/assets/image/product&service/fill.png" />
+                                                    <img class="about__view__job--img" src="/assets/image/product&service/fill-2.svg" />
                                                     <p>Job Opening</p>
                                                 </div>
                                             </div>
@@ -299,6 +299,23 @@
             </ul>
         </nav>
     </header>
+    <script>
+        window.onload = function() {
+            console.log(location.href);
+            if(location.href.indexOf('index')>-1){
+                console.log('expertise');
+                document.getElementsByClassName('hashworks__head--home')[0].style.color = '#603c96'
+            }
+            else if(location.href.indexOf('casestudy-home')>-1){
+                console.log('products');
+                document.getElementsByClassName('hashworks__head--case')[0].style.color = '#603c96'
+            }
+            else if(location.href.indexOf('contactUs')>-1){
+                console.log('products');
+                document.getElementsByClassName('hashworks__head--contact')[0].style.color = '#603c96'
+            }
+        }
+        </script>
  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
