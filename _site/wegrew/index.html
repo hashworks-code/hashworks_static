@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css" />
     <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+   
 
 </head>
 <body id="close">
@@ -27,17 +28,18 @@
         <a href="/index"> <img class="hashworks__head--logo lazy" src="/assets/image/logo.svg" alt="hashlogo"></a>
         <div class="hashworks__head--list">
             <a href="/index"  class="hashworks__head--home">Home</a>
-            <a class="hashworks__head--product dropbtn menuClass" id="menu-1">Product & Service
+            <a class="hashworks__head--product dropbtn menuClass link"  id="menu-1">Product & Service
                 <div class="popover" id="mypopover"></div>
             </a>
             <a class="hashworks__head--case" href="/casestudy-home">Case Study</a>
-            <a class="hashworks__head--about dropbtn menuClass" id="menu-2">About
+            <a class="hashworks__head--about dropbtn menuClass link" id="menu-2">About
            <div class="popoverer" id="mypopover-about"></div>
               </a>
            <a class="hashworks__head--contact" href="/contactUs">Contact</a>
         </div>
         <img class="hashworks__head--toggle" src="/assets/image/group-2@2x.png" />
     </header>
+    
 
     <div id="myDropdown" class="productService dropdown menu-1-Content">
         <div class=" row">
@@ -165,7 +167,7 @@
             <div class="button"></div>
             <ul class="menulist">
                 <li class='active'><a href="/index">Home</a></li>
-                <li><a >Product & Services </a>
+                <li><a class="link">Product & Services </a>
                     <ul class="productDetails">
                         <li>
                             <div id="mydiv" class="product_view">
@@ -252,7 +254,7 @@
                 </ul>
                 </li>
                 <li><a href="/casestudy-home/">Casestudy</a></li>
-                <li><a href='#'>About Us</a>
+                <li><a href='#' class="link">About Us</a>
                     <ul class="aboutDetails">
                         <li>
                             <div id="aboutContent" class="about__view">
@@ -299,7 +301,8 @@
             </ul>
         </nav>
     </header>
-    <script>
+    
+     <script>
         window.onload = function() {
             console.log(location.href);
             if(location.href.indexOf('index')>-1){
@@ -315,7 +318,15 @@
                 document.getElementsByClassName('hashworks__head--contact')[0].style.color = '#603c96'
             }
         }
-        </script>
+</script> 
+<script>
+      $(function() {
+   $('a.link').click(function() {
+       $('a.link').removeClass('active');
+       $(this).addClass('active');
+   });
+});
+    </script>
  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
