@@ -4190,7 +4190,10 @@ ul.tabs li.current {
     .aboutus__tab--list {
       margin: 0px;
       padding: 0px;
-      list-style: none; }
+      list-style: none;
+      width: 225px;
+      display: flex;
+      justify-content: space-between; }
       .aboutus__tab--list li {
         font-family: 'muliBold';
         font-size: 12px;
@@ -4198,8 +4201,7 @@ ul.tabs li.current {
         text-align: center;
         color: #838383;
         cursor: pointer;
-        display: inline-block;
-        margin: 20px 45px 15px 45px; }
+        margin: 20px 0px 15px 0px; }
   .aboutus__thinking--container1 {
     width: 266px;
     margin: 0 auto; }
@@ -4364,9 +4366,11 @@ ul.tabs li.current {
   .aboutus__tab {
     display: flex;
     justify-content: center; }
-    .aboutus__tab--list li {
-      margin: 24px 52px;
-      font-size: 14px; }
+    .aboutus__tab--list {
+      width: 350px; }
+      .aboutus__tab--list li {
+        margin: 24px 0px;
+        font-size: 14px; }
   .aboutus__thinking--container1 {
     width: 461px;
     margin: 0 auto; }
@@ -4459,7 +4463,7 @@ ul.tabs li.current {
       padding: 161px 0px 0px 34px;
       font-size: 36px; }
   .aboutus__tab--list li {
-    margin: 25px 55px;
+    margin: 25px 0px;
     font-size: 16px; }
   .aboutus__thinking--container1 {
     width: 731px;
@@ -4620,9 +4624,11 @@ ul.tabs li.current {
     .aboutus__content1 h1 {
       padding: 161px 0px 0px 34px;
       font-size: 36px; }
-  .aboutus__tab--list li {
-    margin: 24px 50px;
-    font-size: 18px; }
+  .aboutus__tab--list {
+    width: 370px; }
+    .aboutus__tab--list li {
+      margin: 24px 0px;
+      font-size: 18px; }
   .aboutus__thinking--container1 {
     width: 731px;
     margin: 0 auto; }
