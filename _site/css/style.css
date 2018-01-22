@@ -3055,11 +3055,21 @@ a {
       font-weight: bold;
       text-align: left;
       color: #4a4a4a;
-      margin: 44px 66px 44px 38px; }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 180px;
+      width: 120px;
+      margin: 0 auto; }
       .hashworks__workculture .workculture__box h1 img {
         width: 12px;
         height: 20px;
+<<<<<<< HEAD
         margin-left: -3px; }
+=======
+        margin-left: 5px;
+        margin-top: 34px; }
+>>>>>>> c078d3947f668245d431c39665019d45d8b64fd5
   .hashworks__workculture .workculture__bottomImage {
     background-image: url(../assets/image/workculture/1.png);
     background-size: cover;
