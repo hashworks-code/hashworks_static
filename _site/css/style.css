@@ -1015,6 +1015,9 @@ a {
 .bottom-border {
   border-bottom: solid 1px #e0e0e0; }
 
+.pad {
+  padding: 0; }
+
 .loader {
   position: fixed;
   align-items: center;
@@ -3064,12 +3067,8 @@ a {
       .hashworks__workculture .workculture__box h1 img {
         width: 12px;
         height: 20px;
-<<<<<<< HEAD
-        margin-left: -3px; }
-=======
         margin-left: 5px;
         margin-top: 34px; }
->>>>>>> c078d3947f668245d431c39665019d45d8b64fd5
   .hashworks__workculture .workculture__bottomImage {
     background-image: url(../assets/image/workculture/1.png);
     background-size: cover;
