@@ -62,10 +62,6 @@ body {
     display: block; }
   body .dropdown {
     display: none; }
-  body a, body a:visited {
-    color: #4a4a4a; }
-  body a.link.active {
-    color: #603c96; }
   @media screen and (min-width: 320px) {
     body .hashworks__head {
       display: none; }
@@ -3056,7 +3052,7 @@ a {
       .hashworks__workculture .workculture__box h1 img {
         width: 12px;
         height: 20px;
-        margin-left: -2px; }
+        margin-left: -3px; }
   .hashworks__workculture .workculture__bottomImage {
     background-image: url(../assets/image/workculture/1.png);
     background-size: cover;
@@ -7912,7 +7908,12 @@ ul.tabs li.current {
       font-size: 24px;
       text-align: center;
       color: #ffffff;
-      padding: 135px 153px 15px 29px; }
+      display: flex;
+      width: 320px;
+      height: 180px;
+      margin: 0 auto;
+      align-items: flex-end;
+      padding: 0px 0px 15px 29px; }
   .hashworks__contactUs__form .row {
     width: 263px;
     margin: 0 auto; }
@@ -8043,7 +8044,9 @@ ul.tabs li.current {
     height: 213px; }
     .hashworks__contactUs__image h1 {
       font-size: 32px;
-      padding: 141px 551px 32px 32px; }
+      padding: 0px 0px 32px 32px;
+      width: 768px;
+      height: 213px; }
   .hashworks__contactUs__form h1 {
     font-family: 'muliBold';
     font-size: 18px;
@@ -8123,7 +8126,9 @@ ul.tabs li.current {
     height: 284px; }
     .hashworks__contactUs__image h1 {
       font-size: 32px;
-      padding: 218px 803px 0px 32px; }
+      padding: 218px 0px 32px 32px;
+      width: 1024px;
+      height: 284px; }
   .hashworks__contactUs__form h1 {
     font-family: 'muliRegular';
     font-size: 24px;
@@ -8199,7 +8204,9 @@ ul.tabs li.current {
     height: 400px; }
     .hashworks__contactUs__image h1 {
       font-size: 56px;
-      padding: 308px 919px 32px 62px; }
+      padding: 0px 0px 32px 62px;
+      width: 1367px;
+      height: 400px; }
   .hashworks__contactUs__form h1 {
     font-family: 'muliBold';
     font-size: 32px;
