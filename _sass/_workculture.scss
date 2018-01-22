@@ -95,12 +95,18 @@ background-position: center center;
             font-weight: bold;
             text-align: left;
             color: #4a4a4a;
-           margin: 44px 66px 44px 38px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 180px;
+            width: 120px;
+            margin: 0 auto;
 
             img {
                 width: 12px;
                 height: 20px;
-                margin-left: -2px;
+                margin-left: 5px;
+                margin-top: 34px;
             }
         }
     
