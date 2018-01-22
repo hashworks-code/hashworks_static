@@ -47,7 +47,9 @@
 
 
  @media screen and(min-width:320px) {
- 
+    .uploadresume{
+position: relative;
+    }
     .applyfield{
         padding: 0px 28px 0px 29px;
     
@@ -62,8 +64,8 @@
             text-align: left;
             color: #a1a1a1;
             position: absolute;
-            bottom: 93px;
-            left: 42px;
+            top: 9px;
+            left: 20px;
         }
         .uploadFile {
             visibility : hidden;
@@ -239,7 +241,7 @@
         z-index: 1;
         background-color: #fff;
         // box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.35);
-        margin-top: 49px;
+        margin-top: 54px;
         .modal-header{
             h1{
                 font-size: 18px;
@@ -323,8 +325,7 @@
         h6{
           
             font-size: 14px;
-            bottom: 95px;
-            left: 121px;
+         
         }
  
          .uploadBox{
@@ -438,7 +439,7 @@
               }
               .modal-wrapper {
                 padding: 0px 94px 0px 105px;
-                margin-top: 49px;
+                margin-top: 61px;
                 .modal-header{
                     h1{
                       font-size: 18px;
@@ -499,8 +500,7 @@
     
         h6{
             font-size: 16px;
-            bottom: 146px;
-            left: 142px;
+            
         }
  
          .uploadBox{
@@ -658,11 +658,7 @@
             border: 0;
             outline: none;
           }
-          
          }
-    
-         //
-
 @media screen and (min-width:1367px){
 
     .applyfield{
@@ -670,8 +666,6 @@
     
         h6{
             font-size: 24px;
-            bottom: 145px;
-            left: 258px;
         }
  
          .uploadBox{
@@ -713,8 +707,6 @@
             top: 602px;
             left: 800px;
           }
-         
-        
      }
            .job{
                   &__headImg{
@@ -765,12 +757,10 @@
                     }
                   }
               }
-              
               &__footer{
                   position: relative;
                   height: 261px;
                   &__img{
-                     
                       width: 100%;
                       height: 331px;
                       background-size:cover;    
@@ -779,11 +769,10 @@
                       z-index: -1;   
                     }
               }
-                   
          }
          .modal-wrapper {
             padding: 0px 235px;
-            margin-top: 80px;
+            margin-top: 82px;
             .modal-header{
                 h1{
                   font-size: 48px;
@@ -837,5 +826,4 @@
             width:27px;
             height:27px;
           }
-          
          }

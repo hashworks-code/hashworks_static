@@ -10,28 +10,6 @@ $(document).ready(function() {
             $('.filter').filter('.' + categoryValue).fadeIn(3000);
         }
     });
-
-    // $('.lazy').Lazy({
-    //         // your configuration goes here
-    //         scrollDirection: 'vertical',
-    //         effect: "fadeIn",
-    //         effectTime: 1000,
-    //         threshold: 0,
-    //         visibleOnly: true,
-    //         // placeholder: "data:'../assets/image/testing.jpg';base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
-    //         beforeLoad: function(element) {
-    //             console.log(' started loading ' + element.data('src'));
-    //         },
-    //         afterLoad: function(element) {
-    //             console.log('finish loading ' + element.data('src'));
-    //         },
-    //         onError: function(element) {
-    //             console.log('error loading ' + element.data('src'));
-    //         },
-    //         onFinishedAll: function() {
-    //             console.log('all Done')
-    //         }
-    // });
 });
 
 
@@ -48,17 +26,6 @@ $('#arrow').click(function() {
 $('#abouttoggle').click(function() {
     $('#aboutContent').toggle()
 });
-
-// if ($(window).width() < 768) {
-
-//     setTimeout(function() {
-//         $('.loader').fadeOut()
-//     }, 4500);
-
-//     setTimeout(function() {
-//         $('.home__hashworks--logo').css('display', 'block');
-//     }, 5000)
-// }
 
 $('.hashworks__head--product').click(function(e) {
     $('#myDropdown').toggle();
@@ -117,6 +84,7 @@ function redirect(x) {
                     }
                 }
             });
+
             cssmenu.find('li ul').parent().addClass('has-sub');
             multiTg = function() {
                 cssmenu.find(".has-sub").prepend('<span class="submenu-button down-arrow"></span>');
