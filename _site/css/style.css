@@ -1109,13 +1109,21 @@ a {
     margin-bottom: 33px; }
 .home__groome {
   background-color: #000000;
-  margin-bottom: 8px;
-  height: 141px; }
+  margin-bottom: 8px; }
   .home__groome img {
     width: 88px;
     margin: 25px 0px 0px 38px; }
   .home__groome h1 {
-    display: none; }
+    font-family: 'muliRegular';
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 17px 38px 8px; }
   .home__groome p {
     display: none; }
   .home__groome h2 {
@@ -1128,7 +1136,7 @@ a {
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-    margin: 16px 38px 6px; }
+    margin: 0px 38px 8px; }
   .home__groome h6 {
     font-family: 'muliRegular';
     font-size: 12px;
@@ -1139,7 +1147,7 @@ a {
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-    margin: 0px 38px 6px; }
+    margin: 0px 38px 23px; }
   .home__groome .slick-prev:hover,
   .home__groome .slick-prev:focus,
   .home__groome .slick-next:hover,
@@ -3051,7 +3059,7 @@ a {
       .hashworks__workculture .workculture__box h1 img {
         width: 12px;
         height: 20px;
-        margin-left: -2px; }
+        margin-left: -3px; }
   .hashworks__workculture .workculture__bottomImage {
     background-image: url(../assets/image/workculture/1.png);
     background-size: cover;
