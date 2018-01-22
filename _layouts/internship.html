@@ -200,7 +200,13 @@ $("#uploadIcon").click(function(){
     });
 
 $(".internshipslider").slick({
-        dots:false
+    nextArrow: '<i class="ion-ios-arrow-right slickright jobbutton"></i>',
+            prevArrow: '<i class="ion-ios-arrow-left slickleft jobbutton1"></i>',
+            dots:false,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
     });
 
 $('.modal-toggle').on('click', function(e) {
