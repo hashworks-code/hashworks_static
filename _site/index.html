@@ -17,7 +17,13 @@
     <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css" />
     <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+<<<<<<< HEAD
    
+=======
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+>>>>>>> 9a5a6742c16ab9de5194fc885303f28349a1eb11
 
 </head>
 <body id="close">
@@ -167,7 +173,11 @@
             <div class="button"></div>
             <ul class="menulist">
                 <li class='active'><a href="/index">Home</a></li>
+<<<<<<< HEAD
                 <li><a class="link">Product & Services </a>
+=======
+                <li id="accordion"><a >Product & Services <i class="ion-chevron-down"></i> </a>
+>>>>>>> 9a5a6742c16ab9de5194fc885303f28349a1eb11
                     <ul class="productDetails">
                         <li>
                             <div id="mydiv" class="product_view">
@@ -245,16 +255,18 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-
                         </li>
                   </li>
                 </ul>
                 </li>
                 <li><a href="/casestudy-home/">Casestudy</a></li>
+<<<<<<< HEAD
                 <li><a href='#' class="link">About Us</a>
+=======
+                <li id="accordion1"><a href='#'>About Us <i class="ion-chevron-down"></i></a>
+>>>>>>> 9a5a6742c16ab9de5194fc885303f28349a1eb11
                     <ul class="aboutDetails">
                         <li>
                             <div id="aboutContent" class="about__view">
@@ -301,8 +313,28 @@
             </ul>
         </nav>
     </header>
+<<<<<<< HEAD
     
      <script>
+=======
+
+    <script>
+            $( "#accordion" ).accordion({
+          heightStyle: "content",
+          active:false,
+          collapsible: true,
+         
+        });
+    
+        $( "#accordion1" ).accordion({
+          heightStyle: "content",
+          active:false,
+          collapsible: true,
+         
+        });
+            </script>
+    <script>
+>>>>>>> 9a5a6742c16ab9de5194fc885303f28349a1eb11
         window.onload = function() {
             console.log(location.href);
             if(location.href.indexOf('index')>-1){
@@ -342,7 +374,7 @@
   <div class="home__hashworks">
       <div class="row">
             <div class="col-xs-12 col-sm-6 last-sm ">
-                    <embed class="home__hashworks--logo" src="../assets/image/job/hashlogo.gif" alt="expertise">
+                    <embed class="home__hashworks--logo" src="../assets/image/job/hashlogo.gif" alt="logo" loop=infinite >
             </div>
             <div class="col-xs-12 col-sm-6 ">
                     <h1>Growing <span>Together</span></h1>
@@ -485,7 +517,7 @@
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email Id">
             </div>
-            <input type="submit" class="button" value="Subscribe">
+            <button type="submit" class="button1" value="Subscribe">Subscribe</button>
         </div>
     </div>
 </div>
