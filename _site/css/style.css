@@ -363,7 +363,11 @@ body {
       background-color: #ffffff;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
       border: solid 1px #f7f7f7;
-      position: relative; }
+      position: relative;
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+      top: -1px; }
       body .hashworks__head--logo {
         height: 23px; }
       body .hashworks__head--list {
