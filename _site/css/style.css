@@ -3051,7 +3051,7 @@ a {
       .hashworks__workculture .workculture__box h1 img {
         width: 12px;
         height: 20px;
-        margin-left: 4px; }
+        margin-left: -5px; }
   .hashworks__workculture .workculture__bottomImage {
     background-image: url(../assets/image/workculture/1.png);
     background-size: cover;
