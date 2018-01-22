@@ -147,6 +147,9 @@ width: 100% !important;
         margin: 0px;
         padding: 0px;
         list-style: none;
+        width: 225px;
+        display: flex;
+        justify-content: space-between;
         li {
           font-family: 'muliBold';
           font-size: 12px;
@@ -154,8 +157,7 @@ width: 100% !important;
           text-align: center;
           color: #838383;
           cursor: pointer;
-          display: inline-block;
-          margin: 20px 45px 15px 45px;
+          margin: 20px 0px 15px 0px;
         }
       }
     }
@@ -378,9 +380,11 @@ width: 100% !important;
     &__tab {
       display: flex;
       justify-content: center;
+    
       &--list {
+        width: 350px;
         li {
-          margin: 24px 52px;
+          margin: 24px 0px;
           font-size: 14px;
         }
       }
@@ -515,7 +519,7 @@ width: 100% !important;
     &__tab {
       &--list {
         li {
-          margin: 25px 55px;
+          margin: 25px 0px;
           font-size: 16px;
         }
       }
@@ -733,8 +737,9 @@ width: 100% !important;
     }
     &__tab {
       &--list {
+        width: 370px;
         li {
-          margin: 24px 50px;
+          margin: 24px 0px;
           font-size: 18px;
         }
       }
