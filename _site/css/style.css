@@ -3818,8 +3818,12 @@ a {
       font-size: 24px;
       text-align: center;
       color: #ffffff;
-      padding: 184px 175px 16px 18px;
-      margin: 0; }
+      display: flex;
+      width: 320px;
+      height: 230px;
+      margin: 0 auto;
+      align-items: flex-end;
+      padding: 0px 0px 16px 18px; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
     margin: 16px 0px 17px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {
@@ -3874,7 +3878,9 @@ a {
     margin-top: 62px; }
     .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-size: 36px;
-      padding: 148px 530px 32px 32px; }
+      padding: 0px 0px 32px 32px;
+      width: 768px;
+      height: 230px; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
     margin: 32px 131px 28px 57px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {
@@ -3912,7 +3918,9 @@ a {
     margin-top: 83px; }
     .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-size: 48px;
-      padding: 220px 720px 28px 43px; }
+      padding: 0px 0px 28px 43px;
+      width: 1025px;
+      height: 306px; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
     margin: 32px 177px 27px 243px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {
@@ -3948,7 +3956,9 @@ a {
     height: 430px; }
     .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-size: 56px;
-      padding: 330px 936px 32px 136px; }
+      padding: 0px 0px 32px 136px;
+      width: 1367px;
+      height: 430px; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
     margin: 27px 313px 31px 312px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {
