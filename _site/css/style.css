@@ -7361,7 +7361,7 @@ ul.tabs li.current {
 
 .modal-close {
   position: absolute;
-  top: 24px;
+  top: 31px;
   right: 18px;
   padding: 1em;
   color: #aaa;
@@ -7714,7 +7714,7 @@ ul.tabs li.current {
 
   .modal-close {
     position: absolute;
-    top: 24px;
+    top: 30px;
     right: 35px;
     padding: 1em;
     color: #aaa;
