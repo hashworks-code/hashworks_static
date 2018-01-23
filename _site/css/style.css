@@ -2217,7 +2217,8 @@ a {
 
 @media only screen and (max-width: 1366px) {
   .product__headImg {
-    height: 192px; }
+    height: 192px;
+    margin-top: 83px; }
   .product__content1 {
     width: 935px; }
   .product__head {
@@ -2300,7 +2301,8 @@ a {
     width: 131px; } }
 @media only screen and (max-width: 1024px) {
   .product__headImg {
-    height: 144px; }
+    height: 144px;
+    margin-top: 83px; }
   .product__head {
     font-size: 36px;
     padding: 67px 0 32px; }
@@ -2369,7 +2371,8 @@ a {
     width: 110px; } }
 @media only screen and (max-width: 767px) {
   .product__headImg {
-    height: 144px; }
+    height: 144px;
+    margin-top: 61px; }
   .product__head {
     padding: 98px 0 16px;
     font-size: 24px;
@@ -2611,7 +2614,8 @@ a {
   .service__container {
     width: 700px; }
   .service__headImg {
-    height: 144px; }
+    height: 144px;
+    margin-top: 61px; }
   .service__head {
     font-size: 36px;
     padding-top: 69px; }
@@ -2668,7 +2672,8 @@ a {
   .service__container {
     width: 940px; }
   .service__headImg {
-    height: 192px; }
+    height: 192px;
+    margin-top: 83px; }
   .service__head {
     font-size: 48px;
     padding-top: 101px; }
@@ -2864,7 +2869,8 @@ a {
     font-size: 14px;
     margin-bottom: 64px; }
   .hashworks__grewpage .grewpage__image {
-    height: 230px; }
+    height: 230px;
+    margin-top: 61px; }
     .hashworks__grewpage .grewpage__image h1 {
       font-size: 36px;
       display: flex;
@@ -2906,6 +2912,7 @@ a {
     font-family: 'muliRegular';
     font-size: 16px; }
   .hashworks__grewpage .grewpage__image {
+    margin-top: 82px;
     height: 306px; }
     .hashworks__grewpage .grewpage__image h1 {
       font-size: 48px;
@@ -3094,9 +3101,11 @@ a {
     margin-top: 3rem; }
   .hashworks__workculture .row {
     width: 698px; }
-  .hashworks__workculture .workculture__image h1 {
-    font-size: 32px;
-    margin: 156px 0px 33px 33px; }
+  .hashworks__workculture .workculture__image {
+    margin-top: 61px; }
+    .hashworks__workculture .workculture__image h1 {
+      font-size: 32px;
+      margin: 156px 0px 33px 33px; }
   .hashworks__workculture .workculture__workfun h1 {
     font-family: 'muliBold';
     font-size: 18px;
@@ -3137,7 +3146,8 @@ a {
     max-height: 100%;
     margin-top: 3rem; }
   .hashworks__workculture .workculture__image {
-    height: 305px; }
+    height: 305px;
+    margin-top: 82px; }
     .hashworks__workculture .workculture__image h1 {
       font-size: 48px;
       margin: 213px 0px 33px 42px; }
@@ -3452,7 +3462,8 @@ a {
   .hashworks__casestudy .row {
     width: 703px; }
   .hashworks__casestudy .casestudy__image {
-    height: 320px; }
+    height: 320px;
+    margin-top: 61px; }
     .hashworks__casestudy .casestudy__image h2 {
       font-size: 32px;
       height: 320px;
@@ -3563,7 +3574,8 @@ a {
   .hashworks__casestudy .row {
     width: 940px; }
   .hashworks__casestudy .casestudy__image {
-    height: 416px; }
+    height: 416px;
+    margin-top: 83px; }
     .hashworks__casestudy .casestudy__image h2 {
       font-size: 48px;
       height: 416px;
@@ -4374,7 +4386,8 @@ ul.tabs li.current {
     margin-top: 64px; }
   .aboutus__headImg {
     height: 230px;
-    width: 100%; }
+    width: 100%;
+    margin-top: 61px; }
   .aboutus__content1 {
     height: 230px;
     padding: 29px 34px;
@@ -4467,7 +4480,8 @@ ul.tabs li.current {
 
   .aboutus__headImg {
     height: 306px;
-    width: 100%; }
+    width: 100%;
+    margin-top: 83px; }
   .aboutus__content1 {
     height: 306px;
     width: 100%;
@@ -5031,7 +5045,8 @@ ul.tabs li.current {
     left: 474px; }
 
   .job__headImg {
-    height: 229px; }
+    height: 229px;
+    margin-top: 61px; }
   .job__content {
     height: 229px;
     width: 100%;
@@ -5157,7 +5172,8 @@ ul.tabs li.current {
     left: 625px; }
 
   .job__headImg {
-    height: 305px; }
+    height: 305px;
+    margin-top: 81px; }
   .job__content {
     height: 305px;
     padding: 26px 43px;
@@ -5564,194 +5580,198 @@ ul.tabs li.current {
         line-height: 1.58;
         color: #fff; } }
 @media only screen and (min-width: 768px) {
-  .cloud__container {
-    width: 702px;
-    margin: 0 auto; }
-  .cloud__headImg {
-    height: 230px; }
-  .cloud__head {
-    width: 100%;
-    height: 520px; }
-    .cloud__head h1 {
-      font-size: 32px; }
-  .cloud__content {
-    padding: 32px 0; }
-    .cloud__content h1 {
-      font-size: 18px;
-      padding: 0 0 16px; }
-    .cloud__content p {
-      font-size: 14px;
-      padding-right: 27px; }
-  .cloud__div1 {
-    margin-left: 7px;
-    margin-top: 22px;
-    width: 160px;
-    padding: 5px 10px 14px 15px; }
-    .cloud__div1 h2 {
-      font-size: 36px;
-      padding-bottom: 12px; }
-    .cloud__div1 p {
-      font-size: 18px;
-      padding-bottom: 11px; }
-  .cloud__div2 {
-    margin-top: 22px;
-    margin-left: 18px;
-    width: 160px;
-    padding: 4px 6px 0px 13px; }
-    .cloud__div2 h2 {
-      font-size: 36px;
-      color: #000000;
-      width: 119px; }
-    .cloud__div2 p {
-      font-size: 18px;
-      padding-top: 16px; }
-  .cloud__mobility {
-    margin: 33px 0 49px; }
-    .cloud__mobility h1 {
-      font-size: 24px; }
-    .cloud__mobility p {
-      font-size: 14px;
-      padding-bottom: 0; }
-  .cloud__div11 {
-    padding: 23px 0px 18px 6px;
-    margin: 55px 10px 0 0; }
-    .cloud__div11 p {
-      font-size: 13px; }
-  .cloud__div12 {
-    margin-top: 55px;
-    padding: 25px 35px 18px 6px; }
-    .cloud__div12 p {
-      font-size: 13px; }
-  .cloud__productImg p {
-    font-size: 24px;
-    padding-top: 49px;
-    width: 230px; }
-  .cloud__byod {
-    margin: 33px 0 35px; }
-    .cloud__byod h1 {
-      font-size: 18px; }
-    .cloud__byod p {
-      font-size: 14px; }
-  .cloud__div111 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 18px 7px 18px 5px; }
-    .cloud__div111 p {
-      font-size: 13px;
-      margin: 0px; }
-  .cloud__div112 {
-    margin-top: 10px;
-    padding: 16px 0px 20px 6px; }
-    .cloud__div112 p {
-      font-size: 13px;
-      margin: 0px; }
-  .cloud__div113 {
-    margin-right: 10px;
-    padding: 20px 30px 18px 10px;
-    margin-left: 0; }
-    .cloud__div113 p {
-      font-size: 13px;
-      margin: 0px; } }
-@media only screen and (min-width: 1025px) {
-  .cloud__container {
-    width: 943px; }
-  .cloud__headImg {
-    height: 306px; }
-  .cloud__head {
-    width: 100%;
-    height: 650px; }
-    .cloud__head h1 {
-      font-size: 48px; }
-  .cloud__content {
-    padding: 35px 0 32px; }
-    .cloud__content h1 {
-      font-size: 24px; }
-    .cloud__content p {
-      font-size: 16px; }
-  .cloud__div1 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 25px 21px 24px; }
-    .cloud__div1 h2 {
-      font-size: 48px;
-      padding-bottom: 26px; }
-    .cloud__div1 p {
-      font-size: 24px !important;
-      padding: 1px 0px; }
-  .cloud__div2 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 25px 21px 24px; }
-    .cloud__div2 h2 {
-      font-size: 48px;
-      padding-bottom: 28px; }
-    .cloud__div2 p {
-      font-size: 24px !important;
-      padding: 0px; }
-  .cloud__mobility {
-    margin: 32px 0 64px; }
-    .cloud__mobility h1 {
-      font-size: 32px; }
-    .cloud__mobility p {
-      font-size: 16px; }
-    .cloud__mobility h2 {
-      font-size: 24px; }
-  .cloud__div11 {
-    width: 140px;
-    margin: 55px 15px 0px 0;
-    padding: 0px; }
-    .cloud__div11 p {
-      font-size: 18px !important;
-      padding: 40px 9px 39px 8px;
-      width: 130px;
-      line-height: 1.33;
-      margin: 0px; }
-  .cloud__div12 {
-    width: 140px;
-    padding: 0px; }
-    .cloud__div12 p {
-      font-size: 18px !important;
-      padding: 32px 35px 32px 6px; }
-  .cloud__productImg {
-    height: 250px; }
+  .cloud {
+    margin-top: 61px; }
+    .cloud__container {
+      width: 702px;
+      margin: 0 auto; }
+    .cloud__headImg {
+      height: 230px; }
+    .cloud__head {
+      width: 100%;
+      height: 520px; }
+      .cloud__head h1 {
+        font-size: 32px; }
+    .cloud__content {
+      padding: 32px 0; }
+      .cloud__content h1 {
+        font-size: 18px;
+        padding: 0 0 16px; }
+      .cloud__content p {
+        font-size: 14px;
+        padding-right: 27px; }
+    .cloud__div1 {
+      margin-left: 7px;
+      margin-top: 22px;
+      width: 160px;
+      padding: 5px 10px 14px 15px; }
+      .cloud__div1 h2 {
+        font-size: 36px;
+        padding-bottom: 12px; }
+      .cloud__div1 p {
+        font-size: 18px;
+        padding-bottom: 11px; }
+    .cloud__div2 {
+      margin-top: 22px;
+      margin-left: 18px;
+      width: 160px;
+      padding: 4px 6px 0px 13px; }
+      .cloud__div2 h2 {
+        font-size: 36px;
+        color: #000000;
+        width: 119px; }
+      .cloud__div2 p {
+        font-size: 18px;
+        padding-top: 16px; }
+    .cloud__mobility {
+      margin: 33px 0 49px; }
+      .cloud__mobility h1 {
+        font-size: 24px; }
+      .cloud__mobility p {
+        font-size: 14px;
+        padding-bottom: 0; }
+    .cloud__div11 {
+      padding: 23px 0px 18px 6px;
+      margin: 55px 10px 0 0; }
+      .cloud__div11 p {
+        font-size: 13px; }
+    .cloud__div12 {
+      margin-top: 55px;
+      padding: 25px 35px 18px 6px; }
+      .cloud__div12 p {
+        font-size: 13px; }
     .cloud__productImg p {
-      font-size: 36px;
-      padding-top: 57px;
-      width: 100%; }
-  .cloud__byod {
-    margin: 64px 0; }
-    .cloud__byod h1 {
-      font-size: 24px; }
-    .cloud__byod p {
-      font-size: 16px; }
-  .cloud__div111 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 32px 9px 32px 8px;
-    width: 140px; }
-    .cloud__div111 p {
-      font-size: 18px;
-      margin: 0px; }
-  .cloud__div112 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 32px 9px 32px 8px;
-    width: 140px; }
-    .cloud__div112 p {
-      font-size: 18px;
-      margin: 0px; }
-  .cloud__div113 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 32px 30px 32px 8px;
-    width: 140px; }
-    .cloud__div113 p {
-      font-size: 18px;
-      margin: 0px; } }
+      font-size: 24px;
+      padding-top: 49px;
+      width: 230px; }
+    .cloud__byod {
+      margin: 33px 0 35px; }
+      .cloud__byod h1 {
+        font-size: 18px; }
+      .cloud__byod p {
+        font-size: 14px; }
+    .cloud__div111 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 18px 7px 18px 5px; }
+      .cloud__div111 p {
+        font-size: 13px;
+        margin: 0px; }
+    .cloud__div112 {
+      margin-top: 10px;
+      padding: 16px 0px 20px 6px; }
+      .cloud__div112 p {
+        font-size: 13px;
+        margin: 0px; }
+    .cloud__div113 {
+      margin-right: 10px;
+      padding: 20px 30px 18px 10px;
+      margin-left: 0; }
+      .cloud__div113 p {
+        font-size: 13px;
+        margin: 0px; } }
+@media only screen and (min-width: 1025px) {
+  .cloud {
+    margin-top: 83px; }
+    .cloud__container {
+      width: 943px; }
+    .cloud__headImg {
+      height: 306px; }
+    .cloud__head {
+      width: 100%;
+      height: 650px; }
+      .cloud__head h1 {
+        font-size: 48px; }
+    .cloud__content {
+      padding: 35px 0 32px; }
+      .cloud__content h1 {
+        font-size: 24px; }
+      .cloud__content p {
+        font-size: 16px; }
+    .cloud__div1 {
+      margin-top: 40px;
+      width: 220px;
+      padding: 22px 25px 21px 24px; }
+      .cloud__div1 h2 {
+        font-size: 48px;
+        padding-bottom: 26px; }
+      .cloud__div1 p {
+        font-size: 24px !important;
+        padding: 1px 0px; }
+    .cloud__div2 {
+      margin-top: 40px;
+      width: 220px;
+      padding: 22px 25px 21px 24px; }
+      .cloud__div2 h2 {
+        font-size: 48px;
+        padding-bottom: 28px; }
+      .cloud__div2 p {
+        font-size: 24px !important;
+        padding: 0px; }
+    .cloud__mobility {
+      margin: 32px 0 64px; }
+      .cloud__mobility h1 {
+        font-size: 32px; }
+      .cloud__mobility p {
+        font-size: 16px; }
+      .cloud__mobility h2 {
+        font-size: 24px; }
+    .cloud__div11 {
+      width: 140px;
+      margin: 55px 15px 0px 0;
+      padding: 0px; }
+      .cloud__div11 p {
+        font-size: 18px !important;
+        padding: 40px 9px 39px 8px;
+        width: 130px;
+        line-height: 1.33;
+        margin: 0px; }
+    .cloud__div12 {
+      width: 140px;
+      padding: 0px; }
+      .cloud__div12 p {
+        font-size: 18px !important;
+        padding: 32px 35px 32px 6px; }
+    .cloud__productImg {
+      height: 250px; }
+      .cloud__productImg p {
+        font-size: 36px;
+        padding-top: 57px;
+        width: 100%; }
+    .cloud__byod {
+      margin: 64px 0; }
+      .cloud__byod h1 {
+        font-size: 24px; }
+      .cloud__byod p {
+        font-size: 16px; }
+    .cloud__div111 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 32px 9px 32px 8px;
+      width: 140px; }
+      .cloud__div111 p {
+        font-size: 18px;
+        margin: 0px; }
+    .cloud__div112 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 32px 9px 32px 8px;
+      width: 140px; }
+      .cloud__div112 p {
+        font-size: 18px;
+        margin: 0px; }
+    .cloud__div113 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 32px 30px 32px 8px;
+      width: 140px; }
+      .cloud__div113 p {
+        font-size: 18px;
+        margin: 0px; } }
 @media only screen and (min-width: 1367px) {
   .cloud__container {
     width: 1107px; }
@@ -6034,194 +6054,198 @@ ul.tabs li.current {
         line-height: 1.58;
         color: #fff; } }
 @media only screen and (min-width: 768px) {
-  .dataScience__container {
-    width: 702px;
-    margin: 0 auto; }
-  .dataScience__headImg {
-    height: 230px; }
-  .dataScience__head {
-    width: 100%;
-    height: 520px; }
-    .dataScience__head h1 {
-      font-size: 32px; }
-  .dataScience__content {
-    padding: 32px 0; }
-    .dataScience__content h1 {
-      font-size: 18px;
-      padding: 0 0 16px; }
-    .dataScience__content p {
-      font-size: 14px;
-      padding-right: 27px; }
-  .dataScience__div1 {
-    margin-left: 7px;
-    margin-top: 22px;
-    width: 160px;
-    padding: 5px 10px 14px 15px; }
-    .dataScience__div1 h2 {
-      font-size: 36px;
-      padding-bottom: 12px; }
-    .dataScience__div1 p {
-      font-size: 18px;
-      padding-bottom: 11px; }
-  .dataScience__div2 {
-    margin-top: 22px;
-    margin-left: 18px;
-    width: 160px;
-    padding: 4px 6px 0px 13px; }
-    .dataScience__div2 h2 {
-      font-size: 36px;
-      color: #000000;
-      width: 119px; }
-    .dataScience__div2 p {
-      font-size: 18px;
-      padding-top: 16px; }
-  .dataScience__mobility {
-    margin: 33px 0 49px; }
-    .dataScience__mobility h1 {
-      font-size: 24px; }
-    .dataScience__mobility p {
-      font-size: 14px;
-      padding-bottom: 0; }
-  .dataScience__div11 {
-    padding: 23px 0px 18px 6px;
-    margin: 55px 10px 0 0; }
-    .dataScience__div11 p {
-      font-size: 13px; }
-  .dataScience__div12 {
-    margin-top: 55px;
-    padding: 25px 35px 18px 6px; }
-    .dataScience__div12 p {
-      font-size: 13px; }
-  .dataScience__productImg p {
-    font-size: 24px;
-    padding-top: 49px;
-    width: 230px; }
-  .dataScience__byod {
-    margin: 33px 0 35px; }
-    .dataScience__byod h1 {
-      font-size: 18px; }
-    .dataScience__byod p {
-      font-size: 14px; }
-  .dataScience__div111 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 18px 7px 18px 5px; }
-    .dataScience__div111 p {
-      font-size: 13px;
-      margin: 0px; }
-  .dataScience__div112 {
-    margin-top: 10px;
-    padding: 16px 0px 20px 6px; }
-    .dataScience__div112 p {
-      font-size: 13px;
-      margin: 0px; }
-  .dataScience__div113 {
-    margin-right: 10px;
-    padding: 20px 30px 18px 10px;
-    margin-left: 0; }
-    .dataScience__div113 p {
-      font-size: 13px;
-      margin: 0px; } }
-@media only screen and (min-width: 1025px) {
-  .dataScience__container {
-    width: 943px; }
-  .dataScience__headImg {
-    height: 306px; }
-  .dataScience__head {
-    width: 100%;
-    height: 650px; }
-    .dataScience__head h1 {
-      font-size: 48px; }
-  .dataScience__content {
-    padding: 35px 0 32px; }
-    .dataScience__content h1 {
-      font-size: 24px; }
-    .dataScience__content p {
-      font-size: 16px; }
-  .dataScience__div1 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 25px 21px 24px; }
-    .dataScience__div1 h2 {
-      font-size: 48px;
-      padding-bottom: 26px; }
-    .dataScience__div1 p {
-      font-size: 24px !important;
-      padding: 1px 0px; }
-  .dataScience__div2 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 25px 21px 24px; }
-    .dataScience__div2 h2 {
-      font-size: 48px;
-      padding-bottom: 28px; }
-    .dataScience__div2 p {
-      font-size: 24px !important;
-      padding: 0px; }
-  .dataScience__mobility {
-    margin: 32px 0 64px; }
-    .dataScience__mobility h1 {
-      font-size: 32px; }
-    .dataScience__mobility p {
-      font-size: 16px; }
-    .dataScience__mobility h2 {
-      font-size: 24px; }
-  .dataScience__div11 {
-    width: 140px;
-    margin: 55px 15px 0px 0;
-    padding: 0px; }
-    .dataScience__div11 p {
-      font-size: 18px !important;
-      padding: 40px 9px 39px 8px;
-      width: 130px;
-      line-height: 1.33;
-      margin: 0px; }
-  .dataScience__div12 {
-    width: 140px;
-    padding: 0px; }
-    .dataScience__div12 p {
-      font-size: 18px !important;
-      padding: 32px 35px 32px 6px; }
-  .dataScience__productImg {
-    height: 250px; }
+  .dataScience {
+    margin-top: 61px; }
+    .dataScience__container {
+      width: 702px;
+      margin: 0 auto; }
+    .dataScience__headImg {
+      height: 230px; }
+    .dataScience__head {
+      width: 100%;
+      height: 520px; }
+      .dataScience__head h1 {
+        font-size: 32px; }
+    .dataScience__content {
+      padding: 32px 0; }
+      .dataScience__content h1 {
+        font-size: 18px;
+        padding: 0 0 16px; }
+      .dataScience__content p {
+        font-size: 14px;
+        padding-right: 27px; }
+    .dataScience__div1 {
+      margin-left: 7px;
+      margin-top: 22px;
+      width: 160px;
+      padding: 5px 10px 14px 15px; }
+      .dataScience__div1 h2 {
+        font-size: 36px;
+        padding-bottom: 12px; }
+      .dataScience__div1 p {
+        font-size: 18px;
+        padding-bottom: 11px; }
+    .dataScience__div2 {
+      margin-top: 22px;
+      margin-left: 18px;
+      width: 160px;
+      padding: 4px 6px 0px 13px; }
+      .dataScience__div2 h2 {
+        font-size: 36px;
+        color: #000000;
+        width: 119px; }
+      .dataScience__div2 p {
+        font-size: 18px;
+        padding-top: 16px; }
+    .dataScience__mobility {
+      margin: 33px 0 49px; }
+      .dataScience__mobility h1 {
+        font-size: 24px; }
+      .dataScience__mobility p {
+        font-size: 14px;
+        padding-bottom: 0; }
+    .dataScience__div11 {
+      padding: 23px 0px 18px 6px;
+      margin: 55px 10px 0 0; }
+      .dataScience__div11 p {
+        font-size: 13px; }
+    .dataScience__div12 {
+      margin-top: 55px;
+      padding: 25px 35px 18px 6px; }
+      .dataScience__div12 p {
+        font-size: 13px; }
     .dataScience__productImg p {
-      font-size: 36px;
-      padding-top: 57px;
-      width: 100%; }
-  .dataScience__byod {
-    margin: 64px 0; }
-    .dataScience__byod h1 {
-      font-size: 24px; }
-    .dataScience__byod p {
-      font-size: 16px; }
-  .dataScience__div111 {
-    margin-left: 0;
-    margin-right: 8px;
-    margin-top: 10px;
-    padding: 32px 9px 32px 8px;
-    width: 140px; }
-    .dataScience__div111 p {
-      font-size: 18px;
-      margin: 0px; }
-  .dataScience__div112 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 32px 9px 32px 8px;
-    width: 140px; }
-    .dataScience__div112 p {
-      font-size: 18px;
-      margin: 0px; }
-  .dataScience__div113 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 32px 30px 32px 8px;
-    width: 140px; }
-    .dataScience__div113 p {
-      font-size: 18px;
-      margin: 0px; } }
+      font-size: 24px;
+      padding-top: 49px;
+      width: 230px; }
+    .dataScience__byod {
+      margin: 33px 0 35px; }
+      .dataScience__byod h1 {
+        font-size: 18px; }
+      .dataScience__byod p {
+        font-size: 14px; }
+    .dataScience__div111 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 18px 7px 18px 5px; }
+      .dataScience__div111 p {
+        font-size: 13px;
+        margin: 0px; }
+    .dataScience__div112 {
+      margin-top: 10px;
+      padding: 16px 0px 20px 6px; }
+      .dataScience__div112 p {
+        font-size: 13px;
+        margin: 0px; }
+    .dataScience__div113 {
+      margin-right: 10px;
+      padding: 20px 30px 18px 10px;
+      margin-left: 0; }
+      .dataScience__div113 p {
+        font-size: 13px;
+        margin: 0px; } }
+@media only screen and (min-width: 1025px) {
+  .dataScience {
+    margin-top: 81px; }
+    .dataScience__container {
+      width: 943px; }
+    .dataScience__headImg {
+      height: 306px; }
+    .dataScience__head {
+      width: 100%;
+      height: 650px; }
+      .dataScience__head h1 {
+        font-size: 48px; }
+    .dataScience__content {
+      padding: 35px 0 32px; }
+      .dataScience__content h1 {
+        font-size: 24px; }
+      .dataScience__content p {
+        font-size: 16px; }
+    .dataScience__div1 {
+      margin-top: 40px;
+      width: 220px;
+      padding: 22px 25px 21px 24px; }
+      .dataScience__div1 h2 {
+        font-size: 48px;
+        padding-bottom: 26px; }
+      .dataScience__div1 p {
+        font-size: 24px !important;
+        padding: 1px 0px; }
+    .dataScience__div2 {
+      margin-top: 40px;
+      width: 220px;
+      padding: 22px 25px 21px 24px; }
+      .dataScience__div2 h2 {
+        font-size: 48px;
+        padding-bottom: 28px; }
+      .dataScience__div2 p {
+        font-size: 24px !important;
+        padding: 0px; }
+    .dataScience__mobility {
+      margin: 32px 0 64px; }
+      .dataScience__mobility h1 {
+        font-size: 32px; }
+      .dataScience__mobility p {
+        font-size: 16px; }
+      .dataScience__mobility h2 {
+        font-size: 24px; }
+    .dataScience__div11 {
+      width: 140px;
+      margin: 55px 15px 0px 0;
+      padding: 0px; }
+      .dataScience__div11 p {
+        font-size: 18px !important;
+        padding: 40px 9px 39px 8px;
+        width: 130px;
+        line-height: 1.33;
+        margin: 0px; }
+    .dataScience__div12 {
+      width: 140px;
+      padding: 0px; }
+      .dataScience__div12 p {
+        font-size: 18px !important;
+        padding: 32px 35px 32px 6px; }
+    .dataScience__productImg {
+      height: 250px; }
+      .dataScience__productImg p {
+        font-size: 36px;
+        padding-top: 57px;
+        width: 100%; }
+    .dataScience__byod {
+      margin: 64px 0; }
+      .dataScience__byod h1 {
+        font-size: 24px; }
+      .dataScience__byod p {
+        font-size: 16px; }
+    .dataScience__div111 {
+      margin-left: 0;
+      margin-right: 8px;
+      margin-top: 10px;
+      padding: 32px 9px 32px 8px;
+      width: 140px; }
+      .dataScience__div111 p {
+        font-size: 18px;
+        margin: 0px; }
+    .dataScience__div112 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 32px 9px 32px 8px;
+      width: 140px; }
+      .dataScience__div112 p {
+        font-size: 18px;
+        margin: 0px; }
+    .dataScience__div113 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 32px 30px 32px 8px;
+      width: 140px; }
+      .dataScience__div113 p {
+        font-size: 18px;
+        margin: 0px; } }
 @media only screen and (min-width: 1367px) {
   .dataScience__container {
     width: 1107px; }
@@ -6505,194 +6529,198 @@ ul.tabs li.current {
         line-height: 1.58;
         color: #fff; } }
 @media only screen and (min-width: 768px) {
-  .devOps__container {
-    width: 702px;
-    margin: 0 auto; }
-  .devOps__headImg {
-    height: 230px; }
-  .devOps__head {
-    width: 100%;
-    height: 520px; }
-    .devOps__head h1 {
-      font-size: 32px; }
-  .devOps__content {
-    padding: 32px 0; }
-    .devOps__content h1 {
-      font-size: 18px;
-      padding: 0 0 16px; }
-    .devOps__content p {
-      font-size: 14px;
-      padding-right: 27px; }
-  .devOps__div1 {
-    margin-left: 7px;
-    margin-top: 22px;
-    width: 160px;
-    padding: 5px 10px 14px 15px; }
-    .devOps__div1 h2 {
-      font-size: 36px;
-      padding-bottom: 12px; }
-    .devOps__div1 p {
-      font-size: 18px;
-      padding-bottom: 11px; }
-  .devOps__div2 {
-    margin-top: 22px;
-    margin-left: 18px;
-    width: 160px;
-    padding: 4px 6px 0px 13px; }
-    .devOps__div2 h2 {
-      font-size: 36px;
-      color: #000000;
-      width: 119px; }
-    .devOps__div2 p {
-      font-size: 18px;
-      padding-top: 16px; }
-  .devOps__mobility {
-    margin: 33px 0 49px; }
-    .devOps__mobility h1 {
-      font-size: 24px; }
-    .devOps__mobility p {
-      font-size: 14px;
-      padding-bottom: 0; }
-  .devOps__div11 {
-    padding: 23px 0px 18px 6px;
-    margin: 55px 10px 0 0; }
-    .devOps__div11 p {
-      font-size: 13px; }
-  .devOps__div12 {
-    margin-top: 55px;
-    padding: 25px 35px 18px 6px; }
-    .devOps__div12 p {
-      font-size: 13px; }
-  .devOps__productImg p {
-    font-size: 24px;
-    padding-top: 49px;
-    width: 230px; }
-  .devOps__byod {
-    margin: 33px 0 35px; }
-    .devOps__byod h1 {
-      font-size: 18px; }
-    .devOps__byod p {
-      font-size: 14px; }
-  .devOps__div111 {
-    margin-left: 0;
-    margin-right: 8px;
-    margin-top: 10px;
-    padding: 18px 7px 18px 5px; }
-    .devOps__div111 p {
-      font-size: 13px;
-      margin: 0px; }
-  .devOps__div112 {
-    margin-top: 10px;
-    padding: 16px 0px 20px 6px; }
-    .devOps__div112 p {
-      font-size: 13px;
-      margin: 0px; }
-  .devOps__div113 {
-    margin-right: 10px;
-    padding: 20px 30px 18px 10px;
-    margin-left: 0; }
-    .devOps__div113 p {
-      font-size: 13px;
-      margin: 0px; } }
-@media only screen and (min-width: 1025px) {
-  .devOps__container {
-    width: 943px; }
-  .devOps__headImg {
-    height: 306px; }
-  .devOps__head {
-    width: 100%;
-    height: 650px; }
-    .devOps__head h1 {
-      font-size: 48px; }
-  .devOps__content {
-    padding: 35px 0 32px; }
-    .devOps__content h1 {
-      font-size: 24px; }
-    .devOps__content p {
-      font-size: 16px; }
-  .devOps__div1 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 25px 21px 24px; }
-    .devOps__div1 h2 {
-      font-size: 48px;
-      padding-bottom: 26px; }
-    .devOps__div1 p {
-      font-size: 24px !important;
-      padding: 1px 0px; }
-  .devOps__div2 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 25px 21px 24px; }
-    .devOps__div2 h2 {
-      font-size: 48px;
-      padding-bottom: 28px; }
-    .devOps__div2 p {
-      font-size: 24px !important;
-      padding: 0px; }
-  .devOps__mobility {
-    margin: 32px 0 64px; }
-    .devOps__mobility h1 {
-      font-size: 32px; }
-    .devOps__mobility p {
-      font-size: 16px; }
-    .devOps__mobility h2 {
-      font-size: 24px; }
-  .devOps__div11 {
-    width: 140px;
-    margin: 55px 15px 0px 0;
-    padding: 0px; }
-    .devOps__div11 p {
-      font-size: 18px !important;
-      padding: 40px 9px 39px 8px;
-      width: 130px;
-      line-height: 1.33;
-      margin: 0px; }
-  .devOps__div12 {
-    width: 140px;
-    padding: 0px; }
-    .devOps__div12 p {
-      font-size: 18px !important;
-      padding: 32px 35px 32px 6px; }
-  .devOps__productImg {
-    height: 250px; }
+  .devOps {
+    margin-top: 61px; }
+    .devOps__container {
+      width: 702px;
+      margin: 0 auto; }
+    .devOps__headImg {
+      height: 230px; }
+    .devOps__head {
+      width: 100%;
+      height: 520px; }
+      .devOps__head h1 {
+        font-size: 32px; }
+    .devOps__content {
+      padding: 32px 0; }
+      .devOps__content h1 {
+        font-size: 18px;
+        padding: 0 0 16px; }
+      .devOps__content p {
+        font-size: 14px;
+        padding-right: 27px; }
+    .devOps__div1 {
+      margin-left: 7px;
+      margin-top: 22px;
+      width: 160px;
+      padding: 5px 10px 14px 15px; }
+      .devOps__div1 h2 {
+        font-size: 36px;
+        padding-bottom: 12px; }
+      .devOps__div1 p {
+        font-size: 18px;
+        padding-bottom: 11px; }
+    .devOps__div2 {
+      margin-top: 22px;
+      margin-left: 18px;
+      width: 160px;
+      padding: 4px 6px 0px 13px; }
+      .devOps__div2 h2 {
+        font-size: 36px;
+        color: #000000;
+        width: 119px; }
+      .devOps__div2 p {
+        font-size: 18px;
+        padding-top: 16px; }
+    .devOps__mobility {
+      margin: 33px 0 49px; }
+      .devOps__mobility h1 {
+        font-size: 24px; }
+      .devOps__mobility p {
+        font-size: 14px;
+        padding-bottom: 0; }
+    .devOps__div11 {
+      padding: 23px 0px 18px 6px;
+      margin: 55px 10px 0 0; }
+      .devOps__div11 p {
+        font-size: 13px; }
+    .devOps__div12 {
+      margin-top: 55px;
+      padding: 25px 35px 18px 6px; }
+      .devOps__div12 p {
+        font-size: 13px; }
     .devOps__productImg p {
-      font-size: 36px;
-      padding-top: 57px;
-      width: 100%; }
-  .devOps__byod {
-    margin: 64px 0; }
-    .devOps__byod h1 {
-      font-size: 24px; }
-    .devOps__byod p {
-      font-size: 16px; }
-  .devOps__div111 {
-    margin-left: 0;
-    margin-right: 7px;
-    margin-top: 10px;
-    padding: 32px 9px 32px 8px;
-    width: 140px; }
-    .devOps__div111 p {
-      font-size: 18px;
-      margin: 0px; }
-  .devOps__div112 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 32px 9px 32px 8px;
-    width: 140px; }
-    .devOps__div112 p {
-      font-size: 18px;
-      margin: 0px; }
-  .devOps__div113 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 32px 30px 32px 8px;
-    width: 140px; }
-    .devOps__div113 p {
-      font-size: 18px;
-      margin: 0px; } }
+      font-size: 24px;
+      padding-top: 49px;
+      width: 230px; }
+    .devOps__byod {
+      margin: 33px 0 35px; }
+      .devOps__byod h1 {
+        font-size: 18px; }
+      .devOps__byod p {
+        font-size: 14px; }
+    .devOps__div111 {
+      margin-left: 0;
+      margin-right: 8px;
+      margin-top: 10px;
+      padding: 18px 7px 18px 5px; }
+      .devOps__div111 p {
+        font-size: 13px;
+        margin: 0px; }
+    .devOps__div112 {
+      margin-top: 10px;
+      padding: 16px 0px 20px 6px; }
+      .devOps__div112 p {
+        font-size: 13px;
+        margin: 0px; }
+    .devOps__div113 {
+      margin-right: 10px;
+      padding: 20px 30px 18px 10px;
+      margin-left: 0; }
+      .devOps__div113 p {
+        font-size: 13px;
+        margin: 0px; } }
+@media only screen and (min-width: 1025px) {
+  .devOps {
+    margin-top: 81px; }
+    .devOps__container {
+      width: 943px; }
+    .devOps__headImg {
+      height: 306px; }
+    .devOps__head {
+      width: 100%;
+      height: 650px; }
+      .devOps__head h1 {
+        font-size: 48px; }
+    .devOps__content {
+      padding: 35px 0 32px; }
+      .devOps__content h1 {
+        font-size: 24px; }
+      .devOps__content p {
+        font-size: 16px; }
+    .devOps__div1 {
+      margin-top: 40px;
+      width: 220px;
+      padding: 22px 25px 21px 24px; }
+      .devOps__div1 h2 {
+        font-size: 48px;
+        padding-bottom: 26px; }
+      .devOps__div1 p {
+        font-size: 24px !important;
+        padding: 1px 0px; }
+    .devOps__div2 {
+      margin-top: 40px;
+      width: 220px;
+      padding: 22px 25px 21px 24px; }
+      .devOps__div2 h2 {
+        font-size: 48px;
+        padding-bottom: 28px; }
+      .devOps__div2 p {
+        font-size: 24px !important;
+        padding: 0px; }
+    .devOps__mobility {
+      margin: 32px 0 64px; }
+      .devOps__mobility h1 {
+        font-size: 32px; }
+      .devOps__mobility p {
+        font-size: 16px; }
+      .devOps__mobility h2 {
+        font-size: 24px; }
+    .devOps__div11 {
+      width: 140px;
+      margin: 55px 15px 0px 0;
+      padding: 0px; }
+      .devOps__div11 p {
+        font-size: 18px !important;
+        padding: 40px 9px 39px 8px;
+        width: 130px;
+        line-height: 1.33;
+        margin: 0px; }
+    .devOps__div12 {
+      width: 140px;
+      padding: 0px; }
+      .devOps__div12 p {
+        font-size: 18px !important;
+        padding: 32px 35px 32px 6px; }
+    .devOps__productImg {
+      height: 250px; }
+      .devOps__productImg p {
+        font-size: 36px;
+        padding-top: 57px;
+        width: 100%; }
+    .devOps__byod {
+      margin: 64px 0; }
+      .devOps__byod h1 {
+        font-size: 24px; }
+      .devOps__byod p {
+        font-size: 16px; }
+    .devOps__div111 {
+      margin-left: 0;
+      margin-right: 7px;
+      margin-top: 10px;
+      padding: 32px 9px 32px 8px;
+      width: 140px; }
+      .devOps__div111 p {
+        font-size: 18px;
+        margin: 0px; }
+    .devOps__div112 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 32px 9px 32px 8px;
+      width: 140px; }
+      .devOps__div112 p {
+        font-size: 18px;
+        margin: 0px; }
+    .devOps__div113 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 32px 30px 32px 8px;
+      width: 140px; }
+      .devOps__div113 p {
+        font-size: 18px;
+        margin: 0px; } }
 @media only screen and (min-width: 1367px) {
   .devOps__container {
     width: 1107px; }
@@ -6976,194 +7004,198 @@ ul.tabs li.current {
         line-height: 1.58;
         color: #fff; } }
 @media only screen and (min-width: 768px) {
-  .mobile__container {
-    width: 702px;
-    margin: 0 auto; }
-  .mobile__headImg {
-    height: 230px; }
-  .mobile__head {
-    width: 100%;
-    height: 520px; }
-    .mobile__head h1 {
-      font-size: 32px; }
-  .mobile__content {
-    padding: 32px 0; }
-    .mobile__content h1 {
-      font-size: 18px;
-      padding: 0 0 16px; }
-    .mobile__content p {
-      font-size: 14px;
-      padding-right: 27px; }
-  .mobile__div1 {
-    margin-left: 7px;
-    margin-top: 22px;
-    width: 160px;
-    padding: 5px 10px 14px 15px; }
-    .mobile__div1 h2 {
-      font-size: 36px;
-      padding-bottom: 12px; }
-    .mobile__div1 p {
-      font-size: 18px;
-      padding-bottom: 11px; }
-  .mobile__div2 {
-    margin-top: 22px;
-    margin-left: 18px;
-    width: 160px;
-    padding: 4px 6px 0px 13px; }
-    .mobile__div2 h2 {
-      font-size: 36px;
-      color: #000000;
-      width: 119px; }
-    .mobile__div2 p {
-      font-size: 18px;
-      padding-top: 16px; }
-  .mobile__mobility {
-    margin: 33px 0 49px; }
-    .mobile__mobility h1 {
-      font-size: 24px; }
-    .mobile__mobility p {
-      font-size: 14px;
-      padding-bottom: 0; }
-  .mobile__div11 {
-    padding: 23px 0px 18px 6px;
-    margin: 55px 10px 0 0; }
-    .mobile__div11 p {
-      font-size: 13px; }
-  .mobile__div12 {
-    margin-top: 55px;
-    padding: 25px 35px 18px 6px; }
-    .mobile__div12 p {
-      font-size: 13px; }
-  .mobile__productImg p {
-    font-size: 24px;
-    padding-top: 49px;
-    width: 230px; }
-  .mobile__byod {
-    margin: 33px 0 35px; }
-    .mobile__byod h1 {
-      font-size: 18px; }
-    .mobile__byod p {
-      font-size: 14px; }
-  .mobile__div111 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 18px 7px 18px 5px; }
-    .mobile__div111 p {
-      font-size: 13px;
-      margin: 0px; }
-  .mobile__div112 {
-    margin-top: 10px;
-    padding: 16px 0px 20px 6px; }
-    .mobile__div112 p {
-      font-size: 13px;
-      margin: 0px; }
-  .mobile__div113 {
-    margin-right: 10px;
-    padding: 20px 30px 18px 10px;
-    margin-left: 0; }
-    .mobile__div113 p {
-      font-size: 13px;
-      margin: 0px; } }
-@media only screen and (min-width: 1025px) {
-  .mobile__container {
-    width: 943px; }
-  .mobile__headImg {
-    height: 306px; }
-  .mobile__head {
-    width: 100%;
-    height: 650px; }
-    .mobile__head h1 {
-      font-size: 48px; }
-  .mobile__content {
-    padding: 35px 0 32px; }
-    .mobile__content h1 {
-      font-size: 24px; }
-    .mobile__content p {
-      font-size: 16px; }
-  .mobile__div1 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 25px 21px 24px; }
-    .mobile__div1 h2 {
-      font-size: 48px;
-      padding-bottom: 26px; }
-    .mobile__div1 p {
-      font-size: 24px !important;
-      padding: 1px 0px; }
-  .mobile__div2 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 25px 21px 24px; }
-    .mobile__div2 h2 {
-      font-size: 48px;
-      padding-bottom: 28px; }
-    .mobile__div2 p {
-      font-size: 24px !important;
-      padding: 0px; }
-  .mobile__mobility {
-    margin: 32px 0 64px; }
-    .mobile__mobility h1 {
-      font-size: 32px; }
-    .mobile__mobility p {
-      font-size: 16px; }
-    .mobile__mobility h2 {
-      font-size: 24px; }
-  .mobile__div11 {
-    width: 140px;
-    margin: 55px 15px 0px 0;
-    padding: 0px; }
-    .mobile__div11 p {
-      font-size: 18px !important;
-      padding: 40px 9px 39px 8px;
-      width: 130px;
-      line-height: 1.33;
-      margin: 0px; }
-  .mobile__div12 {
-    width: 140px;
-    padding: 0px; }
-    .mobile__div12 p {
-      font-size: 18px !important;
-      padding: 32px 35px 32px 6px; }
-  .mobile__productImg {
-    height: 250px; }
+  .mobile {
+    margin-top: 61px; }
+    .mobile__container {
+      width: 702px;
+      margin: 0 auto; }
+    .mobile__headImg {
+      height: 230px; }
+    .mobile__head {
+      width: 100%;
+      height: 520px; }
+      .mobile__head h1 {
+        font-size: 32px; }
+    .mobile__content {
+      padding: 32px 0; }
+      .mobile__content h1 {
+        font-size: 18px;
+        padding: 0 0 16px; }
+      .mobile__content p {
+        font-size: 14px;
+        padding-right: 27px; }
+    .mobile__div1 {
+      margin-left: 7px;
+      margin-top: 22px;
+      width: 160px;
+      padding: 5px 10px 14px 15px; }
+      .mobile__div1 h2 {
+        font-size: 36px;
+        padding-bottom: 12px; }
+      .mobile__div1 p {
+        font-size: 18px;
+        padding-bottom: 11px; }
+    .mobile__div2 {
+      margin-top: 22px;
+      margin-left: 18px;
+      width: 160px;
+      padding: 4px 6px 0px 13px; }
+      .mobile__div2 h2 {
+        font-size: 36px;
+        color: #000000;
+        width: 119px; }
+      .mobile__div2 p {
+        font-size: 18px;
+        padding-top: 16px; }
+    .mobile__mobility {
+      margin: 33px 0 49px; }
+      .mobile__mobility h1 {
+        font-size: 24px; }
+      .mobile__mobility p {
+        font-size: 14px;
+        padding-bottom: 0; }
+    .mobile__div11 {
+      padding: 23px 0px 18px 6px;
+      margin: 55px 10px 0 0; }
+      .mobile__div11 p {
+        font-size: 13px; }
+    .mobile__div12 {
+      margin-top: 55px;
+      padding: 25px 35px 18px 6px; }
+      .mobile__div12 p {
+        font-size: 13px; }
     .mobile__productImg p {
-      font-size: 36px;
-      padding-top: 57px;
-      width: 100%; }
-  .mobile__byod {
-    margin: 64px 0; }
-    .mobile__byod h1 {
-      font-size: 24px; }
-    .mobile__byod p {
-      font-size: 16px; }
-  .mobile__div111 {
-    margin-left: 0;
-    margin-right: 8px;
-    margin-top: 10px;
-    padding: 32px 9px 32px 8px;
-    width: 140px; }
-    .mobile__div111 p {
-      font-size: 18px;
-      margin: 0px; }
-  .mobile__div112 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 32px 9px 32px 8px;
-    width: 140px; }
-    .mobile__div112 p {
-      font-size: 18px;
-      margin: 0px; }
-  .mobile__div113 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 32px 30px 32px 8px;
-    width: 140px; }
-    .mobile__div113 p {
-      font-size: 18px;
-      margin: 0px; } }
+      font-size: 24px;
+      padding-top: 49px;
+      width: 230px; }
+    .mobile__byod {
+      margin: 33px 0 35px; }
+      .mobile__byod h1 {
+        font-size: 18px; }
+      .mobile__byod p {
+        font-size: 14px; }
+    .mobile__div111 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 18px 7px 18px 5px; }
+      .mobile__div111 p {
+        font-size: 13px;
+        margin: 0px; }
+    .mobile__div112 {
+      margin-top: 10px;
+      padding: 16px 0px 20px 6px; }
+      .mobile__div112 p {
+        font-size: 13px;
+        margin: 0px; }
+    .mobile__div113 {
+      margin-right: 10px;
+      padding: 20px 30px 18px 10px;
+      margin-left: 0; }
+      .mobile__div113 p {
+        font-size: 13px;
+        margin: 0px; } }
+@media only screen and (min-width: 1025px) {
+  .mobile {
+    margin-top: 81px; }
+    .mobile__container {
+      width: 943px; }
+    .mobile__headImg {
+      height: 306px; }
+    .mobile__head {
+      width: 100%;
+      height: 650px; }
+      .mobile__head h1 {
+        font-size: 48px; }
+    .mobile__content {
+      padding: 35px 0 32px; }
+      .mobile__content h1 {
+        font-size: 24px; }
+      .mobile__content p {
+        font-size: 16px; }
+    .mobile__div1 {
+      margin-top: 40px;
+      width: 220px;
+      padding: 22px 25px 21px 24px; }
+      .mobile__div1 h2 {
+        font-size: 48px;
+        padding-bottom: 26px; }
+      .mobile__div1 p {
+        font-size: 24px !important;
+        padding: 1px 0px; }
+    .mobile__div2 {
+      margin-top: 40px;
+      width: 220px;
+      padding: 22px 25px 21px 24px; }
+      .mobile__div2 h2 {
+        font-size: 48px;
+        padding-bottom: 28px; }
+      .mobile__div2 p {
+        font-size: 24px !important;
+        padding: 0px; }
+    .mobile__mobility {
+      margin: 32px 0 64px; }
+      .mobile__mobility h1 {
+        font-size: 32px; }
+      .mobile__mobility p {
+        font-size: 16px; }
+      .mobile__mobility h2 {
+        font-size: 24px; }
+    .mobile__div11 {
+      width: 140px;
+      margin: 55px 15px 0px 0;
+      padding: 0px; }
+      .mobile__div11 p {
+        font-size: 18px !important;
+        padding: 40px 9px 39px 8px;
+        width: 130px;
+        line-height: 1.33;
+        margin: 0px; }
+    .mobile__div12 {
+      width: 140px;
+      padding: 0px; }
+      .mobile__div12 p {
+        font-size: 18px !important;
+        padding: 32px 35px 32px 6px; }
+    .mobile__productImg {
+      height: 250px; }
+      .mobile__productImg p {
+        font-size: 36px;
+        padding-top: 57px;
+        width: 100%; }
+    .mobile__byod {
+      margin: 64px 0; }
+      .mobile__byod h1 {
+        font-size: 24px; }
+      .mobile__byod p {
+        font-size: 16px; }
+    .mobile__div111 {
+      margin-left: 0;
+      margin-right: 8px;
+      margin-top: 10px;
+      padding: 32px 9px 32px 8px;
+      width: 140px; }
+      .mobile__div111 p {
+        font-size: 18px;
+        margin: 0px; }
+    .mobile__div112 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 32px 9px 32px 8px;
+      width: 140px; }
+      .mobile__div112 p {
+        font-size: 18px;
+        margin: 0px; }
+    .mobile__div113 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 32px 30px 32px 8px;
+      width: 140px; }
+      .mobile__div113 p {
+        font-size: 18px;
+        margin: 0px; } }
 @media only screen and (min-width: 1367px) {
   .mobile__container {
     width: 1107px; }
@@ -7576,7 +7608,8 @@ ul.tabs li.current {
     left: 474px; }
 
   .internship__headImg {
-    height: 229px; }
+    height: 229px;
+    margin-top: 61px; }
   .internship__content {
     height: 229px;
     width: 100%;
@@ -7702,7 +7735,8 @@ ul.tabs li.current {
     left: 625px; }
 
   .internship__headImg {
-    height: 305px; }
+    height: 305px;
+    margin-top: 81px; }
   .internship__content {
     height: 305px;
     padding: 26px 43px;
@@ -8480,194 +8514,198 @@ ul.tabs li.current {
         line-height: 1.58;
         color: #fff; } }
 @media only screen and (min-width: 768px) {
-  .uiux__container {
-    width: 702px;
-    margin: 0 auto; }
-  .uiux__headImg {
-    height: 230px; }
-  .uiux__head {
-    width: 100%;
-    height: 520px; }
-    .uiux__head h1 {
-      font-size: 32px; }
-  .uiux__content {
-    padding: 32px 0; }
-    .uiux__content h1 {
-      font-size: 18px;
-      padding: 0 0 16px; }
-    .uiux__content p {
-      font-size: 14px;
-      padding-right: 27px; }
-  .uiux__div1 {
-    margin-left: 7px;
-    margin-top: 22px;
-    width: 160px;
-    padding: 5px 10px 14px 15px; }
-    .uiux__div1 h2 {
-      font-size: 36px;
-      padding-bottom: 12px; }
-    .uiux__div1 p {
-      font-size: 18px;
-      padding-bottom: 11px; }
-  .uiux__div2 {
-    margin-top: 22px;
-    margin-left: 18px;
-    width: 160px;
-    padding: 4px 6px 0px 13px; }
-    .uiux__div2 h2 {
-      font-size: 36px;
-      color: #000000;
-      width: 119px; }
-    .uiux__div2 p {
-      font-size: 18px;
-      padding-top: 16px; }
-  .uiux__mobility {
-    margin: 33px 0 49px; }
-    .uiux__mobility h1 {
-      font-size: 24px; }
-    .uiux__mobility p {
-      font-size: 14px;
-      padding-bottom: 0; }
-  .uiux__div11 {
-    padding: 23px 0px 18px 6px;
-    margin: 55px 10px 0 0; }
-    .uiux__div11 p {
-      font-size: 13px; }
-  .uiux__div12 {
-    margin-top: 55px;
-    padding: 25px 35px 18px 6px; }
-    .uiux__div12 p {
-      font-size: 13px; }
-  .uiux__productImg p {
-    font-size: 24px;
-    padding-top: 49px;
-    width: 230px; }
-  .uiux__byod {
-    margin: 33px 0 35px; }
-    .uiux__byod h1 {
-      font-size: 18px; }
-    .uiux__byod p {
-      font-size: 14px; }
-  .uiux__div111 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 18px 7px 18px 5px; }
-    .uiux__div111 p {
-      font-size: 13px;
-      margin: 0px; }
-  .uiux__div112 {
-    margin-top: 10px;
-    padding: 16px 0px 20px 6px; }
-    .uiux__div112 p {
-      font-size: 13px;
-      margin: 0px; }
-  .uiux__div113 {
-    margin-right: 10px;
-    padding: 20px 30px 18px 10px;
-    margin-left: 0; }
-    .uiux__div113 p {
-      font-size: 13px;
-      margin: 0px; } }
-@media only screen and (min-width: 1025px) {
-  .uiux__container {
-    width: 943px; }
-  .uiux__headImg {
-    height: 306px; }
-  .uiux__head {
-    width: 100%;
-    height: 650px; }
-    .uiux__head h1 {
-      font-size: 48px; }
-  .uiux__content {
-    padding: 35px 0 32px; }
-    .uiux__content h1 {
-      font-size: 24px; }
-    .uiux__content p {
-      font-size: 16px; }
-  .uiux__div1 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 25px 21px 24px; }
-    .uiux__div1 h2 {
-      font-size: 48px;
-      padding-bottom: 26px; }
-    .uiux__div1 p {
-      font-size: 24px !important;
-      padding: 1px 0px; }
-  .uiux__div2 {
-    margin-top: 40px;
-    width: 220px;
-    padding: 22px 25px 21px 24px; }
-    .uiux__div2 h2 {
-      font-size: 48px;
-      padding-bottom: 28px; }
-    .uiux__div2 p {
-      font-size: 24px !important;
-      padding: 0px; }
-  .uiux__mobility {
-    margin: 32px 0 64px; }
-    .uiux__mobility h1 {
-      font-size: 32px; }
-    .uiux__mobility p {
-      font-size: 16px; }
-    .uiux__mobility h2 {
-      font-size: 24px; }
-  .uiux__div11 {
-    width: 140px;
-    margin: 55px 15px 0px 0;
-    padding: 0px; }
-    .uiux__div11 p {
-      font-size: 18px !important;
-      padding: 40px 9px 39px 8px;
-      width: 130px;
-      line-height: 1.33;
-      margin: 0px; }
-  .uiux__div12 {
-    width: 140px;
-    padding: 0px; }
-    .uiux__div12 p {
-      font-size: 18px !important;
-      padding: 32px 35px 32px 6px; }
-  .uiux__productImg {
-    height: 250px; }
+  .uiux {
+    margin-top: 59px; }
+    .uiux__container {
+      width: 702px;
+      margin: 0 auto; }
+    .uiux__headImg {
+      height: 230px; }
+    .uiux__head {
+      width: 100%;
+      height: 520px; }
+      .uiux__head h1 {
+        font-size: 32px; }
+    .uiux__content {
+      padding: 32px 0; }
+      .uiux__content h1 {
+        font-size: 18px;
+        padding: 0 0 16px; }
+      .uiux__content p {
+        font-size: 14px;
+        padding-right: 27px; }
+    .uiux__div1 {
+      margin-left: 7px;
+      margin-top: 22px;
+      width: 160px;
+      padding: 5px 10px 14px 15px; }
+      .uiux__div1 h2 {
+        font-size: 36px;
+        padding-bottom: 12px; }
+      .uiux__div1 p {
+        font-size: 18px;
+        padding-bottom: 11px; }
+    .uiux__div2 {
+      margin-top: 22px;
+      margin-left: 18px;
+      width: 160px;
+      padding: 4px 6px 0px 13px; }
+      .uiux__div2 h2 {
+        font-size: 36px;
+        color: #000000;
+        width: 119px; }
+      .uiux__div2 p {
+        font-size: 18px;
+        padding-top: 16px; }
+    .uiux__mobility {
+      margin: 33px 0 49px; }
+      .uiux__mobility h1 {
+        font-size: 24px; }
+      .uiux__mobility p {
+        font-size: 14px;
+        padding-bottom: 0; }
+    .uiux__div11 {
+      padding: 23px 0px 18px 6px;
+      margin: 55px 10px 0 0; }
+      .uiux__div11 p {
+        font-size: 13px; }
+    .uiux__div12 {
+      margin-top: 55px;
+      padding: 25px 35px 18px 6px; }
+      .uiux__div12 p {
+        font-size: 13px; }
     .uiux__productImg p {
-      font-size: 36px;
-      padding-top: 57px;
-      width: 100%; }
-  .uiux__byod {
-    margin: 64px 0; }
-    .uiux__byod h1 {
-      font-size: 24px; }
-    .uiux__byod p {
-      font-size: 16px; }
-  .uiux__div111 {
-    margin-left: 0;
-    margin-right: 8px;
-    margin-top: 10px;
-    padding: 32px 9px 32px 8px;
-    width: 140px; }
-    .uiux__div111 p {
-      font-size: 18px;
-      margin: 0px; }
-  .uiux__div112 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 32px 9px 32px 8px;
-    width: 140px; }
-    .uiux__div112 p {
-      font-size: 18px;
-      margin: 0px; }
-  .uiux__div113 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 32px 30px 32px 8px;
-    width: 140px; }
-    .uiux__div113 p {
-      font-size: 18px;
-      margin: 0px; } }
+      font-size: 24px;
+      padding-top: 49px;
+      width: 230px; }
+    .uiux__byod {
+      margin: 33px 0 35px; }
+      .uiux__byod h1 {
+        font-size: 18px; }
+      .uiux__byod p {
+        font-size: 14px; }
+    .uiux__div111 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 18px 7px 18px 5px; }
+      .uiux__div111 p {
+        font-size: 13px;
+        margin: 0px; }
+    .uiux__div112 {
+      margin-top: 10px;
+      padding: 16px 0px 20px 6px; }
+      .uiux__div112 p {
+        font-size: 13px;
+        margin: 0px; }
+    .uiux__div113 {
+      margin-right: 10px;
+      padding: 20px 30px 18px 10px;
+      margin-left: 0; }
+      .uiux__div113 p {
+        font-size: 13px;
+        margin: 0px; } }
+@media only screen and (min-width: 1025px) {
+  .uiux {
+    margin-top: 81px; }
+    .uiux__container {
+      width: 943px; }
+    .uiux__headImg {
+      height: 306px; }
+    .uiux__head {
+      width: 100%;
+      height: 650px; }
+      .uiux__head h1 {
+        font-size: 48px; }
+    .uiux__content {
+      padding: 35px 0 32px; }
+      .uiux__content h1 {
+        font-size: 24px; }
+      .uiux__content p {
+        font-size: 16px; }
+    .uiux__div1 {
+      margin-top: 40px;
+      width: 220px;
+      padding: 22px 25px 21px 24px; }
+      .uiux__div1 h2 {
+        font-size: 48px;
+        padding-bottom: 26px; }
+      .uiux__div1 p {
+        font-size: 24px !important;
+        padding: 1px 0px; }
+    .uiux__div2 {
+      margin-top: 40px;
+      width: 220px;
+      padding: 22px 25px 21px 24px; }
+      .uiux__div2 h2 {
+        font-size: 48px;
+        padding-bottom: 28px; }
+      .uiux__div2 p {
+        font-size: 24px !important;
+        padding: 0px; }
+    .uiux__mobility {
+      margin: 32px 0 64px; }
+      .uiux__mobility h1 {
+        font-size: 32px; }
+      .uiux__mobility p {
+        font-size: 16px; }
+      .uiux__mobility h2 {
+        font-size: 24px; }
+    .uiux__div11 {
+      width: 140px;
+      margin: 55px 15px 0px 0;
+      padding: 0px; }
+      .uiux__div11 p {
+        font-size: 18px !important;
+        padding: 40px 9px 39px 8px;
+        width: 130px;
+        line-height: 1.33;
+        margin: 0px; }
+    .uiux__div12 {
+      width: 140px;
+      padding: 0px; }
+      .uiux__div12 p {
+        font-size: 18px !important;
+        padding: 32px 35px 32px 6px; }
+    .uiux__productImg {
+      height: 250px; }
+      .uiux__productImg p {
+        font-size: 36px;
+        padding-top: 57px;
+        width: 100%; }
+    .uiux__byod {
+      margin: 64px 0; }
+      .uiux__byod h1 {
+        font-size: 24px; }
+      .uiux__byod p {
+        font-size: 16px; }
+    .uiux__div111 {
+      margin-left: 0;
+      margin-right: 8px;
+      margin-top: 10px;
+      padding: 32px 9px 32px 8px;
+      width: 140px; }
+      .uiux__div111 p {
+        font-size: 18px;
+        margin: 0px; }
+    .uiux__div112 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 32px 9px 32px 8px;
+      width: 140px; }
+      .uiux__div112 p {
+        font-size: 18px;
+        margin: 0px; }
+    .uiux__div113 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding: 32px 30px 32px 8px;
+      width: 140px; }
+      .uiux__div113 p {
+        font-size: 18px;
+        margin: 0px; } }
 @media only screen and (min-width: 1367px) {
   .uiux__container {
     width: 1107px; }

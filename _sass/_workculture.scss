@@ -18,8 +18,8 @@
              background-repeat: no-repeat;
             width: 100%;
             height: 228px;
-background-position: center center;
-// background-attachment: fixed;
+                background-position: center center;
+                // background-attachment: fixed;
 
             
           h1 {
@@ -135,7 +135,8 @@ background-position: center center;
          .row{
         width: 698px;
         }
-        .workculture__image{    
+        .workculture__image{ 
+               margin-top: 61px;
           h1 {
                font-size: 32px;
                margin: 156px 0px 33px 33px;
@@ -145,9 +146,6 @@ background-position: center center;
             h1 {
                font-family: 'muliBold';
                font-size: 18px;
-            //    font-weight: bold;
-            //    text-align: center;
-            //   color: #603c96;
               margin: 41px 0px 18px 0px;
 
             }
@@ -217,7 +215,8 @@ background-position: center center;
 
 
         .workculture__image{  
-            height: 305px;  
+            height: 305px; 
+            margin-top: 82px; 
           h1 {
                font-size: 48px;
                margin: 213px 0px 33px 42px;
