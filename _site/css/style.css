@@ -626,7 +626,6 @@ body {
     body .popover {
       position: absolute;
       top: 30px;
-      z-index: -1;
       left: 175px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
@@ -635,7 +634,6 @@ body {
     body .popoverer {
       position: absolute;
       top: 30px;
-      z-index: -1;
       left: 457px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
