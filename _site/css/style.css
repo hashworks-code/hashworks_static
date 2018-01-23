@@ -1185,6 +1185,7 @@ a {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
 .home__business--impact {
+  background-image: url(../assets/image/index/rectangle1.jpg);
   height: 170px;
   background-repeat: no-repeat;
   margin-top: 8px;
@@ -1213,6 +1214,7 @@ a {
   width: 8.5px;
   height: 16px; }
 .home__businessImpact--thinking {
+  background-image: url(../assets/image/index/customer.jpg);
   height: 170px;
   background-repeat: no-repeat;
   margin-top: 8px;
@@ -1227,6 +1229,7 @@ a {
     padding: 60px 0px 25px 28px;
     width: 160px; }
 .home__businessImpact--culture {
+  background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
   height: 170px;
   background-repeat: no-repeat;
   margin-top: 8px;
@@ -1245,6 +1248,7 @@ a {
   .home__caseStudy--arrow {
     display: none; }
   .home__caseStudy--image {
+    background-image: url(../assets/image/index/group.jpg);
     height: 170px;
     background-repeat: no-repeat;
     margin-top: 8px;
@@ -1348,6 +1352,7 @@ a {
   padding: 3px 0px 5px 13px;
   outline: none; }
 .home__roi--image {
+  background-image: url(../assets/image/index/people.jpg);
   height: 147px;
   background-position: 100%;
   background-size: cover;
