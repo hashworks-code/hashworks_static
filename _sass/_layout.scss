@@ -260,9 +260,9 @@ body{
          display: flex;
          cursor: pointer;
          img {
-    width: 17px;
-    height: 15px;
-    margin: 14px 12px 0px 12px;
+            width: 17px;
+            height: 15px;
+            margin: 14px 12px 0px 12px;
   }
       }
     }
@@ -452,12 +452,14 @@ body{
     }
     .hashworks__head {
           display: flex;
-          padding: 17px 0px 15px 34px;
+          padding: 0px 0px 0px 34px;
+          height: 50px;
           background-color: #ffffff;
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
           border: solid 1px #f7f7f7;
           position: relative;
           position: fixed;
+          align-items: center;
           width: 100%;
           z-index: 999;
           top: -1px;
@@ -486,7 +488,7 @@ body{
     
     .popover {
       position: absolute;
-      top: 29px;
+      top: 20px;
       left: 125px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
@@ -495,7 +497,7 @@ body{
     }
     .popoverer{
       position: absolute;
-      top: 29px;
+      top: 20px;
       left: 325px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
@@ -506,7 +508,7 @@ body{
            padding: 22px 0px 20px 0px;
            position: fixed;
            width: 100%;
-           z-index: 1;
+           z-index: 999;
            box-shadow: 5px 11px 4px 9px rgba(6, 6, 6, 0.05);
      .row{
           width: 700px;
@@ -645,8 +647,8 @@ body{
   }
    img {
         width: 16px;
-  height: 15px;
-  margin-top: 16px;
+        height: 15px;
+        margin-top: 14px;
       }
      }
 
@@ -673,7 +675,7 @@ body{
   // about 
   .about{
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     width: 100%;
     background-color: #ffffff;
     padding: 25px;
@@ -768,7 +770,7 @@ body{
         display: none;
     }
     .hashworks__head {
-        padding: 25px 0px 23px 43px;
+        height: 68px;
       .row{
           width: 940px;
           margin: 0 auto;
@@ -796,7 +798,8 @@ body{
    
     .popover{
         position: absolute;
-        top: 42px;
+        top: 30px;
+        z-index: -1;
         left: 175px;
         border-left: 12px solid transparent;
         border-right: 12px solid transparent;
@@ -805,7 +808,8 @@ body{
     }
     .popoverer{
       position: absolute;
-      top: 42px;
+      top: 30px;
+      z-index: -1;
       left: 457px;
       border-left: 12px solid transparent;
       border-right: 12px solid transparent;
@@ -816,7 +820,7 @@ body{
         margin-left:48px;
     }
     .productService{
-        padding: 48px 0px;
+        padding: 22px 0px;
       .row{
         width: 940px;
         margin: 0 auto;
@@ -924,7 +928,7 @@ body{
    img {
         width: 24px;
         height: 24px;
-        margin: 16px 13px 16px 10px;
+        margin: 14px 13px 16px 10px;
       }
      }
     }
@@ -1019,7 +1023,7 @@ body{
          margin-left: 65px;
    }
     .hashworks__head {
-         padding: 23px 0px 22px 46px;
+         
       .row{
           width:1170px;
           margin: 0 auto;
@@ -1041,19 +1045,19 @@ body{
     }
     .popover{
       position: absolute;
-      top: 34px;
-      left: 175px;
-      border-left: 14px solid transparent;
-      border-right: 14px solid transparent;
+      top: 27px;
+      left: 164px;
+      border-left: 18px solid transparent;
+      border-right: 18px solid transparent;
       border-bottom: 25px solid white;
       -webkit-filter:drop-shadow(0 0px 1px rgb(216, 197, 197));
   }
   .popoverer{
     position: absolute;
-    top: 34px;
-    left: 445px;
-    border-left: 14px solid transparent;
-    border-right: 14px solid transparent;
+    top: 27px;
+    left: 437px;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
     border-bottom: 25px solid white;
     -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
   }
@@ -1153,8 +1157,8 @@ body{
       
    img {
         width: 29px;
-  height: 28px;
-  margin: 26px 15px 20px 13px;
+        height: 28px;
+        margin: 19px 15px 20px 13px;
       }
      }
     }

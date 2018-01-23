@@ -9,6 +9,7 @@
       background-size:cover;
       // object-fit: contain;
       background-position: center center;
+      margin-top: 66px;
     }
     &__content1{
       width: 1158px;
@@ -182,7 +183,7 @@
   .product{
     &__headImg{
       height: 192px;
-      margin-top: 83px;
+      margin-top: 66px;
     }
     &__content1{
       width: 935px;
@@ -325,7 +326,7 @@
     .product{
       &__headImg{
         height: 144px;
-        margin-top: 83px;
+        margin-top:49px;
       }
       &__head {
         font-size: 36px;
@@ -436,7 +437,7 @@
      
       &__headImg{
         height: 144px;
-        margin-top: 61px;
+        margin-top:0px;
       }
       &__head {
         padding: 98px 0 16px;
