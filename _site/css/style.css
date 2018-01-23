@@ -4314,8 +4314,7 @@ ul.tabs li.current {
       font-size: 16px;
       font-weight: bold;
       text-align: center;
-      color: #603c96;
-      padding-top: 32px; }
+      color: #603c96; }
     .aboutus__company p {
       font-family: 'muliRegular';
       font-size: 12px;
@@ -4480,6 +4479,18 @@ ul.tabs li.current {
     .aboutus__company--explore h1 {
       font-size: 18px; } }
 @media only screen and (min-width: 1025px) {
+  .link1 {
+    margin: 0px !important;
+    margin-right: 10px !important; }
+
+  .link2 {
+    left: 50px;
+    margin: 0px !important; }
+
+  .link3 {
+    left: 92px;
+    margin: 0px !important; }
+
   .tabslider {
     width: 950px;
     margin: 0 auto;
