@@ -359,12 +359,14 @@ body {
       margin-left: 38px; }
     body .hashworks__head {
       display: flex;
-      padding: 17px 0px 15px 34px;
+      padding: 0px 0px 0px 34px;
+      height: 50px;
       background-color: #ffffff;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
       border: solid 1px #f7f7f7;
       position: relative;
       position: fixed;
+      align-items: center;
       width: 100%;
       z-index: 999;
       top: -1px; }
@@ -386,7 +388,7 @@ body {
         display: none; }
     body .popover {
       position: absolute;
-      top: 29px;
+      top: 20px;
       left: 125px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
@@ -394,7 +396,7 @@ body {
       -webkit-filter: drop-shadow(0 0px 1px #d8c5c5); }
     body .popoverer {
       position: absolute;
-      top: 29px;
+      top: 20px;
       left: 325px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
@@ -404,7 +406,7 @@ body {
       padding: 22px 0px 20px 0px;
       position: fixed;
       width: 100%;
-      z-index: 1;
+      z-index: 999;
       box-shadow: 5px 11px 4px 9px rgba(6, 6, 6, 0.05); }
       body .productService .row {
         width: 700px;
@@ -514,7 +516,7 @@ body {
           body .productService__service--cloud img {
             width: 16px;
             height: 15px;
-            margin-top: 16px; }
+            margin-top: 14px; }
       body .productService--produtpacto {
         height: 51px; }
       body .productService--produtlittle {
@@ -528,7 +530,7 @@ body {
         height: 51px; }
     body .about {
       position: fixed;
-      z-index: 1;
+      z-index: 999;
       width: 100%;
       background-color: #ffffff;
       padding: 25px;
@@ -603,7 +605,7 @@ body {
     body #cssmenu {
       display: none; }
     body .hashworks__head {
-      padding: 25px 0px 23px 43px; }
+      height: 68px; }
       body .hashworks__head .row {
         width: 940px;
         margin: 0 auto;
@@ -623,24 +625,24 @@ body {
       display: none; }
     body .popover {
       position: absolute;
-      top: 42px;
+      top: 30px;
       left: 175px;
-      border-left: 12px solid transparent;
-      border-right: 12px solid transparent;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
       border-bottom: 17px solid white;
       -webkit-filter: drop-shadow(0 0px 1px #d8c5c5); }
     body .popoverer {
       position: absolute;
-      top: 42px;
+      top: 30px;
       left: 457px;
-      border-left: 12px solid transparent;
-      border-right: 12px solid transparent;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
       border-bottom: 17px solid white;
       -webkit-filter: drop-shadow(0 0px 1px #d8c5c5); }
     body .paketo {
       margin-left: 48px; }
     body .productService {
-      padding: 48px 0px; }
+      padding: 22px 0px; }
       body .productService .row {
         width: 940px;
         margin: 0 auto;
@@ -721,7 +723,7 @@ body {
           body .productService__service--cloud img {
             width: 24px;
             height: 24px;
-            margin: 16px 13px 16px 10px; }
+            margin: 14px 13px 16px 10px; }
       body .productService--produtpacto {
         height: 75px; }
       body .productService--produtlittle {
@@ -781,35 +783,33 @@ body {
   @media screen and (min-width: 1367px) {
     body .paketo {
       margin-left: 65px; }
-    body .hashworks__head {
-      padding: 23px 0px 22px 46px; }
-      body .hashworks__head .row {
-        width: 1170px;
-        margin: 0 auto;
-        padding: 0px; }
-      body .hashworks__head--list {
-        right: 55px; }
-      body .hashworks__head--home, body .hashworks__head--product, body .hashworks__head--case, body .hashworks__head--blog, body .hashworks__head--about, body .hashworks__head--contact {
-        font-size: 18px;
-        padding: 0px 17px;
-        display: -webkit-inline-box;
-        cursor: pointer; }
+    body .hashworks__head .row {
+      width: 1170px;
+      margin: 0 auto;
+      padding: 0px; }
+    body .hashworks__head--list {
+      right: 55px; }
+    body .hashworks__head--home, body .hashworks__head--product, body .hashworks__head--case, body .hashworks__head--blog, body .hashworks__head--about, body .hashworks__head--contact {
+      font-size: 18px;
+      padding: 0px 17px;
+      display: -webkit-inline-box;
+      cursor: pointer; }
     body--toggle {
       display: none; }
     body .popover {
       position: absolute;
-      top: 34px;
-      left: 175px;
-      border-left: 14px solid transparent;
-      border-right: 14px solid transparent;
+      top: 27px;
+      left: 164px;
+      border-left: 18px solid transparent;
+      border-right: 18px solid transparent;
       border-bottom: 25px solid white;
       -webkit-filter: drop-shadow(0 0px 1px #d8c5c5); }
     body .popoverer {
       position: absolute;
-      top: 34px;
-      left: 445px;
-      border-left: 14px solid transparent;
-      border-right: 14px solid transparent;
+      top: 27px;
+      left: 437px;
+      border-left: 18px solid transparent;
+      border-right: 18px solid transparent;
       border-bottom: 25px solid white;
       -webkit-filter: drop-shadow(0 0px 1px #d8c5c5); }
     body .productService {
@@ -884,7 +884,7 @@ body {
           body .productService__service--cloud img {
             width: 29px;
             height: 28px;
-            margin: 26px 15px 20px 13px; }
+            margin: 19px 15px 20px 13px; }
       body .productService--produtpacto {
         height: 75px; }
         body .productService--produtpacto img {
@@ -1398,37 +1398,38 @@ a {
   .loader {
     display: none; }
 
-  .home__hashworks .row {
-    width: 700px;
-    margin: 0 auto;
-    height: 330px;
-    display: flex;
-    align-items: center;
-    margin-top: 70px; }
-  .home__hashworks--pattern {
-    position: relative;
-    height: 327px;
-    margin: 6px 0px; }
-  .home__hashworks--heading {
-    position: absolute;
-    top: 158px;
-    left: 50px; }
-  .home__hashworks h1 {
-    width: 278px;
-    font-size: 32px;
-    text-align: left; }
-  .home__hashworks h2 {
-    width: 278px;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: left;
-    padding: 10px 0px 20px; }
-  .home__hashworks p {
-    margin: 0 auto;
-    width: 278px;
-    font-size: 18px;
-    text-align: left;
-    margin-bottom: 33px; }
+  .home__hashworks {
+    margin-top: 49px; }
+    .home__hashworks .row {
+      width: 700px;
+      margin: 0 auto;
+      height: 330px;
+      display: flex;
+      align-items: center; }
+    .home__hashworks--pattern {
+      position: relative;
+      height: 327px;
+      margin: 6px 0px; }
+    .home__hashworks--heading {
+      position: absolute;
+      top: 158px;
+      left: 50px; }
+    .home__hashworks h1 {
+      width: 278px;
+      font-size: 32px;
+      text-align: left; }
+    .home__hashworks h2 {
+      width: 278px;
+      font-size: 18px;
+      font-weight: 600;
+      text-align: left;
+      padding: 10px 0px 20px; }
+    .home__hashworks p {
+      margin: 0 auto;
+      width: 278px;
+      font-size: 18px;
+      text-align: left;
+      margin-bottom: 33px; }
   .home__groome {
     background-color: #000000;
     margin-bottom: 8px;
@@ -1653,36 +1654,38 @@ a {
   .loader {
     display: none; }
 
-  .home__hashworks .row {
-    width: 939px;
-    margin: 75px auto 0px;
-    height: 437px; }
-  .home__hashworks--pattern {
-    height: 440px; }
-  .home__hashworks--logo {
-    width: 400px;
-    height: 400px; }
-  .home__hashworks--heading {
-    position: absolute;
-    top: 225px;
-    left: 40px; }
-  .home__hashworks h1 {
-    width: 340px;
-    font-size: 40px;
-    text-align: left;
-    margin: 0px; }
-  .home__hashworks h2 {
-    width: 290px;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: left;
-    padding: 10px 0px 0px;
-    margin: 0px; }
-  .home__hashworks p {
-    width: 378px;
-    font-size: 18px;
-    text-align: left;
-    margin: 50px 0px 0px 0px; }
+  .home__hashworks {
+    margin-top: 67px; }
+    .home__hashworks .row {
+      width: 939px;
+      margin: 0px auto;
+      height: 437px; }
+    .home__hashworks--pattern {
+      height: 440px; }
+    .home__hashworks--logo {
+      width: 400px;
+      height: 400px; }
+    .home__hashworks--heading {
+      position: absolute;
+      top: 225px;
+      left: 40px; }
+    .home__hashworks h1 {
+      width: 340px;
+      font-size: 40px;
+      text-align: left;
+      margin: 0px; }
+    .home__hashworks h2 {
+      width: 290px;
+      font-size: 18px;
+      font-weight: 600;
+      text-align: left;
+      padding: 10px 0px 0px;
+      margin: 0px; }
+    .home__hashworks p {
+      width: 378px;
+      font-size: 18px;
+      text-align: left;
+      margin: 50px 0px 0px 0px; }
   .home__groome {
     background-color: #000000;
     margin-bottom: 8px;
@@ -1877,33 +1880,35 @@ a {
   .loader {
     display: none; }
 
-  .home__hashworks .row {
-    width: 1173px;
-    margin: 85px auto 0px;
-    height: 545px; }
-  .home__hashworks--pattern {
-    height: 545px; }
-  .home__hashworks--logo {
-    width: 500px;
-    height: 500px;
-    top: 0px; }
-  .home__hashworks h1 {
-    width: 474px;
-    font-size: 56px;
-    text-align: left;
-    margin: 0px; }
-  .home__hashworks h2 {
-    width: 405px;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: left;
-    padding: 10px 0px 0px;
-    margin: 0px; }
-  .home__hashworks p {
-    width: 474px;
-    font-size: 24px;
-    text-align: left;
-    margin: 50px 0px 0px 0px; }
+  .home__hashworks {
+    margin-top: 66px; }
+    .home__hashworks .row {
+      width: 1173px;
+      margin: 0px auto;
+      height: 545px; }
+    .home__hashworks--pattern {
+      height: 545px; }
+    .home__hashworks--logo {
+      width: 500px;
+      height: 500px;
+      top: 0px; }
+    .home__hashworks h1 {
+      width: 474px;
+      font-size: 56px;
+      text-align: left;
+      margin: 0px; }
+    .home__hashworks h2 {
+      width: 405px;
+      font-size: 24px;
+      font-weight: 600;
+      text-align: left;
+      padding: 10px 0px 0px;
+      margin: 0px; }
+    .home__hashworks p {
+      width: 474px;
+      font-size: 24px;
+      text-align: left;
+      margin: 50px 0px 0px 0px; }
   .home__groome {
     background-color: #000000;
     margin-bottom: 8px;
@@ -2098,7 +2103,8 @@ a {
     background-repeat: no-repeat;
     height: 270px;
     background-size: cover;
-    background-position: center center; }
+    background-position: center center;
+    margin-top: 66px; }
   .product__content1 {
     width: 1158px;
     margin: 0 auto; }
@@ -2218,7 +2224,7 @@ a {
 @media only screen and (max-width: 1366px) {
   .product__headImg {
     height: 192px;
-    margin-top: 83px; }
+    margin-top: 66px; }
   .product__content1 {
     width: 935px; }
   .product__head {
@@ -2302,7 +2308,7 @@ a {
 @media only screen and (max-width: 1024px) {
   .product__headImg {
     height: 144px;
-    margin-top: 83px; }
+    margin-top: 49px; }
   .product__head {
     font-size: 36px;
     padding: 67px 0 32px; }
@@ -2372,7 +2378,7 @@ a {
 @media only screen and (max-width: 767px) {
   .product__headImg {
     height: 144px;
-    margin-top: 61px; }
+    margin-top: 0px; }
   .product__head {
     padding: 98px 0 16px;
     font-size: 24px;
@@ -2621,7 +2627,7 @@ a {
       height: 19px; }
   .service__headImg {
     height: 144px;
-    margin-top: 61px; }
+    margin-top: 48px; }
   .service__head {
     font-size: 36px;
     padding-top: 69px; }
@@ -2682,7 +2688,7 @@ a {
       height: 29px; }
   .service__headImg {
     height: 192px;
-    margin-top: 83px; }
+    margin-top: 66px; }
   .service__head {
     font-size: 48px;
     padding-top: 101px; }
@@ -2882,7 +2888,7 @@ a {
     margin-bottom: 64px; }
   .hashworks__grewpage .grewpage__image {
     height: 230px;
-    margin-top: 61px; }
+    margin-top: 48px; }
     .hashworks__grewpage .grewpage__image h1 {
       font-size: 36px;
       display: flex;
@@ -2924,7 +2930,7 @@ a {
     font-family: 'muliRegular';
     font-size: 16px; }
   .hashworks__grewpage .grewpage__image {
-    margin-top: 82px;
+    margin-top: 66px;
     height: 306px; }
     .hashworks__grewpage .grewpage__image h1 {
       font-size: 48px;
@@ -3114,7 +3120,7 @@ a {
   .hashworks__workculture .row {
     width: 698px; }
   .hashworks__workculture .workculture__image {
-    margin-top: 61px; }
+    margin-top: 49px; }
     .hashworks__workculture .workculture__image h1 {
       font-size: 32px;
       margin: 156px 0px 33px 33px; }
@@ -3159,7 +3165,7 @@ a {
     margin-top: 3rem; }
   .hashworks__workculture .workculture__image {
     height: 305px;
-    margin-top: 82px; }
+    margin-top: 67px; }
     .hashworks__workculture .workculture__image h1 {
       font-size: 48px;
       margin: 213px 0px 33px 42px; }
@@ -3475,7 +3481,7 @@ a {
     width: 703px; }
   .hashworks__casestudy .casestudy__image {
     height: 320px;
-    margin-top: 61px; }
+    margin-top: 48px; }
     .hashworks__casestudy .casestudy__image h2 {
       font-size: 32px;
       height: 320px;
@@ -3587,7 +3593,7 @@ a {
     width: 940px; }
   .hashworks__casestudy .casestudy__image {
     height: 416px;
-    margin-top: 83px; }
+    margin-top: 67px; }
     .hashworks__casestudy .casestudy__image h2 {
       font-size: 48px;
       height: 416px;
@@ -3691,7 +3697,8 @@ a {
   .hashworks__casestudy .row {
     width: 1097px; }
   .hashworks__casestudy .casestudy__image {
-    height: 585px; }
+    height: 585px;
+    margin-top: 66px; }
     .hashworks__casestudy .casestudy__image h2 {
       font-size: 56px;
       height: 585px;
@@ -3887,7 +3894,7 @@ a {
   .hashworks__casestudyHome .casestudy__events .shadow {
     width: 340px; }
   .hashworks__casestudyHome .casestudy__events__banner {
-    margin-top: 62px; }
+    margin-top: 49px; }
     .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-size: 36px;
       padding: 0px 0px 32px 32px;
@@ -3927,7 +3934,7 @@ a {
     width: 458px; }
   .hashworks__casestudyHome .casestudy__events__banner {
     height: 306px;
-    margin-top: 83px; }
+    margin-top: 67px; }
     .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-size: 48px;
       padding: 0px 0px 28px 43px;
@@ -3965,7 +3972,8 @@ a {
   .hashworks__casestudyHome .casestudy__events .shadow {
     width: 569px; }
   .hashworks__casestudyHome .casestudy__events__banner {
-    height: 430px; }
+    height: 430px;
+    margin-top: 66px; }
     .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-size: 56px;
       padding: 0px 0px 32px 136px;
@@ -4189,6 +4197,9 @@ ul.tabs li.current {
     margin: 0 !important; }
 
 @media only screen and (min-width: 320px) {
+  .addlink {
+    text-align: center; }
+
   .tl-slidenav-next {
     display: none !important; }
 
@@ -4389,6 +4400,9 @@ ul.tabs li.current {
     .aboutus__company .profilehover .rajeshProfile {
       width: 100%; } }
 @media only screen and (min-width: 767px) {
+  .addlink {
+    text-align: center; }
+
   .tl-slidenav-next {
     display: -webkit-box !important; }
 
@@ -4408,7 +4422,7 @@ ul.tabs li.current {
   .aboutus__headImg {
     height: 230px;
     width: 100%;
-    margin-top: 61px; }
+    margin-top: 49px; }
   .aboutus__content1 {
     height: 230px;
     padding: 29px 34px;
@@ -4491,6 +4505,9 @@ ul.tabs li.current {
     .aboutus__company--explore h1 {
       font-size: 18px; } }
 @media only screen and (min-width: 1025px) {
+  .addlink {
+    text-align: left; }
+
   .link1 {
     margin: 0px !important;
     margin-right: 10px !important; }
@@ -4514,7 +4531,7 @@ ul.tabs li.current {
   .aboutus__headImg {
     height: 306px;
     width: 100%;
-    margin-top: 83px; }
+    margin-top: 67px; }
   .aboutus__content1 {
     height: 306px;
     width: 100%;
@@ -4682,7 +4699,8 @@ ul.tabs li.current {
 
   .aboutus__headImg {
     height: 430px;
-    width: 100%; }
+    width: 100%;
+    margin-top: 66px; }
   .aboutus__content1 {
     height: 430px;
     padding: 33px 134px;
@@ -5079,7 +5097,7 @@ ul.tabs li.current {
 
   .job__headImg {
     height: 229px;
-    margin-top: 61px; }
+    margin-top: 48px; }
   .job__content {
     height: 229px;
     width: 100%;
@@ -5206,7 +5224,7 @@ ul.tabs li.current {
 
   .job__headImg {
     height: 305px;
-    margin-top: 81px; }
+    margin-top: 67px; }
   .job__content {
     height: 305px;
     padding: 26px 43px;
@@ -5614,7 +5632,7 @@ ul.tabs li.current {
         color: #fff; } }
 @media only screen and (min-width: 768px) {
   .cloud {
-    margin-top: 61px; }
+    margin-top: 48px; }
     .cloud__container {
       width: 702px;
       margin: 0 auto; }
@@ -5706,7 +5724,7 @@ ul.tabs li.current {
         margin: 0px; } }
 @media only screen and (min-width: 1025px) {
   .cloud {
-    margin-top: 83px; }
+    margin-top: 66px; }
     .cloud__container {
       width: 943px; }
     .cloud__headImg {
@@ -6088,7 +6106,7 @@ ul.tabs li.current {
         color: #fff; } }
 @media only screen and (min-width: 768px) {
   .dataScience {
-    margin-top: 61px; }
+    margin-top: 49px; }
     .dataScience__container {
       width: 702px;
       margin: 0 auto; }
@@ -6180,7 +6198,7 @@ ul.tabs li.current {
         margin: 0px; } }
 @media only screen and (min-width: 1025px) {
   .dataScience {
-    margin-top: 81px; }
+    margin-top: 67px; }
     .dataScience__container {
       width: 943px; }
     .dataScience__headImg {
@@ -6280,115 +6298,117 @@ ul.tabs li.current {
         font-size: 18px;
         margin: 0px; } }
 @media only screen and (min-width: 1367px) {
-  .dataScience__container {
-    width: 1107px; }
-  .dataScience__headImg {
-    height: 430px; }
-  .dataScience__head {
-    width: 100%;
-    height: 696px; }
-    .dataScience__head h1 {
-      font-size: 56px; }
-  .dataScience__content {
-    padding: 92px 0 118px; }
-    .dataScience__content h1 {
-      font-size: 32px; }
-    .dataScience__content p {
-      font-size: 18px; }
-  .dataScience__div1 {
-    margin-top: 40px;
-    width: 260px;
-    padding: 18px 40px 33px 32px; }
-    .dataScience__div1 h2 {
-      font-size: 48px;
-      padding-bottom: 32px; }
-    .dataScience__div1 p {
-      font-size: 32px !important;
-      padding: 1px 0px; }
-  .dataScience__div2 {
-    margin-top: 40px;
-    width: 260px;
-    padding: 18px 20px 33px 32px; }
-    .dataScience__div2 h2 {
-      font-size: 48px;
-      padding-bottom: 32px; }
-    .dataScience__div2 p {
-      font-size: 32px !important;
-      padding: 0px; }
-  .dataScience__mobility {
-    margin: 32px 0 82px; }
-    .dataScience__mobility h1 {
-      font-size: 36px;
-      margin-left: 10px; }
-    .dataScience__mobility p {
-      font-size: 18px;
-      margin-left: 10px; }
-    .dataScience__mobility h2 {
-      font-size: 32px;
-      margin-left: 10px; }
-  .dataScience__div11 {
-    width: 170px;
-    margin: 135px 30px 0px 0px;
-    padding: 0px; }
-    .dataScience__div11 p {
-      font-size: 24px !important;
-      padding: 46px 9px 40px 9px;
+  .dataScience {
+    margin-top: 66px; }
+    .dataScience__container {
+      width: 1107px; }
+    .dataScience__headImg {
+      height: 430px; }
+    .dataScience__head {
       width: 100%;
-      line-height: 1.33;
-      margin: 0px; }
-  .dataScience__div12 {
-    width: 170px;
-    margin: 135px 15px 0px 0px;
-    padding: 0px; }
-    .dataScience__div12 p {
-      font-size: 24px !important;
-      padding: 46px 35px 40px 6px;
-      line-height: 1.33; }
-  .dataScience__productImg {
-    height: 350px; }
-    .dataScience__productImg p {
-      font-size: 48px;
-      padding-top: 98px;
-      width: 500px; }
-  .dataScience__byod {
-    margin: 64px 0; }
-    .dataScience__byod h1 {
-      font-size: 32px;
-      margin-left: 10px; }
-    .dataScience__byod p {
-      font-size: 18px;
-      margin-left: 10px; }
-  .dataScience__div111 {
-    margin-left: 0;
-    margin-right: 13px;
-    margin-top: 78px;
-    padding: 46px 9px 40px 8px;
-    width: 170px; }
-    .dataScience__div111 p {
-      font-size: 24px;
-      margin: 0px;
-      line-height: 1.33; }
-  .dataScience__div112 {
-    margin-left: 0;
-    margin-right: 30px;
-    margin-top: 78px;
-    padding: 46px 9px 40px 8px;
-    width: 170px; }
-    .dataScience__div112 p {
-      font-size: 24px;
-      margin: 0px;
-      line-height: 1.33; }
-  .dataScience__div113 {
-    margin-left: 0;
-    margin-right: 10px;
-    margin-top: 16px;
-    padding: 46px 9px 40px 8px;
-    width: 170px; }
-    .dataScience__div113 p {
-      font-size: 24px;
-      margin: 0px;
-      line-height: 1.33;
-      padding-left: 15px; } }
+      height: 696px; }
+      .dataScience__head h1 {
+        font-size: 56px; }
+    .dataScience__content {
+      padding: 92px 0 118px; }
+      .dataScience__content h1 {
+        font-size: 32px; }
+      .dataScience__content p {
+        font-size: 18px; }
+    .dataScience__div1 {
+      margin-top: 40px;
+      width: 260px;
+      padding: 18px 40px 33px 32px; }
+      .dataScience__div1 h2 {
+        font-size: 48px;
+        padding-bottom: 32px; }
+      .dataScience__div1 p {
+        font-size: 32px !important;
+        padding: 1px 0px; }
+    .dataScience__div2 {
+      margin-top: 40px;
+      width: 260px;
+      padding: 18px 20px 33px 32px; }
+      .dataScience__div2 h2 {
+        font-size: 48px;
+        padding-bottom: 32px; }
+      .dataScience__div2 p {
+        font-size: 32px !important;
+        padding: 0px; }
+    .dataScience__mobility {
+      margin: 32px 0 82px; }
+      .dataScience__mobility h1 {
+        font-size: 36px;
+        margin-left: 10px; }
+      .dataScience__mobility p {
+        font-size: 18px;
+        margin-left: 10px; }
+      .dataScience__mobility h2 {
+        font-size: 32px;
+        margin-left: 10px; }
+    .dataScience__div11 {
+      width: 170px;
+      margin: 135px 30px 0px 0px;
+      padding: 0px; }
+      .dataScience__div11 p {
+        font-size: 24px !important;
+        padding: 46px 9px 40px 9px;
+        width: 100%;
+        line-height: 1.33;
+        margin: 0px; }
+    .dataScience__div12 {
+      width: 170px;
+      margin: 135px 15px 0px 0px;
+      padding: 0px; }
+      .dataScience__div12 p {
+        font-size: 24px !important;
+        padding: 46px 35px 40px 6px;
+        line-height: 1.33; }
+    .dataScience__productImg {
+      height: 350px; }
+      .dataScience__productImg p {
+        font-size: 48px;
+        padding-top: 98px;
+        width: 500px; }
+    .dataScience__byod {
+      margin: 64px 0; }
+      .dataScience__byod h1 {
+        font-size: 32px;
+        margin-left: 10px; }
+      .dataScience__byod p {
+        font-size: 18px;
+        margin-left: 10px; }
+    .dataScience__div111 {
+      margin-left: 0;
+      margin-right: 13px;
+      margin-top: 78px;
+      padding: 46px 9px 40px 8px;
+      width: 170px; }
+      .dataScience__div111 p {
+        font-size: 24px;
+        margin: 0px;
+        line-height: 1.33; }
+    .dataScience__div112 {
+      margin-left: 0;
+      margin-right: 30px;
+      margin-top: 78px;
+      padding: 46px 9px 40px 8px;
+      width: 170px; }
+      .dataScience__div112 p {
+        font-size: 24px;
+        margin: 0px;
+        line-height: 1.33; }
+    .dataScience__div113 {
+      margin-left: 0;
+      margin-right: 10px;
+      margin-top: 16px;
+      padding: 46px 9px 40px 8px;
+      width: 170px; }
+      .dataScience__div113 p {
+        font-size: 24px;
+        margin: 0px;
+        line-height: 1.33;
+        padding-left: 15px; } }
 @media only screen and (min-width: 320px) {
   .devOps {
     font-family: 'muliRegular';
@@ -6563,7 +6583,7 @@ ul.tabs li.current {
         color: #fff; } }
 @media only screen and (min-width: 768px) {
   .devOps {
-    margin-top: 61px; }
+    margin-top: 49px; }
     .devOps__container {
       width: 702px;
       margin: 0 auto; }
@@ -6655,7 +6675,7 @@ ul.tabs li.current {
         margin: 0px; } }
 @media only screen and (min-width: 1025px) {
   .devOps {
-    margin-top: 81px; }
+    margin-top: 67px; }
     .devOps__container {
       width: 943px; }
     .devOps__headImg {
@@ -7038,7 +7058,7 @@ ul.tabs li.current {
         color: #fff; } }
 @media only screen and (min-width: 768px) {
   .mobile {
-    margin-top: 61px; }
+    margin-top: 49px; }
     .mobile__container {
       width: 702px;
       margin: 0 auto; }
@@ -7130,7 +7150,7 @@ ul.tabs li.current {
         margin: 0px; } }
 @media only screen and (min-width: 1025px) {
   .mobile {
-    margin-top: 81px; }
+    margin-top: 67px; }
     .mobile__container {
       width: 943px; }
     .mobile__headImg {
@@ -7642,7 +7662,7 @@ ul.tabs li.current {
 
   .internship__headImg {
     height: 229px;
-    margin-top: 61px; }
+    margin-top: 48px; }
   .internship__content {
     height: 229px;
     width: 100%;
@@ -7769,7 +7789,7 @@ ul.tabs li.current {
 
   .internship__headImg {
     height: 305px;
-    margin-top: 81px; }
+    margin-top: 67px; }
   .internship__content {
     height: 305px;
     padding: 26px 43px;
@@ -8150,7 +8170,7 @@ ul.tabs li.current {
     width: 462px; }
   .hashworks__contactUs__image {
     height: 213px;
-    margin-top: 60px; }
+    margin-top: 48px; }
     .hashworks__contactUs__image h1 {
       font-size: 32px;
       padding: 0px 0px 32px 32px;
@@ -8233,7 +8253,7 @@ ul.tabs li.current {
     width: 624px; }
   .hashworks__contactUs__image {
     height: 284px;
-    margin-top: 86px; }
+    margin-top: 67px; }
     .hashworks__contactUs__image h1 {
       font-size: 32px;
       padding: 218px 0px 32px 32px;
@@ -8311,7 +8331,8 @@ ul.tabs li.current {
   .hashworks__contactUs .shadow2 {
     width: 774px; }
   .hashworks__contactUs__image {
-    height: 400px; }
+    height: 400px;
+    margin-top: 66px; }
     .hashworks__contactUs__image h1 {
       font-size: 56px;
       padding: 0px 0px 32px 62px;
@@ -8493,7 +8514,8 @@ ul.tabs li.current {
       background-repeat: no-repeat;
       height: 189px;
       width: 100%;
-      background-size: 100% 100%;
+      background-size: cover;
+      background-position: center center;
       object-fit: contain;
       margin-bottom: 33px; }
       .uiux__productImg p {
@@ -8548,7 +8570,7 @@ ul.tabs li.current {
         color: #fff; } }
 @media only screen and (min-width: 768px) {
   .uiux {
-    margin-top: 59px; }
+    margin-top: 49px; }
     .uiux__container {
       width: 702px;
       margin: 0 auto; }
@@ -8640,7 +8662,7 @@ ul.tabs li.current {
         margin: 0px; } }
 @media only screen and (min-width: 1025px) {
   .uiux {
-    margin-top: 81px; }
+    margin-top: 67px; }
     .uiux__container {
       width: 943px; }
     .uiux__headImg {

@@ -147,7 +147,8 @@
             background-repeat: no-repeat;
             height: 189px;
             width: 100%;
-            background-size: 100% 100%;
+            background-size: cover;
+            background-position: center center;
             object-fit: contain;
             margin-bottom: 33px;
             p{
@@ -217,7 +218,7 @@
 }
 @media only screen and (min-width: 768px){
     .uiux{
-        margin-top: 59px;
+        margin-top: 49px;
         &__container{
             width: 702px;
             margin: 0 auto;
@@ -348,7 +349,7 @@
 
 @media only screen and (min-width: 1025px){
     .uiux{
-        margin-top: 81px;
+        margin-top:67px;
         &__container{
             width: 943px;
         }

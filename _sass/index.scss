@@ -477,13 +477,14 @@ a{
   }
   .home {
     &__hashworks {
+      margin-top: 49px;
       .row{
         width: 700px;
         margin: 0 auto;
         height: 330px;
         display: flex;
         align-items: center;
-        margin-top: 70px;
+        
       }
       &--pattern {
         position: relative;
@@ -804,9 +805,10 @@ a{
   }
   .home {
     &__hashworks {
+      margin-top:67px;
       .row{
         width:939px;
-        margin: 75px auto 0px;
+        margin: 0px auto;
         height: 437px;
       }
       &--pattern {
@@ -1103,9 +1105,10 @@ a{
   }
   .home {
     &__hashworks {
+      margin-top:66px;
       .row{
         width:1173px;
-        margin: 85px auto 0px;
+        margin: 0px auto;
         height: 545px;
       }
       &--pattern {
