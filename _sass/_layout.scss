@@ -486,20 +486,20 @@ body{
     
     .popover {
       position: absolute;
-      top: 27px;
+      top: 29px;
       left: 125px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
-      border-bottom: 18px solid white;
+      border-bottom: 14px solid white;
       -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
     }
     .popoverer{
       position: absolute;
-      top: 27px;
+      top: 29px;
       left: 325px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
-      border-bottom: 18px solid white;
+      border-bottom: 14px solid white;
       -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
     }
     .productService{
@@ -507,7 +507,7 @@ body{
            position: absolute;
            width: 100%;
            z-index: 1;
-           box-shadow: 5px 8px 4px 9px rgba(6, 6, 6, 0.05);
+           box-shadow: 5px 11px 4px 9px rgba(6, 6, 6, 0.05);
      .row{
           width: 700px;
           margin: 0 auto;
@@ -678,7 +678,7 @@ body{
     background-color: #ffffff;
     padding: 25px;
     margin: 0px;
-    box-shadow: 5px 8px 4px 9px rgba(6, 6, 6, 0.05);
+
     .row{
         width: 700px;
         margin: 0 auto;
@@ -816,7 +816,7 @@ body{
         margin-left:48px;
     }
     .productService{
-        padding: 38px 0px;
+        padding: 48px 0px;
       .row{
         width: 940px;
         margin: 0 auto;
@@ -1058,7 +1058,7 @@ body{
     -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
   }
     .productService{
-         padding: 41px 0px;
+         padding:48 0px;
       .row{
           width:1170px;
           margin: 0 auto;
