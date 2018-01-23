@@ -3065,7 +3065,7 @@ a {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 180px;
+      height: 147px;
       width: 120px;
       margin: 0 auto; }
       .hashworks__workculture .workculture__box h1 img {
@@ -3113,12 +3113,10 @@ a {
   .hashworks__workculture .workculture__box {
     width: 240px;
     margin-bottom: 16px; }
-    .hashworks__workculture .workculture__box h1 {
-      margin: 47px 20px 40px 44px; }
-      .hashworks__workculture .workculture__box h1 img {
-        width: 11px;
-        height: 19px;
-        margin-left: 4px; }
+    .hashworks__workculture .workculture__box h1 img {
+      width: 11px;
+      height: 19px;
+      margin-left: 4px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
       font-size: 16px; }
@@ -3164,7 +3162,7 @@ a {
     margin-bottom: 16px; }
     .hashworks__workculture .workculture__box h1 {
       font-size: 32px;
-      margin: 51px 35px 60px 56px; }
+      height: 191px; }
       .hashworks__workculture .workculture__box h1 img {
         width: 13px;
         height: 24px;
@@ -3213,7 +3211,7 @@ a {
     .hashworks__workculture .workculture__box h1 {
       font-size: 48px;
       font-family: 'muliRegular';
-      margin: 68px 0px 68px 65px; }
+      height: 256px; }
       .hashworks__workculture .workculture__box h1 img {
         width: 18px;
         height: 30px;
