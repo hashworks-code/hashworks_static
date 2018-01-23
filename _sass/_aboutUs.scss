@@ -88,6 +88,9 @@ ul.tabs li.current {
 }
 
 @media only screen and (min-width:320px) {
+  .addlink{
+    text-align: center;
+  }
   .tl-slidenav-next{
   display: none !important;
   }
@@ -489,6 +492,9 @@ width: 100% !important;
 }
 
 @media only screen and (min-width: 1025px) {
+  .addlink{
+    text-align: left;
+  }
   .link1{
     margin: 0px !important;
     margin-right: 10px !important;

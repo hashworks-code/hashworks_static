@@ -4185,6 +4185,9 @@ ul.tabs li.current {
     margin: 0 !important; }
 
 @media only screen and (min-width: 320px) {
+  .addlink {
+    text-align: center; }
+
   .tl-slidenav-next {
     display: none !important; }
 
@@ -4487,6 +4490,9 @@ ul.tabs li.current {
     .aboutus__company--explore h1 {
       font-size: 18px; } }
 @media only screen and (min-width: 1025px) {
+  .addlink {
+    text-align: left; }
+
   .link1 {
     margin: 0px !important;
     margin-right: 10px !important; }
