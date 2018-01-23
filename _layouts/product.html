@@ -1,6 +1,6 @@
 {% include head.html %}
 <div class="product">
-    <div class="product__headImg lazy">
+    <div class="product__headImg">
         <div class=" product__content1">
     <div class="product__head">
         Products
@@ -14,12 +14,12 @@
              Donec sollicitudin molestie malesuada.
         </p>
     </div>
-    <div class="product__GroomeImg lazy" data-src="../assets/image/rectangle-10.png">
+    <div class="product__GroomeImg" data-src="../assets/image/rectangle-10.png">
         <div class="product__content1">
     <div class="product__Groome">
             <div class="row">
                     <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 product__Groome_logo">
-                        <img class="lazy" data-src="../assets/image/groome.png">
+                        <img  src="../assets/image/groome.png">
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <h4>PRODUCT</h4>
@@ -40,7 +40,7 @@
     <div class="product__paketo">
             <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 product__borderRight">
-                            <img class="lazy" data-src="../assets/image/packeto.svg">
+                            <img src="../assets/image/packeto.svg">
                         <h2>Project Integration</h2>
                         <p>
                             Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.
@@ -49,7 +49,7 @@
                         <button class="product__myButton" id="a">Know More</button>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                            <img class="lazy" data-src="../assets/image/little.svg">
+                            <img src="../assets/image/little.svg">
                             <h2>Project Integration</h2>
                             <p>
                                 Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.
@@ -106,16 +106,16 @@
         <h1>Our Product Pipeline</h1>
         <div class="row" id="carousel" class="single-item">
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
-                <img data-src="../assets/image/packeto.svg" class="product__img1 lazy">
+                <img src="../assets/image/packeto.svg" class="product__img1">
             </div>
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
-                    <img data-src="../assets/image/little.svg" class="product__img2 lazy">
+                    <img src="../assets/image/little.svg" class="product__img2">
             </div>
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
-                    <img data-src="../assets/image/groome.svg" class="product__img3 lazy">
+                    <img src="../assets/image/groome.svg" class="product__img3">
             </div>
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 product__allign">
-                    <img data-src="../assets/image/frugal.svg" class="product__img4 lazy">
+                    <img src="../assets/image/frugal.svg" class="product__img4">
             </div>
             
         </div>
@@ -125,27 +125,27 @@
 
 <script>
     $(document).ready(function() {
-        $('.lazy').Lazy({
-            // your configuration goes here
-            scrollDirection: 'vertical',
-            effect: "fadeIn",
-            effectTime: 1000,
-            threshold: 0,
-            visibleOnly: true,
-            // placeholder: "data:'../assets/image/testing.jpg';base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
-            beforeLoad: function(element) {
-                console.log(' started loading ' + element.data('src'));
-            },
-            afterLoad: function(element) {
-                console.log('finish loading ' + element.data('src'));
-            },
-            onError: function(element) {
-                console.log('error loading ' + element.data('src'));
-            },
-            onFinishedAll: function() {
-                console.log('all Done')
-            }
-    });
+    //     $('.lazy').Lazy({
+    //         // your configuration goes here
+    //         scrollDirection: 'vertical',
+    //         effect: "fadeIn",
+    //         effectTime: 1000,
+    //         threshold: 0,
+    //         visibleOnly: true,
+    //         // placeholder: "data:'../assets/image/testing.jpg';base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
+    //         beforeLoad: function(element) {
+    //             console.log(' started loading ' + element.data('src'));
+    //         },
+    //         afterLoad: function(element) {
+    //             console.log('finish loading ' + element.data('src'));
+    //         },
+    //         onError: function(element) {
+    //             console.log('error loading ' + element.data('src'));
+    //         },
+    //         onFinishedAll: function() {
+    //             console.log('all Done')
+    //         }
+    // });
 
     })
 </script>

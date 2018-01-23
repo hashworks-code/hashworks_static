@@ -1188,6 +1188,7 @@ a {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
 .home__business--impact {
+  background-image: url(../assets/image/index/rectangle1.jpg);
   height: 170px;
   background-repeat: no-repeat;
   margin-top: 8px;
@@ -1216,6 +1217,7 @@ a {
   width: 8.5px;
   height: 16px; }
 .home__businessImpact--thinking {
+  background-image: url(../assets/image/index/customer.jpg);
   height: 170px;
   background-repeat: no-repeat;
   margin-top: 8px;
@@ -1230,6 +1232,7 @@ a {
     padding: 60px 0px 25px 28px;
     width: 160px; }
 .home__businessImpact--culture {
+  background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
   height: 170px;
   background-repeat: no-repeat;
   margin-top: 8px;
@@ -1248,6 +1251,7 @@ a {
   .home__caseStudy--arrow {
     display: none; }
   .home__caseStudy--image {
+    background-image: url(../assets/image/index/group.jpg);
     height: 170px;
     background-repeat: no-repeat;
     margin-top: 8px;
@@ -1351,6 +1355,7 @@ a {
   padding: 3px 0px 5px 13px;
   outline: none; }
 .home__roi--image {
+  background-image: url(../assets/image/index/people.jpg);
   height: 147px;
   background-position: 100%;
   background-size: cover;
@@ -3790,6 +3795,7 @@ a {
       box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
       transform: scale(1.01); }
   .hashworks__casestudyHome .casestudy__events__banner {
+    background-image: url(../assets/image/casestudy/case-study-banner.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -3816,22 +3822,26 @@ a {
   .hashworks__casestudyHome .casestudy__events .event {
     padding: 0; }
   .hashworks__casestudyHome .casestudy__events__image1 {
+    background-image: url(../assets/image/casestudy/casestudy1.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
     height: 148px; }
   .hashworks__casestudyHome .casestudy__events__image2 {
+    background-image: url(../assets/image/casestudy/6.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 148px; }
   .hashworks__casestudyHome .casestudy__events__image3 {
+    background-image: url(../assets/image/casestudy/4.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 148px; }
   .hashworks__casestudyHome .casestudy__events__image4 {
+    background-image: url(../assets/image/casestudy/5.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -4167,6 +4177,7 @@ ul.tabs li.current {
     border-top: solid 1px #e0e0e0;
     margin-top: 32px; }
   .aboutus__headImg {
+    background-image: url(../assets/image/aboutus/origami@2x.png);
     background-repeat: no-repeat;
     height: 229px;
     width: 100%;
@@ -4232,18 +4243,21 @@ ul.tabs li.current {
     text-align: left;
     color: #898989; }
   .aboutus__thinking--capitalImage {
+    background-image: url(../assets/image/aboutus/1.svg);
     background-repeat: no-repeat;
     height: 160px;
     width: 100%;
     background-size: 100% 100%;
     object-fit: contain; }
   .aboutus__thinking--clientImage {
+    background-image: url(../assets/image/aboutus/2.svg);
     background-repeat: no-repeat;
     height: 160px;
     width: 100%;
     background-size: 100% 100%;
     object-fit: contain; }
   .aboutus__thinking--industryImage {
+    background-image: url(../assets/image/aboutus/3.svg);
     background-repeat: no-repeat;
     height: 160px;
     width: 100%;

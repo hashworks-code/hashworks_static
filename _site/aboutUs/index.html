@@ -355,7 +355,7 @@
 </body>
 
 <div class="aboutus">
-    <div class="aboutus__headImg lazy" data-src="../assets/image/aboutus/origami@2x.png">
+    <div class="aboutus__headImg" data-src="../assets/image/aboutus/origami@2x.png">
         <h1 class="aboutus__content1">Who are we ?</h1>
     </div>
 
@@ -546,7 +546,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="aboutus__thinking--container1">
                     <h2>Human Capital Acceleration</h2>
-                    <div class="aboutus__thinking--capitalImage lazy" data-src="../assets/image/aboutus/1.svg"></div>
+                    <div class="aboutus__thinking--capitalImage" data-src="../assets/image/aboutus/1.svg"></div>
                     <p>Our prime focus is complete retention and this is why we are averse to any form of attrition. Our engagement with the team is comprehensive, familial and dedicated to individual and overall development. This spreads across making the
                         diversity,
                     </p>
@@ -558,7 +558,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border ">
                 <div class="aboutus__thinking--container1">
                     <h2>Client Handling</h2>
-                    <div class="aboutus__thinking--clientImage lazy" data-src="../assets/image/aboutus/2.svg"></div>
+                    <div class="aboutus__thinking--clientImage" data-src="../assets/image/aboutus/2.svg"></div>
                     <p>Whether our clients are going through a business transition or moving across geographies, setting up new verticles that demand maximum attention or just want to talk to us on a trending doubt anytime, we are always there to assist
                         and move them beyond the existing and future challenges.
                     </p>
@@ -569,7 +569,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border">
                 <div class="aboutus__thinking--container1">
                     <h2>Industry stewardship and sustainability</h2>
-                    <div class="aboutus__thinking--industryImage lazy" data-src="../assets/image/aboutus/3.svg"></div>
+                    <div class="aboutus__thinking--industryImage" data-src="../assets/image/aboutus/3.svg"></div>
                     <p>Whether our clients are going through a business transition or moving across geographies, setting up new verticles that demand maximum attention or just want to talk to us on a trending doubt anytime, we are always there to assist
                         and move them beyond the existing and future challenges.
                     </p>
@@ -581,7 +581,7 @@
         <div class="aboutus__thinking--ourculture">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 border">
-                    <div class="aboutus__thinking--ourculture--container1 lazy">
+                    <div class="aboutus__thinking--ourculture--container1">
                         <h2>Our Culture Code</h2>
                         <p>Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.</p>
                         <div class="row ">
@@ -634,27 +634,27 @@
    </script>
 <script>
     $(document).ready(function() {
-        $('.lazy').Lazy({
-            // your configuration goes here
-            scrollDirection: 'vertical',
-            effect: "fadeIn",
-            effectTime: 1000,
-            threshold: 0,
-            visibleOnly: true,
-            // placeholder: "data:'../assets/image/testing.jpg';base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
-            beforeLoad: function(element) {
-                console.log(' started loading ' + element.data('src'));
-            },
-            afterLoad: function(element) {
-                console.log('finish loading ' + element.data('src'));
-            },
-            onError: function(element) {
-                console.log('error loading ' + element.data('src'));
-            },
-            onFinishedAll: function() {
-                console.log('all Done')
-            }
-    });
+    //     $('.lazy').Lazy({
+    //         // your configuration goes here
+    //         scrollDirection: 'vertical',
+    //         effect: "fadeIn",
+    //         effectTime: 1000,
+    //         threshold: 0,
+    //         visibleOnly: true,
+    //         // placeholder: "data:'../assets/image/testing.jpg';base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
+    //         beforeLoad: function(element) {
+    //             console.log(' started loading ' + element.data('src'));
+    //         },
+    //         afterLoad: function(element) {
+    //             console.log('finish loading ' + element.data('src'));
+    //         },
+    //         onError: function(element) {
+    //             console.log('error loading ' + element.data('src'));
+    //         },
+    //         onFinishedAll: function() {
+    //             console.log('all Done')
+    //         }
+    // });
         $('ul.tabs li').click(function() {
             var tab_id = $(this).attr('data-tab');
 
