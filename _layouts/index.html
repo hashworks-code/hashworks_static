@@ -3,7 +3,7 @@
   <div class="home__hashworks">
       <div class="row">
             <div class="col-xs-12 col-sm-6 last-sm ">
-                    <embed class="home__hashworks--logo" id="frame" src="../assets/image/job/hashlogo.gif" alt="logo" loop=infinite />
+                    <img class="home__hashworks--logo" id="frame" src="../assets/image/job/hashlogo.gif" alt="logo" loop=infinite />
                         
             </div>
             <div class="col-xs-12 col-sm-6 pad">
@@ -165,12 +165,12 @@
 
             // Schedule loading the next frame.
             setTimeout(function() {
-                img.src = "frame.jpg?" + (new Date).getTime();
+                img.src = "../assets/image/job/hashlogo.gif" + (new Date).getTime();
             }, 1000/15); // 15 FPS (more or less)
         })
 
         // Start the loading process.
-        img.src = "frame.jpg?" + (new Date).getTime();
+        img.src = "../assets/image/job/hashlogo.gif" + (new Date).getTime();
     </script>
 
 <script>
