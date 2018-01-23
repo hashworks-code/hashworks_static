@@ -363,7 +363,11 @@ body {
       background-color: #ffffff;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
       border: solid 1px #f7f7f7;
-      position: relative; }
+      position: relative;
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+      top: -1px; }
       body .hashworks__head--logo {
         height: 23px; }
       body .hashworks__head--list {
@@ -1747,7 +1751,7 @@ a {
       margin-top: 16px; }
       .home__businessImpact--thinking h2 {
         padding: 118px 0px 25px 26px;
-        width: 300px;
+        width: 294px;
         font-size: 42px; }
     .home__businessImpact--culture {
       width: 621px;
@@ -3066,7 +3070,7 @@ a {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 180px;
+      height: 147px;
       width: 120px;
       margin: 0 auto; }
       .hashworks__workculture .workculture__box h1 img {
@@ -3114,12 +3118,10 @@ a {
   .hashworks__workculture .workculture__box {
     width: 240px;
     margin-bottom: 16px; }
-    .hashworks__workculture .workculture__box h1 {
-      margin: 47px 20px 40px 44px; }
-      .hashworks__workculture .workculture__box h1 img {
-        width: 11px;
-        height: 19px;
-        margin-left: 4px; }
+    .hashworks__workculture .workculture__box h1 img {
+      width: 11px;
+      height: 19px;
+      margin-left: 4px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
       font-size: 16px; }
@@ -3165,7 +3167,7 @@ a {
     margin-bottom: 16px; }
     .hashworks__workculture .workculture__box h1 {
       font-size: 32px;
-      margin: 51px 35px 60px 56px; }
+      height: 191px; }
       .hashworks__workculture .workculture__box h1 img {
         width: 13px;
         height: 24px;
@@ -3214,7 +3216,7 @@ a {
     .hashworks__workculture .workculture__box h1 {
       font-size: 48px;
       font-family: 'muliRegular';
-      margin: 68px 0px 68px 65px; }
+      height: 256px; }
       .hashworks__workculture .workculture__box h1 img {
         width: 18px;
         height: 30px;
