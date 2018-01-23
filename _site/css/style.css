@@ -402,7 +402,7 @@ body {
       -webkit-filter: drop-shadow(0 0px 1px #d8c5c5); }
     body .productService {
       padding: 22px 0px 20px 0px;
-      position: absolute;
+      position: fixed;
       width: 100%;
       z-index: 1;
       box-shadow: 5px 11px 4px 9px rgba(6, 6, 6, 0.05); }
@@ -527,7 +527,7 @@ body {
       body .productService--produtfrugal {
         height: 51px; }
     body .about {
-      position: absolute;
+      position: fixed;
       z-index: 1;
       width: 100%;
       background-color: #ffffff;
