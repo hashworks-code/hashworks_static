@@ -386,26 +386,26 @@ body {
         display: none; }
     body .popover {
       position: absolute;
-      top: 27px;
+      top: 29px;
       left: 125px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
-      border-bottom: 18px solid white;
+      border-bottom: 14px solid white;
       -webkit-filter: drop-shadow(0 0px 1px #d8c5c5); }
     body .popoverer {
       position: absolute;
-      top: 27px;
+      top: 29px;
       left: 325px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
-      border-bottom: 18px solid white;
+      border-bottom: 14px solid white;
       -webkit-filter: drop-shadow(0 0px 1px #d8c5c5); }
     body .productService {
       padding: 22px 0px 20px 0px;
       position: absolute;
       width: 100%;
       z-index: 1;
-      box-shadow: 5px 8px 4px 9px rgba(6, 6, 6, 0.05); }
+      box-shadow: 5px 11px 4px 9px rgba(6, 6, 6, 0.05); }
       body .productService .row {
         width: 700px;
         margin: 0 auto;
@@ -532,8 +532,7 @@ body {
       width: 100%;
       background-color: #ffffff;
       padding: 25px;
-      margin: 0px;
-      box-shadow: 5px 8px 4px 9px rgba(6, 6, 6, 0.05); }
+      margin: 0px; }
       body .about .row {
         width: 700px;
         margin: 0 auto;
@@ -641,7 +640,7 @@ body {
     body .paketo {
       margin-left: 48px; }
     body .productService {
-      padding: 38px 0px; }
+      padding: 48px 0px; }
       body .productService .row {
         width: 940px;
         margin: 0 auto;
@@ -814,7 +813,7 @@ body {
       border-bottom: 25px solid white;
       -webkit-filter: drop-shadow(0 0px 1px #d8c5c5); }
     body .productService {
-      padding: 41px 0px; }
+      padding: 48 0px; }
       body .productService .row {
         width: 1170px;
         margin: 0 auto;
@@ -1399,7 +1398,8 @@ a {
     margin: 0 auto;
     height: 330px;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    margin-top: 70px; }
   .home__hashworks--pattern {
     position: relative;
     height: 327px;
@@ -1650,7 +1650,7 @@ a {
 
   .home__hashworks .row {
     width: 939px;
-    margin: 0 auto;
+    margin: 75px auto 0px;
     height: 437px; }
   .home__hashworks--pattern {
     height: 440px; }
@@ -1874,7 +1874,7 @@ a {
 
   .home__hashworks .row {
     width: 1173px;
-    margin: 0 auto;
+    margin: 85px auto 0px;
     height: 545px; }
   .home__hashworks--pattern {
     height: 545px; }
@@ -3848,9 +3848,11 @@ a {
     width: 314px; }
   .hashworks__casestudyHome .casestudy__events .shadow {
     width: 340px; }
-  .hashworks__casestudyHome .casestudy__events__banner h1 {
-    font-size: 36px;
-    padding: 148px 530px 32px 32px; }
+  .hashworks__casestudyHome .casestudy__events__banner {
+    margin-top: 62px; }
+    .hashworks__casestudyHome .casestudy__events__banner h1 {
+      font-size: 36px;
+      padding: 148px 530px 32px 32px; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
     margin: 32px 131px 28px 57px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {
@@ -3884,7 +3886,8 @@ a {
   .hashworks__casestudyHome .casestudy__events .shadow {
     width: 458px; }
   .hashworks__casestudyHome .casestudy__events__banner {
-    height: 306px; }
+    height: 306px;
+    margin-top: 83px; }
     .hashworks__casestudyHome .casestudy__events__banner h1 {
       font-size: 48px;
       padding: 220px 720px 28px 43px; }
@@ -8065,7 +8068,8 @@ ul.tabs li.current {
   .hashworks__contactUs .shadow2 {
     width: 462px; }
   .hashworks__contactUs__image {
-    height: 213px; }
+    height: 213px;
+    margin-top: 60px; }
     .hashworks__contactUs__image h1 {
       font-size: 32px;
       padding: 0px 0px 32px 32px;
@@ -8147,7 +8151,8 @@ ul.tabs li.current {
   .hashworks__contactUs .shadow2 {
     width: 624px; }
   .hashworks__contactUs__image {
-    height: 284px; }
+    height: 284px;
+    margin-top: 86px; }
     .hashworks__contactUs__image h1 {
       font-size: 32px;
       padding: 218px 0px 32px 32px;
