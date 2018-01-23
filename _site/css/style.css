@@ -3862,11 +3862,13 @@ a {
     width: 314px; }
   .hashworks__casestudyHome .casestudy__events .shadow {
     width: 340px; }
-  .hashworks__casestudyHome .casestudy__events__banner h1 {
-    font-size: 36px;
-    padding: 0px 0px 32px 32px;
-    width: 768px;
-    height: 230px; }
+  .hashworks__casestudyHome .casestudy__events__banner {
+    margin-top: 62px; }
+    .hashworks__casestudyHome .casestudy__events__banner h1 {
+      font-size: 36px;
+      padding: 0px 0px 32px 32px;
+      width: 768px;
+      height: 230px; }
   .hashworks__casestudyHome .casestudy__events .category-filter {
     margin: 32px 131px 28px 57px; }
     .hashworks__casestudyHome .casestudy__events .category-filter p {

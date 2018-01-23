@@ -60,8 +60,12 @@
           font-size: 24px;
           text-align: center;
           color: #ffffff;
-          padding: 184px 175px 16px 18px;
-          margin: 0;
+          display: flex;
+    width: 320px;
+    height: 230px;
+    margin: 0 auto;
+    align-items: flex-end;
+    padding: 0px 0px 16px 18px;
         }
       }
       .category-filter {
@@ -135,7 +139,9 @@
       &__banner {
         h1 {
           font-size: 36px;
-          padding: 148px 530px 32px 32px;
+           padding: 0px 0px 32px 32px;
+          width: 768px;
+          height: 230px;
         }
       }
       .category-filter {
@@ -191,7 +197,9 @@
         height: 306px;
         h1 {
           font-size: 48px;
-          padding: 220px 720px 28px 43px;
+          padding: 0px 0px 28px 43px;
+           width: 1025px;
+          height: 306px;
         }
       }
       .category-filter {
@@ -247,7 +255,9 @@
         height: 430px;
         h1 {
           font-size: 56px;
-          padding: 330px 936px 32px 136px;
+            padding: 0px 0px 32px 136px;
+          width: 1367px;
+          height: 430px;
         }
       }
       .category-filter {
