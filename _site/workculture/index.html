@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="ico" href="/assets/image/hashworks-favicon.ico">
+   <title>Website Development | Mobile App | UI/UX | Digital Transformation | App Development | Hashworks Pvt Ltd | Hashworks.co | Bangalore</title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="/css/hashGrid.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/ionicons-2.0.1/css/ionicons.css">
+    <link rel="alternate" type="application/rss+xml" title="Hashworks" href="/feed.xml">
+    <link rel="stylesheet" type="text/css" href="/css/demo2.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/slick/slick-theme.css" />
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+</head>
+<body id="close">
+    <!-- <div class="loader">
+        <img class="loader-image" src="../assets/image/job/hashlogo.gif">
+    </div> -->
+    <header class="hashworks__head">
+        <a href="/index"> <img class="hashworks__head--logo" src="/assets/image/logo.svg" alt="hashlogo"></a>
+        <div class="hashworks__head--list">
+            <a href="/index"  class="hashworks__head--home">Home</a>
+            <a class="hashworks__head--product dropbtn menuClass link"  id="menu-1">Product & Service
+                <div class="popover" id="mypopover"></div>
+            </a>
+            <a class="hashworks__head--case" href="/casestudy-home">Case Study</a>
+            <a class="hashworks__head--about dropbtn menuClass link" id="menu-2">About
+           <div class="popoverer" id="mypopover-about"></div>
+              </a>
+           <a class="hashworks__head--contact" href="/contactUs">Contact</a>
+        </div>
+        <img class="hashworks__head--toggle" src="/assets/image/group-2@2x.png" />
+    </header>
+    
+
+    <div id="myDropdown" class="productService dropdown menu-1-Content">
+        <div class=" row">
+            <div class=" ">
+                <div class="productService--productContent">
+                    <a href="/product/"> <h2>PRODUCT</h2></a>
+                    <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
+                </div>
+            </div>
+            <div class="productService--alignment">
+                <div class=" paketo">
+                    <div class="productService--paketo fortext">
+                        <div class="productService--produtpacto">
+                            <img src="/assets/image/product&service/packeto.svg" />
+                        </div>
+
+                        <p>Enterprise Devops Framework</p>
+                    </div>
+                </div>
+                <div class=" ">
+                    <div class="productService--littlebhrahma fortext">
+                        <div class="productService--produtlittle">
+                            <img src="/assets/image/product&service/little.svg" />
+                        </div>
+                        <p>Design Marketplace</p>
+                    </div>
+                </div>
+                <div class=" ">
+                    <div class="productService--groome  fortext">
+                        <div class="productService--produtgroome">
+                            <img src="/assets/image/product&service/groome.svg" />
+                        </div>
+                        <p>A Talent Marketplace</p>
+                    </div>
+                </div>
+                <div class=" ">
+                    <div class="productService--frugal fortext">
+                        <div class="productService--produtfrugal">
+                            <img src="/assets/image/product&service/frugal.svg" />
+                        </div>
+                        <p>Cashflow Managment App</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="productService__service ">
+            <div class="row">
+                <div class=" ">
+                    <div class="productService__service--content ">
+                      <a href="/service/">  <h2>SERVICES</h2></a>
+                        <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
+                    </div>
+                </div>
+
+                <div class="productService--alignment2">
+                    <div onclick="redirect('/devOps/')" class="productService__service--mobile">
+                            <img src="/assets/image/product&service/group-13.svg" />
+                        <h4>Dev Ops</h4>
+                    </div>
+                    
+                        <div onclick="redirect('/mobile/')" class="productService__service--ops">
+                            <img src="/assets/image/product&service/group-14.svg" />
+                            <h4>Cloud Application
+                                & Mobility</h4>
+                        </div>
+                    
+                   
+                        <div onclick="redirect('/uiux/')" class="productService__service--data">
+                            <img src="/assets/image/product&service/group-21.svg" />
+                            <h4>UX / UI</h4>
+                        </div>
+                   
+                        <div onclick="redirect('/dataScience/')" class="productService__service--cloud">
+                            <img src="/assets/image/product&service/group-29.svg" />
+                            <h4>Data Science</h4>
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="aboutDropdown" class="about dropdown menu-2-Content">
+        <div class="row">
+            <div class=" ">
+                <div class="about__Content">
+                   <a href="/aboutUs/"><h2>ABOUT</h2></a> 
+                    <h3>We are IT-change partners enabling digital transformation for Large enterprise & Captive IT units.</h3>
+                </div>
+            </div>
+            <div class="about--algin">
+                <a href="/aboutUs/">
+                    <div class="  ">
+                        <div class="about__thinking">
+                            <img class="about__thinking--img" src="/assets/image/product&service/group-26.svg" />
+                            <p>Our Thinking</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/workculture/">
+                    <div class="  ">
+                        <div class="about__culture">
+                            <img class="about__culture--img" src="/assets/image/product&service/fill-1.svg" />
+                            <p>Work Culture</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/job/">
+                    <div class="  ">
+                        <div class="about__job">
+                            <img class="about__job--img" src="/assets/image/product&service/fill-2.svg" />
+                            <p>Job Opening</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <header>  
+        <nav id='cssmenu'>
+            <div class="logo">
+                <a href="/index"><img src="/assets/image/logo.svg" alt="hashlogo"></a>
+            </div>
+            <div id="head-mobile"></div>
+            <div class="button"></div>
+            <ul class="menulist">
+                <li class='active'><a href="/index">Home</a></li>
+                <li id="accordion"><a >Product & Services <i class="ion-chevron-down"></i> </a>
+                    <ul class="productDetails">
+                        <li>
+                            <div id="mydiv" class="product_view">
+                                <div class=" row">
+                                    <div class="product_view--content ">
+                                        <div class="">
+                                            <h2 onclick="redirect('/product/')">PRODUCT</h2>
+                                            <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
+                                        </div>
+                                    </div>
+                                    <div class="product_view--alignment">
+
+                                        <div class=" paketo">
+                                            <div class="product_view--paketo ">
+                                                <img src="/assets/image/product&service/packeto.svg" />
+                                                <p>Enterprise Devops Framework</p>
+                                            </div>
+                                        </div>
+
+                                        <div class=" ">
+                                            <div class="product_view--littlebhrahma">
+                                                <img src="/assets/image/product&service/little.svg" />
+                                                <p>Design Marketplace</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product_view--alignment1">
+                                        <div class=" ">
+                                            <div class="product_view--groome">
+                                                <img src="/assets/image/product&service/groome.svg" />
+                                                <p>A Talent Marketplace</p>
+                                            </div>
+                                        </div>
+                                        <div class=" ">
+                                            <div class="product_view--frugal">
+                                                <img src="/assets/image/product&service/frugal.svg" />
+                                                <p>Cashflow Managment App</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="service__view ">
+                                        <div class="row">
+                                            <div class=" service__view--content ">
+                                                <div class="">
+                                                    <h2 onclick="redirect('/service/')">SERVICES</h2>
+                                                    <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
+                                                </div>
+                                            </div>
+
+                                            <div class="service__view--alignment">
+                                                <div onclick="redirect('/devOps/')" class="service__view--mobile">
+                                                    <img src="/assets/image/product&service/group-13.svg" />
+                                                    <h4>Dev Ops</h4>
+                                                </div>
+                                                <div class="  ">
+                                                    <div onclick="redirect('/mobile/')"  class="service__view--ops">
+                                                        <img src="/assets/image/product&service/group-14.svg" />
+                                                        <h4>Cloud Application
+                                                            & Mobility</h4>
+                                                    </div>
+                                                </div>
+                                                <div class=" ">
+                                                    <div onclick="redirect('/uiux/')" class="service__view--data">
+                                                        <img src="/assets/image/product&service/group-21.svg" />
+                                                        <h4>UX / UI</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div onclick="redirect('/dataScience/')" class="service__view--cloud">
+                                                        <img src="/assets/image/product&service/group-29.svg" />
+                                                        <h4>Data Science</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                  </li>
+                </ul>
+                </li>
+                <li><a href="/casestudy-home/">Casestudy</a></li>
+                <li id="accordion1"><a href='#'>About Us <i class="ion-chevron-down"></i></a>
+                    <ul class="aboutDetails">
+                        <li>
+                            <div id="aboutContent" class="about__view">
+                                <div class="row">
+                                    <div class=" ">
+                                        <div class="about__view__Content">
+                                            <h2 onclick="redirect('/aboutUs/')">ABOUT</h2>
+                                            <h3>We are IT-change partners enabling digital transformation for Large enterprise & Captive IT units.</h3>
+                                        </div>
+                                    </div>
+                                    <div class="about__view--algin">
+                                        <a href="/aboutUs/">
+                                            <div class="  ">
+                                                <div class="about__view__thinking">
+                                                    <img class="about__view__thinking--img" src="/assets/image/product&service/group-26.svg" />
+                                                    <p>Our Thinking</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="/workculture/">
+                                            <div class="  ">
+                                                <div class="about__view__culture">
+                                                    <img class="about__view__culture--img" src="/assets/image/product&service/fill-1.svg" />
+                                                    <p>Work Culture</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="/job/">
+                                            <div class="  ">
+                                                <div class="about__view__job">
+                                                    <img class="about__view__job--img" src="/assets/image/product&service/fill-2.svg" />
+                                                    <p>Job Opening</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </li>
+                <li><a href="/contactUs/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+            $( "#accordion" ).accordion({
+          heightStyle: "content",
+          active:false,
+          collapsible: true,
+         
+        });
+    
+        $( "#accordion1" ).accordion({
+          heightStyle: "content",
+          active:false,
+          collapsible: true,
+         
+        });
+            </script>
+    <script>
+        window.onload = function() {
+            console.log(location.href);
+            if(location.href.indexOf('index')>-1){
+                console.log('expertise');
+                document.getElementsByClassName('hashworks__head--home')[0].style.color = '#603c96'
+            }
+            else if(location.href.indexOf('casestudy-home')>-1){
+                console.log('products');
+                document.getElementsByClassName('hashworks__head--case')[0].style.color = '#603c96'
+            }
+            else if(location.href.indexOf('contactUs')>-1){
+                console.log('products');
+                document.getElementsByClassName('hashworks__head--contact')[0].style.color = '#603c96'
+            }
+        }
+</script> 
+<script>
+      $(function() {
+   $('a.link').click(function() {
+       $('a.link').removeClass('active');
+       $(this).addClass('active');
+   });
+});
+    </script>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+<script type="text/javascript" src="/assets/js/product.js"></script>
+<script src="/assets/js/demo.js"></script>
+<script src="/assets/js/three.min.js"></script>
+<script src="/assets/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.plugins.min.js"></script>
+ <script type="text/javascript" src="/assets/js/head.js"></script>
+</body>
+
+<style>
+    .app {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: box;
+        flex-direction: box;
+        min-height: calc(100vh - 45px)
+    }
+
+    /* .plugin {
+    background: #fff;
+    min-height: 608px;
+    max-height: 100%;
+    margin-top: 3rem;
+} */
+    
+    .hash-grid {
+        height: 360px;
+        position: relative;
+        width: 100%
+    }
+    
+    @media (min-width:600px) {
+        .hash-grid {
+            height: 440px
+        }
+    }
+    
+    @media (min-width:1000px) {
+        .hash-grid {
+            height: 540px
+        }
+    }
+    
+    @media (min-width:1400px) {
+        .hash-grid {
+            height: 600px
+        }
+    }
+    
+    @media (min-width:1800px) {
+        .hash-grid {
+            height: 640px
+        }
+    }
+    
+    .is-preparing .hash-grid {
+        opacity: 0
+    }
+    
+    .hash-grid__inner {
+        overflow: hidden;
+        position: absolute;
+        bottom: -220px;
+        left: 0;
+        right: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 760px
+    }
+    
+    @media (min-width:600px) {
+        .hash-grid__inner {
+            height: 840px
+        }
+    }
+    
+    @media (min-width:1000px) {
+        .hash-grid__inner {
+            height: 940px
+        }
+    }
+    
+    @media (min-width:1400px) {
+        .hash-grid__inner {
+            height: 1057px
+        }
+    }
+    
+    @media (min-width:1800px) {
+        .hash-grid__inner {
+            height: 1040px
+        }
+    }
+    
+    @media (max-height:700px) {
+        .hash-grid__inner {
+            bottom: -180px
+        }
+    }
+    
+    .hash-grid__box {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 160px;
+        margin-left: -80px;
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-animation: boxs-trajectory-0 80s infinite;
+        animation: boxs-trajectory-0 80s infinite;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        will-change: transform
+    }
+    
+    @media (min-width:600px) {
+        .hash-grid__box {
+            width: 200px;
+            margin-left: -100px;
+            -webkit-animation-name: boxs-trajectory-600;
+            animation-name: boxs-trajectory-600
+        }
+    }
+    
+    @media (min-width:1000px) {
+        .hash-grid__box {
+            width: 240px;
+            margin-left: -120px;
+            -webkit-animation-name: boxs-trajectory-1000;
+            animation-name: boxs-trajectory-1000
+        }
+    }
+    
+    @media (min-width:1400px) {
+        .hash-grid__box {
+            width: 300px;
+            margin-left: -150px;
+            -webkit-animation-name: boxs-trajectory-1400;
+            animation-name: boxs-trajectory-1400
+        }
+    }
+    
+    @media (min-width:1800px) {
+        .hash-grid__box {
+            width: 320px;
+            margin-left: -160px;
+            -webkit-animation-name: boxs-trajectory-1800;
+            animation-name: boxs-trajectory-1800
+        }
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box {
+            -webkit-animation-duration: 130s;
+            animation-duration: 130s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box {
+            -webkit-animation-duration: 180s;
+            animation-duration: 180s
+        }
+    }
+    
+    .hash-grid__box:nth-child(2) {
+        -webkit-animation-delay: -71.11111s;
+        animation-delay: -71.11111s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(2) {
+            -webkit-animation-delay: -115.55556s;
+            animation-delay: -115.55556s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(2) {
+            -webkit-animation-delay: -160s;
+            animation-delay: -160s
+        }
+    }
+    
+    .hash-grid__box:nth-child(3) {
+        -webkit-animation-delay: -62.22222s;
+        animation-delay: -62.22222s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(3) {
+            -webkit-animation-delay: -101.11111s;
+            animation-delay: -101.11111s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(3) {
+            -webkit-animation-delay: -140s;
+            animation-delay: -140s
+        }
+    }
+    
+    .hash-grid__box:nth-child(4) {
+        -webkit-animation-delay: -53.33333s;
+        animation-delay: -53.33333s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(4) {
+            -webkit-animation-delay: -86.66667s;
+            animation-delay: -86.66667s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(4) {
+            -webkit-animation-delay: -120s;
+            animation-delay: -120s
+        }
+    }
+    
+    .hash-grid__box:nth-child(5) {
+        -webkit-animation-delay: -44.44444s;
+        animation-delay: -44.44444s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(5) {
+            -webkit-animation-delay: -72.22222s;
+            animation-delay: -72.22222s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(5) {
+            -webkit-animation-delay: -100s;
+            animation-delay: -100s
+        }
+    }
+    
+    .hash-grid__box:nth-child(6) {
+        -webkit-animation-delay: -35.55556s;
+        animation-delay: -35.55556s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(6) {
+            -webkit-animation-delay: -57.77778s;
+            animation-delay: -57.77778s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(6) {
+            -webkit-animation-delay: -80s;
+            animation-delay: -80s
+        }
+    }
+    
+    .hash-grid__box:nth-child(7) {
+        -webkit-animation-delay: -26.66667s;
+        animation-delay: -26.66667s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(7) {
+            -webkit-animation-delay: -43.33333s;
+            animation-delay: -43.33333s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(7) {
+            -webkit-animation-delay: -60s;
+            animation-delay: -60s
+        }
+    }
+    
+    .hash-grid__box:nth-child(8) {
+        -webkit-animation-delay: -17.77778s;
+        animation-delay: -17.77778s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(8) {
+            -webkit-animation-delay: -28.88889s;
+            animation-delay: -28.88889s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(8) {
+            -webkit-animation-delay: -40s;
+            animation-delay: -40s
+        }
+    }
+    
+    .hash-grid__box:nth-child(9) {
+        -webkit-animation-delay: -8.88889s;
+        animation-delay: -8.88889s
+    }
+    
+    @media (min-width:720px) {
+        .hash-grid__box:nth-child(9) {
+            -webkit-animation-delay: -14.44444s;
+            animation-delay: -14.44444s
+        }
+    }
+    
+    @media (min-width:960px) {
+        .hash-grid__box:nth-child(9) {
+            -webkit-animation-delay: -20s;
+            animation-delay: -20s
+        }
+    }
+    
+    .hash-grid__box:nth-child(n+10) {
+        display: none
+    }
+    
+    @-webkit-keyframes boxs-trajectory-0 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(825px, 10px, 0);
+            transform: rotate(.001deg) translate3d(825px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-825px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-825px, 10px, 0)
+        }
+    }
+    
+    @keyframes boxs-trajectory-0 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(825px, 10px, 0);
+            transform: rotate(.001deg) translate3d(825px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-825px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-825px, 10px, 0)
+        }
+    }
+    
+    @-webkit-keyframes boxs-trajectory-600 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1040px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1040px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1040px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1040px, 10px, 0)
+        }
+    }
+    
+    @keyframes boxs-trajectory-600 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1040px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1040px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1040px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1040px, 10px, 0)
+        }
+    }
+    
+    @-webkit-keyframes boxs-trajectory-1000 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1255px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1255px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1255px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1255px, 10px, 0)
+        }
+    }
+    
+    @keyframes boxs-trajectory-1000 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1255px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1255px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1255px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1255px, 10px, 0)
+        }
+    }
+    
+    @-webkit-keyframes boxs-trajectory-1400 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1595px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1595px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1595px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1595px, 10px, 0)
+        }
+    }
+    
+    @keyframes boxs-trajectory-1400 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1595px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1595px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1595px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1595px, 10px, 0)
+        }
+    }
+    
+    @-webkit-keyframes boxs-trajectory-1800 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1685px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1685px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1685px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1685px, 10px, 0)
+        }
+    }
+    
+    @keyframes boxs-trajectory-1800 {
+        0% {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(1685px, 10px, 0);
+            transform: rotate(.001deg) translate3d(1685px, 10px, 0)
+        }
+        5%,
+        95% {
+            opacity: 0
+        }
+        6%,
+        94% {
+            opacity: 1
+        }
+        50% {
+            -webkit-transform: rotate(.001deg) translate3d(0, 310px, 0);
+            transform: rotate(.001deg) translate3d(0, 310px, 0)
+        }
+        to {
+            opacity: 0;
+            -webkit-transform: rotate(.001deg) translate3d(-1685px, 10px, 0);
+            transform: rotate(.001deg) translate3d(-1685px, 10px, 0)
+        }
+    }
+    
+    .hash-grid__item {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 160px;
+        background: #fff;
+        background-size: cover;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+        -webkit-animation: card-jiggle 30s infinite alternate;
+        animation: card-jiggle 30s infinite alternate;
+        -webkit-transition: opacity .15s, -webkit-transform .7s cubic-bezier(.205, .96, .375, 1.025);
+        transition: opacity .15s, transform .7s cubic-bezier(.205, .96, .375, 1.025);
+        transition: opacity .15s, transform .7s cubic-bezier(.205, .96, .375, 1.025), -webkit-transform .7s cubic-bezier(.205, .96, .375, 1.025)
+    }
+    
+    @media (min-width:600px) {
+        .hash-grid__item {
+            height: 200px
+        }
+    }
+    
+    @media (min-width:1000px) {
+        .hash-grid__item {
+            height: 240px
+        }
+    }
+    
+    @media (min-width:1400px) {
+        .hash-grid__item {
+            height: 260px
+        }
+    }
+    
+    @media (min-width:1800px) {
+        .hash-grid__item {
+            height: 280px
+        }
+    }
+    
+    .hash-grid__item-container {
+        -webkit-transform-origin: center bottom;
+        transform-origin: center bottom;
+        -webkit-transition: opacity .25s, -webkit-transform .7s cubic-bezier(.205, .96, .375, 1.025);
+        transition: opacity .25s, transform .7s cubic-bezier(.205, .96, .375, 1.025);
+        transition: opacity .25s, transform .7s cubic-bezier(.205, .96, .375, 1.025), -webkit-transform .7s cubic-bezier(.205, .96, .375, 1.025)
+    }
+    
+    .is-preparing .hash-grid__item-container {
+        opacity: 0;
+        -webkit-transform: translateY(130px) scale(.8);
+        transform: translateY(130px) scale(.8)
+    }
+    
+    @-webkit-keyframes card-jiggle {
+        0% {
+            -webkit-transform: translate3d(1px, 4px, 0);
+            transform: translate3d(1px, 4px, 0)
+        }
+        10% {
+            -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0)
+        }
+        20%,
+        to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0)
+        }
+        30% {
+            -webkit-transform: translate3d(0, 1px, 0);
+            transform: translate3d(0, 1px, 0)
+        }
+        40% {
+            -webkit-transform: translate3d(-4px, -3px, 0);
+            transform: translate3d(-4px, -3px, 0)
+        }
+        50% {
+            -webkit-transform: translate3d(5px, 2px, 0);
+            transform: translate3d(5px, 2px, 0)
+        }
+        60% {
+            -webkit-transform: translate3d(3px, -1px, 0);
+            transform: translate3d(3px, -1px, 0)
+        }
+        70% {
+            -webkit-transform: translate3d(-1px, 2px, 0);
+            transform: translate3d(-1px, 2px, 0)
+        }
+        80% {
+            -webkit-transform: translate3d(3px, -2px, 0);
+            transform: translate3d(3px, -2px, 0)
+        }
+        90% {
+            -webkit-transform: translate3d(3px, 2px, 0);
+            transform: translate3d(3px, 2px, 0)
+        }
+    }
+    
+    @keyframes card-jiggle {
+        0% {
+            -webkit-transform: translate3d(1px, 4px, 0);
+            transform: translate3d(1px, 4px, 0)
+        }
+        10% {
+            -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0)
+        }
+        20%,
+        to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0)
+        }
+        30% {
+            -webkit-transform: translate3d(0, 1px, 0);
+            transform: translate3d(0, 1px, 0)
+        }
+        40% {
+            -webkit-transform: translate3d(-4px, -3px, 0);
+            transform: translate3d(-4px, -3px, 0)
+        }
+        50% {
+            -webkit-transform: translate3d(5px, 2px, 0);
+            transform: translate3d(5px, 2px, 0)
+        }
+        60% {
+            -webkit-transform: translate3d(3px, -1px, 0);
+            transform: translate3d(3px, -1px, 0)
+        }
+        70% {
+            -webkit-transform: translate3d(-1px, 2px, 0);
+            transform: translate3d(-1px, 2px, 0)
+        }
+        80% {
+            -webkit-transform: translate3d(3px, -2px, 0);
+            transform: translate3d(3px, -2px, 0)
+        }
+        90% {
+            -webkit-transform: translate3d(3px, 2px, 0);
+            transform: translate3d(3px, 2px, 0)
+        }
+    }
+    
+    .hash-grid__box:nth-child(1) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -5.30204s;
+        animation-delay: -5.30204s
+    }
+    
+    .hash-grid__box:nth-child(1) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: .75s;
+        transition-delay: .75s
+    }
+    
+    .hash-grid__box:nth-child(1) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -13.16395s;
+        animation-delay: -13.16395s
+    }
+    
+    .hash-grid__box:nth-child(1) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: .8s;
+        transition-delay: .8s
+    }
+    
+    .hash-grid__box:nth-child(2) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -6.88356s;
+        animation-delay: -6.88356s
+    }
+    
+    .hash-grid__box:nth-child(2) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: .8s;
+        transition-delay: .8s
+    }
+    
+    .hash-grid__box:nth-child(2) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -28.7621s;
+        animation-delay: -28.7621s
+    }
+    
+    .hash-grid__box:nth-child(2) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: .85s;
+        transition-delay: .85s
+    }
+    
+    .hash-grid__box:nth-child(3) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -26.03077s;
+        animation-delay: -26.03077s
+    }
+    
+    .hash-grid__box:nth-child(3) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: .85s;
+        transition-delay: .85s
+    }
+    
+    .hash-grid__box:nth-child(3) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -23.42802s;
+        animation-delay: -23.42802s
+    }
+    
+    .hash-grid__box:nth-child(3) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: .9s;
+        transition-delay: .9s
+    }
+    
+    .hash-grid__box:nth-child(4) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -27.86454s;
+        animation-delay: -27.86454s
+    }
+    
+    .hash-grid__box:nth-child(4) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: .9s;
+        transition-delay: .9s
+    }
+    
+    .hash-grid__box:nth-child(4) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -18.39546s;
+        animation-delay: -18.39546s
+    }
+    
+    .hash-grid__box:nth-child(4) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: .95s;
+        transition-delay: .95s
+    }
+    
+    .hash-grid__box:nth-child(5) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -15.22776s;
+        animation-delay: -15.22776s
+    }
+    
+    .hash-grid__box:nth-child(5) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: .95s;
+        transition-delay: .95s
+    }
+    
+    .hash-grid__box:nth-child(5) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -24.40217s;
+        animation-delay: -24.40217s
+    }
+    
+    .hash-grid__box:nth-child(5) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s
+    }
+    
+    .hash-grid__box:nth-child(6) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -6.897s;
+        animation-delay: -6.897s
+    }
+    
+    .hash-grid__box:nth-child(6) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s
+    }
+    
+    .hash-grid__box:nth-child(6) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -26.04068s;
+        animation-delay: -26.04068s
+    }
+    
+    .hash-grid__box:nth-child(6) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: 1.05s;
+        transition-delay: 1.05s
+    }
+    
+    .hash-grid__box:nth-child(7) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -6.8831s;
+        animation-delay: -6.8831s
+    }
+    
+    .hash-grid__box:nth-child(7) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: 1.05s;
+        transition-delay: 1.05s
+    }
+    
+    .hash-grid__box:nth-child(7) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -6.11901s;
+        animation-delay: -6.11901s
+    }
+    
+    .hash-grid__box:nth-child(7) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: 1.1s;
+        transition-delay: 1.1s
+    }
+    
+    .hash-grid__box:nth-child(8) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -28.119s;
+        animation-delay: -28.119s
+    }
+    
+    .hash-grid__box:nth-child(8) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: 1.1s;
+        transition-delay: 1.1s
+    }
+    
+    .hash-grid__box:nth-child(8) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -9.3362s;
+        animation-delay: -9.3362s
+    }
+    
+    .hash-grid__box:nth-child(8) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: 1.15s;
+        transition-delay: 1.15s
+    }
+    
+    .hash-grid__box:nth-child(9) .hash-grid__item:nth-child(1) {
+        -webkit-animation-delay: -16.30265s;
+        animation-delay: -16.30265s
+    }
+    
+    .hash-grid__box:nth-child(9) .hash-grid__item-container:nth-child(1) {
+        -webkit-transition-delay: 1.15s;
+        transition-delay: 1.15s
+    }
+    
+    .hash-grid__box:nth-child(9) .hash-grid__item:nth-child(2) {
+        -webkit-animation-delay: -24.63739s;
+        animation-delay: -24.63739s
+    }
+    
+    .hash-grid__box:nth-child(9) .hash-grid__item-container:nth-child(2) {
+        -webkit-transition-delay: 1.2s;
+        transition-delay: 1.2s
+    }
+    
+    .hash-grid__item:first-child {
+        margin-bottom: 20px
+    }
+    
+    @media (min-width:600px) {
+        .hash-grid__item:first-child {
+            margin-bottom: 20px
+        }
+    }
+    
+    @media (min-width:1000px) {
+        .hash-grid__item:first-child {
+            margin-bottom: 40px
+        }
+    }
+    
+    @media (min-width:1400px) {
+        .hash-grid__item:first-child {
+            margin-bottom: 60px
+        }
+    }
+    
+    @media (min-width:1800px) {
+        .hash-grid__item:first-child {
+            margin-bottom: 60px
+        }
+    }
+</style>
+
+
+<section class="hashworks__workculture">
+    <div class="workculture__image">
+        <h1>Workculture</h1>
+        </div>
+    <div class="workculture__workfun">
+      <div class="row">
+          <h1>We take work as fun</h1>
+          <p>Nulla porttitor accumsan tincidunt. Proin eget tortor risus.
+               Cras ultricies ligula sed magna dictum porta. Curabitur 
+               aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.</p>
+      </div>
+    </div>
+    <section class="plugin">
+            <div class="">
+                <div class="hash-grid js-hash-grid " aria-hidden="true">
+                    <div class="hash-grid__inner">
+
+
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/workculture/1-culture.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/workculture/2-culture.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                   <img src="../assets/image/workculture/3-culture.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                   <img src="../assets/image/workculture/4-culture.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                    <img src="../assets/image/workculture/1-culture.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                   <img src="../assets/image/workculture/2-culture.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                   <img src="../assets/image/workculture/3-culture.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                   <img src="../assets/image/workculture/4-culture.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                  <img src="../assets/image/workculture/1-culture.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                  <img src="../assets/image/workculture/2-culture.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                   <img src="../assets/image/workculture/3-culture.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                   <img src="../assets/image/workculture/4-culture.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                   <img src="../assets/image/workculture/1-culture.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                  <img src="../assets/image/workculture/2-culture.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                   <img src="../assets/image/workculture/3-culture.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                   <img src="../assets/image/workculture/4-culture.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hash-grid__box">
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                   <img src="../assets/image/workculture/1-culture.png" />
+                                </div>
+                            </div>
+                            <div class="hash-grid__item-container">
+                                <div class="hash-grid__item">
+                                  <img src="../assets/image/workculture/2-culture.png" />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    <div class="workculture__facility">
+        <div class="row">
+              <h1>Perk and facility</h1>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <h2>HEALTH & WELLNESS</h2>
+            <p>Full health coverage for you and your family (Slack pays 100% of your premiums),
+             and a $150 monthly fitness and wellness reimbursement.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                 <h2>LEARNING & DEVELOPMENT</h2>
+            <p>Receive $500 annually (or equivalent) towards a personal development opportunity of your choice,
+                 and $2000 annually (or equivalent) for professional development.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <h2>PARENTAL LEAVE</h2>
+            <p>A lot of us have families, of all shapes and sizes and types, and we welcome each
+                 new addition with generous parental and new child bonding leave.</p>
+            </div> 
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <h2>HAPPIER WEEKDAYS</h2>
+            <p>A meeting-light culture (or we try, at least), weekly massage therapy,
+             guest speakers, and opportunities to get to know your team better through
+              things like weekly catered lunch and breakfast, Thursday Socials, and game
+               nights. But we don’t stay in the office 24/7.</p> 
+            </div>   
+            </div>
+    </div>
+    <div class="workculture__boxes">
+      <div class="row">
+          <div class="workculture__box col-xs-12 col-sm-4 col-md-4 col-lg-4"  onclick="redirect('/job/')">
+            <h1>See Job Openings <img src="../assets/image/workculture/shape.png"/> </h1> 
+          </div>
+          <div class="workculture__box col-xs-12 col-sm-4 col-md-4 col-lg-4" onclick="redirect('/internship/')">
+             <h1 >See Internship <img src="../assets/image/workculture/shape.png"/></h1> 
+          </div>
+          <div class="workculture__box col-xs-12 col-sm-4 col-md-4 col-lg-4">
+             <h1>Hook to BootCamp 
+                 <!-- <i class="ion-ios-arrow-right"></i> -->
+                 <img src="../assets/image/workculture/shape.png"/>
+                </h1>  
+          </div>
+      </div>
+    </div>
+    <div class="workculture__bottomImage"> </div>  
+</section>
+<footer class="footer">
+<div class="footer__list">
+            <div class="row footer__list--view">
+             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                 <h1>PRODUCT</h1>
+                 <ul>
+                     <li><a href="https://groome.co/" target="_blank">Groome</a></li>
+                     <li><a href="https://enigma.hashworks.co/" target="_blank">Enigma</a> </li>
+                     <li><a href="https://www.littlebrahma.com/" target="_blank">Littlebrahma</a> </li>
+                 </ul>
+             </div>
+             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <h1>SERVICES</h1>
+                    <ul>
+                        <li><a href="/devOps/">Dev Ops</a></li>
+                        <li><a href="/mobile/">Cloud Application & Mobility</a></li>
+                        <li><a href="/uiux/">UX / UI</a> </li>
+                        <li><a href="/dataScience/">Data Science</a></li>
+                        <!-- <li><a href="/devOps/">DevOps</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                        <h1>COMPANY</h1>
+                        <ul>
+                            <li><a href="/aboutUs/">About</a></li>
+                            <li><a href="/workculture/">WorkCulture</a></li>
+                          
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                            <h1>CONNECT US</h1>
+                            <ul>
+                                <li><a href="/contactUs/">Contact Us</a></li>
+                                <li><a href="/job/">Careers</a></li>
+                            </ul>
+                        </div>
+                       
+                </div>
+                <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer__list--copyright">
+                          <h4>Copyright2017@ Hashworks.co</h4>
+                          <div class="footer__list--social">
+                              <a href="https://twitter.com/hashworksco" target="_blank">
+                                  <img  src="../assets/image/twitter.svg"/>
+                              </a>
+                              <a href="https://www.linkedin.com/company/hashworks?trk=top_nav_home" target="_blank">
+                                   <img  src="../assets/image/linkedin-logo.svg"/>
+                              </a>
+                                <a href="https://www.facebook.com/hashworks" target="_blank">
+                                    <img  src="../assets/image/facebook-logo.svg"/>
+                                </a>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            </footer>
+</body>
+</html>
