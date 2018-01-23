@@ -504,7 +504,7 @@ body{
     }
     .productService{
            padding: 22px 0px 20px 0px;
-           position: absolute;
+           position: fixed;
            width: 100%;
            z-index: 1;
            box-shadow: 5px 11px 4px 9px rgba(6, 6, 6, 0.05);
@@ -672,7 +672,7 @@ body{
    }
   // about 
   .about{
-    position: absolute;
+    position: fixed;
     z-index: 1;
     width: 100%;
     background-color: #ffffff;
