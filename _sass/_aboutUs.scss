@@ -1,139 +1,135 @@
 
-
-
  .tl-timeaxis-background {
-  background-color: #876cb0 !important;
-  background-image: url(../assets/image/aboutus/line-2-16.png);
-  background-repeat: repeat;
-  height: 8px !important;
-  width: 100%;
-  position: absolute;
-  bottom: 35px !important;
- //  bottom: 30px !important;
+      background-color: #876cb0 !important;
+      background-image: url(../assets/image/aboutus/line-2-16.png);
+      background-repeat: repeat;
+      height: 8px !important;
+      width: 100%;
+      position: absolute;
+      bottom: 35px !important;
 }
-.tl-attribution{
-  display: none;
-}
-.tl-timenav {
- background-color: #ffffff !important;
- border-top: 1px solid #603c96 !important;
-}
+  .tl-attribution{
+        display: none;
+  }
+  .tl-timenav {
+      background-color: #ffffff !important;
+      border-top: 1px solid #603c96 !important;
+  }
 .tl-timemarker .tl-timemarker-content-container{
-  border: none !important;
-  background-color: #ffffff !important;
-  margin-left: 2px !important;
+      border: none !important;
+      background-color: #ffffff !important;
+      margin-left: 2px !important;
 }
 .tl-timemarker:hover .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
-  color: black !important;
-  opacity: 0.6 !important;
+      color: black !important;
+      opacity: 0.6 !important;
 }
 .tl-storyslider {
-  height: 300px !important;
+      height: 300px !important;
 }
 .tl-timenav {
-  height: 205px !important;
+      height: 205px !important;
 }
 .tl-slidenav-next{
-  top: 125px  !important;
+      top: 125px  !important;
 }
 .tl-slidenav-previous{
-  top: 125px  !important;
+      top: 125px  !important;
 }
 .tl-slidenav-icon {
-  font-size: 12px !important;
-  width: 13px !important;
-  height: 22px !important;
+      font-size: 12px !important;
+      width: 13px !important;
+      height: 22px !important;
 }
 .tl-menubar {
-  top: 355px !important;
+      top: 355px !important;
 }
 .tl-icon-zoom-in{
-  display: none !important;
+      display: none !important;
 }
 .tl-icon-goback{
-  display: none !important;
+       display: none !important;
 }
 .tl-text h2.tl-headline{
-  color: #603c96 !important;
+       color: #603c96 !important;
 }
 .tl-slide .tl-slide-scrollable-container{
-  margin: 0 auto !important;
+      margin: 0 auto !important;
 }
 
 ///////////////////////
 ul.tabs li.current {
-  color: #603c96;
+     color: #603c96;
 }
 
 .tab-content {
-  display: none;
+     display: none;
 }
 
 .tab-content.current {
-  display: inherit;
-  padding: 0px;
+      display: inherit;
+      padding: 0px;
 }
 
 .plugin {
-  background: #fff;
-  min-height: 800px;
-  max-height: 100%;
-  margin-top: 3rem;
+      background: #fff;
+      min-height: 800px;
+      max-height: 100%;
+      margin-top: 3rem;
   img {
-    width: 100% !important;
-    height: 100% !important;
-    border-radius: 0px !important;
-    margin: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 0px !important;
+        margin: 0 !important;
   }
 }
 
 @media only screen and (min-width:320px) {
   .addlink{
-    text-align: center;
+       text-align: center;
   }
   .tl-slidenav-next{
-  display: none !important;
+      display: none !important;
   }
   .tl-slidenav-previous{
-    display: none !important;
+       display: none !important;
   }
   .tabslider{
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 37px;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 37px;
   }
   .tl-media-content{
-    width:255px !important;
-    margin: 0 auto;
+      width:255px !important;
+      margin: 0 auto;
   }
   .tl-slide-content{
-width: 100% !important;
+      width: 100% !important;
 
   }
   .aboutus {
     .border {
-      border-top: solid 1px #e0e0e0;
-      margin-top: 32px;
+        border-top: solid 1px #e0e0e0;
+        margin-top: 32px;
     }
     &__headImg {
-       background-image: url(../assets/image/aboutus/origami@2x.png);
-      background-repeat: no-repeat;
-      height: 229px;
-      width: 100%;
-      background-size: cover;
-      background-position: center center;
-      // object-fit: contain;
+        background-image: url(../assets/image/aboutus/origami@2x.png);
+        background-repeat: no-repeat;
+        height: 229px;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
     }
     &__content1 {
-      height: 229px;
-      width: 100%;
-      display: flex;
-      align-items: flex-end;
-      padding: 16px 28px;
-      font-family: 'muliRegular';
-      font-size: 24px;
-      text-align: left;
-      color: #ffffff;
+        height: 229px;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        padding: 16px 28px;
+        font-family: 'muliRegular';
+        font-size: 24px;
+        text-align: left;
+        color: #ffffff;
       h1 {
         padding: 188px 0px 0px 28px;
         font-family: 'muliRegular';
@@ -143,16 +139,16 @@ width: 100% !important;
       }
     }
     &__tab {
-      border: solid 1px #f7f7f7;
-      display: flex;
-      justify-content: center;
+          border: solid 1px #f7f7f7;
+          display: flex;
+          justify-content: center;
       &--list {
-        margin: 0px;
-        padding: 0px;
-        list-style: none;
-        width: 225px;
-        display: flex;
-        justify-content: space-between;
+          margin: 0px;
+          padding: 0px;
+          list-style: none;
+          width: 225px;
+          display: flex;
+          justify-content: space-between;
         li {
           font-family: 'muliBold';
           font-size: 12px;
@@ -164,14 +160,10 @@ width: 100% !important;
         }
       }
     }
-    &__thinking {
-      &--container1 {
+  &__thinking {
+    &--container1 {
         width: 266px;
         margin: 0 auto;
-      }
-      .row {
-        // width: 266px;
-        // margin: 0 auto;
       }
       h2 {
         font-family: 'muliBold';
@@ -198,7 +190,7 @@ width: 100% !important;
         color: #898989;
       }
       &--capitalImage {
-         background-image: url(../assets/image/aboutus/1.svg);
+        background-image: url(../assets/image/aboutus/1.svg);
         background-repeat: no-repeat;
         height: 160px;
         width: 100%;
@@ -206,7 +198,7 @@ width: 100% !important;
         object-fit: contain;
       }
       &--clientImage {
-         background-image: url(../assets/image/aboutus/2.svg);
+        background-image: url(../assets/image/aboutus/2.svg);
         background-repeat: no-repeat;
         height: 160px;
         width: 100%;
@@ -214,7 +206,7 @@ width: 100% !important;
         object-fit: contain;
       }
       &--industryImage {
-         background-image: url(../assets/image/aboutus/3.svg);
+        background-image: url(../assets/image/aboutus/3.svg);
         background-repeat: no-repeat;
         height: 160px;
         width: 100%;
@@ -223,16 +215,16 @@ width: 100% !important;
       }
       &--ourculture {
         padding-bottom: 51px;
-        &--container1 {
-          width: 266px;
-          margin: 0 auto;
-        }
+      &--container1 {
+        width: 266px;
+        margin: 0 auto;
+      }
         .culture {
           padding-top: 50px;
         }
       }
       &--grew {
-        background-color: #603c96;
+          background-color: #603c96;
         p {
           width: 202px;
           font-family: 'muliBold';
@@ -248,57 +240,56 @@ width: 100% !important;
   }
   // about company css
   .aboutus__company {
-    background-color: #f7f7f7;
+       background-color: #f7f7f7;
     .row {
-      width: 266px;
-      margin: 0 auto;
+        width: 266px;
+        margin: 0 auto;
     }
     h1 {
-      font-family: 'muliBold';
-      font-size: 16px;
-      font-weight: bold;
-      text-align: center;
-      color: #603c96;
-
+        font-family: 'muliBold';
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #603c96;
     }
     p {
-      font-family: 'muliRegular';
-      font-size: 12px;
-      line-height: 1.5;
-      text-align: center;
-      color: #3e3e3e;
-      margin: 12px 0px 0px;
+        font-family: 'muliRegular';
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: center;
+        color: #3e3e3e;
+        margin: 12px 0px 0px;
     }
     .img1 {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      margin-left: 100px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-left: 100px;
     }
     h2 {
-      font-family: 'muliBold';
-      font-size: 12px;
-      font-weight: bold;
-      text-align: center;
-      color: #434343;
-      margin: 10px 0px;
+        font-family: 'muliBold';
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        color: #434343;
+        margin: 10px 0px;
     }
     h3 {
-      font-family: 'muliRegular';
-      font-size: 12px;
-      text-align: center;
-      color: #434343;
-      margin-bottom: 64px;
+        font-family: 'muliRegular';
+        font-size: 12px;
+        text-align: center;
+        color: #434343;
+        margin-bottom: 64px;
     }
     &--explore {
-      cursor: pointer;
-      background-image: url(../assets/image/aboutus/group-6@2x.png);
-      background-repeat: no-repeat;
-      height: 92px;
-      width: 100%;
-      background-size: cover;
+        cursor: pointer;
+        background-image: url(../assets/image/aboutus/group-6@2x.png);
+        background-repeat: no-repeat;
+        height: 92px;
+        width: 100%;
+        background-size: cover;
         background-position: center center;
-      object-fit: contain;
+        object-fit: contain;
       h1 {
         font-family: 'muliBold';
         font-size: 16px;
@@ -312,35 +303,30 @@ width: 100% !important;
       }
     }
     .hoverhidden{
-      display: none;
+        display: none;
     } 
-    .profilehover{
+.profilehover{
     &--profile{
-      margin-top: 20px;
+        margin-top: 20px;
     }
-       h3{
-         margin-bottom: 20px;
-       }
-        &__text{
-           
-            &--content{
-             
-             p{
-               margin: 0px;
-               padding: 0px 0px 10px;
-             }
-                a{
-                    font-family: 'muliRegular';
-                    font-size: 12px;
-                    font-weight: normal;
-                    color: #4a4a4a;
-                    margin-bottom: 16px;
-                  
-                }
+    h3{
+      margin-bottom: 20px;
+    }
+    &__text{
+        &--content{
+        p{
+          margin: 0px;
+          padding: 0px 0px 10px;
+        }
+          a{
+              font-family: 'muliRegular';
+              font-size: 12px;
+              font-weight: normal;
+              color: #4a4a4a;
+              margin-bottom: 16px;
+          }
             }
         }
-   
-    
         .rajeshProfile{
           width: 100%;
         } 
@@ -350,21 +336,21 @@ width: 100% !important;
 
 @media only screen and (min-width: 767px) {
   .addlink{
-    text-align: center;
+      text-align: center;
   }
   .tl-slidenav-next{
-    display: -webkit-box !important;
+       display: -webkit-box !important;
     }
     .tl-slidenav-previous{
-      display: -webkit-box !important;
+       display: -webkit-box !important;
     }
   .tabslider{
-    width: 700px;
-    margin: 0 auto;
-    margin-bottom: 37px;
+      width: 700px;
+      margin: 0 auto;
+      margin-bottom: 37px;
   }
   .tl-media-content{
-    width:255px !important
+      width:255px !important
   }
   .aboutus {
     .border {
@@ -379,14 +365,14 @@ width: 100% !important;
       height: 230px;
       padding: 29px 34px;
       font-size: 24px;
-      h1 {
+    h1 {
         padding: 161px 0px 0px 34px;
         font-size: 36px;
-      }
+    }
     }
     &__tab {
-      display: flex;
-      justify-content: center;
+        display: flex;
+        justify-content: center;
     
       &--list {
         width: 350px;
@@ -888,6 +874,5 @@ width: 100% !important;
      }
       
     }
-    
+  } 
 }
-    }

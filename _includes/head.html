@@ -23,22 +23,19 @@
 
 </head>
 <body id="close">
-    <!-- <div class="loader">
-        <img class="loader-image" src="../assets/image/job/hashlogo.gif">
-    </div> -->
     <header class="hashworks__head">
         <a href="/index"> <img class="hashworks__head--logo" src="/assets/image/logo.svg" alt="hashlogo"></a>
-        <div class="hashworks__head--list">
-            <a href="/index"  class="hashworks__head--home">Home</a>
-            <a class="hashworks__head--product dropbtn menuClass link"  id="menu-1">Product & Service
-                <div class="popover" id="mypopover"></div>
-            </a>
-            <a class="hashworks__head--case" href="/casestudy-home">Case Study</a>
-            <a class="hashworks__head--about dropbtn menuClass link" id="menu-2">About
-           <div class="popoverer" id="mypopover-about"></div>
-              </a>
-           <a class="hashworks__head--contact" href="/contactUs">Contact</a>
-        </div>
+            <div class="hashworks__head--list">
+                <a href="/index"  class="hashworks__head--home">Home</a>
+                <a class="hashworks__head--product dropbtn menuClass link"  id="menu-1">Product & Service
+                    <div class="popover" id="mypopover"></div>
+                </a>
+                <a class="hashworks__head--case" href="/casestudy-home">Case Study</a>
+                <a class="hashworks__head--about dropbtn menuClass link" id="menu-2">About
+                    <div class="popoverer" id="mypopover-about"></div>
+                </a>
+                <a class="hashworks__head--contact" href="/contactUs">Contact</a>
+            </div>
         <img class="hashworks__head--toggle" src="/assets/image/group-2@2x.png" />
     </header>
     
@@ -51,7 +48,7 @@
                     <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
                 </div>
             </div>
-            <div class="productService--alignment">
+             <div class="productService--alignment">
                 <div class=" paketo">
                     <div class="productService--paketo fortext">
                         <div class="productService--produtpacto">
@@ -321,15 +318,12 @@
         window.onload = function() {
             console.log(location.href);
             if(location.href.indexOf('index')>-1){
-                console.log('expertise');
                 document.getElementsByClassName('hashworks__head--home')[0].style.color = '#603c96'
             }
             else if(location.href.indexOf('casestudy-home')>-1){
-                console.log('products');
                 document.getElementsByClassName('hashworks__head--case')[0].style.color = '#603c96'
             }
             else if(location.href.indexOf('contactUs')>-1){
-                console.log('products');
                 document.getElementsByClassName('hashworks__head--contact')[0].style.color = '#603c96'
             }
         }
