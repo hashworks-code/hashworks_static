@@ -141,6 +141,9 @@
                         }
         }
                      &__images {
+                         i {
+                  position: relative;
+              }
                         &__image1 {
             background-image: url(../assets/image/contactus/contact1.png);
               background-size: cover;
