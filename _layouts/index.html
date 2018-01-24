@@ -153,23 +153,20 @@
 </div>
 
 <script>        
-        // Use an off-screen image to load the next frame.
+       
         var img = new Image();
 
-        // When it is loaded...
+      
         img.addEventListener("load", function() {
 
-            // Set the on-screen image to the same source. This should be instant because
-            // it is already loaded.
+          
             document.getElementById("frame").src = img.src;
 
-            // Schedule loading the next frame.
+           
             setTimeout(function() {
                 img.src = "../assets/image/job/hashlogo.gif" + (new Date).getTime();
-            }, 1000/15); // 15 FPS (more or less)
+            }, 1000/15); 
         })
-
-        // Start the loading process.
         img.src = "../assets/image/job/hashlogo.gif" + (new Date).getTime();
     </script>
 

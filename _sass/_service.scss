@@ -29,6 +29,11 @@
         &__container{
             width:307px;
             margin: 0 auto;
+
+           img {
+               width: 9px;
+               height: 16px;
+           }
         }
         &__headImg{
             background-image: url(../assets/image/mobile-and-development.png);
@@ -162,6 +167,11 @@
     .service{
         &__container{
             width: 700px;
+
+            img {
+               width: 9px;
+               height: 19px;
+           }
         }
         &__headImg{
             height: 144px;
@@ -245,6 +255,11 @@
     .service{
         &__container{
             width: 940px;
+
+            img {
+               width: 14px;
+               height: 29px;
+           }
         }
         &__headImg {
             height: 192px;
@@ -327,6 +342,11 @@
     .service{
         &__container{
             width: 1170px;
+
+             img {
+               width: 19px;
+               height: 35px;
+           }
         }
         &__headImg {
             height: 270px;

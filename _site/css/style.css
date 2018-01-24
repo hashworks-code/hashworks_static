@@ -2510,6 +2510,9 @@ a {
     .service__container {
       width: 307px;
       margin: 0 auto; }
+      .service__container img {
+        width: 9px;
+        height: 16px; }
     .service__headImg {
       background-image: url(../assets/image/mobile-and-development.png);
       background-repeat: no-repeat;
@@ -2619,6 +2622,9 @@ a {
 
   .service__container {
     width: 700px; }
+    .service__container img {
+      width: 9px;
+      height: 19px; }
   .service__headImg {
     height: 144px;
     margin-top: 48px; }
@@ -2677,6 +2683,9 @@ a {
 
   .service__container {
     width: 940px; }
+    .service__container img {
+      width: 14px;
+      height: 29px; }
   .service__headImg {
     height: 192px;
     margin-top: 66px; }
@@ -2735,6 +2744,9 @@ a {
 
   .service__container {
     width: 1170px; }
+    .service__container img {
+      width: 19px;
+      height: 35px; }
   .service__headImg {
     height: 270px; }
   .service__head {
