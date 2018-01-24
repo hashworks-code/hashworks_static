@@ -2485,6 +2485,12 @@ a {
     cursor: pointer;
     font-size: 35px;
     color: #7f7f7f; } }
+.shadow {
+  transition: all .5s ease; }
+  .shadow:hover {
+    box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
+    transform: scale(1.01); }
+
 @media only screen and (min-width: 320px) {
   .heading {
     position: absolute;
