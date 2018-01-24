@@ -320,6 +320,7 @@ position: relative;
 @media screen and (min-width:768px){
     .applyfield{
         padding: 0px;
+        position: relative;
         h6{
             font-size: 14px;
         }
@@ -471,6 +472,9 @@ position: relative;
                     width: 160px;
                     height: 37px;
                     margin: 0px auto 32px;
+                    position: absolute;
+                    right: 11px;
+                    bottom: -78px;
                    
                 }
               }
@@ -642,6 +646,7 @@ position: relative;
                 height: 49px;
                 margin: 0px auto 64px;
                 font-size: 16px;
+                bottom: -135px;
                
             }
           }

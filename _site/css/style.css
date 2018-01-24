@@ -5045,7 +5045,8 @@ ul.tabs li.current {
       outline: none; } }
 @media screen and (min-width: 768px) {
   .applyfield {
-    padding: 0px; }
+    padding: 0px;
+    position: relative; }
     .applyfield h6 {
       font-size: 14px; }
     .applyfield .uploadBox {
@@ -5165,7 +5166,10 @@ ul.tabs li.current {
   .modal-body .jobapply {
     width: 160px;
     height: 37px;
-    margin: 0px auto 32px; }
+    margin: 0px auto 32px;
+    position: absolute;
+    right: 11px;
+    bottom: -78px; }
 
   .modal-close {
     position: absolute;
@@ -5291,7 +5295,8 @@ ul.tabs li.current {
     width: 217px;
     height: 49px;
     margin: 0px auto 64px;
-    font-size: 16px; }
+    font-size: 16px;
+    bottom: -135px; }
 
   .modal-close {
     position: absolute;
@@ -7612,7 +7617,8 @@ ul.tabs li.current {
       outline: none; } }
 @media screen and (min-width: 768px) {
   .applyfield {
-    padding: 0px; }
+    padding: 0px;
+    position: relative; }
     .applyfield h6 {
       font-size: 14px; }
     .applyfield .uploadBox {
@@ -7730,7 +7736,10 @@ ul.tabs li.current {
   .modal-body .jobapply {
     width: 160px;
     height: 37px;
-    margin: 0px auto 32px; }
+    margin: 0px auto 32px;
+    position: absolute;
+    right: 11px;
+    bottom: -78px; }
 
   .modal-close {
     position: absolute;
@@ -7856,7 +7865,8 @@ ul.tabs li.current {
     width: 217px;
     height: 49px;
     margin: 0px auto 64px;
-    font-size: 16px; }
+    font-size: 16px;
+    bottom: -135px; }
 
   .modal-close {
     position: absolute;
