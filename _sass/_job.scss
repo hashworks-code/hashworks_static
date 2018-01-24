@@ -321,6 +321,7 @@ position: relative;
 
     .applyfield{
         padding: 0px;
+        position: relative;
     
         h6{
           
@@ -440,7 +441,7 @@ position: relative;
               }
               .modal-wrapper {
                 padding: 0px 94px 0px 105px;
-                margin-top: 61px;
+                margin-top: 49px;
                 height: 1016px;
                 .modal-header{
                     h1{
@@ -478,6 +479,9 @@ position: relative;
                     width: 160px;
                     height: 37px;
                     margin: 0px auto 32px;
+                    position: absolute;
+                    right: 11px;
+                    bottom: -78px;
                    
                 }
               }
@@ -610,7 +614,7 @@ position: relative;
          }
          .modal-wrapper {
             padding: 0px 122px 0px;
-            margin-top: 85px;
+            margin-top:67px;
             height: 1125px;
             .modal-header{
                 h1{
@@ -649,6 +653,7 @@ position: relative;
                 height: 49px;
                 margin: 0px auto 64px;
                 font-size: 16px;
+                bottom: -135px;
                
             }
           }
@@ -776,7 +781,7 @@ position: relative;
          }
          .modal-wrapper {
             padding: 0px 235px;
-            margin-top: 82px;
+            margin-top: 67px;
             height: 1522px;
             .modal-header{
                 h1{

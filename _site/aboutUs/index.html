@@ -23,22 +23,19 @@
 
 </head>
 <body id="close">
-    <!-- <div class="loader">
-        <img class="loader-image" src="../assets/image/job/hashlogo.gif">
-    </div> -->
     <header class="hashworks__head">
         <a href="/index"> <img class="hashworks__head--logo" src="/assets/image/logo.svg" alt="hashlogo"></a>
-        <div class="hashworks__head--list">
-            <a href="/index"  class="hashworks__head--home">Home</a>
-            <a class="hashworks__head--product dropbtn menuClass link"  id="menu-1">Product & Service
-                <div class="popover" id="mypopover"></div>
-            </a>
-            <a class="hashworks__head--case" href="/casestudy-home">Case Study</a>
-            <a class="hashworks__head--about dropbtn menuClass link" id="menu-2">About
-           <div class="popoverer" id="mypopover-about"></div>
-              </a>
-           <a class="hashworks__head--contact" href="/contactUs">Contact</a>
-        </div>
+            <div class="hashworks__head--list">
+                <a href="/index"  class="hashworks__head--home">Home</a>
+                <a class="hashworks__head--product dropbtn menuClass link"  id="menu-1">Product & Service
+                    <div class="popover" id="mypopover"></div>
+                </a>
+                <a class="hashworks__head--case" href="/casestudy-home">Case Study</a>
+                <a class="hashworks__head--about dropbtn menuClass link" id="menu-2">About
+                    <div class="popoverer" id="mypopover-about"></div>
+                </a>
+                <a class="hashworks__head--contact" href="/contactUs">Contact</a>
+            </div>
         <img class="hashworks__head--toggle" src="/assets/image/group-2@2x.png" />
     </header>
     
@@ -51,7 +48,7 @@
                     <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
                 </div>
             </div>
-            <div class="productService--alignment">
+             <div class="productService--alignment">
                 <div class=" paketo">
                     <div class="productService--paketo fortext">
                         <div class="productService--produtpacto">
@@ -321,15 +318,12 @@
         window.onload = function() {
             console.log(location.href);
             if(location.href.indexOf('index')>-1){
-                console.log('expertise');
                 document.getElementsByClassName('hashworks__head--home')[0].style.color = '#603c96'
             }
             else if(location.href.indexOf('casestudy-home')>-1){
-                console.log('products');
                 document.getElementsByClassName('hashworks__head--case')[0].style.color = '#603c96'
             }
             else if(location.href.indexOf('contactUs')>-1){
-                console.log('products');
                 document.getElementsByClassName('hashworks__head--contact')[0].style.color = '#603c96'
             }
         }
@@ -358,202 +352,167 @@
     <div class="aboutus__headImg" data-src="../assets/image/aboutus/origami@2x.png">
         <h1 class="aboutus__content1">Who are we ?</h1>
     </div>
-
     <div class="aboutus__tab">
         <ul class="aboutus__tab--list tabs">
             <li class="thinkingtab current" data-tab="tab-1">Company</li>
             <li class="" data-tab="tab-2">Our Thinking</li>
         </ul>
     </div>
-   
     <div id="tab-1" class="tab-content current aboutus__company">
         <div style="background-color:white">
-                <div class="tabslider">
-                        <div id='timeline-embed' style="width: 100%; height:600px; "></div>
-                </div> 
+             <div class="tabslider">
+                <div id='timeline-embed' style="width: 100%; height:600px; "></div>
+            </div> 
         </div>
-           
-                    <div class="row">
-                            <div class="">
-                               <h1>Leadership</h1>
-                               <p>Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta.
-                                  Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.</p>
+            <div class="row">
+                    <div class="">
+                        <h1>Leadership</h1>
+                        <p>Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta.
+                            Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.</p>
+                    </div>
+                    <div class="profilehover">
+                        <div class="profilehover--profile">
+                            <img class="img1" src="../assets/image/aboutus/gk-2@2x.jpg">
+                            <h2>Gopikrishna Kannan</h2>
+                            <h3>Founder & CEO</h3>
+                            <!-- hover function -->
+                            <div class="profilehover__text hoverdiv">
+                                <div class="profilehover__text--content">
+                                        <img class="hoverhidden img1" src="../assets/image/aboutus/gk-2@2x.jpg">
+                                    <div  class="">
+                                        <h2 class="hoverhidden">Gopikrishna Kannan</h2>
+                                        <h3 class="hoverhidden">Founder & CEO</h3>
+                                        <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
+                                            He is responsible for setting the overall direction and product strategy for the company.</p>
+                                    <div class="addlink">
+                                        <img class="link1" src="../assets/image/aboutus/twitterlink.svg" alt="">
+                                        <a href="https://in.linkedin.com/in/kannangk" target="_blank">
+                                             <img class="link1" src="../assets/image/aboutus/linkdine.svg" alt="">
+                                        </a>     
+                                    </div>
+                                    </div>
+                                </div>
+                                </div> 
+                        </div>
+                        <div class="profilehover--profile">
+                            <div class="rajeshProfile">
+                                    <img class="img1" src="../assets/image/aboutus/rajesh@2x.jpg">
+                                    <h2>Rajesh Murugan</h2>
+                                    <h3>Co - founder & Delivery Head</h3>
                             </div>
-                           <div class="profilehover">
-                              <div class="profilehover--profile">
-                                  <img class="img1" src="../assets/image/aboutus/gk-2@2x.jpg">
-                                  <h2>Gopikrishna Kannan</h2>
-                                  <h3>Founder & CEO</h3>
-                                    <!-- hover function -->
-                                 <div class="profilehover__text hoverdiv">
+                            <div class="profilehover__text2 hoverdiv">
+                                
+                                    <div class="profilehover__text--content">
+                                        <div  class="">
+                                            <h2 class="hoverhidden">Rajesh Murugan</h2>
+                                            <h3 class="hoverhidden">Co - founder & Delivery Head</h3>
+                                            <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
+                                                He is responsible for setting the overall direction and product strategy for the company.</p>
+                                                <div class="addlink">
+                                                    <img class="link2" src="../assets/image/aboutus/twitterlink.svg" alt="">
+                                                    <img class="link3" src="../assets/image/aboutus/linkdine.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="hoverhidden img1" src="../assets/image/aboutus/rajesh@2x.jpg">  
+                                    </div>
+                                    </div> 
+                            </div>
+                        </div>
+                        <div class="profilehover">
+                            <div class="profilehover--profile">
+                                <img class="img1"  src="../assets/image/aboutus/venki@2x.jpg">
+                                <h2>Venkatesh Srinivasachar</h2>
+                                <h3>Technology Leader</h3>
+                                <!-- hover function -->
+                                <div class="profilehover__text hoverdiv">
+                                    <div class="profilehover__text--content">
+                                        <img class="hoverhidden img1" src="../assets/image/aboutus/venki@2x.jpg">
+                                        <div  class="">
+                                            <h2 class="hoverhidden">Venkatesh Srinivasachar</h2>
+                                            <h3 class="hoverhidden">Technology Leader</h3>
+                                            <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
+                                                He is responsible for setting the overall direction and product strategy for the company.</p>
+                                                <div class="addlink">
+                                                    <img class="link1" src="../assets/image/aboutus/twitterlink.svg" alt="">
+                                                    <img class="link1" src="../assets/image/aboutus/linkdine.svg" alt="">
+                                                </div>
+                                        </div>
+                                    </div>
+                                    </div> 
+                            </div>
+                            <div class="profilehover--profile">
+                                <img class="img1" src="../assets/image/aboutus/sudharsanan@2x.jpg">
+                                <h2>Sudharsanaraman</h2>
+                                <h3>Portfolio & RMG Head</h3>
+                                <div class="profilehover__text2 hoverdiv">
                                     
                                         <div class="profilehover__text--content">
-                                         
-                                              <img class="hoverhidden img1" src="../assets/image/aboutus/gk-2@2x.jpg">
-                                         
-                                          <div  class="">
-                                              <h2 class="hoverhidden">Gopikrishna Kannan</h2>
-                                              <h3 class="hoverhidden">Founder & CEO</h3>
-                                              <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
-                                                 He is responsible for setting the overall direction and product strategy for the company.</p>
-                                          <div class="addlink">
-                                              <img class="link1" src="../assets/image/aboutus/twitterlink.svg" alt="">
-                                              <img class="link1" src="../assets/image/aboutus/linkdine.svg" alt="">
-                                          </div>
-                                                <!-- <p> <a href="https://in.linkedin.com/in/kannangk" target="_blank">
-                                                  in.linkedin.com/in/kannangk</a> </p>  -->
+                                            <div  class="">
+                                                <h2 class="hoverhidden">Sudharsanaraman</h2>
+                                                <h3 class="hoverhidden">Portfolio & RMG Head</h3>
+                                                <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
+                                                    He is responsible for setting the overall direction and product strategy for the company.</p>
+                                            
+                                                    <div class="addlink">
+                                                        <img class="link2" src="../assets/image/aboutus/twitterlink.svg" alt="">
+                                                        <img class="link3" src="../assets/image/aboutus/linkdine.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <img class="hoverhidden img1" src="../assets/image/aboutus/sudharsanan@2x.jpg">  
+                                        </div>
+                                        </div> 
+                                </div>
+                            </div>
+        
+                            <div class="profilehover">
+                                <div class="profilehover--profile">
+                                    <img class="img1" src="../assets/image/aboutus/shilpa@2x.jpg">
+                                    <h2>Shilpa Gopikrishna</h2>
+                                    <h3>Creative Director</h3>
+                                    <!-- hover function -->
+                                    <div class="profilehover__text hoverdiv">
+                                        <div class="profilehover__text--content">
+                                            <img class="hoverhidden img1" src="../assets/image/aboutus/shilpa@2x.jpg">  
+                                            <div  class="">
+                                                <h2 class="hoverhidden">Shilpa Gopikrishna</h2>
+                                                <h3 class="hoverhidden">Creative Director</h3>
+                                                <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
+                                                    He is responsible for setting the overall direction and product strategy for the company.</p>
+                                                    <div class="addlink">
+                                                        <img class="link1" src="../assets/image/aboutus/twitterlink.svg" alt="">
+                                                        <img class="link1" src="../assets/image/aboutus/linkdine.svg" alt="">
+                                                    </div>
                                             </div>
                                         </div>
-                                      </div> 
-                              </div>
-                              
-                             
+                                        </div> 
+                                </div>
                                 <div class="profilehover--profile">
-                                    <div class="rajeshProfile">
-                                         <img class="img1" src="../assets/image/aboutus/rajesh@2x.jpg">
-                                         <h2>Rajesh Murugan</h2>
-                                         <h3>Co - founder & Delivery Head</h3>
-                                    </div>
-                                  
+                                    <img class="img1" src="../assets/image/aboutus/harish@2x.jpg">
+                                    <h2>Harish Babu</h2>
+                                    <h3>Finance</h3>
                                     <div class="profilehover__text2 hoverdiv">
-                                        
                                             <div class="profilehover__text--content">
                                                 <div  class="">
-                                                    <h2 class="hoverhidden">Rajesh Murugan</h2>
-                                                    <h3 class="hoverhidden">Co - founder & Delivery Head</h3>
+                                                    <h2 class="hoverhidden">Harish Babu</h2>
+                                                    <h3 class="hoverhidden">Finance</h3>
                                                     <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
-                                                       He is responsible for setting the overall direction and product strategy for the company.</p>
-                                                       <div class="addlink">
+                                                        He is responsible for setting the overall direction and product strategy for the company.</p>
+                                                        <div class="addlink">
                                                             <img class="link2" src="../assets/image/aboutus/twitterlink.svg" alt="">
                                                             <img class="link3" src="../assets/image/aboutus/linkdine.svg" alt="">
                                                         </div>
-                                                     <!-- <p><a href="https://in.linkedin.com/in/kannangk" target="_blank">
-                                                        in.linkedin.com/in/kannangk</a>  </p> -->
-                                                      
-                                                  </div>
-                                                  <img class="hoverhidden img1" src="../assets/image/aboutus/rajesh@2x.jpg">
-                                             
-                                            
-                                            </div>
-                                          </div> 
-                                 </div>
-                           
-                              </div>
-                              <div class="profilehover">
-                                  <div class="profilehover--profile">
-                                      <img class="img1"  src="../assets/image/aboutus/venki@2x.jpg">
-                                      <h2>Venkatesh Srinivasachar</h2>
-                                      <h3>Technology Leader</h3>
-                                        <!-- hover function -->
-                                     <div class="profilehover__text hoverdiv">
-                                        
-                                            <div class="profilehover__text--content">
-                                             
-                                                <img class="hoverhidden img1" src="../assets/image/aboutus/venki@2x.jpg">
-                                             
-                                              <div  class="">
-                                                  <h2 class="hoverhidden">Venkatesh Srinivasachar</h2>
-                                                  <h3 class="hoverhidden">Technology Leader</h3>
-                                                  <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
-                                                     He is responsible for setting the overall direction and product strategy for the company.</p>
-                                                     <div class="addlink">
-                                                            <img class="link1" src="../assets/image/aboutus/twitterlink.svg" alt="">
-                                                            <img class="link1" src="../assets/image/aboutus/linkdine.svg" alt="">
-                                                        </div>
-                                                </div>
-                                            </div>
-                                          </div> 
-                                  </div>
-                                  
-                                 
-                                    <div class="profilehover--profile">
-                                        <img class="img1" src="../assets/image/aboutus/sudharsanan@2x.jpg">
-                                        <h2>Sudharsanaraman</h2>
-                                        <h3>Portfolio & RMG Head</h3>
-                                        <div class="profilehover__text2 hoverdiv">
-                                            
-                                                <div class="profilehover__text--content">
-                                                    <div  class="">
-                                                        <h2 class="hoverhidden">Sudharsanaraman</h2>
-                                                        <h3 class="hoverhidden">Portfolio & RMG Head</h3>
-                                                        <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
-                                                           He is responsible for setting the overall direction and product strategy for the company.</p>
-                                                    
-                                                           <div class="addlink">
-                                                                <img class="link2" src="../assets/image/aboutus/twitterlink.svg" alt="">
-                                                                <img class="link3" src="../assets/image/aboutus/linkdine.svg" alt="">
-                                                            </div>
-                                                      </div>
-                                                      <img class="hoverhidden img1" src="../assets/image/aboutus/sudharsanan@2x.jpg">
-                                                 
-                                                
-                                                </div>
-                                              </div> 
-                                     </div>
-                               
-                                  </div>
-             
-                                  <div class="profilehover">
-                                      <div class="profilehover--profile">
-                                          <img class="img1" src="../assets/image/aboutus/shilpa@2x.jpg">
-                                          <h2>Shilpa Gopikrishna</h2>
-                                          <h3>Creative Director</h3>
-                                            <!-- hover function -->
-                                         <div class="profilehover__text hoverdiv">
-                                            
-                                                <div class="profilehover__text--content">
-                                                 
-                                                    <img class="hoverhidden img1" src="../assets/image/aboutus/shilpa@2x.jpg">
-                                                 
-                                                  <div  class="">
-                                                      <h2 class="hoverhidden">Shilpa Gopikrishna</h2>
-                                                      <h3 class="hoverhidden">Creative Director</h3>
-                                                      <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
-                                                         He is responsible for setting the overall direction and product strategy for the company.</p>
-                                                         <div class="addlink">
-                                                                <img class="link1" src="../assets/image/aboutus/twitterlink.svg" alt="">
-                                                                <img class="link1" src="../assets/image/aboutus/linkdine.svg" alt="">
-                                                            </div>
                                                     </div>
-                                                </div>
-                                              </div> 
-                                      </div>
-                                   
-                                     
-                                        <div class="profilehover--profile">
-                                            <img class="img1" src="../assets/image/aboutus/harish@2x.jpg">
-                                            <h2>Harish Babu</h2>
-                                            <h3>Finance</h3>
-                                            <div class="profilehover__text2 hoverdiv">
-                                                
-                                                    <div class="profilehover__text--content">
-                                                        <div  class="">
-                                                          <h2 class="hoverhidden">Harish Babu</h2>
-                                                          <h3 class="hoverhidden">Finance</h3>
-                                                            <p>Drew co-founded Dropbox in 2007 and has led its growth from a simple idea to a service used by hundreds of millions of people around the world.
-                                                               He is responsible for setting the overall direction and product strategy for the company.</p>
-                                                               <div class="addlink">
-                                                                    <img class="link2" src="../assets/image/aboutus/twitterlink.svg" alt="">
-                                                                    <img class="link3" src="../assets/image/aboutus/linkdine.svg" alt="">
-                                                                </div>
-                                                          </div>
-                                                          <img class="hoverhidden img1" src="../assets/image/aboutus/harish@2x.jpg">
-                                                     
-                                                    
-                                                    </div>
-                                                  </div> 
-                                         </div>
-                                   
-                                      </div>
-                  
+                                                    <img class="hoverhidden img1" src="../assets/image/aboutus/harish@2x.jpg">     
+                                            </div>
+                                            </div> 
+                                    </div>
+                             </div>
                           </div>
                     <div onclick="redirect('/workculture/')" class="aboutus__company--explore">
                         <h1>Explore Workculture</h1>
                     </div>
                 </div>
-    <div id="tab-2" class="tab-content  aboutus__thinking thinkingtab">
-            
-        
+    <div id="tab-2" class="tab-content  aboutus__thinking thinkingtab"> 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="aboutus__thinking--container1">
@@ -633,7 +592,6 @@
         <div onclick="redirect('/wegrew/')" class="aboutus__thinking--grew">
             <p>How we Grew 200 % over 3 years</p>
         </div>
-
     </div>
    
     <!-- company tag -->
@@ -646,27 +604,6 @@
    </script>
 <script>
     $(document).ready(function() {
-    //     $('.lazy').Lazy({
-    //         // your configuration goes here
-    //         scrollDirection: 'vertical',
-    //         effect: "fadeIn",
-    //         effectTime: 1000,
-    //         threshold: 0,
-    //         visibleOnly: true,
-    //         // placeholder: "data:'../assets/image/testing.jpg';base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
-    //         beforeLoad: function(element) {
-    //             console.log(' started loading ' + element.data('src'));
-    //         },
-    //         afterLoad: function(element) {
-    //             console.log('finish loading ' + element.data('src'));
-    //         },
-    //         onError: function(element) {
-    //             console.log('error loading ' + element.data('src'));
-    //         },
-    //         onFinishedAll: function() {
-    //             console.log('all Done')
-    //         }
-    // });
         $('ul.tabs li').click(function() {
             var tab_id = $(this).attr('data-tab');
 
@@ -717,19 +654,18 @@
             "loading" !== document.readyState ? u() : document.addEventListener("DOMContentLoaded", u)
         }
     });
-    //# sourceMappingURL=homepage.83a56f12.js.map
 </script>
 <footer class="footer">
-<div class="footer__list">
-            <div class="row footer__list--view">
-             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                 <h1>PRODUCT</h1>
+   <div class="footer__list">
+        <div class="row footer__list--view">
+            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                <h1>PRODUCT</h1>
                  <ul>
                      <li><a href="https://groome.co/" target="_blank">Groome</a></li>
                      <li><a href="https://enigma.hashworks.co/" target="_blank">Enigma</a> </li>
                      <li><a href="https://www.littlebrahma.com/" target="_blank">Littlebrahma</a> </li>
                  </ul>
-             </div>
+            </div>
              <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <h1>SERVICES</h1>
                     <ul>
@@ -739,41 +675,39 @@
                         <li><a href="/dataScience/">Data Science</a></li>
                         <!-- <li><a href="/devOps/">DevOps</a></li> -->
                     </ul>
-                </div>
-                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                        <h1>COMPANY</h1>
-                        <ul>
-                            <li><a href="/aboutUs/">About</a></li>
-                            <li><a href="/workculture/">WorkCulture</a></li>
-                          
-                        </ul>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+             </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <h1>COMPANY</h1>
+                    <ul>
+                        <li><a href="/aboutUs/">About</a></li>
+                        <li><a href="/workculture/">WorkCulture</a></li>
+                    </ul>
+            </div>
+                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                             <h1>CONNECT US</h1>
                             <ul>
                                 <li><a href="/contactUs/">Contact Us</a></li>
                                 <li><a href="/job/">Careers</a></li>
                             </ul>
-                        </div>
-                       
                 </div>
-                <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer__list--copyright">
-                          <h4>Copyright2017@ Hashworks.co</h4>
-                          <div class="footer__list--social">
-                              <a href="https://twitter.com/hashworksco" target="_blank">
-                                  <img  src="../assets/image/twitter.svg"/>
-                              </a>
-                              <a href="https://www.linkedin.com/company/hashworks?trk=top_nav_home" target="_blank">
-                                   <img  src="../assets/image/linkedin-logo.svg"/>
-                              </a>
-                                <a href="https://www.facebook.com/hashworks" target="_blank">
-                                    <img  src="../assets/image/facebook-logo.svg"/>
-                                </a>
-                        </div>
-                        </div>
+         </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer__list--copyright">
+                <h4>Copyright2017@ Hashworks.co</h4>
+                    <div class="footer__list--social">
+                        <a href="https://twitter.com/hashworksco" target="_blank">
+                            <img  src="../assets/image/twitter.svg"/>
+                        </a>
+                        <a href="https://www.linkedin.com/company/hashworks?trk=top_nav_home" target="_blank">
+                            <img  src="../assets/image/linkedin-logo.svg"/>
+                        </a>
+                        <a href="https://www.facebook.com/hashworks" target="_blank">
+                            <img  src="../assets/image/facebook-logo.svg"/>
+                        </a>
                     </div>
-            </div>
-            </footer>
+             </div>
+         </div>
+    </div>
+</footer>
 </body>
 </html>

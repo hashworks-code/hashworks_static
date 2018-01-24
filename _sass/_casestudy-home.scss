@@ -42,7 +42,6 @@
     .casestudy__events {
       .shadow {
         transition: all .5s ease;
-        // box-shadow: 0px 0px 4px 2px #999;
         &:hover {
           box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, .25);
           transform: scale(1.01);

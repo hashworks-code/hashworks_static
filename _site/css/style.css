@@ -2104,7 +2104,7 @@ a {
     height: 270px;
     background-size: cover;
     background-position: center center;
-    margin-top: 66px; }
+    margin-top: 67px; }
   .product__content1 {
     width: 1158px;
     margin: 0 auto; }
@@ -2224,7 +2224,7 @@ a {
 @media only screen and (max-width: 1366px) {
   .product__headImg {
     height: 192px;
-    margin-top: 66px; }
+    margin-top: 67px; }
   .product__content1 {
     width: 935px; }
   .product__head {
@@ -2485,6 +2485,12 @@ a {
     cursor: pointer;
     font-size: 35px;
     color: #7f7f7f; } }
+.shadow {
+  transition: all .5s ease; }
+  .shadow:hover {
+    box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
+    transform: scale(1.01); }
+
 @media only screen and (min-width: 320px) {
   .heading {
     position: relative;
@@ -5045,7 +5051,8 @@ ul.tabs li.current {
       outline: none; } }
 @media screen and (min-width: 768px) {
   .applyfield {
-    padding: 0px; }
+    padding: 0px;
+    position: relative; }
     .applyfield h6 {
       font-size: 14px; }
     .applyfield .uploadBox {
@@ -5136,7 +5143,7 @@ ul.tabs li.current {
 
   .modal-wrapper {
     padding: 0px 94px 0px 105px;
-    margin-top: 61px;
+    margin-top: 49px;
     height: 1016px; }
     .modal-wrapper .modal-header h1 {
       font-size: 18px;
@@ -5165,7 +5172,10 @@ ul.tabs li.current {
   .modal-body .jobapply {
     width: 160px;
     height: 37px;
-    margin: 0px auto 32px; }
+    margin: 0px auto 32px;
+    position: absolute;
+    right: 11px;
+    bottom: -78px; }
 
   .modal-close {
     position: absolute;
@@ -5261,7 +5271,7 @@ ul.tabs li.current {
 
   .modal-wrapper {
     padding: 0px 122px 0px;
-    margin-top: 85px;
+    margin-top: 67px;
     height: 1125px; }
     .modal-wrapper .modal-header h1 {
       font-size: 36px;
@@ -5291,7 +5301,8 @@ ul.tabs li.current {
     width: 217px;
     height: 49px;
     margin: 0px auto 64px;
-    font-size: 16px; }
+    font-size: 16px;
+    bottom: -135px; }
 
   .modal-close {
     position: absolute;
@@ -5389,7 +5400,7 @@ ul.tabs li.current {
 
   .modal-wrapper {
     padding: 0px 235px;
-    margin-top: 82px;
+    margin-top: 67px;
     height: 1522px; }
     .modal-wrapper .modal-header h1 {
       font-size: 48px;
@@ -7612,7 +7623,8 @@ ul.tabs li.current {
       outline: none; } }
 @media screen and (min-width: 768px) {
   .applyfield {
-    padding: 0px; }
+    padding: 0px;
+    position: relative; }
     .applyfield h6 {
       font-size: 14px; }
     .applyfield .uploadBox {
@@ -7701,7 +7713,7 @@ ul.tabs li.current {
 
   .modal-wrapper {
     padding: 0px 94px 0px 105px;
-    margin-top: 61px;
+    margin-top: 49px;
     height: 1016px; }
     .modal-wrapper .modal-header h1 {
       font-size: 18px;
@@ -7730,7 +7742,10 @@ ul.tabs li.current {
   .modal-body .jobapply {
     width: 160px;
     height: 37px;
-    margin: 0px auto 32px; }
+    margin: 0px auto 32px;
+    position: absolute;
+    right: 11px;
+    bottom: -78px; }
 
   .modal-close {
     position: absolute;
@@ -7826,7 +7841,7 @@ ul.tabs li.current {
 
   .modal-wrapper {
     padding: 0px 122px 0px;
-    margin-top: 85px;
+    margin-top: 67px;
     height: 1125px; }
     .modal-wrapper .modal-header h1 {
       font-size: 36px;
@@ -7856,7 +7871,8 @@ ul.tabs li.current {
     width: 217px;
     height: 49px;
     margin: 0px auto 64px;
-    font-size: 16px; }
+    font-size: 16px;
+    bottom: -135px; }
 
   .modal-close {
     position: absolute;
@@ -7954,7 +7970,7 @@ ul.tabs li.current {
 
   .modal-wrapper {
     padding: 0px 235px;
-    margin-top: 82px;
+    margin-top: 67px;
     height: 1522px; }
     .modal-wrapper .modal-header h1 {
       font-size: 48px;
