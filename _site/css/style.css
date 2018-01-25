@@ -2493,22 +2493,10 @@ a {
 
 @media only screen and (min-width: 320px) {
   .heading {
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 16px;
     z-index: 500; }
-    .heading h1 {
-      font-family: 'muliRegular';
-      font-size: 24px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: left;
-      color: #ffffff;
-      width: 307px;
-      margin: 0 auto; }
 
   .service {
     font-family: 'muliRegular';
@@ -8127,6 +8115,8 @@ ul.tabs li.current {
       line-height: 1.5;
       text-align: center;
       color: #3e3e3e; }
+  .hashworks__contactUs__images i {
+    position: relative; }
   .hashworks__contactUs__images__image1 {
     background-image: url(../assets/image/contactus/contact1.png);
     background-size: cover;
