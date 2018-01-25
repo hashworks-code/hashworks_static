@@ -3105,10 +3105,9 @@ a {
       width: 120px;
       margin: 0 auto; }
       .hashworks__workculture .workculture__box h1 img {
-        width: 12px;
         height: 20px;
         margin-left: 5px;
-        margin-top: 34px; }
+        margin-top: 37px; }
   .hashworks__workculture .workculture__bottomImage {
     background-image: url(../assets/image/workculture/1.png);
     background-size: cover;
@@ -3151,10 +3150,6 @@ a {
   .hashworks__workculture .workculture__box {
     width: 240px;
     margin-bottom: 16px; }
-    .hashworks__workculture .workculture__box h1 img {
-      width: 11px;
-      height: 19px;
-      margin-left: 4px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
       font-size: 16px; }
@@ -3203,9 +3198,9 @@ a {
       font-size: 32px;
       height: 191px; }
       .hashworks__workculture .workculture__box h1 img {
-        width: 13px;
         height: 24px;
-        margin-left: 10px; }
+        margin-left: 10px;
+        margin-top: 48px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
       font-size: 16px; }
@@ -3252,9 +3247,9 @@ a {
       font-family: 'muliRegular';
       height: 256px; }
       .hashworks__workculture .workculture__box h1 img {
-        width: 18px;
         height: 30px;
-        margin-left: 9px; }
+        margin-left: 18px;
+        margin-top: 71px; }
     .hashworks__workculture .workculture__box span {
       margin-left: 3px;
       font-size: 16px; }
