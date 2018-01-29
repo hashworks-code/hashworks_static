@@ -2095,6 +2095,9 @@ a {
     display: flex;
     width: 845px;
     margin: 0 auto; } }
+button {
+  cursor: pointer; }
+
 .product {
   color: #3e3e3e;
   font-family: 'muliRegular'; }
@@ -2145,6 +2148,8 @@ a {
     font-size: 48px; }
   .product__Groome_logo img {
     width: 238px; }
+  .product__Groome a {
+    color: white; }
   .product__Groome p {
     font-size: 24px;
     margin-bottom: 10px; }
@@ -2419,6 +2424,8 @@ a {
   .product__Groome span {
     font-size: 12px;
     font-family: 'muliREgular'; }
+  .product__Groome a {
+    color: white; }
   .product__borderRight {
     border-right: none;
     padding-bottom: 39px; }

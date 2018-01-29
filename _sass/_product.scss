@@ -1,4 +1,6 @@
-
+button{
+  cursor: pointer;
+}
 .product{
     color: #3e3e3e;
     font-family: 'muliRegular';
@@ -45,13 +47,10 @@
       background-position: center center;
     }
     &__Groome{
-     // background-color: #5e5b5b;
      color: #fff;
      height: 579px;
      display: flex;
-     // justify-content: center;
      align-items: center;
-     // margin: 32px 0;
     }
     &__Groome h4 {
       font-size: 24px;
@@ -65,14 +64,14 @@
     &__Groome_logo img{
       width: 238px;
     }
+    &__Groome a {
+      color: white;
+    }
     &__Groome p {
       font-size: 24px;
       margin-bottom: 10px;
     }
     &__Groome_logo{
-      // font-size: 60px;
-      // color: #00ffff;
-      // text-align: center;
       display: flex;
       justify-content: center;
       // height: inherit;
@@ -492,6 +491,9 @@
     &__Groome span {
       font-size: 12px;
       font-family: 'muliREgular';
+    }
+     &__Groome a {
+      color: white;
     }
     &__borderRight{
       border-right: none;
