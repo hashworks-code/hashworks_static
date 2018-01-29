@@ -75,8 +75,7 @@ body {
     width: 100%;
     padding: 32px 0px 17px 0px;
     list-style-type: none;
-    z-index: 50;
-    height: 500%; }
+    z-index: 50; }
     body .menulist li {
       list-style-type: none; }
     body .menulist a {
