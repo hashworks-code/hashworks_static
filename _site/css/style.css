@@ -1052,7 +1052,7 @@ a {
   color: white;
   position: absolute;
   right: 12px;
-  top: 66px;
+  top: 72px;
   font-size: 24px;
   cursor: pointer; }
 
@@ -1060,7 +1060,7 @@ a {
   color: white;
   position: absolute;
   left: 12px;
-  top: 66px;
+  top: 74px;
   font-size: 24px;
   cursor: pointer; }
 
@@ -1141,7 +1141,8 @@ a {
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-    margin: 0px 38px 8px; }
+    margin: 0px 38px 8px;
+    width: 225px; }
   .home__groome h6 {
     font-family: 'muliRegular';
     font-size: 12px;
@@ -1228,7 +1229,7 @@ a {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
   .home__businessImpact--thinking h2 {
-    padding: 60px 0px 25px 28px;
+    padding: 29px 0px 25px 28px;
     width: 160px; }
 .home__businessImpact--culture {
   background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
@@ -1243,8 +1244,8 @@ a {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
   .home__businessImpact--culture h2 {
-    padding: 29px 0px 0px 28px;
-    width: 293px; }
+    width: 293px;
+    margin: 29px auto 0px; }
 .home__caseStudy {
   background-color: #000000; }
   .home__caseStudy--arrow {

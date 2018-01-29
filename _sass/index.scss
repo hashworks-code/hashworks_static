@@ -46,7 +46,7 @@ a{
     color: white;
     position: absolute;
     right: 12px;
-    top: 66px;
+    top: 72px;
     font-size: 24px;
     cursor: pointer;
   }
@@ -54,7 +54,7 @@ a{
     color: white;
     position: absolute;
     left: 12px;
-    top: 66px;
+    top: 74px;
     font-size: 24px;
     cursor: pointer;
   }
@@ -161,6 +161,7 @@ a{
         text-align: left;
         color: #ffffff;
         margin: 0px 38px 8px;
+        width: 225px;
       }
       h6 {
         font-family: 'muliRegular';
@@ -266,7 +267,7 @@ a{
           transform: scale(1.01);
         }
         h2 {
-          padding: 60px 0px 25px 28px;
+          padding: 29px 0px 25px 28px;
           width: 160px;
         }
       }
@@ -284,8 +285,8 @@ a{
           transform: scale(1.01);
         }
         h2 {
-          padding: 29px 0px 0px 28px;
           width: 293px;
+          margin: 29px auto 0px;
         }
       }
     }
