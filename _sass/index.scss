@@ -40,8 +40,6 @@ a{
 .no-border {
   border-bottom: none;
 }
-////@media screen and(min-width:320px) {
-
   .slickright {
     color: white;
     position: absolute;
@@ -76,7 +74,6 @@ a{
           margin: 0 auto;
         }
       &--pattern {
-        // background-image: url('../assets/image/job/BG.png');
         height: 269px;
          display: flex;
          justify-content: center;
@@ -127,14 +124,11 @@ a{
     &__groome {
       background-color: #000000;
       margin-bottom: 8px;
-      // height: 141px;
-      // height: 141px;
       img {
         width: 88px;
         margin: 25px 0px 0px 38px;
       }
       h1 {
-        // display: none;
         font-family: 'muliRegular';
         font-size: 12px;
         font-weight: normal;
@@ -521,7 +515,6 @@ a{
       margin-bottom: 8px;
       height: 281px;
       &__product {
-        // display: flex;
         .groomepng {
           display: flex;
           align-items: center;
@@ -816,10 +809,6 @@ a{
       &--logo {
         width: 400px;
         height: 400px;
-        // top: -17px;
-        // position: absolute;
-        // right: 86px;
-        // left: 485px;
       }
       &--heading {
         position: absolute;
@@ -904,12 +893,10 @@ a{
       &--grew {
         background-color: #603c96;
         width: 621px;
-        // margin: 0 auto;
       }
       &--impact {
         height: 323px;
         width: 300px;
-        // margin: 0 auto;
         h2 {
           width: 280px;
         }
@@ -917,7 +904,6 @@ a{
     }
     &__businessImpact {
       display: flex;
-      // justify-content: space-around;
       width: 940px;
       margin: 0 auto;
       margin-top: 27px;
@@ -975,7 +961,6 @@ a{
         width: 381px;
         height: 400px;
         margin: 51px 0px 54px 0px;
-        // position: absolute;
       }
       &--content {
         padding: 51px 0px 31px 41px;
@@ -1117,14 +1102,6 @@ a{
         width: 500px;
         height: 500px;
         top: 0px;
-        // position: absolute;
-        // right: 86px;
-        // left: 590px;
-      }
-      &--heading {
-        // position: absolute;
-        // top: 310px;
-        // left: 141px;
       }
       h1 {
         width: 474px;
@@ -1209,19 +1186,11 @@ a{
         background-color: #603c96;
         width: 770px;
         margin: 0px;
-        // transition: all .5s ease;
-        // &:hover {
-        //   transform: scale(1.01);
-        // }
       }
       &--impact {
         height: 396px;
         width: 370px;
         margin: 0 auto;
-        // transition: all .5s ease;
-        // &:hover {
-        //   transform: scale(1.01);
-        // }
         h2 {
           width: 326px;
         }

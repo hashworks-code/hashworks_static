@@ -43,10 +43,7 @@
     border: 0;
     cursor: pointer;
   }
-  
 
-
-//  @media screen and(min-width:320px) {
     .uploadresume{
 position: relative;
     }
@@ -91,7 +88,6 @@ position: relative;
 .internshipslider{
     .jobbutton{
         background-color: #603c96;
-        /* top: 100%; */
         width: 32px;
         height: 32px;
         border-radius: 50%;
@@ -175,7 +171,6 @@ position: relative;
          color: #3e3e3e;
      }
      &__position{
-         // height: 946px;
          background-color: #ffffff;
          box-shadow: 1px 3px 15px 10px rgba(222, 222, 222, 0.5);
          border: solid 1px #dcdcdc;
@@ -313,7 +308,7 @@ position: relative;
             outline: none;
         }
       }       
-//  }
+
  
 @media screen and (min-width:768px){
     .applyfield{
@@ -407,7 +402,6 @@ position: relative;
                       cursor: pointer;
                   }
                   &--alignment{
-                    // width: 560px;
                     display: flex;
                     justify-content: space-around;
                     margin-bottom: 29px;
@@ -580,7 +574,6 @@ position: relative;
                           padding: 6px 0px 8px;
                       }
                       &--alignment{
-                        // width: 560px;
                         display: flex;
                         justify-content: space-around;
                         margin-bottom: 29px;
@@ -750,7 +743,6 @@ position: relative;
                           padding: 6px 0px 8px;
                       }
                       &--alignment{
-                        // width: 560px;
                         display: flex;
                         justify-content: space-around;
                         margin-bottom:46px;

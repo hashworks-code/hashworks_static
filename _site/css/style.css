@@ -4864,7 +4864,6 @@ ul.tabs li.current {
 
 .jobslider .jobbutton {
   background-color: #603c96;
-  /* top: 100%; */
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -7436,7 +7435,6 @@ ul.tabs li.current {
 
 .internshipslider .jobbutton {
   background-color: #603c96;
-  /* top: 100%; */
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -8040,7 +8038,6 @@ ul.tabs li.current {
     font-family: 'muliRegular';
     font-size: 24px;
     text-align: center;
-    color: #ffffff;
     display: flex;
     width: 320px;
     height: 180px;
