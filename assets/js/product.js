@@ -18,6 +18,12 @@ $(document).ready(function(){
     $('.single-item').slick({
         nextArrow: '<i class="ion-ios-arrow-right slickprod"></i>',
         prevArrow: '<i class="ion-ios-arrow-left slickprod1"></i>',
+        dots: false,
+        infinite: true,
+        autoplay:true,
+       autoplaySpeed:2500,
+        fade: true,
+        cssEase: 'linear'
 
        });
   });
