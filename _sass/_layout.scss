@@ -60,11 +60,7 @@ body{
 //end dropdown code
 .dropdown{
     display: none;
-}
-//    a, a:visited { color: #4a4a4a; }
-// a.link.active { color: rgb(96, 60, 150); }
-@media screen and (min-width:320px){
- 
+} 
   .hashworks__head{
      display: none;
   }
@@ -84,7 +80,6 @@ body{
       padding: 32px 0px 17px 0px;
       list-style-type: none;
       z-index:50;
-      display:none;
    li{
       list-style-type: none;
    }
@@ -171,7 +166,6 @@ body{
         max-width: 100px;
         background-color: #f7f7f7;
         height: 88px;
-        // padding: 19px 6px 0px 2px;
         margin-right: 10px;
         img{
       width: 67px;
@@ -193,7 +187,6 @@ body{
         border-top: solid 1px #dadada; 
         margin-bottom: 16px;
         a{
-          // padding:0px 30px 6px 0px;
           font-size: 12px;
         }
       h2{
@@ -436,9 +429,6 @@ body{
   #cssmenu .submenu-button.submenu-opened:before{
         display:none
   }
-  
-  }
-  
   @media screen and (min-width:768px){ 
   
     #cssmenu{
@@ -541,7 +531,6 @@ body{
           display: flex;
           align-items: center;
           width: 100px;
-          // margin-left: 5px;
     }
     p{
           font-family: 'muliRegular';
@@ -571,7 +560,6 @@ body{
       }
         &--alignment2{
           width: 540px;
-          // display: flex;
           justify-content: space-between;
           margin-top: 30px;
       }
@@ -579,8 +567,6 @@ body{
           max-width: 100px;
           background-color: #f7f7f7;
           height: 88px;
-          // padding: 19px 9px 9px 9px;
-       
       }
     
     &__service{
@@ -624,7 +610,6 @@ body{
       width: 122px;
       height: 42px;
       background-color: #f7f7f7;
-      // margin-right: 21px;
       display: inline-flex;
    img {
         width: 15px;
@@ -953,7 +938,6 @@ body{
    }
     // about 
   .about{
-      //  margin: 25px 0px;
     .row{
         width: 940px;
         margin: 0 auto;
@@ -1172,8 +1156,6 @@ body{
       }
     }
     &--produtlittle{
-      // height: 78px;
-  
       img{
         width: 137px;
         height: 42px;
@@ -1198,7 +1180,6 @@ body{
     }
   }
   .about{
-        // margin: 25px 0px;
     .row{
         width: 1170px;
         margin: 0 auto;

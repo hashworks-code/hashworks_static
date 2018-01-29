@@ -1,4 +1,6 @@
-
+button{
+  cursor: pointer;
+}
 .product{
     color: #3e3e3e;
     font-family: 'muliRegular';
@@ -7,7 +9,6 @@
       background-repeat: no-repeat;
       height: 270px;
       background-size:cover;
-      // object-fit: contain;
       background-position: center center;
       margin-top: 67px;
     }
@@ -45,13 +46,10 @@
       background-position: center center;
     }
     &__Groome{
-     // background-color: #5e5b5b;
      color: #fff;
      height: 579px;
      display: flex;
-     // justify-content: center;
      align-items: center;
-     // margin: 32px 0;
     }
     &__Groome h4 {
       font-size: 24px;
@@ -65,17 +63,16 @@
     &__Groome_logo img{
       width: 238px;
     }
+    &__Groome a {
+      color: white;
+    }
     &__Groome p {
       font-size: 24px;
       margin-bottom: 10px;
     }
     &__Groome_logo{
-      // font-size: 60px;
-      // color: #00ffff;
-      // text-align: center;
       display: flex;
       justify-content: center;
-      // height: inherit;
       align-items: center;
     }
     &__paketo{
@@ -126,7 +123,6 @@
     }
     &__detail span{
       font-size: 48px;
-      // font-weight: bold;
       color: #603c96;
       text-align: center;
     }
@@ -187,20 +183,16 @@
     }
     &__content1{
       width: 935px;
-      // margin: 0 auto;
     }
     &__head{
-      // color: #fff;
       font-size: 56px;
       padding: 100px 0 32px;
         
     }
     &__content {
-      // text-align: center;
       margin: 32px 0;
     }
     &__content h1 {
-      // color: #603c96;
       font-size: 24px;
       margin: 0 0 16px;
     }
@@ -220,9 +212,7 @@
       font-size: 16px;
     }
     &__Groome h2 {
-      // margin: 16px 0;
       font-size: 24px;
-      // font-weight: 100;
     }
     &__Groome_logo img{
       width: 189px;
@@ -262,7 +252,6 @@
       
     }
     &__paketo h2{
-      // color: #603c96;
       font-size: 24px; 
       margin: 16px 0
     }
@@ -276,9 +265,7 @@
       text-align: center;
     }
     &__detail span{
-      // font-size: 48px;
       font-weight: bold;
-    
     }
     &__detail p {
       font-size: 18px;
@@ -294,7 +281,6 @@
     }
     
     &__pipeline {
-        // text-align: center;
         margin: 32px 0 61px;
     }
     &__allign{
@@ -448,7 +434,6 @@
         width: 300px;
       }
       &__content {
-        // padding: 23px 9px 32px;
         margin: 23px auto 32px;
     }
     &__content h1 {
@@ -492,6 +477,9 @@
     &__Groome span {
       font-size: 12px;
       font-family: 'muliREgular';
+    }
+     &__Groome a {
+      color: white;
     }
     &__borderRight{
       border-right: none;
@@ -562,10 +550,8 @@
       h1 {
         font-size: 18px;
         margin-bottom: 32px;
-      }
-          
+      }     
     }
-   
   }
   .slickprod{
     position: absolute;

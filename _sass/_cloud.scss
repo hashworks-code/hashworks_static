@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px){
+
     .cloud{
         font-family: 'muliRegular';
         color: #4a4a4a;
@@ -7,7 +7,6 @@
             margin: 0 auto;
         }
         &__headImg{
-            // background-image: url(../assets/image/cloud/server-01.png);
             background-repeat: no-repeat;
             height: 232px;
             width: 100%;
@@ -35,7 +34,6 @@
                 letter-spacing: normal;
                 text-align: center;
                 color: #ffffff;
-                // width: 270px;
                 margin: 0 auto;
             }
        
@@ -64,7 +62,6 @@
         &__div1{
             display: inline-block;
             width: 130px;
-            // height: 100%;
             background-color: #603c96;
             padding: 15px 10px 0 27px;
             h2{
@@ -83,7 +80,6 @@
             display: inline-block;
             vertical-align: top;
             width: 130px;
-            // height: 100%;
             background-color: #ffffff;
             padding: 15px 10px 0 27px;
             h2{
@@ -130,7 +126,6 @@
         &__div11{
             display: inline-block;
             width: 102px;
-            // height: 100%;
             background-color: #603c96;
             margin-left: 25px;
             padding: 25px 20px 17px 7px;
@@ -145,7 +140,6 @@
             display: inline-block;
             vertical-align: top;
             width: 102px;
-            // height: 100%;
             background-color: #f7f7f7;
             padding: 26px 35px 17px 11px;
             p{
@@ -220,7 +214,6 @@
             margin-top: 10px;
             margin-left: 25px;
             width: 102px;
-            // height: 109px;
             background-color: #151515;
             padding: 26px 35px 0 11px;
             
@@ -232,7 +225,6 @@
             }
         }
     }
-}
 @media only screen and (min-width: 768px){
     .cloud{
         margin-top:48px;
@@ -265,7 +257,6 @@
             margin-left: 7px;
             margin-top: 22px;
             width: 160px;
-            // height: 123px;
             padding: 5px 10px 14px 15px;
             h2{
                 font-size: 36px;
@@ -438,7 +429,6 @@
             }
         }
         &__div12 {
-            // margin-top: 55px;
             width: 140px;
             padding:0px;
             p{
