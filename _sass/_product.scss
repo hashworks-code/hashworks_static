@@ -74,6 +74,9 @@ button{
       display: flex;
       justify-content: center;
       align-items: center;
+      a{
+        color: white;
+      }
     }
     &__paketo{
       margin: 64px 0 50px;
