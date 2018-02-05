@@ -13,6 +13,12 @@
 .fullHeight {
   height: 100%; }
 
+.mobileheader {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 999; }
+
 i {
   position: absolute;
   right: 20px;
