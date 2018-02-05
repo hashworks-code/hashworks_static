@@ -548,7 +548,10 @@ $(".jobslider").slick({
 $('.modal-toggle').on('click', function(e) {
   e.preventDefault();
   $('.modal').toggleClass('is-visible');
+  var y = $('.modal-wrapper').scrollTop();  
+$(window).scrollTop(y+10);
 });
+
  </script>
 <footer class="footer">
    <div class="footer__list">
