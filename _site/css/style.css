@@ -2546,7 +2546,7 @@ button {
     .service__devops h1 {
       color: #fff;
       font-size: 24px;
-      padding: 111px 12px 0;
+      padding: 128px 12px 0;
       font-weight: 100; }
   .service__cloudImg {
     background-image: url(../assets/image/rectangle-3-copy-8.png);
@@ -2577,7 +2577,7 @@ button {
       font-size: 24px;
       color: #ffffff;
       font-weight: 100;
-      padding: 111px 12px 0;
+      padding: 117px 12px 0;
       height: 100%; }
   .service__dataScience {
     background-image: url(../assets/image/group-7.png);
@@ -2608,7 +2608,7 @@ button {
       font-size: 24px;
       color: #ffffff;
       font-weight: 100;
-      padding: 111px 12px 0;
+      padding: 117px 12px 0;
       height: 100%; }
   .service .col-xs-12.col-sm-8.col-md-8.col-lg-8 {
     padding: 0; }
@@ -2650,30 +2650,30 @@ button {
     .service__cloudImg h1 {
       width: 250px;
       font-size: 36px;
-      padding: 114px 25px 0; }
+      padding: 122px 25px 0; }
   .service__mobile {
     width: 96%;
     margin: 0 0 20px 19px;
     height: 239px; }
     .service__mobile h1 {
       font-size: 36px;
-      padding: 162px 32px 0; }
+      padding: 166px 32px 0; }
   .service__devops {
     height: 239px; }
     .service__devops h1 {
       font-size: 36px;
-      padding: 158px 35px 0; }
+      padding: 194px 35px 0; }
   .service__uiUx {
     height: 239px; }
     .service__uiUx h1 {
       font-size: 36px;
-      padding: 162px 32px 0; }
+      padding: 167px 32px 0; }
   .service__dataScience {
     height: 239px; }
     .service__dataScience h1 {
       width: 250px;
       font-size: 36px;
-      padding: 114px 25px 0; } }
+      padding: 122px 25px 0; } }
 @media only screen and (min-width: 1025px) {
   .heading {
     width: 100%;
@@ -2720,7 +2720,7 @@ button {
     height: 322px;
     margin-bottom: 20px; }
     .service__devops h1 {
-      padding: 216px 28px 0;
+      padding: 262px 28px 0;
       font-size: 48px; }
   .service__uiUx {
     height: 322px;
@@ -2734,7 +2734,7 @@ button {
     .service__dataScience h1 {
       width: 280px;
       font-size: 48px;
-      padding: 141px 27px 0; } }
+      padding: 158px 27px 0; } }
 @media only screen and (min-width: 1367px) {
   .heading {
     width: 100%;
@@ -2779,7 +2779,8 @@ button {
     height: 396px;
     margin-bottom: 20px; }
     .service__devops h1 {
-      padding: 289px 42px 0; }
+      padding: 332px 36px 0;
+      width: 1170px; }
   .service__uiUx {
     height: 396px;
     margin-bottom: 20px; }
@@ -4623,7 +4624,8 @@ ul.tabs li.current {
         margin-top: 40px; }
       .aboutus__company .profilehover--profile {
         position: relative;
-        vertical-align: top; }
+        vertical-align: top;
+        cursor: pointer; }
       .aboutus__company .profilehover__text {
         visibility: hidden;
         position: absolute;

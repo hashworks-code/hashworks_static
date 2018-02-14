@@ -642,6 +642,7 @@ ul.tabs li.current {
       &--profile{
           position: relative;
           vertical-align: top;
+          cursor: pointer;
       }
       &__text{
           visibility: hidden;
