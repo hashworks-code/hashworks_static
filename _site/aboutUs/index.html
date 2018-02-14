@@ -344,7 +344,6 @@
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.plugins.min.js"></script>
  <script type="text/javascript" src="/assets/js/head.js"></script>
 </body>
-
 <div class="aboutus">
     <div class="aboutus__headImg" data-src="../assets/image/aboutus/origami@2x.png">
         <h1 class="aboutus__content1">Who are we ?</h1>
@@ -355,7 +354,6 @@
             <li class="" data-tab="tab-2" id="company"> Company</li>
         </ul>
     </div>
-  
     <div id="tab-1" class="tab-content  aboutus__thinking thinkingtab current"> 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -598,11 +596,8 @@
     $(document).ready(function() {   
         $('ul.tabs li').click(function() {
             var tab_id = $(this).attr('data-tab');
-
             $('ul.tabs li').removeClass('current');
             $('.tab-content').removeClass('current');
-           
-
             $(this).addClass('current');
             $("#" + tab_id).addClass('current');
             if(tab_id=='tab-2'){
@@ -610,48 +605,9 @@
        'https://docs.google.com/spreadsheets/d/1hi6Fe-1CDGHmbhDEIQ3pCdT7wuFheTmoxnZkoC4DZ8I/edit#gid=0');
             }
         })
-
     })
 </script>
-<script type="application/javascript">
-    ! function(t) {}({
-        8: function(t, e, n) {
-            "use strict";
 
-            function o(t) {
-                return t && t.__esModule ? t : {
-                    default: t
-                }
-            }
-            n(2);
-            var i = n(42),
-                r = o(i),
-                a = "is-enhanced",
-                s = "is-preparing",
-                c = "has-transitioned";
-            requestAnimationFrame && sessionStorage && !sessionStorage.getItem("homepage-has-transitioned") && document.documentElement.classList.add(s);
-            var u = function() {
-                if (requestAnimationFrame && sessionStorage && !sessionStorage.getItem("homepage-has-transitioned")) {
-                    var t = document.querySelector(".js-homepage-header"),
-                        e = document.querySelector(".js-hash-grid");
-                    requestAnimationFrame(function() {
-                        var n = new r.default("Calibre");
-                        n.load().then(function() {
-                            t.classList.add(a), e.classList.add(a), t.querySelector(".js-home-header-button").addEventListener("transitionend", function(e) {
-                                "transform" === e.propertyName && t.classList.add(c)
-                            }), requestAnimationFrame(function() {
-                                document.documentElement.classList.remove(s)
-                            })
-                        }, function() {
-                            document.documentElement.classList.remove(s)
-                        }), sessionStorage.setItem("homepage-has-transitioned", !0)
-                    })
-                }
-            };
-            "loading" !== document.readyState ? u() : document.addEventListener("DOMContentLoaded", u)
-        }
-    });
-</script>
 <footer class="footer">
    <div class="footer__list">
         <div class="row footer__list--view">
