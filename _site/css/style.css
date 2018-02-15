@@ -4624,8 +4624,7 @@ ul.tabs li.current {
         margin-top: 40px; }
       .aboutus__company .profilehover--profile {
         position: relative;
-        vertical-align: top;
-        cursor: pointer; }
+        vertical-align: top; }
       .aboutus__company .profilehover__text {
         visibility: hidden;
         position: absolute;
