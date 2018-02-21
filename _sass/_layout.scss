@@ -98,7 +98,6 @@ body{
     display: block;
     padding: 25px 0px 25px 0px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-    border: solid 2px #f7f7f7;
   }
    //product for mobile view
   
@@ -401,14 +400,11 @@ body{
           transform:rotate(-45deg);
           cursor: pointer;
   }
-  
     //extra
     #cssmenu ul li {
         width: 100%;
         position: relative;
   }
- 
-  
   .up-arrow{
     position:absolute;
     right:19px;
@@ -475,7 +471,6 @@ body{
       }
     }
    // product and service
-    
     .popover {
       position: absolute;
       top: 20px;
@@ -539,10 +534,10 @@ body{
           text-align: center;
           color: #3e3e3e;
           width: 97px;
+          margin: 0 auto;
     }
       img{
           width: 70px;
-          margin: 17px 0px 0px 17px;  
       }
     &--listmargin{
          margin-left: 80px;
@@ -553,7 +548,7 @@ body{
           padding-right: 40px;
         }
         &--alignment{
-          width: 500px;
+          width:438px;
           display: flex;
           justify-content: space-between;
           align-items: flex-start;
@@ -564,9 +559,9 @@ body{
           margin-top: 30px;
       }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
-          max-width: 100px;
+          width: 120px;
           background-color: #f7f7f7;
-          height: 88px;
+          height: 90px;
       }
     
     &__service{
@@ -617,17 +612,32 @@ body{
         margin:14px 16px 17px 22px;
       }
      }
-
-     &--cloud {
+     &--mobility{
+      cursor: pointer;
+    width: 122px;
+    height: 42px;
+    background-color: #f7f7f7;
+    margin-left: 20px;
+    margin-top: 16px;
+    display: inline-flex;
+    img {
+      width: 16px;
+      height: 15px;
+      margin-top: 14px;
+    }
+    h4 {
+      margin-left: 10px;
+    }
+     }
+     &--cloud{
         cursor: pointer;
       width: 122px;
       height: 42px;
       background-color: #f7f7f7;
       margin-left: 80px;
       margin-top: 16px;
-      display: flex;
+      display: inline-flex;
   h4 {
-   
     margin-left: 10px;
   }
    img {
@@ -636,11 +646,11 @@ body{
         margin-top: 14px;
       }
      }
-
-     
     }
     &--produtpacto{
       height: 51px;
+      display: flex;
+      justify-content: center;
     }
     &--produtlittle{
       height: 60px;
@@ -652,9 +662,17 @@ body{
     }
     &--produtgroome{
       height: 51px;
+      display: flex;
+      justify-content: center;
     }
     &--produtfrugal{
       height: 51px;
+      display: flex;
+      justify-content: center;
+      img{
+        width: 45px;
+        
+      }
     }
    }
   // about 
@@ -775,27 +793,22 @@ body{
           font-weight: 500;
           font-family: 'muliSemiBold';
       }
-    
       }
       &--toggle{
          display: none;
       }
-   
     .popover{
         position: absolute;
         top: 30px;
-    
         left: 175px;
         border-left: 13px solid transparent;
         border-right: 13px solid transparent;
         border-bottom: 17px solid white;
         -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
-        
     }
     .popoverer{
       position: absolute;
       top: 30px;
-    
       left: 457px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
@@ -813,7 +826,6 @@ body{
         padding: 0px;
      }
       h2{
-      
         font-size: 16px;
         padding-bottom: 16px;
       }
@@ -832,20 +844,16 @@ body{
         font-size: 12px;
         width: 140px;
       }
-   
       img{
         width: 113px;
-       margin: 27px 13px 16px 13px;
       }
-    
       &--productContent{
         border-right: solid 1px #dadada;
         height: 178px;
         padding-right: 28px;
-        
       }
       &--alignment{
-        width: 689px;
+        width:588px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -855,21 +863,16 @@ body{
         margin: 0px;
       }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
-        max-width: 140px;
+        width: 170px;
         background-color: #f7f7f7;
         height: 122px;
-       
-       
       }
-    
     &__service{
          border-top:  solid 1px #dadada;
          padding-top: 36px;
-
          &--content{
           width: 241px;
        }
-
        &--mobile{
          margin-left: 60px;
          margin-right: 12px;
@@ -904,7 +907,17 @@ body{
         margin: 20px 16px 18px 29px;
       }
      }
-
+     &--mobility {
+      width: 146px;
+      height: 54px;
+      margin-left:0px;
+  
+img {
+    width: 24px;
+    height: 24px;
+    margin: 14px 13px 16px 10px;
+  }
+ }
      &--cloud {
           width: 146px;
           height: 54px;
@@ -934,6 +947,9 @@ body{
     }
     &--produtfrugal{
       height: 78px;
+      img{
+        width:82px;
+      }
     }
    }
     // about 
@@ -1081,7 +1097,7 @@ body{
           height: 178px;
       }
       &--alignment {
-          width: 836px;
+          width:761px;
           display: flex;
           justify-content: space-between;
           align-items: flex-start;
@@ -1091,7 +1107,7 @@ body{
     }
       &--paketo, &--littlebhrahma, &--groome, &--frugal{
           background-color: #f7f7f7;
-          max-width: 170px;
+          width:212px;
           height: 146px;
        
       }
@@ -1134,7 +1150,17 @@ body{
         margin: 26px 20px 24px 33px;
       }
      }
-
+     &--mobility {
+      width: 176px;
+      height: 68px;
+      margin: 24px 0px 0px 25px;
+      
+   img {
+        width: 29px;
+        height: 28px;
+        margin: 19px 15px 20px 13px;
+      }
+     }
      &--cloud {
       width: 176px;
       height: 68px;
@@ -1151,31 +1177,24 @@ body{
       height: 75px;
       img{
         width: 139px;
-        height: 35px;
-        margin: 30px 16px 0px 16px;
       }
     }
     &--produtlittle{
       img{
         width: 137px;
-        height: 42px;
-        margin: 30px 16px 0px 16px;
       }
     }
     &--produtgroome{
       height: 78px;
       img{
-        width: 115px;
-        height: 26px;
-        margin: 30px 28px 0px 28px;
+        width: 135px;
+   
       }
     }
     &--produtfrugal{
       height: 78px;
       img{
-        width: 128px;
-        height: 31px;
-        margin: 30px 21px 0px 21px;
+        width: 82px;
       }
     }
   }

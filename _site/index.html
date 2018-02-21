@@ -37,7 +37,6 @@
         <img class="hashworks__head--toggle" src="/assets/image/group-2@2x.png" />
     </header>
     
-
     <div id="myDropdown" class="productService dropdown menu-1-Content">
         <div class=" row">
             <div class=" ">
@@ -50,24 +49,16 @@
                 <div class=" paketo">
                     <div class="productService--paketo fortext">
                         <div class="productService--produtpacto">
-                            <img src="/assets/image/product&service/packeto.svg" />
+                            <img src="/assets/image/product&service/group-12.svg" />
                         </div>
-
                         <p>Enterprise Devops Framework</p>
                     </div>
                 </div>
-                <div class=" ">
-                    <div class="productService--littlebhrahma fortext">
-                        <div class="productService--produtlittle">
-                            <img src="/assets/image/product&service/little.svg" />
-                        </div>
-                        <p>Design Marketplace</p>
-                    </div>
-                </div>
+              
                 <div class=" ">
                     <div class="productService--groome  fortext">
                         <div class="productService--produtgroome">
-                            <img src="/assets/image/product&service/groome.svg" />
+                            <img src="/assets/image/product&service/group-24.svg" />
                         </div>
                         <p>A Talent Marketplace</p>
                     </div>
@@ -75,9 +66,9 @@
                 <div class=" ">
                     <div class="productService--frugal fortext">
                         <div class="productService--produtfrugal">
-                            <img src="/assets/image/product&service/frugal.svg" />
+                            <img src="/assets/image/product&service/group-43.svg" />
                         </div>
-                        <p>Cashflow Managment App</p>
+                        <p>A Talent Marketplace</p>
                     </div>
                 </div>
             </div>
@@ -90,30 +81,27 @@
                         <h3>The Hashworks family of products work together to help you improve customer relationships</h3>
                     </div>
                 </div>
-
                 <div class="productService--alignment2">
                     <div onclick="redirect('/devOps/')" class="productService__service--mobile">
                             <img src="/assets/image/product&service/group-13.svg" />
                         <h4>Dev Ops</h4>
                     </div>
-                    
                         <div onclick="redirect('/mobile/')" class="productService__service--ops">
                             <img src="/assets/image/product&service/group-14.svg" />
-                            <h4>Cloud Application
-                                & Mobility</h4>
+                            <h4>Cloud Application</h4>
                         </div>
-                    
-                   
                         <div onclick="redirect('/uiux/')" class="productService__service--data">
                             <img src="/assets/image/product&service/group-21.svg" />
                             <h4>UX / UI</h4>
                         </div>
-                   
                         <div onclick="redirect('/dataScience/')" class="productService__service--cloud">
                             <img src="/assets/image/product&service/group-29.svg" />
                             <h4>Data Science</h4>
                         </div>
-                   
+                        <div onclick="redirect('/mobile/')" class="productService__service--mobility">
+                            <img src="/assets/image/product&service/group-18-copy-2.svg" />
+                            <h4>Mobility</h4>
+                        </div>
                 </div>
             </div>
         </div>
@@ -154,7 +142,7 @@
             </div>
         </div>
     </div>
-
+    <!-- //mobile view header -->
     <header>  
         <nav id='cssmenu'>
             <div class="logo">
@@ -176,14 +164,12 @@
                                         </div>
                                     </div>
                                     <div class="product_view--alignment">
-
                                         <div class=" paketo">
                                             <div class="product_view--paketo ">
                                                 <img src="/assets/image/product&service/packeto.svg" />
                                                 <p>Enterprise Devops Framework</p>
                                             </div>
                                         </div>
-
                                         <div class=" ">
                                             <div class="product_view--littlebhrahma">
                                                 <img src="/assets/image/product&service/little.svg" />
@@ -192,19 +178,13 @@
                                         </div>
                                     </div>
                                     <div class="product_view--alignment1">
-                                        <div class=" ">
-                                            <div class="product_view--groome">
-                                                <img src="/assets/image/product&service/groome.svg" />
-                                                <p>A Talent Marketplace</p>
-                                            </div>
-                                        </div>
+                                     
                                         <div class=" ">
                                             <div class="product_view--frugal">
                                                 <img src="/assets/image/product&service/frugal.svg" />
                                                 <p>Cashflow Managment App</p>
                                             </div>
                                         </div>
-
                                     </div>
                                     <div class="service__view ">
                                         <div class="row">
@@ -223,8 +203,7 @@
                                                 <div class="  ">
                                                     <div onclick="redirect('/mobile/')"  class="service__view--ops">
                                                         <img src="/assets/image/product&service/group-14.svg" />
-                                                        <h4>Cloud Application
-                                                            & Mobility</h4>
+                                                        <h4>Cloud Application</h4>
                                                     </div>
                                                 </div>
                                                 <div class=" ">
@@ -234,9 +213,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="">
-                                                    <div onclick="redirect('/dataScience/')" class="service__view--cloud">
+                                                    <div onclick="redirect('/dataScience/')" class="service__view--data">
                                                         <img src="/assets/image/product&service/group-29.svg" />
                                                         <h4>Data Science</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div onclick="redirect('/dataScience/')" class="service__view--cloud">
+                                                        <img src="/assets/image/product&service/group-18-copy-2.svg" />
+                                                        <h4>Mobility</h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -290,7 +275,6 @@
                             </div>
                         </li>
                     </ul>
-
                 </li>
                 <li><a href="/contactUs/">Contact Us</a></li>
             </ul>
@@ -298,20 +282,18 @@
     </header>
 
     <script>
-            $( "#accordion" ).accordion({
+        $( "#accordion" ).accordion({
           heightStyle: "content",
           active:false,
           collapsible: true,
-         
         });
-    
-        $( "#accordion1" ).accordion({
+      $( "#accordion1" ).accordion({
           heightStyle: "content",
           active:false,
           collapsible: true,
-         
-        });
-            </script>
+     });
+    </script>
+
     <script>
         window.onload = function() {
             if(location.href.indexOf('index')>-1){
@@ -324,25 +306,27 @@
                 document.getElementsByClassName('hashworks__head--contact')[0].style.color = '#603c96'
             }
         }
-</script> 
-<script>
+    </script> 
+
+    <script>
       $(function() {
         $('a.link').click(function() {
-       $('a.link').removeClass('active');
-       $(this).addClass('active');
+      $('a.link').removeClass('active');
+      $(this).addClass('active');
         });
         });
     </script>
- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="/assets/slick/slick.min.js"></script>
-<script type="text/javascript" src="/assets/js/product.js"></script>
-<script src="/assets/js/demo.js"></script>
-<script src="/assets/js/three.min.js"></script>
-<script src="/assets/js/TweenMax.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.plugins.min.js"></script>
- <script type="text/javascript" src="/assets/js/head.js"></script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/assets/js/product.js"></script>
+    <script src="/assets/js/demo.js"></script>
+    <script src="/assets/js/three.min.js"></script>
+    <script src="/assets/js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.plugins.min.js"></script>
+    <script type="text/javascript" src="/assets/js/head.js"></script>
 </body>
 <div class="home">
   <div class="home__hashworks">
@@ -538,11 +522,11 @@
                     </ul>
             </div>
                  <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                            <h1>CONNECT US</h1>
-                            <ul>
-                                <li><a href="/contactUs/">Contact Us</a></li>
-                                <li><a href="/job/">Careers</a></li>
-                            </ul>
+                    <h1>CONNECT US</h1>
+                        <ul>
+                            <li><a href="/contactUs/">Contact Us</a></li>
+                            <li><a href="/job/">Careers</a></li>
+                        </ul>
                 </div>
          </div>
         <div class="row">
@@ -550,7 +534,7 @@
                 <h4>Copyright2017@ Hashworks.co</h4>
                     <div class="footer__list--social">
                         <a href="https://twitter.com/hashworksco" target="_blank">
-                            <img  src="../assets/image/twitter.svg"/>
+                            <img class="svg" src="../assets/image/twitter.svg"/>
                         </a>
                         <a href="https://www.linkedin.com/company/hashworks?trk=top_nav_home" target="_blank">
                             <img  src="../assets/image/linkedin-logo.svg"/>

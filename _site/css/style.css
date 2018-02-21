@@ -89,8 +89,7 @@ body {
   body #cssmenu #head-mobile {
     display: block;
     padding: 25px 0px 25px 0px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-    border: solid 2px #f7f7f7; }
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05); }
   body .product_view {
     background-color: none; }
     body .product_view .row {
@@ -440,10 +439,10 @@ body {
         line-height: 1.4;
         text-align: center;
         color: #3e3e3e;
-        width: 97px; }
+        width: 97px;
+        margin: 0 auto; }
       body .productService img {
-        width: 70px;
-        margin: 17px 0px 0px 17px; }
+        width: 70px; }
       body .productService--listmargin {
         margin-left: 80px; }
       body .productService--productContent {
@@ -451,7 +450,7 @@ body {
         height: 141px;
         padding-right: 40px; }
       body .productService--alignment {
-        width: 500px;
+        width: 438px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start; }
@@ -460,9 +459,9 @@ body {
         justify-content: space-between;
         margin-top: 30px; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
-        max-width: 100px;
+        width: 120px;
         background-color: #f7f7f7;
-        height: 88px; }
+        height: 90px; }
       body .productService__service {
         border-top: solid 1px #dadada;
         padding-top: 36px; }
@@ -501,6 +500,20 @@ body {
             width: 15px;
             height: 13px;
             margin: 14px 16px 17px 22px; }
+        body .productService__service--mobility {
+          cursor: pointer;
+          width: 122px;
+          height: 42px;
+          background-color: #f7f7f7;
+          margin-left: 20px;
+          margin-top: 16px;
+          display: inline-flex; }
+          body .productService__service--mobility img {
+            width: 16px;
+            height: 15px;
+            margin-top: 14px; }
+          body .productService__service--mobility h4 {
+            margin-left: 10px; }
         body .productService__service--cloud {
           cursor: pointer;
           width: 122px;
@@ -508,7 +521,7 @@ body {
           background-color: #f7f7f7;
           margin-left: 80px;
           margin-top: 16px;
-          display: flex; }
+          display: inline-flex; }
           body .productService__service--cloud h4 {
             margin-left: 10px; }
           body .productService__service--cloud img {
@@ -516,16 +529,24 @@ body {
             height: 15px;
             margin-top: 14px; }
       body .productService--produtpacto {
-        height: 51px; }
+        height: 51px;
+        display: flex;
+        justify-content: center; }
       body .productService--produtlittle {
         height: 60px; }
         body .productService--produtlittle img {
           width: 55px;
           margin-left: 18px; }
       body .productService--produtgroome {
-        height: 51px; }
+        height: 51px;
+        display: flex;
+        justify-content: center; }
       body .productService--produtfrugal {
-        height: 51px; }
+        height: 51px;
+        display: flex;
+        justify-content: center; }
+        body .productService--produtfrugal img {
+          width: 45px; }
     body .about {
       position: fixed;
       z-index: 999;
@@ -661,14 +682,13 @@ body {
         font-size: 12px;
         width: 140px; }
       body .productService img {
-        width: 113px;
-        margin: 27px 13px 16px 13px; }
+        width: 113px; }
       body .productService--productContent {
         border-right: solid 1px #dadada;
         height: 178px;
         padding-right: 28px; }
       body .productService--alignment {
-        width: 689px;
+        width: 588px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start; }
@@ -676,7 +696,7 @@ body {
         width: 689px;
         margin: 0px; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
-        max-width: 140px;
+        width: 170px;
         background-color: #f7f7f7;
         height: 122px; }
       body .productService__service {
@@ -712,6 +732,14 @@ body {
             width: 18px;
             height: 16px;
             margin: 20px 16px 18px 29px; }
+        body .productService__service--mobility {
+          width: 146px;
+          height: 54px;
+          margin-left: 0px; }
+          body .productService__service--mobility img {
+            width: 24px;
+            height: 24px;
+            margin: 14px 13px 16px 10px; }
         body .productService__service--cloud {
           width: 146px;
           height: 54px;
@@ -733,6 +761,8 @@ body {
         height: 78px; }
       body .productService--produtfrugal {
         height: 78px; }
+        body .productService--produtfrugal img {
+          width: 82px; }
     body .about .row {
       width: 940px;
       margin: 0 auto;
@@ -835,7 +865,7 @@ body {
         border-right: solid 1px #dadada;
         height: 178px; }
       body .productService--alignment {
-        width: 836px;
+        width: 761px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start; }
@@ -843,7 +873,7 @@ body {
         width: 836px; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
         background-color: #f7f7f7;
-        max-width: 170px;
+        width: 212px;
         height: 146px; }
       body .productService__service {
         border-top: solid 1px #dadada;
@@ -875,6 +905,14 @@ body {
             width: 21px;
             height: 21px;
             margin: 26px 20px 24px 33px; }
+        body .productService__service--mobility {
+          width: 176px;
+          height: 68px;
+          margin: 24px 0px 0px 25px; }
+          body .productService__service--mobility img {
+            width: 29px;
+            height: 28px;
+            margin: 19px 15px 20px 13px; }
         body .productService__service--cloud {
           width: 176px;
           height: 68px;
@@ -886,25 +924,17 @@ body {
       body .productService--produtpacto {
         height: 75px; }
         body .productService--produtpacto img {
-          width: 139px;
-          height: 35px;
-          margin: 30px 16px 0px 16px; }
+          width: 139px; }
       body .productService--produtlittle img {
-        width: 137px;
-        height: 42px;
-        margin: 30px 16px 0px 16px; }
+        width: 137px; }
       body .productService--produtgroome {
         height: 78px; }
         body .productService--produtgroome img {
-          width: 115px;
-          height: 26px;
-          margin: 30px 28px 0px 28px; }
+          width: 135px; }
       body .productService--produtfrugal {
         height: 78px; }
         body .productService--produtfrugal img {
-          width: 128px;
-          height: 31px;
-          margin: 30px 21px 0px 21px; }
+          width: 82px; }
     body .about .row {
       width: 1170px;
       margin: 0 auto;
@@ -3996,6 +4026,9 @@ button {
   .hashworks__casestudyHome .casestudy__events__image4 {
     width: 569px;
     height: 322px; } }
+.svg path {
+  fill: #000 !important; }
+
 .footer .row {
   margin: 0px 29px 0px 30px; }
 .footer a {
