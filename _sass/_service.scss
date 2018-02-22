@@ -27,7 +27,7 @@
            }
         }
         &__headImg{
-            background-image: url(../assets/image/mobile-and-development.png);
+            background-image: url(../assets/image/service.png);
             background-repeat: no-repeat;
             height: 145px;
             width: 100%;
@@ -54,6 +54,8 @@
             }
         }
         &__devops{
+            background-image: url(../assets/image/devops.png);
+            background-repeat: no-repeat;
             width: 100%;
             height: 166px;
             background-color: #d8d8d8;
@@ -68,7 +70,7 @@
             }
         }
         &__cloudImg{
-            background-image: url(../assets/image/rectangle-3-copy-8.png);
+            background-image: url(../assets/image/ui-ux.png);
             background-repeat: no-repeat;
             height: 166px;
             width: 100%;
@@ -86,7 +88,7 @@
             }
         }
         &__uiUx{
-            background-image: url(../assets/image/group-4-copy.png);
+            background-image: url(../assets/image/data-science.png);
             background-repeat: no-repeat;
             height: 166px;
             width: 100%;
@@ -103,13 +105,14 @@
             }
         }
         &__dataScience{
-            background-image: url(../assets/image/group-7.png);
-            background-repeat: no-repeat;
+            // background-image: url(../assets/image/group-7.png);
+            // background-repeat: no-repeat;
             height: 166px;
             width: 100%;
             background-size: 100% 100%;
             object-fit: contain;
             margin-bottom: 10px;
+            background-color: #876cb0;
             cursor: pointer;
             h1{
                 width: 140px;
@@ -121,7 +124,7 @@
             }
         }
         &__mobile{
-            background-image: url(../assets/image/isometric-02.png);
+            background-image: url(../assets/image/rectangle-3-copy-3.png);
             background-repeat: no-repeat;
             height: 166px;
             width: 100%;

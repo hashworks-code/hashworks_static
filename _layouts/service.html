@@ -19,60 +19,34 @@
     </div>
     <div class=" row service__detail">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service__devops shadow" onclick="redirect('/devOps/')">
-                <div class=" service">    
-                        <!-- <h1>Dev Ops <span> > </span></h1> -->
-                        <div class="row devopsanimate">    
-                            <div class="content devanimation">
-                                    <canvas id="scene1"></canvas>
-                                    <script type="x-shader/x-vertex" id="wrapVertexShader">
-                                        #define PI 3.1415926535897932384626433832795
-                                        attribute float size;
-                                        void main() {
-                                            vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-                                            gl_PointSize = 3.0;
-                                            gl_Position = projectionMatrix * mvPosition;
-                                        }
-                                    </script>
-                                    <script type="x-shader/x-fragment" id="wrapFragmentShader">
-                                        uniform sampler2D texture;
-                                        void main(){
-                                            vec4 textureColor = texture2D( texture, gl_PointCoord );
-                                            if ( textureColor.a < 0.3 ) discard;
-                                            vec4 dotColor = vec4(0.06, 0.18, 0.36, 0.4);
-                                            vec4 color = dotColor * textureColor;
-                                            gl_FragColor = color;
-                                        }
-                                    </script>
-                                    <div class="heading service__container">
-                                        <h1>Dev Ops <img src="../assets/image/arrow.png"/></h1>    
-                                </div>
-                                </div>   
-                         </div>
+            <div class=" service__devopsImg" onclick="redirect('/devOps/')">
+                <div class=" service__container">    
+                        <h1>Dev Ops <img src="../assets/image/arrow.png"/></h1>
                 </div>
+            </div>
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 shadow">
                 <div class=" service__cloudImg" onclick="redirect('/cloud/')">
                     <div class=" service__container">    
-                            <h1>Application 
-                                    on Cloud <img src="../assets/image/arrow.png"/></h1>
+                            <h1>UI/UX <img src="../assets/image/arrow.png"/></h1>
                     </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service__uiUx shadow" onclick="redirect('/uiux/')">
                
                    <div class=" service__container">    
-                            <h1>UI/UX <img src="../assets/image/arrow.png"/> </h1>
+                            <h1>Data Science <img src="../assets/image/arrow.png"/> </h1>
                     </div>
              </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service__dataScience shadow" onclick="redirect('/dataScience/')">
                     <div class="service__container">    
-                            <h1>Data Science. <img src="../assets/image/arrow.png"/></h1>
+                            <h1>Mobility <img src="../assets/image/arrow.png"/></h1>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 shadow" onclick="redirect('/mobile/')">
                 <div class="service__mobile">
                     <div class=" service__container">    
-                            <h1>Mobile Development <img src="../assets/image/arrow.png"/></h1>
+                            <h1>Application On Cloud <img src="../assets/image/arrow.png"/></h1>
                     </div>
                 </div>
             </div>

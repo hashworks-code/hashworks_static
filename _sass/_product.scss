@@ -5,7 +5,7 @@ button{
     color: #3e3e3e;
     font-family: 'muliRegular';
     &__headImg{
-      background-image: url(../assets/image/ferdinand-stohr-230173.png);
+      background-image: url(../assets/image/product.png);
       background-repeat: no-repeat;
       height: 270px;
       background-size:cover;
@@ -181,7 +181,7 @@ button{
   @media only screen and (max-width: 1366px){
   .product{
     &__headImg{
-      height: 192px;
+      height: 385px;
       margin-top: 67px;
     }
     &__content1{

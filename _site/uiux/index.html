@@ -330,35 +330,6 @@
 </body>
 <div class="uiux">
     <div class="uiux__headImg animator">
-        <div class="uiux__container animator">
-            <div class="row demo-2">
-                 <div class="content animator">
-                                        <canvas id="scene"></canvas>
-                                        <script type="x-shader/x-vertex" id="wrapVertexShader">
-                                            #define PI 3.1415926535897932384626433832795
-                                            attribute float size;
-                                            void main() {
-                                                vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-                                                gl_PointSize = 3.0;
-                                                gl_Position = projectionMatrix * mvPosition;
-                                            }
-                                        </script>
-                                        <script type="x-shader/x-fragment" id="wrapFragmentShader">
-                                            uniform sampler2D texture;
-                                            void main(){
-                                                vec4 textureColor = texture2D( texture, gl_PointCoord );
-                                                if ( textureColor.a < 0.3 ) discard;
-                                                vec4 dotColor = vec4(7, 7, 7,7);
-                                                vec4 color = dotColor * textureColor;
-                                                gl_FragColor = color;
-                                            }
-                                        </script>
-                                          <div class="uiux__head">
-                                           <h1>UI/UX</h1>
-                                          </div>
-                                    </div>
-                        </div>           
-        </div>
     </div>
 
     <div class="uiux__content">
@@ -477,17 +448,19 @@
                 <h1>PRODUCT</h1>
                  <ul>
                      <li><a href="https://groome.co/" target="_blank">Groome</a></li>
+                     <li><a >Paketo</a> </li>
                      <li><a href="https://enigma.hashworks.co/" target="_blank">Enigma</a> </li>
-                     <li><a href="https://www.littlebrahma.com/" target="_blank">Littlebrahma</a> </li>
+                    
                  </ul>
             </div>
              <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <h1>SERVICES</h1>
                     <ul>
                         <li><a href="/devOps/">Dev Ops</a></li>
-                        <li><a href="/mobile/">Cloud Application & Mobility</a></li>
                         <li><a href="/uiux/">UX / UI</a> </li>
                         <li><a href="/dataScience/">Data Science</a></li>
+                        <li><a href="/mobile/">Mobility</a></li>
+                        <li><a href="/cloud/">Application On Cloud</a></li>
                     </ul>
              </div>
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">

@@ -2,32 +2,11 @@
 <div class="cloud">
     <div class="cloud__headImg animator">
         <div class="cloud__container animator">
-            <div class="row demo-2">
-                  <div class="content animator">
-                                        <canvas id="scene"></canvas>
-                                        <script type="x-shader/x-vertex" id="wrapVertexShader">
-                                            #define PI 3.1415926535897932384626433832795
-                                            attribute float size;
-                                            void main() {
-                                                vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-                                                gl_PointSize = 3.0;
-                                                gl_Position = projectionMatrix * mvPosition;
-                                            }
-                                        </script>
-                                        <script type="x-shader/x-fragment" id="wrapFragmentShader">
-                                            uniform sampler2D texture;
-                                            void main(){
-                                                vec4 textureColor = texture2D( texture, gl_PointCoord );
-                                                if ( textureColor.a < 0.3 ) discard;
-                                                vec4 color = dotColor * textureColor;
-                                                gl_FragColor = color;
-                                            }
-                                        </script>
+                            
                                         <div class="cloud__head">
                                             <h1> Application On Cloud</h1>
                                         </div>
-                                    </div>
-                                </div>
+                                  
                     </div>
          </div>
         </div>

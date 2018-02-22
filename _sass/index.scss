@@ -197,13 +197,15 @@ a{
         color: #ffffff;
         padding: 29px 9px 25px 28px;
         width: 254px;
+        font-weight: normal;
       }
       img {
         width: 8.5px;
         height: 16px;
       }
       &--grew {
-        background-color: #603c96;
+        background-image: url(../assets/image/index/growth.png);
+        background-repeat: no-repeat;
         cursor: pointer;
         transition: all .5s ease;
         &:hover {
@@ -212,7 +214,7 @@ a{
         }
       }
       &--impact {
-         background-image: url(../assets/image/index/rectangle1.jpg);
+         background-image: url(../assets/image/index/pexels-photo-302769.png);
         height: 170px;
         background-repeat: no-repeat;
         margin-top: 8px;
@@ -223,6 +225,9 @@ a{
         &:hover {
           box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, .25);
           transform: scale(1.01);
+        }
+        h2{
+          padding: 88px 0px 0px 28px;
         }
       }
     }
@@ -248,7 +253,7 @@ a{
         height: 16px;
       }
       &--thinking {
-         background-image: url(../assets/image/index/customer.jpg);
+         background-image: url(../assets/image/index/rectangle-3-copy-2.png);
         height: 170px;
         background-repeat: no-repeat;
         margin-top: 8px;
@@ -261,12 +266,12 @@ a{
           transform: scale(1.01);
         }
         h2 {
-          padding: 29px 0px 25px 28px;
+          padding: 58px 0px 25px 28px;
           width: 160px;
         }
       }
       &--culture {
-         background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
+         background-image: url(../assets/image/index/rectangle-3-copy-3.png);
         height: 170px;
         background-repeat: no-repeat;
         margin-top: 8px;
@@ -279,8 +284,8 @@ a{
           transform: scale(1.01);
         }
         h2 {
-          width: 293px;
-          margin: 29px auto 0px;
+          width: 208px;
+          padding: 58px 0px 25px 28px;
         }
       }
     }
@@ -407,7 +412,7 @@ a{
         font-family: 'muliRegular';
         font-size: 12px;
         text-align: center;
-        color: #4a4a4a;
+        color:white;
         padding: 12px 0px 0px;
       }
       input {
@@ -420,7 +425,7 @@ a{
         outline: none;
       }
       &--image {
-         background-image: url(../assets/image/index/people.jpg);
+         background-image: url(../assets/image/index/customers-background.png);
         height: 147px;
         background-position: 100%;
         background-size: cover;
@@ -574,7 +579,7 @@ a{
       }
       h2 {
         font-size: 32px;
-        padding: 36px 11px 29px 39px;
+        padding: 78px 11px 29px 39px;
         width: 388px;
       }
       img {
@@ -627,8 +632,8 @@ a{
         margin-top: 16px;
         height: 227px;
         h2 {
-          padding: 35px 0px 0px 39px;
-          width: 332px;
+          padding: 86px 0px 0px 39px;
+          width: 250px;
         }
       }
     }
@@ -882,9 +887,9 @@ a{
         padding: 30px 0px 0px 29px;
       }
       h2 {
-        font-size: 42px;
-        padding: 56px 0px 29px 29px;
-        width: 474px;
+        font-size: 36px;
+        padding: 155px 0px 29px 29px;
+        width: 407px;
       }
       img {
         width: 15px;
@@ -898,7 +903,7 @@ a{
         height: 323px;
         width: 300px;
         h2 {
-          width: 280px;
+          width: 210px;
         }
       }
     }
@@ -921,9 +926,9 @@ a{
         width: 300px;
         margin-top: 16px;
         h2 {
-          padding: 118px 0px 25px 26px;
-          width: 294px;
-          font-size: 42px;
+          padding: 135px 0px 25px 26px;
+          width: 239px;
+          font-size: 36px;
         }
       }
       &--culture {
@@ -932,9 +937,9 @@ a{
         margin-top: 16px;
         height: 323px;
         h2 {
-          padding: 117px 38px 0px 26px;
+          padding: 175px 38px 0px 26px;
           width: 600px;
-          font-size: 42px;
+          font-size: 36px;
         }
       }
     }
@@ -1174,7 +1179,7 @@ a{
       }
       h2 {
         font-size: 48px;
-        padding: 103px 0px 29px 42px;
+        padding: 166px 0px 29px 42px;
         width: 545px;
         ;
       }
@@ -1192,7 +1197,7 @@ a{
         width: 370px;
         margin: 0 auto;
         h2 {
-          width: 326px;
+          width: 310px;
         }
       }
     }
@@ -1219,7 +1224,7 @@ a{
         margin: 0 auto;
         h2 {
           padding: 177px 0px 25px 42px;
-          width: 336px;
+          width: 280px;
         }
       }
       &--culture {
@@ -1227,7 +1232,7 @@ a{
         margin: 0 auto;
         height: 396px;
         h2 {
-          padding: 177px 38px 0px 42px;
+          padding: 235px 38px 0px 42px;
           width: 625px;
         }
       }

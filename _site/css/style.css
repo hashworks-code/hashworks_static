@@ -1205,19 +1205,21 @@ a {
   text-align: left;
   color: #ffffff;
   padding: 29px 9px 25px 28px;
-  width: 254px; }
+  width: 254px;
+  font-weight: normal; }
 .home__business img {
   width: 8.5px;
   height: 16px; }
 .home__business--grew {
-  background-color: #603c96;
+  background-image: url(../assets/image/index/growth.png);
+  background-repeat: no-repeat;
   cursor: pointer;
   transition: all .5s ease; }
   .home__business--grew:hover {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
 .home__business--impact {
-  background-image: url(../assets/image/index/rectangle1.jpg);
+  background-image: url(../assets/image/index/pexels-photo-302769.png);
   height: 170px;
   background-repeat: no-repeat;
   margin-top: 8px;
@@ -1228,6 +1230,8 @@ a {
   .home__business--impact:hover {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
+  .home__business--impact h2 {
+    padding: 88px 0px 0px 28px; }
 .home__businessImpact h1 {
   font-family: 'muliBold';
   font-size: 12px;
@@ -1246,7 +1250,7 @@ a {
   width: 8.5px;
   height: 16px; }
 .home__businessImpact--thinking {
-  background-image: url(../assets/image/index/customer.jpg);
+  background-image: url(../assets/image/index/rectangle-3-copy-2.png);
   height: 170px;
   background-repeat: no-repeat;
   margin-top: 8px;
@@ -1258,10 +1262,10 @@ a {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
   .home__businessImpact--thinking h2 {
-    padding: 29px 0px 25px 28px;
+    padding: 58px 0px 25px 28px;
     width: 160px; }
 .home__businessImpact--culture {
-  background-image: url(../assets/image/index/rectangle-3-copy-3.jpg);
+  background-image: url(../assets/image/index/rectangle-3-copy-3.png);
   height: 170px;
   background-repeat: no-repeat;
   margin-top: 8px;
@@ -1273,8 +1277,8 @@ a {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
   .home__businessImpact--culture h2 {
-    width: 293px;
-    margin: 29px auto 0px; }
+    width: 208px;
+    padding: 58px 0px 25px 28px; }
 .home__caseStudy {
   background-color: #000000; }
   .home__caseStudy--arrow {
@@ -1373,7 +1377,7 @@ a {
   font-family: 'muliRegular';
   font-size: 12px;
   text-align: center;
-  color: #4a4a4a;
+  color: white;
   padding: 12px 0px 0px; }
 .home__roi input {
   width: 143px;
@@ -1384,7 +1388,7 @@ a {
   padding: 3px 0px 5px 13px;
   outline: none; }
 .home__roi--image {
-  background-image: url(../assets/image/index/people.jpg);
+  background-image: url(../assets/image/index/customers-background.png);
   height: 147px;
   background-position: 100%;
   background-size: cover;
@@ -1513,7 +1517,7 @@ a {
       padding: 26px 0px 0px 39px; }
     .home__business h2 {
       font-size: 32px;
-      padding: 36px 11px 29px 39px;
+      padding: 78px 11px 29px 39px;
       width: 388px; }
     .home__business img {
       width: 12px;
@@ -1555,8 +1559,8 @@ a {
       margin-top: 16px;
       height: 227px; }
       .home__businessImpact--culture h2 {
-        padding: 35px 0px 0px 39px;
-        width: 332px; }
+        padding: 86px 0px 0px 39px;
+        width: 250px; }
   .home__caseStudy {
     background-color: #000000;
     position: relative; }
@@ -1751,9 +1755,9 @@ a {
       font-size: 16px;
       padding: 30px 0px 0px 29px; }
     .home__business h2 {
-      font-size: 42px;
-      padding: 56px 0px 29px 29px;
-      width: 474px; }
+      font-size: 36px;
+      padding: 155px 0px 29px 29px;
+      width: 407px; }
     .home__business img {
       width: 15px;
       height: 27px; }
@@ -1764,7 +1768,7 @@ a {
       height: 323px;
       width: 300px; }
       .home__business--impact h2 {
-        width: 280px; }
+        width: 210px; }
   .home__businessImpact {
     display: flex;
     width: 940px;
@@ -1782,18 +1786,18 @@ a {
       width: 300px;
       margin-top: 16px; }
       .home__businessImpact--thinking h2 {
-        padding: 118px 0px 25px 26px;
-        width: 294px;
-        font-size: 42px; }
+        padding: 135px 0px 25px 26px;
+        width: 239px;
+        font-size: 36px; }
     .home__businessImpact--culture {
       width: 621px;
       height: 170px;
       margin-top: 16px;
       height: 323px; }
       .home__businessImpact--culture h2 {
-        padding: 117px 38px 0px 26px;
+        padding: 175px 38px 0px 26px;
         width: 600px;
-        font-size: 42px; }
+        font-size: 36px; }
   .home__caseStudy {
     background-color: #000000;
     position: relative; }
@@ -1977,7 +1981,7 @@ a {
       padding: 25px 0px 0px 42px; }
     .home__business h2 {
       font-size: 48px;
-      padding: 103px 0px 29px 42px;
+      padding: 166px 0px 29px 42px;
       width: 545px; }
     .home__business img {
       width: 18px;
@@ -1991,7 +1995,7 @@ a {
       width: 370px;
       margin: 0 auto; }
       .home__business--impact h2 {
-        width: 326px; }
+        width: 310px; }
   .home__businessImpact {
     display: flex;
     width: 1170px;
@@ -2012,13 +2016,13 @@ a {
       margin: 0 auto; }
       .home__businessImpact--thinking h2 {
         padding: 177px 0px 25px 42px;
-        width: 336px; }
+        width: 280px; }
     .home__businessImpact--culture {
       width: 770px;
       margin: 0 auto;
       height: 396px; }
       .home__businessImpact--culture h2 {
-        padding: 177px 38px 0px 42px;
+        padding: 235px 38px 0px 42px;
         width: 625px; }
   .home__caseStudy {
     background-color: #000000; }
@@ -2131,7 +2135,7 @@ button {
   color: #3e3e3e;
   font-family: 'muliRegular'; }
   .product__headImg {
-    background-image: url(../assets/image/ferdinand-stohr-230173.png);
+    background-image: url(../assets/image/product.png);
     background-repeat: no-repeat;
     height: 270px;
     background-size: cover;
@@ -2259,7 +2263,7 @@ button {
 
 @media only screen and (max-width: 1366px) {
   .product__headImg {
-    height: 192px;
+    height: 385px;
     margin-top: 67px; }
   .product__content1 {
     width: 935px; }
@@ -2545,7 +2549,7 @@ button {
       width: 9px;
       height: 16px; }
   .service__headImg {
-    background-image: url(../assets/image/mobile-and-development.png);
+    background-image: url(../assets/image/service.png);
     background-repeat: no-repeat;
     height: 145px;
     width: 100%;
@@ -2567,6 +2571,8 @@ button {
     .service__content p {
       font-size: 14px; }
   .service__devops {
+    background-image: url(../assets/image/devops.png);
+    background-repeat: no-repeat;
     width: 100%;
     height: 166px;
     background-color: #d8d8d8;
@@ -2579,7 +2585,7 @@ button {
       padding: 128px 12px 0;
       font-weight: 100; }
   .service__cloudImg {
-    background-image: url(../assets/image/rectangle-3-copy-8.png);
+    background-image: url(../assets/image/ui-ux.png);
     background-repeat: no-repeat;
     height: 166px;
     width: 100%;
@@ -2595,7 +2601,7 @@ button {
       padding: 83px 12px 0;
       height: 100%; }
   .service__uiUx {
-    background-image: url(../assets/image/group-4-copy.png);
+    background-image: url(../assets/image/data-science.png);
     background-repeat: no-repeat;
     height: 166px;
     width: 100%;
@@ -2610,13 +2616,12 @@ button {
       padding: 117px 12px 0;
       height: 100%; }
   .service__dataScience {
-    background-image: url(../assets/image/group-7.png);
-    background-repeat: no-repeat;
     height: 166px;
     width: 100%;
     background-size: 100% 100%;
     object-fit: contain;
     margin-bottom: 10px;
+    background-color: #876cb0;
     cursor: pointer; }
     .service__dataScience h1 {
       width: 140px;
@@ -2626,7 +2631,7 @@ button {
       padding: 83px 12px 0;
       height: 100%; }
   .service__mobile {
-    background-image: url(../assets/image/isometric-02.png);
+    background-image: url(../assets/image/rectangle-3-copy-3.png);
     background-repeat: no-repeat;
     height: 166px;
     width: 100%;
@@ -2849,7 +2854,7 @@ button {
   color: #3e3e3e;
   margin-bottom: 33px; }
 .hashworks__grewpage .grewpage__image {
-  background-image: url(../assets/image/wegrew/dmitri-popov-307258.png);
+  background-image: url(../assets/image/wegrew/growth.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -3059,7 +3064,7 @@ button {
   margin: 0px auto;
   padding: 0px; }
 .hashworks__workculture .workculture__image {
-  background-image: url(../assets/image/workculture/work.png);
+  background-image: url(../assets/image/workculture/photo.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -3853,7 +3858,7 @@ button {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
 .hashworks__casestudyHome .casestudy__events__banner {
-  background-image: url(../assets/image/casestudy/case-study-banner.png);
+  background-image: url(../assets/image/casestudy/case-study.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4252,7 +4257,7 @@ ul.tabs li.current {
   border-top: solid 1px #e0e0e0;
   margin-top: 32px; }
 .aboutus__headImg {
-  background-image: url(../assets/image/aboutus/origami@2x.png);
+  background-image: url(../assets/image/aboutus/about-us.png);
   background-repeat: no-repeat;
   height: 229px;
   width: 100%;
@@ -4926,7 +4931,7 @@ ul.tabs li.current {
   outline: none !important; }
 
 .job__headImg {
-  background-image: url(../assets/image/job/joblogo.png);
+  background-image: url(../assets/image/job/intern-ship.png);
   background-repeat: no-repeat;
   height: 237px;
   width: 100%;
@@ -5485,6 +5490,7 @@ ul.tabs li.current {
     width: 270px;
     margin: 0 auto; }
   .cloud__headImg {
+    background-image: url(../assets/image/cloud/application-on-cloud.png);
     background-repeat: no-repeat;
     height: 232px;
     width: 100%;
@@ -5974,6 +5980,7 @@ ul.tabs li.current {
     width: 270px;
     margin: 0 auto; }
   .dataScience__headImg {
+    background-image: url(../assets/image/dataScience/data-science.png);
     background-repeat: no-repeat;
     height: 232px;
     width: 100%;
@@ -6451,6 +6458,7 @@ ul.tabs li.current {
     width: 270px;
     margin: 0 auto; }
   .devOps__headImg {
+    background-image: url(../assets/image/mobile/devops.png);
     background-repeat: no-repeat;
     height: 232px;
     width: 100%;
@@ -6926,6 +6934,7 @@ ul.tabs li.current {
     width: 270px;
     margin: 0 auto; }
   .mobile__headImg {
+    background-image: url(../assets/image/cloud/application-on-cloud.png);
     background-repeat: no-repeat;
     height: 232px;
     width: 100%;
@@ -7497,7 +7506,7 @@ ul.tabs li.current {
   outline: none !important; }
 
 .internship__headImg {
-  background-image: url(../assets/image/job/joblogo.png);
+  background-image: url(../assets/image/job/intern-ship.png);
   background-repeat: no-repeat;
   height: 237px;
   width: 100%;
@@ -8078,7 +8087,8 @@ ul.tabs li.current {
     height: 180px;
     margin: 0 auto;
     align-items: flex-end;
-    padding: 0px 0px 15px 29px; }
+    padding: 0px 0px 15px 29px;
+    color: #ffffff; }
 .hashworks__contactUs__form .row {
   width: 263px;
   margin: 0 auto; }
@@ -8371,13 +8381,13 @@ ul.tabs li.current {
   .hashworks__contactUs .shadow2 {
     width: 774px; }
   .hashworks__contactUs__image {
-    height: 400px;
+    height: 385px;
     margin-top: 66px; }
     .hashworks__contactUs__image h1 {
       font-size: 56px;
       padding: 0px 0px 32px 62px;
       width: 1367px;
-      height: 400px; }
+      height: 385px; }
   .hashworks__contactUs__form h1 {
     font-family: 'muliBold';
     font-size: 32px;
@@ -8444,6 +8454,8 @@ ul.tabs li.current {
     width: 270px;
     margin: 0 auto; }
   .uiux__headImg {
+    background-image: url(../assets/image/mobile/devops.png);
+    background-repeat: no-repeat;
     height: 232px;
     width: 100%;
     background-size: 100% 100%;
