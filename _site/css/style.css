@@ -3067,15 +3067,17 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 228px;
-  background-position: center center; }
+  height: 230px;
+  background-position: 100% 100%; }
   .hashworks__workculture .workculture__image h1 {
     font-family: 'muliRegular';
     font-size: 24px;
     text-align: left;
     color: #ffffff;
-    position: absolute;
-    margin: 180px 0px 16px 29px; }
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 0px 30px 29px;
+    height: 230px; }
 .hashworks__workculture .workculture__workfun h1 {
   font-family: 'muliRegular';
   font-size: 16px;
@@ -3141,11 +3143,52 @@ button {
 .hashworks__workculture .workculture__bottomImage {
   background-image: url(../assets/image/workculture/1.png);
   background-size: cover;
-  background-position: center center;
+  background-position: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 270px;
-  margin-top: -93px; }
+  height: 94px; }
+
+.workculture__culture {
+  border-top: 1px solid #d3d3d3;
+  margin: 40px 0px 0px 0px; }
+  .workculture__culture .border {
+    margin: 0 auto;
+    width: 286px; }
+  .workculture__culture h2 {
+    width: 286px;
+    font-family: 'muliBold';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #603c96;
+    margin: 36px 0px 12px 0px; }
+  .workculture__culture p {
+    width: 266px;
+    font-family: 'muliRegular';
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3e3e3e;
+    margin-bottom: 49px; }
+  .workculture__culture h3 {
+    font-family: 'muliSemiBold';
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #898989;
+    margin-bottom: 50px; }
 
 @media screen and (min-width: 768px) {
   .hashworks__workculture .plugin {
@@ -3156,10 +3199,13 @@ button {
   .hashworks__workculture .row {
     width: 698px; }
   .hashworks__workculture .workculture__image {
-    margin-top: 49px; }
+    margin-top: 49px;
+    background-position: center center;
+    height: 205px; }
     .hashworks__workculture .workculture__image h1 {
       font-size: 32px;
-      margin: 156px 0px 33px 33px; }
+      padding: 0px 0px 33px 32px;
+      height: 205px; }
   .hashworks__workculture .workculture__workfun h1 {
     font-family: 'muliBold';
     font-size: 18px;
@@ -3185,8 +3231,28 @@ button {
       margin-left: 3px;
       font-size: 16px; }
   .hashworks__workculture .workculture__bottomImage {
-    height: 175px;
-    margin-top: -93px; } }
+    height: 92px;
+    background-position: center center;
+    margin-top: 16px; }
+
+  .workculture__culture {
+    border-top: 1px solid #d3d3d3;
+    margin: 40px 0px 0px 0px; }
+    .workculture__culture h2 {
+      width: 100%;
+      font-size: 18px;
+      margin: 36px 0px 12px 0px; }
+    .workculture__culture p {
+      width: 540px;
+      margin: 0px auto 64px;
+      font-size: 14px; }
+    .workculture__culture h3 {
+      font-size: 18px;
+      margin-bottom: 49px; }
+
+  .border .row {
+    width: 550px;
+    margin: 0 auto; } }
 @media screen and (min-width: 1024px) {
   .hashworks__workculture .row {
     width: 940px; }
@@ -3196,11 +3262,12 @@ button {
     max-height: 100%;
     margin-top: 3rem; }
   .hashworks__workculture .workculture__image {
-    height: 305px;
+    height: 274px;
     margin-top: 67px; }
     .hashworks__workculture .workculture__image h1 {
-      font-size: 48px;
-      margin: 213px 0px 33px 42px; }
+      font-size: 36px;
+      height: 274px;
+      padding: 0px 0px 32px 42px; }
   .hashworks__workculture .workculture__workfun h1 {
     font-size: 24px;
     margin: 63px 0px 36px 0px; }
@@ -3236,8 +3303,24 @@ button {
       margin-left: 3px;
       font-size: 16px; }
   .hashworks__workculture .workculture__bottomImage {
-    height: 233px;
-    margin-top: -125px; } }
+    height: 123px;
+    margin-top: 40px; }
+
+  .workculture__culture h2 {
+    width: 100%;
+    font-size: 24px;
+    margin: 36px 0px 16px 0px; }
+  .workculture__culture p {
+    width: 732px;
+    margin: 0px auto 64px;
+    font-size: 16px; }
+  .workculture__culture h3 {
+    font-size: 24px;
+    margin-bottom: 42px; }
+
+  .border .row {
+    width: 670px;
+    margin: 0 auto; } }
 @media screen and (min-width: 1367px) {
   .hashworks__workculture .row {
     width: 1095px; }
@@ -3247,10 +3330,12 @@ button {
     max-height: 610px;
     margin-top: 3rem; }
   .hashworks__workculture .workculture__image {
-    height: 430px; }
+    height: 385px; }
     .hashworks__workculture .workculture__image h1 {
       font-size: 56px;
-      margin: 322px 0px 33px 133px; }
+      height: 385px;
+      padding: 0px 0px 32px 132px;
+      font-size: 48px; }
   .hashworks__workculture .workculture__workfun h1 {
     font-size: 32px;
     margin: 63px 0px 36px 0px; }
@@ -3268,7 +3353,7 @@ button {
   .hashworks__workculture .workculture__facility p {
     font-size: 24px;
     line-height: 1.46;
-    width: 543px; }
+    width: 500px; }
   .hashworks__workculture .workculture__box {
     width: 400px;
     height: 256px;
@@ -3285,8 +3370,24 @@ button {
       margin-left: 3px;
       font-size: 16px; }
   .hashworks__workculture .workculture__bottomImage {
-    height: 331px;
-    margin-top: -212px; } }
+    height: 176px;
+    margin-top: 50px; }
+
+  .workculture__culture h2 {
+    width: 100%;
+    font-size: 32px;
+    margin: 36px 0px 16px 0px; }
+  .workculture__culture p {
+    width: 732px;
+    margin: 0px auto 91px;
+    font-size: 16px; }
+  .workculture__culture h3 {
+    font-size: 32px;
+    margin-bottom: 32px; }
+
+  .border .row {
+    width: 980px;
+    margin: 0 auto; } }
 @media screen and (min-width: 1798px) {
   .hashworks__workculture .row {
     width: 1095px; }
