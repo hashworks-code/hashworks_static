@@ -29,15 +29,19 @@
         &__headImg{
             background-image: url(../assets/image/service.png);
             background-repeat: no-repeat;
-            height: 145px;
+            height:203px;
             width: 100%;
-            background-size:cover;
+            background-position:center center;
             object-fit: contain;
+            background-size:cover;
         }
         &__head{
             font-size: 24px;
-            padding-top: 99px;
             color: #fff;
+            display: flex;
+            align-items: flex-end;
+            height: 203px;
+            padding: 0px 0px 24px 5px;
         }
         &__content{
             text-align: center;
@@ -62,10 +66,13 @@
             margin-bottom: 10px;
             cursor: pointer;
             padding: 0px;
+            background-position:center center;
+            object-fit: contain;
+            background-size:cover;
             h1{
                 color: #fff;
                 font-size: 24px;
-                padding: 128px 12px 0;
+                padding: 115px 12px 0;
                 font-weight: 100;
             }
         }
@@ -83,7 +90,7 @@
                 font-size: 24px;
                 color: #ffffff;
                 font-weight: 100;
-                padding: 83px 12px 0;
+                padding:115px 12px 0;
                 height: 100%;
             }
         }
@@ -100,7 +107,7 @@
                 font-size: 24px;
                 color: #ffffff;
                 font-weight: 100;
-                padding: 117px 12px 0;
+                padding: 115px 12px 0;
                 height: 100%;
             }
         }
@@ -119,7 +126,7 @@
                 font-size: 24px;
                 color: #ffffff;
                 font-weight: 100;
-                padding: 83px 12px 0;
+                padding: 115px 12px 0;
                 height: 100%;
             }
         }
@@ -136,7 +143,7 @@
                 font-size: 24px;
                 color: #ffffff;
                 font-weight: 100;
-                padding: 117px 12px 0;
+                padding: 115px 12px 0;
                 height: 100%;
             }
         }
@@ -165,12 +172,13 @@
            }
         }
         &__headImg{
-            height: 144px;
+            height: 203px;
             margin-top: 48px;
         }
         &__head{
-            font-size: 36px;
-            padding-top: 69px;
+            font-size: 32px;
+            height: 203px;
+            padding: 0px 0px 33px 5px;
         }
         &__content{
             h1{
@@ -191,42 +199,42 @@
         }
         &__cloudImg{
             width: 96%;
-            height: 239px;
+            height: 236px;
             h1 {
                 width: 250px;
-                font-size: 36px;
-                padding: 122px 25px 0;
+                font-size: 32px;
+                padding: 175px 25px 0;
             }
         }
         &__mobile{
             width: 96%;
             margin: 0 0 20px 19px;
-            height: 239px;
+            height: 236px;
             h1 {
-                font-size: 36px;
-                padding: 166px 32px 0;
+                font-size: 32px;
+                padding: 175px 32px 0;
             }
         }
         &__devops {
-            height: 239px;
+            height: 236px;
             h1 {
-                font-size: 36px;
-                padding: 194px 35px 0;
+                font-size: 32px;
+                padding: 160px 35px 0;
             }
         }
         &__uiUx {
-            height: 239px;
+            height: 236px;
             h1 {
-                font-size: 36px;
-                padding: 167px 32px 0;
+                font-size: 32px;
+                padding: 175px 0px 0;
             }
         }
         &__dataScience {
-            height: 239px;
+            height: 236px;
             h1 {
                 width: 250px;
-                font-size: 36px;
-                padding: 122px 25px 0;
+                font-size: 32px;
+                padding: 175px 25px 0;
             }
         }
     }
@@ -248,17 +256,18 @@
             width: 940px;
 
             img {
-               width: 14px;
-               height: 29px;
+                width: 18px;
+                height: 24px;
            }
         }
         &__headImg {
-            height: 192px;
+            height:273px;
             margin-top:66px;
         }
         &__head {
-            font-size: 48px;
-            padding-top: 101px;
+            font-size:36px;
+            height:273px;
+            padding: 0px 0px 42px 0px;
         }
         &__content{
             h1 {
@@ -278,8 +287,8 @@
             margin-bottom: 20px;
             h1 {
                 width: 300px;
-                font-size: 48px;
-                padding: 141px 27px 0;
+                font-size: 36px;
+                padding: 230px 27px 0;
             }
         }
         &__mobile{
@@ -287,24 +296,24 @@
             height: 322px;
             margin-bottom: 28px;
             h1 {
-                font-size: 48px;
-                padding: 214px 27px 0;
+                font-size: 36px;
+                padding: 230px 27px 0;
             }
         }
         &__devops {
             height: 322px;
             margin-bottom: 20px;
             h1 {
-                padding: 262px 28px 0;
-                font-size: 48px;
+                padding: 230px 28px 0;
+                font-size: 36px;
             }
         }
         &__uiUx {
             height: 322px;
             margin-bottom: 20px;
             h1 {
-                font-size: 48px;
-                padding: 214px 27px 0;
+                font-size: 36px;
+                padding: 236px 0px 0;
             }
         }
         &__dataScience {
@@ -312,8 +321,8 @@
             margin-bottom: 28px;
             h1 {
                 width: 280px;
-                font-size: 48px;
-                padding: 158px 27px 0;
+                font-size: 36px;
+                padding: 230px 27px 0;
             }
         }
         
@@ -335,16 +344,16 @@
             width: 1170px;
 
              img {
-               width: 19px;
-               height: 35px;
+                width: 23px;
+                height: 30px;
            }
         }
         &__headImg {
-            height: 270px;
+            height: 384px;
         }
         &__head {
-            font-size: 56px;
-            padding-top: 168px;
+            font-size: 48px;
+            height: 384px;
         }
         &__content{
             h1 {
@@ -364,8 +373,8 @@
             height: 396px;
             margin-bottom: 20px;
             h1 {
-                width: 330px;
-                padding: 229px 42px 0;
+                padding: 287px 36px 0;
+                font-size: 48px;
             }
         }
         &__mobile{
@@ -373,22 +382,24 @@
             height: 396px;
             margin-bottom: 28px;
             h1 {
-                padding: 289px 30px 0;
+                padding: 287px 36px 0;
+                font-size: 48px;
             }
         }
         &__devops {
             height: 396px;
             margin-bottom: 20px;
             h1 {
-                padding: 332px 36px 0;
-                width: 1170px;
+                padding: 287px 36px 0;
+                font-size: 48px;
             }
         }
         &__uiUx {
             height: 396px;
             margin-bottom: 20px;
             h1 {
-                padding: 289px 30px 0;
+                padding: 289px 15px 0;
+                font-size: 48px;
             }
         }
         &__dataScience {
@@ -396,9 +407,11 @@
             margin-bottom: 28px;
             h1 {
                 width: 310px;
-                padding: 229px 42px 0;
+                padding: 287px 42px 0;
+                font-size: 48px;
             }
         }
         
+
     }
 }

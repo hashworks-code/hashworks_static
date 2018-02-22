@@ -2550,14 +2550,18 @@ button {
   .service__headImg {
     background-image: url(../assets/image/service.png);
     background-repeat: no-repeat;
-    height: 145px;
+    height: 203px;
     width: 100%;
-    background-size: cover;
-    object-fit: contain; }
+    background-position: center center;
+    object-fit: contain;
+    background-size: cover; }
   .service__head {
     font-size: 24px;
-    padding-top: 99px;
-    color: #fff; }
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    height: 203px;
+    padding: 0px 0px 24px 5px; }
   .service__content {
     text-align: center;
     margin: 32px auto; }
@@ -2577,11 +2581,14 @@ button {
     background-color: #d8d8d8;
     margin-bottom: 10px;
     cursor: pointer;
-    padding: 0px; }
+    padding: 0px;
+    background-position: center center;
+    object-fit: contain;
+    background-size: cover; }
     .service__devops h1 {
       color: #fff;
       font-size: 24px;
-      padding: 128px 12px 0;
+      padding: 115px 12px 0;
       font-weight: 100; }
   .service__cloudImg {
     background-image: url(../assets/image/ui-ux.png);
@@ -2597,7 +2604,7 @@ button {
       font-size: 24px;
       color: #ffffff;
       font-weight: 100;
-      padding: 83px 12px 0;
+      padding: 115px 12px 0;
       height: 100%; }
   .service__uiUx {
     background-image: url(../assets/image/data-science.png);
@@ -2612,7 +2619,7 @@ button {
       font-size: 24px;
       color: #ffffff;
       font-weight: 100;
-      padding: 117px 12px 0;
+      padding: 115px 12px 0;
       height: 100%; }
   .service__dataScience {
     height: 166px;
@@ -2627,7 +2634,7 @@ button {
       font-size: 24px;
       color: #ffffff;
       font-weight: 100;
-      padding: 83px 12px 0;
+      padding: 115px 12px 0;
       height: 100%; }
   .service__mobile {
     background-image: url(../assets/image/rectangle-3-copy-3.png);
@@ -2642,7 +2649,7 @@ button {
       font-size: 24px;
       color: #ffffff;
       font-weight: 100;
-      padding: 117px 12px 0;
+      padding: 115px 12px 0;
       height: 100%; }
   .service .col-xs-12.col-sm-8.col-md-8.col-lg-8 {
     padding: 0; }
@@ -2662,11 +2669,12 @@ button {
       width: 9px;
       height: 19px; }
   .service__headImg {
-    height: 144px;
+    height: 203px;
     margin-top: 48px; }
   .service__head {
-    font-size: 36px;
-    padding-top: 69px; }
+    font-size: 32px;
+    height: 203px;
+    padding: 0px 0px 33px 5px; }
   .service__content h1 {
     font-size: 18px; }
   .service__content p {
@@ -2680,34 +2688,34 @@ button {
     margin: 0 auto !important; }
   .service__cloudImg {
     width: 96%;
-    height: 239px; }
+    height: 236px; }
     .service__cloudImg h1 {
       width: 250px;
-      font-size: 36px;
-      padding: 122px 25px 0; }
+      font-size: 32px;
+      padding: 175px 25px 0; }
   .service__mobile {
     width: 96%;
     margin: 0 0 20px 19px;
-    height: 239px; }
+    height: 236px; }
     .service__mobile h1 {
-      font-size: 36px;
-      padding: 166px 32px 0; }
+      font-size: 32px;
+      padding: 175px 32px 0; }
   .service__devops {
-    height: 239px; }
+    height: 236px; }
     .service__devops h1 {
-      font-size: 36px;
-      padding: 194px 35px 0; }
+      font-size: 32px;
+      padding: 160px 35px 0; }
   .service__uiUx {
-    height: 239px; }
+    height: 236px; }
     .service__uiUx h1 {
-      font-size: 36px;
-      padding: 167px 32px 0; }
+      font-size: 32px;
+      padding: 175px 0px 0; }
   .service__dataScience {
-    height: 239px; }
+    height: 236px; }
     .service__dataScience h1 {
       width: 250px;
-      font-size: 36px;
-      padding: 122px 25px 0; } }
+      font-size: 32px;
+      padding: 175px 25px 0; } }
 @media only screen and (min-width: 1025px) {
   .heading {
     width: 100%;
@@ -2720,14 +2728,15 @@ button {
   .service__container {
     width: 940px; }
     .service__container img {
-      width: 14px;
-      height: 29px; }
+      width: 18px;
+      height: 24px; }
   .service__headImg {
-    height: 192px;
+    height: 273px;
     margin-top: 66px; }
   .service__head {
-    font-size: 48px;
-    padding-top: 101px; }
+    font-size: 36px;
+    height: 273px;
+    padding: 0px 0px 42px 0px; }
   .service__content h1 {
     font-size: 24px; }
   .service__content p {
@@ -2741,34 +2750,34 @@ button {
     margin-bottom: 20px; }
     .service__cloudImg h1 {
       width: 300px;
-      font-size: 48px;
-      padding: 141px 27px 0; }
+      font-size: 36px;
+      padding: 230px 27px 0; }
   .service__mobile {
     margin: 0 0 20px 25px;
     height: 322px;
     margin-bottom: 28px; }
     .service__mobile h1 {
-      font-size: 48px;
-      padding: 214px 27px 0; }
+      font-size: 36px;
+      padding: 230px 27px 0; }
   .service__devops {
     height: 322px;
     margin-bottom: 20px; }
     .service__devops h1 {
-      padding: 262px 28px 0;
-      font-size: 48px; }
+      padding: 230px 28px 0;
+      font-size: 36px; }
   .service__uiUx {
     height: 322px;
     margin-bottom: 20px; }
     .service__uiUx h1 {
-      font-size: 48px;
-      padding: 214px 27px 0; }
+      font-size: 36px;
+      padding: 236px 0px 0; }
   .service__dataScience {
     height: 322px;
     margin-bottom: 28px; }
     .service__dataScience h1 {
       width: 280px;
-      font-size: 48px;
-      padding: 158px 27px 0; } }
+      font-size: 36px;
+      padding: 230px 27px 0; } }
 @media only screen and (min-width: 1367px) {
   .heading {
     width: 100%;
@@ -2781,13 +2790,13 @@ button {
   .service__container {
     width: 1170px; }
     .service__container img {
-      width: 19px;
-      height: 35px; }
+      width: 23px;
+      height: 30px; }
   .service__headImg {
-    height: 270px; }
+    height: 384px; }
   .service__head {
-    font-size: 56px;
-    padding-top: 168px; }
+    font-size: 48px;
+    height: 384px; }
   .service__content h1 {
     font-size: 32px;
     padding-bottom: 32px; }
@@ -2801,31 +2810,34 @@ button {
     height: 396px;
     margin-bottom: 20px; }
     .service__cloudImg h1 {
-      width: 330px;
-      padding: 229px 42px 0; }
+      padding: 287px 36px 0;
+      font-size: 48px; }
   .service__mobile {
     margin: 0 0 20px 31px;
     height: 396px;
     margin-bottom: 28px; }
     .service__mobile h1 {
-      padding: 289px 30px 0; }
+      padding: 287px 36px 0;
+      font-size: 48px; }
   .service__devops {
     height: 396px;
     margin-bottom: 20px; }
     .service__devops h1 {
-      padding: 332px 36px 0;
-      width: 1170px; }
+      padding: 287px 36px 0;
+      font-size: 48px; }
   .service__uiUx {
     height: 396px;
     margin-bottom: 20px; }
     .service__uiUx h1 {
-      padding: 289px 30px 0; }
+      padding: 289px 15px 0;
+      font-size: 48px; }
   .service__dataScience {
     height: 396px;
     margin-bottom: 28px; }
     .service__dataScience h1 {
       width: 310px;
-      padding: 229px 42px 0; } }
+      padding: 287px 42px 0;
+      font-size: 48px; } }
 .hashworks__grewpage .row {
   width: 261px;
   margin: 0px auto;
