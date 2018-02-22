@@ -7507,12 +7507,12 @@ ul.tabs li.current {
 .internship__headImg {
   background-image: url(../assets/image/job/intern-ship.png);
   background-repeat: no-repeat;
-  height: 237px;
+  height: 211px;
   width: 100%;
   background-size: cover;
-  background-position: center center; }
+  background-position: 100% 100%; }
 .internship__content {
-  height: 237px;
+  height: 211px;
   width: 100%;
   display: flex;
   align-items: flex-end;
@@ -7704,13 +7704,14 @@ ul.tabs li.current {
     left: 474px; }
 
   .internship__headImg {
-    height: 229px;
-    margin-top: 48px; }
+    height: 205px;
+    margin-top: 48px;
+    background-position: center center; }
   .internship__content {
-    height: 229px;
+    height: 205px;
     width: 100%;
     padding: 32px 31px;
-    font-size: 36px; }
+    font-size: 32px; }
   .internship__opening {
     width: 578px;
     margin: 0 auto; }
@@ -7834,12 +7835,12 @@ ul.tabs li.current {
     left: 625px; }
 
   .internship__headImg {
-    height: 305px;
+    height: 274px;
     margin-top: 67px; }
   .internship__content {
-    height: 305px;
+    height: 274px;
     padding: 26px 43px;
-    font-size: 48px; }
+    font-size: 36px; }
   .internship__opening {
     width: 780px;
     margin: 0 auto; }
@@ -7964,11 +7965,11 @@ ul.tabs li.current {
     left: 800px; }
 
   .internship__headImg {
-    height: 430px; }
+    height: 385px; }
   .internship__content {
-    height: 430px;
+    height: 385px;
     padding: 31px 134px;
-    font-size: 56px; }
+    font-size: 48px; }
   .internship__opening {
     width: 970px;
     margin: 0 auto; }

@@ -127,13 +127,13 @@ position: relative;
      &__headImg{
          background-image: url(../assets/image/job/intern-ship.png);
          background-repeat: no-repeat;
-         height: 237px;
+         height: 211px;
          width: 100%;
          background-size:cover;    
-         background-position: center center;   
+         background-position: 100% 100%;   
        }
        &__content{
-         height: 237px;
+         height: 211px;
          width: 100%;
          display: flex;
          align-items: flex-end;
@@ -359,14 +359,15 @@ position: relative;
  }
        .internship{
               &__headImg{
-                  height: 229px;   
+                  height: 205px;   
                   margin-top: 48px;
+                  background-position: center center;
                 }
                 &__content{
-                  height: 229px;
+                    height: 205px; 
                   width: 100%;
                   padding: 32px 31px;
-                  font-size: 36px;
+                  font-size: 32px;
                 }
           &__opening{
               width: 578px;
@@ -533,13 +534,13 @@ position: relative;
      }
            .internship{
                   &__headImg{
-                      height: 305px;   
+                      height: 274px;   
                       margin-top: 67px;  
                     }
                     &__content{
-                      height: 305px;
+                      height: 274px;
                       padding: 26px 43px;
-                      font-size:48px;
+                      font-size:36px;
                     }
               &__opening{
                   width:780px;
@@ -703,12 +704,12 @@ position: relative;
      }
            .internship{
                   &__headImg{
-                      height: 430px;     
+                      height:385px;     
                     }
                     &__content{
-                      height: 430px;
+                      height:385px;
                       padding: 31px 134px;
-                      font-size:56px;
+                      font-size:48px;
                     }
               &__opening{
                   width:970px;
