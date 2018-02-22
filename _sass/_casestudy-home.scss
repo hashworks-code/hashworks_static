@@ -135,11 +135,12 @@
       }
       &__banner {
         margin-top: 49px;
+        height: 205px;
         h1 {
-          font-size: 36px;
+          font-size: 32px;
           padding: 0px 0px 32px 32px;
           width: 768px;
-          height: 230px;
+          height: 205px;
         }
       }
       .category-filter {
@@ -192,13 +193,13 @@
         width: 458px;
       }
       &__banner {
-        height: 306px;
+        height:275px;
         margin-top: 67px;
         h1 {
-          font-size: 48px;
+          font-size: 36px;
           padding: 0px 0px 28px 43px;
            width: 1025px;
-          height: 306px;
+          height: 275px;
         }
       }
       .category-filter {
@@ -250,13 +251,13 @@
         width: 569px;
       }
       &__banner {
-        height: 430px;
+        height:385px;
         margin-top: 66px;
         h1 {
-          font-size: 56px;
+          font-size:48px;
           padding: 0px 0px 32px 136px;
           width: 1367px;
-          height: 430px;
+          height: 385px;
         }
       }
       .category-filter {
