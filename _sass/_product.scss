@@ -7,10 +7,13 @@ button{
     &__headImg{
       background-image: url(../assets/image/product.png);
       background-repeat: no-repeat;
-      height: 270px;
+      height: 385px;
       background-size:cover;
       background-position: center center;
       margin-top: 67px;
+    }
+    &__borderleft{
+      margin-top:70px;
     }
     &__content1{
       width: 1158px;
@@ -18,8 +21,8 @@ button{
     }
     &__head{
       color: #fff;
-      font-size: 56px;
-      padding: 168px 0 32px;
+      font-size: 48px;
+      padding: 285px 0 32px;
         
     }
     &__content {
@@ -92,7 +95,7 @@ button{
       width: 217px !important;
     }
     &__paketo img{
-      width: 84px;
+      width:200px;
     }
     &__paketo p{
       width: 457px;
@@ -160,7 +163,7 @@ button{
       
     }
     &__img2{
-      width: 52px;
+      width:135px;
      
     }
     &__img3{
@@ -181,15 +184,18 @@ button{
   @media only screen and (max-width: 1366px){
   .product{
     &__headImg{
-      height: 385px;
+      height:274px;
       margin-top: 67px;
+    }
+    &__borderleft{
+      margin-top:70px;
     }
     &__content1{
       width: 935px;
     }
     &__head{
-      font-size: 56px;
-      padding: 100px 0 32px;
+      font-size: 36px;
+      padding: 190px 0 32px;
         
     }
     &__content {
@@ -241,7 +247,7 @@ button{
       width: 185px !important;
     }
     &__paketo img{
-      width: 71.5px;
+      width: 130px;
     }
     &__paketo p{
       width: 380px;
@@ -296,7 +302,7 @@ button{
      
     }
     &__img2{
-      width: 45px;
+      width:120px;
    
     }
     &__img3{
@@ -314,12 +320,15 @@ button{
   @media only screen and (max-width: 1024px){
     .product{
       &__headImg{
-        height: 144px;
+        height:205px;
         margin-top:49px;
       }
+      &__borderleft{
+        margin-top: 47px;
+      }
       &__head {
-        font-size: 36px;
-        padding: 67px 0 32px;
+        font-size: 32px;
+        padding: 139px 0 32px;
       }
       &__content1{
         width: 706px;
@@ -373,7 +382,7 @@ button{
       height: 38px;
     }
     &__paketo img {
-      width: 52px;
+      width:115px;
     }
     &__borderTop {
       width: 701px;
@@ -407,7 +416,7 @@ button{
      
     }
     &__img2 {
-      width: 39px;
+      width:115px;
   
     }
     &__img3 {
@@ -425,11 +434,14 @@ button{
     .product{
      
       &__headImg{
-        height: 144px;
+        height:203px;
         margin-top:0px;
       }
+      &__borderleft{
+        margin-top: 5px;
+      }
       &__head {
-        padding: 98px 0 16px;
+        padding: 148px 0 16px;
         font-size: 24px;
         margin: 0;
      }
@@ -521,14 +533,14 @@ button{
       font-size: 10px;
     }
     &__paketo img {
-      width: 38px;
+      width:100px;
     }
     &__img1 {
       width: 94px;
   
     }
     &__img2 {
-      width: 39px;
+      width: 95px;
  
     }
     &__img3 {
