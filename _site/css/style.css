@@ -6566,14 +6566,9 @@ ul.tabs li.current {
     background-size: 100% 100%;
     object-fit: contain; }
   .devOps__head {
-    position: absolute;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    height: 400px;
-    width: 100%; }
+    height: 232px;
+    align-items: flex-end; }
     .devOps__head h1 {
       font-family: 'muliRegular';
       font-size: 24px;
@@ -6582,9 +6577,10 @@ ul.tabs li.current {
       font-stretch: normal;
       line-height: normal;
       letter-spacing: normal;
-      text-align: center;
+      text-align: left;
       color: #ffffff;
-      margin: 0 auto; }
+      width: 270px;
+      margin: 0 auto 16px; }
   .devOps__content {
     height: 100%;
     background-color: #000000;
@@ -6732,12 +6728,13 @@ ul.tabs li.current {
       width: 702px;
       margin: 0 auto; }
     .devOps__headImg {
-      height: 230px; }
+      height: 205px; }
     .devOps__head {
-      width: 100%;
-      height: 520px; }
+      height: 205px; }
       .devOps__head h1 {
-        font-size: 32px; }
+        font-size: 32px;
+        width: 702px;
+        margin: 0 auto 33px; }
     .devOps__content {
       padding: 32px 0; }
       .devOps__content h1 {
@@ -6823,12 +6820,12 @@ ul.tabs li.current {
     .devOps__container {
       width: 943px; }
     .devOps__headImg {
-      height: 306px; }
+      height: 274px; }
     .devOps__head {
-      width: 100%;
-      height: 650px; }
+      height: 274px; }
       .devOps__head h1 {
-        font-size: 48px; }
+        font-size: 36px;
+        width: 943px; }
     .devOps__content {
       padding: 35px 0 32px; }
       .devOps__content h1 {
@@ -6922,12 +6919,12 @@ ul.tabs li.current {
   .devOps__container {
     width: 1107px; }
   .devOps__headImg {
-    height: 430px; }
+    height: 385px; }
   .devOps__head {
-    width: 100%;
-    height: 696px; }
+    height: 385px; }
     .devOps__head h1 {
-      font-size: 56px; }
+      font-size: 48px;
+      width: 1107px; }
   .devOps__content {
     padding: 92px 0 118px; }
     .devOps__content h1 {
