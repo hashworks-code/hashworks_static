@@ -4932,7 +4932,7 @@ ul.tabs li.current {
 .job__headImg {
   background-image: url(../assets/image/job/intern-ship.png);
   background-repeat: no-repeat;
-  height: 237px;
+  height: 211px;
   width: 100%;
   background-size: cover;
   background-position: center center; }
@@ -5131,13 +5131,13 @@ ul.tabs li.current {
     left: 474px; }
 
   .job__headImg {
-    height: 229px;
+    height: 205px;
     margin-top: 48px; }
   .job__content {
-    height: 229px;
+    height: 205px;
     width: 100%;
     padding: 32px 31px;
-    font-size: 36px; }
+    font-size: 32px; }
   .job__opening {
     width: 578px;
     margin: 0 auto; }
@@ -5261,12 +5261,12 @@ ul.tabs li.current {
     left: 625px; }
 
   .job__headImg {
-    height: 305px;
+    height: 274px;
     margin-top: 67px; }
   .job__content {
-    height: 305px;
+    height: 274px;
     padding: 26px 43px;
-    font-size: 48px; }
+    font-size: 36px; }
   .job__opening {
     width: 780px;
     margin: 0 auto; }
@@ -5391,11 +5391,11 @@ ul.tabs li.current {
     left: 800px; }
 
   .job__headImg {
-    height: 430px; }
+    height: 385px; }
   .job__content {
-    height: 430px;
+    height: 385px;
     padding: 31px 134px;
-    font-size: 56px; }
+    font-size: 48px; }
   .job__opening {
     width: 970px;
     margin: 0 auto; }
