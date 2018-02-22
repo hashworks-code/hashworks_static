@@ -40,6 +40,7 @@
                 align-items: flex-end;
                 padding: 0px 0px 15px 29px;
                 color: #ffffff;
+                font-weight: normal;
             }
         }
         &__form {
@@ -141,8 +142,8 @@
                          i {
                   position: relative;
               }
-                        &__image1 {
-            background-image: url(../assets/image/contactus/contact1.png);
+         &__image1 {
+            background-image: url(../assets/image/index/rectangle-3-copy-2.png);
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center center;
@@ -170,7 +171,7 @@
               }
         }
         &__image2 {
-           background-image: url(../assets/image/contactus/contact2.png);
+            background-image: url(../assets/image/index/rectangle-3-copy-3.png);
               background-size: cover;
               background-repeat: no-repeat;
               background-position: center center;
@@ -211,7 +212,7 @@
           width: 462px;
         }
         &__image {
-             height: 213px;
+             height: 206px;
              margin-top:48px;
             h1 {
                 font-size: 32px;
@@ -284,7 +285,7 @@
          &__images {
              margin-bottom: 37px;
             &__image1 {
-            background-image: url(../assets/image/contactus/contact1.png);
+          
                width: 220px;
               height: 279px;  
 
@@ -300,7 +301,7 @@
               }
         }
         &__image2 {
-           background-image: url(../assets/image/contactus/contact2.png);
+          
                width: 462px;
               height: 279px; 
 
@@ -333,13 +334,12 @@
           width: 624px;   
         }
         &__image {
-             height: 284px;
+             height: 274px;
                margin-top:67px;
             h1 {
                 font-size: 32px;
-                padding: 218px 0px 32px 32px;
                  width: 1024px;
-                 height: 284px;
+                 height: 274px;
 
             }
         }
@@ -403,7 +403,7 @@
          &__images {
              margin-bottom: 62px;
             &__image1 {
-            background-image: url(../assets/image/contactus/contact1.png);
+          
                width: 300px;
               height: 382px;  
 
@@ -418,7 +418,7 @@
               }
         }
         &__image2 {
-           background-image: url(../assets/image/contactus/contact2.png);
+       
                width: 624px;
               height: 386px; 
 
@@ -519,7 +519,6 @@
          &__images {
              margin-bottom: 60px;
             &__image1 {
-            background-image: url(../assets/image/contactus/contact1.png);
                width: 372px;
               height: 484px;  
 
@@ -533,7 +532,6 @@
               }
         }
         &__image2 {
-           background-image: url(../assets/image/contactus/contact2.png);
                width: 774px;
               height: 486px; 
 

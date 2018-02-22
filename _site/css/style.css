@@ -1056,7 +1056,7 @@ a {
   width: 100%;
   height: 100%;
   z-index: 999;
-  background-image: url("../assets/image/job/BG .png");
+  background-image: url("../assets/image/job/BG.png");
   justify-content: center;
   display: none; }
   .loader img {
@@ -2115,7 +2115,6 @@ a {
     padding: 17px 0px 17px 27px;
     font-size: 24px; }
   .home__roi--image {
-    background-image: url(../assets/image/index/people.jpg);
     background-size: cover;
     height: 672px;
     background-position: 100%; }
@@ -8088,7 +8087,8 @@ ul.tabs li.current {
     margin: 0 auto;
     align-items: flex-end;
     padding: 0px 0px 15px 29px;
-    color: #ffffff; }
+    color: #ffffff;
+    font-weight: normal; }
 .hashworks__contactUs__form .row {
   width: 263px;
   margin: 0 auto; }
@@ -8166,7 +8166,7 @@ ul.tabs li.current {
 .hashworks__contactUs__images i {
   position: relative; }
 .hashworks__contactUs__images__image1 {
-  background-image: url(../assets/image/contactus/contact1.png);
+  background-image: url(../assets/image/index/rectangle-3-copy-2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -8189,7 +8189,7 @@ ul.tabs li.current {
     color: #ffffff;
     padding: 0px 140px 15px 18px; }
 .hashworks__contactUs__images__image2 {
-  background-image: url(../assets/image/contactus/contact2.png);
+  background-image: url(../assets/image/index/rectangle-3-copy-3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -8219,7 +8219,7 @@ ul.tabs li.current {
   .hashworks__contactUs .shadow2 {
     width: 462px; }
   .hashworks__contactUs__image {
-    height: 213px;
+    height: 206px;
     margin-top: 48px; }
     .hashworks__contactUs__image h1 {
       font-size: 32px;
@@ -8272,7 +8272,6 @@ ul.tabs li.current {
   .hashworks__contactUs__images {
     margin-bottom: 37px; }
     .hashworks__contactUs__images__image1 {
-      background-image: url(../assets/image/contactus/contact1.png);
       width: 220px;
       height: 279px; }
       .hashworks__contactUs__images__image1 p {
@@ -8283,7 +8282,6 @@ ul.tabs li.current {
         font-size: 24px;
         padding: 0px 22px 35px 20px; }
     .hashworks__contactUs__images__image2 {
-      background-image: url(../assets/image/contactus/contact2.png);
       width: 462px;
       height: 279px; }
       .hashworks__contactUs__images__image2 p {
@@ -8302,13 +8300,12 @@ ul.tabs li.current {
   .hashworks__contactUs .shadow2 {
     width: 624px; }
   .hashworks__contactUs__image {
-    height: 284px;
+    height: 274px;
     margin-top: 67px; }
     .hashworks__contactUs__image h1 {
       font-size: 32px;
-      padding: 218px 0px 32px 32px;
       width: 1024px;
-      height: 284px; }
+      height: 274px; }
   .hashworks__contactUs__form h1 {
     font-family: 'muliRegular';
     font-size: 24px;
@@ -8353,7 +8350,6 @@ ul.tabs li.current {
   .hashworks__contactUs__images {
     margin-bottom: 62px; }
     .hashworks__contactUs__images__image1 {
-      background-image: url(../assets/image/contactus/contact1.png);
       width: 300px;
       height: 382px; }
       .hashworks__contactUs__images__image1 p {
@@ -8363,7 +8359,6 @@ ul.tabs li.current {
         font-size: 32px;
         padding: 0px 20px 34px 40px; }
     .hashworks__contactUs__images__image2 {
-      background-image: url(../assets/image/contactus/contact2.png);
       width: 624px;
       height: 386px; }
       .hashworks__contactUs__images__image2 p {
@@ -8430,7 +8425,6 @@ ul.tabs li.current {
   .hashworks__contactUs__images {
     margin-bottom: 60px; }
     .hashworks__contactUs__images__image1 {
-      background-image: url(../assets/image/contactus/contact1.png);
       width: 372px;
       height: 484px; }
       .hashworks__contactUs__images__image1 p {
@@ -8439,7 +8433,6 @@ ul.tabs li.current {
         font-size: 48px;
         padding: 0px 40px 64px 72px; }
     .hashworks__contactUs__images__image2 {
-      background-image: url(../assets/image/contactus/contact2.png);
       width: 774px;
       height: 486px; }
       .hashworks__contactUs__images__image2 p {
