@@ -2877,15 +2877,18 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 115px;
+  height: 203px;
   background-position: center center; }
   .hashworks__grewpage .grewpage__image h1 {
     font-family: 'muliRegular';
     font-size: 24px;
     text-align: left;
     color: #ffffff;
-    padding: 38px 20px 16px 14px;
-    margin: 0px; }
+    padding: 0px 0px 32px 14px;
+    margin: 0px;
+    display: flex;
+    height: 203px;
+    align-items: flex-end; }
 .hashworks__grewpage .grewpage__step1__image {
   background-image: url(../assets/image/wegrew/1-1.png);
   background-size: contain;
@@ -2944,13 +2947,13 @@ button {
     font-size: 14px;
     margin-bottom: 64px; }
   .hashworks__grewpage .grewpage__image {
-    height: 230px;
+    height: 205px;
     margin-top: 48px; }
     .hashworks__grewpage .grewpage__image h1 {
-      font-size: 36px;
+      font-size: 32px;
       display: flex;
       align-items: flex-end;
-      height: 230px;
+      height: 205px;
       padding: 0px 0px 32px 29px; }
   .hashworks__grewpage .grewpage__step1 {
     margin: 16px 0px 0px 0px; }
@@ -2988,12 +2991,12 @@ button {
     font-size: 16px; }
   .hashworks__grewpage .grewpage__image {
     margin-top: 66px;
-    height: 306px; }
+    height: 274px; }
     .hashworks__grewpage .grewpage__image h1 {
-      font-size: 48px;
+      font-size: 36px;
       width: 864px;
       text-align: left;
-      height: 306px;
+      height: 274px;
       padding: 0px 0px 64px 39px; }
   .hashworks__grewpage .grewpage__step1 {
     margin: 16px 0px 0px 0px; }
@@ -3036,12 +3039,12 @@ button {
     font-size: 18px;
     margin-bottom: 64px; }
   .hashworks__grewpage .grewpage__image {
-    height: 430px; }
+    height: 384px; }
     .hashworks__grewpage .grewpage__image h1 {
-      font-size: 56px;
+      font-size: 48px;
       text-align: left;
       width: 100%;
-      height: 430px;
+      height: 384px;
       padding: 0px 0px 89px 134px; }
   .hashworks__grewpage .grewpage__step1 {
     margin: 16px 0px 0px 34px; }

@@ -5,48 +5,51 @@
         margin: 0px auto;
         padding: 0px 0px 0px 0px ;
         }
-    h1 {
+     h1 {
         font-family: 'muliBold';
-  font-size: 12px;
-  font-weight: bold;
-  text-align: left;
-  color: #000000;
-  width: 100%;
-  margin: 16px 0px;
-  width: 277px;
-    }
-    h2 {
+        font-size: 12px;
+        font-weight: bold;
+        text-align: left;
+        color: #000000;
+        width: 100%;
+        margin: 16px 0px;
+        width: 277px;
+            }
+     h2 {
         font-family: 'muliRegular';
-  font-size: 14px;
-  text-align: left;
-  color: #603c96;
-  margin-bottom: 16px;
-  
-    }
-  h3 {
-       font-family: 'muliRegular';
-  font-size: 12px;
-  line-height: 1.5;
-  text-align: left;
-  color: #3e3e3e;
-  margin-bottom:33px;
-  }
+        font-size: 14px;
+        text-align: left;
+        color: #603c96;
+        margin-bottom: 16px;
+        
+            }
+     h3 {
+        font-family: 'muliRegular';
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: left;
+        color: #3e3e3e;
+        margin-bottom:33px;
+        }
 
         .grewpage__image{
             background-image: url(../assets/image/wegrew/growth.png);
              background-size: cover;
              background-repeat: no-repeat;
             width: 100%;
-            height: 115px;
+            height: 203px;
             background-position: center center;
 
           h1 {
-              font-family: 'muliRegular';
-              font-size: 24px;
-              text-align: left;
-              color: #ffffff;
-              padding: 38px 20px 16px 14px;
-              margin: 0px;
+            font-family: 'muliRegular';
+            font-size: 24px;
+            text-align: left;
+            color: #ffffff;
+            padding: 0px 0px 32px 14px;
+            margin: 0px;
+            display: flex;
+            height: 203px;
+            align-items: flex-end;
           }
         }
 
@@ -115,37 +118,33 @@
         }
     }
 @media screen and (min-width:768px){ 
-     .hashworks__grewpage {
-        .row{
-        
+    .hashworks__grewpage {
+    .row{
          width: 580px;
         }
-    h1 {
-  font-size: 14px;
-  margin: 32px 0px 16px 0px;
-  width: 100%;
+ h1 {
+        font-size: 14px;
+        margin: 32px 0px 16px 0px;
+        width: 100%;
     }
     h2 {
-     
-  font-size: 18px;
-
-  margin-bottom: 21px;
-  
+        font-size: 18px;
+        margin-bottom: 21px;
     }
   h3 {
-       font-family: 'muliRegular';
-  font-size: 14px;
-  margin-bottom:64px;
+        font-family: 'muliRegular';
+        font-size: 14px;
+        margin-bottom:64px;
   }
 
         .grewpage__image{
-            height: 230px;
+            height: 205px;
             margin-top:48px;
           h1 {
-              font-size: 36px;
+              font-size: 32px;
               display: flex;
               align-items: flex-end;
-              height: 230px;
+              height: 205px;
               padding: 0px 0px 32px 29px;
           }
         }
@@ -221,13 +220,13 @@
 
         .grewpage__image{
         margin-top: 66px;
-            height: 306px;
+            height: 274px;
           h1 {
             
-              font-size: 48px;
+              font-size: 36px;
                width: 864px;
               text-align: left;
-              height: 306px;
+              height: 274px;
               padding: 0px 0px 64px 39px;
           }
         }
@@ -289,14 +288,13 @@
 
 @media screen and (min-width:1367px){ 
      .hashworks__grewpage {
-        .row{
-        width: 900px;
-        
+ .row{
+   width: 900px;
         }
-    h1 {
-  font-size: 16px;
+ h1 {
+   font-size: 16px;
     }
-    h2 {
+ h2 {
   font-size: 32px;
     }
   h3 {
@@ -304,12 +302,12 @@
   margin-bottom:64px;
   }
         .grewpage__image{
-            height: 430px;
+            height: 384px;
           h1 {
-              font-size: 56px;
+              font-size: 48px;
               text-align: left;
                width: 100%;
-               height: 430px;
+               height: 384px;
                padding: 0px 0px 89px 134px;
           }
         }
