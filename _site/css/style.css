@@ -8454,21 +8454,16 @@ ul.tabs li.current {
     width: 270px;
     margin: 0 auto; }
   .uiux__headImg {
-    background-image: url(../assets/image/mobile/devops.png);
+    background-image: url(../assets/image/mobile/ui-ux.png);
     background-repeat: no-repeat;
     height: 232px;
     width: 100%;
     background-size: 100% 100%;
     object-fit: contain; }
   .uiux__head {
-    position: absolute;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    height: 400px;
-    width: 100%; }
+    height: 232px;
+    align-items: flex-end; }
     .uiux__head h1 {
       font-family: 'muliRegular';
       font-size: 24px;
@@ -8477,9 +8472,10 @@ ul.tabs li.current {
       font-stretch: normal;
       line-height: normal;
       letter-spacing: normal;
-      text-align: center;
+      text-align: left;
       color: #ffffff;
-      margin: 0 auto; }
+      width: 270px;
+      margin: 0 auto 16px; }
   .uiux__content {
     height: 100%;
     background-color: #000000;
@@ -8627,12 +8623,13 @@ ul.tabs li.current {
       width: 702px;
       margin: 0 auto; }
     .uiux__headImg {
-      height: 230px; }
+      height: 205px; }
     .uiux__head {
-      width: 100%;
-      height: 520px; }
+      height: 205px; }
       .uiux__head h1 {
-        font-size: 32px; }
+        font-size: 32px;
+        width: 702px;
+        margin: 0 auto 33px; }
     .uiux__content {
       padding: 32px 0; }
       .uiux__content h1 {
@@ -8718,12 +8715,12 @@ ul.tabs li.current {
     .uiux__container {
       width: 943px; }
     .uiux__headImg {
-      height: 306px; }
+      height: 274px; }
     .uiux__head {
-      width: 100%;
-      height: 650px; }
+      height: 274px; }
       .uiux__head h1 {
-        font-size: 48px; }
+        font-size: 36px;
+        width: 943px; }
     .uiux__content {
       padding: 35px 0 32px; }
       .uiux__content h1 {
@@ -8817,12 +8814,12 @@ ul.tabs li.current {
   .uiux__container {
     width: 1107px; }
   .uiux__headImg {
-    height: 430px; }
+    height: 385px; }
   .uiux__head {
-    width: 100%;
-    height: 696px; }
+    height: 385px; }
     .uiux__head h1 {
-      font-size: 56px; }
+      font-size: 48px;
+      width: 1107px; }
   .uiux__content {
     padding: 92px 0 118px; }
     .uiux__content h1 {

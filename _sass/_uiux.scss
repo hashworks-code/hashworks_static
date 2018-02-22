@@ -7,7 +7,7 @@
             margin: 0 auto;
         }
         &__headImg{
-            background-image: url(../assets/image/mobile/devops.png);
+            background-image: url(../assets/image/mobile/ui-ux.png);
             background-repeat: no-repeat;
             height: 232px;
             width: 100%;
@@ -15,15 +15,9 @@
             object-fit: contain;
         }
         &__head{
-            position: absolute;
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            align-content: center;
-            height: 400px;
-            width: 100%;
-          
+            height: 232px;
+            align-items: flex-end;
             h1{
                 font-family:'muliRegular';
                 font-size: 24px;
@@ -32,9 +26,11 @@
                 font-stretch: normal;
                 line-height: normal;
                 letter-spacing: normal;
-                text-align: center;
+                text-align: left;
                 color: #ffffff;
-                margin: 0 auto;
+                width: 270px;
+                margin: 0 auto 16px;
+               
             }
         }
         &__content{
@@ -217,14 +213,14 @@
             margin: 0 auto;
         }
         &__headImg{
-            height: 230px;
+            height:205px;
         }
         &__head {
-            width: 100%;
-           height: 520px;
+        height: 205px;
             h1{
                 font-size: 32px;
-              
+              width: 702px;
+              margin: 0 auto 33px;
               }
         }
         &__content {
@@ -346,13 +342,13 @@
             width: 943px;
         }
         &__headImg{
-            height: 306px;
+            height: 274px;
         }
         &__head {
-            width: 100%;
-           height: 650px;
+            height: 274px;
             h1{
-                font-size: 48px;
+                font-size:36px;
+                width: 943px;
                
               }
         }
@@ -486,14 +482,14 @@
             width: 1107px;
         }
         &__headImg{
-            height: 430px;
+            height:385px;
         }
         &__head {
-            width: 100%;
-       height: 696px;
-            h1{
-                font-size: 56px;
+            height:385px;
 
+            h1{
+                font-size:48px;
+                width: 1107px;
               }
         }
         &__content {
