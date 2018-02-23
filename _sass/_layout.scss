@@ -455,6 +455,10 @@ body{
       &--list {
           position: absolute;
           right: 20px;
+          a:hover{
+            color:#603c96;
+            border-bottom: 1px solid #603c96;
+          }
       }
       &--home,&--product,&--case,&--blog,&--about,&--contact{
           font-family: 'muliSemiBold';
@@ -474,7 +478,7 @@ body{
     .popover {
       position: absolute;
       top: 20px;
-      left: 125px;
+      left: 58px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
       border-bottom: 14px solid white;
@@ -483,7 +487,7 @@ body{
     .popoverer{
       position: absolute;
       top: 20px;
-      left: 325px;
+      left:255px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
       border-bottom: 14px solid white;
@@ -805,7 +809,7 @@ body{
     .popover{
         position: absolute;
         top: 30px;
-        left: 175px;
+        left: 81px;
         border-left: 13px solid transparent;
         border-right: 13px solid transparent;
         border-bottom: 17px solid white;
@@ -814,7 +818,7 @@ body{
     .popoverer{
       position: absolute;
       top: 30px;
-      left: 457px;
+      left: 358px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
       border-bottom: 17px solid white;
@@ -1058,7 +1062,7 @@ img {
     .popover{
       position: absolute;
       top: 27px;
-      left: 164px;
+      left:77px;
       border-left: 18px solid transparent;
       border-right: 18px solid transparent;
       border-bottom: 25px solid white;
@@ -1067,7 +1071,7 @@ img {
   .popoverer{
     position: absolute;
     top: 27px;
-    left: 437px;
+    left:347px;
     border-left: 18px solid transparent;
     border-right: 18px solid transparent;
     border-bottom: 25px solid white;

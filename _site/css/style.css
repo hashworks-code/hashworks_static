@@ -372,6 +372,9 @@ body {
       body .hashworks__head--list {
         position: absolute;
         right: 20px; }
+        body .hashworks__head--list a:hover {
+          color: #603c96;
+          border-bottom: 1px solid #603c96; }
       body .hashworks__head--home, body .hashworks__head--product, body .hashworks__head--case, body .hashworks__head--blog, body .hashworks__head--about, body .hashworks__head--contact {
         font-family: 'muliSemiBold';
         font-size: 14px;
@@ -386,7 +389,7 @@ body {
     body .popover {
       position: absolute;
       top: 20px;
-      left: 125px;
+      left: 58px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
       border-bottom: 14px solid white;
@@ -394,7 +397,7 @@ body {
     body .popoverer {
       position: absolute;
       top: 20px;
-      left: 325px;
+      left: 255px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
       border-bottom: 14px solid white;
@@ -648,7 +651,7 @@ body {
     body .popover {
       position: absolute;
       top: 30px;
-      left: 175px;
+      left: 81px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
       border-bottom: 17px solid white;
@@ -656,7 +659,7 @@ body {
     body .popoverer {
       position: absolute;
       top: 30px;
-      left: 457px;
+      left: 358px;
       border-left: 13px solid transparent;
       border-right: 13px solid transparent;
       border-bottom: 17px solid white;
@@ -835,7 +838,7 @@ body {
     body .popover {
       position: absolute;
       top: 27px;
-      left: 164px;
+      left: 77px;
       border-left: 18px solid transparent;
       border-right: 18px solid transparent;
       border-bottom: 25px solid white;
@@ -843,7 +846,7 @@ body {
     body .popoverer {
       position: absolute;
       top: 27px;
-      left: 437px;
+      left: 347px;
       border-left: 18px solid transparent;
       border-right: 18px solid transparent;
       border-bottom: 25px solid white;
@@ -1109,7 +1112,7 @@ a {
   background-position: 0 0, 20px 20px;
   background-size: 40px 40px; }
   .home__hashworks .row {
-    width: 256px;
+    width: 272px;
     margin: 0 auto; }
   .home__hashworks--pattern {
     height: 269px;
@@ -1460,7 +1463,7 @@ a {
       font-size: 32px;
       text-align: left; }
     .home__hashworks h2 {
-      width: 278px;
+      width: 310px;
       font-size: 18px;
       font-weight: 600;
       text-align: left;
@@ -1716,7 +1719,7 @@ a {
       text-align: left;
       margin: 0px; }
     .home__hashworks h2 {
-      width: 290px;
+      width: 320px;
       font-size: 18px;
       font-weight: 600;
       text-align: left;
