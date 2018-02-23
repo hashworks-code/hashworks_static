@@ -108,10 +108,23 @@ ul.tabs li.current {
 
   }
   .aboutus {
+    .row{
+      width: 266px;
+      margin: 0 auto;
+    }
+    &__image{
+      width: 192px;
+      display: grid;
+      margin: 20px auto 15px;
+    }
+    &__image2{
+      width: 192px;
+      display: grid;
+      margin: 20px auto 15px;
+    }
     .border {
         border-top: solid 1px #e0e0e0;
         margin: 32px 0px;
-        
     }
     &__headImg {
         background-image: url(../assets/image//workculture/photo.png);
@@ -163,10 +176,7 @@ ul.tabs li.current {
       }
     }
   &__thinking {
-    &--container1 {
-        width: 266px;
-        margin: 0 auto;
-      }
+  
       h2 {
         font-family: 'muliBold';
         font-size: 16px;
@@ -285,9 +295,9 @@ ul.tabs li.current {
     }
     &--explore {
         cursor: pointer;
-        background-image: url(../assets/image/aboutus/group-6@2x.png);
+        background-image: url(../assets/image/aboutus/group.png);
         background-repeat: no-repeat;
-        height: 92px;
+        height:203px;
         width: 100%;
         background-size: cover;
         background-position: center center;
@@ -410,6 +420,7 @@ ul.tabs li.current {
         line-height: 1.5;
         text-align: left;
         color: #3e3e3e;
+        margin: 0px;
       }
   }
   .workculture__boxes {
@@ -532,6 +543,21 @@ ul.tabs li.current {
       margin-top: 49px;
       background-position: center center;
     }
+    .row{
+      width:700px;
+      margin: 0 auto;
+    }
+    &__image{
+      width: 192px;
+      display: grid;
+      margin: 75px auto 0px;
+    }
+    &__image2{
+    width: 202px;
+    display: grid;
+    margin: 101px 0px 0px 0px;
+    }
+
     &__content1 {
       height: 230px;
       padding: 29px 34px;
@@ -554,19 +580,16 @@ ul.tabs li.current {
       }
     }
     &__thinking {
-      &--container1 {
-        width: 461px;
-        margin: 0 auto;
-      }
+   
       h2 {
         font-size: 18px;
-        padding: 64px 0px 0px 0px;
+        padding:45px 0px 10px 0px;
       }
       p {
-        width: 460px;
-        ;
+        width: 320px;
         font-size: 14px;
         padding-top: 32px;
+        text-align: left;
       }
       h3 {
         font-size: 18px;
@@ -590,7 +613,7 @@ ul.tabs li.current {
           margin: 0 auto;
 
           .row {
-            width: 673px;
+            width: 700px;
             margin: 0 auto;
           }
         }
@@ -617,7 +640,7 @@ ul.tabs li.current {
   .aboutus__company {
     background-color: #f7f7f7;
     .row {
-      width: 537px;
+      width:700px;
       margin: 0 auto;
     }
     h1 {
@@ -696,6 +719,7 @@ margin-top: 3rem;
           font-size: 14px;
           line-height: 1.57;
           width: 336px;
+          margin: 0px;
         }
     }
     .workculture__box{
@@ -733,11 +757,7 @@ margin-top: 3rem;
         margin-bottom: 49px;
     }
 }
-.border{
-    .row{
-        width: 550px;margin: 0 auto;
-    }
-}
+
 }
 
 @media only screen and (min-width: 1025px) {
@@ -765,11 +785,24 @@ margin-top: 3rem;
     width:355px !important
   }
   .aboutus {
+    .row {
+      width:785px;
+      margin: 0 auto;
+    }
     &__headImg {
       height: 306px;
       width: 100%;
       margin-top: 67px;
-
+    }
+    &__image{
+      width: 329px;
+      display: grid;
+      margin: 50px auto 0px 40px;
+    }
+    &__image2{
+    width:290px;
+    display: grid;
+    margin:90px 0px 0px 0px;
     }
     &__content1 {
       height: 306px;
@@ -795,17 +828,13 @@ margin-top: 3rem;
       }
     }
     &__thinking {
-      &--container1 {
-        width: 731px;
-        margin: 0 auto;
-      }
+  
       h2 {
         font-size: 24px;
         padding: 60px 0px 0px 0px;
       }
       p {
-        width: 731px;
-        ;
+        width:378px;
         font-size: 16px;
         padding-top: 33px;
       }
@@ -851,6 +880,10 @@ margin-top: 3rem;
         }
       }
     }
+    .border {
+      margin-top: 64px;
+      margin-bottom: 70px;
+  }
   }
       // about company css
 .aboutus__company{
@@ -1026,6 +1059,7 @@ margin-top: 3rem;
        font-size: 18px;
        line-height: 1.5;
        width: 455px;
+       margin: 0px;
      }
  }
   .workculture__boxes {
@@ -1072,12 +1106,7 @@ margin-top: 3rem;
      margin-bottom: 42px;
  }
 }
-.border{
- .row{
-     width: 670px;
-     margin: 0 auto;
- }
-}
+
   }
 @media only screen and (min-width: 1367px) {
   .tabslider{
@@ -1094,6 +1123,20 @@ margin-top: 3rem;
       width: 100%;
       margin-top: 66px;
     }
+    .row{
+      width:1000px;
+      margin: 0 auto;
+    }
+    &__image{
+      width: 350px;
+      display: grid;
+      margin: 0px auto 0px;
+    }
+    &__image2{
+    width: 360px;
+    display: grid;
+    margin: 0px 0px 0px 0px;
+    }
     &__content1 {
       height: 430px;
       padding: 33px 134px;
@@ -1105,7 +1148,7 @@ margin-top: 3rem;
     }
     &__tab {
       &--list {
-        width: 370px;
+        width:500px;
         li {
           margin: 24px 0px;
           font-size: 18px;
@@ -1113,19 +1156,15 @@ margin-top: 3rem;
       }
     }
     &__thinking {
-      &--container1 {
-        width: 731px;
-        margin: 0 auto;
-      }
+  
       h2 {
         font-size: 32px;
-        padding: 64px 0px 0px 0px;
+        padding: 64px 0px 90px 0px;
       }
       p {
-        width: 731px;
-        ;
-        font-size: 18px;
-        padding-top: 33px;
+        width:489px;
+        font-size: 16px;
+        padding-top: 10px;
       }
       h3 {
         font-size: 32px;
@@ -1170,6 +1209,10 @@ margin-top: 3rem;
         }
       }
     }
+    .border {
+      margin-top: 64px;
+      margin-bottom: 90px;
+  }
   }
   // about company css
   .aboutus__company{
@@ -1280,6 +1323,7 @@ margin-top: 3rem;
          font-size: 24px;
          line-height: 1.46;
          width: 500px;
+         margin: 0px;
        }
    }
    .workculture__box{
@@ -1325,10 +1369,17 @@ margin-top: 3rem;
        margin-bottom: 32px;
    }
 }
-.border{
-   .row{
-       width: 980px;
-       margin: 0 auto;
-   }
 }
+@media screen and (min-width:1798px){  
+  .hashworks__workculture {
+      .row{
+     width: 1095px;
+     }
+ .plugin {
+ background: #fff;
+ min-height: 710px;
+ max-height: 100%;
+ margin-top: 3rem;
+}
+  }
 }

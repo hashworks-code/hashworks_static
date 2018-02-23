@@ -717,10 +717,15 @@ body{
      }
      &--algin{
         width: 451px;
-        display: flex;
-        justify-content: space-between;
         align-items: center;
         margin-left: 38px;
+     }
+     &__think,&__comp,&__cul{
+       display: inline-flex;
+       margin-right: 20px;
+     }
+     &__job1{
+       margin-top: 22px;
      }
      &__Content{
         border-right: solid 1px #dadada;
@@ -738,7 +743,7 @@ body{
         background-color: #f7f7f7;
      &--img{
         width: 19px;
-        height: 22px;
+        height: 18px;
         display: inline-block;
      }
    
@@ -972,13 +977,19 @@ img {
         width: 630px;
         margin-left: 48px;
      }
+     &__think,&__comp,&__cul{
+      display: inline-flex;
+      margin-right: 30px;
+    }
+    &__job1{
+      margin-top: 22px;
+    }
      &__Content{
         height: 141px;
         padding-right: 40px;
         a{
           color: #603c96;
         }
-     
      }
    &__thinking{
         padding: 7px 9px 8px 8px;
@@ -1230,7 +1241,7 @@ img {
      
      }
    &__thinking{
-        padding: 18px 20px 20px 27px;;
+        padding: 15px 20px 20px 27px;;
         width: 200px;
         height: 68px;
         background-color: #f7f7f7;
