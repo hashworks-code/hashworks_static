@@ -38,19 +38,6 @@ i {
 .popover, .popoverer {
   display: none; }
 
-.loader {
-  position: fixed;
-  align-items: center;
-  background-color: lightcyan;
-  width: 100%;
-  height: 100%;
-  z-index: 999;
-  justify-content: center;
-  display: none; }
-  .loader img {
-    width: 200px;
-    height: 200px; }
-
 body {
   margin: 0px; }
   body a {
@@ -143,21 +130,16 @@ body {
       align-items: center;
       justify-content: space-around;
       margin: 15px 0px 16px 0px; }
-    body .product_view--paketo, body .product_view--littlebhrahma, body .product_view--groome, body .product_view--frugal {
+    body .product_view--paketo, body .product_view--groome, body .product_view--frugal {
       max-width: 100px;
       background-color: #f7f7f7;
       height: 88px;
       margin-right: 10px; }
-      body .product_view--paketo img, body .product_view--littlebhrahma img, body .product_view--groome img, body .product_view--frugal img {
+      body .product_view--paketo img, body .product_view--groome img, body .product_view--frugal img {
         width: 67px;
         margin-top: 19px;
         margin-left: 16px;
         margin-right: 16px; }
-    body .product_view--littlebhrahma p {
-      padding: 0px 7px; }
-    body .product_view--littlebhrahma img {
-      width: 55px;
-      margin: 19px 22px 0px 22px; }
     body .product_view .service__view {
       border-top: solid 1px #dadada;
       margin-bottom: 16px; }
