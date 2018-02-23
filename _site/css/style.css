@@ -140,6 +140,10 @@ body {
         margin-top: 19px;
         margin-left: 16px;
         margin-right: 16px; }
+    body .product_view--img {
+      width: 50px !important;
+      margin-top: 13px !important;
+      margin-left: 28px !important; }
     body .product_view .service__view {
       border-top: solid 1px #dadada;
       margin-bottom: 16px; }
