@@ -1,4 +1,11 @@
 
+ .shadow1 {
+  transition: all .5s ease;
+  &:hover {
+    box-shadow: 1px 5px 15px 0 rgba(31, 32, 68, .25);
+    transform: scale(0.99);
+  }
+}
 i { position:absolute;
   right: 20px;
   top:4px;
