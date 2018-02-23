@@ -250,36 +250,38 @@ body {
     body .about__view--algin a {
       padding: 0px; }
   body .about__view__thinking {
-    width: 116px;
+    width: 208px;
     height: 36px;
     background-color: #f7f7f7;
     margin-bottom: 18px;
     display: flex;
-    justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding-left: 15px; }
     body .about__view__thinking--img {
       width: 19px;
       height: 22px;
       display: inline-block; }
   body .about__view__culture {
     width: 128px;
+    width: 208px;
     height: 36px;
     background-color: #f7f7f7;
     margin-bottom: 18px;
     display: flex;
-    justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding-left: 15px; }
     body .about__view__culture--img {
       width: 25px;
       height: 16px;
       display: inline-block; }
   body .about__view__job {
-    width: 116px;
+    width: 208px;
     height: 36px;
     background-color: #f7f7f7;
+    margin-bottom: 18px;
     display: flex;
-    justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding-left: 15px; }
     body .about__view__job--img {
       width: 17px;
       height: 20px;
@@ -561,7 +563,7 @@ body {
       z-index: 999;
       width: 100%;
       background-color: #ffffff;
-      padding: 25px;
+      padding: 25px 0px;
       margin: 0px; }
       body .about .row {
         width: 700px;
@@ -569,7 +571,7 @@ body {
         padding: 0px; }
       body .about p {
         display: inline-block;
-        padding-left: 9px;
+        padding: 1px 0px 0px 3px;
         font-size: 12px;
         vertical-align: top;
         font-family: 'muliRegular';
@@ -591,14 +593,13 @@ body {
         width: 159px;
         font-weight: 100; }
       body .about--algin {
-        width: 451px;
+        width: 490px;
         align-items: center;
-        margin-left: 38px; }
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-around; }
       body .about__think, body .about__comp, body .about__cul {
-        display: inline-flex;
-        margin-right: 20px; }
-      body .about__job1 {
-        margin-top: 22px; }
+        display: inline-flex; }
       body .about__Content {
         border-right: solid 1px #dadada;
         height: 141px;
@@ -606,8 +607,8 @@ body {
         body .about__Content a {
           color: #603c96; }
       body .about__thinking {
-        padding: 7px 9px 8px 8px;
-        width: 121px;
+        padding: 7px 0px 8px 6px;
+        width: 113px;
         height: 36px;
         background-color: #f7f7f7; }
         body .about__thinking--img {
@@ -615,7 +616,7 @@ body {
           height: 18px;
           display: inline-block; }
       body .about__culture {
-        width: 129px;
+        width: 113px;
         height: 36px;
         background-color: #f7f7f7;
         padding: 9px; }
@@ -625,11 +626,11 @@ body {
           display: inline-block; }
       body .about__job {
         padding: 9px;
-        width: 118px;
+        width: 113px;
         height: 36px;
         background-color: #f7f7f7; }
         body .about__job--img {
-          width: 17px;
+          width: 15px;
           height: 20px;
           display: inline-block; } }
   @media screen and (min-width: 1024px) {
@@ -966,8 +967,8 @@ body {
       font-size: 16px;
       margin-top: 25px; }
     body .about--algin {
-      width: 773px;
-      margin-left: 64px; }
+      width: 712px;
+      margin-left: 120px; }
     body .about__Content {
       height: 141px;
       padding-right: 27px; }

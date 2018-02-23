@@ -307,13 +307,13 @@ body{
          }
        
        &__thinking{
-          width: 116px;
-          height: 36px;
-          background-color:  #f7f7f7;;
-          margin-bottom: 18px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+        width: 208px;
+        height: 36px;
+        background-color: #f7f7f7;
+        margin-bottom: 18px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
          &--img{
            width: 19px;
            height: 22px;
@@ -323,26 +323,27 @@ body{
        }
        &__culture{
             width: 128px;
+            width: 208px;
             height: 36px;
-            background-color:  #f7f7f7;;
+            background-color: #f7f7f7;
             margin-bottom: 18px;
             display: flex;
-            justify-content: center;
             align-items: center;
+            padding-left: 15px;
         &--img{
             width: 25px;
             height: 16px;
             display: inline-block;
         }
-      
       }
       &__job{
-            width: 116px;
-            height: 36px;
-            background-color:  #f7f7f7;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        width: 208px;
+        height: 36px;
+        background-color: #f7f7f7;
+        margin-bottom: 18px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
         &--img{
             width: 17px;
             height: 20px;
@@ -692,7 +693,7 @@ body{
     z-index: 999;
     width: 100%;
     background-color: #ffffff;
-    padding: 25px;
+    padding: 25px 0px;
     margin: 0px;
 
     .row{
@@ -702,7 +703,7 @@ body{
    }
     p{
         display: inline-block;
-        padding-left: 9px;
+        padding: 1px 0px 0px 3px;
         font-size: 12px;
         vertical-align: top;
         font-family: 'muliRegular';
@@ -727,17 +728,17 @@ body{
         font-weight: 100;
      }
      &--algin{
-        width: 451px;
+        width:490px;
         align-items: center;
-        margin-left: 38px;
+        margin-left:10px;
+        display: flex;
+        justify-content: space-around;
      }
      &__think,&__comp,&__cul{
        display: inline-flex;
-       margin-right: 20px;
+      
      }
-     &__job1{
-       margin-top: 22px;
-     }
+   
      &__Content{
         border-right: solid 1px #dadada;
         height: 141px;
@@ -748,8 +749,8 @@ body{
      
      }
    &__thinking{
-        padding: 7px 9px 8px 8px;
-        width: 121px;
+        padding: 7px 0px 8px 6px;
+        width: 113px;
         height: 36px;
         background-color: #f7f7f7;
      &--img{
@@ -760,7 +761,7 @@ body{
    
    }
    &__culture{
-        width: 129px;
+        width: 113px;
         height: 36px;
         background-color: #f7f7f7;
         padding: 9px;
@@ -772,11 +773,11 @@ body{
   }
   &__job{
         padding: 9px;
-        width: 118px;
+        width: 113px;
         height: 36px;
         background-color: #f7f7f7;
     &--img{
-        width: 17px;
+        width: 15px;
         height: 20px;
         display: inline-block;
     }
@@ -1240,8 +1241,8 @@ img {
        
      }
      &--algin{
-      width: 773px;
-      margin-left: 64px;
+      width: 712px;
+      margin-left: 120px;
      }
      &__Content{
       height: 141px;
