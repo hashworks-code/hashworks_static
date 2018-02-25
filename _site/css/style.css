@@ -1452,7 +1452,7 @@ a {
       top: 158px;
       left: 50px; }
     .home__hashworks h1 {
-      width: 278px;
+      width: 317px;
       font-size: 32px;
       text-align: left; }
     .home__hashworks h2 {
@@ -1463,7 +1463,7 @@ a {
       padding: 10px 0px 20px; }
     .home__hashworks p {
       margin: 0 auto;
-      width: 278px;
+      width: 311px;
       font-size: 18px;
       text-align: left;
       margin-bottom: 33px; }
@@ -1707,8 +1707,8 @@ a {
       top: 225px;
       left: 40px; }
     .home__hashworks h1 {
-      width: 340px;
-      font-size: 40px;
+      width: 424px;
+      font-size: 48px;
       text-align: left;
       margin: 0px; }
     .home__hashworks h2 {
@@ -1903,12 +1903,10 @@ a {
 @media screen and (min-width: 1367px) {
   .slickright {
     right: 125px;
-    top: 146px;
     font-size: 100px; }
 
   .slickleft {
     left: 143px;
-    top: 146px;
     font-size: 100px; }
 
   .home-container--logo {
@@ -1930,8 +1928,8 @@ a {
       height: 500px;
       top: 0px; }
     .home__hashworks h1 {
-      width: 474px;
-      font-size: 56px;
+      width: 565px;
+      font-size: 64px;
       text-align: left;
       margin: 0px; }
     .home__hashworks h2 {
@@ -1939,13 +1937,13 @@ a {
       font-size: 24px;
       font-weight: 600;
       text-align: left;
-      padding: 10px 0px 0px;
+      padding: 10px 4px 0px;
       margin: 0px; }
     .home__hashworks p {
       width: 474px;
       font-size: 24px;
       text-align: left;
-      margin: 50px 0px 0px 0px; }
+      margin: 50px 0px 0px 4px; }
   .home__groome {
     background-color: #000000;
     margin-bottom: 8px;
@@ -1956,7 +1954,8 @@ a {
     .home__groome__product .groomepng {
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      height: 428px; }
     .home__groome__product .row {
       width: 1193px;
       margin: 0 auto; }

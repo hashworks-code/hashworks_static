@@ -496,7 +496,7 @@ a{
         left: 50px;
       }
       h1 {
-        width: 278px;
+        width: 317px;
         font-size: 32px;
         text-align: left;
       }
@@ -509,7 +509,7 @@ a{
       }
       p {
         margin: 0 auto;
-        width: 278px;
+        width: 311px;
         font-size: 18px;
         text-align: left;
         margin-bottom: 33px;
@@ -821,8 +821,8 @@ a{
         left: 40px;
       }
       h1 {
-        width: 340px;
-        font-size: 40px;
+        width:424px;
+        font-size: 48px;
         text-align: left;
         margin: 0px;
       }
@@ -1078,12 +1078,10 @@ a{
 @media screen and(min-width:1367px) {
   .slickright {
     right: 125px;
-    top: 146px;
     font-size: 100px;
   }
   .slickleft {
     left: 143px;
-    top: 146px;
     font-size: 100px;
   }
   .home-container--logo {
@@ -1109,8 +1107,8 @@ a{
         top: 0px;
       }
       h1 {
-        width: 474px;
-        font-size: 56px;
+        width: 565px;
+        font-size: 64px;
         text-align: left;
         margin: 0px;
       }
@@ -1119,14 +1117,14 @@ a{
         font-size: 24px;
         font-weight: 600;
         text-align: left;
-        padding: 10px 0px 0px;
+        padding: 10px 4px 0px;
         margin: 0px;
       }
       p {
         width: 474px;
         font-size: 24px;
         text-align: left;
-        margin: 50px 0px 0px 0px;
+        margin: 50px 0px 0px 4px;
       }
     }
     &__groome {
@@ -1142,6 +1140,7 @@ a{
           display: flex;
           align-items: center;
           justify-content: center;
+          height: 428px;
         }
         .row {
           width: 1193px;
