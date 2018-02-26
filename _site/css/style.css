@@ -490,7 +490,7 @@ body {
         height: 90px; }
       body .productService__service {
         border-top: solid 1px #dadada;
-        padding-top: 36px; }
+        padding: 18px 0px; }
         body .productService__service--content {
           width: 159px; }
         body .productService__service--mobile {
@@ -727,7 +727,7 @@ body {
       height: 122px; }
     body .productService__service {
       border-top: solid 1px #dadada;
-      padding-top: 36px; }
+      padding: 24px 0px 32px; }
       body .productService__service--content {
         width: 241px; }
       body .productService__service--mobile {
@@ -907,7 +907,7 @@ body {
       height: 146px; }
     body .productService__service {
       border-top: solid 1px #dadada;
-      padding-top: 36px; }
+      padding: 40px 32px; }
       body .productService__service--content {
         width: 305px; }
       body .productService__service--mobile {
