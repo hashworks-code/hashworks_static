@@ -4618,9 +4618,11 @@ ul.tabs li.current {
     .aboutus__content1 h1 {
       padding: 161px 0px 0px 34px;
       font-size: 36px; }
-  .aboutus__tab--list li {
-    margin: 25px 0px;
-    font-size: 16px; }
+  .aboutus__tab--list {
+    width: 441px; }
+    .aboutus__tab--list li {
+      margin: 25px 0px;
+      font-size: 16px; }
   .aboutus__thinking h2 {
     font-size: 24px;
     padding: 60px 0px 0px 0px; }
