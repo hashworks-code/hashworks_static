@@ -124,13 +124,13 @@
                                             <p>Our Thinking</p>
                                         </div> 
                                     </div>
-                                    <div  onclick="redirect('/aboutUs/')" class=" about__comp shadow1">
+                                    <div  onclick="redirect('/aboutUs/#company')" class=" about__comp shadow1">
                                         <div class="about__culture">
                                             <img class="about__culture--img" src="/assets/image/product&service/company1.svg" />
                                             <p>Company</p>
                                         </div>  
                                     </div>
-                                    <div  onclick="redirect('/aboutUs/')" class="about__comp shadow1">
+                                    <div  onclick="redirect('/aboutUs/#workculture')" class="about__comp shadow1">
                                         <div class="about__culture">
                                             <img class="about__job--img" src="/assets/image/product&service/fill-1.svg" />
                                             <p>Work Culture</p>
@@ -1712,6 +1712,23 @@
        'https://docs.google.com/spreadsheets/d/1hi6Fe-1CDGHmbhDEIQ3pCdT7wuFheTmoxnZkoC4DZ8I/edit#gid=0');
             }
         })
+
+        let hash=location.hash;
+        if(hash=='#company'){
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
+            $('#tab-2').addClass('current');
+            $('#company').addClass('current');
+        }
+        else if(hash=='#workculture'){
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
+            $('#tab-3').addClass('current');
+            $('#workculture').addClass('current');
+        }
+        
+       
+       
     })
 </script>
 

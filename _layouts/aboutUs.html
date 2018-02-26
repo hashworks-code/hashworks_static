@@ -1366,6 +1366,23 @@
        'https://docs.google.com/spreadsheets/d/1hi6Fe-1CDGHmbhDEIQ3pCdT7wuFheTmoxnZkoC4DZ8I/edit#gid=0');
             }
         })
+
+        let hash=location.hash;
+        if(hash=='#company'){
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
+            $('#tab-2').addClass('current');
+            $('#company').addClass('current');
+        }
+        else if(hash=='#workculture'){
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
+            $('#tab-3').addClass('current');
+            $('#workculture').addClass('current');
+        }
+        
+       
+       
     })
 </script>
 
