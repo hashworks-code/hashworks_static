@@ -1,4 +1,33 @@
+.dropdown1 {
+  display: inline-block;
+  font-family: 'muliSemiBold';
+  font-size: 14px; 
+  }
+  .dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    z-index:-1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  }
+  .dropdown1:hover .dropdown1-content {
+    display: block;
+  }
+  .dropdown1 .dropbtn1 {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
 
+  
+
+ 
+ 
+ 
  .shadow1 {
   transition: all .5s ease;
   &:hover {
@@ -415,7 +444,15 @@ body{
         display:none
   }
   @media screen and (min-width:768px){ 
-  
+    .dropdown1 {
+      font-size: 14px; 
+      }
+  .border-top{
+     border-top: 1px solid rgba(0, 0, 0, 0.05);
+     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+     margin: 15px 0px;
+
+  }
     #cssmenu{
           display: none;
     }
@@ -465,25 +502,27 @@ body{
     }
    // product and service
     .popover {
+      display: -webkit-box;
       position: absolute;
-      top: 20px;
-      left: 58px;
-      border-left: 13px solid transparent;
-      border-right: 13px solid transparent;
-      border-bottom: 14px solid white;
-      -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
+      top: -3px;
+      right: 278px;
+    img{
+      width: 30px !important;
+      height: 28px;
     }
-    .popoverer{
+    }
+    .popover1 {
+      display: -webkit-box;
       position: absolute;
-      top: 20px;
-      left:255px;
-      border-left: 13px solid transparent;
-      border-right: 13px solid transparent;
-      border-bottom: 14px solid white;
-      -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
+      top: -5px;
+    right: 102px;
+    img{
+      width: 32px !important;
+      height: 32px;
     }
+    }
+   
     .productService{
-           padding: 22px 0px 20px 0px;
            position: fixed;
            width: 100%;
            z-index: 999;
@@ -674,7 +713,6 @@ body{
     z-index: 999;
     width: 100%;
     background-color: #ffffff;
-    padding: 25px 0px;
     margin: 0px;
 
     .row{
@@ -734,6 +772,7 @@ body{
         width: 113px;
         height: 36px;
         background-color: #f7f7f7;
+        cursor: pointer;
      &--img{
         width: 19px;
         height: 18px;
@@ -767,6 +806,13 @@ body{
   
   }
   @media screen and (min-width:1024px){ 
+    .dropdown1 {
+      font-size: 16px; 
+      }
+    .border-top{
+      margin: 22px 0px;
+    }
+   
     #cssmenu{
         display: none;
     }
@@ -795,29 +841,26 @@ body{
       &--toggle{
          display: none;
       }
-    .popover{
-        position: absolute;
-        top: 30px;
-        left: 81px;
-        border-left: 13px solid transparent;
-        border-right: 13px solid transparent;
-        border-bottom: 17px solid white;
-        -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
-    }
-    .popoverer{
-      position: absolute;
-      top: 30px;
-      left: 358px;
-      border-left: 13px solid transparent;
-      border-right: 13px solid transparent;
-      border-bottom: 17px solid white;
-      -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
-    }
     .paketo{
         margin-left:48px;
     }
+    .popover {
+      top: -2px;
+      right: 348px;
+    img{
+      width: 60px !important;
+      height: 39px;
+    }
+    }
+    .popover1 {
+      top: -1px;
+    right: 127px;
+    img{
+      width: 45px !important;
+      height: 37px;
+    }
+    }
     .productService{
-        padding: 22px 0px;
       .row{
         width: 940px;
         margin: 0 auto;
@@ -973,6 +1016,7 @@ img {
      &__think,&__comp,&__cul{
       display: inline-flex;
       margin-right: 30px;
+      cursor: pointer;
     }
     &__job1{
       margin-top: 22px;
@@ -1023,12 +1067,16 @@ img {
   }
   
   @media screen and (min-width:1367px){ 
- 
+    .dropdown1 {
+      font-size: 18px; 
+      }
+    .border-top{
+      margin: 20px 0px;
+    }
    .paketo{
          margin-left: 65px;
    }
-    .hashworks__head {
-         
+    .hashworks__head {    
       .row{
           width:1170px;
           margin: 0 auto;
@@ -1043,31 +1091,27 @@ img {
             display: -webkit-inline-box;
             cursor: pointer;
       }
-    
     }
     &--toggle{
          display: none;
     }
-    .popover{
-      position: absolute;
-      top: 27px;
-      left:77px;
-      border-left: 18px solid transparent;
-      border-right: 18px solid transparent;
-      border-bottom: 25px solid white;
-      -webkit-filter:drop-shadow(0 0px 1px rgb(216, 197, 197));
-  }
-  .popoverer{
-    position: absolute;
-    top: 27px;
-    left:347px;
-    border-left: 18px solid transparent;
-    border-right: 18px solid transparent;
-    border-bottom: 25px solid white;
-    -webkit-filter: drop-shadow(0 0px 1px rgb(216, 197, 197));
-  }
+    .popover {
+      top: -2px;
+      right: 393px;
+    img{
+      width: 60px !important;
+      height: 39px;
+    }
+    }
+    .popover1 {
+      top: -6px;
+      right: 161px;
+    img{
+      width: 53px !important;
+      height: 43px;
+    }
+    }
     .productService{
-         padding:48 0px;
       .row{
           width:1170px;
           margin: 0 auto;
@@ -1090,12 +1134,9 @@ img {
           padding-top: 20px;
           width: 170px;
       }
-   
       img{
-          width: 125px;
-          
+          width: 125px;   
       }
-    
       &--productContent{
           border-right: solid 1px #dadada;
           height: 178px;
@@ -1113,14 +1154,11 @@ img {
           background-color: #f7f7f7;
           width:212px;
           height: 146px;
-       
       }
-    
     &__service{
           border-top:  solid 1px #dadada;
           padding-top: 36px;
-
-        &--content {
+       &--content {
            width: 305px;
       }
      &--mobile{
@@ -1158,7 +1196,6 @@ img {
       width: 176px;
       height: 68px;
       margin: 24px 0px 0px 25px;
-      
    img {
         width: 29px;
         height: 28px;
@@ -1169,7 +1206,6 @@ img {
       width: 176px;
       height: 68px;
       margin: 24px 0px 0px 95px;
-      
    img {
         width: 29px;
         height: 28px;
@@ -1192,7 +1228,6 @@ img {
       height: 78px;
       img{
         width: 135px;
-   
       }
     }
     &--produtfrugal{
@@ -1219,7 +1254,6 @@ img {
      h2{
        font-size: 16px;
        margin-top: 25px;
-       
      }
      &--algin{
       width: 712px;
@@ -1231,7 +1265,6 @@ img {
       a{
         color: #603c96;
       }
-     
      }
    &__thinking{
         padding: 15px 20px 20px 27px;;
@@ -1243,20 +1276,17 @@ img {
         height: 30px;
         display: inline-block;
      }
-   
    }
    &__culture{
         width: 200px;
         height: 68px;
         padding: 18px 15px 20px 24px;
         background-color: #f7f7f7;
-   
     &--img{
         width: 36px;
         height: 24px;
         display: inline-block;
     }
-  
   }
   &__job{
         padding: 9px;
@@ -1273,7 +1303,6 @@ img {
   }
   }
 }
-
 // mobile view css for header
 .navbar-component{
  .area {
@@ -1299,8 +1328,7 @@ img {
    & > .toggle > .icon {
         position: relative;
         margin-top: 8px;
-        margin-bottom: 8px;
-     
+        margin-bottom: 8px;    
      &,
      &:before,
      &:after {
@@ -1316,10 +1344,8 @@ img {
      &:before { top: -8px; }
      &:after { top: 8px; }
    }
-   
    & > .toggle.-active > .icon {
-        background-color: transparent;
-     
+        background-color: transparent; 
      &:before { transform: translateY(8px) rotate(45deg); }
      &:after { transform: translateY(-8px) rotate(-45deg); }
    }
@@ -1329,7 +1355,6 @@ img {
           display: none;
           width: 100%;
           border-top: 1px solid #ddd;
-     
      &.-on {
           display: block;
           padding: 20px 28px 17px 30px;
@@ -1337,7 +1362,6 @@ img {
           background-color: #f7f7f7;
      }
    }
-  
    & > .list > .item {
           display: block;    
           font-family: 'muliRegular';
@@ -1348,5 +1372,3 @@ img {
    }
  }
 }
-
-
