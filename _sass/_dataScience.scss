@@ -11,8 +11,8 @@
             background-repeat: no-repeat;
             height: 232px;
             width: 100%;
-            background-size: 100% 100%;
-            object-fit: contain;
+            background-size: cover;
+            background-position:80% 100%;
         }
         &__head{
             display: flex;
@@ -214,6 +214,7 @@
         }
         &__headImg{
             height:205px;
+            background-position: center center;
         }
         &__head {
             height:205px;
@@ -467,12 +468,9 @@
                font-size: 18px;
                margin: 0px;
            }
-       }
-       
-      
+       }     
     }
 }
-
 @media only screen and (min-width: 1367px){
     .dataScience{
         margin-top: 66px;

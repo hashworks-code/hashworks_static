@@ -5680,8 +5680,8 @@ ul.tabs li.current {
     background-repeat: no-repeat;
     height: 232px;
     width: 100%;
-    background-size: 100% 100%;
-    object-fit: contain; }
+    background-size: cover;
+    background-position: 80% 100%; }
   .cloud__head {
     display: flex;
     height: 232px;
@@ -5860,7 +5860,8 @@ ul.tabs li.current {
       width: 702px;
       margin: 0 auto; }
     .cloud__headImg {
-      height: 205px; }
+      height: 205px;
+      background-position: center center; }
     .cloud__head {
       height: 205px; }
       .cloud__head h1 {
@@ -6168,8 +6169,8 @@ ul.tabs li.current {
     background-repeat: no-repeat;
     height: 232px;
     width: 100%;
-    background-size: 100% 100%;
-    object-fit: contain; }
+    background-size: cover;
+    background-position: 80% 100%; }
   .dataScience__head {
     display: flex;
     height: 232px;
@@ -6333,7 +6334,8 @@ ul.tabs li.current {
       width: 702px;
       margin: 0 auto; }
     .dataScience__headImg {
-      height: 205px; }
+      height: 205px;
+      background-position: center center; }
     .dataScience__head {
       height: 205px; }
       .dataScience__head h1 {
@@ -6643,8 +6645,8 @@ ul.tabs li.current {
     background-repeat: no-repeat;
     height: 232px;
     width: 100%;
-    background-size: 100% 100%;
-    object-fit: contain; }
+    background-size: cover;
+    background-position: 80% 100%; }
   .devOps__head {
     display: flex;
     height: 232px;
@@ -6808,7 +6810,8 @@ ul.tabs li.current {
       width: 702px;
       margin: 0 auto; }
     .devOps__headImg {
-      height: 205px; }
+      height: 205px;
+      background-position: center center; }
     .devOps__head {
       height: 205px; }
       .devOps__head h1 {
@@ -7116,8 +7119,8 @@ ul.tabs li.current {
     background-repeat: no-repeat;
     height: 232px;
     width: 100%;
-    background-size: 100% 100%;
-    object-fit: contain; }
+    background-size: cover;
+    background-position: 80% 100%; }
   .mobile__head {
     display: flex;
     height: 232px;
@@ -7281,7 +7284,8 @@ ul.tabs li.current {
       width: 702px;
       margin: 0 auto; }
     .mobile__headImg {
-      height: 205px; }
+      height: 205px;
+      background-position: center center; }
     .mobile__head {
       height: 205px; }
       .mobile__head h1 {
@@ -8628,8 +8632,8 @@ ul.tabs li.current {
     background-repeat: no-repeat;
     height: 232px;
     width: 100%;
-    background-size: 100% 100%;
-    object-fit: contain; }
+    background-size: cover;
+    background-position: 80% 100%; }
   .uiux__head {
     display: flex;
     height: 232px;
@@ -8793,7 +8797,8 @@ ul.tabs li.current {
       width: 702px;
       margin: 0 auto; }
     .uiux__headImg {
-      height: 205px; }
+      height: 205px;
+      background-position: center center; }
     .uiux__head {
       height: 205px; }
       .uiux__head h1 {
