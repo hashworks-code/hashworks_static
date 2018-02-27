@@ -2337,7 +2337,7 @@ button {
   .product__borderRight {
     border-right: 1px solid #ccc; }
   .product__borderRight img {
-    width: 185px !important; }
+    width: 115px !important; }
   .product__paketo img {
     width: 130px; }
   .product__paketo p {
@@ -2418,13 +2418,13 @@ button {
   .product__paketo {
     margin: 16px 0 32px; }
   .product__borderRight img {
-    width: 135.3px !important; }
+    width: 100px !important; }
   .product__paketo h2 {
     font-size: 18px;
     font-weight: 100;
     font-family: 'muliRegular'; }
   .product__paketo p {
-    width: 278px;
+    width: 302px;
     font-size: 14px;
     font-family: 'muliRegular'; }
   .product__myButton {
