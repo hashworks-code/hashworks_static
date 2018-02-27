@@ -208,6 +208,8 @@ a{
         background-repeat: no-repeat;
         cursor: pointer;
         transition: all .5s ease;
+        background-size: cover;  
+        background-position: center center;
         &:hover {
           box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, .25);
           transform: scale(1.01);
@@ -218,8 +220,8 @@ a{
         height: 170px;
         background-repeat: no-repeat;
         margin-top: 8px;
-        background-position: 100%;
         background-size: cover;
+        background-position: center center;
         cursor: pointer;
         transition: all .5s ease;
         &:hover {
@@ -257,7 +259,7 @@ a{
         height: 170px;
         background-repeat: no-repeat;
         margin-top: 8px;
-        background-position: 100%;
+        background-position:center center;
         background-size: cover;
         cursor: pointer;
         transition: all .5s ease;
@@ -275,7 +277,7 @@ a{
         height: 170px;
         background-repeat: no-repeat;
         margin-top: 8px;
-        background-position: 100%;
+        background-position:center center;
         background-size: cover;
         cursor: pointer;
          transition: all .5s ease;
