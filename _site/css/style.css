@@ -92,7 +92,8 @@ body {
     width: 100%;
     padding: 32px 0px 17px 0px;
     list-style-type: none;
-    z-index: 50; }
+    z-index: 50;
+    display: none; }
     body .menulist li {
       list-style-type: none; }
     body .menulist a {
@@ -1262,7 +1263,7 @@ a {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
   .home__business--impact h2 {
-    padding: 88px 0px 0px 28px; }
+    padding: 55px 92px 0px 28px; }
 .home__businessImpact h1 {
   font-family: 'muliBold';
   font-size: 12px;
@@ -1590,7 +1591,7 @@ a {
       margin-top: 16px;
       height: 227px; }
       .home__businessImpact--culture h2 {
-        padding: 86px 0px 0px 39px;
+        padding: 72px 0px 0px 39px;
         width: 250px; }
   .home__caseStudy {
     background-color: #000000;
@@ -1790,8 +1791,8 @@ a {
       padding: 155px 0px 29px 29px;
       width: 407px; }
     .home__business img {
-      width: 15px;
-      height: 27px; }
+      width: 17px;
+      height: 21px; }
     .home__business--grew {
       background-color: #603c96;
       width: 621px; }
@@ -1810,8 +1811,8 @@ a {
       font-size: 16px;
       padding: 30px 0px 0px 26px; }
     .home__businessImpact img {
-      width: 15px;
-      height: 27px; }
+      width: 17px;
+      height: 21px; }
     .home__businessImpact--thinking {
       height: 323px;
       width: 300px;
@@ -1826,8 +1827,8 @@ a {
       margin-top: 16px;
       height: 323px; }
       .home__businessImpact--culture h2 {
-        padding: 175px 38px 0px 26px;
-        width: 600px;
+        padding: 136px 38px 0px 26px;
+        width: 336px;
         font-size: 36px; }
   .home__caseStudy {
     background-color: #000000;
@@ -2014,8 +2015,8 @@ a {
       padding: 166px 0px 29px 42px;
       width: 545px; }
     .home__business img {
-      width: 18px;
-      height: 33px; }
+      width: 20px;
+      height: 27px; }
     .home__business--grew {
       background-color: #603c96;
       width: 770px;
@@ -2038,8 +2039,8 @@ a {
     .home__businessImpact h2 {
       font-size: 48px; }
     .home__businessImpact img {
-      width: 18px;
-      height: 33px; }
+      width: 20px;
+      height: 27px; }
     .home__businessImpact--thinking {
       height: 396px;
       width: 337px;
@@ -2052,8 +2053,8 @@ a {
       margin: 0 auto;
       height: 396px; }
       .home__businessImpact--culture h2 {
-        padding: 235px 38px 0px 42px;
-        width: 625px; }
+        padding: 178px 38px 0px 42px;
+        width: 401px; }
   .home__caseStudy {
     background-color: #000000; }
     .home__caseStudy--arrow {
@@ -8364,13 +8365,14 @@ ul.tabs li.current {
     text-align: left;
     color: #ffffff;
     width: 100%;
-    padding: 15px 0px 112px 18px; }
+    padding: 15px 0px 0px 18px; }
   .hashworks__contactUs__images__image1 h1 {
     font-family: 'muliRegular';
     font-size: 24px;
     text-align: left;
     color: #ffffff;
-    padding: 0px 140px 15px 18px; }
+    padding: 74px 0px 15px 18px;
+    width: 149px; }
 .hashworks__contactUs__images__image2 {
   background-image: url(../assets/image/index/rectangle-3-copy-3.png);
   background-size: cover;
@@ -8391,7 +8393,8 @@ ul.tabs li.current {
     font-size: 24px;
     text-align: left;
     color: #ffffff;
-    padding: 0px 5px 19px 17px; }
+    padding: 0px 5px 19px 17px;
+    width: 194px; }
 
 @media only screen and (min-width: 768px) {
   .hashworks__contactUs .row {
@@ -8460,20 +8463,21 @@ ul.tabs li.current {
       .hashworks__contactUs__images__image1 p {
         font-family: 'muliBold';
         font-size: 14px;
-        padding: 16px 126px  178px 20px; }
+        padding: 16px 126px 0px 20px; }
       .hashworks__contactUs__images__image1 h1 {
         font-size: 24px;
-        padding: 0px 22px 35px 20px; }
+        padding: 152px 22px 35px 20px;
+        width: 182px; }
     .hashworks__contactUs__images__image2 {
       width: 462px;
       height: 279px; }
       .hashworks__contactUs__images__image2 p {
         font-family: 'muliBold';
         font-size: 14px;
-        padding: 16px 0px  142px 22px; }
+        padding: 16px 0px 0px 22px; }
       .hashworks__contactUs__images__image2 h1 {
-        font-size: 24px;
-        padding: 0px 142px 37px 22px; } }
+        padding: 151px 0px 37px 22px;
+        width: 204px; } }
 @media only screen and (min-width: 1024px) {
   .hashworks__contactUs .row {
     width: 942px;
@@ -8537,19 +8541,21 @@ ul.tabs li.current {
       height: 382px; }
       .hashworks__contactUs__images__image1 p {
         font-size: 16px;
-        padding: 34px 176px  251px 40px; }
+        padding: 34px 176px 0px 40px; }
       .hashworks__contactUs__images__image1 h1 {
         font-size: 32px;
-        padding: 0px 20px 34px 40px; }
+        padding: 203px 0px 34px 40px;
+        width: 225px; }
     .hashworks__contactUs__images__image2 {
       width: 624px;
       height: 386px; }
       .hashworks__contactUs__images__image2 p {
         font-size: 16px;
-        padding: 36px 0px  206px 44px; }
+        padding: 36px 0px  0px 44px; }
       .hashworks__contactUs__images__image2 h1 {
         font-size: 32px;
-        padding: 0px 142px 44px 44px; } }
+        padding: 199px 0px 44px 44px;
+        width: 286px; } }
 @media only screen and (min-width: 1367px) {
   .hashworks__contactUs .row {
     width: 1174px;
@@ -8611,18 +8617,20 @@ ul.tabs li.current {
       width: 372px;
       height: 484px; }
       .hashworks__contactUs__images__image1 p {
-        padding: 34px 215px  270px 43px; }
+        padding: 34px 215px  0px 52px; }
       .hashworks__contactUs__images__image1 h1 {
         font-size: 48px;
-        padding: 0px 40px 64px 72px; }
+        padding: 235px 0px 0px 52px;
+        width: 314px; }
     .hashworks__contactUs__images__image2 {
       width: 774px;
       height: 486px; }
       .hashworks__contactUs__images__image2 p {
-        padding: 36px 0px  240px 72px; }
+        padding: 36px 0px  0px 52px; }
       .hashworks__contactUs__images__image2 h1 {
         font-size: 48px;
-        padding: 30px 133px 63px 72px; } }
+        padding: 233px 0px 63px 52px;
+        width: 400px; } }
 .uiux {
   font-family: 'muliRegular';
   color: #4a4a4a; }
