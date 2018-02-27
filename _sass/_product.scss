@@ -101,6 +101,7 @@ button{
       width: 457px;
       margin: 0 auto 38px;
       font-size: 24px;
+      font-family: 'muliRegular';
     }
     &__myButton{
       color: #fff;
@@ -117,7 +118,10 @@ button{
       color: #603c96;
       font-size: 32px;
       margin: 40px 0 51px;
+      font-family: 'muliRegular';
+      font-weight: normal;
     }
+
     &__borderTop{
       border-top: solid 1px #e0e0e0;
       width: 1028px;
@@ -253,6 +257,7 @@ button{
       width: 380px;
       margin: 16px auto;
       font-size: 16px;
+      font-family: 'muliRegular';
     }
     &__myButton{
       width: 218px;
@@ -262,7 +267,8 @@ button{
     }
     &__paketo h2{
       font-size: 24px; 
-      margin: 16px 0
+      margin: 16px 0;
+      font-family: 'muliRegular';
     }
     &__borderTop{
       border-top: solid 1px #e0e0e0;
@@ -372,10 +378,12 @@ button{
     &__paketo h2 {
       font-size: 18px;
       font-weight: 100;
+      font-family: 'muliRegular';
     }
     &__paketo p {
       width: 278px; 
       font-size: 14px;
+      font-family: 'muliRegular';
     }
     &__myButton {
       width: 160px;
@@ -491,7 +499,7 @@ button{
     }
     &__Groome span {
       font-size: 12px;
-      font-family: 'muliREgular';
+      font-family: 'muliRegular';
     }
      &__Groome a {
       color: white;
@@ -505,9 +513,11 @@ button{
     }
     &__paketo h2 {
       font-size: 16px;
+      font-family: 'muliRegular';
     }
     &__paketo p {
       font-size: 12px;
+      font-family: 'muliRegular';
     }
     &__detail {
       margin: 32px 0 25px;

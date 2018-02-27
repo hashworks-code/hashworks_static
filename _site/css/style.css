@@ -2237,7 +2237,8 @@ button {
   .product__paketo p {
     width: 457px;
     margin: 0 auto 38px;
-    font-size: 24px; }
+    font-size: 24px;
+    font-family: 'muliRegular'; }
   .product__myButton {
     color: #fff;
     border-style: none;
@@ -2251,7 +2252,9 @@ button {
   .product__paketo h2 {
     color: #603c96;
     font-size: 32px;
-    margin: 40px 0 51px; }
+    margin: 40px 0 51px;
+    font-family: 'muliRegular';
+    font-weight: normal; }
   .product__borderTop {
     border-top: solid 1px #e0e0e0;
     width: 1028px;
@@ -2340,14 +2343,16 @@ button {
   .product__paketo p {
     width: 380px;
     margin: 16px auto;
-    font-size: 16px; }
+    font-size: 16px;
+    font-family: 'muliRegular'; }
   .product__myButton {
     width: 218px;
     height: 46px;
     font-size: 16px; }
   .product__paketo h2 {
     font-size: 24px;
-    margin: 16px 0; }
+    margin: 16px 0;
+    font-family: 'muliRegular'; }
   .product__borderTop {
     border-top: solid 1px #e0e0e0;
     width: 881px;
@@ -2416,10 +2421,12 @@ button {
     width: 135.3px !important; }
   .product__paketo h2 {
     font-size: 18px;
-    font-weight: 100; }
+    font-weight: 100;
+    font-family: 'muliRegular'; }
   .product__paketo p {
     width: 278px;
-    font-size: 14px; }
+    font-size: 14px;
+    font-family: 'muliRegular'; }
   .product__myButton {
     width: 160px;
     height: 38px; }
@@ -2496,7 +2503,7 @@ button {
     display: none; }
   .product__Groome span {
     font-size: 12px;
-    font-family: 'muliREgular'; }
+    font-family: 'muliRegular'; }
   .product__Groome a {
     color: white; }
   .product__borderRight {
@@ -2505,9 +2512,11 @@ button {
   .product__borderRight img {
     width: 100px !important; }
   .product__paketo h2 {
-    font-size: 16px; }
+    font-size: 16px;
+    font-family: 'muliRegular'; }
   .product__paketo p {
-    font-size: 12px; }
+    font-size: 12px;
+    font-family: 'muliRegular'; }
   .product__detail {
     margin: 32px 0 25px; }
     .product__detail .row {
