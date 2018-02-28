@@ -4015,6 +4015,55 @@ button {
         width: 32px;
         height: 26px;
         margin-left: 20px; } }
+.tiles, .tiles1, .tiles2 {
+  display: flex;
+  width: 260px;
+  justify-content: space-around;
+  margin: 0 auto; }
+
+.clear {
+  clear: both; }
+
+.workculture__image img {
+  width: 80px !important;
+  height: 70px  !important; }
+
+.live-tile.flip.ha, .flip-list.ha {
+  width: 80px;
+  height: 70px; }
+
+.workculture__boxes {
+  position: relative;
+  top: 64px; }
+  .workculture__boxes--alignment {
+    width: 266px;
+    margin: 0 auto; }
+
+.workculture__box {
+  width: 263px;
+  height: 112px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 10px 0 rgba(174, 174, 174, 0.2);
+  margin-bottom: 16px;
+  border: 1px solid #d3d3d3; }
+  .workculture__box h1 {
+    font-family: 'muliBold';
+    font-size: 20px !important;
+    font-weight: bold;
+    text-align: left !important;
+    color: #4a4a4a !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    width: 120px !important;
+    margin: 0 auto;
+    padding: 0px !important; }
+    .workculture__box h1 img {
+      height: 18px;
+      width: 12px;
+      margin-top: 25px; }
+
 ul.tabs li.current {
   color: #603c96; }
 
@@ -4081,7 +4130,7 @@ ul.tabs li.current {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    width: 286px;
+    width: 266px;
     display: flex;
     justify-content: space-between; }
     .aboutus__tab--list li {
@@ -4156,7 +4205,7 @@ ul.tabs li.current {
 .process-1 {
   padding: 19px 0px 32px 0px;
   position: relative;
-  margin: 46px 0px;
+  margin: 46px 0px 64px;
   overflow: hidden; }
 
 .process-1:before {
@@ -4185,6 +4234,13 @@ ul.tabs li.current {
   top: 40px;
   margin-left: 12px; }
 
+.aboutus__company--explore {
+  background-image: url(../assets/image/aboutus/group.png);
+  background-repeat: no-repeat;
+  height: 272px;
+  width: 100%;
+  background-position: center center;
+  background-size: cover; }
 .aboutus__company .row {
   width: 266px;
   margin: 0 auto; }
@@ -4206,7 +4262,6 @@ ul.tabs li.current {
   margin: 12px 0px 0px; }
 .aboutus__company h2 {
   width: 202px;
-  height: 20px;
   font-family: 'muliRegular';
   font-size: 16px;
   font-weight: normal;
@@ -4253,11 +4308,6 @@ ul.tabs li.current {
   color: #3e3e3e;
   margin: 0px 0px 10px 57px; }
 
-.hashworks__workculture .plugin {
-  background: #fff;
-  min-height: 430px;
-  max-height: 100%;
-  margin-top: 0rem; }
 .hashworks__workculture .row {
   width: 261px;
   margin: 0px auto;
@@ -4314,33 +4364,6 @@ ul.tabs li.current {
   text-align: left;
   color: #3e3e3e;
   margin: 0px; }
-.hashworks__workculture .workculture__boxes {
-  margin-top: 41px; }
-.hashworks__workculture .workculture__box {
-  width: 260px;
-  height: 147px;
-  margin: 0 auto;
-  box-shadow: 1px 1px 10px 0 rgba(174, 174, 174, 0.2);
-  border: solid 1px #d3d3d3;
-  margin-bottom: 16px;
-  background-color: white;
-  cursor: pointer; }
-  .hashworks__workculture .workculture__box h1 {
-    font-family: 'muliBold';
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    color: #4a4a4a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 147px;
-    width: 135px;
-    margin: 0 auto; }
-    .hashworks__workculture .workculture__box h1 img {
-      height: 20px;
-      margin-left: 5px;
-      margin-top: 37px; }
 .hashworks__workculture .workculture__bottomImage {
   background-image: url(../assets/image/workculture/1.png);
   background-size: cover;
@@ -4354,7 +4377,7 @@ ul.tabs li.current {
   margin: 40px 0px 0px 0px; }
   .workculture__culture .border {
     margin: 0 auto;
-    width: 286px; }
+    width: 266px; }
   .workculture__culture h2 {
     width: 260px;
     font-family: 'muliBold';
@@ -4392,8 +4415,44 @@ ul.tabs li.current {
     margin: 0px 0px 50px; }
 
 @media only screen and (min-width: 767px) {
+  .tiles, .tiles1, .tiles2 {
+    display: flex;
+    width: 455px;
+    justify-content: space-around;
+    margin: 0 auto; }
+
+  .workculture__image img {
+    width: 140px !important;
+    height: 125px  !important; }
+
+  .live-tile.flip.ha, .flip-list.ha {
+    width: 140px;
+    height: 125px; }
+
+  .workculture__boxes {
+    top: 64px; }
+    .workculture__boxes--alignment {
+      width: 700px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around; }
+
+  .workculture__box {
+    width: 220px;
+    height: 113px; }
+    .workculture__box h1 {
+      font-size: 24px !important;
+      height: 113px;
+      width: 140px !important;
+      margin: 0 auto;
+      padding: 0px !important; }
+      .workculture__box h1 img {
+        height: 18px;
+        width: 12px;
+        margin-top: 30px; }
+
   .aboutus .border {
-    margin-top: 64px; }
+    margin-top: 40px; }
   .aboutus__headImg {
     height: 230px;
     width: 100%;
@@ -4467,7 +4526,7 @@ ul.tabs li.current {
 
   .process-1 {
     padding: 60px 0px 37px 0px;
-    margin: 40px 0px; }
+    margin: 40px 0px 64px; }
 
   .process-1:before {
     left: 50%;
@@ -4500,6 +4559,8 @@ ul.tabs li.current {
   .process__item {
     position: relative; }
 
+  .aboutus__company--explore {
+    height: 175px; }
   .aboutus__company .row {
     width: 700px;
     margin: 0 auto; }
@@ -4509,7 +4570,7 @@ ul.tabs li.current {
     width: 100%; }
   .aboutus__company p {
     font-size: 14px;
-    margin: 12px auto 32px;
+    margin: 0px auto 32px;
     width: 540px;
     line-height: 1.79; }
   .aboutus__company h2 {
@@ -4552,14 +4613,16 @@ ul.tabs li.current {
   .hashworks__workculture .workculture__workfun h1 {
     font-family: 'muliBold';
     font-size: 18px;
-    margin: 41px 0px 18px 0px; }
+    margin: 40px 0px 18px 0px;
+    padding: 0px; }
   .hashworks__workculture .workculture__workfun p {
     font-size: 14px;
     line-height: 1.64;
     margin: 0px 98px 0px 100px; }
   .hashworks__workculture .workculture__facility h1 {
     font-size: 18px;
-    margin-top: 40px; }
+    margin-top: 40px;
+    padding: 0px; }
   .hashworks__workculture .workculture__facility h2 {
     font-size: 14px;
     margin: 36px 0px 16px 0px; }
@@ -4595,6 +4658,42 @@ ul.tabs li.current {
       font-size: 18px;
       margin-bottom: 49px; } }
 @media only screen and (min-width: 1025px) {
+  .tiles, .tiles1, .tiles2 {
+    display: flex;
+    width: 618px;
+    justify-content: space-around;
+    margin: 0 auto; }
+
+  .workculture__image img {
+    width: 185px !important;
+    height: 170px  !important; }
+
+  .live-tile.flip.ha, .flip-list.ha {
+    width: 185px;
+    height: 170px; }
+
+  .workculture__boxes {
+    top: 64px; }
+    .workculture__boxes--alignment {
+      width: 944px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around; }
+
+  .workculture__box {
+    width: 297px;
+    height: 140px; }
+    .workculture__box h1 {
+      font-size: 28px !important;
+      height: 140px;
+      width: 165px !important;
+      margin: 0 auto;
+      padding: 0px !important; }
+      .workculture__box h1 img {
+        height: 26px;
+        width: 16px;
+        margin-top: 30px; }
+
   .aboutus .row {
     width: 785px;
     margin: 0 auto; }
@@ -4670,7 +4769,7 @@ ul.tabs li.current {
 
   .process-1 {
     padding: 20px 0px 37px 0px;
-    margin: 40px 0px; }
+    margin: 40px 0px 64px; }
 
   .process__item p {
     width: 428px !important;
@@ -4687,6 +4786,8 @@ ul.tabs li.current {
     position: relative;
     padding: 63px 0px 0px 0px; }
 
+  .aboutus__company--explore {
+    height: 230px; }
   .aboutus__company .row {
     width: 825px;
     margin: 0 auto; }
@@ -4741,7 +4842,7 @@ ul.tabs li.current {
     margin: 0px 136px 0px 143px; }
   .hashworks__workculture .workculture__facility h1 {
     font-size: 24px;
-    margin-top: 64px;
+    margin-top: 60px;
     width: 100%; }
   .hashworks__workculture .workculture__facility h2 {
     font-size: 18px;
@@ -4751,22 +4852,6 @@ ul.tabs li.current {
     line-height: 1.5;
     width: 455px;
     margin: 0px; }
-  .hashworks__workculture .workculture__boxes {
-    margin-top: 64px; }
-  .hashworks__workculture .workculture__box {
-    width: 321px;
-    height: 191px;
-    margin-bottom: 16px; }
-    .hashworks__workculture .workculture__box h1 {
-      font-size: 32px;
-      height: 191px; }
-      .hashworks__workculture .workculture__box h1 img {
-        height: 24px;
-        margin-left: 10px;
-        margin-top: 48px; }
-    .hashworks__workculture .workculture__box span {
-      margin-left: 3px;
-      font-size: 16px; }
   .hashworks__workculture .workculture__bottomImage {
     height: 123px;
     margin-top: 40px; }
@@ -4774,7 +4859,7 @@ ul.tabs li.current {
   .workculture__culture h2 {
     width: 100%;
     font-size: 24px;
-    margin: 36px 0px 16px 0px;
+    margin: 60px 0px 16px 0px;
     text-align: center; }
   .workculture__culture p {
     width: 732px;
@@ -4784,6 +4869,39 @@ ul.tabs li.current {
     font-size: 24px;
     margin-bottom: 42px; } }
 @media only screen and (min-width: 1367px) {
+  .tiles, .tiles1, .tiles2 {
+    display: flex;
+    width: 770px;
+    justify-content: space-around;
+    margin: 0 auto; }
+
+  .workculture__image img {
+    width: 233px !important;
+    height: 210px  !important; }
+
+  .live-tile.flip.ha, .flip-list.ha {
+    width: 233px;
+    height: 210px; }
+
+  .workculture__boxes {
+    top: 64px; }
+    .workculture__boxes--alignment {
+      width: 1170px; }
+
+  .workculture__box {
+    width: 368px;
+    height: 163px; }
+    .workculture__box h1 {
+      font-size: 32px !important;
+      height: 163px;
+      width: 188px !important;
+      margin: 0 auto;
+      padding: 0px !important; }
+      .workculture__box h1 img {
+        height: 26px;
+        width: 16px;
+        margin-top: 43px; }
+
   .aboutus__headImg {
     height: 430px;
     width: 100%;
@@ -4860,11 +4978,6 @@ ul.tabs li.current {
 
   .hashworks__workculture .row {
     width: 1095px; }
-  .hashworks__workculture .plugin {
-    background: #fff;
-    min-height: 610px;
-    max-height: 610px;
-    margin-top: 3rem; }
   .hashworks__workculture .workculture__image {
     height: 385px; }
     .hashworks__workculture .workculture__image h1 {
@@ -4913,7 +5026,7 @@ ul.tabs li.current {
   .workculture__culture h2 {
     width: 100%;
     font-size: 32px;
-    margin: 36px 0px 20px 0px;
+    margin: 60px 0px 20px 0px;
     text-align: center; }
   .workculture__culture p {
     width: 732px;
@@ -4922,14 +5035,6 @@ ul.tabs li.current {
   .workculture__culture h3 {
     font-size: 32px;
     margin-bottom: 32px; } }
-@media screen and (min-width: 1798px) {
-  .hashworks__workculture .row {
-    width: 1095px; }
-  .hashworks__workculture .plugin {
-    background: #fff;
-    min-height: 710px;
-    max-height: 100%;
-    margin-top: 3rem; } }
 .slick-initialized .slick-slide {
   outline: none; }
 
@@ -7031,7 +7136,7 @@ ul.tabs li.current {
     width: 270px;
     margin: 0 auto; }
   .mobile__headImg {
-    background-image: url(../assets/image/cloud/application-on-cloud.png);
+    background-image: url(../assets/image/mobile/group-16.png);
     background-repeat: no-repeat;
     height: 232px;
     width: 100%;
