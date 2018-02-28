@@ -2689,12 +2689,13 @@ button {
       padding: 115px 12px 0;
       height: 100%; }
   .service__dataScience {
+    background-image: url(../assets/image/mobile/group-16.png);
+    background-repeat: no-repeat;
     height: 166px;
     width: 100%;
     background-size: 100% 100%;
     object-fit: contain;
     margin-bottom: 10px;
-    background-color: #876cb0;
     cursor: pointer; }
     .service__dataScience h1 {
       width: 140px;
