@@ -1150,7 +1150,7 @@ a {
     width: 247px;
     font-family: 'muliSemiBold';
     font-size: 24px;
-    font-weight: 600;
+    font-weight: normal;
     text-align: center;
     color: #4a4a4a; }
     .home__hashworks h1 span {
@@ -1735,7 +1735,7 @@ a {
       top: 225px;
       left: 40px; }
     .home__hashworks h1 {
-      width: 424px;
+      width: 525px;
       font-size: 48px;
       text-align: left;
       margin: 0px; }
@@ -2171,8 +2171,6 @@ button {
     background-size: cover;
     background-position: center center;
     margin-top: 67px; }
-  .product__borderleft {
-    margin-top: 70px; }
   .product__content1 {
     width: 1158px;
     margin: 0 auto; }
@@ -2229,9 +2227,22 @@ button {
   .product__paketo .row {
     text-align: center; }
   .product__borderRight {
+    border-right: 1px solid #ccc;
     border-right: 1px solid #ccc; }
-  .product__borderRight img {
-    width: 217px !important; }
+    .product__borderRight img {
+      width: 217px !important; }
+    .product__borderRight p {
+      padding: 10px 0px 10px 0px; }
+    .product__borderRight h2 {
+      padding: 10px 0px 0px 0px; }
+  .product__borderleft {
+    margin-top: 70px; }
+    .product__borderleft p {
+      padding: 15px 0px 0px 0px; }
+    .product__borderleft h2 {
+      padding: 15px 0px 0px 0px; }
+    .product__borderleft button {
+      margin-top: 88px; }
   .product__paketo img {
     width: 200px; }
   .product__paketo p {
@@ -2300,8 +2311,6 @@ button {
   .product__headImg {
     height: 274px;
     margin-top: 67px; }
-  .product__borderleft {
-    margin-top: 70px; }
   .product__content1 {
     width: 935px; }
   .product__head {
@@ -2336,8 +2345,20 @@ button {
     text-align: center; }
   .product__borderRight {
     border-right: 1px solid #ccc; }
-  .product__borderRight img {
-    width: 115px !important; }
+    .product__borderRight img {
+      width: 115px !important; }
+    .product__borderRight p {
+      padding: 10px 0px 10px 0px; }
+    .product__borderRight h2 {
+      padding: 10px 0px 0px 0px; }
+  .product__borderleft {
+    margin-top: 24px; }
+    .product__borderleft p {
+      padding: 15px 0px 0px 0px; }
+    .product__borderleft h2 {
+      padding: 15px 0px 0px 0px; }
+    .product__borderleft button {
+      margin-top: 47px; }
   .product__paketo img {
     width: 130px; }
   .product__paketo p {
@@ -2388,8 +2409,6 @@ button {
   .product__headImg {
     height: 205px;
     margin-top: 49px; }
-  .product__borderleft {
-    margin-top: 24px; }
   .product__head {
     font-size: 32px;
     padding: 139px 0 32px; }
@@ -2419,6 +2438,18 @@ button {
     margin: 16px 0 32px; }
   .product__borderRight img {
     width: 100px !important; }
+  .product__borderRight p {
+    padding: 10px 0px 10px 0px; }
+  .product__borderRight h2 {
+    padding: 10px 0px 0px 0px; }
+  .product__borderleft {
+    margin-top: 24px; }
+    .product__borderleft p {
+      padding: 15px 0px 0px 0px; }
+    .product__borderleft h2 {
+      padding: 15px 0px 0px 0px; }
+    .product__borderleft button {
+      margin-top: 38px; }
   .product__paketo h2 {
     font-size: 18px;
     font-weight: 100;
@@ -2462,8 +2493,6 @@ button {
   .product__headImg {
     height: 203px;
     margin-top: 0px; }
-  .product__borderleft {
-    margin-top: 5px; }
   .product__head {
     padding: 148px 0 16px;
     font-size: 24px;
@@ -2507,10 +2536,21 @@ button {
   .product__Groome a {
     color: white; }
   .product__borderRight {
-    border-right: none;
-    padding-bottom: 39px; }
-  .product__borderRight img {
-    width: 100px !important; }
+    border-right: none; }
+    .product__borderRight img {
+      width: 100px !important; }
+    .product__borderRight p {
+      padding: 0px; }
+    .product__borderRight h2 {
+      padding: 0px; }
+  .product__borderleft {
+    margin-top: 20px; }
+    .product__borderleft p {
+      padding: 0px; }
+    .product__borderleft h2 {
+      padding: 0px; }
+    .product__borderleft button {
+      margin-top: 8px; }
   .product__paketo h2 {
     font-size: 16px;
     font-family: 'muliRegular'; }

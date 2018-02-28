@@ -12,9 +12,7 @@ button{
       background-position: center center;
       margin-top: 67px;
     }
-    &__borderleft{
-      margin-top:70px;
-    }
+  
     &__content1{
       width: 1158px;
       margin: 0 auto;
@@ -88,11 +86,30 @@ button{
     &__paketo .row{
       text-align: center;
     }
-    &__borderRight{
+    &__borderRight{ 
       border-right: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      img{
+        width: 217px !important;
+      }
+      p{
+        padding: 10px 0px 10px 0px;
+      }
+    h2{
+      padding: 10px 0px 0px 0px;
     }
-    &__borderRight img{
-      width: 217px !important;
+    }
+    &__borderleft{
+      margin-top:70px;
+      p{
+        padding: 15px 0px 0px 0px;
+      }
+    h2{
+      padding: 15px 0px 0px 0px;
+    }
+    button{
+      margin-top:88px;
+    }
     }
     &__paketo img{
       width:200px;
@@ -191,9 +208,7 @@ button{
       height:274px;
       margin-top: 67px;
     }
-    &__borderleft{
-      margin-top:70px;
-    }
+  
     &__content1{
       width: 935px;
     }
@@ -243,12 +258,30 @@ button{
   
     &__paketo .row{
       text-align: center;
-    }
-    &__borderRight{
+    } 
+    &__borderRight{ 
       border-right: 1px solid #ccc;
+      img{
+        width: 115px !important;
+      }
+      p{
+        padding: 10px 0px 10px 0px;
+      }
+    h2{
+      padding: 10px 0px 0px 0px;
     }
-    &__borderRight img{
-      width: 115px !important;
+    }
+    &__borderleft{
+      margin-top: 24px;
+      p{
+        padding: 15px 0px 0px 0px;
+      }
+    h2{
+      padding: 15px 0px 0px 0px;
+    }
+    button{
+      margin-top:47px;
+    }
     }
     &__paketo img{
       width: 130px;
@@ -329,9 +362,7 @@ button{
         height:205px;
         margin-top:49px;
       }
-      &__borderleft{
-        margin-top: 24px;
-      }
+    
       &__head {
         font-size: 32px;
         padding: 139px 0 32px;
@@ -372,9 +403,30 @@ button{
     &__paketo {
       margin: 16px 0 32px;
     }
-    &__borderRight img {
-      width: 100px !important;
+    &__borderRight{ 
+      img{
+        width: 100px !important;
+      }
+      p{
+        padding: 10px 0px 10px 0px;
+      }
+    h2{
+      padding: 10px 0px 0px 0px;
     }
+    }
+    &__borderleft{
+      margin-top: 24px;
+      p{
+        padding: 15px 0px 0px 0px;
+      }
+    h2{
+      padding: 15px 0px 0px 0px;
+    }
+    button{
+      margin-top: 38px;
+    }
+    }
+
     &__paketo h2 {
       font-size: 18px;
       font-weight: 100;
@@ -445,9 +497,6 @@ button{
         height:203px;
         margin-top:0px;
       }
-      &__borderleft{
-        margin-top: 5px;
-      }
       &__head {
         padding: 148px 0 16px;
         font-size: 24px;
@@ -504,12 +553,30 @@ button{
      &__Groome a {
       color: white;
     }
-    &__borderRight{
+  
+    &__borderRight{ 
       border-right: none;
-      padding-bottom: 39px;
+      img{
+        width: 100px !important;
+      }
+      p{
+        padding:0px;
+      }
+    h2{
+      padding:0px;
     }
-    &__borderRight img {
-      width: 100px !important;
+    }
+    &__borderleft{
+      margin-top: 20px;
+      p{
+        padding:0px;
+      }
+    h2{
+      padding:0px;
+    }
+    button{
+      margin-top:8px;
+    }
     }
     &__paketo h2 {
       font-size: 16px;
