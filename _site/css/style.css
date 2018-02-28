@@ -1369,7 +1369,8 @@ a {
   font-size: 18px;
   text-align: center;
   color: #4a4a4a;
-  padding-top: 16px; }
+  padding-top: 16px;
+  font-weight: normal; }
 .home__acclerated .row {
   width: 230px;
   margin: 0 auto;
