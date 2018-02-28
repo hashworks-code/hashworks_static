@@ -115,7 +115,7 @@ body {
     body .product_view h2 {
       font-family: 'muliBold';
       font-size: 12px;
-      font-weight: bold;
+      font-weight: normal;
       padding-bottom: 8px;
       color: #603c96;
       padding-top: 25px; }
@@ -125,7 +125,7 @@ body {
       line-height: 1.42;
       text-align: left;
       color: #3e3e3e;
-      font-weight: 100;
+      font-weight: normal;
       padding-bottom: 16px; }
     body .product_view h4 {
       font-family: 'muliRegular';
@@ -133,7 +133,7 @@ body {
       line-height: 1.42;
       text-align: center;
       color: #3e3e3e;
-      font-weight: 100; }
+      font-weight: normal; }
     body .product_view p {
       font-family: 'muliRegular';
       font-size: 10px;
@@ -245,7 +245,7 @@ body {
   body .about__view h2 {
     font-family: 'muliBold';
     font-size: 12px;
-    font-weight: bold;
+    font-weight: normal;
     color: #603c96; }
   body .about__view h3 {
     font-family: 'muliRegular';
@@ -253,7 +253,7 @@ body {
     line-height: 1.58;
     text-align: left;
     color: #3e3e3e;
-    font-weight: 100;
+    font-weight: normal;
     padding: 8px 0px 26px 0px; }
   body .about__view--algin {
     width: 100%; }
@@ -402,7 +402,7 @@ body {
       body .hashworks__head--home, body .hashworks__head--product, body .hashworks__head--case, body .hashworks__head--blog, body .hashworks__head--about, body .hashworks__head--contact {
         font-family: 'muliSemiBold';
         font-size: 14px;
-        font-weight: 500;
+        font-weight: normal;
         text-align: center;
         color: #4a4a4a;
         margin: 0px 10px;
@@ -438,7 +438,7 @@ body {
       body .productService h2 {
         font-family: 'muliBold';
         font-size: 14px;
-        font-weight: 500;
+        font-weight: normal;
         padding-bottom: 16px;
         color: #603c96; }
       body .productService h3 {
@@ -448,14 +448,14 @@ body {
         text-align: left;
         color: #3e3e3e;
         width: 159px;
-        font-weight: 100; }
+        font-weight: normal; }
       body .productService h4 {
         font-family: 'muliRegular';
         font-size: 12px;
         line-height: 1.42;
         text-align: left;
         color: #3e3e3e;
-        font-weight: 100;
+        font-weight: normal;
         display: flex;
         align-items: center;
         width: 100px; }
@@ -595,7 +595,7 @@ body {
       body .about h2 {
         font-family: 'muliBold';
         font-size: 14px;
-        font-weight: bold;
+        font-weight: normal;
         padding-bottom: 16px;
         color: #603c96; }
       body .about h3 {
@@ -605,7 +605,7 @@ body {
         text-align: left;
         color: #3e3e3e;
         width: 159px;
-        font-weight: 100; }
+        font-weight: normal; }
       body .about--algin {
         width: 490px;
         align-items: center;
@@ -670,7 +670,7 @@ body {
         margin: 0px 24px;
         display: -webkit-inline-box;
         cursor: pointer;
-        font-weight: 500;
+        font-weight: normal;
         font-family: 'muliSemiBold'; }
     body--toggle {
       display: none; }
@@ -1142,7 +1142,7 @@ a {
     margin: 0 auto;
     font-family: 'muliSemiBold';
     font-size: 16px;
-    font-weight: 600;
+    font-weight: normal;
     text-align: center;
     color: #3e3e3e;
     padding: 10px 0px 20px; }
@@ -1208,7 +1208,7 @@ a {
 .home__business h1 {
   font-family: 'muliBold';
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left;
   color: #ffffff;
   padding: 12px 0px 0px 28px; }
@@ -1251,7 +1251,7 @@ a {
 .home__businessImpact h1 {
   font-family: 'muliBold';
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left;
   color: #ffffff;
   padding: 12px 0px 0px 28px;
@@ -1311,7 +1311,7 @@ a {
     .home__caseStudy--content h1 {
       font-family: 'muliBold';
       font-size: 12px;
-      font-weight: bold;
+      font-weight: normal;
       text-align: left;
       color: #ffffff;
       margin-left: 28px; }
@@ -1327,7 +1327,7 @@ a {
       width: 241px;
       font-family: 'muliLight';
       font-size: 10px;
-      font-weight: 300;
+      font-weight: normal;
       text-align: left;
       color: #ffffff;
       margin-left: 28px; }
@@ -1467,7 +1467,7 @@ a {
     .home__hashworks h2 {
       width: 310px;
       font-size: 18px;
-      font-weight: 600;
+      font-weight: normal;
       text-align: left;
       padding: 10px 0px 20px; }
     .home__hashworks p {
@@ -1493,7 +1493,7 @@ a {
       margin: 49px 0px 16px 0px;
       font-family: 'muliBold';
       font-size: 14px;
-      font-weight: bold;
+      font-weight: normal;
       font-style: normal;
       font-stretch: normal;
       line-height: normal;
@@ -1721,7 +1721,7 @@ a {
     .home__hashworks h2 {
       width: 320px;
       font-size: 18px;
-      font-weight: 600;
+      font-weight: normal;
       text-align: left;
       padding: 10px 0px 0px;
       margin: 0px; }
@@ -1940,7 +1940,7 @@ a {
     .home__hashworks h2 {
       width: 405px;
       font-size: 24px;
-      font-weight: 600;
+      font-weight: normal;
       text-align: left;
       padding: 10px 4px 0px;
       margin: 0px; }
@@ -2182,10 +2182,10 @@ button {
     align-items: center; }
   .product__Groome h4 {
     font-size: 24px;
-    font-weight: 100; }
+    font-weight: normal; }
   .product__Groome h2 {
     margin: 16px 0;
-    font-weight: 100;
+    font-weight: normal;
     font-size: 48px; }
   .product__Groome_logo img {
     width: 238px; }
@@ -2261,12 +2261,12 @@ button {
   .product__detail h1 {
     margin-bottom: 71px;
     color: #603c96;
-    font-weight: 100;
+    font-weight: normal;
     font-size: 32px; }
   .product__pipeline h1 {
     margin-bottom: 68px;
     color: #603c96;
-    font-weight: 100; }
+    font-weight: normal; }
   .product__pipeline {
     text-align: center;
     margin: 50px 0 94px; }
@@ -2430,7 +2430,7 @@ button {
       margin-top: 38px; }
   .product__paketo h2 {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: normal;
     font-family: 'muliRegular'; }
   .product__paketo p {
     width: 302px;
@@ -2633,7 +2633,7 @@ button {
     margin: 32px auto; }
     .service__content h1 {
       font-size: 16px;
-      font-weight: 600;
+      font-weight: normal;
       color: #603c96;
       padding-bottom: 16px;
       font-family: 'muliSemiBold'; }
@@ -2655,7 +2655,7 @@ button {
       color: #fff;
       font-size: 24px;
       padding: 115px 12px 0;
-      font-weight: 100; }
+      font-weight: normal; }
   .service__cloudImg {
     background-image: url(../assets/image/ui-ux.png);
     background-repeat: no-repeat;
@@ -2669,7 +2669,7 @@ button {
       width: 145px;
       font-size: 24px;
       color: #ffffff;
-      font-weight: 100;
+      font-weight: normal;
       padding: 115px 12px 0;
       height: 100%; }
   .service__uiUx {
@@ -2684,7 +2684,7 @@ button {
     .service__uiUx h1 {
       font-size: 24px;
       color: #ffffff;
-      font-weight: 100;
+      font-weight: normal;
       padding: 115px 12px 0;
       height: 100%; }
   .service__dataScience {
@@ -2699,7 +2699,7 @@ button {
       width: 140px;
       font-size: 24px;
       color: #ffffff;
-      font-weight: 100;
+      font-weight: normal;
       padding: 115px 12px 0;
       height: 100%; }
   .service__mobile {
@@ -2714,7 +2714,7 @@ button {
     .service__mobile h1 {
       font-size: 24px;
       color: #ffffff;
-      font-weight: 100;
+      font-weight: normal;
       padding: 115px 12px 0;
       height: 100%; }
   .service .col-xs-12.col-sm-8.col-md-8.col-lg-8 {
@@ -2911,7 +2911,7 @@ button {
 .hashworks__grewpage h1 {
   font-family: 'muliBold';
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left;
   color: #000000;
   width: 100%;
@@ -3185,14 +3185,14 @@ button {
   .hashworks__casestudy .casestudy__overview h1 {
     font-family: 'muliBold';
     font-size: 12px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: left;
     color: #ffffff;
     margin-bottom: 8px; }
   .hashworks__casestudy .casestudy__overview p {
     font-family: 'muliLight';
     font-size: 10px;
-    font-weight: 300;
+    font-weight: normal;
     line-height: 1.6;
     text-align: left;
     color: #ffffff;
@@ -3243,7 +3243,7 @@ button {
   .hashworks__casestudy .casestudy__product h1 {
     font-family: 'muliSemiBold';
     font-size: 16px;
-    font-weight: 600;
+    font-weight: normal;
     text-align: center;
     color: #603c96;
     width: 100%;
@@ -3266,7 +3266,7 @@ button {
 .hashworks__casestudy .casestudy__agile h1 {
   font-family: 'muliBold';
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   color: #4a4a4a;
   width: 100%;
@@ -3274,7 +3274,7 @@ button {
 .hashworks__casestudy .casestudy__agile h2 {
   font-family: 'muliSemiBold';
   font-size: 16px;
-  font-weight: 600;
+  font-weight: normal;
   text-align: center;
   color: #603c96;
   width: 100%; }
@@ -3296,7 +3296,7 @@ button {
 .hashworks__casestudy .casestudy__outcome h2 {
   font-family: 'muliSemiBold';
   font-size: 16px;
-  font-weight: 600;
+  font-weight: normal;
   text-align: center;
   color: #603c96;
   width: 100%;
@@ -3315,7 +3315,7 @@ button {
 .hashworks__casestudy .casestudy__mobiledata h1 {
   font-family: 'muliBold';
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left;
   color: #4a4a4a;
   margin: 16px 0px 8px 24px; }
@@ -3676,7 +3676,7 @@ button {
 .hashworks__casestudyHome h1 {
   font-family: 'muliBold';
   font-size: 10px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left;
   color: #9c9c9c;
   margin: 16px 0px 8px 0px;
@@ -3718,7 +3718,7 @@ button {
   .hashworks__casestudyHome .casestudy__events .category-filter p {
     font-size: 12px;
     font-family: 'muliSemiBold';
-    font-weight: 600;
+    font-weight: normal;
     text-align: center;
     display: inline;
     margin: 0px 6px;
@@ -3880,7 +3880,7 @@ button {
 .footer li {
   font-family: 'muliSemiBold';
   font-size: 10px;
-  font-weight: 600;
+  font-weight: normal;
   text-align: left;
   color: #f7f7f7;
   list-style-type: none;
@@ -3922,7 +3922,7 @@ button {
     margin: 0px 25px 0px 21px; }
   .footer li {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: normal;
     padding: 0px 0px 11px 0px; }
   .footer h1 {
     font-size: 14px;
@@ -4028,7 +4028,7 @@ button {
   .workculture__box h1 {
     font-family: 'muliBold';
     font-size: 20px !important;
-    font-weight: bold;
+    font-weight: normal;
     text-align: left !important;
     color: #4a4a4a !important;
     display: flex;
@@ -4115,7 +4115,7 @@ ul.tabs li.current {
     .aboutus__tab--list li {
       font-family: 'muliBold';
       font-size: 12px;
-      font-weight: bold;
+      font-weight: normal;
       text-align: center;
       color: #838383;
       cursor: pointer;
@@ -4123,7 +4123,7 @@ ul.tabs li.current {
 .aboutus__thinking h2 {
   font-family: 'muliBold';
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   color: #603c96;
   padding: 32px 0px 0px 0px; }
@@ -4138,7 +4138,7 @@ ul.tabs li.current {
 .aboutus__thinking h3 {
   font-family: 'muliSemiBold';
   font-size: 16px;
-  font-weight: 600;
+  font-weight: normal;
   text-align: left;
   color: #898989; }
 .aboutus__thinking--capitalImage {
@@ -4175,7 +4175,7 @@ ul.tabs li.current {
     width: 202px;
     font-family: 'muliBold';
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
     color: #ffffff;
     padding: 54px 0px 32px 0px;
@@ -4226,7 +4226,7 @@ ul.tabs li.current {
 .aboutus__company h1 {
   font-family: 'muliBold';
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   color: #603c96;
   padding: 32px 0px 12px;
@@ -4310,7 +4310,7 @@ ul.tabs li.current {
 .hashworks__workculture .workculture__workfun h1 {
   font-family: 'muliRegular';
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   color: #603c96;
   margin: 36px 0px 8px 0px;
@@ -4325,7 +4325,7 @@ ul.tabs li.current {
 .hashworks__workculture .workculture__facility h1 {
   font-family: 'muliBold';
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
   color: #603c96;
   margin-top: 60px;
@@ -4361,7 +4361,7 @@ ul.tabs li.current {
     width: 260px;
     font-family: 'muliBold';
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
@@ -4384,7 +4384,7 @@ ul.tabs li.current {
   .workculture__culture h3 {
     font-family: 'muliSemiBold';
     font-size: 16px;
-    font-weight: 600;
+    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
@@ -5140,7 +5140,7 @@ ul.tabs li.current {
   .job__opening h1 {
     font-family: 'muliBold';
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
@@ -5269,7 +5269,7 @@ ul.tabs li.current {
     background-color: #603c96;
     font-family: 'muliBold';
     font-size: 12px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
     color: #ffffff;
     margin: 0px auto 32px;
@@ -5709,7 +5709,7 @@ ul.tabs li.current {
       font-size: 16px;
       font-family: 'muliRegular';
       padding: 21px 0 16px;
-      font-weight: 100; }
+      font-weight: normal; }
     .cloud__content p {
       font-size: 12px;
       font-family: 'muliRegular';
@@ -5721,7 +5721,7 @@ ul.tabs li.current {
     background-color: #603c96;
     padding: 15px 10px 0 27px; }
     .cloud__div1 h2 {
-      font-weight: 100;
+      font-weight: normal;
       font-family: 'muliRegular';
       font-size: 24px;
       padding-bottom: 23px; }
@@ -5736,7 +5736,7 @@ ul.tabs li.current {
     background-color: #ffffff;
     padding: 15px 10px 0 27px; }
     .cloud__div2 h2 {
-      font-weight: 100;
+      font-weight: normal;
       color: #603c96;
       font-family: 'muliRegular';
       font-size: 24px;
@@ -6195,7 +6195,7 @@ ul.tabs li.current {
     .dataScience__content h1 {
       font-size: 16px;
       padding: 21px 0 16px;
-      font-weight: 100; }
+      font-weight: normal; }
     .dataScience__content p {
       font-size: 12px;
       line-height: 1.5;
@@ -6206,7 +6206,7 @@ ul.tabs li.current {
     background-color: #603c96;
     padding: 15px 10px 0 27px; }
     .dataScience__div1 h2 {
-      font-weight: 100;
+      font-weight: normal;
       font-size: 24px;
       padding-bottom: 23px; }
     .dataScience__div1 p {
@@ -6219,7 +6219,7 @@ ul.tabs li.current {
     background-color: #ffffff;
     padding: 15px 10px 0 27px; }
     .dataScience__div2 h2 {
-      font-weight: 100;
+      font-weight: normal;
       color: #603c96;
       font-size: 24px;
       padding-bottom: 6px; }
@@ -6671,7 +6671,7 @@ ul.tabs li.current {
     .devOps__content h1 {
       font-size: 16px;
       padding: 21px 0 16px;
-      font-weight: 100; }
+      font-weight: normal; }
     .devOps__content p {
       font-size: 12px;
       line-height: 1.5;
@@ -6682,7 +6682,7 @@ ul.tabs li.current {
     background-color: #603c96;
     padding: 15px 10px 0 27px; }
     .devOps__div1 h2 {
-      font-weight: 100;
+      font-weight: normal;
       font-size: 24px;
       padding-bottom: 23px; }
     .devOps__div1 p {
@@ -6695,7 +6695,7 @@ ul.tabs li.current {
     background-color: #ffffff;
     padding: 15px 10px 0 27px; }
     .devOps__div2 h2 {
-      font-weight: 100;
+      font-weight: normal;
       color: #603c96;
       font-size: 24px;
       padding-bottom: 6px; }
@@ -7145,7 +7145,7 @@ ul.tabs li.current {
     .mobile__content h1 {
       font-size: 16px;
       padding: 21px 0 16px;
-      font-weight: 100; }
+      font-weight: normal; }
     .mobile__content p {
       font-size: 12px;
       line-height: 1.5;
@@ -7156,7 +7156,7 @@ ul.tabs li.current {
     background-color: #603c96;
     padding: 15px 10px 0 27px; }
     .mobile__div1 h2 {
-      font-weight: 100;
+      font-weight: normal;
       font-size: 24px;
       padding-bottom: 23px; }
     .mobile__div1 p {
@@ -7169,7 +7169,7 @@ ul.tabs li.current {
     background-color: #ffffff;
     padding: 15px 10px 0 27px; }
     .mobile__div2 h2 {
-      font-weight: 100;
+      font-weight: normal;
       color: #603c96;
       font-size: 24px;
       padding-bottom: 6px; }
@@ -7708,7 +7708,7 @@ ul.tabs li.current {
   .internship__opening h1 {
     font-family: 'muliBold';
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
@@ -7837,7 +7837,7 @@ ul.tabs li.current {
     background-color: #603c96;
     font-family: 'muliBold';
     font-size: 12px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
     color: #ffffff;
     margin: 0px auto 32px;
@@ -8315,7 +8315,7 @@ ul.tabs li.current {
   .hashworks__contactUs__form button p {
     font-family: 'muliBold';
     font-size: 12px;
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
@@ -8333,7 +8333,7 @@ ul.tabs li.current {
   .hashworks__contactUs__address h1 {
     font-family: 'muliBold';
     font-size: 12px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
     color: #4a4a4a;
     width: 100%;
@@ -8358,7 +8358,7 @@ ul.tabs li.current {
   .hashworks__contactUs__images__image1 p {
     font-family: 'muliBold';
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: left;
     color: #ffffff;
     width: 100%;
@@ -8381,7 +8381,7 @@ ul.tabs li.current {
   .hashworks__contactUs__images__image2 p {
     font-family: 'muliBold';
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
     text-align: left;
     color: #ffffff;
     padding: 25px 0px  70px 17px; }
@@ -8665,7 +8665,7 @@ ul.tabs li.current {
     .uiux__content h1 {
       font-size: 16px;
       padding: 21px 0 16px;
-      font-weight: 100; }
+      font-weight: normal; }
     .uiux__content p {
       font-size: 12px;
       line-height: 1.5;
@@ -8676,7 +8676,7 @@ ul.tabs li.current {
     background-color: #603c96;
     padding: 15px 10px 0 27px; }
     .uiux__div1 h2 {
-      font-weight: 100;
+      font-weight: normal;
       font-size: 24px;
       padding-bottom: 23px; }
     .uiux__div1 p {
@@ -8689,7 +8689,7 @@ ul.tabs li.current {
     background-color: #ffffff;
     padding: 15px 10px 0 27px; }
     .uiux__div2 h2 {
-      font-weight: 100;
+      font-weight: normal;
       color: #603c96;
       font-size: 24px;
       padding-bottom: 6px; }

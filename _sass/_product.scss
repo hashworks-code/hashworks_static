@@ -54,11 +54,11 @@ button{
     }
     &__Groome h4 {
       font-size: 24px;
-      font-weight: 100;
+      font-weight: normal;
     }
     &__Groome h2 {
       margin: 16px 0;
-      font-weight: 100;
+      font-weight: normal;
       font-size: 48px;
     }
     &__Groome_logo img{
@@ -160,14 +160,14 @@ button{
     &__detail h1 {
       margin-bottom: 71px;
       color: #603c96;
-      font-weight: 100;
+      font-weight: normal;
       font-size: 32px;
     }
 
     &__pipeline h1 {
       margin-bottom: 68px;
       color: #603c96;
-      font-weight: 100;
+      font-weight: normal;
     }
     
     &__pipeline {
@@ -429,7 +429,7 @@ button{
 
     &__paketo h2 {
       font-size: 18px;
-      font-weight: 100;
+      font-weight: normal;
       font-family: 'muliRegular';
     }
     &__paketo p {

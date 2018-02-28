@@ -130,7 +130,7 @@ body{
     h2 {
         font-family: 'muliBold';
         font-size: 12px;
-        font-weight: bold;
+        font-weight: normal;
         padding-bottom: 8px;
         color: #603c96;
         padding-top: 25px;
@@ -142,7 +142,7 @@ body{
         line-height: 1.42;
         text-align: left;
         color: #3e3e3e;
-        font-weight: 100;
+        font-weight: normal;
         padding-bottom: 16px;
     }
     h4{
@@ -151,7 +151,7 @@ body{
         line-height: 1.42;
         text-align: center;
         color: #3e3e3e;
-        font-weight: 100;
+        font-weight: normal;
     }
     p{
         font-family: 'muliRegular';
@@ -296,7 +296,7 @@ body{
          h2{
           font-family: 'muliBold';
           font-size: 12px;
-          font-weight: bold;
+          font-weight: normal;
           color: #603c96;
         }
          h3{
@@ -306,7 +306,7 @@ body{
            line-height: 1.58;
            text-align: left;
            color: #3e3e3e;
-           font-weight: 100;
+           font-weight: normal;
            padding: 8px 0px 26px 0px;
          }
          &--algin{
@@ -489,7 +489,7 @@ body{
       &--home,&--product,&--case,&--blog,&--about,&--contact{
           font-family: 'muliSemiBold';
           font-size: 14px;
-          font-weight: 500;
+          font-weight: normal;
           text-align: center;
           color: #4a4a4a;
           margin: 0px 10px;
@@ -535,7 +535,7 @@ body{
       h2{
           font-family: 'muliBold';
           font-size: 14px;
-          font-weight: 500;
+          font-weight: normal;
           padding-bottom: 16px;
           color: #603c96;
     }
@@ -546,7 +546,7 @@ body{
           text-align: left;
           color: #3e3e3e;
           width: 159px;
-          font-weight: 100;
+          font-weight: normal;
     }
     h4{
           font-family: 'muliRegular';
@@ -554,7 +554,7 @@ body{
           line-height: 1.42;
           text-align: left;
           color: #3e3e3e;
-          font-weight: 100;
+          font-weight: normal;
           display: flex;
           align-items: center;
           width: 100px;
@@ -733,7 +733,7 @@ body{
      h2{
         font-family: 'muliBold';
         font-size: 14px;
-        font-weight: bold;
+        font-weight: normal;
         padding-bottom: 16px;
         color: #603c96;
     }
@@ -744,7 +744,7 @@ body{
         text-align: left;
         color: #3e3e3e;
         width: 159px;
-        font-weight: 100;
+        font-weight: normal;
      }
      &--algin{
         width:490px;
@@ -834,7 +834,7 @@ body{
           margin: 0px 24px;
           display: -webkit-inline-box;
           cursor: pointer;
-          font-weight: 500;
+          font-weight: normal;
           font-family: 'muliSemiBold';
       }
       }
