@@ -7,8 +7,6 @@ a{
 .pad {
   padding: 0;
 }
-
-
 .left-border {
   border-left: solid 1px #e0e0e0;
 }
@@ -18,11 +16,9 @@ a{
   align-items: center;
   justify-content: center;
 }
-
 .hide-mobile {
   display: none;
 }
-
 .no-border {
   border-bottom: none;
 }
@@ -283,21 +279,22 @@ a{
       }
       &--image {
          background-image: url(../assets/image/index/group.jpg);
-        height: 170px;
+        height: 214px;
         background-repeat: no-repeat;
         margin-top: 8px;
-        background-position: 100%;
+        background-position:center center;
         background-size: cover;
       }
       &--content {
         padding: 13px 0px 15px 0px;
+        width: 320px;
+        margin: 0 auto;
         h1 {
           font-family: 'muliBold';
           font-size: 12px;
           font-weight: normal;
-          text-align: left;
+          text-align: center;
           color: #ffffff;
-          margin-left: 28px;
         }
         h2 {
           width: 245px;
@@ -305,7 +302,7 @@ a{
           font-size: 12px;
           text-align: left;
           color: #ffffff;
-          margin: 16px 0px;
+          margin: 16px 0px 8px;
           margin-left: 28px;
         }
         p {
@@ -316,6 +313,7 @@ a{
           text-align: left;
           color: #ffffff;
           margin-left: 28px;
+          padding: 8px 0px 8px;
         }
       }
       &--uptime {
@@ -627,24 +625,7 @@ a{
     &__caseStudy {
       background-color: #000000;
       position: relative;
-      &--arrow {
-        display: -webkit-box;
-        width: 42px;
-        height: 42px;
-        background-color: #603c96;
-        position: absolute;
-        border-radius: 50%;
-        right: 38px;
-        bottom: -20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        img {
-          width: 8px;
-          height: 14px;
-        }
-      }
+   
       &--block {
         display: flex;
         width: 670px;
@@ -658,29 +639,30 @@ a{
       }
       &--content {
         padding: 34px 0px 0px 20px;
-        .readmore {
-          display: none;
-        }
+        width: 377px;
+      
         h1 {
           font-size: 14px;
           margin: 0px;
+          text-align: left;
         }
         h2 {
           width: 377px;
           font-size: 18px;
-          margin: 16px 0px;
+          margin: 16px 0px 0px;
         }
         p {
           width: 344px;
           font-size: 14px;
           margin: 0px;
+          text-align: left !important;
         }
       }
       &--uptime {
         display: flex;
         justify-content: space-between;
         width: 341px;
-        margin-top: 32px;
+        margin-top:8px;
         h2 {
           font-size: 36px;
           margin: 16px 27px;
@@ -932,16 +914,6 @@ a{
     &__caseStudy {
       background-color: #000000;
       position: relative;
-      &--arrow {
-        width: 56px;
-        height: 56px;
-        right: 40px;
-        bottom: -27px;
-        img {
-          width: 10px;
-          height: 18px;
-        }
-      }
       &--block {
         display: flex;
         width: 927px;
@@ -955,28 +927,25 @@ a{
       }
       &--content {
         padding: 51px 0px 31px 41px;
-        .readmore {
-          display: none;
-        }
+       width: 505px;
         h1 {
           font-size: 16px;
         }
         h2 {
           width: 502px;
           font-size: 24px;
-          margin: 16px 0px;
+          margin: 16px 0px 8px;
         }
         p {
           width: 458px;
           font-size: 16px;
-          margin: 28px 0px;
         }
       }
       &--uptime {
         display: flex;
         justify-content: space-between;
         width: 416px;
-        margin-top: 45px;
+        margin-top:8px;
         h2 {
           font-size: 48px;
           margin: 25px 25px;
@@ -1246,28 +1215,23 @@ a{
       }
       &--content {
         padding: 61px 0px 50px 61px;
-        .readmore {
-          display: none;
-        }
+        width: 634px;
         h1 {
           font-size: 16px;
         }
         h2 {
           width: 502px;
           font-size: 32px;
-          margin: 16px 0px;
         }
         p {
           width: 634px;
           font-size: 18px;
-          margin: 80px 0px;
         }
       }
       &--uptime {
         display: flex;
         justify-content: space-between;
         width: 416px;
-        margin-top: 45px;
         h2 {
           font-size: 48px;
           margin: 25px 25px;
