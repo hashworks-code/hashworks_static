@@ -625,6 +625,7 @@ a{
     &__caseStudy {
       background-color: #000000;
       position: relative;
+      height: 371px;
    
       &--block {
         display: flex;
@@ -634,7 +635,7 @@ a{
       &--image {
         margin-top: 8px;
         width: 283px;
-        height: 285px;
+        height:360px;
         margin: 34px 0px 34px 0px;
       }
       &--content {
@@ -663,6 +664,7 @@ a{
         justify-content: space-between;
         width: 341px;
         margin-top:8px;
+        padding: 0px;
         h2 {
           font-size: 36px;
           margin: 16px 27px;
@@ -674,12 +676,12 @@ a{
         }
         &--service {
           width: 155px;
-          height: 146px;
+          height: 144px;
           background-color: #603c96;
         }
         &--sales {
           width: 155px;
-          height: 146px;
+          height: 144px;
           background-color: #ffffff;
           h2 {
             color: #4a4a4a;
@@ -914,6 +916,7 @@ a{
     &__caseStudy {
       background-color: #000000;
       position: relative;
+      height: 472px;
       &--block {
         display: flex;
         width: 927px;
@@ -922,7 +925,7 @@ a{
       &--image {
         margin-top: 8px;
         width: 381px;
-        height: 400px;
+        height: 453px;
         margin: 51px 0px 54px 0px;
       }
       &--content {
@@ -1192,16 +1195,8 @@ a{
     }
     &__caseStudy {
       background-color: #000000;
-      &--arrow {
-        width: 56px;
-        height: 56px;
-        right: 40px;
-        bottom: -27px;
-        img {
-          width: 11px;
-          height: 20px;
-        }
-      }
+      height: 554px;
+     
       &--block {
         display: flex;
         width: 1170px;
@@ -1210,7 +1205,7 @@ a{
       &--image {
         margin-top: 0px;
         width: 471px;
-        height: 500px;
+        height: 560px;
         margin: 61px 0px 60px 0px;
       }
       &--content {

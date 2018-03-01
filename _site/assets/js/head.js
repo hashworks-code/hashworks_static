@@ -1,4 +1,17 @@
 
+$(document).ready(function() {
+    $(' .btn-outline-primary').click(function() {
+
+        var categoryValue = $(this).attr('data-filter');
+        $(this).addClass('active').siblings().removeClass('active');
+        if (categoryValue == "all") {
+            $('.filter').show(1000);
+        } else {
+            $(".filter").not('.' + categoryValue).hide();
+            $('.filter').filter('.' + categoryValue).fadeIn(3000);
+        }
+    });
+});
 
 function redirect(x) {
     window.location = x;
