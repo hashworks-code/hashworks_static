@@ -1584,7 +1584,7 @@ a {
     height: 371px; }
     .home__caseStudy--block {
       display: flex;
-      width: 670px;
+      width: 700px;
       margin: 0px auto; }
     .home__caseStudy--image {
       margin-top: 8px;
@@ -1807,7 +1807,7 @@ a {
     height: 472px; }
     .home__caseStudy--block {
       display: flex;
-      width: 927px;
+      width: 940px;
       margin: 0px auto; }
     .home__caseStudy--image {
       margin-top: 8px;
@@ -1983,7 +1983,7 @@ a {
       height: 396px; }
     .home__business--impact {
       height: 396px;
-      width: 370px;
+      width: 365px;
       margin: 0 auto; }
       .home__business--impact h2 {
         width: 310px; }
@@ -2003,7 +2003,7 @@ a {
       height: 27px; }
     .home__businessImpact--thinking {
       height: 396px;
-      width: 337px;
+      width: 365px;
       margin: 0 auto; }
       .home__businessImpact--thinking h2 {
         padding: 177px 0px 25px 42px;
@@ -8321,12 +8321,13 @@ ul.tabs li.current {
 .hashworks__contactUs__images i {
   position: relative; }
 .hashworks__contactUs__images__image1 {
-  background-image: url(../assets/image/index/rectangle-3-copy-2.png);
+  background-image: url(../assets/image/index/rectangle-3-copy-3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
-  height: 192px;
+  height: 199px;
+  cursor: pointer;
   margin-bottom: 15px;
   cursor: pointer; }
   .hashworks__contactUs__images__image1 p {
@@ -8430,7 +8431,8 @@ ul.tabs li.current {
     margin-bottom: 37px; }
     .hashworks__contactUs__images__image1 {
       width: 220px;
-      height: 279px; }
+      height: 279px;
+      background-position: 75% 100%; }
       .hashworks__contactUs__images__image1 p {
         font-family: 'muliBold';
         font-size: 14px;

@@ -143,12 +143,13 @@
                   position: relative;
               }
          &__image1 {
-            background-image: url(../assets/image/index/rectangle-3-copy-2.png);
-              background-size: cover;
-              background-repeat: no-repeat;
-              background-position: center center;
-               width: 100%;
-              height: 192px;  
+            background-image: url(../assets/image/index/rectangle-3-copy-3.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+             width: 100%;
+            height: 199px; 
+            cursor: pointer;
                margin-bottom: 15px;
                cursor: pointer;
 
@@ -287,9 +288,9 @@
          &__images {
              margin-bottom: 37px;
             &__image1 {
-          
                width: 220px;
-              height: 279px;  
+              height: 279px; 
+              background-position: 75% 100%; 
 
               p {
                 font-family: 'muliBold';
