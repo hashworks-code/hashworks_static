@@ -4293,7 +4293,7 @@ ul.tabs li.current {
   font-weight: normal;
   text-align: center;
   color: #603c96;
-  margin: 36px 0px 8px 0px;
+  margin: 0px;
   width: 100%; }
 .hashworks__workculture .workculture__workfun p {
   font-family: 'muliRegular';
@@ -4308,7 +4308,8 @@ ul.tabs li.current {
   font-weight: normal;
   text-align: center;
   color: #603c96;
-  margin-top: 60px;
+  margin: 0px;
+  padding-bottom: 0px;
   width: 100%; }
 .hashworks__workculture .workculture__facility h2 {
   font-family: 'muliRegular';
