@@ -3852,7 +3852,8 @@ button {
 .footer .row {
   margin: 0px 29px 0px 30px; }
 .footer a {
-  color: #f7f7f7; }
+  color: #f7f7f7;
+  cursor: pointer; }
 .footer a:hover {
   border-bottom: 1px solid white; }
 .footer li {
