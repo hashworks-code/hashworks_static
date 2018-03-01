@@ -255,23 +255,19 @@
                                     </div>
                                     <div class="about__view--algin">
                                      
-                                            <div class="about__thinks">
+                                            <div onclick="redirect('/aboutUs/')" class="about__thinks">
                                                 <div class="about__view__thinking">
                                                     <img class="about__view__thinking--img" src="/assets/image/product&service/group-26.svg" />
                                                     <p>Our Thinking</p>
                                                 </div>
                                             </div>
-                                       
-                                        
-                                            <div class="about__companies">
+                                            <div onclick="redirect('/aboutUs/#company')" class="about__companies">
                                                 <div class="about__view__culture">
                                                     <img class="about__view__culture--img" src="/assets/image/product&service/company1.svg" />
                                                     <p>Company</p>
                                                 </div>
                                             </div>
-                                        
-                                      
-                                            <div class="about__works">
+                                            <div onclick="redirect('/aboutUs/#workculture')" class="about__works">
                                                 <div class="about__view__culture">
                                                     <img class="about__view__culture--img" src="/assets/image/product&service/fill-1.svg" />
                                                     <p>Work Culture</p>
@@ -463,9 +459,9 @@
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <h1>ABOUT</h1>
                     <ul>
-                        <li class="about__companies"><a>Company</a></li>
-                        <li class="about__works"> <a>WorkCulture</a> </li>
-                        <li class="about__thinks"> <a>Our Thinking</a> </li>
+                        <li onclick="redirect('/aboutUs/#company')" class="about__companies"><a>Company</a></li>
+                        <li onclick="redirect('/aboutUs/#workCulture')" class="about__works"> <a>WorkCulture</a> </li>
+                        <li onclick="redirect('/aboutUs/')" class="about__thinks"> <a>Our Thinking</a> </li>
                     </ul>
             </div>
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
