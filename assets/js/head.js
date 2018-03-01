@@ -20,12 +20,9 @@ $(document).ready(function() {
         }
     }
 });
-
 function redirect(x) {
-    window.location = x;
-   
+    window.location = x; 
 }
-
 (function($) {
     $.fn.menumaker = function(options) {
         var cssmenu = $(this),
