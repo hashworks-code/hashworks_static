@@ -11,10 +11,19 @@ $(document).ready(function() {
             $('.filter').filter('.' + categoryValue).fadeIn(3000);
         }
     });
+    window.onload=function(){
+        if(window.location.href.includes('company')){
+            $('#company').click();
+        }
+        if(window.location.href.includes('workculture')){
+            $('#workculture').click();
+        }
+    }
 });
 
 function redirect(x) {
     window.location = x;
+   
 }
 
 (function($) {

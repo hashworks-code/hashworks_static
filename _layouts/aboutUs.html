@@ -262,7 +262,7 @@
         $('.about__works').click(function(){
 
         $('#workculture').click();
-        });
+        }); 
 
         $('ul.tabs li').click(function() {
             var tab_id = $(this).attr('data-tab');
@@ -273,19 +273,19 @@
          
         })
 
-        // let hash=location.hash;
-        // if(hash=='company'){
-        //     $('ul.tabs li').removeClass('current');
-        //     $('.tab-content').removeClass('current');
-        //     $('#tab-2').addClass('current');
-        //     $('company').addClass('current');
-        // }
-        // else if(hash=='workculture'){
-        //     $('ul.tabs li').removeClass('current');
-        //     $('.tab-content').removeClass('current');
-        //     $('#tab-3').addClass('current');
-        //     $('#workculture').addClass('current');
-        // }
+        let hash=location.hash;
+        if(hash=='company'){
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
+            $('#tab-2').addClass('current');
+            $('company').addClass('current');
+        }
+        else if(hash=='workculture'){
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
+            $('#tab-3').addClass('current');
+            $('#workculture').addClass('current');
+        }
     })
 </script>
 <script>
