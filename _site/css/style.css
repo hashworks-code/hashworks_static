@@ -2632,8 +2632,9 @@ button {
     background-repeat: no-repeat;
     height: 166px;
     width: 100%;
-    background-size: 100% 100%;
+    background-position: center center;
     object-fit: contain;
+    background-size: cover;
     margin-bottom: 10px;
     cursor: pointer; }
     .service__cloudImg h1 {
@@ -2648,8 +2649,9 @@ button {
     background-repeat: no-repeat;
     height: 166px;
     width: 100%;
-    background-size: 100% 100%;
+    background-position: center center;
     object-fit: contain;
+    background-size: cover;
     margin-bottom: 10px;
     cursor: pointer; }
     .service__uiUx h1 {
@@ -2663,8 +2665,9 @@ button {
     background-repeat: no-repeat;
     height: 166px;
     width: 100%;
-    background-size: 100% 100%;
+    background-position: center center;
     object-fit: contain;
+    background-size: cover;
     margin-bottom: 10px;
     cursor: pointer; }
     .service__dataScience h1 {
@@ -2679,8 +2682,9 @@ button {
     background-repeat: no-repeat;
     height: 166px;
     width: 100%;
-    background-size: 100% 100%;
+    background-position: center center;
     object-fit: contain;
+    background-size: cover;
     margin-bottom: 16px;
     cursor: pointer; }
     .service__mobile h1 {
@@ -3850,7 +3854,7 @@ button {
 .footer a {
   color: #f7f7f7; }
 .footer a:hover {
-  color: #603c96; }
+  border-bottom: 1px solid white; }
 .footer li {
   font-family: 'muliSemiBold';
   font-size: 10px;
@@ -4064,11 +4068,13 @@ ul.tabs li.current {
   width: 100%;
   display: flex;
   align-items: flex-end;
-  padding: 16px 28px;
+  padding: 16px 0px;
   font-family: 'muliRegular';
   font-size: 24px;
   text-align: left;
-  color: #ffffff; }
+  color: #ffffff;
+  width: 266px;
+  margin: 0 auto; }
   .aboutus__content1 h1 {
     padding: 188px 0px 0px 28px;
     font-family: 'muliRegular';
@@ -4424,8 +4430,10 @@ ul.tabs li.current {
     margin: 101px 0px 0px 0px; }
   .aboutus__content1 {
     height: 230px;
-    padding: 29px 34px;
-    font-size: 24px; }
+    padding: 29px 0px;
+    font-size: 24px;
+    width: 700px;
+    margin: 0 auto; }
     .aboutus__content1 h1 {
       padding: 161px 0px 0px 34px;
       font-size: 36px; }
@@ -4664,14 +4672,10 @@ ul.tabs li.current {
     margin: 90px 0px 0px 0px; }
   .aboutus__content1 {
     height: 306px;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    padding: 31px 43px;
-    font-family: 'muliRegular';
+    padding: 31px 0px;
     font-size: 48px;
-    text-align: left;
-    color: #ffffff; }
+    width: 785px;
+    margin: 0 auto; }
     .aboutus__content1 h1 {
       padding: 161px 0px 0px 34px;
       font-size: 36px; }
@@ -4872,8 +4876,10 @@ ul.tabs li.current {
     margin: 0px 0px 0px 0px; }
   .aboutus__content1 {
     height: 430px;
-    padding: 33px 134px;
-    font-size: 56px; }
+    padding: 33px 0px;
+    font-size: 56px;
+    width: 1000px;
+    margin: 0 auto; }
     .aboutus__content1 h1 {
       padding: 161px 0px 0px 34px;
       font-size: 36px; }
@@ -8344,7 +8350,7 @@ ul.tabs li.current {
     text-align: left;
     color: #ffffff;
     padding: 74px 0px 15px 18px;
-    width: 149px; }
+    width: 160px; }
 .hashworks__contactUs__images__image2 {
   background-image: url(../assets/image/index/rectangle-3-copy-3.png);
   background-size: cover;
@@ -8366,7 +8372,7 @@ ul.tabs li.current {
     text-align: left;
     color: #ffffff;
     padding: 0px 5px 19px 17px;
-    width: 194px; }
+    width: 204px; }
 
 @media only screen and (min-width: 768px) {
   .hashworks__contactUs .row {
@@ -8440,7 +8446,7 @@ ul.tabs li.current {
       .hashworks__contactUs__images__image1 h1 {
         font-size: 24px;
         padding: 152px 22px 35px 20px;
-        width: 182px; }
+        width: 184px; }
     .hashworks__contactUs__images__image2 {
       width: 462px;
       height: 279px; }
@@ -8518,7 +8524,7 @@ ul.tabs li.current {
       .hashworks__contactUs__images__image1 h1 {
         font-size: 32px;
         padding: 203px 0px 34px 40px;
-        width: 225px; }
+        width: 229px; }
     .hashworks__contactUs__images__image2 {
       width: 624px;
       height: 386px; }
@@ -8528,7 +8534,7 @@ ul.tabs li.current {
       .hashworks__contactUs__images__image2 h1 {
         font-size: 32px;
         padding: 199px 0px 44px 44px;
-        width: 286px; } }
+        width: 287px; } }
 @media only screen and (min-width: 1367px) {
   .hashworks__contactUs .row {
     width: 1174px;
@@ -8594,7 +8600,7 @@ ul.tabs li.current {
       .hashworks__contactUs__images__image1 h1 {
         font-size: 48px;
         padding: 235px 0px 0px 52px;
-        width: 314px; }
+        width: 336px; }
     .hashworks__contactUs__images__image2 {
       width: 774px;
       height: 486px; }
@@ -8603,7 +8609,7 @@ ul.tabs li.current {
       .hashworks__contactUs__images__image2 h1 {
         font-size: 48px;
         padding: 233px 0px 63px 52px;
-        width: 400px; } }
+        width: 416px; } }
 .uiux {
   font-family: 'muliRegular';
   color: #4a4a4a; }

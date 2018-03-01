@@ -127,11 +127,13 @@ ul.tabs li.current {
         width: 100%;
         display: flex;
         align-items: flex-end;
-        padding: 16px 28px;
+        padding: 16px 0px;
         font-family: 'muliRegular';
         font-size: 24px;
         text-align: left;
         color: #ffffff;
+        width: 266px;
+        margin: 0 auto;
       h1 {
         padding: 188px 0px 0px 28px;
         font-family: 'muliRegular';
@@ -563,8 +565,11 @@ h1{
 
     &__content1 {
       height: 230px;
-      padding: 29px 34px;
+      padding: 29px 0px;
       font-size: 24px;
+      width:700px;
+      margin: 0 auto;
+
     h1 {
         padding: 161px 0px 0px 34px;
         font-size: 36px;
@@ -883,14 +888,11 @@ margin-top: 3rem;
     }
     &__content1 {
       height: 306px;
-      width: 100%;
-      display: flex;
-      align-items: flex-end;
-      padding: 31px 43px;
-      font-family: 'muliRegular';
+      padding: 31px 0px;
       font-size: 48px;
-      text-align: left;
-      color: #ffffff;
+      width:785px;
+      margin: 0 auto;
+   
       h1 {
         padding: 161px 0px 0px 34px;
         font-size: 36px;
@@ -1168,8 +1170,10 @@ margin-top: 3rem;
     }
     &__content1 {
       height: 430px;
-      padding: 33px 134px;
+      padding: 33px 0px;
       font-size: 56px;
+      width:1000px;
+      margin: 0 auto;
       h1 {
         padding: 161px 0px 0px 34px;
         font-size: 36px;
