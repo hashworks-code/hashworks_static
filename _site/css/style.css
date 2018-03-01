@@ -59,7 +59,7 @@ i {
   -ms-transform: rotate(180deg);
   transform: rotate(180deg); }
 
-.popover, .popoverer {
+.popover, .popover1 {
   display: none; }
 
 body {
@@ -416,8 +416,8 @@ body {
       top: -3px;
       right: 278px; }
       body .popover img {
-        width: 29px !important;
-        height: 31px; }
+        width: 33px !important;
+        height: 33px; }
     body .popover1 {
       display: -webkit-box;
       position: absolute;

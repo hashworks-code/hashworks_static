@@ -250,31 +250,42 @@
 </div>
 <script>
     $(document).ready(function() {   
+
+        $('.about__thinks').click(function(){
+
+            $('.thinkingtab').click();
+        });
+        $('.about__companies').click(function(){
+
+        $('#company').click();
+        });
+        $('.about__works').click(function(){
+
+        $('#workculture').click();
+        });
+
         $('ul.tabs li').click(function() {
             var tab_id = $(this).attr('data-tab');
             $('ul.tabs li').removeClass('current');
             $('.tab-content').removeClass('current');
             $(this).addClass('current');
             $("#" + tab_id).addClass('current');
-            if(tab_id=='tab-2'){
-                timeline = new TL.Timeline('timeline-embed',
-       'https://docs.google.com/spreadsheets/d/1hi6Fe-1CDGHmbhDEIQ3pCdT7wuFheTmoxnZkoC4DZ8I/edit#gid=0');
-            }
+         
         })
 
-        let hash=location.hash;
-        if(hash=='#company'){
-            $('ul.tabs li').removeClass('current');
-            $('.tab-content').removeClass('current');
-            $('#tab-2').addClass('current');
-            $('#company').addClass('current');
-        }
-        else if(hash=='#workculture'){
-            $('ul.tabs li').removeClass('current');
-            $('.tab-content').removeClass('current');
-            $('#tab-3').addClass('current');
-            $('#workculture').addClass('current');
-        }
+        // let hash=location.hash;
+        // if(hash=='company'){
+        //     $('ul.tabs li').removeClass('current');
+        //     $('.tab-content').removeClass('current');
+        //     $('#tab-2').addClass('current');
+        //     $('company').addClass('current');
+        // }
+        // else if(hash=='workculture'){
+        //     $('ul.tabs li').removeClass('current');
+        //     $('.tab-content').removeClass('current');
+        //     $('#tab-3').addClass('current');
+        //     $('#workculture').addClass('current');
+        // }
     })
 </script>
 <script>

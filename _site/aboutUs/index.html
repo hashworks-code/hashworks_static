@@ -117,20 +117,20 @@
                                 </div>
                             </div>
                             <div class="about--algin">
-                                    <div onclick="redirect('/aboutUs/')" class="about__think shadow1 ">
+                                    <div  class="about__think shadow1 about__thinks  ">
                                         <div class="about__thinking">
                                             <img class="about__thinking--img" src="/assets/image/product&service/group-26.svg" />
                                             <p>Our Thinking</p>
                                         </div> 
                                     </div>
-                                    <div  onclick="redirect('/aboutUs/#company')" class=" about__comp shadow1">
+                                    <div class=" about__comp shadow1 about__companies">
                                         <div class="about__culture">
                                             <img class="about__culture--img" src="/assets/image/product&service/company1.svg" />
                                             <p>Company</p>
                                         </div>  
                                     </div>
-                                    <div  onclick="redirect('/aboutUs/#workculture')" class="about__comp shadow1">
-                                        <div class="about__culture">
+                                    <div class="about__comp shadow1">
+                                        <div class="about__culture about__works">
                                             <img class="about__job--img" src="/assets/image/product&service/fill-1.svg" />
                                             <p>Work Culture</p>
                                         </div>
@@ -255,7 +255,7 @@
                                     </div>
                                     <div class="about__view--algin">
                                      
-                                            <div onclick="redirect('/aboutUs/')">
+                                            <div class="about__thinks">
                                                 <div class="about__view__thinking">
                                                     <img class="about__view__thinking--img" src="/assets/image/product&service/group-26.svg" />
                                                     <p>Our Thinking</p>
@@ -263,7 +263,7 @@
                                             </div>
                                        
                                         
-                                            <div onclick="redirect('/aboutUs/#company')">
+                                            <div class="about__companies">
                                                 <div class="about__view__culture">
                                                     <img class="about__view__culture--img" src="/assets/image/product&service/company1.svg" />
                                                     <p>Company</p>
@@ -271,7 +271,7 @@
                                             </div>
                                         
                                       
-                                            <div onclick="redirect('/aboutUs/#workculture')">
+                                            <div class="about__works">
                                                 <div class="about__view__culture">
                                                     <img class="about__view__culture--img" src="/assets/image/product&service/fill-1.svg" />
                                                     <p>Work Culture</p>
@@ -591,31 +591,42 @@
 </div>
 <script>
     $(document).ready(function() {   
+
+        $('.about__thinks').click(function(){
+
+            $('.thinkingtab').click();
+        });
+        $('.about__companies').click(function(){
+
+        $('#company').click();
+        });
+        $('.about__works').click(function(){
+
+        $('#workculture').click();
+        });
+
         $('ul.tabs li').click(function() {
             var tab_id = $(this).attr('data-tab');
             $('ul.tabs li').removeClass('current');
             $('.tab-content').removeClass('current');
             $(this).addClass('current');
             $("#" + tab_id).addClass('current');
-            if(tab_id=='tab-2'){
-                timeline = new TL.Timeline('timeline-embed',
-       'https://docs.google.com/spreadsheets/d/1hi6Fe-1CDGHmbhDEIQ3pCdT7wuFheTmoxnZkoC4DZ8I/edit#gid=0');
-            }
+         
         })
 
-        let hash=location.hash;
-        if(hash=='#company'){
-            $('ul.tabs li').removeClass('current');
-            $('.tab-content').removeClass('current');
-            $('#tab-2').addClass('current');
-            $('#company').addClass('current');
-        }
-        else if(hash=='#workculture'){
-            $('ul.tabs li').removeClass('current');
-            $('.tab-content').removeClass('current');
-            $('#tab-3').addClass('current');
-            $('#workculture').addClass('current');
-        }
+        // let hash=location.hash;
+        // if(hash=='company'){
+        //     $('ul.tabs li').removeClass('current');
+        //     $('.tab-content').removeClass('current');
+        //     $('#tab-2').addClass('current');
+        //     $('company').addClass('current');
+        // }
+        // else if(hash=='workculture'){
+        //     $('ul.tabs li').removeClass('current');
+        //     $('.tab-content').removeClass('current');
+        //     $('#tab-3').addClass('current');
+        //     $('#workculture').addClass('current');
+        // }
     })
 </script>
 <script>
@@ -728,9 +739,9 @@ $("#tile9").liveTile(
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <h1>ABOUT</h1>
                     <ul>
-                        <li><a href='/aboutUs/#company'>Company</a></li>
-                        <li><a href='/aboutUs/#workculture'>WorkCulture</a></li>
-                        <li><a href="/aboutUs/">Our Thinking</a></li>
+                        <li class="about__companies">Company</li>
+                        <li class="about__works">WorkCulture</li>
+                        <li class="about__thinks">Our Thinking</li>
                     </ul>
             </div>
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
