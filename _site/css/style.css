@@ -2169,13 +2169,13 @@ button {
     border-right: 1px solid #ccc;
     border-right: 1px solid #ccc; }
     .product__borderRight img {
-      width: 217px !important; }
+      width: 230px !important; }
     .product__borderRight p {
       padding: 10px 0px 10px 0px; }
     .product__borderRight h2 {
       padding: 10px 0px 0px 0px; }
   .product__borderleft {
-    margin-top: 70px; }
+    margin-top: 5px; }
     .product__borderleft p {
       padding: 15px 0px 0px 0px; }
     .product__borderleft h2 {
@@ -2280,13 +2280,14 @@ button {
   .product__borderRight {
     border-right: 1px solid #ccc; }
     .product__borderRight img {
-      width: 115px !important; }
+      width: 166px !important;
+      margin-top: 24px; }
     .product__borderRight p {
       padding: 10px 0px 10px 0px; }
     .product__borderRight h2 {
       padding: 10px 0px 0px 0px; }
   .product__borderleft {
-    margin-top: 24px; }
+    margin-top: 25px; }
     .product__borderleft p {
       padding: 15px 0px 0px 0px; }
     .product__borderleft h2 {
@@ -2365,7 +2366,8 @@ button {
   .product__paketo {
     margin: 16px 0 32px; }
   .product__borderRight img {
-    width: 100px !important; }
+    margin-top: 24px;
+    width: 144px !important; }
   .product__borderRight p {
     padding: 10px 0px 10px 0px; }
   .product__borderRight h2 {
@@ -2460,7 +2462,8 @@ button {
   .product__borderRight {
     border-right: none; }
     .product__borderRight img {
-      width: 100px !important; }
+      width: 116px !important;
+      margin-top: 10px; }
     .product__borderRight p {
       padding: 0px; }
     .product__borderRight h2 {
