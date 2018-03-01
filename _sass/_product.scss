@@ -179,23 +179,11 @@ button{
       align-items: center;
       justify-content: center;
     }
-    &__img1{
-      width: 116px;
-      
-    }
+
     &__img2{
       width:135px;
-     
+      margin-top: 12px;
     }
-    &__img3{
-      width: 145px;
-     
-    }
-    &__img4{
-      width: 144px;
-     
-    }
-  
   
   &__arrow{
     vertical-align: middle;
@@ -336,24 +324,9 @@ button{
       align-items: center;
       justify-content: center;
     }
-    &__img1{
-      width: 136px;
-     
-    }
     &__img2{
       width:120px;
-   
     }
-    &__img3{
-      width: 131px;
-      
-    }
-    &__img4{
-      width: 131px;
-   
-    }
-    
-    
   }
   }
   @media only screen and (max-width: 1024px){
@@ -471,21 +444,8 @@ button{
     &__pipeline h1 {
       font-size: 24px;
     }
-    &__img1 {
-      width: 94px;
-     
-    }
     &__img2 {
       width:115px;
-  
-    }
-    &__img3 {
-      width: 110px;
- 
-    }
-    &__img4 {
-      width: 110px;
-     
     }
     }
   
@@ -612,22 +572,10 @@ button{
     &__paketo img {
       width:100px;
     }
-    &__img1 {
-      width: 94px;
-  
-    }
     &__img2 {
       width: 95px;
- 
     }
-    &__img3 {
-      width: 110px;
    
-    }
-    &__img4 {
-      width: 110px;
-    
-    }
     &__borderTop{
       width: 261px;
       margin: 32px auto;

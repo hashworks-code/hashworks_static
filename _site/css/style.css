@@ -164,10 +164,6 @@ body {
         margin-top: 19px;
         margin-left: 16px;
         margin-right: 16px; }
-    body .product_view--img {
-      width: 50px !important;
-      margin-top: 13px !important;
-      margin-left: 28px !important; }
     body .product_view .service__view {
       border-top: solid 1px #dadada;
       margin-bottom: 16px; }
@@ -571,8 +567,6 @@ body {
         height: 51px;
         display: flex;
         justify-content: center; }
-        body .productService--produtfrugal img {
-          width: 45px; }
     body .about {
       position: fixed;
       z-index: 999;
@@ -787,8 +781,6 @@ body {
       height: 78px; }
     body .productService--produtfrugal {
       height: 78px; }
-      body .productService--produtfrugal img {
-        width: 82px; }
     body .about .row {
       width: 940px;
       margin: 0 auto;
@@ -963,8 +955,6 @@ body {
         width: 135px; }
     body .productService--produtfrugal {
       height: 78px; }
-      body .productService--produtfrugal img {
-        width: 82px; }
     body .about .row {
       width: 1170px;
       margin: 0 auto;
@@ -2245,14 +2235,9 @@ button {
     display: flex !important;
     align-items: center;
     justify-content: center; }
-  .product__img1 {
-    width: 116px; }
   .product__img2 {
-    width: 135px; }
-  .product__img3 {
-    width: 145px; }
-  .product__img4 {
-    width: 144px; }
+    width: 135px;
+    margin-top: 12px; }
   .product__arrow {
     vertical-align: middle; }
 
@@ -2346,14 +2331,8 @@ button {
     display: flex;
     align-items: center;
     justify-content: center; }
-  .product__img1 {
-    width: 136px; }
   .product__img2 {
-    width: 120px; }
-  .product__img3 {
-    width: 131px; }
-  .product__img4 {
-    width: 131px; } }
+    width: 120px; } }
 @media only screen and (max-width: 1024px) {
   .product__headImg {
     height: 205px;
@@ -2430,14 +2409,8 @@ button {
     margin: 32px 0 69px; }
   .product__pipeline h1 {
     font-size: 24px; }
-  .product__img1 {
-    width: 94px; }
   .product__img2 {
-    width: 115px; }
-  .product__img3 {
-    width: 110px; }
-  .product__img4 {
-    width: 110px; } }
+    width: 115px; } }
 @media only screen and (max-width: 767px) {
   .product__headImg {
     height: 203px;
@@ -2525,14 +2498,8 @@ button {
     font-size: 10px; }
   .product__paketo img {
     width: 100px; }
-  .product__img1 {
-    width: 94px; }
   .product__img2 {
     width: 95px; }
-  .product__img3 {
-    width: 110px; }
-  .product__img4 {
-    width: 110px; }
   .product__borderTop {
     width: 261px;
     margin: 32px auto; }

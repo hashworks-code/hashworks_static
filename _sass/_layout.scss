@@ -192,13 +192,7 @@ body{
       margin-left: 16px;
       margin-right: 16px;
     }
-    }
-    &--img{
-      width: 50px !important;
-      margin-top: 13px !important;
-      margin-left: 28px !important;
-    }
-  
+    } 
     .service__view{
         border-top: solid 1px #dadada; 
         margin-bottom: 16px;
@@ -701,10 +695,6 @@ body{
       height: 51px;
       display: flex;
       justify-content: center;
-      img{
-        width: 45px;
-        
-      }
     }
    }
   // about 
@@ -988,9 +978,6 @@ img {
     }
     &--produtfrugal{
       height: 78px;
-      img{
-        width:82px;
-      }
     }
    }
     // about 
@@ -1232,9 +1219,6 @@ img {
     }
     &--produtfrugal{
       height: 78px;
-      img{
-        width: 82px;
-      }
     }
   }
   .about{
