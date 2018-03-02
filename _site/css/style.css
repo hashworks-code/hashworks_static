@@ -3826,8 +3826,6 @@ button {
 .footer a {
   color: #f7f7f7;
   cursor: pointer; }
-.footer a:hover {
-  border-bottom: 1px solid white; }
 .footer li {
   font-family: 'muliSemiBold';
   font-size: 10px;
@@ -3847,6 +3845,8 @@ button {
   padding-bottom: 11px; }
   .footer__list--view {
     padding: 0px 0px 0px 16px; }
+    .footer__list--view a:hover {
+      border-bottom: 1px solid white; }
   .footer__list--copyright {
     display: flex;
     justify-content: space-between;
@@ -4360,7 +4360,8 @@ ul.tabs li.current {
 
   .live-tile.flip.ha, .flip-list.ha {
     width: 140px;
-    height: 125px; }
+    height: 125px;
+    margin-bottom: 10px; }
 
   .workculture__boxes {
     top: 64px; }
@@ -4605,7 +4606,8 @@ ul.tabs li.current {
 
   .live-tile.flip.ha, .flip-list.ha {
     width: 185px;
-    height: 170px; }
+    height: 170px;
+    margin-bottom: 17px; }
 
   .workculture__boxes {
     top: 64px; }
@@ -4812,7 +4814,8 @@ ul.tabs li.current {
 
   .live-tile.flip.ha, .flip-list.ha {
     width: 233px;
-    height: 210px; }
+    height: 210px;
+    margin-bottom: 22px; }
 
   .workculture__boxes {
     top: 64px; }

@@ -8,10 +8,7 @@
     color: #f7f7f7;
     cursor: pointer;
   }
-  a:hover{
-  border-bottom: 1px solid white;
 
-  }
     li{
       font-family: 'muliSemiBold';
       font-size: 10px;
@@ -34,6 +31,9 @@
 padding-bottom: 11px;
  &--view{
   padding: 0px 0px 0px 16px;
+  a:hover{
+    border-bottom: 1px solid white;
+    }
 }
  &--copyright{
   display: flex;
@@ -58,6 +58,7 @@ padding-bottom: 11px;
     height: 11px;
     margin-left: 10px;
   }
+
  }
 }
   }
