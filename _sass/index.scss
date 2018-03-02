@@ -148,6 +148,9 @@ a{
         text-align: left;
         color: #ffffff;
         margin: 0px 38px 23px;
+        border-bottom: 1px solid #ffffff;
+        width: 100px;
+        padding: 0px 0px 3px 0px;
       }
       .slick-prev:hover,
       .slick-prev:focus,
@@ -551,6 +554,7 @@ a{
       h6 {
         font-size: 14px;
         margin: 0px 0px 48px;
+        width: 105px;
       }
     }
     &__business {
@@ -846,6 +850,7 @@ a{
       h6 {
         font-size: 16px;
         margin: 0px 0px 93px;
+        width: 120px;
       }
     }
     &__business {

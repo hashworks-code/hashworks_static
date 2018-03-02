@@ -1185,7 +1185,10 @@ a {
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-    margin: 0px 38px 23px; }
+    margin: 0px 38px 23px;
+    border-bottom: 1px solid #ffffff;
+    width: 100px;
+    padding: 0px 0px 3px 0px; }
   .home__groome .slick-prev:hover,
   .home__groome .slick-prev:focus,
   .home__groome .slick-next:hover,
@@ -1513,7 +1516,8 @@ a {
       margin: 16px 0px 6px; }
     .home__groome h6 {
       font-size: 14px;
-      margin: 0px 0px 48px; }
+      margin: 0px 0px 48px;
+      width: 105px; }
   .home__business {
     display: flex;
     width: 700px;
@@ -1739,7 +1743,8 @@ a {
       margin: 16px 0px 6px; }
     .home__groome h6 {
       font-size: 16px;
-      margin: 0px 0px 93px; }
+      margin: 0px 0px 93px;
+      width: 120px; }
   .home__business {
     display: flex;
     width: 940px;
