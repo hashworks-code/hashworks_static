@@ -4155,17 +4155,6 @@ ul.tabs li.current {
   display: inherit;
   padding: 0px; }
 
-.plugin {
-  background: #fff;
-  min-height: 800px;
-  max-height: 100%;
-  margin-top: 3rem; }
-  .plugin img {
-    width: 100% !important;
-    height: 100% !important;
-    border-radius: 0px !important;
-    margin: 0 !important; }
-
 .aboutus .row {
   width: 266px;
   margin: 0 auto; }
@@ -5399,6 +5388,25 @@ ul.tabs li.current {
   text-align: left;
   color: #ffffff;
   font-weight: normal; }
+.job__tab {
+  border: solid 1px #f7f7f7;
+  display: flex;
+  justify-content: center; }
+  .job__tab--list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 166px;
+    display: flex;
+    justify-content: space-between; }
+    .job__tab--list li {
+      font-family: 'muliBold';
+      font-size: 12px;
+      font-weight: normal;
+      text-align: center;
+      color: #838383;
+      cursor: pointer;
+      margin: 20px 0px 15px 0px; }
 .job__opening {
   width: 271px;
   margin: 0 auto; }
@@ -5559,7 +5567,7 @@ ul.tabs li.current {
       float: right;
       margin-right: -3px; }
 
-  .jobslider .jobbutton {
+  .jobslider .jobbutton, .jobslider .internshipbutton {
     background-color: #603c96;
     /* top: 100%; */
     width: 40px;
@@ -5570,7 +5578,7 @@ ul.tabs li.current {
     position: absolute;
     top: 436px;
     left: 523px; }
-  .jobslider .jobbutton1 {
+  .jobslider .jobbutton1, .jobslider .internshipbutton1 {
     background-color: #603c96;
     /* top: 100%; */
     width: 40px;
@@ -5590,6 +5598,14 @@ ul.tabs li.current {
     width: 100%;
     padding: 32px 31px;
     font-size: 32px; }
+  .job__tab {
+    display: flex;
+    justify-content: center; }
+    .job__tab--list {
+      width: 210px; }
+      .job__tab--list li {
+        margin: 24px 0px;
+        font-size: 14px; }
   .job__opening {
     width: 578px;
     margin: 0 auto; }
@@ -5719,6 +5735,11 @@ ul.tabs li.current {
     height: 274px;
     padding: 26px 43px;
     font-size: 36px; }
+  .job__tab--list {
+    width: 287px; }
+    .job__tab--list li {
+      margin: 25px 0px;
+      font-size: 16px; }
   .job__opening {
     width: 780px;
     margin: 0 auto; }
@@ -5848,6 +5869,11 @@ ul.tabs li.current {
     height: 385px;
     padding: 31px 134px;
     font-size: 48px; }
+  .job__tab--list {
+    width: 298px; }
+    .job__tab--list li {
+      margin: 24px 0px;
+      font-size: 18px; }
   .job__opening {
     width: 970px;
     margin: 0 auto; }
@@ -7921,7 +7947,7 @@ ul.tabs li.current {
     float: right;
     margin-right: -3px; }
 
-.internshipslider .jobbutton {
+.internshipslider .internshipbutton {
   background-color: #603c96;
   width: 32px;
   height: 32px;
@@ -7931,7 +7957,7 @@ ul.tabs li.current {
   position: absolute;
   top: 98%;
   left: 140px; }
-.internshipslider .jobbutton1 {
+.internshipslider .internshipbutton1 {
   background-color: #603c96;
   width: 32px;
   height: 32px;
@@ -8127,7 +8153,7 @@ ul.tabs li.current {
       float: right;
       margin-right: -3px; }
 
-  .internshipslider .jobbutton {
+  .internshipslider .internshipbutton {
     background-color: #603c96;
     width: 40px;
     height: 40px;
@@ -8137,7 +8163,7 @@ ul.tabs li.current {
     position: absolute;
     top: 436px;
     left: 523px; }
-  .internshipslider .jobbutton1 {
+  .internshipslider .internshipbutton1 {
     background-color: #603c96;
     width: 40px;
     height: 40px;
@@ -8264,14 +8290,14 @@ ul.tabs li.current {
       width: 25px;
       margin-right: 12px; }
 
-  .internshipslider .jobbutton {
+  .internshipslider .internshipbutton {
     width: 54px;
     height: 54px;
     font-size: 30px;
     padding: 10px 0px 0px 23px;
     top: 440px;
     left: 695px; }
-  .internshipslider .jobbutton1 {
+  .internshipslider .internshipbutton1 {
     width: 54px;
     height: 54px;
     font-size: 30px;
@@ -8394,14 +8420,14 @@ ul.tabs li.current {
     top: 100%;
     width: 56px;
     height: 56px; }
-  .internshipslider .jobbutton {
+  .internshipslider .internshipbutton {
     width: 56px;
     height: 56px;
     font-size: 34px;
     padding: 10px 0px 0px 23px;
     top: 602px;
     left: 870px; }
-  .internshipslider .jobbutton1 {
+  .internshipslider .internshipbutton1 {
     width: 56px;
     height: 56px;
     font-size: 34px;
