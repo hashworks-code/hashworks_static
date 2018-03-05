@@ -1146,6 +1146,47 @@ a {
     margin-bottom: 33px; }
 .home__help {
   background-color: #f1f1f1; }
+  .home__help__mobile {
+    width: 256px;
+    margin: 0 auto; }
+  .home__help--image {
+    display: flex;
+    width: 256px;
+    justify-content: center; }
+    .home__help--image img {
+      height: 40px;
+      margin: 35px 0px 20px; }
+  .home__help h1 {
+    width: 256px;
+    font-family: 'muliRegular';
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #3e3e3e;
+    padding: 22px 0px 10px; }
+  .home__help h2 {
+    width: 256px;
+    font-family: 'muliRegular';
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    color: #3e3e3e;
+    padding: 0px 0px 16px; }
+  .home__help p {
+    width: 256px;
+    font-family: 'muliRegular';
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    color: #3e3e3e; }
+  .home__help h6 {
+    width: 256px;
+    font-family: 'muliRegular';
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    color: #3e3e3e;
+    padding: 32px 0px 34px; }
 .home__groome {
   background-color: #000000;
   margin-bottom: 8px; }
@@ -1261,7 +1302,7 @@ a {
   width: 8.5px;
   height: 16px; }
 .home__businessImpact--thinking {
-  background-image: url(../assets/image/index/rectangle-3-copy-2.png);
+  background-image: url(../assets/image/index/rectangle-3-copy-3.png);
   height: 170px;
   background-repeat: no-repeat;
   margin-top: 8px;
@@ -1474,6 +1515,42 @@ a {
       font-size: 18px;
       text-align: left;
       margin-bottom: 33px; }
+  .home__help {
+    background-color: #f1f1f1; }
+    .home__help__mobile {
+      width: 700px;
+      margin: 0 auto; }
+    .home__help .row {
+      margin: 32px 0px 0px; }
+      .home__help .row p {
+        width: 490px;
+        text-align: left; }
+    .home__help--image {
+      display: flex;
+      width: 256px;
+      justify-content: center; }
+      .home__help--image img {
+        height: 40px;
+        margin: 35px 0px 20px; }
+    .home__help h1 {
+      width: 620px;
+      font-size: 18px;
+      padding: 62px 0px 10px;
+      text-align: left; }
+    .home__help h2 {
+      width: 620px;
+      font-size: 16px;
+      padding: 0px 0px 28px;
+      text-align: left; }
+    .home__help p {
+      width: 620px;
+      font-size: 14px;
+      text-align: left; }
+    .home__help h6 {
+      width: 620px;
+      font-size: 14px;
+      padding: 32px 0px 34px 126px;
+      text-align: left; }
   .home__groome {
     background-color: #000000;
     margin-bottom: 8px;
@@ -1718,6 +1795,38 @@ a {
       font-size: 18px;
       text-align: left;
       margin: 50px 0px 0px 0px; }
+  .home__help__mobile {
+    width: 939px; }
+  .home__help .row {
+    margin: 40px 0px 0px; }
+    .home__help .row p {
+      width: 605px;
+      text-align: left; }
+  .home__help--image {
+    width: 300px; }
+    .home__help--image img {
+      height: 57px;
+      width: 60px;
+      margin: 12px 0px 0px; }
+  .home__help h1 {
+    width: 620px;
+    font-size: 24px;
+    padding: 62px 0px 10px;
+    text-align: left; }
+  .home__help h2 {
+    width: 620px;
+    font-size: 20px;
+    padding: 0px 0px 28px;
+    text-align: left; }
+  .home__help p {
+    width: 838px;
+    font-size: 16px;
+    text-align: left; }
+  .home__help h6 {
+    width: 620px;
+    font-size: 16px;
+    padding: 40px 0px 54px 164px;
+    text-align: left; }
   .home__groome {
     background-color: #000000;
     margin-bottom: 8px;
@@ -1930,6 +2039,35 @@ a {
       font-size: 24px;
       text-align: left;
       margin: 50px 0px 0px 4px; }
+  .home__help__mobile {
+    width: 1173px; }
+    .home__help__mobile .row {
+      margin: 40px 0px 0px; }
+      .home__help__mobile .row p {
+        width: 864px;
+        padding: 0px; }
+    .home__help__mobile--image {
+      width: 300px; }
+      .home__help__mobile--image img {
+        height: 57px;
+        width: 60px;
+        margin: 12px 0px 0px; }
+    .home__help__mobile h1 {
+      width: 620px;
+      font-size: 32px;
+      padding: 54px 0px 10px; }
+    .home__help__mobile h2 {
+      width: 620px;
+      font-size: 24px;
+      padding: 0px 0px 28px; }
+    .home__help__mobile p {
+      width: 1025px;
+      font-size: 16px;
+      padding-bottom: 17px; }
+    .home__help__mobile h6 {
+      width: 620px;
+      font-size: 14px;
+      padding: 40px 0px 54px 206px; }
   .home__groome {
     background-color: #000000;
     margin-bottom: 8px;
