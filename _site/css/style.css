@@ -140,30 +140,20 @@ body {
       line-height: 1.4;
       text-align: center;
       color: #3e3e3e;
-      padding: 7px 0px 0px 7px; }
+      padding: 10px 0px 0px 0px; }
     body .product_view--content {
       width: 100%; }
     body .product_view--productContent {
       border-right: solid 1px #dadada; }
-    body .product_view--alignment {
-      display: flex;
-      align-items: center;
-      justify-content: space-around; }
-    body .product_view--alignment1 {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      margin: 15px 0px 16px 0px; }
     body .product_view--paketo, body .product_view--groome, body .product_view--frugal {
-      max-width: 100px;
+      max-width: 155px;
       background-color: #f7f7f7;
       height: 88px;
-      margin-right: 10px; }
+      margin-bottom: 16px; }
       body .product_view--paketo img, body .product_view--groome img, body .product_view--frugal img {
-        width: 67px;
-        margin-top: 19px;
-        margin-left: 16px;
-        margin-right: 16px; }
+        width: 90px;
+        margin-top: 22px;
+        margin-left: 33px; }
     body .product_view .service__view {
       border-top: solid 1px #dadada;
       margin-bottom: 16px; }
@@ -373,7 +363,7 @@ body {
     body .navbar-component {
       display: none; }
     body .paketo {
-      margin-left: 38px; }
+      margin-left: 17px; }
     body .hashworks__head {
       display: flex;
       padding: 0px 0px 0px 34px;
@@ -461,7 +451,6 @@ body {
         line-height: 1.4;
         text-align: center;
         color: #3e3e3e;
-        width: 97px;
         margin: 0 auto; }
       body .productService img {
         width: 70px; }
@@ -472,7 +461,7 @@ body {
         height: 141px;
         padding-right: 40px; }
       body .productService--alignment {
-        width: 438px;
+        width: 500px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start; }
@@ -481,7 +470,7 @@ body {
         justify-content: space-between;
         margin-top: 30px; }
       body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
-        width: 120px;
+        width: 150px;
         background-color: #f7f7f7;
         height: 90px; }
       body .productService__service {
@@ -533,7 +522,7 @@ body {
           body .productService__service--mobility img {
             width: 16px;
             height: 15px;
-            margin-top: 14px; }
+            margin: 14px 0px 0px 12px; }
           body .productService__service--mobility h4 {
             margin-left: 10px; }
         body .productService__service--cloud {
@@ -549,7 +538,7 @@ body {
           body .productService__service--cloud img {
             width: 16px;
             height: 15px;
-            margin-top: 14px; }
+            margin: 14px 0px 0px 12px; }
       body .productService--produtpacto {
         height: 51px;
         display: flex;
@@ -669,7 +658,7 @@ body {
     body--toggle {
       display: none; }
     body .paketo {
-      margin-left: 48px; }
+      margin-left: 18px; }
     body .popover {
       top: -2px;
       right: 367px; }
@@ -699,8 +688,7 @@ body {
       margin-left: 0px;
       width: 127px; }
     body .productService p {
-      font-size: 12px;
-      width: 140px; }
+      font-size: 12px; }
     body .productService img {
       width: 113px; }
     body .productService--productContent {
@@ -708,7 +696,7 @@ body {
       height: 178px;
       padding-right: 28px; }
     body .productService--alignment {
-      width: 588px;
+      width: 678px;
       display: flex;
       justify-content: space-between;
       align-items: flex-start; }
@@ -716,7 +704,7 @@ body {
       width: 689px;
       margin: 0px; }
     body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
-      width: 170px;
+      width: 210px;
       background-color: #f7f7f7;
       height: 122px; }
     body .productService__service {
@@ -879,15 +867,14 @@ body {
       width: 141px; }
     body .productService p {
       font-size: 14px;
-      padding-top: 20px;
-      width: 170px; }
+      padding-top: 20px; }
     body .productService img {
       width: 125px; }
     body .productService--productContent {
       border-right: solid 1px #dadada;
       height: 178px; }
     body .productService--alignment {
-      width: 761px;
+      width: 830px;
       display: flex;
       justify-content: space-between;
       align-items: flex-start; }
@@ -895,7 +882,7 @@ body {
       width: 836px; }
     body .productService--paketo, body .productService--littlebhrahma, body .productService--groome, body .productService--frugal {
       background-color: #f7f7f7;
-      width: 212px;
+      width: 242px;
       height: 146px; }
     body .productService__service {
       border-top: solid 1px #dadada;
@@ -1186,7 +1173,8 @@ a {
     font-weight: normal;
     text-align: center;
     color: #3e3e3e;
-    padding: 32px 0px 34px; }
+    margin: 32px 0px 34px;
+    cursor: pointer; }
 .home__groome {
   background-color: #000000;
   margin-bottom: 8px; }
@@ -1271,19 +1259,20 @@ a {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
 .home__business--impact {
-  background-image: url(../assets/image/index/pexels-photo-302769.png);
+  background-image: url(../assets/image/index/job.png);
   height: 170px;
   background-repeat: no-repeat;
   margin-top: 8px;
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
   cursor: pointer;
   transition: all .5s ease; }
   .home__business--impact:hover {
     box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, 0.25);
     transform: scale(1.01); }
   .home__business--impact h2 {
-    padding: 55px 92px 0px 28px; }
+    padding: 58px 0px 25px 28px;
+    width: 160px; }
 .home__businessImpact h1 {
   font-family: 'muliBold';
   font-size: 12px;
@@ -1549,7 +1538,7 @@ a {
     .home__help h6 {
       width: 620px;
       font-size: 14px;
-      padding: 32px 0px 34px 126px;
+      margin: 32px 0px 34px 126px;
       text-align: left; }
   .home__groome {
     background-color: #000000;
@@ -1622,6 +1611,7 @@ a {
       width: 220px;
       margin-top: 16px; }
       .home__business--impact h2 {
+        padding: 72px 0px 25px 39px;
         width: 220px; }
   .home__businessImpact {
     display: flex;
@@ -1825,7 +1815,7 @@ a {
   .home__help h6 {
     width: 620px;
     font-size: 16px;
-    padding: 40px 0px 54px 164px;
+    margin: 40px 0px 54px 164px;
     text-align: left; }
   .home__groome {
     background-color: #000000;
@@ -1879,7 +1869,9 @@ a {
       height: 323px;
       width: 300px; }
       .home__business--impact h2 {
-        width: 210px; }
+        width: 218px;
+        padding: 135px 0px 25px 26px;
+        font-size: 36px; }
   .home__businessImpact {
     display: flex;
     width: 940px;
@@ -2067,7 +2059,7 @@ a {
     .home__help__mobile h6 {
       width: 620px;
       font-size: 14px;
-      padding: 40px 0px 54px 206px; }
+      margin: 40px 0px 54px 206px; }
   .home__groome {
     background-color: #000000;
     margin-bottom: 8px;
@@ -2123,7 +2115,8 @@ a {
       width: 365px;
       margin: 0 auto; }
       .home__business--impact h2 {
-        width: 310px; }
+        width: 310px;
+        padding: 177px 0px 25px 42px; }
   .home__businessImpact {
     display: flex;
     width: 1170px;

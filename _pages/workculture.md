@@ -1,7 +1,7 @@
 ---
 layout: workculture
 title: workculture
-permalink: /workculture/
+# permalink: /workculture/
 description: workculture
 ---
 

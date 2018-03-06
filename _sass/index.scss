@@ -150,7 +150,8 @@ a{
         font-weight: normal;
         text-align: center;
         color: #3e3e3e;
-        padding: 32px 0px 34px;
+        margin: 32px 0px 34px;
+        cursor: pointer;
       }
     }
   
@@ -253,20 +254,21 @@ a{
         }
       }
       &--impact {
-         background-image: url(../assets/image/index/pexels-photo-302769.png);
+        background-image: url(../assets/image/index/job.png);
         height: 170px;
         background-repeat: no-repeat;
         margin-top: 8px;
+        background-position:center center;
         background-size: cover;
-        background-position: center center;
         cursor: pointer;
-        transition: all .5s ease;
+         transition: all .5s ease;
         &:hover {
           box-shadow: 2px 8px 20px 0 rgba(31, 32, 68, .25);
           transform: scale(1.01);
         }
         h2{
-          padding:55px 92px 0px 28px;
+          padding: 58px 0px 25px 28px;
+          width: 160px;
         }
       }
     }
@@ -597,7 +599,7 @@ a{
       h6{
         width: 620px;
         font-size: 14px;
-        padding: 32px 0px 34px 126px;
+        margin: 32px 0px 34px 126px;
         text-align: left;
       }
     }
@@ -685,6 +687,7 @@ a{
         width: 220px;
         margin-top: 16px;
         h2 {
+          padding: 72px 0px 25px 39px;
           width: 220px;
         }
       }
@@ -953,7 +956,7 @@ a{
       h6{
         width: 620px;
         font-size: 16px;
-        padding: 40px 0px 54px 164px;
+        margin: 40px 0px 54px 164px;
         text-align: left;
       }
     }
@@ -1022,7 +1025,9 @@ a{
         height: 323px;
         width: 300px;
         h2 {
-          width: 210px;
+          width: 218px;
+          padding: 135px 0px 25px 26px;
+          font-size: 36px;
         }
       }
     }
@@ -1268,7 +1273,7 @@ a{
      h6{
        width: 620px;
        font-size: 14px;
-       padding: 40px 0px 54px 206px;
+       margin: 40px 0px 54px 206px;
      }
    }
  }
@@ -1343,6 +1348,7 @@ a{
         margin: 0 auto;
         h2 {
           width: 310px;
+          padding: 177px 0px 25px 42px;
         }
       }
     }
