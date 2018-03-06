@@ -747,7 +747,7 @@ body {
         body .productService__service--mobility img {
           width: 24px;
           height: 24px;
-          margin: 14px 13px 16px 10px; }
+          margin: 13px 12px 0px 30px; }
       body .productService__service--cloud {
         width: 146px;
         height: 54px;
@@ -757,7 +757,7 @@ body {
         body .productService__service--cloud img {
           width: 24px;
           height: 24px;
-          margin: 14px 13px 16px 10px; }
+          margin: 13px 12px 0px 14px; }
     body .productService--produtpacto {
       height: 75px; }
     body .productService--produtlittle {
@@ -921,7 +921,7 @@ body {
         body .productService__service--mobility img {
           width: 29px;
           height: 28px;
-          margin: 19px 15px 20px 13px; }
+          margin: 19px 15px 20px 36px; }
       body .productService__service--cloud {
         width: 176px;
         height: 68px;
@@ -929,7 +929,7 @@ body {
         body .productService__service--cloud img {
           width: 29px;
           height: 28px;
-          margin: 19px 15px 20px 13px; }
+          margin: 19px 15px 20px 18px; }
     body .productService--produtpacto {
       height: 75px; }
       body .productService--produtpacto img {
