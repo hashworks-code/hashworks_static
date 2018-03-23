@@ -2,9 +2,11 @@
 title: Hasworks Website Development | UI/UX
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+
+  Hashworks is an enterprise tech-startup, helping Enterprise 
+  businesses with IT modernization &amp; Digital transformation specialized in Data Science, 
+  Web application development, Cloud, User Interface (UI), User Experience (UX), Mobility, DevOps,
+   Agile Development,software testing and Performance engineering. | Hashworks Pvt Ltd | Bangalore
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://manojkumarhashworks.github.io/groome_static" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
